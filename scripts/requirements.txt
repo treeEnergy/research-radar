@@ -2,4 +2,3 @@ requests
 openai
 python-dotenv
 pdfplumber
-flask
