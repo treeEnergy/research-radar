@@ -2127,9 +2127,12 @@ select {
 </div>
 
 <script>
-// ── 静态站配置（部署前修改这两行）──────────────────
-const GITHUB_OWNER = 'treeEnergy';      // GitHub 用户名
-const GITHUB_REPO  = 'research-radar';  // 仓库名
+// ── 静态站配置：从 GitHub Pages URL 自动推断，无需手动修改 ──
+// 本地开发时回退到手动值
+const _host = window.location.hostname;
+const _path = window.location.pathname;
+const GITHUB_OWNER = _host.includes('github.io') ? _host.split('.')[0] : 'treeEnergy';
+const GITHUB_REPO  = _host.includes('github.io') ? (_path.split('/')[1] || 'research-radar') : 'research-radar';
 // ──────────────────────────────────────────────────
 
 // localStorage 键名
