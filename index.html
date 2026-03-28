@@ -2178,9 +2178,11 @@ function confirmSettings() {
   const val = input.value.trim();
   const key = document.getElementById('settings-overlay')._storageKey;
   if (val) localStorage.setItem(key, val);
-  closeSettings();
   const resolved = val || localStorage.getItem(key) || null;
-  if (_settingsResolve) { _settingsResolve(resolved); _settingsResolve = null; }
+  const resolve = _settingsResolve;
+  _settingsResolve = null;
+  closeSettings();
+  if (resolve) resolve(resolved);
 }
 
 function closeSettings() {
@@ -2805,7 +2807,7 @@ function startPolling(btn) {
       if (logEl.style.display !== 'none') logEl.scrollTop = logEl.scrollHeight;
 
       const isRunning = status !== 'completed';
-      updateStepUI([], isRunning, isRunning ? 'running' : (conclusion === 'success' ? 'done' : 'error'));
+      updateStepUI({}, isRunning, isRunning ? 'running' : (conclusion === 'success' ? 'done' : 'error'));
 
       if (!isRunning) {
         clearInterval(_pipelinePoll);
@@ -3009,7 +3011,6 @@ async function sendChat() {
 
   let aiTextEl = null;
   let aiText = '';
-  let sources = [];
 
   try {
     const apiKey = await ensureDeepseekKey();
@@ -3107,7 +3108,7 @@ async function sendChat() {
       }
     }
   } catch (e) {
-    thinkingEl.remove();
+    thinkingEl?.remove();
     appendChatMsg('assistant', '网络错误：' + e.message);
   }
 
