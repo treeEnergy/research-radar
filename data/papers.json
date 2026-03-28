@@ -9442,6 +9442,36 @@
     "groups": []
   },
   {
+    "id": "f2a5e0118d9e",
+    "title": "Part-Load Strategy Definition and Preliminary Annual Simulation for Small Size sCO2-Based Pulverized Coal Power Plant",
+    "abstract": "Abstract In the near future, due to the growing share of variable renewable energy in the electricity mix and the lack of large-scale electricity storage, coal plants will have to shift their role from base-load operation to providing fluctuating back-up power. However, current coal power plants, based on steam Rankine cycle, are not optimized for flexible part-load operation, resulting in an intrinsic inadequacy for fast load variations. The founding idea of the H2020 sCO2-Flex project is to improve the flexibility of pulverized coal power plants by adopting supercritical CO2 Brayton power cycles. Despite the extensive literature about the design of sCO2 plants, there is still limited discussion about the strategies to be implemented to maximize system efficiency during part-load operation. This paper aims to provide deeper insight about the potential of sCO2 power plants based on recompressed cycle with high-temperature recuperator (HTR) bypass configuration for small modular coal power plants (25 MWel). Analysis focuses on both design and part-load operation providing a preliminary sizing of each component and comparing different operating strategies. Results demonstrate that sCO2 coal power plants can achieve competitive efficiency in both nominal and part-load operation thanks to the progressive increase of heat exchangers effectiveness. Moreover, they can be operated down to 20% electric load increasing power range of coal plants. Finally, the possibility to optimize the cycle minimum pressure ensures a safe operation of the compressor far from the surge line and to increase the performance at low load.",
+    "authors": [
+      "Darío Alfani",
+      "Marco Astolfi",
+      "Marco Binotti",
+      "Paolo Silva"
+    ],
+    "date": "2021-04-28",
+    "url": "https://doi.org/10.1115/1.4051003",
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本文针对小型模块化燃煤电厂（25 MWel），研究采用超临界CO2布雷顿循环（带高温回热器旁路配置）的燃煤电厂在部分负荷下的运行策略。通过初步组件尺寸设计和不同操作策略比较，分析表明sCO2电厂在额定和部分负荷下均能实现高效运行，负荷可降至20%，并通过优化循环最小压力确保压缩机远离喘振线，提升低负荷性能。",
+    "method": "基于数值模拟和理论分析，研究sCO2再压缩循环在部分负荷下的运行策略，包括组件尺寸设计和工况比较。",
+    "innovation": "首次针对小型模块化燃煤电厂（25 MWel）的sCO2循环，提出高温回热器旁路配置的部分负荷策略，优化压缩机稳定性。",
+    "conclusions": "sCO2燃煤电厂在部分负荷下可降至20%电负荷，通过优化循环最小压力确保压缩机远离喘振线，提升低负荷性能。",
+    "limitations": "摘要未涉及具体实验验证，可能缺乏实际运行数据支持，且仅针对25 MWel小型电厂。",
+    "tags": [
+      "稳定性分析",
+      "其他"
+    ],
+    "relevance": 3,
+    "relevance_reason": "论文涉及压缩机稳定性（如远离喘振线），与压气机稳定性分析相关，但非核心方向。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-28",
+    "groups": []
+  },
+  {
     "id": "c24b940870e7",
     "title": "Effects of Inlet Guide Vanes on the Performance and Stability of an Aeronautical Centrifugal Compressor",
     "abstract": "Abstract A research centrifugal compressor stage designed and built by Safran Helicopter Engines is tested at three inlet guide vanes (IGV) stagger angles. The compressor stage includes four blade rows: axial inlet guide vanes, a backswept splittered impeller, a splittered vaned radial diffuser (RD), and axial outlet guide vanes (OGVs). The methodology for calculating the performance is detailed, including the consideration of humidity in order to minimize errors related in particular to operating atmospheric conditions. The shift of the surge line toward lower mass flow rate as the IGV stagger angle increases highly depends on the rotation speed. The surge line shift is very small at low rotation speeds, whereas it significantly increases at high rotation speeds. A first-order stability analysis of the impeller and diffuser sub-components shows that the diffuser (resp. impeller) is the first unstable component at low (resp. high) rotation speeds. This situation is unaltered by increasing the IGV stagger angle. At low rotation speeds below a given mass flow rate, rotating instabilities (RI) at the impeller inlet are detected at zero IGV stagger angle. Their occurrence is conditioned by the relative flow angle at the tip of the leading edge of the impeller. As the IGV stagger angle increases, the mass flow decreases to maintain a given inlet flow angle. Therefore, the onset of the rotating instabilities is delayed toward lower mass flow rates. At high rotation speeds, the absolute flow angle at the diffuser inlet near surge decreases as the IGV stagger angle increases. As a result, the flow is highly alternate over two adjacent channels of the radial diffuser beyond the surge line at IGV stagger angle of 0 deg.",
