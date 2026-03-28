@@ -2140,6 +2140,39 @@ const LS_ANNOTATIONS   = 'rr_annotations';
 const LS_CUSTOM_GROUPS = 'rr_custom_groups';
 const LS_DEEPSEEK_KEY  = 'rr_deepseek_key';
 const LS_GITHUB_TOKEN  = 'rr_github_token';
+const LS_TOPICS        = 'rr_topics';
+const LS_TOPIC_OVERRIDES = 'rr_topic_overrides';
+
+const DEFAULT_TOPICS = [
+  {
+    label: '叶尖间隙',
+    terms: ['compressor tip clearance', 'non-axisymmetric tip clearance', 'tip clearance effect'],
+    builtin: true
+  },
+  {
+    label: '机匣处理',
+    terms: ['casing treatment stall margin', 'casing treatment'],
+    builtin: true
+  },
+  {
+    label: '压缩机稳定性',
+    terms: ['axial compressor rotating stall', 'compressor stability', 'compressor surge', 'stall inception compressor'],
+    builtin: true
+  },
+  {
+    label: '稳定性建模',
+    terms: ['actuator disk model compressor', 'actuator disk model fan', 'compressor stability model',
+            'three-dimensional stability model turbomachinery', 'Moore Greitzer model compressor',
+            'body force model compressor'],
+    builtin: true
+  },
+  {
+    label: '进气畸变',
+    terms: ['inlet distortion compressor', 'circumferential distortion compressor',
+            'inlet distortion fan', 'total pressure distortion turbomachinery'],
+    builtin: true
+  }
+];
 
 // localStorage 工具函数
 function lsGet(key, fallback) {
@@ -2154,6 +2187,17 @@ function getAnnotations()       { return lsGet(LS_ANNOTATIONS, {}); }
 function saveAnnotations(data)  { lsSet(LS_ANNOTATIONS, data); }
 function getCustomGroups()      { return lsGet(LS_CUSTOM_GROUPS, []); }
 function saveCustomGroups(data) { lsSet(LS_CUSTOM_GROUPS, data); }
+function getTopics() {
+  const stored = lsGet(LS_TOPICS, null);
+  if (stored === null) {
+    lsSet(LS_TOPICS, DEFAULT_TOPICS);
+    return DEFAULT_TOPICS;
+  }
+  return stored;
+}
+function saveTopics(data)          { lsSet(LS_TOPICS, data); }
+function getTopicOverrides()       { return lsGet(LS_TOPIC_OVERRIDES, {}); }
+function saveTopicOverrides(data)  { lsSet(LS_TOPIC_OVERRIDES, data); }
 
 // ── 设置弹窗 ─────────────────────────────────────
 let _settingsResolve = null;
