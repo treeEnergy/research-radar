@@ -2127,6 +2127,31 @@ select {
 </div>
 
 <script>
+// ── 静态站配置（部署前修改这两行）──────────────────
+const GITHUB_OWNER = 'your-username';   // ← 改成你的 GitHub 用户名
+const GITHUB_REPO  = 'research-radar';  // ← 改成你的仓库名
+// ──────────────────────────────────────────────────
+
+// localStorage 键名
+const LS_ANNOTATIONS   = 'rr_annotations';
+const LS_CUSTOM_GROUPS = 'rr_custom_groups';
+const LS_DEEPSEEK_KEY  = 'rr_deepseek_key';
+const LS_GITHUB_TOKEN  = 'rr_github_token';
+
+// localStorage 工具函数
+function lsGet(key, fallback) {
+  try { return JSON.parse(localStorage.getItem(key)) ?? fallback; }
+  catch { return fallback; }
+}
+function lsSet(key, value) {
+  localStorage.setItem(key, JSON.stringify(value));
+}
+
+function getAnnotations()       { return lsGet(LS_ANNOTATIONS, {}); }
+function saveAnnotations(data)  { lsSet(LS_ANNOTATIONS, data); }
+function getCustomGroups()      { return lsGet(LS_CUSTOM_GROUPS, []); }
+function saveCustomGroups(data) { lsSet(LS_CUSTOM_GROUPS, data); }
+
 let papers = [], repos = [], groups = [], annotations = {}, customGroups = [], activeTag = null, activeGroup = null;
 const _groupEditData = {};  // key → edit info，供 openGroupEdit 使用
 
