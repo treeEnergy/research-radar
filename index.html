@@ -3268,6 +3268,55 @@ function deleteTopic(idx) {
   renderTopicsPanel();
 }
 
+async function syncTopicsToPipeline() {
+  const token = await ensureGithubToken();
+  if (!token) return;
+
+  const topics = getTopics();
+  const content = JSON.stringify(topics, null, 2);
+  const encoded = btoa(unescape(encodeURIComponent(content)));
+
+  // Get current file SHA (needed for update if file exists)
+  let sha = null;
+  try {
+    const getResp = await fetch(
+      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/data/topics.json`,
+      { headers: { Authorization: `token ${token}` } }
+    );
+    if (getResp.ok) {
+      const fileData = await getResp.json();
+      sha = fileData.sha;
+    }
+  } catch { /* file doesn't exist yet, sha stays null */ }
+
+  const body = {
+    message: 'chore: sync topics from browser',
+    content: encoded,
+    ...(sha ? { sha } : {})
+  };
+
+  const resp = await fetch(
+    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/data/topics.json`,
+    {
+      method: 'PUT',
+      headers: {
+        Authorization: `token ${token}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(body)
+    }
+  );
+
+  if (resp.ok) {
+    alert('✓ 已同步到仓库 data/topics.json，下次流水线运行时将使用新话题搜索。');
+  } else if (resp.status === 401 || resp.status === 403) {
+    localStorage.removeItem(LS_GITHUB_TOKEN);
+    alert('GitHub Token 无效或权限不足，请重新设置。');
+  } else {
+    alert('同步失败：HTTP ' + resp.status);
+  }
+}
+
 function setBtnRunning(btn) {
   btn.textContent = '⟳ 运行中…';
   btn.style.color = 'var(--rel3)';

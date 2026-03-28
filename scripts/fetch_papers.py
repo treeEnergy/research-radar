@@ -114,15 +114,16 @@ def lookup_pdf_url(doi: str) -> str:
         return ""
 
 
-def fetch_all_papers() -> list[dict]:
+def fetch_all_papers(keywords=None) -> list[dict]:
     from concurrent.futures import ThreadPoolExecutor, as_completed
 
+    kw_list = keywords if keywords is not None else KEYWORDS
     tasks = [
         (kw, journal["issn"], journal["name"])
         for journal in TARGET_JOURNALS
-        for kw in KEYWORDS
+        for kw in kw_list
     ]
-    log.info(f"并发抓取：{len(tasks)} 个查询（{len(KEYWORDS)} 关键词 × {len(TARGET_JOURNALS)} 期刊）")
+    log.info(f"并发抓取：{len(tasks)} 个查询（{len(kw_list)} 关键词 × {len(TARGET_JOURNALS)} 期刊）")
 
     all_papers: dict[str, dict] = {}
     with ThreadPoolExecutor(max_workers=8) as executor:

@@ -65,8 +65,17 @@ def run_papers_pipeline() -> None:
 
     log.info(f"现有论文库：{len(existing)} 篇，开始增量更新")
 
-    # 1. 抓取原始论文
-    raw = fetch_all_papers()
+    # 1. 抓取原始论文（如果存在 data/topics.json，使用其中的搜索词）
+    topics_path = DATA_DIR / "topics.json"
+    custom_keywords = None
+    if topics_path.exists():
+        try:
+            topics_data = json.loads(topics_path.read_text(encoding="utf-8"))
+            custom_keywords = [term for t in topics_data for term in t.get("terms", [])]
+            log.info(f"从 topics.json 加载关键词：{len(custom_keywords)} 个")
+        except Exception as e:
+            log.warning(f"读取 topics.json 失败，回退到 config.py：{e}")
+    raw = fetch_all_papers(keywords=custom_keywords)
 
     # 2. DeepSeek 处理（跳过已存在 id）
     new_papers = process_papers(raw, existing_ids=existing_ids)
