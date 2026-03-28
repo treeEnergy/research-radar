@@ -2545,10 +2545,9 @@ function saveAnnotation(id, btn) {
     delete entry.note;
     delete entry.updated;
   }
-  if (Object.keys(entry).length) anns[id] = entry;
-  else delete anns[id];
+  if (Object.keys(entry).length) { anns[id] = entry; annotations[id] = entry; }
+  else { delete anns[id]; delete annotations[id]; }
   saveAnnotations(anns);
-  annotations[id] = entry;
   status.style.display = 'inline';
   setTimeout(() => { status.style.display = 'none'; }, 2000);
   const toggle = box.previousElementSibling.previousElementSibling;
