@@ -2152,6 +2152,53 @@ function saveAnnotations(data)  { lsSet(LS_ANNOTATIONS, data); }
 function getCustomGroups()      { return lsGet(LS_CUSTOM_GROUPS, []); }
 function saveCustomGroups(data) { lsSet(LS_CUSTOM_GROUPS, data); }
 
+// ── 设置弹窗 ─────────────────────────────────────
+let _settingsResolve = null;
+
+function promptForKey(title, storageKey, placeholder) {
+  return new Promise(resolve => {
+    _settingsResolve = resolve;
+    const overlay = document.getElementById('settings-overlay');
+    document.getElementById('settings-title').textContent = title;
+    document.getElementById('settings-body').innerHTML = `
+      <input id="settings-input" type="password"
+        placeholder="${placeholder}"
+        style="width:100%;background:var(--bg);border:1px solid var(--border2);border-radius:4px;
+               padding:10px 14px;color:var(--text);font-family:'IBM Plex Mono',monospace;font-size:13px;outline:none;"
+        value="${localStorage.getItem(storageKey) || ''}" />
+      <div style="margin-top:8px;font-size:12px;color:var(--text3);">仅存在本浏览器，不会上传到任何服务器。</div>`;
+    overlay.style.display = 'flex';
+    document.getElementById('settings-input').focus();
+    overlay._storageKey = storageKey;
+  });
+}
+
+function confirmSettings() {
+  const input = document.getElementById('settings-input');
+  const val = input.value.trim();
+  const key = document.getElementById('settings-overlay')._storageKey;
+  if (val) localStorage.setItem(key, val);
+  closeSettings();
+  if (_settingsResolve) { _settingsResolve(val); _settingsResolve = null; }
+}
+
+function closeSettings() {
+  document.getElementById('settings-overlay').style.display = 'none';
+  if (_settingsResolve) { _settingsResolve(null); _settingsResolve = null; }
+}
+
+async function ensureDeepseekKey() {
+  let key = localStorage.getItem(LS_DEEPSEEK_KEY);
+  if (!key) key = await promptForKey('DEEPSEEK API KEY', LS_DEEPSEEK_KEY, 'sk-xxxxxxxxxxxxxxxx');
+  return key;
+}
+
+async function ensureGithubToken() {
+  let token = localStorage.getItem(LS_GITHUB_TOKEN);
+  if (!token) token = await promptForKey('GITHUB TOKEN (workflow 权限)', LS_GITHUB_TOKEN, 'github_pat_xxxx');
+  return token;
+}
+
 let papers = [], repos = [], groups = [], annotations = {}, customGroups = [], activeTag = null, activeGroup = null;
 const _groupEditData = {};  // key → edit info，供 openGroupEdit 使用
 
@@ -2986,5 +3033,18 @@ async function sendChat() {
 
 load();
 </script>
+
+<!-- 设置弹窗 -->
+<div id="settings-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:9000;align-items:center;justify-content:center;">
+  <div style="background:var(--surface);border:1px solid var(--border2);border-radius:8px;padding:32px;width:420px;max-width:90vw;">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--gold);letter-spacing:.1em;margin-bottom:20px;" id="settings-title">SETTINGS</div>
+    <div id="settings-body"></div>
+    <div style="display:flex;gap:12px;margin-top:24px;justify-content:flex-end;">
+      <button onclick="closeSettings()" style="background:transparent;border:1px solid var(--border2);color:var(--text3);padding:8px 18px;border-radius:4px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:12px;">取消</button>
+      <button onclick="confirmSettings()" style="background:var(--gold);border:none;color:#111;padding:8px 18px;border-radius:4px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;">保存</button>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
