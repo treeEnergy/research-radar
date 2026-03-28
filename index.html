@@ -2924,6 +2924,37 @@ function addThinking() {
   return div;
 }
 
+// ── JS 版论文本地检索（移植自 server.py _search_papers_local）──
+function searchPapersLocal(query, topK = 12) {
+  const q = query.toLowerCase();
+  const enWords = q.split(/\s+/).filter(w => w.length > 2 && /^[a-z0-9]+$/.test(w));
+  const zhWords = (q.match(/[\u4e00-\u9fff]{2,}/g) || []);
+  const keywords = [...enWords, ...zhWords];
+  if (!keywords.length) return [];
+
+  const scored = [];
+  for (const p of papers) {
+    const text = [
+      p.title || '',
+      (p.abstract || '').slice(0, 500),
+      p.summary_zh || '',
+      p.method || '',
+      p.innovation || '',
+      (p.tags || []).join(' '),
+      (p.authors || []).slice(0, 3).join(' '),
+    ].join(' ').toLowerCase();
+
+    const kwScore = keywords.reduce((s, kw) => {
+      const count = (text.match(new RegExp(kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []).length;
+      return s + count * (/^[a-z0-9]+$/.test(kw) ? 2 : 1);
+    }, 0);
+    if (!kwScore) continue;
+    scored.push([kwScore * 10 + (p.relevance || 0), p]);
+  }
+  scored.sort((a, b) => b[0] - a[0]);
+  return scored.slice(0, topK).map(x => x[1]);
+}
+
 async function sendChat() {
   if (chatBusy) return;
   const inp = document.getElementById('chat-input');
@@ -2946,18 +2977,68 @@ async function sendChat() {
   let sources = [];
 
   try {
-    const resp = await fetch('/api/chat', {
+    const apiKey = await ensureDeepseekKey();
+    if (!apiKey) { thinkingEl.remove(); chatBusy = false; btn.disabled = false; return; }
+
+    // 本地检索相关论文
+    const relevant = searchPapersLocal(msg);
+    const authorCounter = {};
+    for (const p of papers) (p.authors || []).forEach(a => authorCounter[a] = (authorCounter[a]||0)+1);
+    const topAuthors = Object.entries(authorCounter).sort((a,b)=>b[1]-a[1]).slice(0,30)
+      .map(([a,c]) => `${a}（${c}篇）`).join(', ');
+    const relDist = papers.reduce((d,p) => { d[p.relevance||0]=(d[p.relevance||0]||0)+1; return d; }, {});
+    const libSummary = `论文库概况：共 ${papers.length} 篇，` +
+      `相关度分布：5分=${relDist[5]||0}篇 4分=${relDist[4]||0}篇 3分=${relDist[3]||0}篇 2分=${relDist[2]||0}篇。\n` +
+      `高频作者（前30）：${topAuthors}`;
+
+    let contextParts = [libSummary];
+    if (relevant.length) {
+      const lines = relevant.map(p => {
+        const parts = [`【${p.title}】(${(p.date||'').slice(0,4)}, 相关度${p.relevance||'?'}, ${p.venue||''})`];
+        parts.push(`  作者: ${(p.authors||[]).join(', ')}`);
+        parts.push(`  中文综述: ${p.summary_zh||''}`);
+        if (p.method)       parts.push(`  研究方法: ${p.method}`);
+        if (p.innovation)   parts.push(`  创新点: ${p.innovation}`);
+        if (p.conclusions)  parts.push(`  主要结论: ${p.conclusions}`);
+        if (p.tags?.length) parts.push(`  标签: ${p.tags.join(', ')}`);
+        return parts.join('\n');
+      });
+      contextParts.push('以下是与当前问题最相关的论文：\n\n' + lines.join('\n\n'));
+    }
+
+    const CHAT_SYSTEM = `你是一个航空发动机压气机气动热力学领域的研究助手。
+用户的研究方向：压气机稳定性、叶尖间隙、机匣处理、进气畸变、稳定性建模（激盘/体力模型）。
+你有权访问用户的论文库（已在下方提供相关论文摘要）。
+优先基于论文库回答问题，不要编造不在库中的论文信息。
+如果论文库中没有找到相关内容，明确告知用户，并建议他们使用"更新检索"抓取更多论文。
+回答简洁、专业，使用中文，可适当引用论文标题。`;
+
+    const messages = [
+      { role: 'system', content: CHAT_SYSTEM },
+      { role: 'system', content: contextParts.join('\n\n') },
+      ...chatHistory.slice(-6),
+      { role: 'user', content: msg },
+    ];
+
+    // 渲染来源列表，显示 AI 消息框
+    const sources = relevant.map(p => p.title.slice(0, 60));
+    thinkingEl.remove();
+    aiTextEl = appendChatMsg('assistant', '', sources);
+    const cursor = document.createElement('span');
+    cursor.className = 'chat-cursor';
+    aiTextEl.after(cursor);
+
+    const resp = await fetch('https://api.deepseek.com/chat/completions', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: msg, history: chatHistory.slice(-6) }),
+      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
+      body: JSON.stringify({ model: 'deepseek-chat', messages, stream: true, temperature: 0.3, max_tokens: 1200 }),
     });
 
     if (!resp.ok) {
-      const err = await resp.json().catch(() => ({ error: resp.statusText }));
-      thinkingEl.remove();
-      appendChatMsg('assistant', '错误：' + (err.error || '请求失败'));
-      chatBusy = false; btn.disabled = false;
-      return;
+      const err = await resp.json().catch(() => ({}));
+      cursor.remove();
+      appendChatMsg('assistant', '错误：' + (err.error?.message || resp.statusText));
+      chatBusy = false; btn.disabled = false; return;
     }
 
     const reader = resp.body.getReader();
@@ -2968,39 +3049,26 @@ async function sendChat() {
       const { done, value } = await reader.read();
       if (done) break;
       buf += decoder.decode(value, { stream: true });
-
       const lines = buf.split('\n');
       buf = lines.pop();
-
       for (const line of lines) {
         if (!line.startsWith('data: ')) continue;
-        const data = JSON.parse(line.slice(6));
-
-        if (data.type === 'meta') {
-          sources = data.titles || [];
-          thinkingEl.remove();
-          aiTextEl = appendChatMsg('assistant', '', sources);
-          const cursor = document.createElement('span');
-          cursor.className = 'chat-cursor';
-          aiTextEl.after(cursor);
-
-        } else if (data.type === 'text') {
-          aiText += data.text;
-          if (aiTextEl) {
-            aiTextEl.textContent = aiText;
-            document.getElementById('chat-messages').scrollTop = 99999;
-          }
-
-        } else if (data.type === 'done') {
-          // remove cursor
-          const cursor = document.querySelector('.chat-cursor');
-          if (cursor) cursor.remove();
+        const raw = line.slice(6).trim();
+        if (raw === '[DONE]') {
+          cursor.remove();
           chatHistory.push({ role: 'assistant', content: aiText });
-
-        } else if (data.type === 'error') {
-          thinkingEl.remove();
-          appendChatMsg('assistant', '错误：' + data.text);
+          break;
         }
+        try {
+          const delta = JSON.parse(raw).choices?.[0]?.delta?.content || '';
+          if (delta) {
+            aiText += delta;
+            if (aiTextEl) {
+              aiTextEl.textContent = aiText;
+              document.getElementById('chat-messages').scrollTop = 99999;
+            }
+          }
+        } catch {}
       }
     }
   } catch (e) {
