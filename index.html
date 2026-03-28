@@ -3175,6 +3175,50 @@ function cancelTopicPreview() {
   document.getElementById('topic-generate-error').style.display = 'none';
 }
 
+function confirmAddTopic() {
+  const preview = document.getElementById('topic-preview');
+  if (!preview) return;
+
+  const label = document.getElementById('preview-label-input').value.trim();
+  if (!label) {
+    document.getElementById('preview-label-input').style.borderColor = 'var(--rel5)';
+    return;
+  }
+
+  const terms = preview._currentTerms;
+  if (!terms || terms.length === 0) {
+    alert('至少保留一个搜索词');
+    return;
+  }
+
+  // Save the new topic
+  const topics = getTopics();
+  topics.push({ label, terms, builtin: false });
+  saveTopics(topics);
+
+  // Apply overrides: find matching papers and add the label
+  const overrides = getTopicOverrides();
+  papers.forEach(p => {
+    if (matchesTopic(p, terms)) {
+      if (!overrides[p.id]) overrides[p.id] = [];
+      if (!overrides[p.id].includes(label)) {
+        overrides[p.id].push(label);
+      }
+    }
+  });
+  saveTopicOverrides(overrides);
+
+  // Close preview, restore input
+  cancelTopicPreview();
+
+  // Re-render paper list and tag bar
+  buildTags();
+  render();
+
+  // Re-render the topics panel card list
+  renderTopicsPanel();
+}
+
 function setBtnRunning(btn) {
   btn.textContent = '⟳ 运行中…';
   btn.style.color = 'var(--rel3)';
