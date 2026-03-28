@@ -3219,6 +3219,55 @@ function confirmAddTopic() {
   renderTopicsPanel();
 }
 
+function confirmDeleteTopic(idx) {
+  const topics = getTopics();
+  const topic = topics[idx];
+  if (!topic || topic.builtin) return;
+
+  const overlay = document.getElementById('topic-delete-overlay');
+  document.getElementById('topic-delete-msg').textContent =
+    `删除「${topic.label}」？将从所有论文移除该标签。`;
+
+  overlay.style.display = 'flex';
+
+  const confirmBtn = document.getElementById('topic-delete-confirm-btn');
+  // Remove old listener to avoid stacking
+  confirmBtn.replaceWith(confirmBtn.cloneNode(true));
+  document.getElementById('topic-delete-confirm-btn').addEventListener('click', () => {
+    deleteTopic(idx);
+    closeTopicDeleteOverlay();
+  });
+}
+
+function closeTopicDeleteOverlay() {
+  document.getElementById('topic-delete-overlay').style.display = 'none';
+}
+
+function deleteTopic(idx) {
+  const topics = getTopics();
+  const topic = topics[idx];
+  if (!topic || topic.builtin) return;
+
+  const label = topic.label;
+
+  // Remove from topics list
+  topics.splice(idx, 1);
+  saveTopics(topics);
+
+  // Remove label from all overrides
+  const overrides = getTopicOverrides();
+  Object.keys(overrides).forEach(paperId => {
+    overrides[paperId] = overrides[paperId].filter(l => l !== label);
+    if (overrides[paperId].length === 0) delete overrides[paperId];
+  });
+  saveTopicOverrides(overrides);
+
+  // Re-render
+  buildTags();
+  render();
+  renderTopicsPanel();
+}
+
 function setBtnRunning(btn) {
   btn.textContent = '⟳ 运行中…';
   btn.style.color = 'var(--rel3)';
