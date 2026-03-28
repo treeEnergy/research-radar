@@ -1546,7 +1546,7 @@ select {
 
   <!-- 同步到流水线按钮 -->
   <div style="padding:10px 18px 14px; border-top:1px solid var(--border); flex-shrink:0;">
-    <button onclick="syncTopicsToPipeline()" style="
+    <button id="sync-topics-btn" onclick="syncTopicsToPipeline()" style="
       width:100%; background:transparent; border:1px solid var(--border2);
       color:var(--text3); padding:7px; border-radius:4px; font-size:11px; cursor:pointer;
       font-family:'IBM Plex Mono',monospace;
@@ -2351,7 +2351,7 @@ function getTopics() {
   const stored = lsGet(LS_TOPICS, null);
   if (stored === null) {
     lsSet(LS_TOPICS, DEFAULT_TOPICS);
-    return DEFAULT_TOPICS;
+    return lsGet(LS_TOPICS, []);
   }
   return stored;
 }
@@ -3269,51 +3269,61 @@ function deleteTopic(idx) {
 }
 
 async function syncTopicsToPipeline() {
+  const syncBtn = document.getElementById('sync-topics-btn');
+  if (syncBtn) { syncBtn.disabled = true; syncBtn.textContent = '↑ 同步中…'; }
+
   const token = await ensureGithubToken();
-  if (!token) return;
+  if (!token) {
+    if (syncBtn) { syncBtn.disabled = false; syncBtn.textContent = '↑ 同步到流水线 (data/topics.json)'; }
+    return;
+  }
 
-  const topics = getTopics();
-  const content = JSON.stringify(topics, null, 2);
-  const encoded = btoa(unescape(encodeURIComponent(content)));
-
-  // Get current file SHA (needed for update if file exists)
-  let sha = null;
   try {
-    const getResp = await fetch(
+    const topics = getTopics();
+    const content = JSON.stringify(topics, null, 2);
+    const encoded = btoa(unescape(encodeURIComponent(content)));
+
+    // Get current file SHA (needed for update if file exists)
+    let sha = null;
+    try {
+      const getResp = await fetch(
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/data/topics.json`,
+        { headers: { Authorization: `token ${token}` } }
+      );
+      if (getResp.ok) {
+        const fileData = await getResp.json();
+        sha = fileData.sha;
+      }
+    } catch { /* file doesn't exist yet, sha stays null */ }
+
+    const body = {
+      message: 'chore: sync topics from browser',
+      content: encoded,
+      ...(sha ? { sha } : {})
+    };
+
+    const resp = await fetch(
       `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/data/topics.json`,
-      { headers: { Authorization: `token ${token}` } }
+      {
+        method: 'PUT',
+        headers: {
+          Authorization: `token ${token}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+      }
     );
-    if (getResp.ok) {
-      const fileData = await getResp.json();
-      sha = fileData.sha;
+
+    if (resp.ok) {
+      alert('✓ 已同步到仓库 data/topics.json，下次流水线运行时将使用新话题搜索。');
+    } else if (resp.status === 401 || resp.status === 403) {
+      localStorage.removeItem(LS_GITHUB_TOKEN);
+      alert('GitHub Token 无效或权限不足，请重新设置。');
+    } else {
+      alert('同步失败：HTTP ' + resp.status);
     }
-  } catch { /* file doesn't exist yet, sha stays null */ }
-
-  const body = {
-    message: 'chore: sync topics from browser',
-    content: encoded,
-    ...(sha ? { sha } : {})
-  };
-
-  const resp = await fetch(
-    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/data/topics.json`,
-    {
-      method: 'PUT',
-      headers: {
-        Authorization: `token ${token}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(body)
-    }
-  );
-
-  if (resp.ok) {
-    alert('✓ 已同步到仓库 data/topics.json，下次流水线运行时将使用新话题搜索。');
-  } else if (resp.status === 401 || resp.status === 403) {
-    localStorage.removeItem(LS_GITHUB_TOKEN);
-    alert('GitHub Token 无效或权限不足，请重新设置。');
-  } else {
-    alert('同步失败：HTTP ' + resp.status);
+  } finally {
+    if (syncBtn) { syncBtn.disabled = false; syncBtn.textContent = '↑ 同步到流水线 (data/topics.json)'; }
   }
 }
 
