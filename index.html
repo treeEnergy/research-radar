@@ -2745,52 +2745,87 @@ function initPanelUI() {
 
 async function runPipeline() {
   const btn = document.getElementById('run-btn');
+  const token = await ensureGithubToken();
+  if (!token) return;
 
-  // 先问服务器是否已在运行
-  const status = await fetch('/api/pipeline/status').then(r => r.json()).catch(() => ({running: false}));
-  if (status.running) {
-    // 已在运行：只重新打开面板，不重新启动
-    setBtnRunning(btn);
-    openPipelinePanel();
-    if (!_pipelinePoll) startPolling(btn);
+  // 触发 GitHub Actions workflow dispatch
+  const resp = await fetch(
+    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/workflows/pipeline.yml/dispatches`,
+    {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ref: 'main' }),
+    }
+  );
+
+  if (resp.status === 401 || resp.status === 403) {
+    localStorage.removeItem(LS_GITHUB_TOKEN);
+    appendPipelineLog('Token 无效或权限不足，请重新输入。');
     return;
   }
-
-  // 未运行：发起新的运行
-  const res  = await fetch('/api/pipeline/run', {method: 'POST'});
-  const data = await res.json();
-  if (!data.ok) return;
+  if (!resp.ok && resp.status !== 204) {
+    appendPipelineLog(`触发失败（HTTP ${resp.status}），请检查 Token 和仓库名。`);
+    return;
+  }
 
   setBtnRunning(btn);
   initPanelUI();
   openPipelinePanel();
-  startPolling(btn);
+  // 等 3 秒让 Actions 产生 run 记录，再开始轮询
+  setTimeout(() => startPolling(btn), 3000);
 }
 
 function startPolling(btn) {
-  if (_pipelinePoll) return;   // 防止重复启动
+  if (_pipelinePoll) return;
+  const token = localStorage.getItem(LS_GITHUB_TOKEN);
+
   _pipelinePoll = setInterval(async () => {
-    const s = await fetch('/api/pipeline/status').then(r => r.json());
+    try {
+      const r = await fetch(
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/actions/runs?per_page=5`,
+        { headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' } }
+      );
+      const data = await r.json();
+      const run = (data.workflow_runs || []).find(r =>
+        r.name === 'Research Radar Pipeline' || r.path?.includes('pipeline.yml')
+      );
+      if (!run) return;  // 还没出现，继续等
 
-    // 更新原始日志
-    const logEl = document.getElementById('pipeline-log');
-    logEl.textContent = s.logs.join('\n');
-    if (logEl.style.display !== 'none') logEl.scrollTop = logEl.scrollHeight;
+      const status     = run.status;      // queued / in_progress / completed
+      const conclusion = run.conclusion;  // success / failure / null
+      const runUrl     = run.html_url;
 
-    // 更新步骤 UI
-    updateStepUI(parseProgress(s.logs), s.running, s.status);
+      const STATUS_ZH = { queued: '排队中…', in_progress: '运行中…', completed: conclusion === 'success' ? '完成 ✓' : `失败（${conclusion}）` };
+      const logEl = document.getElementById('pipeline-log');
+      logEl.textContent = `GitHub Actions 状态：${STATUS_ZH[status] || status}\n\n详细日志：${runUrl}`;
+      if (logEl.style.display !== 'none') logEl.scrollTop = logEl.scrollHeight;
 
-    if (!s.running) {
-      clearInterval(_pipelinePoll);
-      _pipelinePoll = null;
-      setBtnIdle(btn || document.getElementById('run-btn'));
-      document.getElementById('pipeline-spinner').textContent = s.status === 'done' ? '✓' : '✗';
-      document.getElementById('pipeline-spinner').style.animation = '';
-      document.getElementById('pipeline-title').textContent =
-        s.status === 'done' ? 'PIPELINE COMPLETE' : 'PIPELINE ERROR';
-      document.getElementById('pipeline-reload-btn').style.display = s.status === 'done' ? '' : 'none';
+      const isRunning = status !== 'completed';
+      updateStepUI([], isRunning, isRunning ? 'running' : (conclusion === 'success' ? 'done' : 'error'));
+
+      if (!isRunning) {
+        clearInterval(_pipelinePoll);
+        _pipelinePoll = null;
+        setBtnIdle(btn || document.getElementById('run-btn'));
+        document.getElementById('pipeline-spinner').textContent = conclusion === 'success' ? '✓' : '✗';
+        document.getElementById('pipeline-spinner').style.animation = '';
+        document.getElementById('pipeline-title').textContent =
+          conclusion === 'success' ? 'PIPELINE COMPLETE' : 'PIPELINE ERROR';
+        document.getElementById('pipeline-reload-btn').style.display = conclusion === 'success' ? '' : 'none';
+      }
+    } catch (e) {
+      appendPipelineLog('轮询失败：' + e.message);
     }
-  }, 1500);
+  }, 3000);
+}
+
+function appendPipelineLog(msg) {
+  const logEl = document.getElementById('pipeline-log');
+  if (logEl) logEl.textContent += '\n' + msg;
 }
 
 async function reloadData() {
