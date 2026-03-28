@@ -3007,6 +3007,174 @@ function toggleTopicCard(idx) {
   card.classList.toggle('expanded');
 }
 
+async function generateTopic() {
+  const input = document.getElementById('topic-input').value.trim();
+  if (!input) return;
+
+  const apiKey = await ensureDeepseekKey();
+  if (!apiKey) return;
+
+  const btn = document.getElementById('topic-generate-btn');
+  const errEl = document.getElementById('topic-generate-error');
+  btn.textContent = '⟳ AI 生成中…';
+  btn.disabled = true;
+  errEl.style.display = 'none';
+
+  let result;
+  try {
+    result = await callDeepSeekForTopic(input, apiKey);
+  } catch (e) {
+    btn.textContent = '✦ AI 生成并添加';
+    btn.disabled = false;
+    errEl.textContent = 'AI 生成失败：' + (e.message || '网络错误') + '  ';
+    const retryLink = document.createElement('span');
+    retryLink.textContent = '[重试]';
+    retryLink.style.cssText = 'cursor:pointer;color:var(--gold);';
+    retryLink.onclick = generateTopic;
+    errEl.appendChild(retryLink);
+    errEl.style.display = 'block';
+    return;
+  }
+
+  btn.textContent = '✦ AI 生成并添加';
+  btn.disabled = false;
+
+  showTopicPreview(result.label, result.terms);
+}
+
+async function callDeepSeekForTopic(input, apiKey) {
+  const prompt = `你是一个学术文献检索专家。用户输入一个研究话题，请生成：
+1. 中文标签名（简短，2-6个汉字）
+2. 3-6个英文搜索词（用于学术数据库检索，覆盖该话题的主要变体表达）
+
+话题：${input}
+
+以 JSON 格式返回，不要有其他内容：
+{"label": "...", "terms": ["...", "...", "..."]}`;
+
+  const resp = await fetch('https://api.deepseek.com/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${apiKey}`
+    },
+    body: JSON.stringify({
+      model: 'deepseek-chat',
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.3,
+      max_tokens: 300
+    })
+  });
+
+  if (!resp.ok) {
+    if (resp.status === 401) {
+      localStorage.removeItem(LS_DEEPSEEK_KEY);
+      throw new Error('API Key 无效，请重新设置');
+    }
+    throw new Error(`HTTP ${resp.status}`);
+  }
+
+  const data = await resp.json();
+  const content = data.choices?.[0]?.message?.content || '';
+
+  // Extract JSON from response (may have markdown code fences)
+  const jsonMatch = content.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) throw new Error('JSON 解析失败，原始回复：' + content.slice(0, 100));
+
+  let parsed;
+  try {
+    parsed = JSON.parse(jsonMatch[0]);
+  } catch {
+    throw new Error('JSON 解析失败，原始回复：' + content.slice(0, 100));
+  }
+
+  if (!parsed.label || !Array.isArray(parsed.terms) || parsed.terms.length === 0) {
+    throw new Error('AI 返回格式不正确');
+  }
+
+  return parsed;
+}
+
+function showTopicPreview(label, terms) {
+  // Hide the normal input UI
+  document.getElementById('topic-input').style.display = 'none';
+  document.getElementById('topic-generate-btn').style.display = 'none';
+
+  const addArea = document.getElementById('topics-add-area');
+
+  // Remove old preview if any
+  const oldPreview = document.getElementById('topic-preview');
+  if (oldPreview) oldPreview.remove();
+
+  // Build preview card
+  const preview = document.createElement('div');
+  preview.id = 'topic-preview';
+
+  // Use a mutable array so chip removals update it
+  const currentTerms = [...terms];
+
+  const renderPreview = () => {
+    const hitCount = papers.filter(p => matchesTopic(p, currentTerms)).length;
+    const termChipsHtml = currentTerms.map((t, i) =>
+      `<span class="term-chip-preview">
+        ${t}
+        <span class="term-chip-remove" data-term-idx="${i}">✕</span>
+      </span>`
+    ).join('') +
+    `<span class="term-chip-add" id="term-chip-add-btn">+ 添加</span>`;
+
+    preview.innerHTML = `
+      <div class="topic-preview-card">
+        <div style="color:var(--gold);font-size:10px;letter-spacing:.08em;margin-bottom:8px;">AI 生成结果 — 请确认</div>
+        <div style="color:var(--text3);font-size:10px;margin-bottom:4px;">标签名（可改）</div>
+        <input id="preview-label-input" class="topic-preview-label-input"
+               value="${label}" placeholder="中文标签名" />
+        <div style="color:var(--text3);font-size:10px;margin-bottom:6px;">英文搜索词（可删减）</div>
+        <div class="topic-preview-terms" id="preview-terms">${termChipsHtml}</div>
+        <div class="topic-preview-hit">预计命中现有论文：<span>${hitCount} 篇</span></div>
+        <div class="topic-preview-actions">
+          <button onclick="cancelTopicPreview()" style="flex:1;background:transparent;border:1px solid var(--border2);color:var(--text3);padding:7px;border-radius:4px;font-size:11px;cursor:pointer;font-family:'IBM Plex Mono',monospace;">取消</button>
+          <button onclick="confirmAddTopic()" style="flex:2;margin-left:8px;background:var(--gold);border:none;color:#111;padding:7px;border-radius:4px;font-size:11px;font-weight:600;cursor:pointer;font-family:'IBM Plex Mono',monospace;">确认并更新论文 (${hitCount}篇)</button>
+        </div>
+      </div>`;
+
+    // Attach remove listeners
+    preview.querySelectorAll('.term-chip-remove').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const i = parseInt(btn.dataset.termIdx);
+        currentTerms.splice(i, 1);
+        renderPreview();
+      });
+    });
+
+    // Attach add listener
+    const addBtn = preview.querySelector('#term-chip-add-btn');
+    if (addBtn) {
+      addBtn.addEventListener('click', () => {
+        const newTerm = prompt('输入新搜索词（英文）：');
+        if (newTerm?.trim()) {
+          currentTerms.push(newTerm.trim());
+          renderPreview();
+        }
+      });
+    }
+
+    // Store current state for confirmAddTopic
+    preview._currentTerms = currentTerms;
+  };
+
+  renderPreview();
+  addArea.appendChild(preview);
+}
+
+function cancelTopicPreview() {
+  document.getElementById('topic-preview')?.remove();
+  document.getElementById('topic-input').style.display = '';
+  document.getElementById('topic-input').value = '';
+  document.getElementById('topic-generate-btn').style.display = '';
+  document.getElementById('topic-generate-error').style.display = 'none';
+}
+
 function setBtnRunning(btn) {
   btn.textContent = '⟳ 运行中…';
   btn.style.color = 'var(--rel3)';
