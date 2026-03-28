@@ -2306,7 +2306,7 @@ async function load() {
 
 function buildTags() {
   const tags = new Set();
-  papers.forEach(p => (p.tags||[]).forEach(t => tags.add(t)));
+  papers.forEach(p => effectiveTags(p).forEach(t => tags.add(t)));
   const bar = document.getElementById('tag-bar');
   bar.innerHTML = '<span class="tag-bar-label">Filter</span>';
   ['全部', ...tags].forEach(tag => {
@@ -2330,7 +2330,7 @@ function render() {
   const readFilter = document.getElementById('read-filter').value;
 
   let list = papers.filter(p => {
-    if (activeTag   && !(p.tags||[]).includes(activeTag))    return false;
+    if (activeTag   && !effectiveTags(p).includes(activeTag))    return false;
     if (activeGroup) {
       const customEntry = customGroups.find(g => g.name === activeGroup);
       if (customEntry) {
@@ -2378,7 +2378,7 @@ function render() {
 
   el.innerHTML = list.map((p, i) => {
     const rel = p.relevance || 0;
-    const tags = (p.tags||[]).map(t => `<span class="ptag">${t}</span>`).join('');
+    const tags = effectiveTags(p).map(t => `<span class="ptag">${t}</span>`).join('');
     const AUTHOR_COLORS = ['#72b4f0','#6ed89a','#f0bc5a','#c48cf0','#f08080','#70d4d4'];
     const authorList = (p.authors||[]).slice(0,6);
     const authors = authorList.map((a, i) =>
@@ -3048,7 +3048,7 @@ function searchPapersLocal(query, topK = 12) {
       p.summary_zh || '',
       p.method || '',
       p.innovation || '',
-      (p.tags || []).join(' '),
+      effectiveTags(p).join(' '),
       (p.authors || []).slice(0, 3).join(' '),
     ].join(' ').toLowerCase();
 
@@ -3107,7 +3107,7 @@ async function sendChat() {
         if (p.method)       parts.push(`  研究方法: ${p.method}`);
         if (p.innovation)   parts.push(`  创新点: ${p.innovation}`);
         if (p.conclusions)  parts.push(`  主要结论: ${p.conclusions}`);
-        if (p.tags?.length) parts.push(`  标签: ${p.tags.join(', ')}`);
+        if (effectiveTags(p).length) parts.push(`  标签: ${effectiveTags(p).join(', ')}`);
         return parts.join('\n');
       });
       contextParts.push('以下是与当前问题最相关的论文：\n\n' + lines.join('\n\n'));
