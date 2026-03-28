@@ -1,0 +1,2965 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>研究雷达 · Research Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:        #111820;
+  --bg2:       #171f2a;
+  --surface:   #1e2837;
+  --surface2:  #243040;
+  --border:    #2a3848;
+  --border2:   #3d5470;
+  --read-bg:   rgba(79,168,122,.08);
+  --gold:      #f0bc5a;
+  --gold-dim:  #b08040;
+  --gold-glow: rgba(240,188,90,.14);
+  --blue:      #72b4f0;
+  --blue-dim:  rgba(114,180,240,.18);
+  --text:      #f0f4fa;
+  --text2:     #d4e0f0;
+  --text3:     #9ab0cc;
+  --venue:     #a0dcf4;
+  --rel5:      #f48080;
+  --rel4:      #f0bc5a;
+  --rel3:      #6ed89a;
+  --rel2:      #72b4f0;
+  --rel5-bg:   rgba(244,128,128,.15);
+  --rel4-bg:   rgba(240,188,90,.15);
+  --rel3-bg:   rgba(110,216,154,.15);
+  --rel2-bg:   rgba(114,180,240,.15);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Noto Serif SC', serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ── Scanline texture overlay ── */
+body::before {
+  content: '';
+  position: fixed; inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0,0,0,.03) 2px,
+    rgba(0,0,0,.03) 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* ── Header ── */
+header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  padding: 0 40px;
+  display: flex; align-items: stretch; gap: 0;
+  height: 56px;
+}
+
+.header-brand {
+  display: flex; align-items: center; gap: 14px;
+  padding-right: 32px;
+  border-right: 1px solid var(--border);
+}
+
+.brand-icon {
+  width: 28px; height: 28px;
+  position: relative;
+  flex-shrink: 0;
+}
+.brand-icon svg { width: 100%; height: 100%; }
+
+.brand-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  color: var(--text);
+}
+.brand-text em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.header-meta {
+  margin-left: auto;
+  display: flex; align-items: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--text3);
+  letter-spacing: .05em;
+}
+.header-meta .dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--rel3);
+  margin-right: 8px;
+  box-shadow: 0 0 6px var(--rel3);
+  animation: pulse 2.4s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%,100% { opacity: 1; }
+  50% { opacity: .4; }
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ── Build page ── */
+.build-wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 40px 100px;
+}
+.build-hero {
+  margin-bottom: 64px;
+}
+.build-hero-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .16em;
+  color: var(--gold-dim);
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.build-hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+.build-hero h1 em { font-style: italic; color: var(--gold); }
+.build-hero-desc {
+  font-size: 15px;
+  color: var(--text2);
+  line-height: 1.85;
+  max-width: 620px;
+}
+.build-stats {
+  display: flex;
+  gap: 0;
+  margin-top: 36px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.build-stat {
+  flex: 1;
+  padding: 18px 24px;
+  border-right: 1px solid var(--border);
+}
+.build-stat:last-child { border-right: none; }
+.build-stat-val {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--gold);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.build-stat-lbl {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .08em;
+  color: var(--text3);
+  text-transform: uppercase;
+}
+.build-timeline {
+  position: relative;
+  padding-left: 32px;
+}
+.build-timeline::before {
+  content: '';
+  position: absolute;
+  left: 7px; top: 8px; bottom: 8px;
+  width: 2px;
+  background: var(--border);
+}
+.build-entry {
+  position: relative;
+  margin-bottom: 48px;
+}
+.build-entry::before {
+  content: '';
+  position: absolute;
+  left: -28px; top: 8px;
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  border: 2px solid var(--border2);
+  background: var(--bg2);
+  transition: border-color .2s;
+}
+.build-entry.milestone::before {
+  border-color: var(--gold);
+  background: var(--gold-glow);
+  box-shadow: 0 0 8px var(--gold-glow);
+}
+.build-entry.problem::before { border-color: var(--rel5); background: rgba(244,128,128,.12); }
+.build-entry.solved::before  { border-color: var(--rel3); background: rgba(110,216,154,.12); }
+.build-entry-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.build-entry-tag.t-milestone { background: var(--gold-glow);              color: var(--gold); }
+.build-entry-tag.t-problem   { background: rgba(244,128,128,.12);         color: var(--rel5); }
+.build-entry-tag.t-decision  { background: var(--blue-dim);               color: var(--blue); }
+.build-entry-tag.t-feature   { background: rgba(110,216,154,.12);         color: var(--rel3); }
+.build-entry h3 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+.build-entry p {
+  font-size: 13.5px;
+  color: var(--text2);
+  line-height: 1.85;
+  margin-bottom: 8px;
+}
+.build-entry p:last-child { margin-bottom: 0; }
+.build-entry .build-note {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: var(--surface);
+  border-left: 3px solid var(--border2);
+  border-radius: 2px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--text3);
+  line-height: 1.7;
+}
+.build-section-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin: 0 0 32px;
+  display: flex; align-items: center; gap: 12px;
+}
+.build-section-title::after {
+  content: ''; flex: 1; height: 1px; background: var(--border);
+}
+.build-tech-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 56px;
+}
+.build-tech-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 16px 18px;
+}
+.build-tech-name {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--gold);
+  letter-spacing: .04em;
+  margin-bottom: 6px;
+}
+.build-tech-desc {
+  font-size: 12px;
+  color: var(--text3);
+  line-height: 1.65;
+}
+
+/* ── Pipeline step indicator ── */
+.pl-step {
+  display: flex; gap: 12px;
+  position: relative;
+}
+.pl-step-dot {
+  flex-shrink: 0;
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--border2);
+  background: var(--bg2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 10px;
+  margin-top: 1px;
+  transition: all .3s;
+  z-index: 1;
+}
+.pl-step-line {
+  position: absolute;
+  left: 9px; top: 22px;
+  width: 2px; height: calc(100% + 4px);
+  background: var(--border);
+  transition: background .3s;
+}
+.pl-step-body {
+  padding-bottom: 20px;
+  flex: 1;
+  min-width: 0;
+}
+.pl-step-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: .06em;
+  color: var(--text3);
+  margin-bottom: 3px;
+  transition: color .3s;
+}
+.pl-step-desc {
+  font-size: 12px;
+  color: var(--text3);
+  line-height: 1.6;
+  transition: color .3s;
+}
+
+/* step states */
+.pl-step.waiting  .pl-step-dot { border-color: var(--border2); }
+.pl-step.active   .pl-step-dot { border-color: var(--gold); box-shadow: 0 0 8px var(--gold-glow); animation: pulse 1.4s ease-in-out infinite; }
+.pl-step.active   .pl-step-title { color: var(--gold); }
+.pl-step.active   .pl-step-desc  { color: var(--text2); }
+.pl-step.active   .pl-step-line  { background: var(--border); }
+.pl-step.done     .pl-step-dot { border-color: var(--rel3); background: rgba(110,216,154,.15); color: var(--rel3); }
+.pl-step.done     .pl-step-dot::after { content: '✓'; font-size: 10px; }
+.pl-step.done     .pl-step-title { color: var(--rel3); }
+.pl-step.done     .pl-step-line  { background: var(--rel3); opacity: .4; }
+.pl-step.error    .pl-step-dot { border-color: var(--rel5); background: rgba(244,128,128,.12); color: var(--rel5); }
+.pl-step.error    .pl-step-dot::after { content: '✗'; font-size: 10px; }
+.pl-step.error    .pl-step-title { color: var(--rel5); }
+
+/* ── Nav tabs ── */
+nav {
+  display: flex; align-items: center;
+  padding: 0 0 0 32px;
+  gap: 0;
+}
+
+nav button {
+  height: 56px;
+  padding: 0 20px;
+  border: none; background: none;
+  cursor: pointer;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text3);
+  border-bottom: 2px solid transparent;
+  transition: color .2s, border-color .2s;
+}
+nav button:hover { color: var(--text2); }
+nav button.active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+/* ── Controls bar ── */
+.controls {
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 40px;
+  display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+}
+
+.search-wrap {
+  flex: 1; min-width: 220px;
+  position: relative;
+}
+.search-wrap::before {
+  content: '⌕';
+  position: absolute; left: 12px; top: 50%;
+  transform: translateY(-50%);
+  color: var(--text3);
+  font-size: 16px;
+  pointer-events: none;
+}
+.search-wrap input {
+  width: 100%;
+  padding: 8px 12px 8px 34px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--text);
+  outline: none;
+  transition: border-color .2s;
+}
+.search-wrap input::placeholder { color: var(--text3); }
+.search-wrap input:focus { border-color: var(--gold-dim); }
+
+select {
+  padding: 8px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--text2);
+  outline: none;
+  cursor: pointer;
+}
+
+.count {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--text3);
+  margin-left: auto;
+  letter-spacing: .04em;
+}
+
+/* ── Tag filters ── */
+.tag-bar {
+  padding: 10px 40px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  display: flex; gap: 6px; flex-wrap: wrap; align-items: center;
+}
+.tag-bar-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  color: var(--text3);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-right: 6px;
+}
+.tag-pill {
+  padding: 3px 12px;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+  background: transparent;
+  cursor: pointer;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--text3);
+  letter-spacing: .04em;
+  transition: all .15s;
+}
+.tag-pill:hover { border-color: var(--border2); color: var(--text2); }
+.tag-pill.active {
+  background: var(--gold-glow);
+  border-color: var(--gold-dim);
+  color: var(--gold);
+}
+
+/* ── Paper list ── */
+.paper-list {
+  padding: 32px 40px;
+  display: grid;
+  gap: 2px;
+}
+
+.paper-card {
+  position: relative;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  padding: 24px 28px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0 20px;
+  transition: border-color .2s, background .2s;
+  animation: fadeUp .4s ease both;
+}
+.paper-card:first-child { border-radius: 4px 4px 0 0; }
+.paper-card:last-child  { border-radius: 0 0 4px 4px; }
+.paper-card:only-child  { border-radius: 4px; }
+.paper-card + .paper-card { border-top: none; }
+
+.paper-card::before {
+  content: '';
+  position: absolute; left: 0; top: 0; bottom: 0;
+  width: 3px;
+  border-radius: 3px 0 0 3px;
+  transition: opacity .2s;
+}
+.paper-card[data-rel="5"]::before { background: var(--rel5); }
+.paper-card[data-rel="4"]::before { background: var(--rel4); }
+.paper-card[data-rel="3"]::before { background: var(--rel3); }
+.paper-card[data-rel="2"]::before { background: var(--rel2); }
+
+.paper-card:hover { background: var(--surface); border-color: var(--border2); }
+.paper-card.is-read { background: var(--read-bg); opacity: .82; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.paper-main { grid-column: 1; }
+.paper-side { grid-column: 2; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; padding-top: 2px; }
+
+.paper-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--text);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  padding-left: 12px;
+}
+.paper-title:hover { color: var(--gold); }
+
+.paper-meta {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  color: var(--text3);
+  letter-spacing: .04em;
+  margin-bottom: 10px;
+  padding-left: 12px;
+  display: flex; gap: 14px; flex-wrap: wrap; align-items: center;
+}
+.paper-meta span { display: flex; align-items: center; gap: 4px; }
+.paper-venue {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  color: var(--venue);
+  padding-left: 12px;
+  margin-bottom: 12px;
+  letter-spacing: .03em;
+}
+
+.paper-summary {
+  font-size: 15.5px;
+  line-height: 1.9;
+  color: var(--text2);
+  padding-left: 12px;
+  margin-bottom: 10px;
+  border-left: 2px solid var(--border2);
+}
+
+.paper-detail {
+  padding-left: 12px;
+  margin-bottom: 12px;
+  display: grid;
+  gap: 6px;
+}
+.paper-detail-item {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text2);
+  display: flex; gap: 8px;
+}
+.paper-detail-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--gold);
+  letter-spacing: .06em;
+  white-space: nowrap;
+  padding-top: 3px;
+  min-width: 52px;
+}
+
+.paper-reason {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--text3);
+  font-style: italic;
+  padding-left: 12px;
+  margin-bottom: 14px;
+}
+
+.paper-tags { display: flex; gap: 5px; flex-wrap: wrap; padding-left: 12px; }
+.ptag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  padding: 3px 10px;
+  border: 1px solid var(--border2);
+  color: var(--text3);
+  letter-spacing: .04em;
+}
+
+/* Relevance badge */
+.rel-badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  padding: 3px 8px;
+  letter-spacing: .06em;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.rel-badge.r5 { background: var(--rel5-bg); color: var(--rel5); border: 1px solid rgba(217,95,95,.3); }
+.rel-badge.r4 { background: var(--rel4-bg); color: var(--rel4); border: 1px solid rgba(200,146,58,.3); }
+.rel-badge.r3 { background: var(--rel3-bg); color: var(--rel3); border: 1px solid rgba(79,168,122,.3); }
+.rel-badge.r2 { background: var(--rel2-bg); color: var(--rel2); border: 1px solid rgba(61,127,212,.3); }
+
+.fulltext-badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  padding: 2px 7px;
+  border: 1px solid rgba(98,200,138,.4);
+  color: var(--rel3);
+  letter-spacing: .06em;
+}
+
+/* Relevance dots */
+.rel-dots { display: flex; gap: 3px; }
+.rel-dot {
+  width: 5px; height: 5px; border-radius: 50%;
+  background: var(--border2);
+  transition: background .2s;
+}
+.paper-card[data-rel="5"] .rel-dot:nth-child(-n+5) { background: var(--rel5); box-shadow: 0 0 4px var(--rel5); }
+.paper-card[data-rel="4"] .rel-dot:nth-child(-n+4) { background: var(--rel4); box-shadow: 0 0 4px var(--rel4); }
+.paper-card[data-rel="3"] .rel-dot:nth-child(-n+3) { background: var(--rel3); box-shadow: 0 0 4px var(--rel3); }
+.paper-card[data-rel="2"] .rel-dot:nth-child(-n+2) { background: var(--rel2); box-shadow: 0 0 4px var(--rel2); }
+
+/* ── Repo list ── */
+.repo-list { padding: 32px 40px; display: grid; gap: 2px; }
+
+.repo-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  padding: 20px 24px;
+  display: flex; gap: 20px; align-items: flex-start;
+  transition: background .2s, border-color .2s;
+}
+.repo-card:first-child { border-radius: 4px 4px 0 0; }
+.repo-card:last-child  { border-radius: 0 0 4px 4px; }
+.repo-card + .repo-card { border-top: none; }
+.repo-card:hover { background: var(--surface); border-color: var(--border2); }
+
+.repo-main { flex: 1; }
+.repo-name {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 6px;
+  letter-spacing: .02em;
+}
+.repo-name:hover { color: var(--gold); }
+.repo-desc { font-size: 13px; color: var(--text2); line-height: 1.7; margin-bottom: 10px; }
+.repo-rtags { display: flex; gap: 5px; flex-wrap: wrap; }
+.rtag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  padding: 2px 8px;
+  border: 1px solid var(--blue-dim);
+  color: var(--blue);
+  letter-spacing: .04em;
+}
+
+.repo-stars {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--gold);
+  white-space: nowrap;
+  display: flex; align-items: center; gap: 4px;
+  padding-top: 2px;
+}
+
+/* ── Empty state ── */
+.empty {
+  text-align: center;
+  padding: 80px 40px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--text3);
+  letter-spacing: .06em;
+}
+
+/* ── Groups tab ── */
+.groups-grid {
+  padding: 32px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+.group-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 18px 20px;
+  cursor: pointer;
+  transition: border-color .2s, background .2s;
+}
+.group-card:hover, .group-card.active {
+  background: var(--surface);
+  border-color: var(--gold-dim);
+}
+.group-card.active { border-color: var(--gold); }
+.group-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.group-inst {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--text3);
+  margin-bottom: 12px;
+  letter-spacing: .03em;
+}
+.group-stats {
+  display: flex;
+  gap: 16px;
+}
+.group-stat {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+}
+.group-stat-val { color: var(--gold); font-size: 18px; font-weight: 500; display: block; }
+.group-stat-lbl { color: var(--text3); font-size: 10px; letter-spacing: .05em; }
+.group-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  padding: 2px 7px;
+  border: 1px solid var(--gold-dim);
+  color: var(--gold);
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* ── Annotation ── */
+.paper-groups { display: flex; gap: 5px; flex-wrap: wrap; padding-left: 12px; margin-bottom: 10px; }
+.pgroup {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  padding: 2px 8px;
+  border: 1px solid var(--gold-dim);
+  color: var(--gold);
+  letter-spacing: .04em;
+}
+.annotation-wrap { padding-left: 12px; margin-top: 12px; }
+.annotation-toggle {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--text3);
+  background: none;
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  cursor: pointer;
+  letter-spacing: .04em;
+  transition: color .15s, border-color .15s;
+}
+.annotation-toggle:hover { color: var(--gold); border-color: var(--gold-dim); }
+.annotation-toggle.has-note { color: var(--rel3); border-color: rgba(98,200,138,.4); }
+.annotation-box {
+  display: none;
+  margin-top: 8px;
+}
+.annotation-box.open { display: block; }
+.annotation-box textarea {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  color: var(--text2);
+  font-family: 'Noto Serif SC', serif;
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 10px 12px;
+  resize: vertical;
+  min-height: 80px;
+  outline: none;
+}
+.annotation-box textarea:focus { border-color: var(--gold-dim); }
+.annotation-box textarea::placeholder { color: var(--text3); }
+.annotation-actions { display: flex; gap: 8px; margin-top: 6px; }
+.ann-save, .ann-clear {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  padding: 5px 14px;
+  border: 1px solid;
+  cursor: pointer;
+  letter-spacing: .04em;
+  background: none;
+  transition: all .15s;
+}
+.ann-save { color: var(--gold); border-color: var(--gold-dim); }
+.ann-save:hover { background: var(--gold-glow); }
+.ann-clear { color: var(--text3); border-color: var(--border); }
+.ann-clear:hover { color: var(--rel5); border-color: rgba(240,112,112,.4); }
+.ann-status {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--rel3);
+  padding: 5px 0;
+  display: none;
+}
+.read-btn {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  background: none;
+  cursor: pointer;
+  color: var(--text3);
+  letter-spacing: .04em;
+  transition: all .15s;
+  margin-left: 8px;
+}
+.read-btn:hover { border-color: var(--rel3); color: var(--rel3); }
+.read-btn.read  { border-color: rgba(98,200,138,.4); color: var(--rel3); background: rgba(98,200,138,.08); }
+.fetched-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  color: var(--text3);
+  letter-spacing: .04em;
+}
+.existing-note {
+  font-size: 13px;
+  color: var(--rel3);
+  padding: 8px 12px;
+  border-left: 2px solid rgba(98,200,138,.4);
+  margin-top: 8px;
+  line-height: 1.7;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text3); }
+
+/* ── Manual page ── */
+.manual-wrap {
+  max-width: 820px;
+  margin: 48px auto 80px;
+  padding: 0 40px;
+}
+.manual-hero {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 32px;
+  margin-bottom: 48px;
+}
+.manual-hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: var(--text);
+  line-height: 1.15;
+}
+.manual-hero h1 em {
+  font-style: italic;
+  color: var(--gold);
+}
+.manual-hero p {
+  margin-top: 14px;
+  font-size: 15px;
+  color: var(--text2);
+  line-height: 1.75;
+}
+.manual-section {
+  margin-bottom: 52px;
+}
+.manual-section-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 20px;
+  display: flex; align-items: center; gap: 12px;
+}
+.manual-section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+.manual-section h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 12px;
+}
+.manual-section p {
+  font-size: 14px;
+  color: var(--text2);
+  line-height: 1.85;
+  margin-bottom: 10px;
+}
+.manual-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 20px;
+}
+.manual-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 20px 22px;
+}
+.manual-card-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--gold);
+  letter-spacing: .06em;
+  margin-bottom: 8px;
+}
+.manual-card p {
+  font-size: 13px;
+  color: var(--text3);
+  line-height: 1.7;
+  margin: 0;
+}
+.manual-steps {
+  counter-reset: step;
+  margin-top: 20px;
+}
+.manual-step {
+  display: flex; gap: 18px;
+  margin-bottom: 20px;
+}
+.manual-step-num {
+  counter-increment: step;
+  flex-shrink: 0;
+  width: 28px; height: 28px;
+  border: 1px solid var(--gold-dim);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--gold-dim);
+  margin-top: 2px;
+}
+.manual-step-body strong {
+  display: block;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.manual-step-body p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text3);
+  line-height: 1.7;
+}
+.manual-cmd {
+  margin-top: 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 8px 14px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--blue);
+}
+.manual-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.manual-table th {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text3);
+  text-align: left;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.manual-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text2);
+  line-height: 1.6;
+  vertical-align: top;
+}
+.manual-table td:first-child {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--gold);
+  white-space: nowrap;
+}
+.manual-table tr:last-child td { border-bottom: none; }
+.manual-tag {
+  display: inline-block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 2px;
+  background: var(--blue-dim);
+  color: var(--blue);
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+.manual-tag.gold { background: var(--gold-glow); color: var(--gold); }
+.manual-tag.green { background: rgba(98,200,138,.12); color: var(--rel3); }
+.manual-warn {
+  margin-top: 16px;
+  padding: 12px 16px;
+  background: rgba(224,168,74,.06);
+  border-left: 3px solid var(--gold-dim);
+  border-radius: 2px;
+  font-size: 13px;
+  color: var(--text3);
+  line-height: 1.7;
+}
+
+/* ── AI Chat tab ── */
+#tab-chat {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 56px);
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 0 0 0;
+}
+
+.chat-header {
+  padding: 20px 32px 14px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.chat-header h2 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  letter-spacing: .1em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.chat-header p {
+  font-size: 12px;
+  color: var(--text3);
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.chat-msg {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.chat-msg-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.chat-msg.user .chat-msg-avatar {
+  background: var(--blue-dim);
+  color: var(--blue);
+  border: 1px solid rgba(114,180,240,.3);
+}
+
+.chat-msg.assistant .chat-msg-avatar {
+  background: rgba(240,188,90,.1);
+  color: var(--gold);
+  border: 1px solid rgba(240,188,90,.25);
+}
+
+.chat-msg-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.chat-msg-name {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  color: var(--text3);
+  letter-spacing: .06em;
+  margin-bottom: 5px;
+}
+
+.chat-msg-text {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.chat-msg.user .chat-msg-text {
+  color: var(--text2);
+}
+
+.chat-sources {
+  margin-top: 8px;
+  padding: 8px 10px;
+  background: rgba(114,180,240,.06);
+  border: 1px solid rgba(114,180,240,.15);
+  border-radius: 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--text3);
+}
+
+.chat-sources-title {
+  color: var(--blue);
+  margin-bottom: 4px;
+  font-size: 10px;
+  letter-spacing: .05em;
+}
+
+.chat-source-item {
+  color: var(--text3);
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 14px;
+  background: var(--gold);
+  vertical-align: middle;
+  animation: blink .8s step-end infinite;
+}
+
+@keyframes blink { 50% { opacity: 0; } }
+
+.chat-thinking {
+  display: flex;
+  gap: 4px;
+  padding: 6px 0;
+}
+
+.chat-thinking span {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--gold-dim);
+  animation: bounce 1.2s ease-in-out infinite;
+}
+
+.chat-thinking span:nth-child(2) { animation-delay: .2s; }
+.chat-thinking span:nth-child(3) { animation-delay: .4s; }
+
+@keyframes bounce {
+  0%, 80%, 100% { transform: translateY(0); opacity: .4; }
+  40% { transform: translateY(-6px); opacity: 1; }
+}
+
+.chat-input-row {
+  padding: 16px 32px 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.chat-input {
+  flex: 1;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 14px;
+  color: var(--text);
+  resize: none;
+  min-height: 42px;
+  max-height: 120px;
+  line-height: 1.5;
+  transition: border-color .2s;
+}
+
+.chat-input:focus {
+  outline: none;
+  border-color: var(--gold-dim);
+}
+
+.chat-send-btn {
+  height: 42px;
+  padding: 0 18px;
+  background: none;
+  border: 1px solid var(--gold-dim);
+  border-radius: 6px;
+  color: var(--gold);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  letter-spacing: .06em;
+  cursor: pointer;
+  transition: background .2s, color .2s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.chat-send-btn:hover:not(:disabled) {
+  background: var(--gold-glow);
+}
+
+.chat-send-btn:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+
+.chat-empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--text3);
+}
+
+.chat-empty-icon {
+  font-size: 32px;
+  margin-bottom: 4px;
+  opacity: .4;
+}
+
+.chat-empty-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  letter-spacing: .08em;
+  color: var(--gold-dim);
+}
+
+.chat-empty-hint {
+  font-size: 12px;
+  text-align: center;
+  max-width: 400px;
+  line-height: 1.7;
+}
+
+.chat-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.chat-suggestion {
+  padding: 6px 14px;
+  border: 1px solid var(--border2);
+  border-radius: 20px;
+  font-size: 12px;
+  color: var(--text3);
+  cursor: pointer;
+  font-family: 'IBM Plex Mono', monospace;
+  transition: border-color .15s, color .15s;
+}
+
+.chat-suggestion:hover {
+  border-color: var(--gold-dim);
+  color: var(--text2);
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-brand">
+    <div class="brand-icon">
+      <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="14" cy="14" r="13" stroke="#1c2535" stroke-width="1"/>
+        <circle cx="14" cy="14" r="9" stroke="#253040" stroke-width="1"/>
+        <circle cx="14" cy="14" r="5" stroke="#c8923a" stroke-width="1"/>
+        <circle cx="14" cy="14" r="1.5" fill="#c8923a"/>
+        <line x1="14" y1="1" x2="14" y2="5" stroke="#c8923a" stroke-width="1"/>
+        <line x1="14" y1="23" x2="14" y2="27" stroke="#253040" stroke-width="1"/>
+        <line x1="1" y1="14" x2="5" y2="14" stroke="#253040" stroke-width="1"/>
+        <line x1="23" y1="14" x2="27" y2="14" stroke="#253040" stroke-width="1"/>
+      </svg>
+    </div>
+    <span class="brand-text">研究<em>雷达</em></span>
+  </div>
+
+  <nav>
+    <button class="active" onclick="switchTab('papers')" id="btn-papers">PAPERS</button>
+    <button onclick="switchTab('groups')" id="btn-groups">GROUPS</button>
+    <button onclick="switchTab('repos')" id="btn-repos">REPOS</button>
+    <button onclick="switchTab('chat')" id="btn-chat">AI CHAT</button>
+    <button onclick="switchTab('manual')" id="btn-manual">MANUAL</button>
+    <button onclick="switchTab('build')" id="btn-build">BUILD</button>
+  </nav>
+
+  <div class="header-meta">
+    <span class="dot"></span>
+    <span id="meta">LOADING…</span>
+    <button id="run-btn" onclick="runPipeline()" style="
+      margin-left:20px; padding:0 14px; height:30px;
+      font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em;
+      background:none; border:1px solid var(--gold-dim); border-radius:3px;
+      color:var(--gold); cursor:pointer; transition:all .2s;
+    " onmouseover="this.style.background='var(--gold-glow)'" onmouseout="this.style.background='none'">
+      ▶ 更新检索
+    </button>
+  </div>
+</header>
+
+<!-- 流水线进度面板（右侧抽屉） -->
+<div id="pipeline-panel" style="
+  position:fixed; top:56px; right:0; bottom:0; width:360px;
+  background:var(--bg2); border-left:1px solid var(--border2);
+  display:flex; flex-direction:column;
+  transform:translateX(100%); transition:transform .25s ease;
+  z-index:500;
+">
+  <!-- 标题栏 -->
+  <div style="padding:12px 16px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:10px; flex-shrink:0;">
+    <span id="pipeline-spinner" style="font-size:13px; display:inline-block;">⟳</span>
+    <span id="pipeline-title" style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--gold); letter-spacing:.06em; flex:1;">PIPELINE RUNNING</span>
+    <button id="pipeline-reload-btn" onclick="reloadData()" style="display:none; padding:4px 12px; font-family:'IBM Plex Mono',monospace; font-size:10px; background:var(--gold-glow); border:1px solid var(--gold-dim); border-radius:2px; color:var(--gold); cursor:pointer;">刷新数据</button>
+    <button onclick="closePipelinePanel()" style="background:none; border:none; color:var(--text3); font-size:16px; cursor:pointer; line-height:1; padding:0 2px;">×</button>
+  </div>
+
+  <!-- 步骤指示器 -->
+  <div style="padding:16px 16px 0; flex-shrink:0;">
+    <div id="pl-steps" style="display:flex; flex-direction:column; gap:0;">
+
+      <div class="pl-step" id="pl-step-fetch">
+        <div class="pl-step-dot"></div>
+        <div class="pl-step-line"></div>
+        <div class="pl-step-body">
+          <div class="pl-step-title">抓取论文</div>
+          <div class="pl-step-desc" id="pl-fetch-desc">从 OpenAlex 拉取 AIAA / ASME 期刊新论文</div>
+        </div>
+      </div>
+
+      <div class="pl-step" id="pl-step-ai">
+        <div class="pl-step-dot"></div>
+        <div class="pl-step-line"></div>
+        <div class="pl-step-body">
+          <div class="pl-step-title">AI 深度分析</div>
+          <div class="pl-step-desc" id="pl-ai-desc">DeepSeek 逐篇生成中文综述与评分</div>
+          <div id="pl-ai-progress" style="display:none; margin-top:8px;">
+            <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+              <span id="pl-ai-cur" style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--text2); max-width:220px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;"></span>
+              <span id="pl-ai-count" style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--text3); flex-shrink:0; margin-left:8px;"></span>
+            </div>
+            <div style="height:3px; background:var(--border); border-radius:2px; overflow:hidden;">
+              <div id="pl-ai-bar" style="height:100%; background:var(--gold); border-radius:2px; transition:width .4s ease; width:0%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pl-step" id="pl-step-save" style="--line-display:none">
+        <div class="pl-step-dot"></div>
+        <div class="pl-step-line" style="display:none;"></div>
+        <div class="pl-step-body">
+          <div class="pl-step-title">写入 & 统计</div>
+          <div class="pl-step-desc" id="pl-save-desc">合并论文库、课题组匹配、更新 groups.json</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 汇总 -->
+    <div id="pl-summary" style="display:none; margin-top:16px; padding:12px 14px;
+      background:var(--surface); border:1px solid var(--border); border-radius:4px;">
+      <div id="pl-summary-text" style="font-size:13px; color:var(--text2); line-height:1.8;"></div>
+    </div>
+  </div>
+
+  <!-- 原始日志（折叠） -->
+  <div style="margin:14px 16px 0; flex-shrink:0;">
+    <button onclick="toggleLog()" style="
+      font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--text3);
+      background:none; border:none; cursor:pointer; letter-spacing:.06em; padding:0;
+    ">▶ 查看原始日志</button>
+  </div>
+  <div id="pipeline-log" style="display:none; flex:1; overflow-y:auto; margin:8px 0 0;
+    padding:10px 16px; font-family:'IBM Plex Mono',monospace; font-size:10px;
+    color:var(--text3); line-height:1.8; white-space:pre-wrap; word-break:break-all;
+    border-top:1px solid var(--border);"></div>
+</div>
+
+<div id="tab-papers">
+  <div class="controls">
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="搜索标题 · 摘要 · 作者…" oninput="render()">
+    </div>
+    <select id="sort" onchange="render()">
+      <option value="fetch">入库日期 ↓</option>
+      <option value="date">发表日期 ↓</option>
+      <option value="rel">相关度 ↓</option>
+    </select>
+    <select id="read-filter" onchange="render()">
+      <option value="all">全部论文</option>
+      <option value="unread">只看未读</option>
+      <option value="read">只看已读</option>
+    </select>
+    <span class="count" id="count">—</span>
+  </div>
+
+  <div class="tag-bar" id="tag-bar">
+    <span class="tag-bar-label">Filter</span>
+  </div>
+
+  <div class="paper-list" id="paper-list"></div>
+</div>
+
+<div id="tab-groups" style="display:none">
+  <div class="groups-grid" id="groups-grid"></div>
+</div>
+
+<!-- 编辑课题组弹窗 -->
+<div id="group-edit-modal" style="display:none; position:fixed; inset:0;
+  background:rgba(0,0,0,.55); z-index:800; align-items:center; justify-content:center;">
+  <div style="width:460px; background:var(--bg2); border:1px solid var(--border2);
+    border-radius:6px; padding:24px 28px;">
+    <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.12em;
+      color:var(--gold); margin-bottom:20px;" id="gem-title">EDIT GROUP</div>
+    <input type="hidden" id="gem-replaces">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:14px;">
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--text3); margin-bottom:6px;">课题组名称 *</div>
+        <input id="gem-name" type="text" style="width:100%; padding:7px 10px; background:var(--surface);
+          border:1px solid var(--border); border-radius:3px; font-size:13px; color:var(--text); outline:none;">
+      </div>
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--text3); margin-bottom:6px;">所在机构</div>
+        <input id="gem-inst" type="text" style="width:100%; padding:7px 10px; background:var(--surface);
+          border:1px solid var(--border); border-radius:3px; font-size:13px; color:var(--text); outline:none;">
+      </div>
+    </div>
+    <div style="margin-bottom:20px;">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--text3); margin-bottom:6px;">PI 姓名（逗号分隔，用于匹配论文作者）</div>
+      <input id="gem-pis" type="text" style="width:100%; padding:7px 10px; background:var(--surface);
+        border:1px solid var(--border); border-radius:3px; font-family:'IBM Plex Mono',monospace;
+        font-size:12px; color:var(--text); outline:none;">
+      <div style="font-size:11px; color:var(--text3); margin-top:5px;">
+        自动用原始作者名兜底匹配，PI 栏留空也没关系。填了额外拼写变体会更准。
+      </div>
+      <div id="gem-auto-pi" style="display:none; margin-top:6px; font-family:'IBM Plex Mono',monospace;
+        font-size:10px; color:var(--blue); padding:4px 8px; background:var(--blue-dim); border-radius:2px;">
+        自动兜底：<span id="gem-auto-pi-name"></span>
+      </div>
+    </div>
+    <div style="display:flex; gap:10px; align-items:center;">
+      <button onclick="saveGroupEdit()" style="padding:7px 22px; font-family:'IBM Plex Mono',monospace;
+        font-size:11px; background:var(--gold-glow); border:1px solid var(--gold-dim);
+        border-radius:3px; color:var(--gold); cursor:pointer;">保存</button>
+      <button onclick="closeGroupEdit()" style="padding:7px 16px; font-family:'IBM Plex Mono',monospace;
+        font-size:11px; background:none; border:1px solid var(--border2); border-radius:3px;
+        color:var(--text3); cursor:pointer;">取消</button>
+      <button id="gem-del-btn" onclick="deleteGroupEdit()" style="margin-left:auto; padding:7px 14px;
+        font-family:'IBM Plex Mono',monospace; font-size:11px; background:none;
+        border:1px solid rgba(244,128,128,.3); border-radius:3px; color:var(--rel5); cursor:pointer;">
+        删除自定义</button>
+      <span id="gem-msg" style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--rel3);"></span>
+    </div>
+  </div>
+</div>
+
+<div id="tab-repos" style="display:none">
+  <div class="repo-list" id="repo-list"></div>
+</div>
+
+<div id="tab-build" style="display:none">
+<div class="build-wrap">
+
+  <!-- Hero -->
+  <div class="build-hero">
+    <div class="build-hero-label">项目制作记录</div>
+    <h1>研究<em>雷达</em><br>是怎么做出来的</h1>
+    <p class="build-hero-desc">这个工具从一个简单的想法开始：自动追踪压气机领域的最新论文，省去手动查文献的麻烦。从第一行代码到现在的完整系统，经历了多次数据源迁移、API 限速对抗、前端重设计，以及一个越来越完整的 AI 反馈闭环。这里记录了整个过程。</p>
+    <div class="build-stats">
+      <div class="build-stat">
+        <div class="build-stat-val" id="bs-papers">—</div>
+        <div class="build-stat-lbl">篇论文入库</div>
+      </div>
+      <div class="build-stat">
+        <div class="build-stat-val">4</div>
+        <div class="build-stat-lbl">监控期刊</div>
+      </div>
+      <div class="build-stat">
+        <div class="build-stat-val">13</div>
+        <div class="build-stat-lbl">迭代版本</div>
+      </div>
+      <div class="build-stat">
+        <div class="build-stat-val">3</div>
+        <div class="build-stat-lbl">换掉的数据源</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 技术栈 -->
+  <div class="build-section-title">技术栈</div>
+  <div class="build-tech-grid">
+    <div class="build-tech-card">
+      <div class="build-tech-name">OpenAlex API</div>
+      <div class="build-tech-desc">学术元数据来源。按期刊 ISSN 精确过滤，无需注册、无速率限制。替代了两个被限速的数据源。</div>
+    </div>
+    <div class="build-tech-card">
+      <div class="build-tech-name">DeepSeek Chat</div>
+      <div class="build-tech-desc">AI 分析引擎。生成中文综述、研究方法、创新点、主要结论、局限性和相关度评分（0–5分）。</div>
+    </div>
+    <div class="build-tech-card">
+      <div class="build-tech-name">Flask</div>
+      <div class="build-tech-desc">本地服务器。提供静态文件服务、标注 API、课题组 API 和流水线触发 API。</div>
+    </div>
+    <div class="build-tech-card">
+      <div class="build-tech-name">Python 后台线程</div>
+      <div class="build-tech-desc">流水线在独立线程中运行，与 HTTP 请求解耦。关掉浏览器不中断，日志通过轮询实时回传。</div>
+    </div>
+    <div class="build-tech-card">
+      <div class="build-tech-name">Cormorant Garamond</div>
+      <div class="build-tech-desc">主标题字体，衬线设计带有学术气质。搭配 IBM Plex Mono 处理代码与标签，Noto Serif SC 处理正文。</div>
+    </div>
+    <div class="build-tech-card">
+      <div class="build-tech-name">纯前端状态管理</div>
+      <div class="build-tech-desc">无框架、无构建工具。papers / groups / annotations 全部存在 JS 变量里，操作即时响应。</div>
+    </div>
+  </div>
+
+  <!-- 时间线 -->
+  <div class="build-section-title">开发时间线</div>
+  <div class="build-timeline">
+
+    <div class="build-entry milestone">
+      <span class="build-entry-tag t-milestone">起点</span>
+      <h3>需求：不想每次手动去查文献</h3>
+      <p>压气机稳定性是一个发文量适中、高度专业的细分领域。相关论文主要集中在 AIAA 和 ASME 的四本期刊里，但没有一个工具能自动追踪这些期刊、筛选相关论文、用中文告诉你"这篇在说什么"。</p>
+      <p>目标很明确：每天自动拉新论文，AI 分析内容和相关度，用网页展示结果。</p>
+    </div>
+
+    <div class="build-entry problem">
+      <span class="build-entry-tag t-problem">遇到问题</span>
+      <h3>arXiv + Semantic Scholar 全部限速失败</h3>
+      <p>第一版用 arXiv 和 Semantic Scholar 作为数据来源。实际运行时，5 个关键词搜索全部返回 429（Too Many Requests），0 篇论文入库。arXiv 不收录 AIAA/ASME 期刊论文；Semantic Scholar 对批量请求非常不友好。</p>
+      <div class="build-note">错误信息：HTTPError 429 Client Error: Too Many Requests × 5</div>
+    </div>
+
+    <div class="build-entry solved">
+      <span class="build-entry-tag t-decision">关键决策</span>
+      <h3>换 OpenAlex：按 ISSN 精确过滤，无限速</h3>
+      <p>OpenAlex 是一个开放的学术元数据库，支持按期刊 ISSN 过滤，API 慷慨且无需注册。第一次运行拿到 206 篇候选论文，彻底解决了限速问题。</p>
+      <p>这次迁移也重新设计了抓取逻辑：不再靠关键词在全库搜索，而是先锁定期刊、再在期刊内搜索关键词，精度大幅提升。</p>
+    </div>
+
+    <div class="build-entry">
+      <span class="build-entry-tag t-feature">功能</span>
+      <h3>从 python -m http.server 到 Flask</h3>
+      <p>最初用 Python 内置的静态文件服务器，只能读文件，无法写回。要实现"写评价"功能，必须有一个能接收 POST 请求的服务器。于是写了 server.py，用 Flask 替代静态服务器。</p>
+      <p>替换时需要先杀掉旧进程释放 8000 端口——这就是你在开发过程中看到大量 taskkill 命令的原因，不是在删什么重要东西，只是在踢走占位的旧进程。</p>
+      <div class="build-note">taskkill /F /PID 17340 — 结束旧的 python -m http.server 进程</div>
+    </div>
+
+    <div class="build-entry">
+      <span class="build-entry-tag t-problem">遇到问题</span>
+      <h3>Windows 终端 GBK 编码导致崩溃</h3>
+      <p>流水线在处理中文日志时多次因为 UnicodeEncodeError 崩溃，原因是 Windows 默认终端用 GBK 编码，而脚本输出了 UTF-8 字符。第一次批量处理跑到 36 篇时中断，修复编码后才顺利跑完全部 187 篇。</p>
+      <div class="build-note">修复：sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')</div>
+    </div>
+
+    <div class="build-entry solved">
+      <span class="build-entry-tag t-feature">功能</span>
+      <h3>AI 分析从"摘要"扩展到"结构化字段"</h3>
+      <p>最初 DeepSeek 只生成一段中文综述。扩展为六个字段：中文综述、研究方法、创新点、主要结论、局限性、相关度理由。同时新增全文模式：如果能获取 PDF，优先基于全文分析；否则基于摘要。</p>
+      <p>尝试用 Unpaywall 获取开放获取 PDF，结果发现 AIAA/ASME 期刊几乎全是付费墙，实际获取 0 篇。代码仍然保留，等待未来通过机构账号接入。</p>
+    </div>
+
+    <div class="build-entry">
+      <span class="build-entry-tag t-feature">功能</span>
+      <h3>标注系统 → AI 个性化反馈闭环</h3>
+      <p>在每篇论文卡片里可以写评价，评价保存到 annotations.json。下次流水线运行时，系统会把这些评价注入 DeepSeek 的系统提示词，让 AI 参考用户历史判断来校准新论文的相关度。</p>
+      <p>这是这个工具最核心的设计：用的越多，越符合你的研究口味。</p>
+    </div>
+
+    <div class="build-entry problem">
+      <span class="build-entry-tag t-problem">遇到问题</span>
+      <h3>★ 自动作者点击后论文列表为空</h3>
+      <p>自动识别的高频作者（标 ★）点击后没有论文显示。根因：tag_groups() 只把预设课题组的名字写进 paper.groups 字段，★ 作者的名字从来没写进去。过滤逻辑检查 p.groups.includes(activeGroup)，当然找不到。</p>
+      <p>修复方案：前端过滤时检测 groupMeta.preset === false，改为在 p.authors 里做字符串匹配，绕过 groups 字段。</p>
+    </div>
+
+    <div class="build-entry solved">
+      <span class="build-entry-tag t-feature">功能</span>
+      <h3>结构化进度面板取代纯文字日志</h3>
+      <p>原版进度面板直接把 Python 日志文本堆出来，不直观。重新设计为三步骤可视化：抓取 → AI 分析（含标题滚动和进度条）→ 写入，完成后显示"新增 N 篇 · 跳过 M 篇"汇总。原始日志折叠到底部，需要时可以展开。</p>
+    </div>
+
+    <div class="build-entry solved">
+      <span class="build-entry-tag t-feature">功能</span>
+      <h3>课题组可在线编辑，★ 作者可重命名</h3>
+      <p>每张 Group 卡片加 ✎ 按钮，可以修改名称、机构、PI 姓名。自动识别的 ★ 孙大坤 可以直接改成"孙大坤课题组 · 北航"，paper 数（7篇）保持不变，过滤逻辑自动适配 custom_groups.json 里的 pis 字段匹配作者。</p>
+    </div>
+
+    <div class="build-entry milestone">
+      <span class="build-entry-tag t-milestone">v10</span>
+      <h3>一个自主运行的领域文献追踪系统</h3>
+      <p>打开浏览器 → 点击右上角"▶ 更新检索" → 等待几分钟 → 新论文自动入库、AI 分析完成、Groups 更新。不需要打开终端，不需要写代码，刷新浏览器后进度状态自动恢复。</p>
+    </div>
+
+    <div class="build-entry problem">
+      <span class="build-entry-tag t-problem">遇到问题</span>
+      <h3>作者字段被截断到 4 人</h3>
+      <p>fetch_papers.py 里 authorships 列表有一个 [:4] 切片，导致每篇论文只保存前 4 位作者。发现问题的契机：Dakun Sun 的论文通常排在最后的 Xiaofeng Sun 从未出现在作者列表里。</p>
+      <p>修复分两步：①删掉 [:4]，让未来抓取获取全部作者；②写了 backfill_authors.py，通过 DOI 逐篇重新查询 OpenAlex，把已有 242 篇论文的作者列表全部补全（105 篇有更新）。</p>
+      <div class="build-note">scripts/backfill_authors.py — 补全历史数据用，正常不需要再跑</div>
+    </div>
+
+    <div class="build-entry solved">
+      <span class="build-entry-tag t-feature">功能</span>
+      <h3>流水线并发提速：OpenAlex + DeepSeek 全部并行</h3>
+      <p>原版流水线完全串行：每条 OpenAlex 请求之间 sleep(1)，DeepSeek 调用逐篇等待。重构为：</p>
+      <p>fetch_papers.py 用 ThreadPoolExecutor(8) 并发所有 keyword×journal 查询，Unpaywall 也并发（10线程）；process_with_ai.py 用 ThreadPoolExecutor(5) 并行调用 DeepSeek。整体流水线速度提升约 5-8 倍。</p>
+    </div>
+
+    <div class="build-entry solved">
+      <span class="build-entry-tag t-feature">功能</span>
+      <h3>新增关键词：进气畸变 + 激盘/体力模型</h3>
+      <p>原有关键词漏掉了整个进气畸变方向，以及 fan（而非 compressor）的激盘模型文献。补入 4 个关键词：inlet distortion compressor、circumferential distortion compressor、actuator disk model fan、total pressure distortion turbomachinery。每次查询上限从 25 提高到 50。</p>
+    </div>
+
+    <div class="build-entry milestone">
+      <span class="build-entry-tag t-milestone">当前状态</span>
+      <h3>AI 对话面板：用自然语言检索论文库</h3>
+      <p>新增 AI CHAT 标签页。可以直接问"库里有没有做激盘模型的论文"、"Dakun Sun 的研究方向是什么"——系统先在本地论文库做关键词检索，把最相关的 8 篇连同摘要送给 DeepSeek，回答实时流式输出。</p>
+      <p>接下来的可能方向：对接机构账号获取全文、增加邮件推送、接入更多期刊（如 IJHFF、Aerospace Science and Technology）。</p>
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+<!-- ── AI CHAT TAB ──────────────────────────── -->
+<div id="tab-chat" style="display:none">
+  <div class="chat-header">
+    <h2>AI ASSISTANT</h2>
+    <p>基于论文库（<span id="chat-paper-count">—</span> 篇）的智能检索助手 · DeepSeek 驱动 · 优先检索已有论文，找不到时告知</p>
+  </div>
+
+  <div class="chat-messages" id="chat-messages">
+    <div class="chat-empty" id="chat-empty">
+      <div class="chat-empty-icon">◎</div>
+      <div class="chat-empty-title">ASK ANYTHING</div>
+      <div class="chat-empty-hint">用自然语言检索论文库，询问某个方向有哪些成果，或让 AI 帮你梳理某篇论文的要点。</div>
+      <div class="chat-suggestions">
+        <span class="chat-suggestion" onclick="fillChat('库里有做激盘模型的论文吗？')">库里有做激盘模型的论文吗？</span>
+        <span class="chat-suggestion" onclick="fillChat('Dakun Sun 发表了哪些论文？研究方向是什么？')">Dakun Sun 研究方向</span>
+        <span class="chat-suggestion" onclick="fillChat('总结一下机匣处理对压气机稳定性影响的研究现状')">机匣处理研究现状</span>
+        <span class="chat-suggestion" onclick="fillChat('有没有关于进气畸变对失速边界影响的论文？')">进气畸变 + 失速边界</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-input-row">
+    <textarea
+      id="chat-input"
+      class="chat-input"
+      placeholder="提问，例如：有没有做 Moore-Greitzer 模型改进的论文？"
+      rows="1"
+      onkeydown="chatKeydown(event)"
+      oninput="autoResize(this)"
+    ></textarea>
+    <button class="chat-send-btn" id="chat-send" onclick="sendChat()">SEND ↵</button>
+  </div>
+</div>
+
+<div id="tab-manual" style="display:none">
+<div class="manual-wrap">
+
+  <div class="manual-hero">
+    <h1>研究<em>雷达</em><br>使用手册</h1>
+    <p>一个面向压气机气动热力学领域的自动化学术监控系统。每天自动抓取 AIAA / ASME 四本核心期刊的最新论文，由 DeepSeek AI 做深度分析，并通过本页面呈现结果。</p>
+  </div>
+
+  <!-- 系统架构 -->
+  <div class="manual-section">
+    <div class="manual-section-title">系统架构</div>
+    <h2>数据流程</h2>
+    <p>系统分为三个独立模块，按顺序串联运行：</p>
+    <div class="manual-steps">
+      <div class="manual-step">
+        <div class="manual-step-num">1</div>
+        <div class="manual-step-body">
+          <strong>抓取论文（fetch_papers.py）</strong>
+          <p>调用 OpenAlex API，按期刊 ISSN 精确过滤，增量拉取 2020 年至今的新论文。每篇记录标题、摘要、作者、DOI、发表日期、期刊名。</p>
+        </div>
+      </div>
+      <div class="manual-step">
+        <div class="manual-step-num">2</div>
+        <div class="manual-step-body">
+          <strong>AI 深度分析（process_with_ai.py）</strong>
+          <p>调用 DeepSeek（deepseek-chat）对每篇新论文进行分析，生成中文综述、研究方法、创新点、主要结论、局限性和相关度评分（0–5 分）。低于阈值（默认 2 分）的论文会被过滤。</p>
+          <p>如果用户写过评价标注，这些内容会自动注入 AI 的系统提示，使相关度判断越来越符合个人研究偏好。</p>
+        </div>
+      </div>
+      <div class="manual-step">
+        <div class="manual-step-num">3</div>
+        <div class="manual-step-body">
+          <strong>写入数据（run_pipeline.py）</strong>
+          <p>合并新旧论文、按日期倒序、只保留最新 500 篇，同时匹配课题组标签、统计高频作者，写入 <span class="manual-cmd" style="display:inline;padding:1px 8px">data/papers.json</span> 和 <span class="manual-cmd" style="display:inline;padding:1px 8px">data/groups.json</span>。</p>
+        </div>
+      </div>
+    </div>
+    <div class="manual-cmd">cd scripts &amp;&amp; python run_pipeline.py</div>
+    <div class="manual-warn">流水线支持增量更新——已入库的论文不会被重复处理。每次运行只消耗新增论文的 API token。</div>
+  </div>
+
+  <!-- 数据来源 -->
+  <div class="manual-section">
+    <div class="manual-section-title">数据来源</div>
+    <h2>监控的期刊</h2>
+    <table class="manual-table">
+      <tr><th>期刊</th><th>出版商</th><th>ISSN</th></tr>
+      <tr><td>Journal of Turbomachinery</td><td>ASME</td><td>0889-504X</td></tr>
+      <tr><td>J. Eng. Gas Turbines and Power</td><td>ASME</td><td>0742-4795</td></tr>
+      <tr><td>Journal of Propulsion and Power</td><td>AIAA</td><td>0748-4658</td></tr>
+      <tr><td>AIAA Journal</td><td>AIAA</td><td>0001-1452</td></tr>
+    </table>
+    <p style="margin-top:14px">关键词在 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/config.py</code> 的 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">KEYWORDS</code> 列表中配置，目前包含：压气机稳定性、叶尖间隙、机匣处理、旋转失速等核心方向。</p>
+  </div>
+
+  <!-- 网页功能 -->
+  <div class="manual-section">
+    <div class="manual-section-title">网页功能</div>
+    <h2>PAPERS 标签页</h2>
+    <div class="manual-grid">
+      <div class="manual-card">
+        <div class="manual-card-title">搜索</div>
+        <p>实时过滤，同时匹配标题、中文摘要、作者名。</p>
+      </div>
+      <div class="manual-card">
+        <div class="manual-card-title">排序</div>
+        <p>入库日期（默认）/ 发表日期 / 相关度，三种排序方式。</p>
+      </div>
+      <div class="manual-card">
+        <div class="manual-card-title">已读过滤</div>
+        <p>可筛选"只看未读"或"只看已读"，配合已读标记使用。</p>
+      </div>
+      <div class="manual-card">
+        <div class="manual-card-title">标签过滤</div>
+        <p>点击顶部标签栏按研究方向分类过滤（叶尖间隙 / 失速 / 数值模拟…）。</p>
+      </div>
+    </div>
+    <p style="margin-top:20px">每张论文卡片包含：</p>
+    <table class="manual-table">
+      <tr><th>字段</th><th>说明</th></tr>
+      <tr><td>相关度徽章</td><td><span class="manual-tag">核心方向</span><span class="manual-tag">高度相关</span><span class="manual-tag">相关</span>对应 5 / 4 / 3 分，左侧彩色竖条为视觉辅助</td></tr>
+      <tr><td>◈ 期刊名</td><td>来自 OpenAlex 的发表期刊全称</td></tr>
+      <tr><td>课题组标签</td><td>论文作者匹配预设课题组后自动打上</td></tr>
+      <tr><td>中文综述</td><td>DeepSeek 基于摘要生成的 80–150 字中文概述</td></tr>
+      <tr><td>研究方法 / 创新点 / 主要结论 / 局限性</td><td>DeepSeek 深度分析的四个结构化字段</td></tr>
+      <tr><td>入库日期</td><td>本系统首次检索该论文的日期</td></tr>
+      <tr><td>标记已读</td><td>点击切换已读状态，状态持久保存在服务器端</td></tr>
+      <tr><td>写评价</td><td>可针对论文写个人评注，下次运行流水线时 AI 会参考这些评价调整相关度判断</td></tr>
+    </table>
+  </div>
+
+  <!-- GROUPS -->
+  <div class="manual-section">
+    <div class="manual-section-title">网页功能</div>
+    <h2>GROUPS 标签页</h2>
+    <p>追踪重要课题组的发文动态，分为两类：</p>
+    <div class="manual-grid">
+      <div class="manual-card">
+        <div class="manual-card-title">预设课题组</div>
+        <p>在 config.py 中手动配置 PI 姓名，系统按作者名匹配。目前包含 Greitzer（MIT）、Nicole L. Key（Purdue）、Chunill Hah（NASA Glenn）等 6 个课题组。</p>
+      </div>
+      <div class="manual-card">
+        <div class="manual-card-title"><span class="manual-tag gold">AUTO</span> 自动识别</div>
+        <p>在现有论文库中，发文量 ≥ 3 篇且不在预设名单中的作者，会被自动识别为值得追踪的高频作者，以 ★ 标记。</p>
+      </div>
+    </div>
+    <p style="margin-top:14px">点击任意课题组卡片，Papers 标签页会自动切换并过滤出该组的论文。</p>
+    <div class="manual-warn">如需添加新课题组，在 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/config.py</code> 的 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">RESEARCH_GROUPS</code> 列表中补充 name、institution、pis 三个字段，下次运行流水线后生效。</div>
+  </div>
+
+  <!-- 标注系统 -->
+  <div class="manual-section">
+    <div class="manual-section-title">核心机制</div>
+    <h2>标注与 AI 反馈循环</h2>
+    <div class="manual-steps">
+      <div class="manual-step">
+        <div class="manual-step-num">①</div>
+        <div class="manual-step-body">
+          <strong>写评价</strong>
+          <p>在论文卡片底部点击"+ 写评价"，输入你对这篇论文的评价，例如："这篇关于非对称机匣处理的方法和我们的思路很接近，重点关注其实验验证部分。"</p>
+        </div>
+      </div>
+      <div class="manual-step">
+        <div class="manual-step-num">②</div>
+        <div class="manual-step-body">
+          <strong>自动注入</strong>
+          <p>下次运行 run_pipeline.py 时，系统会读取所有带评价的标注，将其整合进 DeepSeek 的系统提示词，让 AI 参考你的历史评价来校准新论文的相关度判断。</p>
+        </div>
+      </div>
+      <div class="manual-step">
+        <div class="manual-step-num">③</div>
+        <div class="manual-step-body">
+          <strong>越用越准</strong>
+          <p>随着标注积累，AI 对"你认为相关"的论文会逐渐形成更准确的判断，减少噪音，聚焦核心方向。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 修改指南 -->
+  <div class="manual-section">
+    <div class="manual-section-title">修改指南</div>
+    <h2>文件地图：改什么动哪里</h2>
+    <table class="manual-table">
+      <tr><th>想改的内容</th><th>动哪个文件</th><th>改哪里</th></tr>
+      <tr><td>关键词（搜索词）</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/config.py</code></td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">KEYWORDS</code> 列表</td></tr>
+      <tr><td>监控的期刊</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/config.py</code></td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">TARGET_JOURNALS</code> 列表</td></tr>
+      <tr><td>预设课题组</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/config.py</code></td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">RESEARCH_GROUPS</code> 列表</td></tr>
+      <tr><td>AI 分析的分类标签</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/config.py</code></td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">CATEGORIES</code> 列表</td></tr>
+      <tr><td>相关度阈值 / 抓取数量</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/config.py</code></td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">MIN_RELEVANCE</code>、<code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">MAX_PAPERS_PER_QUERY</code></td></tr>
+      <tr><td>AI 提示词 / 分析字段</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/process_with_ai.py</code></td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">ABSTRACT_TEMPLATE</code> / <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">FULLTEXT_TEMPLATE</code></td></tr>
+      <tr><td>论文卡片显示内容</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">index.html</code></td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">renderPaper()</code> 函数</td></tr>
+      <tr><td>过滤 / 排序逻辑</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">index.html</code></td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">render()</code> 函数</td></tr>
+      <tr><td>配色 / 字体 / 布局</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">index.html</code></td><td>顶部 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">&lt;style&gt;</code> 里的 CSS 变量（<code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">:root</code>）</td></tr>
+      <tr><td>后端 API 端点</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/server.py</code></td><td>用 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">@app.route()</code> 新增路由</td></tr>
+      <tr><td>AI 对话的系统提示</td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/server.py</code></td><td><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">CHAT_SYSTEM</code> 字符串</td></tr>
+    </table>
+  </div>
+
+  <!-- 场景指南 -->
+  <div class="manual-section">
+    <div class="manual-section-title">修改指南</div>
+    <h2>常见场景：该怎么改</h2>
+
+    <div class="manual-steps">
+
+      <div class="manual-step">
+        <div class="manual-step-num">①</div>
+        <div class="manual-step-body">
+          <strong>加关键词</strong>
+          <p>打开 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/config.py</code>，在 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">KEYWORDS</code> 列表末尾追加一行：</p>
+          <div class="manual-cmd">"tip leakage vortex compressor",</div>
+          <p>关键词用英文，OpenAlex 会在四本期刊的标题+摘要里搜索。保存后点"▶ 更新检索"，新关键词匹配到的论文会被抓取并经 AI 分析入库。</p>
+          <div class="manual-warn">每加一个关键词 = 多 4 次 API 请求（每本期刊一次）。目前已并发，速度快，不用担心数量问题。</div>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">②</div>
+        <div class="manual-step-body">
+          <strong>加监控期刊</strong>
+          <p>在 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">config.py</code> 的 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">TARGET_JOURNALS</code> 里加一行，需要提供期刊的 ISSN（在期刊官网或 OpenAlex 上查）：</p>
+          <div class="manual-cmd">{"name": "Aerospace Science and Technology", "issn": "1270-9638"},</div>
+          <p>ISSN 是唯一标识，必须正确，否则过滤后返回 0 篇。可以先去 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">api.openalex.org/works?filter=primary_location.source.issn:XXXX&amp;per-page=3</code> 验证一下。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">③</div>
+        <div class="manual-step-body">
+          <strong>加预设课题组</strong>
+          <p>在 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">config.py</code> 的 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">RESEARCH_GROUPS</code> 末尾追加：</p>
+          <div class="manual-cmd">{"name": "Vo Group", "institution": "Concordia University", "pis": ["Vo H", "Huu Duc Vo"]},</div>
+          <p><code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">pis</code> 是匹配列表，系统会检查论文作者字段里是否<strong>包含</strong>任意一个 PI 姓名（大小写不敏感）。建议同时加"姓 首字母"和"全名"两种格式，覆盖不同数据库的记录方式。修改后需重跑流水线（标签在入库时打）。</p>
+          <p>也可以直接在网页的 GROUPS 标签页点 ✎ 按钮在线编辑，编辑结果存入 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">data/custom_groups.json</code>，<strong>不需要重跑流水线，立即生效</strong>。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">④</div>
+        <div class="manual-step-body">
+          <strong>改 AI 分析的深度或重点</strong>
+          <p>打开 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/process_with_ai.py</code>，找到 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">ABSTRACT_TEMPLATE</code>（仅有摘要时用）或 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">FULLTEXT_TEMPLATE</code>（有全文时用）。</p>
+          <p>JSON 格式里每个字段后面的注释是字数要求，可以改。比如要让"创新点"更聚焦：把 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">"40~70字，与前人工作相比的核心创新点"</code> 改成 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">"40~70字，重点说明与 Moore-Greitzer 框架相比的创新"</code>。</p>
+          <div class="manual-warn">改提示词只影响<strong>新增</strong>论文。已入库的论文不会重新分析，除非手动清空 papers.json。</div>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">⑤</div>
+        <div class="manual-step-body">
+          <strong>改论文卡片显示的字段</strong>
+          <p>打开 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">index.html</code>，搜索 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">function renderPaper</code>。这个函数负责把一篇论文的 JSON 数据渲染成 HTML 卡片。</p>
+          <p>每个字段的 key 和 papers.json 里的字段名对应，比如 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">p.summary_zh</code> 是中文综述，<code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">p.method</code> 是研究方法，<code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">p.relevance</code> 是相关度分数。想隐藏某个字段，删掉对应的 HTML 模板字符串即可。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">⑥</div>
+        <div class="manual-step-body">
+          <strong>改过滤 / 排序规则</strong>
+          <p>在 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">index.html</code> 里搜索 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">function render()</code>。这个函数读取当前的过滤条件（搜索词、标签、已读状态、课题组），过滤 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">papers</code> 数组，再排序，最后调用 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">renderPaper</code> 逐篇渲染。排序逻辑在 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">sortSel.value</code> 的 switch 块里。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">⑦</div>
+        <div class="manual-step-body">
+          <strong>改配色</strong>
+          <p>在 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">index.html</code> 顶部的 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">&lt;style&gt;</code> 里找 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">:root { }</code>。所有颜色都是 CSS 变量，改 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">--bg</code>（背景）、<code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">--gold</code>（金色强调）等即可全局生效。</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- papers.json 结构 -->
+  <div class="manual-section">
+    <div class="manual-section-title">修改指南</div>
+    <h2>papers.json 字段说明</h2>
+    <p>每篇论文是一个 JSON 对象，包含以下字段：</p>
+    <table class="manual-table">
+      <tr><th>字段名</th><th>来源</th><th>说明</th></tr>
+      <tr><td>id</td><td>系统生成</td><td>标题的 MD5 哈希前 12 位，用于去重</td></tr>
+      <tr><td>title</td><td>OpenAlex</td><td>英文论文标题</td></tr>
+      <tr><td>abstract</td><td>OpenAlex</td><td>英文摘要（从倒排索引还原）</td></tr>
+      <tr><td>authors</td><td>OpenAlex</td><td>作者列表（全部，不截断）</td></tr>
+      <tr><td>date</td><td>OpenAlex</td><td>发表日期，格式 YYYY-MM-DD</td></tr>
+      <tr><td>url</td><td>OpenAlex</td><td>DOI 链接</td></tr>
+      <tr><td>venue</td><td>OpenAlex</td><td>期刊全称</td></tr>
+      <tr><td>pdf_url</td><td>Unpaywall</td><td>开放获取 PDF 链接（目前大多为空）</td></tr>
+      <tr><td>fetched_at</td><td>系统生成</td><td>首次入库日期，用于"NEW"标记</td></tr>
+      <tr><td>groups</td><td>run_pipeline</td><td>匹配到的预设课题组名称列表</td></tr>
+      <tr><td>summary_zh</td><td>DeepSeek</td><td>80–150 字中文综述</td></tr>
+      <tr><td>method</td><td>DeepSeek</td><td>研究方法描述</td></tr>
+      <tr><td>innovation</td><td>DeepSeek</td><td>创新点</td></tr>
+      <tr><td>conclusions</td><td>DeepSeek</td><td>主要结论</td></tr>
+      <tr><td>limitations</td><td>DeepSeek</td><td>局限性</td></tr>
+      <tr><td>tags</td><td>DeepSeek</td><td>从 CATEGORIES 里选的 1–3 个分类标签</td></tr>
+      <tr><td>relevance</td><td>DeepSeek</td><td>0–5 分，低于 MIN_RELEVANCE 的论文不入库</td></tr>
+      <tr><td>relevance_reason</td><td>DeepSeek</td><td>相关度评分理由（一句话）</td></tr>
+      <tr><td>has_fulltext</td><td>DeepSeek</td><td>是否基于全文分析（目前均为 false）</td></tr>
+    </table>
+  </div>
+
+  <!-- 调试 -->
+  <div class="manual-section">
+    <div class="manual-section-title">修改指南</div>
+    <h2>调试常见问题</h2>
+    <div class="manual-steps">
+
+      <div class="manual-step">
+        <div class="manual-step-num">?</div>
+        <div class="manual-step-body">
+          <strong>新增论文 0 篇，但没有报错</strong>
+          <p>最常见原因：所有抓回来的论文 ID 已存在于 papers.json，全部被增量跳过。在终端直接运行 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">python fetch_papers.py</code> 看原始抓取数量；如果有新论文但没入库，通常是 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">MIN_RELEVANCE</code> 阈值过高（DeepSeek 给分低于 2）。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">?</div>
+        <div class="manual-step-body">
+          <strong>某篇很相关的论文没被抓到</strong>
+          <p>先确认它在四本目标期刊之一。如果是，说明关键词没有覆盖它的标题/摘要——把论文里的核心术语加入 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">KEYWORDS</code>，再更新检索即可。也可以通过 AI CHAT 提问，AI 会告诉你库里有没有，以及是否需要新关键词。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">?</div>
+        <div class="manual-step-body">
+          <strong>DeepSeek API 调用失败</strong>
+          <p>检查 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">.env</code> 文件里 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">DEEPSEEK_API_KEY</code> 是否正确，账户是否有余额。API 调用失败时该篇论文会被跳过（不中断整体流程），日志会打印警告。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">?</div>
+        <div class="manual-step-body">
+          <strong>服务器端口 8000 被占用</strong>
+          <p>在终端运行：</p>
+          <div class="manual-cmd">netstat -ano | findstr :8000</div>
+          <p>找到 PID 后：</p>
+          <div class="manual-cmd">taskkill /F /PID &lt;数字&gt;</div>
+          <p>再重新启动 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">python server.py</code> 即可。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">?</div>
+        <div class="manual-step-body">
+          <strong>想完全重建论文库</strong>
+          <p>删除 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">data/papers.json</code>，重新运行流水线。所有论文会被重新抓取并经 AI 分析。注意：<code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">annotations.json</code>（你写的评价）不会被清空，建议先备份。</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 开发历史（已迁移到 BUILD 页） -->
+  <div class="manual-section">
+    <div class="manual-section-title">参考</div>
+    <h2>完整开发历史</h2>
+    <p>每个版本做了什么、遇到什么问题、为什么这么决策，详见 <strong>BUILD</strong> 标签页。</p>
+  </div>
+
+  <!-- 环境配置 -->
+  <div class="manual-section">
+    <div class="manual-section-title">运维</div>
+    <h2>本地环境配置</h2>
+    <table class="manual-table">
+      <tr><th>配置项</th><th>说明</th></tr>
+      <tr><td>DEEPSEEK_API_KEY</td><td>在 .env 文件中设置，访问 platform.deepseek.com 获取</td></tr>
+      <tr><td>GITHUB_TOKEN</td><td>在 .env 文件中设置，用于抓取 GitHub 仓库数据（可选）</td></tr>
+      <tr><td>MIN_RELEVANCE</td><td>config.py 中，低于此分数的论文被过滤，默认 2</td></tr>
+      <tr><td>MAX_PAPERS_PER_QUERY</td><td>config.py 中，每个关键词 × 期刊组合最多抓取篇数，当前 50</td></tr>
+    </table>
+    <h2 style="margin-top:28px">启动服务</h2>
+    <div class="manual-cmd">cd scripts &amp;&amp; python server.py</div>
+    <p style="margin-top:10px">访问 <span class="manual-tag green">http://localhost:8000</span>。服务器提供静态文件 + 标注 API + AI 对话，需要保持运行状态。</p>
+    <div class="manual-warn">data/papers.json 最多保留 500 篇，超出后按日期自动截断。annotations.json 保存所有标注，请妥善备份。</div>
+  </div>
+
+  <!-- 历史开发步骤（仅保留结构，实际内容见 BUILD 页） -->
+  <div style="display:none"><div class="manual-steps">
+
+      <div class="manual-step">
+        <div class="manual-step-num">v1</div>
+        <div class="manual-step-body">
+          <strong>文件整理 + 第一次跑通</strong>
+          <p>把散落的脚本整理成 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/</code> 和 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">data/</code> 两个目录。配置好 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">.env</code> 文件存放 DeepSeek API Key，用 arXiv + Semantic Scholar 作为数据来源跑第一次流水线。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">v2</div>
+        <div class="manual-step-body">
+          <strong>数据源大换血：arXiv / Semantic Scholar → OpenAlex</strong>
+          <p>arXiv 和 Semantic Scholar 都在大量请求时返回 <strong>429（限速）</strong>错误，5 个关键词全部失败，0 篇论文入库。问题根本在于这两个 API 对高频调用不友好。</p>
+          <p>换成 <strong>OpenAlex API</strong>：按期刊 ISSN 精确过滤 AIAA/ASME 四本核心期刊，不需要注册、不限速、直接返回结构化数据。第一次运行拿到 206 篇候选论文。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">v3</div>
+        <div class="manual-step-body">
+          <strong>搭建网页</strong>
+          <p>用 Python 内置的 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">python -m http.server</code> 在本地起了一个静态文件服务器，把 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">data/papers.json</code> 渲染成网页。这个服务器只能提供文件，不能处理任何"写"操作。</p>
+          <p>使用 frontend-design 插件做了深色航空风格的 UI 设计，选用 Cormorant Garamond + IBM Plex Mono 字体组合。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">v4</div>
+        <div class="manual-step-body">
+          <strong>AI 分析增强：从摘要扩展到结构化字段</strong>
+          <p>原来 DeepSeek 只生成一段中文综述。扩展为六个字段：中文综述、研究方法、创新点、主要结论、局限性、相关度理由。同时尝试用 Unpaywall 获取全文 PDF（AIAA/ASME 期刊几乎全付费，实际获取 0 篇，代码备用）。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">v5</div>
+        <div class="manual-step-body">
+          <strong>从静态服务器 → Flask 服务器（这就是"TASKKILL"的来历）</strong>
+          <p>要实现标注功能（把评价写回磁盘），就必须有一个能接收 POST 请求的服务器，而 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">python -m http.server</code> 做不到这一点。于是写了 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">scripts/server.py</code>，用 Flask 框架替代原来的静态服务器。</p>
+          <p>替换时需要先杀掉旧进程才能让新服务器占用同一个端口（8000）。Windows 上用的命令是 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">taskkill /F /PID &lt;进程号&gt;</code>，这就是你看到的那些 TASKKILL 操作的来由——不是在删什么重要东西，只是把占着端口的旧服务器进程关掉。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">v6</div>
+        <div class="manual-step-body">
+          <strong>课题组追踪 + 标注与 AI 反馈</strong>
+          <p>在 config.py 里配置 6 个预设课题组的 PI 姓名，流水线运行时自动按作者名匹配并打标签。同时统计高频作者（≥ 3 篇）自动生成 ★ 条目。标注功能上线：在网页写下评价 → 保存到 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">annotations.json</code> → 下次流水线自动注入 DeepSeek 的系统提示，形成个性化反馈闭环。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">v7</div>
+        <div class="manual-step-body">
+          <strong>入库日期 + 已读标记</strong>
+          <p>每篇论文记录首次入库日期（<code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">fetched_at</code>），方便区分"新来的"和"老论文"。在网页端增加"标记已读"按钮，状态持久保存在服务器端，支持按已读/未读筛选。修复了 ★ 自动作者点击后无论文显示的 bug（原因是作者名只存在 authors 字段里，没有写回 groups 字段，过滤逻辑需要特殊处理）。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">v8</div>
+        <div class="manual-step-body">
+          <strong>网页端一键触发流水线</strong>
+          <p>以前更新论文需要打开终端、切换目录、手动运行 Python 脚本。现在 Flask 服务器新增了两个 API 接口：<code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">/api/pipeline/run</code> 触发流水线、<code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">/api/pipeline/status</code> 返回实时日志。右上角"▶ 更新检索"点击即可触发，右侧面板滑出显示进度，完成后一键刷新数据不重载页面。流水线运行在 Flask 后台线程里，关掉浏览器不会中断。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">v9</div>
+        <div class="manual-step-body">
+          <strong>结构化进度面板 + 课题组可编辑</strong>
+          <p>进度面板从纯文字日志升级为三步骤可视化（抓取 → AI 分析 → 写入），含论文标题滚动、进度条和完成汇总。原始日志折叠到底部。</p>
+          <p>课题组支持在线编辑：每张 Group 卡片右上角有 ✎ 按钮，可修改名称、机构和 PI 姓名。特别是自动识别的 ★ 作者，可以直接编辑成正式课题组名称，编辑后 paper 数不变，过滤逻辑自动适配。编辑记录存在 <code style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--blue)">data/custom_groups.json</code>。</p>
+        </div>
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">v10</div>
+        <div class="manual-step-body">
+          <strong>流水线状态持久化</strong>
+          <p>修复了关闭进度面板后按钮卡死在 disabled 状态的 bug。现在关掉面板后按钮变为绿色"⟳ 运行中…"，仍可点击重新打开面板续看进度。刷新浏览器后页面会自动检查服务器端流水线状态，如果还在运行，进度面板自动弹出、按钮自动变绿，不会丢失进度视图。</p>
+        </div>
+      </div>
+
+    </div>
+  </div></div>
+
+</div>
+</div>
+
+<script>
+let papers = [], repos = [], groups = [], annotations = {}, customGroups = [], activeTag = null, activeGroup = null;
+const _groupEditData = {};  // key → edit info，供 openGroupEdit 使用
+
+const REL_LABEL = { 5:'核心方向', 4:'高度相关', 3:'相关', 2:'部分相关' };
+const REL_CLASS = { 5:'r5', 4:'r4', 3:'r3', 2:'r2' };
+
+async function load() {
+  const [p, r, m, g, a, cg] = await Promise.allSettled([
+    fetch('data/papers.json').then(x => x.json()),
+    fetch('data/repos.json').then(x => x.json()),
+    fetch('data/meta.json').then(x => x.json()),
+    fetch('data/groups.json').then(x => x.json()),
+    fetch('/api/annotations').then(x => x.json()),
+    fetch('/api/groups/custom').then(x => x.json()),
+  ]);
+  papers       = p.status === 'fulfilled' ? p.value : [];
+  repos        = r.status === 'fulfilled' ? r.value : [];
+  groups       = g.status === 'fulfilled' ? g.value : [];
+  customGroups = cg.status === 'fulfilled' ? cg.value : [];
+  annotations = a.status === 'fulfilled' ? a.value : {};
+  const meta  = m.status === 'fulfilled' ? m.value : [];
+  const metaEl = document.getElementById('meta');
+  if (meta[0]?.last_updated) {
+    metaEl.textContent = 'UPDATED ' + meta[0].last_updated.replace('T',' ').replace('Z',' UTC');
+  } else {
+    metaEl.textContent = 'LIVE';
+  }
+  buildTags();
+  render();
+  renderGroups();
+  renderRepos();
+
+  // 页面加载时检查 pipeline 是否正在运行
+  const ps = await fetch('/api/pipeline/status').then(r => r.json()).catch(() => null);
+  if (ps && ps.running) {
+    const btn = document.getElementById('run-btn');
+    setBtnRunning(btn);
+    // 用已有日志初始化面板 UI，不重置步骤
+    document.getElementById('pipeline-title').textContent = 'PIPELINE RUNNING';
+    document.getElementById('pipeline-spinner').textContent = '⟳';
+    document.getElementById('pipeline-spinner').style.animation = 'spin 1s linear infinite';
+    document.getElementById('pipeline-reload-btn').style.display = 'none';
+    const logEl = document.getElementById('pipeline-log');
+    logEl.textContent = ps.logs.join('\n');
+    updateStepUI(parseProgress(ps.logs), true, 'running');
+    openPipelinePanel();
+    startPolling(btn);
+  }
+}
+
+function buildTags() {
+  const tags = new Set();
+  papers.forEach(p => (p.tags||[]).forEach(t => tags.add(t)));
+  const bar = document.getElementById('tag-bar');
+  bar.innerHTML = '<span class="tag-bar-label">Filter</span>';
+  ['全部', ...tags].forEach(tag => {
+    const btn = document.createElement('button');
+    btn.className = 'tag-pill' + (tag === '全部' && !activeTag ? ' active' : '');
+    btn.textContent = tag;
+    btn.onclick = () => {
+      activeTag = tag === '全部' ? null : tag;
+      bar.querySelectorAll('.tag-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    };
+    bar.appendChild(btn);
+  });
+}
+
+function render() {
+  const q = document.getElementById('search').value.toLowerCase();
+  const sortBy = document.getElementById('sort').value;
+
+  const readFilter = document.getElementById('read-filter').value;
+
+  let list = papers.filter(p => {
+    if (activeTag   && !(p.tags||[]).includes(activeTag))    return false;
+    if (activeGroup) {
+      const customEntry = customGroups.find(g => g.name === activeGroup);
+      if (customEntry) {
+        // 合并 pis + 从 replaces 自动补充原始作者名（兜底）
+        const autoPI = customEntry.replaces ? customEntry.replaces.replace(/^★\s*/, '') : '';
+        const allPIs = [...(customEntry.pis || [])];
+        if (autoPI && !allPIs.some(p => p.toLowerCase() === autoPI.toLowerCase())) {
+          allPIs.push(autoPI);
+        }
+        if (allPIs.length) {
+          const hit = allPIs.some(pi =>
+            pi && (p.authors||[]).some(a => a.toLowerCase().includes(pi.toLowerCase()))
+          );
+          if (!hit) return false;
+        }
+      } else {
+        // 无自定义条目：直接查 groups.json
+        const groupMeta = groups.find(g => g.name === activeGroup);
+        if (groupMeta && groupMeta.preset === false) {
+          const authorName = activeGroup.replace(/^★\s*/, '').toLowerCase();
+          if (!(p.authors||[]).some(a => a.toLowerCase().includes(authorName))) return false;
+        } else {
+          if (!(p.groups||[]).includes(activeGroup)) return false;
+        }
+      }
+    }
+    const isRead = !!(annotations[p.id]?.read);
+    if (readFilter === 'unread' &&  isRead) return false;
+    if (readFilter === 'read'   && !isRead) return false;
+    if (!q) return true;
+    return (p.title + (p.summary_zh||'') + (p.authors||[]).join(' ')).toLowerCase().includes(q);
+  });
+
+  if (sortBy === 'rel')   list.sort((a,b) => (b.relevance||0) - (a.relevance||0));
+  else if (sortBy === 'fetch') list.sort((a,b) => (b.fetched_at||'') > (a.fetched_at||'') ? 1 : -1);
+  else list.sort((a,b) => (b.date||'') > (a.date||'') ? 1 : -1);
+
+  document.getElementById('count').textContent = `${list.length} PAPERS`;
+  const el = document.getElementById('paper-list');
+
+  if (!list.length) {
+    el.innerHTML = '<div class="empty">NO RESULTS FOUND</div>';
+    return;
+  }
+
+  el.innerHTML = list.map((p, i) => {
+    const rel = p.relevance || 0;
+    const tags = (p.tags||[]).map(t => `<span class="ptag">${t}</span>`).join('');
+    const AUTHOR_COLORS = ['#72b4f0','#6ed89a','#f0bc5a','#c48cf0','#f08080','#70d4d4'];
+    const authorList = (p.authors||[]).slice(0,6);
+    const authors = authorList.map((a, i) =>
+      `<span style="color:${AUTHOR_COLORS[i % AUTHOR_COLORS.length]}">${a}</span>`
+    ).join('<span style="color:var(--border2)"> · </span>')
+    + ((p.authors||[]).length > 6 ? '<span style="color:var(--text3)"> et al.</span>' : '');
+    const badge = rel >= 2
+      ? `<span class="rel-badge ${REL_CLASS[rel]||''}">${REL_LABEL[rel]||rel}</span>`
+      : '';
+    const dots = [1,2,3,4,5].map(n => `<span class="rel-dot"></span>`).join('');
+    const delay = Math.min(i * 40, 400);
+
+    const ann        = annotations[p.id];
+    const groupTags  = (p.groups||[]).map(g => `<span class="pgroup">${g}</span>`).join('');
+    const hasNote    = ann && ann.note;
+    const isRead     = !!(ann && ann.read);
+
+    return `
+    <div class="paper-card ${isRead ? 'is-read' : ''}" data-rel="${rel}" style="animation-delay:${delay}ms">
+      <div class="paper-main">
+        <a class="paper-title" href="${p.url||'#'}" target="_blank">${p.title}</a>
+        <div class="paper-meta">
+          ${p.date ? `<span>${p.date}</span>` : ''}
+          ${authors ? `<span class="author-list">${authors}</span>` : ''}
+          ${p.source ? `<span>${p.source}</span>` : ''}
+          ${p.fetched_at ? `<span class="fetched-tag">入库 ${p.fetched_at}</span>` : ''}
+          <button class="read-btn ${isRead ? 'read' : ''}" onclick="toggleRead('${p.id}', this)">
+            ${isRead ? '✓ 已读' : '标记已读'}
+          </button>
+        </div>
+        ${p.venue ? `<div class="paper-venue">◈ ${p.venue}</div>` : ''}
+        ${groupTags ? `<div class="paper-groups">${groupTags}</div>` : ''}
+        ${p.summary_zh ? `<div class="paper-summary">${p.summary_zh}</div>` : ''}
+        ${(p.method || p.innovation || p.conclusions || p.limitations) ? `
+        <div class="paper-detail">
+          ${p.method      ? `<div class="paper-detail-item"><span class="paper-detail-label">研究方法</span><span>${p.method}</span></div>` : ''}
+          ${p.innovation  ? `<div class="paper-detail-item"><span class="paper-detail-label">创新点</span><span>${p.innovation}</span></div>` : ''}
+          ${p.conclusions ? `<div class="paper-detail-item"><span class="paper-detail-label">主要结论</span><span>${p.conclusions}</span></div>` : ''}
+          ${p.limitations ? `<div class="paper-detail-item"><span class="paper-detail-label">局限性</span><span>${p.limitations}</span></div>` : ''}
+        </div>` : ''}
+        ${p.relevance_reason ? `<div class="paper-reason">${p.relevance_reason}</div>` : ''}
+        <div class="paper-tags">${tags}</div>
+        <div class="annotation-wrap">
+          ${hasNote ? `<div class="existing-note">📝 ${ann.note}</div>` : ''}
+          <button class="annotation-toggle ${hasNote ? 'has-note' : ''}"
+                  onclick="toggleAnnotation('${p.id}', this)">
+            ${hasNote ? '编辑评价' : '+ 写评价'}
+          </button>
+          <div class="annotation-box" id="ann-${p.id}">
+            <textarea placeholder="写下你对这篇论文的评价，下次调研时 AI 会参考这些内容…">${hasNote ? ann.note : ''}</textarea>
+            <div class="annotation-actions">
+              <button class="ann-save" onclick="saveAnnotation('${p.id}', this)">保存</button>
+              <button class="ann-clear" onclick="clearAnnotation('${p.id}', this)">清除</button>
+              <span class="ann-status" id="ann-status-${p.id}">已保存</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="paper-side">
+        ${badge}
+        ${p.has_fulltext ? `<span class="fulltext-badge">全文</span>` : ''}
+        <div class="rel-dots">${dots}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderRepos() {
+  const el = document.getElementById('repo-list');
+  if (!repos.length) {
+    el.innerHTML = '<div class="empty">NO REPOS FOUND</div>';
+    return;
+  }
+  el.innerHTML = repos.map(r => {
+    const tags = (r.tags||[]).map(t => `<span class="rtag">${t}</span>`).join('');
+    const desc = r.summary_zh || r.description || '';
+    return `
+    <div class="repo-card">
+      <div class="repo-main">
+        <a class="repo-name" href="${r.url||'#'}" target="_blank">${r.full_name||r.id}</a>
+        ${desc ? `<div class="repo-desc">${desc}</div>` : ''}
+        <div class="repo-rtags">${tags}</div>
+      </div>
+      <div class="repo-stars">★ ${(r.stars||0).toLocaleString()}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderGroups() {
+  const el = document.getElementById('groups-grid');
+
+  // 建立"替换"映射：原始名 → 自定义条目
+  const replacesMap = {};
+  customGroups.forEach(g => { if (g.replaces) replacesMap[g.replaces] = g; });
+
+  // 渲染列表：groups.json 里的数据为主（含统计），自定义条目覆盖显示信息
+  const rendered = new Set();
+  const rows = groups.map(g => {
+    const custom = replacesMap[g.name];       // 是否被自定义替换
+    const displayName = custom ? custom.name : g.name;
+    const displayInst = custom ? custom.institution : (g.institution || '—');
+    const isAuto      = !custom && g.preset === false;
+    const isEdited    = !!custom;
+    const badge       = isAuto   ? '<span class="group-tag">AUTO</span>'
+                      : isEdited ? '<span class="group-tag" style="color:var(--blue);border-color:var(--blue)">已编辑</span>'
+                      : '';
+    const safeName    = displayName.replace(/'/g, "\\'");
+    const isActive    = activeGroup === displayName;
+    rendered.add(displayName);
+    // 把编辑数据存到全局 map，避免 JSON 破坏 HTML 属性引号
+    const editKey = 'grp_' + Math.random().toString(36).slice(2);
+    // pis 预填：已有自定义用自定义 pis；★ 自动作者用去掉★后的作者名作为默认值
+    const defaultPis = (!custom && g.preset === false)
+      ? g.name.replace(/^★\s*/, '')
+      : '';
+    _groupEditData[editKey] = {
+      name: displayName, institution: displayInst,
+      pis: custom ? custom.pis.join(', ') : defaultPis,
+      replaces: g.name, hasCustom: isEdited,
+    };
+    const editBtn = `<button onclick="event.stopPropagation();openGroupEdit(_groupEditData['${editKey}'])"
+      style="position:absolute;top:8px;right:8px;background:none;border:1px solid var(--border2);
+      border-radius:2px;color:var(--text3);font-size:11px;cursor:pointer;padding:2px 7px;
+      font-family:'IBM Plex Mono',monospace;line-height:1.5;transition:all .15s;"
+      onmouseover="this.style.borderColor='var(--gold-dim)';this.style.color='var(--gold)'"
+      onmouseout="this.style.borderColor='var(--border2)';this.style.color='var(--text3)'">✎</button>`;
+    return `
+    <div class="group-card ${isActive ? 'active' : ''}" style="position:relative"
+         onclick="filterByGroup('${safeName}', this)">
+      ${editBtn}
+      <div class="group-name">${displayName}${badge}</div>
+      <div class="group-inst">${displayInst}</div>
+      <div class="group-stats">
+        <div class="group-stat"><span class="group-stat-val">${g.total}</span><span class="group-stat-lbl">PAPERS</span></div>
+        <div class="group-stat"><span class="group-stat-val">${g.avg_relevance||0}</span><span class="group-stat-lbl">AVG REL</span></div>
+      </div>
+    </div>`;
+  });
+  if (!rows.length) { el.innerHTML = '<div class="empty">暂无课题组数据</div>'; return; }
+  el.innerHTML = rows.join('');
+}
+
+function openGroupEdit(info) {
+  // info: {name, institution, pis, replaces, hasCustom}
+  document.getElementById('gem-title').textContent    = info.replaces ? 'EDIT GROUP' : 'EDIT GROUP';
+  document.getElementById('gem-name').value           = info.name;
+  document.getElementById('gem-inst').value           = info.institution || '';
+  document.getElementById('gem-pis').value            = info.pis || '';
+  document.getElementById('gem-replaces').value       = info.replaces || '';
+  document.getElementById('gem-msg').textContent      = '';
+  // 显示自动兜底的原始作者名
+  const autoPI = info.replaces ? info.replaces.replace(/^★\s*/, '') : '';
+  const autoPIEl = document.getElementById('gem-auto-pi');
+  if (autoPI) {
+    document.getElementById('gem-auto-pi-name').textContent = autoPI;
+    autoPIEl.style.display = '';
+  } else {
+    autoPIEl.style.display = 'none';
+  }
+  // 删除按钮仅在已有自定义记录时显示
+  document.getElementById('gem-del-btn').style.display = info.hasCustom ? '' : 'none';
+  const modal = document.getElementById('group-edit-modal');
+  modal.style.display = 'flex';
+  document.getElementById('gem-name').focus();
+}
+
+function closeGroupEdit() {
+  document.getElementById('group-edit-modal').style.display = 'none';
+}
+
+async function saveGroupEdit() {
+  const name     = document.getElementById('gem-name').value.trim();
+  const inst     = document.getElementById('gem-inst').value.trim();
+  const pis      = document.getElementById('gem-pis').value.trim();
+  const replaces = document.getElementById('gem-replaces').value.trim();
+  const msg      = document.getElementById('gem-msg');
+  if (!name) { msg.style.color='var(--rel5)'; msg.textContent='请填写名称'; return; }
+  const res = await fetch('/api/groups/save', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({name, institution: inst, pis, replaces}),
+  });
+  const data = await res.json();
+  if (!data.ok) { msg.style.color='var(--rel5)'; msg.textContent=data.error; return; }
+  // 更新本地 customGroups
+  customGroups = customGroups.filter(g => g.name !== name && g.replaces !== replaces);
+  const pisArr = pis.split(',').map(s=>s.trim()).filter(Boolean);
+  customGroups.push({name, institution: inst, pis: pisArr, replaces: replaces||undefined, custom: true});
+  msg.style.color = 'var(--rel3)'; msg.textContent = '已保存 ✓';
+  setTimeout(() => { closeGroupEdit(); renderGroups(); render(); }, 600);
+}
+
+async function deleteGroupEdit() {
+  const name     = document.getElementById('gem-name').value.trim();
+  const replaces = document.getElementById('gem-replaces').value.trim();
+  if (!confirm(`确定恢复「${replaces||name}」为默认状态？`)) return;
+  await fetch('/api/groups/delete', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({name}),
+  });
+  customGroups = customGroups.filter(g => g.name !== name);
+  if (activeGroup === name) activeGroup = replaces || null;
+  closeGroupEdit();
+  renderGroups();
+  render();
+}
+
+function filterByGroup(name, el) {
+  if (activeGroup === name) {
+    activeGroup = null;
+    el.classList.remove('active');
+  } else {
+    activeGroup = name;
+    document.querySelectorAll('.group-card').forEach(c => c.classList.remove('active'));
+    el.classList.add('active');
+  }
+  switchTab('papers');
+  render();
+}
+
+function toggleAnnotation(id, btn) {
+  const box = document.getElementById('ann-' + id);
+  box.classList.toggle('open');
+}
+
+async function saveAnnotation(id, btn) {
+  const box  = document.getElementById('ann-' + id);
+  const note = box.querySelector('textarea').value.trim();
+  const status = document.getElementById('ann-status-' + id);
+  const resp = await fetch('/api/annotate', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({paper_id: id, note}),
+  });
+  if (resp.ok) {
+    annotations[id] = {note};
+    status.style.display = 'inline';
+    setTimeout(() => { status.style.display = 'none'; }, 2000);
+    const toggle = box.previousElementSibling.previousElementSibling;
+    if (toggle && toggle.classList.contains('annotation-toggle')) {
+      toggle.classList.add('has-note');
+      toggle.textContent = '编辑评价';
+    }
+  }
+}
+
+async function clearAnnotation(id, btn) {
+  await fetch('/api/annotate', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({paper_id: id, note: ''}),
+  });
+  delete annotations[id];
+  render();
+}
+
+async function toggleRead(id, btn) {
+  const card   = btn.closest('.paper-card');
+  const isRead = !btn.classList.contains('read');
+  await fetch('/api/annotate', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({paper_id: id, read: isRead}),
+  });
+  if (!annotations[id]) annotations[id] = {};
+  if (isRead) {
+    annotations[id].read    = true;
+    annotations[id].read_at = new Date().toISOString();
+  } else {
+    delete annotations[id].read;
+    delete annotations[id].read_at;
+  }
+  btn.classList.toggle('read', isRead);
+  btn.textContent = isRead ? '✓ 已读' : '标记已读';
+  card.classList.toggle('is-read', isRead);
+}
+
+// ── 流水线 ────────────────────────────────────
+let _pipelinePoll = null;
+
+function toggleLog() {
+  const el = document.getElementById('pipeline-log');
+  const btn = el.previousElementSibling.querySelector('button');
+  const visible = el.style.display !== 'none';
+  el.style.display = visible ? 'none' : 'block';
+  btn.textContent = (visible ? '▶' : '▼') + ' 查看原始日志';
+}
+
+function setStep(id, state, desc) {
+  const el = document.getElementById(id);
+  el.className = 'pl-step ' + state;
+  if (desc !== undefined) {
+    const d = el.querySelector('.pl-step-desc');
+    if (d) d.textContent = desc;
+  }
+}
+
+function resetSteps() {
+  ['pl-step-fetch','pl-step-ai','pl-step-save'].forEach(id => setStep(id, 'waiting'));
+  document.getElementById('pl-ai-progress').style.display = 'none';
+  document.getElementById('pl-summary').style.display = 'none';
+  document.getElementById('pl-ai-bar').style.width = '0%';
+}
+
+function parseProgress(logs) {
+  // 从日志行里提取进度信息
+  const state = { phase: 'init', aiCur: 0, aiTotal: 0, aiTitle: '', newCount: 0, skipped: 0, filtered: 0 };
+  for (const line of logs) {
+    if (line.includes('流水线启动'))           state.phase = 'fetch';
+    if (line.includes('开始增量更新'))         state.phase = 'fetch';
+    if (line.includes('fetch_all_papers') || line.includes('OpenAlex') || line.includes('抓取'))
+                                               state.phase = 'fetch';
+    // AI处理开始：日志格式 "[3/45] 处理：title"
+    const mAI = line.match(/\[(\d+)\/(\d+)\]\s*处理[：:]\s*(.+)/);
+    if (mAI) {
+      state.phase    = 'ai';
+      state.aiCur    = parseInt(mAI[1]);
+      state.aiTotal  = parseInt(mAI[2]);
+      state.aiTitle  = mAI[3].slice(0, 50);
+    }
+    // 完成统计（优先用 ASCII 标记行，兼容中文乱码）
+    const mStats = line.match(/\[STATS\]\s*new=(\d+)\s*skipped=(\d+)\s*filtered=(\d+)/);
+    if (mStats) {
+      state.newCount = parseInt(mStats[1]);
+      state.skipped  = parseInt(mStats[2]);
+      state.filtered = parseInt(mStats[3]);
+    }
+    const mDone = line.match(/处理完成：(\d+)\s*篇入库.*?(\d+)\s*篇已存在.*?(\d+)\s*篇低相关/);
+    if (mDone && !mStats) {
+      state.newCount = parseInt(mDone[1]);
+      state.skipped  = parseInt(mDone[2]);
+      state.filtered = parseInt(mDone[3]);
+    }
+    if (line.includes('已写入') && line.includes('papers.json')) state.phase = 'save';
+    if (line.includes('流水线完成'))                             state.phase = 'done';
+  }
+  return state;
+}
+
+function updateStepUI(prog, running, status) {
+  const { phase, aiCur, aiTotal, aiTitle, newCount, skipped, filtered } = prog;
+
+  if (phase === 'init') {
+    resetSteps();
+    return;
+  }
+
+  // 抓取步骤
+  if (phase === 'fetch') {
+    setStep('pl-step-fetch', 'active', '正在从 OpenAlex 拉取论文…');
+    setStep('pl-step-ai',    'waiting');
+    setStep('pl-step-save',  'waiting');
+  } else if (phase === 'ai' || phase === 'save' || phase === 'done') {
+    const fetchDesc = aiTotal > 0 ? `拉取完成，共 ${aiTotal} 篇候选` : '拉取完成';
+    setStep('pl-step-fetch', 'done', fetchDesc);
+  }
+
+  // AI步骤
+  if (phase === 'ai') {
+    setStep('pl-step-ai', 'active');
+    const progEl = document.getElementById('pl-ai-progress');
+    progEl.style.display = '';
+    document.getElementById('pl-ai-cur').textContent   = aiTitle;
+    document.getElementById('pl-ai-count').textContent = `${aiCur} / ${aiTotal}`;
+    const pct = aiTotal > 0 ? Math.round(aiCur / aiTotal * 100) : 0;
+    document.getElementById('pl-ai-bar').style.width   = pct + '%';
+    setStep('pl-step-save', 'waiting');
+  } else if (phase === 'save' || phase === 'done') {
+    const aiDesc = newCount > 0 ? `${newCount} 篇入库，${skipped} 篇已存在，${filtered} 篇过滤` : '处理完成';
+    setStep('pl-step-ai', 'done', aiDesc);
+    const aiProg = document.getElementById('pl-ai-progress');
+    aiProg.style.display = '';
+    document.getElementById('pl-ai-bar').style.width = '100%';
+    document.getElementById('pl-ai-count').textContent = aiTotal > 0 ? `${aiTotal} / ${aiTotal}` : '';
+    document.getElementById('pl-ai-cur').textContent = '';
+  }
+
+  // 保存步骤
+  if (phase === 'save') {
+    setStep('pl-step-save', 'active', '正在写入数据文件…');
+  } else if (phase === 'done') {
+    setStep('pl-step-save', 'done', '数据已写入');
+  }
+
+  // 结束状态
+  if (!running) {
+    if (status === 'error') {
+      const activeStep = ['pl-step-fetch','pl-step-ai','pl-step-save'].find(
+        id => document.getElementById(id).classList.contains('active')
+      );
+      if (activeStep) setStep(activeStep, 'error');
+    }
+    if (status === 'done' && newCount >= 0) {
+      const sumEl = document.getElementById('pl-summary');
+      sumEl.style.display = '';
+      document.getElementById('pl-summary-text').innerHTML =
+        `新增 <strong style="color:var(--rel3)">${newCount}</strong> 篇 · ` +
+        `跳过 ${skipped} 篇（已有）· 过滤 ${filtered} 篇（低相关）`;
+    }
+  }
+}
+
+function openPipelinePanel() {
+  document.getElementById('pipeline-panel').style.transform = 'translateX(0)';
+}
+
+function closePipelinePanel() {
+  document.getElementById('pipeline-panel').style.transform = 'translateX(100%)';
+  if (_pipelinePoll) { clearInterval(_pipelinePoll); _pipelinePoll = null; }
+}
+
+function setBtnRunning(btn) {
+  btn.textContent = '⟳ 运行中…';
+  btn.style.color = 'var(--rel3)';
+  btn.style.borderColor = 'rgba(110,216,154,.5)';
+  btn.disabled = false;   // 保持可点击，点击时重新打开面板
+}
+
+function setBtnIdle(btn) {
+  btn.textContent = '▶ 更新检索';
+  btn.style.color = 'var(--gold)';
+  btn.style.borderColor = 'var(--gold-dim)';
+  btn.disabled = false;
+}
+
+function initPanelUI() {
+  resetSteps();
+  document.getElementById('pipeline-title').textContent = 'PIPELINE RUNNING';
+  document.getElementById('pipeline-spinner').textContent = '⟳';
+  document.getElementById('pipeline-spinner').style.animation = 'spin 1s linear infinite';
+  document.getElementById('pipeline-reload-btn').style.display = 'none';
+  document.getElementById('pipeline-log').textContent = '';
+  document.getElementById('pipeline-log').style.display = 'none';
+  document.getElementById('pipeline-panel').querySelector('button[onclick="toggleLog()"]').textContent = '▶ 查看原始日志';
+}
+
+async function runPipeline() {
+  const btn = document.getElementById('run-btn');
+
+  // 先问服务器是否已在运行
+  const status = await fetch('/api/pipeline/status').then(r => r.json()).catch(() => ({running: false}));
+  if (status.running) {
+    // 已在运行：只重新打开面板，不重新启动
+    setBtnRunning(btn);
+    openPipelinePanel();
+    if (!_pipelinePoll) startPolling(btn);
+    return;
+  }
+
+  // 未运行：发起新的运行
+  const res  = await fetch('/api/pipeline/run', {method: 'POST'});
+  const data = await res.json();
+  if (!data.ok) return;
+
+  setBtnRunning(btn);
+  initPanelUI();
+  openPipelinePanel();
+  startPolling(btn);
+}
+
+function startPolling(btn) {
+  if (_pipelinePoll) return;   // 防止重复启动
+  _pipelinePoll = setInterval(async () => {
+    const s = await fetch('/api/pipeline/status').then(r => r.json());
+
+    // 更新原始日志
+    const logEl = document.getElementById('pipeline-log');
+    logEl.textContent = s.logs.join('\n');
+    if (logEl.style.display !== 'none') logEl.scrollTop = logEl.scrollHeight;
+
+    // 更新步骤 UI
+    updateStepUI(parseProgress(s.logs), s.running, s.status);
+
+    if (!s.running) {
+      clearInterval(_pipelinePoll);
+      _pipelinePoll = null;
+      setBtnIdle(btn || document.getElementById('run-btn'));
+      document.getElementById('pipeline-spinner').textContent = s.status === 'done' ? '✓' : '✗';
+      document.getElementById('pipeline-spinner').style.animation = '';
+      document.getElementById('pipeline-title').textContent =
+        s.status === 'done' ? 'PIPELINE COMPLETE' : 'PIPELINE ERROR';
+      document.getElementById('pipeline-reload-btn').style.display = s.status === 'done' ? '' : 'none';
+    }
+  }, 1500);
+}
+
+async function reloadData() {
+  closePipelinePanel();
+  const [p, g, m] = await Promise.allSettled([
+    fetch('data/papers.json?t=' + Date.now()).then(x => x.json()),
+    fetch('data/groups.json?t=' + Date.now()).then(x => x.json()),
+    fetch('data/meta.json?t=' + Date.now()).then(x => x.json()),
+  ]);
+  if (p.status === 'fulfilled') papers = p.value;
+  if (g.status === 'fulfilled') groups = g.value;
+  const meta = m.status === 'fulfilled' ? m.value : [];
+  if (meta[0]?.last_updated)
+    document.getElementById('meta').textContent = 'UPDATED ' + meta[0].last_updated.replace('T',' ').replace('Z',' UTC');
+  buildTags();
+  render();
+  renderGroups();
+}
+
+function switchTab(tab) {
+  ['papers','groups','repos','chat','build','manual'].forEach(t => {
+    document.getElementById('tab-' + t).style.display = t === tab ? '' : 'none';
+    document.getElementById('btn-' + t).classList.toggle('active', t === tab);
+  });
+  if (tab === 'build') {
+    const el = document.getElementById('bs-papers');
+    if (el) el.textContent = papers.length || '—';
+  }
+  if (tab === 'chat') {
+    const el = document.getElementById('chat-paper-count');
+    if (el) el.textContent = papers.length || '—';
+    document.getElementById('chat-input').focus();
+  }
+}
+
+// ── AI Chat ──────────────────────────────────
+
+let chatHistory = [];
+let chatBusy = false;
+
+function fillChat(text) {
+  const inp = document.getElementById('chat-input');
+  inp.value = text;
+  autoResize(inp);
+  inp.focus();
+}
+
+function autoResize(el) {
+  el.style.height = 'auto';
+  el.style.height = Math.min(el.scrollHeight, 120) + 'px';
+}
+
+function chatKeydown(e) {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    sendChat();
+  }
+}
+
+function appendChatMsg(role, text, sources) {
+  const empty = document.getElementById('chat-empty');
+  if (empty) empty.remove();
+
+  const container = document.getElementById('chat-messages');
+  const div = document.createElement('div');
+  div.className = 'chat-msg ' + role;
+
+  const avatar = document.createElement('div');
+  avatar.className = 'chat-msg-avatar';
+  avatar.textContent = role === 'user' ? 'YOU' : 'AI';
+
+  const body = document.createElement('div');
+  body.className = 'chat-msg-body';
+
+  const name = document.createElement('div');
+  name.className = 'chat-msg-name';
+  name.textContent = role === 'user' ? '我' : 'DeepSeek';
+
+  const textEl = document.createElement('div');
+  textEl.className = 'chat-msg-text';
+  textEl.textContent = text;
+
+  body.appendChild(name);
+  body.appendChild(textEl);
+
+  if (sources && sources.length > 0) {
+    const srcBox = document.createElement('div');
+    srcBox.className = 'chat-sources';
+    srcBox.innerHTML = `<div class="chat-sources-title">▸ 参考论文（${sources.length} 篇）</div>` +
+      sources.map(t => `<div class="chat-source-item">· ${t}</div>`).join('');
+    body.appendChild(srcBox);
+  }
+
+  div.appendChild(avatar);
+  div.appendChild(body);
+  container.appendChild(div);
+  container.scrollTop = container.scrollHeight;
+  return textEl;
+}
+
+function addThinking() {
+  const empty = document.getElementById('chat-empty');
+  if (empty) empty.remove();
+
+  const container = document.getElementById('chat-messages');
+  const div = document.createElement('div');
+  div.className = 'chat-msg assistant';
+  div.id = 'chat-thinking';
+
+  const avatar = document.createElement('div');
+  avatar.className = 'chat-msg-avatar';
+  avatar.textContent = 'AI';
+
+  const body = document.createElement('div');
+  body.className = 'chat-msg-body';
+
+  const name = document.createElement('div');
+  name.className = 'chat-msg-name';
+  name.textContent = 'DeepSeek';
+
+  const thinking = document.createElement('div');
+  thinking.className = 'chat-thinking';
+  thinking.innerHTML = '<span></span><span></span><span></span>';
+
+  body.appendChild(name);
+  body.appendChild(thinking);
+  div.appendChild(avatar);
+  div.appendChild(body);
+  container.appendChild(div);
+  container.scrollTop = container.scrollHeight;
+  return div;
+}
+
+async function sendChat() {
+  if (chatBusy) return;
+  const inp = document.getElementById('chat-input');
+  const btn = document.getElementById('chat-send');
+  const msg = inp.value.trim();
+  if (!msg) return;
+
+  inp.value = '';
+  inp.style.height = 'auto';
+  chatBusy = true;
+  btn.disabled = true;
+
+  appendChatMsg('user', msg);
+  const thinkingEl = addThinking();
+
+  chatHistory.push({ role: 'user', content: msg });
+
+  let aiTextEl = null;
+  let aiText = '';
+  let sources = [];
+
+  try {
+    const resp = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: msg, history: chatHistory.slice(-6) }),
+    });
+
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({ error: resp.statusText }));
+      thinkingEl.remove();
+      appendChatMsg('assistant', '错误：' + (err.error || '请求失败'));
+      chatBusy = false; btn.disabled = false;
+      return;
+    }
+
+    const reader = resp.body.getReader();
+    const decoder = new TextDecoder();
+    let buf = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buf += decoder.decode(value, { stream: true });
+
+      const lines = buf.split('\n');
+      buf = lines.pop();
+
+      for (const line of lines) {
+        if (!line.startsWith('data: ')) continue;
+        const data = JSON.parse(line.slice(6));
+
+        if (data.type === 'meta') {
+          sources = data.titles || [];
+          thinkingEl.remove();
+          aiTextEl = appendChatMsg('assistant', '', sources);
+          const cursor = document.createElement('span');
+          cursor.className = 'chat-cursor';
+          aiTextEl.after(cursor);
+
+        } else if (data.type === 'text') {
+          aiText += data.text;
+          if (aiTextEl) {
+            aiTextEl.textContent = aiText;
+            document.getElementById('chat-messages').scrollTop = 99999;
+          }
+
+        } else if (data.type === 'done') {
+          // remove cursor
+          const cursor = document.querySelector('.chat-cursor');
+          if (cursor) cursor.remove();
+          chatHistory.push({ role: 'assistant', content: aiText });
+
+        } else if (data.type === 'error') {
+          thinkingEl.remove();
+          appendChatMsg('assistant', '错误：' + data.text);
+        }
+      }
+    }
+  } catch (e) {
+    thinkingEl.remove();
+    appendChatMsg('assistant', '网络错误：' + e.message);
+  }
+
+  chatBusy = false;
+  btn.disabled = false;
+  inp.focus();
+}
+
+load();
+</script>
+</body>
+</html>
