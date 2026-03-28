@@ -2199,6 +2199,30 @@ function saveTopics(data)          { lsSet(LS_TOPICS, data); }
 function getTopicOverrides()       { return lsGet(LS_TOPIC_OVERRIDES, {}); }
 function saveTopicOverrides(data)  { lsSet(LS_TOPIC_OVERRIDES, data); }
 
+/**
+ * Returns true if any term in `terms` appears (case-insensitive) in the paper's
+ * title, abstract, or keywords fields.
+ */
+function matchesTopic(paper, terms) {
+  const haystack = [
+    paper.title || '',
+    paper.abstract || '',
+    (paper.keywords || []).join(' ')
+  ].join(' ').toLowerCase();
+  return terms.some(t => haystack.includes(t.toLowerCase()));
+}
+
+/**
+ * Returns the effective tag set for a paper: AI-assigned tags merged with
+ * any user-added topic overrides, deduplicated.
+ */
+function effectiveTags(paper) {
+  const overrides = getTopicOverrides();
+  const extra = overrides[paper.id] || [];
+  const base  = paper.tags || [];
+  return [...new Set([...base, ...extra])];
+}
+
 // ── 设置弹窗 ─────────────────────────────────────
 let _settingsResolve = null;
 
