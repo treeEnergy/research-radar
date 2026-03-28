@@ -2207,19 +2207,17 @@ const REL_LABEL = { 5:'核心方向', 4:'高度相关', 3:'相关', 2:'部分相
 const REL_CLASS = { 5:'r5', 4:'r4', 3:'r3', 2:'r2' };
 
 async function load() {
-  const [p, r, m, g, a, cg] = await Promise.allSettled([
+  const [p, r, m, g] = await Promise.allSettled([
     fetch('data/papers.json').then(x => x.json()),
     fetch('data/repos.json').then(x => x.json()),
     fetch('data/meta.json').then(x => x.json()),
     fetch('data/groups.json').then(x => x.json()),
-    fetch('/api/annotations').then(x => x.json()),
-    fetch('/api/groups/custom').then(x => x.json()),
   ]);
   papers       = p.status === 'fulfilled' ? p.value : [];
   repos        = r.status === 'fulfilled' ? r.value : [];
   groups       = g.status === 'fulfilled' ? g.value : [];
-  customGroups = cg.status === 'fulfilled' ? cg.value : [];
-  annotations = a.status === 'fulfilled' ? a.value : {};
+  customGroups = getCustomGroups();
+  annotations  = getAnnotations();
   const meta  = m.status === 'fulfilled' ? m.value : [];
   const metaEl = document.getElementById('meta');
   if (meta[0]?.last_updated) {
@@ -2231,23 +2229,6 @@ async function load() {
   render();
   renderGroups();
   renderRepos();
-
-  // 页面加载时检查 pipeline 是否正在运行
-  const ps = await fetch('/api/pipeline/status').then(r => r.json()).catch(() => null);
-  if (ps && ps.running) {
-    const btn = document.getElementById('run-btn');
-    setBtnRunning(btn);
-    // 用已有日志初始化面板 UI，不重置步骤
-    document.getElementById('pipeline-title').textContent = 'PIPELINE RUNNING';
-    document.getElementById('pipeline-spinner').textContent = '⟳';
-    document.getElementById('pipeline-spinner').style.animation = 'spin 1s linear infinite';
-    document.getElementById('pipeline-reload-btn').style.display = 'none';
-    const logEl = document.getElementById('pipeline-log');
-    logEl.textContent = ps.logs.join('\n');
-    updateStepUI(parseProgress(ps.logs), true, 'running');
-    openPipelinePanel();
-    startPolling(btn);
-  }
 }
 
 function buildTags() {
