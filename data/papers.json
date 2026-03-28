@@ -5434,6 +5434,35 @@
     "groups": []
   },
   {
+    "id": "63a8904284de",
+    "title": "Time-Averaged Aerodynamics of a High-Speed Low-Pressure Turbine Cascade With Cavity Purge and Unsteady Wakes",
+    "abstract": "Abstract The time-averaged aerodynamics of a high-speed low-pressure turbine (LPT) cascade were investigated under the impact of unsteady wakes and purge flows. The tests were performed at an outlet Mach (M) and Reynolds numbers (Re) of 0.90 and 70 k, respectively. Unsteady wakes were simulated by means of a spoked-wheel type wake generator (WG), and a reduced frequency of 0.95 was achieved. The development of a purge flow system to operate at low-pressure levels is presented alongside guidelines for the operation of the circuit. The new purge system was commissioned in terms of its long-term stability and flow uniformity at the cascade inlet. The impact of varying purge flows from a cavity versus a flat endwall was assessed by means of static pressure measurements on the blade pressure side (PS) and suction side (SS) and traverses performed downstream with a miniaturized multi-hole probe. Differences in the secondary flow structures resultant from injecting purge flow into the flowfield are observed, namely, the intensification of the trailing shed vortex (TSV) and passage vortex (PV) that is also displaced away from the endwall. An increase of the endwall losses occurs as the flat endwall was replaced with a cavity geometry and the cavity purge flowrate increases.",
+    "authors": [
+      "Gustavo Lopes",
+      "Loris Simonassi",
+      "Sergio Lavagnoli"
+    ],
+    "date": "2023-10-20",
+    "url": "https://doi.org/10.1115/1.4063878",
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "研究高速低压涡轮叶栅在非定常尾迹和腔体吹扫流影响下的时均气动特性。实验在出口马赫数0.90、雷诺数70k下进行，采用尾迹发生器和多孔探针测量。核心发现：吹扫流增强尾迹脱落涡和通道涡，并使其远离端壁，同时端壁损失随腔体几何和吹扫流量增加而增大。",
+    "method": "实验方法，包括尾迹发生器模拟非定常尾迹（减缩频率0.95），静态压力测量和下游多孔探针扫描，工况为出口马赫数0.90、雷诺数70k。",
+    "innovation": "开发了适用于低压环境的吹扫系统，并评估了腔体吹扫流对涡轮叶栅二次流结构的影响，相比平坦端壁提供了更接近真实发动机的流动条件。",
+    "conclusions": "吹扫流注入导致尾迹脱落涡和通道涡增强并远离端壁；端壁损失随腔体几何和吹扫流量增加而增加。",
+    "limitations": "摘要未涉及三维激盘模型或压气机稳定性分析，可能局限于涡轮叶栅的特定工况和几何。",
+    "tags": [
+      "实验测量",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "研究涉及流动结构和损失分析，但针对涡轮而非压气机，且未直接涉及稳定性、叶尖间隙或机匣处理。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-28",
+    "groups": []
+  },
+  {
     "id": "8b87406006bf",
     "title": "Fluid Dynamic Behavior of Conventional and Pressure Relieving Brush Seals",
     "abstract": "Abstract Brush seals consist of a static ring of densely packed, flexible, fine wire bristles that provide resistance to the flow. Pressure relieving brush seals can be employed to overcome issues such as hysteresis that affect seal durability by reducing friction between the bristle pack and back plate surface. The impact of such designs on the fluid dynamic behavior of brush seals was studied following a concomitant methodology that exploited the benefits of both engine representative and large-scale testing facilities. Leakage data were fitted using a porous medium model found in the literature to quantify viscous and inertial resistance coefficients. Shaft rotation was shown to cause a reduction in seal leakage and an increase in static pressure on the back plate surface. The pressure relieving back plates also resulted in increased static pressures at this location, causing a reduction in flow resistance that increased leakage through the porous bristle pack. Interrogation of the large-scale inter-bristle pressure field for the two back plate designs revealed the distributions of axial pressure diverged toward the rear of the bristle pack. The detail gathered using the large-scale study has been shown to be representative; hence, the insight is generically applicable to brush seals.",
@@ -6825,6 +6854,36 @@
     "conclusions": "轴向槽机匣处理能显著提高压气机失速裕度，但通常导致气动效率下降；倾斜设计是优化性能的关键因素。",
     "groups": [],
     "fetched_at": "2026-03-27"
+  },
+  {
+    "id": "def88839e3c0",
+    "title": "The Influence of Boundary Layer State and Trailing Edge Wedge Angle on the Aerodynamic Performance of Transonic Turbine Blades",
+    "abstract": "Abstract Trailing edge loss typically accounts for a third of the profile loss of a transonic turbine blade. In this paper, two dominant influencing factors—boundary layer state and trailing edge wedge angle—are quantified using a combined experimental (single airfoil transonic tests) and computational (wall-resolved LES) approach. Three key findings are reported. First, the switch between two flow regimes—detached vortex shedding and transonic vortex shedding—as the Reynolds number is increased, is identified and explained. It is shown that the transition of the pressure surface boundary layer drives the switch from the former to the latter; this change is associated with a jump in loss of close to 100%. The switch is also shown to affect the base pressure distribution around the trailing edge, changing it from uniform, with an isobaric dead-air region, to non-uniform. Second, the influence of the trailing edge wedge angle is explored. It is found that higher wedge angles can offer performance benefits in both loss and base pressure—with a change from 8 deg to 14 deg geometry providing up to a 29% reduction in an overall loss for the geometry tested. Finally, as these findings are the result of changes to the unsteady flow phenomena around the trailing edge, they would not be picked up by current low-fidelity, steady design tools. A method is proposed to use data, such as that presented in this paper, to improve low-fidelity modeling.",
+    "authors": [
+      "A. D. Rossiter",
+      "Graham Pullan",
+      "A. P. Melzer"
+    ],
+    "date": "2022-10-05",
+    "url": "https://doi.org/10.1115/1.4055868",
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本文研究跨音速涡轮叶片的气动性能，重点关注边界层状态和尾缘楔角的影响。采用实验（单翼型跨音速测试）与计算（壁面解析大涡模拟）相结合的方法，量化了这两个因素。核心发现包括：雷诺数增加导致流动状态从分离涡脱落切换到跨音速涡脱落，边界层转变驱动此变化并伴随近100%的损失跳跃；尾缘楔角增大（如从8度到14度）可降低总损失达29%。",
+    "method": "实验（单翼型跨音速测试）与数值（壁面解析大涡模拟）相结合，研究跨音速工况下的边界层状态和尾缘楔角影响。",
+    "innovation": "结合实验和LES量化边界层状态与尾缘楔角对跨音速涡轮叶片性能的影响，揭示流动状态切换机制及其对损失和基压的显著效应。",
+    "conclusions": "边界层转变驱动流动状态从分离涡脱落切换到跨音速涡脱落，导致损失跳跃近100%；尾缘楔角从8度增至14度可降低总损失达29%。",
+    "limitations": "研究基于单翼型测试，未考虑全三维叶片或实际发动机环境中的复杂流动。",
+    "tags": [
+      "数值方法",
+      "实验测量",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "论文涉及跨音速涡轮叶片的气动性能，与压气机稳定性、叶尖间隙畸变等核心方向间接相关，但非直接研究压气机或稳定性问题。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-28",
+    "groups": []
   },
   {
     "id": "3c396cc6254a",
