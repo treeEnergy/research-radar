@@ -2476,38 +2476,33 @@ function closeGroupEdit() {
   document.getElementById('group-edit-modal').style.display = 'none';
 }
 
-async function saveGroupEdit() {
+function saveGroupEdit() {
   const name     = document.getElementById('gem-name').value.trim();
   const inst     = document.getElementById('gem-inst').value.trim();
-  const pis      = document.getElementById('gem-pis').value.trim();
+  const pisRaw   = document.getElementById('gem-pis').value.trim();
   const replaces = document.getElementById('gem-replaces').value.trim();
   const msg      = document.getElementById('gem-msg');
   if (!name) { msg.style.color='var(--rel5)'; msg.textContent='请填写名称'; return; }
-  const res = await fetch('/api/groups/save', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({name, institution: inst, pis, replaces}),
-  });
-  const data = await res.json();
-  if (!data.ok) { msg.style.color='var(--rel5)'; msg.textContent=data.error; return; }
-  // 更新本地 customGroups
-  customGroups = customGroups.filter(g => g.name !== name && g.replaces !== replaces);
-  const pisArr = pis.split(',').map(s=>s.trim()).filter(Boolean);
-  customGroups.push({name, institution: inst, pis: pisArr, replaces: replaces||undefined, custom: true});
+  const pis = pisRaw.replace(/，/g, ',').split(',').map(p => p.trim()).filter(Boolean);
+  let groups_list = getCustomGroups();
+  groups_list = groups_list.filter(g => g.name !== name && g.replaces !== replaces);
+  const entry_g = { name, institution: inst, pis, custom: true };
+  if (replaces) entry_g.replaces = replaces;
+  groups_list.push(entry_g);
+  saveCustomGroups(groups_list);
+  customGroups = getCustomGroups();
   msg.style.color = 'var(--rel3)'; msg.textContent = '已保存 ✓';
   setTimeout(() => { closeGroupEdit(); renderGroups(); render(); }, 600);
 }
 
-async function deleteGroupEdit() {
+function deleteGroupEdit() {
   const name     = document.getElementById('gem-name').value.trim();
   const replaces = document.getElementById('gem-replaces').value.trim();
   if (!confirm(`确定恢复「${replaces||name}」为默认状态？`)) return;
-  await fetch('/api/groups/delete', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({name}),
-  });
-  customGroups = customGroups.filter(g => g.name !== name);
+  let groups_list = getCustomGroups();
+  groups_list = groups_list.filter(g => g.name !== name);
+  saveCustomGroups(groups_list);
+  customGroups = getCustomGroups();
   if (activeGroup === name) activeGroup = replaces || null;
   closeGroupEdit();
   renderGroups();
