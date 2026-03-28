@@ -2532,45 +2532,51 @@ function toggleAnnotation(id, btn) {
   box.classList.toggle('open');
 }
 
-async function saveAnnotation(id, btn) {
+function saveAnnotation(id, btn) {
   const box  = document.getElementById('ann-' + id);
   const note = box.querySelector('textarea').value.trim();
   const status = document.getElementById('ann-status-' + id);
-  const resp = await fetch('/api/annotate', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({paper_id: id, note}),
-  });
-  if (resp.ok) {
-    annotations[id] = {note};
-    status.style.display = 'inline';
-    setTimeout(() => { status.style.display = 'none'; }, 2000);
-    const toggle = box.previousElementSibling.previousElementSibling;
-    if (toggle && toggle.classList.contains('annotation-toggle')) {
-      toggle.classList.add('has-note');
-      toggle.textContent = '编辑评价';
-    }
+  const anns = getAnnotations();
+  const entry = anns[id] || {};
+  if (note) {
+    entry.note    = note;
+    entry.updated = new Date().toISOString();
+  } else {
+    delete entry.note;
+    delete entry.updated;
+  }
+  if (Object.keys(entry).length) anns[id] = entry;
+  else delete anns[id];
+  saveAnnotations(anns);
+  annotations[id] = entry;
+  status.style.display = 'inline';
+  setTimeout(() => { status.style.display = 'none'; }, 2000);
+  const toggle = box.previousElementSibling.previousElementSibling;
+  if (toggle && toggle.classList.contains('annotation-toggle')) {
+    toggle.classList.add('has-note');
+    toggle.textContent = '编辑评价';
   }
 }
 
-async function clearAnnotation(id, btn) {
-  await fetch('/api/annotate', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({paper_id: id, note: ''}),
-  });
+function clearAnnotation(id, btn) {
+  const anns = getAnnotations();
+  if (anns[id]) { delete anns[id].note; delete anns[id].updated; }
+  if (anns[id] && !Object.keys(anns[id]).length) delete anns[id];
+  saveAnnotations(anns);
   delete annotations[id];
   render();
 }
 
-async function toggleRead(id, btn) {
+function toggleRead(id, btn) {
   const card   = btn.closest('.paper-card');
   const isRead = !btn.classList.contains('read');
-  await fetch('/api/annotate', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({paper_id: id, read: isRead}),
-  });
+  const anns = getAnnotations();
+  const entry = anns[id] || {};
+  if (isRead) { entry.read = true; entry.read_at = new Date().toISOString(); }
+  else { delete entry.read; delete entry.read_at; }
+  if (Object.keys(entry).length) anns[id] = entry;
+  else delete anns[id];
+  saveAnnotations(anns);
   if (!annotations[id]) annotations[id] = {};
   if (isRead) {
     annotations[id].read    = true;
