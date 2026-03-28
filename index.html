@@ -1408,6 +1408,15 @@ select {
   <div class="header-meta">
     <span class="dot"></span>
     <span id="meta">LOADING…</span>
+    <button id="topics-btn" onclick="openTopicsPanel()" style="
+      margin-left:20px; padding:0 14px; height:30px;
+      font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em;
+      background:none; border:1px solid var(--border2); border-radius:3px;
+      color:var(--text3); cursor:pointer; transition:all .2s;
+    " onmouseover="this.style.borderColor='var(--blue)';this.style.color='var(--blue)'"
+       onmouseout="this.style.borderColor='var(--border2)';this.style.color='var(--text3)'">
+      🏷 管理话题
+    </button>
     <button id="run-btn" onclick="runPipeline()" style="
       margin-left:20px; padding:0 14px; height:30px;
       font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em;
