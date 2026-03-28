@@ -2179,7 +2179,8 @@ function confirmSettings() {
   const key = document.getElementById('settings-overlay')._storageKey;
   if (val) localStorage.setItem(key, val);
   closeSettings();
-  if (_settingsResolve) { _settingsResolve(val); _settingsResolve = null; }
+  const resolved = val || localStorage.getItem(key) || null;
+  if (_settingsResolve) { _settingsResolve(resolved); _settingsResolve = null; }
 }
 
 function closeSettings() {
