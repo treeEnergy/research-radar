@@ -2951,6 +2951,62 @@ function closePipelinePanel() {
   if (_pipelinePoll) { clearInterval(_pipelinePoll); _pipelinePoll = null; }
 }
 
+function openTopicsPanel() {
+  renderTopicsPanel();
+  document.getElementById('topics-panel').style.transform = 'translateX(0)';
+}
+
+function closeTopicsPanel() {
+  document.getElementById('topics-panel').style.transform = 'translateX(100%)';
+}
+
+function renderTopicsPanel() {
+  const topics = getTopics();
+  const listEl = document.getElementById('topics-list');
+
+  const countLabel = `当前话题 · ${topics.length} 个`;
+  listEl.innerHTML = `<div style="color:var(--text3);font-size:10px;letter-spacing:.08em;padding:10px 0 8px;">${countLabel}</div>`;
+
+  topics.forEach((topic, idx) => {
+    const hitCount = papers.filter(p => matchesTopic(p, topic.terms)).length;
+
+    const card = document.createElement('div');
+    card.className = 'topic-card';
+    card.id = `topic-card-${idx}`;
+
+    const headerHtml = `
+      <div class="topic-card-header" onclick="toggleTopicCard(${idx})">
+        <span class="topic-card-label">${topic.label}</span>
+        ${topic.builtin ? '<span class="topic-builtin-badge">🔒</span>' : ''}
+        <span class="topic-card-count">${hitCount} 篇</span>
+        <span class="topic-card-toggle">›</span>
+      </div>`;
+
+    const termChips = topic.terms.map(t =>
+      `<span class="term-chip">${t}</span>`
+    ).join('');
+
+    const deleteBtn = topic.builtin
+      ? ''
+      : `<div class="topic-card-actions">
+           <button class="topic-delete-btn" onclick="confirmDeleteTopic(${idx})">删除话题</button>
+         </div>`;
+
+    card.innerHTML = headerHtml + `
+      <div class="topic-card-body">
+        <div class="topic-card-terms">${termChips}</div>
+        ${deleteBtn}
+      </div>`;
+
+    listEl.appendChild(card);
+  });
+}
+
+function toggleTopicCard(idx) {
+  const card = document.getElementById(`topic-card-${idx}`);
+  card.classList.toggle('expanded');
+}
+
 function setBtnRunning(btn) {
   btn.textContent = '⟳ 运行中…';
   btn.style.color = 'var(--rel3)';
