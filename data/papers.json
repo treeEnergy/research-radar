@@ -9124,6 +9124,39 @@
     "groups": []
   },
   {
+    "id": "7fb52eb61ce5",
+    "title": "Low-Order Modeling of Can-Annular Combustors",
+    "abstract": "Abstract Heavy-duty land-based gas turbines are often designed with can-annular combustors, which consist of a set of identical cans, acoustically connected on the upstream side via the compressor plenum, and, downstream, with a small annular gap located at the transition with the first turbine stage. The modeling of this cross-talk area is crucial to predict the thermo-acoustic modes of the system. Thanks to the discrete rotational symmetry, Bloch wave theory can be exploited to reduce the system to a longitudinal combustor with a complex-valued equivalent outlet reflection coefficient, which models the annular gap. The present study reviews existing low-order models based purely on geometrical parameters and compares them to two-dimensional Helmholtz simulations. We demonstrate that the modeling of the gap as a thin annulus is not suited for can-annular combustors and that the Rayleigh conductivity model only gives qualitative agreement. We then propose an extension for the equivalent reflection coefficient that accounts not only for geometrical but also flow parameters, by means of a characteristic length. The proposed model is in excellent agreement with two-dimensional simulations and is able to correctly capture the eigenfrequencies of the system. We then perform a Design of Experiments study that allows us to explore various configurations and build correlations for the characteristic length. Finally, we discuss the validity limits of the proposed low-order modeling approach.",
+    "authors": [
+      "Guillaume J. J. Fournier",
+      "Max Meindl",
+      "Camilo F. Silva",
+      "Giulio Ghirardo",
+      "Mirko R. Bothien",
+      "Wolfgang Polifke"
+    ],
+    "date": "2021-07-29",
+    "url": "https://doi.org/10.1115/1.4051954",
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本研究针对重型燃气轮机罐环燃烧室，利用Bloch波理论建立低阶模型，将系统简化为具有等效出口反射系数的纵向燃烧室。通过对比二维Helmholtz模拟，发现薄环模型不适用，Rayleigh电导率模型仅定性一致，提出考虑几何和流动参数的新模型，能准确捕捉系统特征频率，并通过实验设计建立特征长度相关性。",
+    "method": "基于Bloch波理论进行低阶建模，结合二维Helmholtz数值模拟验证，通过实验设计探索多种配置。",
+    "innovation": "提出扩展的等效反射系数模型，不仅考虑几何参数，还引入流动参数和特征长度，显著提高预测精度。",
+    "conclusions": "薄环模型不适用于罐环燃烧室，Rayleigh电导率模型仅定性一致；新模型与二维模拟高度一致，能准确捕捉系统特征频率。",
+    "limitations": "模型基于二维假设，可能忽略三维流动效应；未考虑实际运行中的动态变化。",
+    "tags": [
+      "稳定性建模",
+      "数值方法",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "论文涉及燃烧室稳定性建模和数值方法，但与压气机叶尖间隙畸变等核心方向关联较弱。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-29",
+    "groups": []
+  },
+  {
     "id": "659c651b289c",
     "title": "Application of Advanced RANS Turbulence Models for the Prediction of Turbomachinery Flows",
     "abstract": "Abstract The current trend in turbomachinery toward broader operating characteristics requires that operating points in the off-design region can be captured accordingly from the simulation models. Complex processes like separation and vortex formation/dissipation occur under these conditions. Linear two equation models are often not able to represent these effects correctly since their derivation is based on oversimplifications, such as the Boussinesq hypothesis, which makes it impossible to capture anisotropic turbulence. Advanced RANS models are usually not considered in the design process of turbomachines because (1) they are usually more delicate with regards to stability and convergence behavior and (2) require additional computational effort. To make the usage of advanced RANS models more applicable for complex turbomachinery simulations, a selected group of models were implemented into a robust framework of a pressure-based fully coupled solver. To further enhance stability, coupling terms between the turbulent transport equations were derived for several models. Anisotropic turbulence is introduced by computing an algebraic expression or by solving the transport equations for the Reynolds stress components. The evaluation of the models is performed on the RWTH Aachen “Radiver” centrifugal compressor case with vaned diffuser. For design conditions and operation points near the stability limit, all investigated turbulence models predict the compressor characteristic. Operation points in the choking region, on the other hand, are only predicted well by anisotropic models. The good results and improved convergence behavior of the advanced RANS models clearly indicates their applicability in the design process of turbomachines.",
