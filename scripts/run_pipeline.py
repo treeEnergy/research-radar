@@ -124,7 +124,20 @@ def tag_groups(papers: list[dict]) -> None:
 
 
 def build_groups_json(papers: list[dict]) -> None:
-    """统计各课题组论文数量和平均相关度，写入 groups.json"""
+    """统计各课题组论文数量和平均相关度，写入 groups.json
+    合并 papers.json + papers-historical.json 做统计。
+    """
+    # 加载历史论文并合并（去重）
+    hist_path = DATA_DIR / "papers-historical.json"
+    historical: list[dict] = []
+    if hist_path.exists():
+        historical = json.loads(hist_path.read_text(encoding="utf-8"))
+    existing_ids = {p["id"] for p in papers}
+    all_papers = papers + [p for p in historical if p["id"] not in existing_ids]
+
+    # 给历史论文也打课题组标签
+    tag_groups(all_papers)
+
     # 预设课题组统计
     all_groups = load_all_groups()
     stats: dict[str, dict] = {
@@ -140,40 +153,42 @@ def build_groups_json(papers: list[dict]) -> None:
         for g in all_groups
     }
 
-    # 统计高频作者（出现 3 篇以上视为值得追踪）
+    # 统计高频作者（出现 5 篇以上视为值得追踪）
     from collections import Counter
     author_counter: Counter = Counter()
     paper_by_author: dict[str, list[str]] = {}
-    for p in papers:
+    for p in all_papers:
         for a in p.get("authors", []):
             author_counter[a] += 1
             paper_by_author.setdefault(a, []).append(p["id"])
 
     # 匹配论文到预设课题组
-    for p in papers:
+    for p in all_papers:
         for g_name in p.get("groups", []):
             if g_name in stats:
                 stats[g_name]["paper_ids"].append(p["id"])
 
     # 计算平均相关度
-    paper_map = {p["id"]: p for p in papers}
+    paper_map = {p["id"]: p for p in all_papers}
     for g in stats.values():
         ids = g["paper_ids"]
         g["total"] = len(ids)
         if ids:
             rels = [paper_map[i].get("relevance", 0) for i in ids if i in paper_map]
+            rels = [r for r in rels if r]  # 历史论文无 relevance，跳过
             g["avg_relevance"] = round(sum(rels) / len(rels), 1) if rels else 0.0
         del g["paper_ids"]
 
     # 高频作者补充（不在预设组中）
     preset_pis = {pi.lower() for g in all_groups for pi in g["pis"]}
-    for author, count in author_counter.most_common(20):
-        if count < 3:
+    for author, count in author_counter.most_common(50):
+        if count < 5:
             break
         if any(author.lower() in pi for pi in preset_pis):
             continue
         ids = paper_by_author[author]
         rels = [paper_map[i].get("relevance", 0) for i in ids if i in paper_map]
+        rels = [r for r in rels if r]
         stats[f"★ {author}"] = {
             "name": f"★ {author}",
             "institution": "（自动识别）",
