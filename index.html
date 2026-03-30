@@ -1375,6 +1375,20 @@ select {
 }
 .topic-preview-hit span { color: var(--rel3); }
 .topic-preview-actions { display: flex; gap: 8px; }
+/* ── Timeline heatmap ─────────────────────── */
+.heatmap-table { border-collapse:separate; border-spacing:3px; font-family:'IBM Plex Mono',monospace; font-size:11px; }
+.heatmap-table th { color:var(--text3); font-weight:400; padding:4px 8px; white-space:nowrap; text-align:center; }
+.heatmap-table th.row-header { text-align:right; padding-right:12px; min-width:80px; }
+.heatmap-cell {
+  width:72px; height:36px; border-radius:4px; cursor:pointer;
+  display:flex; align-items:center; justify-content:center;
+  font-size:11px; font-family:'IBM Plex Mono',monospace; color:rgba(255,255,255,.7);
+  transition:filter .15s, transform .1s;
+  position:relative;
+}
+.heatmap-cell:hover { filter:brightness(1.3); transform:scale(1.06); z-index:1; }
+.heatmap-cell.empty { background:rgba(255,255,255,.04); color:var(--text3); cursor:default; }
+.heatmap-cell.empty:hover { filter:none; transform:none; }
 </style>
 </head>
 <body>
@@ -1400,6 +1414,7 @@ select {
     <button class="active" onclick="switchTab('papers')" id="btn-papers">PAPERS</button>
     <button onclick="switchTab('groups')" id="btn-groups">GROUPS</button>
     <button onclick="switchTab('repos')" id="btn-repos">REPOS</button>
+    <button onclick="switchTab('timeline')" id="btn-timeline">TIMELINE</button>
     <button onclick="switchTab('chat')" id="btn-chat">AI CHAT</button>
     <button onclick="switchTab('manual')" id="btn-manual">MANUAL</button>
     <button onclick="switchTab('build')" id="btn-build">BUILD</button>
@@ -1646,6 +1661,25 @@ select {
 
 <div id="tab-repos" style="display:none">
   <div class="repo-list" id="repo-list"></div>
+</div>
+
+<div id="tab-timeline" style="display:none; padding:20px 24px;">
+  <div id="timeline-loading" style="color:var(--text3); font-family:'IBM Plex Mono',monospace; font-size:12px; padding:40px 0; text-align:center;">
+    载入时间轴数据…
+  </div>
+  <div id="timeline-error" style="display:none; color:var(--rel5); font-family:'IBM Plex Mono',monospace; font-size:12px; padding:40px 0; text-align:center;"></div>
+  <div id="timeline-heatmap" style="display:none;">
+    <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--text3); letter-spacing:.08em; margin-bottom:16px;">
+      论文数量热力图 · 1970–至今（点击格子查看年代综述和论文列表）
+    </div>
+    <div id="heatmap-grid" style="overflow-x:auto;"></div>
+    <div style="margin-top:12px; display:flex; align-items:center; gap:8px; font-size:10px; color:var(--text3); font-family:'IBM Plex Mono',monospace;">
+      <span>少</span>
+      <div style="width:60px; height:8px; border-radius:2px; background:linear-gradient(to right, rgba(114,180,240,.1), rgba(114,180,240,.9));"></div>
+      <span>多</span>
+      <span style="margin-left:12px;">（颜色深浅按各话题行内部相对值缩放）</span>
+    </div>
+  </div>
 </div>
 
 <div id="tab-build" style="display:none">
@@ -3455,7 +3489,7 @@ async function reloadData() {
 }
 
 function switchTab(tab) {
-  ['papers','groups','repos','chat','build','manual'].forEach(t => {
+  ['papers','groups','repos','timeline','chat','build','manual'].forEach(t => {
     document.getElementById('tab-' + t).style.display = t === tab ? '' : 'none';
     document.getElementById('btn-' + t).classList.toggle('active', t === tab);
   });
@@ -3468,6 +3502,103 @@ function switchTab(tab) {
     if (el) el.textContent = papers.length || '—';
     document.getElementById('chat-input').focus();
   }
+  if (tab === 'timeline') {
+    loadTimeline();
+  }
+}
+
+// ── Timeline state ──────────────────────────
+let timelineData = null;         // parsed timeline.json
+let historicalPapers = null;     // id → paper map from papers-historical.json
+let timelineLoaded = false;
+
+// Per-topic color palette (RGBA base, opacity applied per cell)
+const TIMELINE_COLORS = [
+  '114,180,240',  // blue
+  '240,188,90',   // gold
+  '110,216,154',  // green
+  '196,140,240',  // purple
+  '240,140,110',  // orange
+  '140,200,240',  // light blue
+];
+
+async function loadTimeline() {
+  if (timelineLoaded) return;
+
+  const loadingEl = document.getElementById('timeline-loading');
+  const errorEl   = document.getElementById('timeline-error');
+  const heatmapEl = document.getElementById('timeline-heatmap');
+
+  loadingEl.style.display = '';
+  errorEl.style.display   = 'none';
+  heatmapEl.style.display = 'none';
+
+  try {
+    const [tlRes, histRes] = await Promise.all([
+      fetch('data/timeline.json'),
+      fetch('data/papers-historical.json'),
+    ]);
+
+    if (!tlRes.ok) throw new Error('timeline.json 未找到，请先运行流水线');
+    timelineData = await tlRes.json();
+
+    historicalPapers = {};
+    if (histRes.ok) {
+      const arr = await histRes.json();
+      arr.forEach(p => { historicalPapers[p.id] = p; });
+    }
+
+    timelineLoaded = true;
+    loadingEl.style.display = 'none';
+    renderHeatmap();
+    heatmapEl.style.display = '';
+  } catch (err) {
+    loadingEl.style.display = 'none';
+    errorEl.textContent = err.message || '加载失败';
+    errorEl.style.display = '';
+  }
+}
+
+function renderHeatmap() {
+  if (!timelineData) return;
+  const decades = timelineData.decades || [1970,1980,1990,2000,2010,2020];
+  const topics  = timelineData.topics  || [];
+  const grid    = document.getElementById('heatmap-grid');
+
+  // Build table
+  let html = '<table class="heatmap-table"><thead><tr>';
+  html += '<th class="row-header"></th>';
+  decades.forEach(d => { html += `<th>${d}s</th>`; });
+  html += '</tr></thead><tbody>';
+
+  topics.forEach((topic, ti) => {
+    const color = TIMELINE_COLORS[ti % TIMELINE_COLORS.length];
+
+    // Compute max count in this row for opacity scaling
+    const counts = decades.map(d => (topic.decades[String(d)]?.count || 0));
+    const maxCount = Math.max(...counts, 1);
+
+    html += '<tr>';
+    html += `<th class="row-header" style="color:rgba(${color},1)">${topic.label}</th>`;
+
+    decades.forEach(d => {
+      const cell = topic.decades[String(d)];
+      if (!cell || cell.count === 0) {
+        html += '<td><div class="heatmap-cell empty">—</div></td>';
+        return;
+      }
+      const opacity = Math.max(0.12, cell.count / maxCount).toFixed(2);
+      html += `<td><div class="heatmap-cell"
+        style="background:rgba(${color},${opacity})"
+        onclick="openTimelinePanel('${topic.label.replace(/'/g, "\\'")}', ${d})"
+        title="${topic.label} · ${d}s · ${cell.count} 篇"
+      >${cell.count}</div></td>`;
+    });
+    html += '</tr>';
+  });
+
+  html += '</tbody></table>';
+  grid.innerHTML = html;
 }
 
 // ── AI Chat ──────────────────────────────────
