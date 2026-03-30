@@ -10,14 +10,29 @@
 
 ## 功能
 
-- 🔍 **自动抓取**：从 OpenAlex 按关键词 + 期刊筛选论文
-- 🤖 **AI 分析**：DeepSeek 自动生成中文综述、创新点、结论、相关度评分
-- 💬 **AI 问答**：基于本地论文库的领域专属对话
-- 📌 **标注系统**：标记已读、写评价笔记
-- 👥 **课题组追踪**：按 PI 姓名追踪特定课题组的论文
-- ⚡ **一键更新**：网页内触发 GitHub Actions 流水线，每周自动运行
-- 🗓️ **时间轴**：1970 年至今的热力图（话题 × 年代），点击格子查看该年代 AI 综述和论文列表
-- 📋 **文献愿望清单**：记录想追加到库里的文献，纯本地 localStorage，随时可查
+- 🔍 **自动抓取**：从 OpenAlex 按 17 个短词关键词 + 6 本期刊（含历史前身）筛选论文
+- 🤖 **AI 分析**：DeepSeek 自动生成中文综述、创新点、结论、相关度评分（0-5）
+- 💬 **AI 问答**：基于本地论文库的领域专属对话，支持 Markdown 渲染
+- 📌 **标注系统**：标记已读、写评价笔记，影响 AI 后续相关度判断
+- 👥 **23 个课题组**：基于实际实验室归属（MIT GTL、Cambridge Whittle Lab 等），显示 PI 姓名
+- 🗓️ **研究热力图**：1960 年至今，10 个话题 × 5 年间隔，期刊风格绿色渐变色阶，点击查看 AI 综述
+- ⚡ **自动更新**：GitHub Actions 每周运行，也支持手动触发
+- 📋 **文献愿望清单**：纯本地 localStorage，随时可查
+
+---
+
+## 数据规模
+
+| 指标 | 数量 |
+|------|------|
+| 当前论文（2020–今） | 500 篇 |
+| 历史论文（1960–2019） | 2335 篇 |
+| 总计 | **2835 篇** |
+| 监控期刊 | 4 本 + 2 本历史前身 |
+| 搜索关键词 | 17 个 |
+| 研究话题 | 10 个 |
+| 追踪课题组 | 23 个 |
+| AI 热力图综述 | 130+ 个（5 年 × 话题） |
 
 ---
 
@@ -32,17 +47,18 @@
 
 **1. Fork 本仓库**
 
-点右上角 **Fork** → 仓库名建议保持 `research-radar`（也可以改）。
+点右上角 **Fork** → 仓库名建议保持 `research-radar`。
 
 **2. 修改检索配置**
 
 编辑 `scripts/config.py`，改成你自己的研究方向：
 
 ```python
-# 改成你关心的关键词
+# 改成你关心的关键词（短词优先，靠 AI 评分过滤）
 KEYWORDS = [
-    "your keyword 1",
-    "your keyword 2",
+    "tip clearance",
+    "rotating stall",
+    "distortion",
     ...
 ]
 
@@ -54,7 +70,7 @@ TARGET_JOURNALS = [
 
 # 改成你关注的课题组
 RESEARCH_GROUPS = [
-    {"name": "Group Name", "institution": "University", "pis": ["Last Name"]},
+    {"name": "MIT GTL", "institution": "MIT", "pis": ["Greitzer", "Spakovszky"]},
     ...
 ]
 ```
@@ -76,13 +92,15 @@ RESEARCH_GROUPS = [
 
 **5. 首次抓取论文**
 
-打开网站，点右上角 **▶ 更新检索**：
-- 首次会弹窗要求输入 **GitHub Token**（用于触发流水线）
-- 去 [GitHub Token 设置页](https://github.com/settings/personal-access-tokens/new) 创建，选你的仓库，**Actions: Read and write** 权限
+进入 **Actions** 标签页 → 选 "Research Radar Pipeline" → Run workflow。或本地运行：
+
+```bash
+cd scripts && python run_pipeline.py
+```
 
 **6. 首次使用 AI 对话**
 
-点右下角聊天图标，首次会弹窗要求输入 **DeepSeek API Key**（`sk-` 开头）。
+点 AI CHAT 标签页，首次会弹窗要求输入 **DeepSeek API Key**（`sk-` 开头）。
 
 ---
 
@@ -91,63 +109,67 @@ RESEARCH_GROUPS = [
 ```
 GitHub 仓库（静态资源）
 ├── index.html                      ← 纯前端，无构建工具
-├── data/papers.json                ← 近期论文库，最多 500 篇（Actions 自动更新）
-├── data/papers-historical.json     ← 1970–2019 历史论文（增量抓取，无上限）
-├── data/timeline.json              ← 时间轴数据：话题×年代计数 + AI 综述
+├── data/papers.json                ← 近期论文库，最多 500 篇
+├── data/papers-historical.json     ← 1960–2019 历史论文（2335 篇）
+├── data/timeline.json              ← 热力图：10 话题 × 5 年间隔 + AI 综述
+├── data/groups.json                ← 23 个课题组（含 PI 列表）
 └── scripts/                        ← Python 抓取 + AI 分析脚本
 
 运行时数据流：
 浏览器 → fetch data/*.json       （静态论文数据）
 浏览器 → DeepSeek API            （AI 对话，Key 存 localStorage）
-浏览器 → GitHub Actions API      （触发流水线，Token 存 localStorage）
-GitHub Actions → OpenAlex API   （抓取论文，含 1970 年至今历史数据）
-GitHub Actions → DeepSeek API   （AI 分析 + 时间轴年代综述）
-GitHub Actions → commit 回仓库  （更新 papers.json / papers-historical.json / timeline.json）
+GitHub Actions → OpenAlex API   （抓取论文，1960 年至今）
+GitHub Actions → DeepSeek API   （AI 分析 + 热力图综述）
+GitHub Actions → commit 回仓库  （自动更新数据文件）
 ```
 
-**所有敏感 Key 仅存在用户浏览器的 localStorage 中，不会上传到任何服务器。**
+**所有敏感 Key 仅存在用户浏览器的 localStorage 或 GitHub Secrets 中，不会泄露。**
 
 ---
 
 ## 自定义
 
-### 添加关键词
-编辑 `scripts/config.py` 的 `KEYWORDS` 列表，推送后下次流水线自动生效。
-
-### 调整 AI 分析的领域提示词
-编辑 `scripts/process_with_ai.py` 中的 `SYSTEM_PROMPT`，改成你的研究方向描述。
-
-### 调整 AI 对话的系统提示词
-编辑 `index.html` 中 `sendChat()` 函数里的 `CHAT_SYSTEM` 字符串。
-
-### 修改自动更新频率
-编辑 `.github/workflows/pipeline.yml` 中的 `cron` 表达式，默认每周一 UTC 02:00。
+| 想改什么 | 改哪里 |
+|----------|--------|
+| 搜索关键词 | `scripts/config.py` → `KEYWORDS` |
+| 目标期刊 | `scripts/config.py` → `TARGET_JOURNALS` |
+| 课题组 | `scripts/config.py` → `RESEARCH_GROUPS` |
+| AI 分析提示词 | `scripts/process_with_ai.py` → `SYSTEM_PROMPT` |
+| AI 对话提示词 | `index.html` → `CHAT_SYSTEM` |
+| 热力图话题 | `scripts/fetch_papers_historical.py` → `DEFAULT_TOPICS` |
+| 自动更新频率 | `.github/workflows/pipeline.yml` → `cron` |
 
 ---
 
 ## 数据说明
 
-- `data/papers.json`：最多保留 500 篇，按日期倒序，由 GitHub Actions 自动维护
-- `data/papers-historical.json`：1970–2019 历史论文，增量抓取，无数量上限
-- `data/timeline.json`：话题 × 年代热力图数据，含 DeepSeek 生成的年代综述，增量更新（已有综述不重复调用）
-- `data/annotations.json`：**不再使用**（已迁移到 localStorage）
-- 标注/已读状态、愿望清单存在浏览器本地，清除浏览器缓存会丢失
+- `data/papers.json`：最多保留 500 篇，按日期倒序
+- `data/papers-historical.json`：1960–2019 历史论文，增量抓取
+- `data/timeline.json`：热力图数据 + AI 综述，增量更新
+- `data/groups.json`：课题组统计，合并历史 + 当前论文
+- 标注/已读/愿望清单存在浏览器 localStorage
+
+---
+
+## 更新日志
+
+### v1.2（2026-03-30）
+- **热力图重设计**：5 年间隔，左右分栏布局，期刊风格绿色渐变色阶，双行表头（年代 + 细分）
+- **课题组合并**：55 个自动识别 → 23 个人工策展，显示 PI 姓名，按实验室归属分组
+- **搜索关键词重构**：长词 → 短词优先，论文库从 400 篇增至 2835 篇
+- **1960s 覆盖**：新增 J. Eng. for Power 和 J. Basic Engineering 两本历史期刊
+- **AI 对话 Markdown 渲染**：加粗、斜体、列表、标题等格式正常显示
+- **相关度排序**：PAPERS 页面新增按相关度排序选项
+
+### v1.1（2026-03-30）
+- 新增时间轴热力图、文献愿望清单
+- 新增历史论文抓取和时间线构建脚本
+
+### v1.0
+- 初始发布：论文抓取、AI 分析、课题组追踪、标注系统、AI 问答
 
 ---
 
 ## License
 
 MIT — 自由使用、修改、分发。
-
----
-
-## 更新日志
-
-### v1.1（2026-03-30）
-- 新增 **时间轴**：1970 年至今的话题 × 年代热力图，点击格子查看 AI 生成的年代综述和论文列表
-- 新增 **文献愿望清单**：右下角悬浮面板，记录想追加的文献，localStorage 存储
-- 新增 `scripts/fetch_papers_historical.py`：增量抓取 1970–2019 历史论文
-- 新增 `scripts/build_timeline.py`：生成 `data/timeline.json`，增量调用 DeepSeek 生成年代综述
-
-### v1.0
-- 初始发布：论文抓取、AI 分析、课题组追踪、标注系统、AI 问答、一键流水线
