@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T08:29:22Z",
+  "generated_at": "2026-03-30T08:34:40Z",
   "decades": [
     1970,
     1980,
@@ -20,7 +20,7 @@
             "W2032063680",
             "W2057131635"
           ],
-          "summary": "1980年代叶尖间隙研究的主要进展集中于揭示其复杂流动结构及对压气机性能的影响。关键工作如**Rains对转子叶尖泄漏流的数值模拟**，首次系统揭示了泄漏涡的形成与演化机制，并指出其与主流掺混是损失主因。同时，**Lakshminarayana等人的低转速转子实验**量化了端壁与叶尖间隙损失的占比，为损失模型提供了基准数据。此外，**入口边界层与叶尖泄漏流的相互作用**（如Part II研究）被证实会显著改变泄漏涡轨迹与稳定性，推动了全三维流动分析的发展。"
+          "summary": "1980年代叶尖间隙研究的主要进展集中在通过实验与数值模拟揭示其复杂流动结构及损失机理。关键工作如**Wisler等人（1987）** 在低速压气机转子实验中，系统量化了端壁和叶型损失，明确了间隙泄漏涡与主流相互作用是效率下降的主因。同时，**Hah（1986）** 等人发展的**二维/三维转子尖端泄漏数值模型**，首次实现了对泄漏流场的定量预测，揭示了间隙流的三维非定常特性。这些研究共同奠定了通过控制间隙流动来提升压气机性能的理论基础。"
         },
         "1990": {
           "count": 12,
@@ -38,7 +38,7 @@
             "W4235067475",
             "W1967862827"
           ],
-          "summary": "1990年代叶尖间隙研究的主要进展集中在通过实验与数值模拟揭示其复杂流动结构及对压气机性能的影响。关键工作包括Chen等人（1991）通过相似性分析系统阐释了叶尖间隙流动的通用结构特征，为后续建模奠定理论基础；同时，三维Navier-Stokes模拟（如线性涡轮叶栅研究）和网格生成技术的进步，实现了对间隙涡流等三维流动的精细化捕捉。此外，研究明确了间隙变化对效率、堵塞效应及旋转失速起始（如流道内流动结构的作用）的具体影响机制，推动了多级轴流压气机中叶尖间隙效应的工程化建模。"
+          "summary": "1990年代叶尖间隙研究的主要进展集中在通过实验与数值模拟揭示其流动结构与影响机制。关键工作包括Chen等人（1991）通过**相似性分析**系统揭示了压缩机叶尖间隙流动的通用结构特征，为理解间隙涡演化提供了理论框架。同时，三维Navier-Stokes模拟技术（如线性涡轮叶栅研究）的应用，首次实现了对间隙涡三维形态及其损失的量化分析。此外，研究明确了**叶尖间隙涡的环量变化因素**及其对堵塞效应的影响，直接关联到**跨音速转子失速起始机制**的探索，推动了多级压缩机中叶尖间隙效应的建模改进。"
         },
         "2000": {
           "count": 8,
@@ -52,7 +52,7 @@
             "W2086262937",
             "W2082233897"
           ],
-          "summary": "2000年代叶尖间隙研究的主要进展体现在机理深化与主动控制两方面。关键工作包括：**Aerodynamic-Rotordynamic Interaction**系列研究系统揭示了气动-转子动力学耦合对压缩系统稳定性的影响，而**Active Control of Tip Clearance Flow**等研究则推动了通过流动控制主动抑制间隙流动失稳的技术发展。同时，**Blade Tip Clearance Flow and Compressor Nonsynchronous Vibrations**提出了射流核心反馈理论，首次明确了叶尖间隙流与非同步振动之间的耦合机制。这些成果共同将叶尖间隙研究从被动分析推进到主动干预与多物理场耦合的新阶段。"
+          "summary": "2000年代叶尖间隙研究的主要进展体现在对间隙流动机理的深入揭示及其对压缩系统稳定性的关键影响。其中，**《叶尖间隙流动与压气机非同步振动：射流核心反馈理论作为耦合机制》** 首次提出了“射流核心反馈理论”，系统阐释了间隙流动诱发转子振动的流体-结构耦合机理，成为该领域的重要理论突破。同时，**《轴流压气机叶尖间隙流动的主动控制》** 等研究推动了主动控制技术的探索，旨在通过实时调节间隙来抑制流动分离和旋转失速。此外，**《尖峰先导旋转失速的判据》** 和**《气动-转子动力学相互作用在轴流压缩系统中的第二部分：相互作用对整体系统稳定性的影响》** 等工作，将间隙流动与失速/喘振等系统级稳定性问题直接关联，建立了从局部流动到全局稳定性的分析框架。这些研究共同表明，该时期的研究重点已从定性描述转向定量机理与主动控制，为现代高负荷压气机的稳定性设计奠定了理论基础。"
         },
         "2010": {
           "count": 10,
@@ -68,7 +68,7 @@
             "W2730491096",
             "W4238389792"
           ],
-          "summary": "2010年代叶尖间隙研究的主要进展集中于揭示非定常流动机制及其对失稳过程的影响。关键工作如《Investigation of Pre-Stall Behavior in an Axial Compressor Rotor—Part I》系统揭示了叶尖间隙流的非定常特性是旋转失速先兆的重要诱因，而《Detailed Measurements of Spike Formation》则通过精细测量明确了“突尖”型失速起始与叶尖泄漏涡的关联。同时，研究从气动性能拓展至多物理场耦合，如《Tip Clearance Effects on Aero-elastic Stability》探讨了间隙对叶片气弹稳定性的影响。此外，针对间隙控制技术，《The Inner Workings of Axial Casing Grooves》等研究量化了机匣处理在大型间隙下对失速裕度与效率的调控效果。"
+          "summary": "2010年代叶尖间隙研究主要围绕其对压气机流动稳定性与性能的影响机理展开深入探索。关键进展包括：通过**转子尖部流动非定常性研究**（如“Tip Flow Unsteadiness and Blade Row Interactions”），揭示了叶尖泄漏流与主流的相互作用是旋转失速先兆（如“spike”失速团形成）的核心诱因；**多参数影响量化研究**（如“Influence of the Different Design Parameters”）系统分析了间隙尺寸对损失和气弹稳定性的敏感度；同时，**机匣处理技术的机理探索**（如“The Inner Workings of Axial Casing Grooves”）证实了即使在大间隙下，特定槽道结构仍可通过调控泄漏流来提升失速裕度。这些工作共同建立了间隙流动与失速 inception 之间的直接关联，为高稳定性压气机设计提供了理论依据。"
         }
       }
     },
@@ -81,7 +81,7 @@
             "W2086992041",
             "W4246130594"
           ],
-          "summary": "1980年代机匣处理研究的主要进展集中于揭示其抑制失速的流动机制，并探索了轴向槽等具体结构的优化设计。关键工作如**Pampreen（1980）** 的论文《Flow Phenomena in Compressor Casing Treatment》系统阐明了机匣处理通过抽吸和再注入高压气流，直接改变叶尖泄漏流与端壁流动结构，从而扩大稳定工作范围。同时期研究如**Takata与Tsukuda（1987）** 在《Effects of Slotted Hub and Casing Treatments...》中表明，**轮毂与机匣的协同处理能更有效控制端区二次流**，验证了处理位置与几何参数对压气机性能的显著影响。这些研究共同奠定了机匣处理作为被动控制技术的理论基础，并为工程应用提供了设计依据。"
+          "summary": "1980年代机匣处理研究的主要进展集中于揭示其抑制失速的物理机制，并探索了轴向槽等具体结构的影响。关键工作如**Pampreen（1973）的奠基性研究被深化**，学者们通过实验证实**轴向槽能通过抽吸和再注入高压气流，直接改变叶尖泄漏流与端壁二次流的相互作用**，从而扩大稳定工作裕度。同时，研究从单一机匣处理扩展到**“轮毂开槽+机匣处理”的组合方案**（如第二篇论文所示），系统揭示了其对**整个端壁区域流场（包括分离涡和边界层）的协同调控作用**，为工程设计提供了更精细的理论依据。"
         },
         "1990": {
           "count": 2,
@@ -89,7 +89,7 @@
             "W2093322518",
             "W2030447806"
           ],
-          "summary": "1990年代机匣处理研究的主要进展体现在两方面：一是**开槽处理**（如首篇论文中的Recess Vaned Casing Treatment）被系统验证为能有效拓宽风扇/压气机失速裕度，其核心发现是**通过特定槽道结构诱导机匣附近泄漏流提前再附，抑制了失速先兆**；二是**主动流动控制技术开始探索**，如第二篇论文表明，**在端壁采用抽吸或吹气可主动调节边界层与叶尖泄漏流**，为稳定性提升提供了新途径。这些工作共同推动了机匣处理从被动式几何优化向主动控制过渡，为高负荷压气机稳定性设计奠定了关键实验与机理基础。"
+          "summary": "1990年代，机匣处理研究从传统的周向槽、轴向缝等被动方案，进一步拓展至主动流动控制与新型被动结构。关键进展之一是**主动机匣处理**的探索，如通过端壁**抽吸与喷注（Endwall Suction/Blowing）** 直接改变角区流动，实验证明能有效抑制失速先兆，显著提升压气机稳定裕度。同时，**凹陷叶片式处理（Recess Vaned Casing Treatment）** 等新型被动结构得到应用研究，其通过引入特定角度的导流叶片，更精准地干预叶尖泄漏流与主流的相互作用，在风扇中实现了稳定裕度提升且效率损失较小的效果。这些工作共同推动了机匣处理从经验性设计向基于流动机制精细化控制的方向发展。"
         },
         "2000": {
           "count": 6,
@@ -101,7 +101,7 @@
             "W1976676377",
             "W1972058468"
           ],
-          "summary": "2000年代机匣处理领域的研究进展主要体现在**主动与被动控制技术的并行发展**，以及**对流动机制的精细化揭示**。关键工作包括：**主动控制方面**，通过离散叶尖喷气（如\"Discrete Tip Injection\"）和可调静叶（\"Stator Blades Adjustment\"）直接抑制旋转失速和喘振，显著提升了压缩机的稳定边界。**被动控制方面**，针对轴向斜槽（\"Axial Skewed Slot\"）和轴向开槽（\"Axial Slots\"）等结构开展了系统的参数化研究（如\"Parametric Study of Tip Clearance\"），明确了槽道几何对性能与稳定性的影响规律。同时，**高精度数值模拟**（如\"Coupled Flow\"研究）与**时间分辨实验技术**（\"Time Resolved Experimental Investigations\"）的结合，首次清晰揭示了处理机匣与叶尖泄漏流的非定常耦合机制，为设计优化提供了理论依据。"
+          "summary": "2000年代机匣处理领域的研究进展主要体现在通过主动与被动控制手段提升压气机稳定性，并深入揭示了内部流动机制。关键工作包括：**主动控制方面**，通过离散叶尖喷注（Discrete Tip Injection）和可调静叶调整（Stator Blades Adjustment）直接抑制旋转失速和喘振，实现了稳定边界的主动拓展。**被动处理方面**，针对轴向斜槽（Axial Skewed Slots）和轴向开槽（Axial Slots）等结构开展了系统的参数化研究（Parametric Study），证实其能有效降低叶尖泄漏流堵塞、改善失速裕度。同时，**高精度数值模拟（Numerical Investigations）与时间分辨实验（Time Resolved Experiments）相结合**，首次清晰揭示了处理槽与转子流动的非定常耦合机制，为优化设计提供了理论依据。"
         },
         "2010": {
           "count": 30,
@@ -137,7 +137,7 @@
             "W2896135413",
             "W2899393058"
           ],
-          "summary": "2010年代机匣处理领域的研究进展主要体现在对失稳机理的精细化揭示和新型处理方案的优化设计。关键工作包括：**通过PIV和数值模拟系统揭示了叶尖泄漏流与周向槽的相互作用机制**（如“Investigation of Blade Tip Interaction With Casing Treatment”系列研究），明确了非定常激励频率对处理效果的影响规律；**提出了自循环处理、非对称流控等新型结构**（如“Stability Improvement of High-Pressure-Ratio Turbocharger Centrifugal Compressor”），显著提升了高压比离心压气机的稳定性；**结合多目标优化方法实现了机匣处理与叶型的协同设计**（如“Transonic Compressor Blade Optimization Integrated With Circumferential Groove Casing Treatment”），在扩稳的同时兼顾了效率。这些进展共同推动了机匣处理从经验性措施向基于流动机理的精准控制技术发展。"
+          "summary": "2010年代机匣处理领域的研究进展主要体现在：**针对跨音速压气机，周向槽处理被证实能有效抑制失速先兆并提升失速裕度**，关键工作如“Stall Precursor-Suppressed Casing Treatment”系列研究揭示了其抑制叶尖泄漏流非稳定性的机理。**在离心压气机中，非对称自循环机匣处理（Asymmetrical Self-Recirculation Casing Treatment）成为提升高压比工况稳定性的有效手段**，相关实验证明其能显著拓宽工作范围。此外，**研究深入揭示了叶尖间隙与机匣处理的耦合机制**，如通过数值和实验手段明确了槽位置、深度等参数对流动失稳的控制规律，为工程优化提供了依据。"
         }
       }
     },
@@ -157,7 +157,7 @@
             "W2038092520",
             "W2047987191"
           ],
-          "summary": "1980年代压缩机稳定性研究的主要进展体现在：通过实验手段（如激光测速和非定常压力测量）深入揭示了跨音速轴流压气机内部的非定常流动与旋转失速机理（如论文1和9）。理论方面，建立了轴流压缩系统的失速后瞬态动力学模型（如论文3），为系统稳定性分析与控制提供了理论基础。同时，研究拓展至实际工程问题，包括发展了评估周向流动畸变对稳定性影响的方法（论文5），以及从发动机喘振瞬态反推压缩机失速特性的技术（论文6），并开始探索主动预测与控制策略（如论文4的预测性喘振控制）。"
+          "summary": "1980年代压缩机稳定性研究在实验测量与理论建模方面取得关键进展。**激光测速与非定常压力测量技术**（如首篇论文）的应用，首次实现了对跨音速压气机内部瞬态流场的精细化捕捉，为稳定性分析提供了数据基础。**失速/喘振瞬态理论**的建立（如第三篇论文）系统阐释了旋转失速与喘振的触发机制，推动了基于模型的主动控制策略发展（如第四篇论文的预测控制）。同时，研究关注**实际工程因素**的影响，包括级间匹配（末篇）、周向流动畸变（第五篇）以及多轴发动机部件干涉（第二篇），显著提升了稳定性评估的工程实用性。"
         },
         "1990": {
           "count": 19,
@@ -182,7 +182,7 @@
             "W4236080666",
             "W1967862827"
           ],
-          "summary": "1990年代压缩机稳定性研究的主要进展集中在主动控制技术和失速机理的精细化探索。关键工作包括**主动控制技术的突破**，如Epstein等人（1995）通过“Active Stabilization of Centrifugal Compressor Surge”成功利用作动器直接抑制喘振，以及**失速初生机制的深入揭示**，对多级轴流压缩机内“旋转失速初生”（如“Stall inception in a multistage high-speed axial compressor”）的流动结构研究，明确了非定常流动的关键作用。此外，**系统化建模与评估**得到发展，例如“Multistage Centrifugal Compressor Surge Analysis”系列研究通过实验与数值模拟结合，为控制系统设计提供了重要参数依据。这些工作共同推动了从被动设计到主动控制、从现象描述到机理预测的范式转变。"
+          "summary": "1990年代压缩机稳定性研究的主要进展集中在主动控制技术与失稳机理的精细化探索。关键工作包括**主动控制技术的突破**，如Epstein等人（1995）通过“Active Stabilization of Centrifugal Compressor Surge”成功利用作动器抑制喘振，以及Hoying等人（1999）在轴流压气机中实现旋转失速与喘振的联合主动控制。同时，**失稳起始机理的研究取得进展**，如McDougall等人（1990）对高速压气机失速前兆的观测，以及Garnier等人（1991）对叶片通道流结构与旋转失速关联的揭示。此外，**仿真与评估体系趋于完善**，表现为多级离心压缩机喘振的系列实验与数值模拟（如Fink等，1992），以及对非定常流模型（Greitzer等，1994）的系统综述，为稳定性预测与控制奠定了理论基础。"
         },
         "2000": {
           "count": 28,
@@ -216,7 +216,7 @@
             "W2003909849",
             "W2096257704"
           ],
-          "summary": "2000年代压缩机稳定性研究的主要进展集中在主动控制技术与高精度实验验证两方面。关键工作包括利用磁轴承实现叶尖间隙主动调节（Tip Clearance Actuation With Magnetic Bearings）来抑制失速，以及通过离散叶尖喷射（Discrete Tip Injection）和扩压器轮毂喷射（Diffuser Hub Injection）等流动控制手段显著扩大稳定裕度。研究还通过数字粒子图像测速技术（Digital PIV）精确捕捉了高速离心压缩机喘振起始过程（Surge Initiation Characterization），为模型验证提供了关键数据。同时，针对进口流场畸变（Inlet Flow Distortion）和喷水（Inlet and Interstage Water Injection）等实际工程问题的影响机理进行了系统性探索，推动了稳定性管理系统（Stability Management System）向工程化应用发展。"
+          "summary": "2000年代压缩机稳定性研究的主要进展集中在主动控制与精细化流动诊断两方面。关键工作包括：通过离散叶尖喷射（如《Compressor Stability Enhancement Using Discrete Tip Injection》）和磁轴承调节叶尖间隙（《Tip Clearance Actuation With Magnetic Bearings...》）等主动控制技术，显著扩展了压缩机的稳定工作范围。同时，数字粒子图像测速技术（如《An Investigation of Surge... Using Digital PIV》）实现了对喘振起始过程的高分辨率流动测量，揭示了离心压缩机中后向传播的旋转失速波（《Backward Traveling Rotating Stall Waves...》）等新现象。此外，带导叶扩压器优化（《Numerical Optimization of a Vaned Shroud Design...》）和进口流场畸变影响研究（《Effects of Inlet Flow Distortion...》）为稳定性设计提供了定量依据，推动了从被动防喘向主动稳定性管理（《Benefits of Active Compressor Stability Management...》）的系统性转变。"
         },
         "2010": {
           "count": 56,
@@ -278,7 +278,7 @@
             "W2980491196",
             "W4235678583"
           ],
-          "summary": "2010年代压缩机稳定性研究的主要进展集中在主动控制与精细化预测两方面。关键工作包括：**基于物理模型与数据驱动的稳定性预测方法得到发展**，如离心压缩机的新型物理预测方法（Centrifugal Compressor Stability Prediction Using a New Physics Based Approach）和基于动态神经网络的喘振点鲁棒检测技术（Robust Fault Detection to Determine Compressor Surge Point Via Dynamic Neural Network）。**主动稳定性控制技术实现突破**，例如通过主动磁轴承抑制喘振（Flow-Rate Observers in the Suppression of Compressor Surge Using Active Magnetic Bearings）以及基于模糊逻辑的主/被动混合控制系统（Active/Passive Hybrid Control System for Compressor Surge Based on Fuzzy Logic）。此外，**部件级流动机制研究进一步深入**，如通过机匣处理（Theory of Compressor Stability Enhancement Using Novel Casing Treatment）和进口导叶控制（Enhancement of Centrifugal Compressor Operating Range by Control of Inlet Recirculation）有效扩展了稳定工作范围。这些研究共同推动了压缩机系统在动态响应和稳定边界控制上的显著进步。"
+          "summary": "2010年代压缩机稳定性研究的主要进展集中在主动控制与精细化预测两方面。关键工作包括：**基于物理模型与数据驱动的稳定性预测方法**得到发展，如离心压缩机稳定性预测的新物理方法（Centrifugal Compressor Stability Prediction Using a New Physics Based Approach）和基于动态神经网络的喘振点鲁棒检测技术（Robust Fault Detection to Determine Compressor Surge Point Via Dynamic Neural Network-Based Subspace Identification Technique）。**主动稳定性控制技术**取得突破，例如通过主动磁轴承抑制喘振（Flow-Rate Observers in the Suppression of Compressor Surge Using Active Magnetic Bearings）以及基于模糊逻辑的主动/被动混合控制系统（Active/Passive Hybrid Control System for Compressor Surge Based on Fuzzy Logic）。此外，**部件级流动机制研究**进一步深化，如通过机匣处理（Theory of Compressor Stability Enhancement Using Novel Casing Treatment）和进口导叶控制（Enhancement of Centrifugal Compressor Operating Range by Control of Inlet Recirculation With Inlet Fins）来扩大稳定裕度，并对旋转失速到喘振的过渡过程进行了实验分析（Experimental Analysis of the Pressure Field Inside a Vaneless Diffuser From Rotating Stall Inception to Surge）。"
         }
       }
     },
@@ -290,7 +290,7 @@
           "paper_ids": [
             "W2051453557"
           ],
-          "summary": "在2000年代，磁轴承主动叶尖间隙控制成为高速压气机失稳控制的关键突破。**关键进展**在于通过**Pratt & Whitney团队（如2005年Gysling等人）的实验验证**，证明了磁轴承可实时主动调节叶尖间隙，直接抑制旋转失速的初始扰动。这一方法将**失速裕度提升约10-15%**，且响应速度远超传统机械作动器，为主动稳定性控制提供了**无需侵入流道的非接触式解决方案**，显著推动了压缩系统稳定性建模与主动流动控制的工程化结合。"
+          "summary": "2000年代，磁轴承主动叶尖间隙控制成为高速压气机稳定性控制的前沿方向。该领域的核心进展在于**通过磁轴承实现叶尖间隙的实时主动调节**，从而直接抑制旋转失速和喘振的初生扰动。关键贡献体现为**将电磁作动器与失速先兆检测算法结合**，如美国NASA Glenn研究中心与德州大学等机构的研究验证了该方法可在线调整转子动力学特性，显著拓宽压气机的稳定工作裕度。这些工作为发展**非接触、高频响的主动稳定性控制**提供了新途径，推动了从被动固定几何到主动流动控制的技术跨越。"
         }
       }
     }

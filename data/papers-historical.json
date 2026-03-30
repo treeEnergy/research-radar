@@ -781,30 +781,6 @@
     "topics_matched": []
   },
   {
-    "id": "W2093919105",
-    "title": "Discussion: “Unsteady Losses in Transonic Compressors” (Ng, W. F., and Epstein, A. H., 1985, ASME J. Eng. Gas Turbines Power, 107, pp. 345–353)",
-    "date": "1985-04-01",
-    "year": 1985,
-    "authors": [
-      "Jeffrey Moore"
-    ],
-    "venue": "Journal of Engineering for Gas Turbines and Power",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.3239728",
-    "abstract": "",
-    "keywords": [
-      "Transonic",
-      "Gas compressor",
-      "Gas turbines",
-      "Physics",
-      "Engineering",
-      "Mechanics",
-      "Mechanical engineering",
-      "Thermodynamics"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W2014843656",
     "title": "A Discussion of the Factors Affecting Surge in Centrifugal Compressors",
     "date": "1985-04-01",
@@ -832,6 +808,30 @@
       "Computer science",
       "Physics",
       "Electrical engineering"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2093919105",
+    "title": "Discussion: “Unsteady Losses in Transonic Compressors” (Ng, W. F., and Epstein, A. H., 1985, ASME J. Eng. Gas Turbines Power, 107, pp. 345–353)",
+    "date": "1985-04-01",
+    "year": 1985,
+    "authors": [
+      "Jeffrey Moore"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3239728",
+    "abstract": "",
+    "keywords": [
+      "Transonic",
+      "Gas compressor",
+      "Gas turbines",
+      "Physics",
+      "Engineering",
+      "Mechanics",
+      "Mechanical engineering",
+      "Thermodynamics"
     ],
     "topics_matched": []
   },
@@ -1730,6 +1730,38 @@
     "topics_matched": []
   },
   {
+    "id": "W2073669440",
+    "title": "Inducer Stall in a Centrifugal Compressor With Inlet Distortion",
+    "date": "1987-01-01",
+    "year": 1987,
+    "authors": [
+      "Ichiro ARIGA",
+      "Shinji Masuda",
+      "Akihiro OOKITA"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3262066",
+    "abstract": "The effects of inlet distortion on the inducer stall in a centrifugal compressor are investigated. Cases of both radial and circumferential distortion are investigated. It is shown that the rotating stall onset is amplified by radial distortions, and restrained by circumferential distortions. These results are compared with calculations based on the small disturbance theory. The authors find that the stall onset is governed by the characteristic parameters related to the lower flow rate region for radial distortions, but affected by those of the higher flow rate region for circumferential distortion. It is shown that the process of stall is different for each distortion pattern. Existence of inlet distortion reduces compressor performance characteristics and strongly influences the stability margin.",
+    "keywords": [
+      "Stall (fluid mechanics)",
+      "Centrifugal compressor",
+      "Gas compressor",
+      "Axial compressor",
+      "Inlet",
+      "Mechanics",
+      "Distortion (music)",
+      "Physics",
+      "Control theory (sociology)",
+      "Materials science",
+      "Engineering",
+      "Thermodynamics",
+      "Computer science",
+      "Mechanical engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2023571811",
     "title": "A Numerical Analysis of the Three-Dimensional Viscous Flow in a Transonic Compressor Rotor and Comparison With Experiment",
     "date": "1987-01-01",
@@ -1790,38 +1822,6 @@
       "Flow (mathematics)",
       "Thermodynamics",
       "Physics"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W2073669440",
-    "title": "Inducer Stall in a Centrifugal Compressor With Inlet Distortion",
-    "date": "1987-01-01",
-    "year": 1987,
-    "authors": [
-      "Ichiro ARIGA",
-      "Shinji Masuda",
-      "Akihiro OOKITA"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.3262066",
-    "abstract": "The effects of inlet distortion on the inducer stall in a centrifugal compressor are investigated. Cases of both radial and circumferential distortion are investigated. It is shown that the rotating stall onset is amplified by radial distortions, and restrained by circumferential distortions. These results are compared with calculations based on the small disturbance theory. The authors find that the stall onset is governed by the characteristic parameters related to the lower flow rate region for radial distortions, but affected by those of the higher flow rate region for circumferential distortion. It is shown that the process of stall is different for each distortion pattern. Existence of inlet distortion reduces compressor performance characteristics and strongly influences the stability margin.",
-    "keywords": [
-      "Stall (fluid mechanics)",
-      "Centrifugal compressor",
-      "Gas compressor",
-      "Axial compressor",
-      "Inlet",
-      "Mechanics",
-      "Distortion (music)",
-      "Physics",
-      "Control theory (sociology)",
-      "Materials science",
-      "Engineering",
-      "Thermodynamics",
-      "Computer science",
-      "Mechanical engineering"
     ],
     "topics_matched": []
   },
@@ -1925,37 +1925,6 @@
     ]
   },
   {
-    "id": "W1998938291",
-    "title": "Some Experiments With a Supersonic Axial Compressor Stage",
-    "date": "1987-07-01",
-    "year": 1987,
-    "authors": [
-      "Arthur J. Wennerstrom"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.3262118",
-    "abstract": "Between 1970 and 1974, ten variants of a supersonic axial compressor stage were designed and tested. These included two rotor configurations, three rotor tip clearances, addition of boundary-layer control consisting of vortex generators on both the outer casing and the rotor, and the introduction of slots in the stator vanes. Design performance objectives were a stage total pressure ratio of 3.0 with an isentropic efficiency of 0.82 at a tip speed of 1600 ft/s (488 m/s). The first configuration passed only 70 percent of design flow at design speed, achieving a stage pressure ratio of 2.25 at a peak stage isentropic efficiency of 0.61. The rotor was grossly separated. The tenth variant passed 91.4 percent of design flow at design speed, producing a stage pressure ratio of 3.03 with an isentropic efficiency of 0.75. The rotor achieved a pressure ratio of 3.59 at an efficiency of 0.87 under the same conditions. Major conclusions were that design tools available today would undoubtedly permit the original goals to be met or exceeded. However, the application for such a design is currently questionable because efficiency goals considered acceptable for most current programs have risen considerably from the level considered acceptable at the inception of this effort. Splitter vanes placed in the rotor permitted very high diffusion levels to be achieved without stalling. However, viscous effects causing three-dimensional flows violating the assumption of flow confined to concentric stream tubes were so strong that a geometry optimization does not appear practical without a three-dimensional, viscous analysis. Passive boundary-layer control in the form of vortex generators and slots does appear to offer some benefit under certain circumstances.",
-    "keywords": [
-      "Isentropic process",
-      "Rotor (electric)",
-      "Overall pressure ratio",
-      "Gas compressor",
-      "Mechanics",
-      "Supersonic speed",
-      "Stator",
-      "Stage (stratigraphy)",
-      "Casing",
-      "Axial compressor",
-      "Flow (mathematics)",
-      "Mechanical engineering",
-      "Physics",
-      "Engineering",
-      "Geology"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W2107636249",
     "title": "A Method for Assessing Effects of Circumferential Flow Distortion on Compressor Stability",
     "date": "1987-07-01",
@@ -1994,6 +1963,37 @@
     "topics_matched": [
       "压缩机稳定性"
     ]
+  },
+  {
+    "id": "W1998938291",
+    "title": "Some Experiments With a Supersonic Axial Compressor Stage",
+    "date": "1987-07-01",
+    "year": 1987,
+    "authors": [
+      "Arthur J. Wennerstrom"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3262118",
+    "abstract": "Between 1970 and 1974, ten variants of a supersonic axial compressor stage were designed and tested. These included two rotor configurations, three rotor tip clearances, addition of boundary-layer control consisting of vortex generators on both the outer casing and the rotor, and the introduction of slots in the stator vanes. Design performance objectives were a stage total pressure ratio of 3.0 with an isentropic efficiency of 0.82 at a tip speed of 1600 ft/s (488 m/s). The first configuration passed only 70 percent of design flow at design speed, achieving a stage pressure ratio of 2.25 at a peak stage isentropic efficiency of 0.61. The rotor was grossly separated. The tenth variant passed 91.4 percent of design flow at design speed, producing a stage pressure ratio of 3.03 with an isentropic efficiency of 0.75. The rotor achieved a pressure ratio of 3.59 at an efficiency of 0.87 under the same conditions. Major conclusions were that design tools available today would undoubtedly permit the original goals to be met or exceeded. However, the application for such a design is currently questionable because efficiency goals considered acceptable for most current programs have risen considerably from the level considered acceptable at the inception of this effort. Splitter vanes placed in the rotor permitted very high diffusion levels to be achieved without stalling. However, viscous effects causing three-dimensional flows violating the assumption of flow confined to concentric stream tubes were so strong that a geometry optimization does not appear practical without a three-dimensional, viscous analysis. Passive boundary-layer control in the form of vortex generators and slots does appear to offer some benefit under certain circumstances.",
+    "keywords": [
+      "Isentropic process",
+      "Rotor (electric)",
+      "Overall pressure ratio",
+      "Gas compressor",
+      "Mechanics",
+      "Supersonic speed",
+      "Stator",
+      "Stage (stratigraphy)",
+      "Casing",
+      "Axial compressor",
+      "Flow (mathematics)",
+      "Mechanical engineering",
+      "Physics",
+      "Engineering",
+      "Geology"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W1987759615",
@@ -2878,34 +2878,6 @@
     "topics_matched": []
   },
   {
-    "id": "W1982895311",
-    "title": "A Comparison Between the Design Point and Near-Stall Performance of an Axial Compressor",
-    "date": "1990-01-01",
-    "year": 1990,
-    "authors": [
-      "N. M. McDougall"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2927405",
-    "abstract": "Detailed measurements have been made within an axial compressor operating both at design point and near stall. Rotor tip clearance was found to control the performance of the machine by influencing the flow within the rotor blade passages. This was not found to be the case in the stator blade row, where hub clearance was introduced beneath the blade tips. Although the passage flow was observed to be altered dramatically, no significant changes were apparent in the overall pressure rise or stall point. Small tip clearances in the rotor blade row resulted in the formation of corner separations at the hub, where the blade loading was highest. More representative clearances resulted in blockage at the tip due to the increased tip clearance flow. The effects that have been observed emphasize both the three-dimensional nature of the flow within compressor blade passages, and the importance of the flow in the endwall regions in determining the overall compressor performance.",
-    "keywords": [
-      "Stall (fluid mechanics)",
-      "Tip clearance",
-      "Axial compressor",
-      "Gas compressor",
-      "Stator",
-      "Mechanics",
-      "Rotor (electric)",
-      "Turbomachinery",
-      "Materials science",
-      "Engineering",
-      "Mechanical engineering",
-      "Physics"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W2000138459",
     "title": "Stability of Flow Through Multistage Axial Compressors",
     "date": "1990-01-01",
@@ -2930,6 +2902,34 @@
       "Mechanical engineering",
       "Engineering",
       "Geology",
+      "Physics"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W1982895311",
+    "title": "A Comparison Between the Design Point and Near-Stall Performance of an Axial Compressor",
+    "date": "1990-01-01",
+    "year": 1990,
+    "authors": [
+      "N. M. McDougall"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2927405",
+    "abstract": "Detailed measurements have been made within an axial compressor operating both at design point and near stall. Rotor tip clearance was found to control the performance of the machine by influencing the flow within the rotor blade passages. This was not found to be the case in the stator blade row, where hub clearance was introduced beneath the blade tips. Although the passage flow was observed to be altered dramatically, no significant changes were apparent in the overall pressure rise or stall point. Small tip clearances in the rotor blade row resulted in the formation of corner separations at the hub, where the blade loading was highest. More representative clearances resulted in blockage at the tip due to the increased tip clearance flow. The effects that have been observed emphasize both the three-dimensional nature of the flow within compressor blade passages, and the importance of the flow in the endwall regions in determining the overall compressor performance.",
+    "keywords": [
+      "Stall (fluid mechanics)",
+      "Tip clearance",
+      "Axial compressor",
+      "Gas compressor",
+      "Stator",
+      "Mechanics",
+      "Rotor (electric)",
+      "Turbomachinery",
+      "Materials science",
+      "Engineering",
+      "Mechanical engineering",
       "Physics"
     ],
     "topics_matched": []
@@ -4189,6 +4189,31 @@
     "topics_matched": []
   },
   {
+    "id": "W2018360377",
+    "title": "Three-Dimensional Navier–Stokes Computation of Turbomachinery Flows Using an Explicit Numerical Procedure and a Coupled k–ε Turbulence Model",
+    "date": "1992-07-01",
+    "year": 1992,
+    "authors": [
+      "Robert F. Kunz",
+      "B. Lakshminarayana"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929187",
+    "abstract": "An explicit, three-dimensional, coupled Navier–Stokes/k–ε technique has been developed and successfully applied to complex internal flow calculations. Several features of the procedure, which enable convergent and accurate calculation of high Reynolds number two-dimensional cascade flows, have been extended to three dimensions, including a low Reynolds number compressible form of the k–ε turbulence model, local time-step specification based on hyperbolic and parabolic stability requirements, and eigenvalue and local velocity scaling of artificial dissipation operators. A flux evaluation procedure, which eliminates the finite difference metric singularity at leading and trailing edges on H- and C-grids, is presented. The code is used to predict the pressure distribution, primary velocity, and secondary flows in an incompressible, turbulent curved duct flow for which CFD validation quality data are available. Also, a subsonic compressor rotor passage, for which detailed laser, rotating hot-wire, and five-hole pressure probe measurements have been made is computed. Detailed comparisons between predicted and measured core flow and near-wall velocity profiles, wake profiles, and spanwise mixing effects downstream of the rotor passage are presented for this case. It is found that the technique provides accurate and convergent engineering simulation of these complex turbulent flows.",
+    "keywords": [
+      "Turbulence",
+      "Turbomachinery",
+      "Mechanics",
+      "Physics",
+      "Reynolds number",
+      "Computational fluid dynamics",
+      "K-epsilon turbulence model",
+      "Classical mechanics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2119468179",
     "title": "Stator-Averaged, Rotor Blade-to-Blade Near-Wall Flow in a Multistage Axial Compressor With Tip Clearance Variation",
     "date": "1992-07-01",
@@ -4249,31 +4274,6 @@
       "Gas compressor",
       "Physics",
       "Thermodynamics"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W2018360377",
-    "title": "Three-Dimensional Navier–Stokes Computation of Turbomachinery Flows Using an Explicit Numerical Procedure and a Coupled k–ε Turbulence Model",
-    "date": "1992-07-01",
-    "year": 1992,
-    "authors": [
-      "Robert F. Kunz",
-      "B. Lakshminarayana"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2929187",
-    "abstract": "An explicit, three-dimensional, coupled Navier–Stokes/k–ε technique has been developed and successfully applied to complex internal flow calculations. Several features of the procedure, which enable convergent and accurate calculation of high Reynolds number two-dimensional cascade flows, have been extended to three dimensions, including a low Reynolds number compressible form of the k–ε turbulence model, local time-step specification based on hyperbolic and parabolic stability requirements, and eigenvalue and local velocity scaling of artificial dissipation operators. A flux evaluation procedure, which eliminates the finite difference metric singularity at leading and trailing edges on H- and C-grids, is presented. The code is used to predict the pressure distribution, primary velocity, and secondary flows in an incompressible, turbulent curved duct flow for which CFD validation quality data are available. Also, a subsonic compressor rotor passage, for which detailed laser, rotating hot-wire, and five-hole pressure probe measurements have been made is computed. Detailed comparisons between predicted and measured core flow and near-wall velocity profiles, wake profiles, and spanwise mixing effects downstream of the rotor passage are presented for this case. It is found that the technique provides accurate and convergent engineering simulation of these complex turbulent flows.",
-    "keywords": [
-      "Turbulence",
-      "Turbomachinery",
-      "Mechanics",
-      "Physics",
-      "Reynolds number",
-      "Computational fluid dynamics",
-      "K-epsilon turbulence model",
-      "Classical mechanics"
     ],
     "topics_matched": []
   },
@@ -4450,6 +4450,35 @@
     "topics_matched": []
   },
   {
+    "id": "W2046620959",
+    "title": "The Effect of Steady Aerodynamic Loading on the Flutter Stability of Turbomachinery Blading",
+    "date": "1993-01-01",
+    "year": 1993,
+    "authors": [
+      "Todd E. Smith",
+      "Jaikrishnan R. Kadambi"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929201",
+    "abstract": "An aeroelastic analysis is presented that accounts for the effect of steady aerodynamic loading on the aeroelastic stability of a cascade of compressor blades. The aeroelastic model is a two-degree-of-freedom model having bending and torsional displacements. A linearized unsteady potential flow theory is used to determine the unsteady aerodynamic response coefficients for the aeroelastic analysis. The steady aerodynamic loading was caused by the addition of (1) airfoil thickness and camber and (2) steady flow incidence. The importance of steady loading on the airfoil unsteady pressure distribution is demonstrated. Additionally, the effect of the steady loading on the tuned flutter behavior and flutter boundaries indicates that neglecting either airfoil thickness, camber, or incidence could result in nonconservative estimates of flutter behavior.",
+    "keywords": [
+      "Aeroelasticity",
+      "Flutter",
+      "Camber (aerodynamics)",
+      "Airfoil",
+      "Aerodynamics",
+      "Turbomachinery",
+      "Structural engineering",
+      "Mechanics",
+      "Aerodynamic force",
+      "Steady state (chemistry)",
+      "Engineering",
+      "Physics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2090613748",
     "title": "Closure to “Discussions of ‘The Role of Tip Clearance in High-Speed Fan Stall’” (1993, ASME J. Turbomach., 115, p. 39)",
     "date": "1993-01-01",
@@ -4502,35 +4531,6 @@
       "Thermodynamics",
       "Vortex",
       "Computer science"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W2046620959",
-    "title": "The Effect of Steady Aerodynamic Loading on the Flutter Stability of Turbomachinery Blading",
-    "date": "1993-01-01",
-    "year": 1993,
-    "authors": [
-      "Todd E. Smith",
-      "Jaikrishnan R. Kadambi"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2929201",
-    "abstract": "An aeroelastic analysis is presented that accounts for the effect of steady aerodynamic loading on the aeroelastic stability of a cascade of compressor blades. The aeroelastic model is a two-degree-of-freedom model having bending and torsional displacements. A linearized unsteady potential flow theory is used to determine the unsteady aerodynamic response coefficients for the aeroelastic analysis. The steady aerodynamic loading was caused by the addition of (1) airfoil thickness and camber and (2) steady flow incidence. The importance of steady loading on the airfoil unsteady pressure distribution is demonstrated. Additionally, the effect of the steady loading on the tuned flutter behavior and flutter boundaries indicates that neglecting either airfoil thickness, camber, or incidence could result in nonconservative estimates of flutter behavior.",
-    "keywords": [
-      "Aeroelasticity",
-      "Flutter",
-      "Camber (aerodynamics)",
-      "Airfoil",
-      "Aerodynamics",
-      "Turbomachinery",
-      "Structural engineering",
-      "Mechanics",
-      "Aerodynamic force",
-      "Steady state (chemistry)",
-      "Engineering",
-      "Physics"
     ],
     "topics_matched": []
   },
@@ -4761,6 +4761,25 @@
     "topics_matched": []
   },
   {
+    "id": "W1998733417",
+    "title": "Discussion: “On the Conservation of Rothalpy in Turbomachines” (Lyman, F. A., 1993, ASME J. Turbomach., 115, pp. 520–525)",
+    "date": "1993-07-01",
+    "year": 1993,
+    "authors": [
+      "Joan G. Moore",
+      "John G. Moore"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929283",
+    "abstract": "j p WrdS' was constant in order to reduce Eq. (A2) to the desired form. His result can be obtained without this assumption as follows:",
+    "keywords": [
+      "Physics",
+      "Environmental science"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2001010491",
     "title": "Investigation of Tip Clearance Phenomena in an Axial Compressor Cascade Using Euler and Navier–Stokes Procedures",
     "date": "1993-07-01",
@@ -4929,25 +4948,6 @@
     "topics_matched": []
   },
   {
-    "id": "W1998733417",
-    "title": "Discussion: “On the Conservation of Rothalpy in Turbomachines” (Lyman, F. A., 1993, ASME J. Turbomach., 115, pp. 520–525)",
-    "date": "1993-07-01",
-    "year": 1993,
-    "authors": [
-      "Joan G. Moore",
-      "John G. Moore"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2929283",
-    "abstract": "j p WrdS' was constant in order to reduce Eq. (A2) to the desired form. His result can be obtained without this assumption as follows:",
-    "keywords": [
-      "Physics",
-      "Environmental science"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W2060909388",
     "title": "Blade Loading and Shock Wave in a Transonic Circular Cascade Diffuser",
     "date": "1993-07-01",
@@ -5098,6 +5098,37 @@
     "topics_matched": []
   },
   {
+    "id": "W4244872031",
+    "title": "An Analysis System for Blade Forced Response",
+    "date": "1993-10-01",
+    "year": 1993,
+    "authors": [
+      "Hsiao‐Wei D. Chiang",
+      "R. E. Kielb"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929314",
+    "abstract": "A frequent cause of turbomachinery blade failure is excessive resonant response. The most common excitation source is the nonuniform flow field generated by inlet distortion, wakes and/or pressure disturbances from adjacent blade rows. The standard method for dealing with this problem is to avoid resonant conditions using a Campbell diagram. Unfortunately, it is impossible to avoid all resonant conditions. Therefore, judgments based on past experience are used to determine the acceptability of the blade design. A new analysis system has been developed to predict blade forced response. The system provides a design tool, over and above the standard Campbell diagram approach, for predicting potential forced response problems. The incoming excitation sources are modeled using a semi-empirical rotor wake/vortex model for wake excitation, measured data for inlet distortion, and a quasi-three-dimensional Euler code for pressure disturbances. Using these aerodynamic stimuli, and the blade’s natural frequencies and mode shapes from a finite element model, the unsteady aerodynamic modal forces and the aerodynamic damping are calculated. A modal response solution is then performed. This system has been applied to current engine designs. A recent investigation involved fan blade response due to inlet distortion. An aero mechanical test had been run with two different distortion screens. The resulting distortion entering the fan was measured. With this as input data, the predicted response agreed almost exactly with the measured response. In another application, the response of the LPT blades of a counterrotating supersonic turbine was determined. In this case the blades were excited by both a wake and a shock wave. The shock response was predicted to be three times larger than that of the wake. Thus, the system identified a new forcing function mechanism for supersonic turbines. This paper provides a basic description of the system, which includes: (1) models for the wake excitation, inlet distortion, and pressure disturbance; (2) a kernel function solution technique for unsteady aerodynamics; and (3) a modal aeroelastic solution using strip theory. Also, results of the two applications are presented.",
+    "keywords": [
+      "Wake",
+      "Turbomachinery",
+      "Distortion (music)",
+      "Aerodynamics",
+      "Structural engineering",
+      "Turbine blade",
+      "Acoustics",
+      "Mechanics",
+      "Engineering",
+      "Supersonic speed",
+      "Turbine",
+      "Physics",
+      "Mechanical engineering",
+      "Electronic engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4237001450",
     "title": "Unsteady Aerodynamics and Gust Response in Compressors and Turbines",
     "date": "1993-10-01",
@@ -5126,37 +5157,6 @@
       "Aerospace engineering",
       "Physics",
       "Mathematics"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W4244872031",
-    "title": "An Analysis System for Blade Forced Response",
-    "date": "1993-10-01",
-    "year": 1993,
-    "authors": [
-      "Hsiao‐Wei D. Chiang",
-      "R. E. Kielb"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2929314",
-    "abstract": "A frequent cause of turbomachinery blade failure is excessive resonant response. The most common excitation source is the nonuniform flow field generated by inlet distortion, wakes and/or pressure disturbances from adjacent blade rows. The standard method for dealing with this problem is to avoid resonant conditions using a Campbell diagram. Unfortunately, it is impossible to avoid all resonant conditions. Therefore, judgments based on past experience are used to determine the acceptability of the blade design. A new analysis system has been developed to predict blade forced response. The system provides a design tool, over and above the standard Campbell diagram approach, for predicting potential forced response problems. The incoming excitation sources are modeled using a semi-empirical rotor wake/vortex model for wake excitation, measured data for inlet distortion, and a quasi-three-dimensional Euler code for pressure disturbances. Using these aerodynamic stimuli, and the blade’s natural frequencies and mode shapes from a finite element model, the unsteady aerodynamic modal forces and the aerodynamic damping are calculated. A modal response solution is then performed. This system has been applied to current engine designs. A recent investigation involved fan blade response due to inlet distortion. An aero mechanical test had been run with two different distortion screens. The resulting distortion entering the fan was measured. With this as input data, the predicted response agreed almost exactly with the measured response. In another application, the response of the LPT blades of a counterrotating supersonic turbine was determined. In this case the blades were excited by both a wake and a shock wave. The shock response was predicted to be three times larger than that of the wake. Thus, the system identified a new forcing function mechanism for supersonic turbines. This paper provides a basic description of the system, which includes: (1) models for the wake excitation, inlet distortion, and pressure disturbance; (2) a kernel function solution technique for unsteady aerodynamics; and (3) a modal aeroelastic solution using strip theory. Also, results of the two applications are presented.",
-    "keywords": [
-      "Wake",
-      "Turbomachinery",
-      "Distortion (music)",
-      "Aerodynamics",
-      "Structural engineering",
-      "Turbine blade",
-      "Acoustics",
-      "Mechanics",
-      "Engineering",
-      "Supersonic speed",
-      "Turbine",
-      "Physics",
-      "Mechanical engineering",
-      "Electronic engineering"
     ],
     "topics_matched": []
   },
@@ -6098,32 +6098,6 @@
     ]
   },
   {
-    "id": "W2057128542",
-    "title": "Closure to “Discussion of ‘Leading Edge Separation Bubbles on Turbomachine Blades’” (1995, ASME J. Turbomach., 117, p. 125)",
-    "date": "1995-01-01",
-    "year": 1995,
-    "authors": [
-      "R. E. Walraevens",
-      "N. A. Cumpsty"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2835628",
-    "abstract": "",
-    "keywords": [
-      "Closure (psychology)",
-      "Turbomachinery",
-      "Leading edge",
-      "Materials science",
-      "Geology",
-      "Mechanics",
-      "Physics",
-      "Political science",
-      "Law"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W2133171837",
     "title": "Monitoring of Aerodynamic Load and Detection of Stall in Multistage Axial Compressors",
     "date": "1995-01-01",
@@ -6151,6 +6125,32 @@
       "Mechanical engineering",
       "Physics",
       "Mathematics"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2057128542",
+    "title": "Closure to “Discussion of ‘Leading Edge Separation Bubbles on Turbomachine Blades’” (1995, ASME J. Turbomach., 117, p. 125)",
+    "date": "1995-01-01",
+    "year": 1995,
+    "authors": [
+      "R. E. Walraevens",
+      "N. A. Cumpsty"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2835628",
+    "abstract": "",
+    "keywords": [
+      "Closure (psychology)",
+      "Turbomachinery",
+      "Leading edge",
+      "Materials science",
+      "Geology",
+      "Mechanics",
+      "Physics",
+      "Political science",
+      "Law"
     ],
     "topics_matched": []
   },
@@ -6621,39 +6621,6 @@
     "topics_matched": []
   },
   {
-    "id": "W2059788978",
-    "title": "Experimental and Computational Results From the NASA Lewis Low-Speed Centrifugal Impeller at Design and Part-Flow Conditions",
-    "date": "1996-01-01",
-    "year": 1996,
-    "authors": [
-      "Randall M. Chriss",
-      "Michael D. Hathaway",
-      "J. R. Wood"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2836607",
-    "abstract": "The NASA Lewis Low-Speed Centrifugal Compressor (LSCC) has been investigated with laser anemometry and computational analysis at two flow conditions: the design condition as well as a lower mass flow condition. Previously reported experimental and computational results at the design condition are in the literature (Hathaway et al., 1993). In that paper extensive analysis showed that inducer blade boundary layers are centrifuged outward and entrained into the tip clearance flow and hence contribute significantly to the throughflow wake. In this report results are presented for a lower mass flow condition along with further results from the design case. The data set contained herein consists of three-dimensional laser velocimeter results upstream, inside, and downstream of the impeller. In many locations data have been obtained in the blade and endwall boundary layers. The data are presented in the form of throughflow velocity contours as well as secondary flow vectors. The results reported herein illustrate the effects of flow rate on the development of the through flow momentum wake as well as on the secondary flow. The computational results presented confirm the ability of modern computational tools to model the complex flow in a subsonic centrifugal compressor accurately. However, the blade tip shape and tip clearance must be known in order to properly simulate the flow physics. In addition, the ability to predict changes in the throughflow wake, which is largely fed by the tip clearance flow, as the impeller is throttled should give designers much better confidence in using computational tools to improve impeller performance.",
-    "keywords": [
-      "Impeller",
-      "Throughflow",
-      "Wake",
-      "Mechanics",
-      "Centrifugal compressor",
-      "Flow (mathematics)",
-      "Computational fluid dynamics",
-      "Specific speed",
-      "Mechanical engineering",
-      "Engineering",
-      "Secondary flow",
-      "Slip factor",
-      "Centrifugal pump",
-      "Turbulence",
-      "Physics"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W2155761434",
     "title": "Pressure Oscillations Occurring in a Centrifugal Compressor System With and Without Passive and Active Surge Control",
     "date": "1996-01-01",
@@ -6686,6 +6653,39 @@
       "Mechanical engineering",
       "Computer science",
       "Control (management)"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2059788978",
+    "title": "Experimental and Computational Results From the NASA Lewis Low-Speed Centrifugal Impeller at Design and Part-Flow Conditions",
+    "date": "1996-01-01",
+    "year": 1996,
+    "authors": [
+      "Randall M. Chriss",
+      "Michael D. Hathaway",
+      "J. R. Wood"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2836607",
+    "abstract": "The NASA Lewis Low-Speed Centrifugal Compressor (LSCC) has been investigated with laser anemometry and computational analysis at two flow conditions: the design condition as well as a lower mass flow condition. Previously reported experimental and computational results at the design condition are in the literature (Hathaway et al., 1993). In that paper extensive analysis showed that inducer blade boundary layers are centrifuged outward and entrained into the tip clearance flow and hence contribute significantly to the throughflow wake. In this report results are presented for a lower mass flow condition along with further results from the design case. The data set contained herein consists of three-dimensional laser velocimeter results upstream, inside, and downstream of the impeller. In many locations data have been obtained in the blade and endwall boundary layers. The data are presented in the form of throughflow velocity contours as well as secondary flow vectors. The results reported herein illustrate the effects of flow rate on the development of the through flow momentum wake as well as on the secondary flow. The computational results presented confirm the ability of modern computational tools to model the complex flow in a subsonic centrifugal compressor accurately. However, the blade tip shape and tip clearance must be known in order to properly simulate the flow physics. In addition, the ability to predict changes in the throughflow wake, which is largely fed by the tip clearance flow, as the impeller is throttled should give designers much better confidence in using computational tools to improve impeller performance.",
+    "keywords": [
+      "Impeller",
+      "Throughflow",
+      "Wake",
+      "Mechanics",
+      "Centrifugal compressor",
+      "Flow (mathematics)",
+      "Computational fluid dynamics",
+      "Specific speed",
+      "Mechanical engineering",
+      "Engineering",
+      "Secondary flow",
+      "Slip factor",
+      "Centrifugal pump",
+      "Turbulence",
+      "Physics"
     ],
     "topics_matched": []
   },
@@ -6749,6 +6749,49 @@
       "Thermodynamics"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2076189598",
+    "title": "Effects of Rotating Inlet Distortion on Multistage Compressor Stability",
+    "date": "1996-04-01",
+    "year": 1996,
+    "authors": [
+      "John P. Longley",
+      "Hyun Wook Shin",
+      "R. E. Plumley",
+      "Peter D. Silkowski",
+      "I. J. Day",
+      "E. M. Greitzer",
+      "C. S. Tan",
+      "D. C. Wisler"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2836624",
+    "abstract": "In multispool engines, rotating stall in an upstream compressor will impose a rotating distortion on the downstream compressor, thereby affecting its stability margin. In this paper experiments are described in which this effect was simulated by a rotating screen upstream of several multistage low-speed compressors. The measurements are complemented by, and compared with, a theoretical model of multistage compressor response to speed and direction of rotation of an inlet distortion. For corotating distortions (i.e., distortions rotating in the same direction as rotor rotation), experiments show that the compressors exhibited significant loss in stability margin and that they could be divided into two groups according to their response. The first group exhibited a single peak in stall margin degradation when the distortion speed corresponded to roughly 50 percent of rotor speed. The second group showed two peaks in stall margin degradation corresponding to distortion speeds of approximately 25–35 percent and 70–75 percent of rotor speed. These new results demonstrate that multistage compressors can have more than a single resonant response. Detailed measurements suggest that the two types of behavior are linked to differences between the stall inception processes observed for the two groups of compressors and that a direct connection thus exists between the observed forced response and the unsteady flow phenomena at stall onset. For counterrotational distortions, all the compressors tested showed minimal loss of stability margin. The results imply that counterrotation of the fan and core compressor, or LP and HP compressors, could be a worthwhile design choice. Calculations based on the two-dimensional theoretical model show excellent agreement for the compressors, which had a single peak for stall margin degradation. We take this first-of-a-kind comparison as showing that the model, though simplified, captures the essential fluid dynamic features of the phenomena. Agreement is not good for compressors that had two peaks in the curve of stall margin shift versus distortion rotation speed. The discrepancy is attributed to the three-dimensional and short length scale nature of the stall inception process in these machines; this includes phenomena that have not yet been addressed in any model.",
+    "keywords": [
+      "Stall (fluid mechanics)",
+      "Gas compressor",
+      "Axial compressor",
+      "Mechanics",
+      "Inlet",
+      "Rotational speed",
+      "Distortion (music)",
+      "Control theory (sociology)",
+      "Rotation (mathematics)",
+      "Rotor (electric)",
+      "Physics",
+      "Engineering",
+      "Mathematics",
+      "Computer science",
+      "Geometry",
+      "Mechanical engineering",
+      "Thermodynamics",
+      "Classical mechanics"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2034859346",
@@ -6850,49 +6893,6 @@
       "Turbulence"
     ],
     "topics_matched": []
-  },
-  {
-    "id": "W2076189598",
-    "title": "Effects of Rotating Inlet Distortion on Multistage Compressor Stability",
-    "date": "1996-04-01",
-    "year": 1996,
-    "authors": [
-      "John P. Longley",
-      "Hyun Wook Shin",
-      "R. E. Plumley",
-      "Peter D. Silkowski",
-      "I. J. Day",
-      "E. M. Greitzer",
-      "C. S. Tan",
-      "D. C. Wisler"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2836624",
-    "abstract": "In multispool engines, rotating stall in an upstream compressor will impose a rotating distortion on the downstream compressor, thereby affecting its stability margin. In this paper experiments are described in which this effect was simulated by a rotating screen upstream of several multistage low-speed compressors. The measurements are complemented by, and compared with, a theoretical model of multistage compressor response to speed and direction of rotation of an inlet distortion. For corotating distortions (i.e., distortions rotating in the same direction as rotor rotation), experiments show that the compressors exhibited significant loss in stability margin and that they could be divided into two groups according to their response. The first group exhibited a single peak in stall margin degradation when the distortion speed corresponded to roughly 50 percent of rotor speed. The second group showed two peaks in stall margin degradation corresponding to distortion speeds of approximately 25–35 percent and 70–75 percent of rotor speed. These new results demonstrate that multistage compressors can have more than a single resonant response. Detailed measurements suggest that the two types of behavior are linked to differences between the stall inception processes observed for the two groups of compressors and that a direct connection thus exists between the observed forced response and the unsteady flow phenomena at stall onset. For counterrotational distortions, all the compressors tested showed minimal loss of stability margin. The results imply that counterrotation of the fan and core compressor, or LP and HP compressors, could be a worthwhile design choice. Calculations based on the two-dimensional theoretical model show excellent agreement for the compressors, which had a single peak for stall margin degradation. We take this first-of-a-kind comparison as showing that the model, though simplified, captures the essential fluid dynamic features of the phenomena. Agreement is not good for compressors that had two peaks in the curve of stall margin shift versus distortion rotation speed. The discrepancy is attributed to the three-dimensional and short length scale nature of the stall inception process in these machines; this includes phenomena that have not yet been addressed in any model.",
-    "keywords": [
-      "Stall (fluid mechanics)",
-      "Gas compressor",
-      "Axial compressor",
-      "Mechanics",
-      "Inlet",
-      "Rotational speed",
-      "Distortion (music)",
-      "Control theory (sociology)",
-      "Rotation (mathematics)",
-      "Rotor (electric)",
-      "Physics",
-      "Engineering",
-      "Mathematics",
-      "Computer science",
-      "Geometry",
-      "Mechanical engineering",
-      "Thermodynamics",
-      "Classical mechanics"
-    ],
-    "topics_matched": [
-      "压缩机稳定性"
-    ]
   },
   {
     "id": "W2043836890",
@@ -7460,6 +7460,34 @@
     "topics_matched": []
   },
   {
+    "id": "W2129707540",
+    "title": "Education Committee Best Paper of 1996 Award: Response of a Turbofan Engine Compression System to Disturbed Inlet Conditions",
+    "date": "1997-10-01",
+    "year": 1997,
+    "authors": [
+      "A. M. Abdel-Fattah"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2841177",
+    "abstract": "A generic code DYNTECC has been adapted to perform a parametric study of the effect of inlet flow distortion on the stability of the Pratt and Whitney TF30 engine. This code was developed at Arnold Engineering Development Center, USA, for single and dual spool systems. It was modified at AMRL to accommodate the particular geometry of the TF30 engine. The stage characteristics needed to operate DYNTECC were derived from experimental data for the fan and low-pressure compressor. For the high-pressure compressor they were derived using the STGSTK code developed at NASA Lewis Research Center. This program was modified at AMRL to include real flow effects that were in turn derived using yet another adapted code, CASCAD. The code was primarily used at AMRL to predict the onset of system instability due to simulated full-face rapid inlet temperature ramps typical of those caused during armament firings. It was also run with sinusoidal total pressure oscillations of varying amplitudes and frequencies at the inlet. The code predictions were compared with available data whenever possible, and were found to be consistent with the observed experimental trends.",
+    "keywords": [
+      "Turbofan",
+      "Gas compressor",
+      "Inlet",
+      "Distortion (music)",
+      "Code (set theory)",
+      "Parametric statistics",
+      "Engineering",
+      "Computer science",
+      "Aerospace engineering",
+      "Mechanical engineering",
+      "Amplifier",
+      "Electrical engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2008725326",
     "title": "Application of a Multi-Block CFD Code to Investigate the Impact of Geometry Modeling on Centrifugal Compressor Flow Field Predictions",
     "date": "1997-10-01",
@@ -7490,34 +7518,6 @@
       "Aerospace engineering",
       "Physics",
       "Mathematics"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W2129707540",
-    "title": "Education Committee Best Paper of 1996 Award: Response of a Turbofan Engine Compression System to Disturbed Inlet Conditions",
-    "date": "1997-10-01",
-    "year": 1997,
-    "authors": [
-      "A. M. Abdel-Fattah"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2841177",
-    "abstract": "A generic code DYNTECC has been adapted to perform a parametric study of the effect of inlet flow distortion on the stability of the Pratt and Whitney TF30 engine. This code was developed at Arnold Engineering Development Center, USA, for single and dual spool systems. It was modified at AMRL to accommodate the particular geometry of the TF30 engine. The stage characteristics needed to operate DYNTECC were derived from experimental data for the fan and low-pressure compressor. For the high-pressure compressor they were derived using the STGSTK code developed at NASA Lewis Research Center. This program was modified at AMRL to include real flow effects that were in turn derived using yet another adapted code, CASCAD. The code was primarily used at AMRL to predict the onset of system instability due to simulated full-face rapid inlet temperature ramps typical of those caused during armament firings. It was also run with sinusoidal total pressure oscillations of varying amplitudes and frequencies at the inlet. The code predictions were compared with available data whenever possible, and were found to be consistent with the observed experimental trends.",
-    "keywords": [
-      "Turbofan",
-      "Gas compressor",
-      "Inlet",
-      "Distortion (music)",
-      "Code (set theory)",
-      "Parametric statistics",
-      "Engineering",
-      "Computer science",
-      "Aerospace engineering",
-      "Mechanical engineering",
-      "Amplifier",
-      "Electrical engineering"
     ],
     "topics_matched": []
   },
@@ -7553,6 +7553,37 @@
     "topics_matched": []
   },
   {
+    "id": "W1986528851",
+    "title": "Structures and Dynamics Committee Best Paper of 1996 Award: Inlet Distortion Generated Forced Response of a Low-Aspect-Ratio Transonic Fan",
+    "date": "1997-10-01",
+    "year": 1997,
+    "authors": [
+      "Steven R. Manwaring",
+      "D. C. Rabe",
+      "Christopher B. Lorence",
+      "A. R. Wadia"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2841176",
+    "abstract": "This paper describes a portion of an experimental and computational program (ADLARF), which incorporates, for the first time, measurements of all aspects of the forced response of an airfoil row, i.e., the flow defect, the unsteady pressure loadings, and the vibratory response. The purpose of this portion was to extend the knowledge of the unsteady aerodynamics associated with a low-aspect-ratio transonic fan where the flow defects were generated by inlet distortions. Measurements of screen distortion patterns were obtained with total pressure rakes and casing static pressures. The unsteady pressure loadings on the blade were determined from high response pressure transducers. The resulting blade vibrations were measured with strain gages. The steady flow was analyzed using a three-dimensional Navier–Stokes solver while the unsteady flow was determined with a quasi-three-dimensional linearized Euler solver. Experimental results showed that the distortions had strong vortical, moderate entropic, and weak acoustic parts. The three-dimensional Navier–Stokes analyses showed that the steady flow is predominantly two-dimensional, with radially outward flow existing only in the blade surface boundary layers downstream of shocks and in the aft part of the suction surface. At near resonance conditions, the strain gage data showed blade-to-blade motion variations and thus, linearized unsteady Euler solutions showed poorer agreement with the unsteady loading data than comparisons at off-resonance speeds. Data analysis showed that entropic waves generated unsteady loadings comparable to vortical waves in the blade regions where shocks existed.",
+    "keywords": [
+      "Transonic",
+      "Mechanics",
+      "Aerodynamics",
+      "Tip clearance",
+      "Acoustics",
+      "Turbomachinery",
+      "Rotor (electric)",
+      "Physics",
+      "Structural engineering",
+      "Materials science",
+      "Engineering",
+      "Vortex"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2002552030",
     "title": "Capacitive Measurement of Compressor and Turbine Blade Tip to Casing Running Clearance",
     "date": "1997-10-01",
@@ -7582,37 +7613,6 @@
       "Engineering",
       "Electrical engineering",
       "Physics"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W1986528851",
-    "title": "Structures and Dynamics Committee Best Paper of 1996 Award: Inlet Distortion Generated Forced Response of a Low-Aspect-Ratio Transonic Fan",
-    "date": "1997-10-01",
-    "year": 1997,
-    "authors": [
-      "Steven R. Manwaring",
-      "D. C. Rabe",
-      "Christopher B. Lorence",
-      "A. R. Wadia"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2841176",
-    "abstract": "This paper describes a portion of an experimental and computational program (ADLARF), which incorporates, for the first time, measurements of all aspects of the forced response of an airfoil row, i.e., the flow defect, the unsteady pressure loadings, and the vibratory response. The purpose of this portion was to extend the knowledge of the unsteady aerodynamics associated with a low-aspect-ratio transonic fan where the flow defects were generated by inlet distortions. Measurements of screen distortion patterns were obtained with total pressure rakes and casing static pressures. The unsteady pressure loadings on the blade were determined from high response pressure transducers. The resulting blade vibrations were measured with strain gages. The steady flow was analyzed using a three-dimensional Navier–Stokes solver while the unsteady flow was determined with a quasi-three-dimensional linearized Euler solver. Experimental results showed that the distortions had strong vortical, moderate entropic, and weak acoustic parts. The three-dimensional Navier–Stokes analyses showed that the steady flow is predominantly two-dimensional, with radially outward flow existing only in the blade surface boundary layers downstream of shocks and in the aft part of the suction surface. At near resonance conditions, the strain gage data showed blade-to-blade motion variations and thus, linearized unsteady Euler solutions showed poorer agreement with the unsteady loading data than comparisons at off-resonance speeds. Data analysis showed that entropic waves generated unsteady loadings comparable to vortical waves in the blade regions where shocks existed.",
-    "keywords": [
-      "Transonic",
-      "Mechanics",
-      "Aerodynamics",
-      "Tip clearance",
-      "Acoustics",
-      "Turbomachinery",
-      "Rotor (electric)",
-      "Physics",
-      "Structural engineering",
-      "Materials science",
-      "Engineering",
-      "Vortex"
     ],
     "topics_matched": []
   },
@@ -8121,6 +8121,36 @@
     "topics_matched": []
   },
   {
+    "id": "W2029498818",
+    "title": "1997 Best Paper Award—Turbomachinery Committee: A Study of Spike and Modal Stall Phenomena in a Low-Speed Axial Compressor",
+    "date": "1998-07-01",
+    "year": 1998,
+    "authors": [
+      "Thomas R. Camp",
+      "I. J. Day"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2841730",
+    "abstract": "This paper presents a study of stall inception mechanisms in a low-speed axial compressor. Previous work has identified two common flow breakdown sequences, the first associated with a short length-scale disturbance known as a “spike,” and the second with a longer length-scale disturbance known as a “modal oscillation.” In this paper the physical differences between these two mechanisms are illustrated with detailed measurements. Experimental results are also presented that relate the occurrence of the two stalling mechanisms to the operating conditions of the compressor. It is shown that the stability criteria for the two disturbances are different: Long length-scale disturbances are related to a two-dimensional instability of the whole compression system, while short length-scale disturbances indicate a three-dimensional breakdown of the flow-field associated with high rotor incidence angles. Based on the experimental measurements, a simple model is proposed that explains the type of stall inception pattern observed in a particular compressor. Measurements from a single-stage low-speed compressor and from a multistage high-speed compressor are presented in support of the model.",
+    "keywords": [
+      "Stall (fluid mechanics)",
+      "Gas compressor",
+      "Axial compressor",
+      "Turbomachinery",
+      "Control theory (sociology)",
+      "Instability",
+      "Modal",
+      "Mechanics",
+      "Engineering",
+      "Physics",
+      "Computer science",
+      "Mechanical engineering",
+      "Materials science"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4235067475",
     "title": "Blockage Development in a Transonic, Axial Compressor Rotor",
     "date": "1998-07-01",
@@ -8193,36 +8223,6 @@
       "Engineering",
       "Aerodynamics",
       "Physics"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W2029498818",
-    "title": "1997 Best Paper Award—Turbomachinery Committee: A Study of Spike and Modal Stall Phenomena in a Low-Speed Axial Compressor",
-    "date": "1998-07-01",
-    "year": 1998,
-    "authors": [
-      "Thomas R. Camp",
-      "I. J. Day"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2841730",
-    "abstract": "This paper presents a study of stall inception mechanisms in a low-speed axial compressor. Previous work has identified two common flow breakdown sequences, the first associated with a short length-scale disturbance known as a “spike,” and the second with a longer length-scale disturbance known as a “modal oscillation.” In this paper the physical differences between these two mechanisms are illustrated with detailed measurements. Experimental results are also presented that relate the occurrence of the two stalling mechanisms to the operating conditions of the compressor. It is shown that the stability criteria for the two disturbances are different: Long length-scale disturbances are related to a two-dimensional instability of the whole compression system, while short length-scale disturbances indicate a three-dimensional breakdown of the flow-field associated with high rotor incidence angles. Based on the experimental measurements, a simple model is proposed that explains the type of stall inception pattern observed in a particular compressor. Measurements from a single-stage low-speed compressor and from a multistage high-speed compressor are presented in support of the model.",
-    "keywords": [
-      "Stall (fluid mechanics)",
-      "Gas compressor",
-      "Axial compressor",
-      "Turbomachinery",
-      "Control theory (sociology)",
-      "Instability",
-      "Modal",
-      "Mechanics",
-      "Engineering",
-      "Physics",
-      "Computer science",
-      "Mechanical engineering",
-      "Materials science"
     ],
     "topics_matched": []
   },
@@ -9023,6 +9023,36 @@
     "topics_matched": []
   },
   {
+    "id": "W2086886500",
+    "title": "Periodic Transition on an Axial Compressor Stator: Incidence and Clocking Effects: Part II—Transition Onset Predictions",
+    "date": "1999-07-01",
+    "year": 1999,
+    "authors": [
+      "W. J. Solomon",
+      "G. J. Walker",
+      "J. D. Hughes"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2841333",
+    "abstract": "Transition onset observations from a 1.5-stage axial compressor outlet stator presented in Part I of this paper are compared with the predictions of conventional transition correlations applied in a quasi-steady manner. The viscous/inviscid interaction code MISES is used to predict the blade surface pressure distributions and boundary layer development. The temporal variation in transition onset is then predicted using ensemble-averaged free-stream turbulence data from the compressor measurements. This simple procedure captures most significant features of the complex transition process on the compressor, and is clearly superior to fixed transition models based on long-term average free-stream turbulence levels. Parallel computations for both natural and bypass transition modes indicate that the natural transition mode tends to dominate on the compressor. This is at variance with turbine airfoil experience, where bypass transition is clearly more important. Comparison of prediction and experiment highlights the significance of leading edge potential flow interactions in promoting periodic wake-induced transition. Viscous/inviscid interactions in the neighborhood of transition can also have an important influence on boundary layer stability and separation phenomena.",
+    "keywords": [
+      "Inviscid flow",
+      "Mechanics",
+      "Boundary layer",
+      "Gas compressor",
+      "Airfoil",
+      "Turbulence",
+      "Axial compressor",
+      "Stator",
+      "Physics",
+      "Turbomachinery",
+      "Statistical physics",
+      "Thermodynamics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2026230194",
     "title": "Endwall Blockage in Axial Compressors",
     "date": "1999-07-01",
@@ -9091,32 +9121,33 @@
     "topics_matched": []
   },
   {
-    "id": "W2086886500",
-    "title": "Periodic Transition on an Axial Compressor Stator: Incidence and Clocking Effects: Part II—Transition Onset Predictions",
+    "id": "W1981388654",
+    "title": "Design and Testing of Swept and Leaned Outlet Guide Vanes to Reduce Stator–Strut–Splitter Aerodynamic Flow Interactions",
     "date": "1999-07-01",
     "year": 1999,
     "authors": [
-      "W. J. Solomon",
-      "G. J. Walker",
-      "J. D. Hughes"
+      "A. R. Wadia",
+      "P. N. Szucs",
+      "Karen Gundy-Burlet"
     ],
     "venue": "Journal of Turbomachinery",
     "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2841333",
-    "abstract": "Transition onset observations from a 1.5-stage axial compressor outlet stator presented in Part I of this paper are compared with the predictions of conventional transition correlations applied in a quasi-steady manner. The viscous/inviscid interaction code MISES is used to predict the blade surface pressure distributions and boundary layer development. The temporal variation in transition onset is then predicted using ensemble-averaged free-stream turbulence data from the compressor measurements. This simple procedure captures most significant features of the complex transition process on the compressor, and is clearly superior to fixed transition models based on long-term average free-stream turbulence levels. Parallel computations for both natural and bypass transition modes indicate that the natural transition mode tends to dominate on the compressor. This is at variance with turbine airfoil experience, where bypass transition is clearly more important. Comparison of prediction and experiment highlights the significance of leading edge potential flow interactions in promoting periodic wake-induced transition. Viscous/inviscid interactions in the neighborhood of transition can also have an important influence on boundary layer stability and separation phenomena.",
+    "url": "https://doi.org/10.1115/1.2841334",
+    "abstract": "Large circumferentially varying pressure levels produced by aerodynamic flow interactions between downstream stators and struts present a potential noise and stability margin liability in a compression component. These interactions are presently controlled by tailoring the camber and/or stagger angles of vanes neighboring the fan frame struts. This paper reports on the design and testing of a unique set of swept and leaned fan outlet guide vanes (OGVs) that do not require this local tailoring even though the OGVs are closely coupled with the fan frame struts and splitter to reduce engine length. The swept and leaned OGVs not only reduce core-duct diffusion, but they also reduce the potential flow interaction between the stator and the strut relative to that produced by conventional radial OGVs. First, the design of the outlet guide vanes using a single blade row three-dimensional viscous flow analysis is outlined. Next, a two-dimensional potential flow analysis was used for the coupled OGV–frame system to obtain a circumferentially nonuniform stator stagger angle distribution to reduce the upstream static pressure disturbance further. Recognizing the limitations of the two-dimensional potential flow analysis for this highly three-dimensional set of leaned OGVs, as a final evaluation of the OGV–strut system design, a full three-dimensional viscous analysis of a periodic circumferential sector of the OGVs, including the fan frame struts and splitter, was performed. The computer model was derived from a NASA-developed code used in simulating the flow field for external aerodynamic applications with complex geometries. The three-dimensional coupled OGV–frame analysis included the uniformly staggered OGV configuration and the variably staggered OGV configuration determined by the two-dimensional potential flow analysis. Contrary to the two-dimensional calculations, the three-dimensional analysis revealed significant flow problems with the variably staggered OGV configuration and showed less upstream flow nonuniformity with the uniformly staggered OGV configuration. The flow redistribution in both the radial and tangential directions, captured fully only in the three-dimensional analysis, was identified as the prime contributor to the lower flow nonuniformity with the uniformly staggered OGV configuration. The coupled three-dimensional analysis was also used to validate the design at off-design conditions. Engine test performance and stability measurements with both uniformly and variably staggered OGV configurations with and without the presence of inlet distortion confirmed the conclusions from the three-dimensional analysis.",
     "keywords": [
-      "Inviscid flow",
+      "Camber (aerodynamics)",
+      "Aerodynamics",
+      "Engineering",
+      "Flow separation",
+      "Duct (anatomy)",
+      "Static pressure",
+      "Flow (mathematics)",
+      "Structural engineering",
+      "Mechanical engineering",
       "Mechanics",
-      "Boundary layer",
-      "Gas compressor",
-      "Airfoil",
-      "Turbulence",
-      "Axial compressor",
-      "Stator",
+      "Aerospace engineering",
       "Physics",
-      "Turbomachinery",
-      "Statistical physics",
-      "Thermodynamics"
+      "Boundary layer"
     ],
     "topics_matched": []
   },
@@ -9154,37 +9185,6 @@
       "Mechanical engineering",
       "Composite material",
       "Anatomy"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W1981388654",
-    "title": "Design and Testing of Swept and Leaned Outlet Guide Vanes to Reduce Stator–Strut–Splitter Aerodynamic Flow Interactions",
-    "date": "1999-07-01",
-    "year": 1999,
-    "authors": [
-      "A. R. Wadia",
-      "P. N. Szucs",
-      "Karen Gundy-Burlet"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2841334",
-    "abstract": "Large circumferentially varying pressure levels produced by aerodynamic flow interactions between downstream stators and struts present a potential noise and stability margin liability in a compression component. These interactions are presently controlled by tailoring the camber and/or stagger angles of vanes neighboring the fan frame struts. This paper reports on the design and testing of a unique set of swept and leaned fan outlet guide vanes (OGVs) that do not require this local tailoring even though the OGVs are closely coupled with the fan frame struts and splitter to reduce engine length. The swept and leaned OGVs not only reduce core-duct diffusion, but they also reduce the potential flow interaction between the stator and the strut relative to that produced by conventional radial OGVs. First, the design of the outlet guide vanes using a single blade row three-dimensional viscous flow analysis is outlined. Next, a two-dimensional potential flow analysis was used for the coupled OGV–frame system to obtain a circumferentially nonuniform stator stagger angle distribution to reduce the upstream static pressure disturbance further. Recognizing the limitations of the two-dimensional potential flow analysis for this highly three-dimensional set of leaned OGVs, as a final evaluation of the OGV–strut system design, a full three-dimensional viscous analysis of a periodic circumferential sector of the OGVs, including the fan frame struts and splitter, was performed. The computer model was derived from a NASA-developed code used in simulating the flow field for external aerodynamic applications with complex geometries. The three-dimensional coupled OGV–frame analysis included the uniformly staggered OGV configuration and the variably staggered OGV configuration determined by the two-dimensional potential flow analysis. Contrary to the two-dimensional calculations, the three-dimensional analysis revealed significant flow problems with the variably staggered OGV configuration and showed less upstream flow nonuniformity with the uniformly staggered OGV configuration. The flow redistribution in both the radial and tangential directions, captured fully only in the three-dimensional analysis, was identified as the prime contributor to the lower flow nonuniformity with the uniformly staggered OGV configuration. The coupled three-dimensional analysis was also used to validate the design at off-design conditions. Engine test performance and stability measurements with both uniformly and variably staggered OGV configurations with and without the presence of inlet distortion confirmed the conclusions from the three-dimensional analysis.",
-    "keywords": [
-      "Camber (aerodynamics)",
-      "Aerodynamics",
-      "Engineering",
-      "Flow separation",
-      "Duct (anatomy)",
-      "Static pressure",
-      "Flow (mathematics)",
-      "Structural engineering",
-      "Mechanical engineering",
-      "Mechanics",
-      "Aerospace engineering",
-      "Physics",
-      "Boundary layer"
     ],
     "topics_matched": []
   },
@@ -9533,46 +9533,6 @@
     "topics_matched": []
   },
   {
-    "id": "W2051453557",
-    "title": "Tip Clearance Actuation With Magnetic Bearings for High-Speed Compressor Stall Control",
-    "date": "2000-02-01",
-    "year": 2000,
-    "authors": [
-      "Z. S. Spakovszky",
-      "James Paduano",
-      "R. Larsonneur",
-      "Alfons Traxler",
-      "Michelle M. Bright"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.1370163",
-    "abstract": "Magnetic bearings are widely used as active suspension devices in rotating machinery, mainly for active vibration control purposes. The concept of active tip-clearance control suggests a new application of magnetic bearings as servo-actuators to stabilize rotating stall in axial compressors. This paper presents a first-of-a-kind feasibility study of an active stall control experiment with a magnetic bearing servo-actuator in the NASA Glenn high-speed single-stage compressor test facility. Together with CFD and experimental data a two-dimensional, incompressible compressor stability model was used in a stochastic estimation and control analysis to determine the required magnetic bearing performance for compressor stall control. The resulting requirements introduced new challenges to the magnetic bearing actuator design. A magnetic bearing servo-actuator was designed that fulfilled the performance specifications. Control laws were then developed to stabilize the compressor shaft. In a second control loop, a constant gain controller was implemented to stabilize rotating stall. A detailed closed loop simulation at 100 percent corrected design speed resulted in a 2.3 percent reduction of stalling mass flow, which is comparable to results obtained in the same compressor by Weigl et al. (1998. ASME J. Turbomach. 120, 625–636) using unsteady air injection. The design and simulation results presented here establish the viability of magnetic bearings for stall control in aero-engine high-speed compressors. Furthermore, the paper outlines a general design procedure to develop magnetic bearing servo-actuators for high-speed turbomachinery.",
-    "keywords": [
-      "Stall (fluid mechanics)",
-      "Gas compressor",
-      "Magnetic bearing",
-      "Actuator",
-      "Control theory (sociology)",
-      "Axial compressor",
-      "Magnetic levitation",
-      "Engineering",
-      "Servo",
-      "Centrifugal compressor",
-      "Turbomachinery",
-      "Servo control",
-      "Mechanical engineering",
-      "Computer science",
-      "Aerospace engineering",
-      "Rotor (electric)",
-      "Magnet"
-    ],
-    "topics_matched": [
-      "压缩机稳定性",
-      "稳定性建模"
-    ]
-  },
-  {
     "id": "W2119224410",
     "title": "Unsteady Flow and Whirl-Inducing Forces in Axial-Flow Compressors: Part I—Experiment",
     "date": "2000-02-01",
@@ -9614,75 +9574,44 @@
     "topics_matched": []
   },
   {
-    "id": "W2005878447",
-    "title": "Viscous-Flow Two-Dimensional Analysis Including Secondary Flow Effects",
+    "id": "W2051453557",
+    "title": "Tip Clearance Actuation With Magnetic Bearings for High-Speed Compressor Stall Control",
     "date": "2000-02-01",
     "year": 2000,
     "authors": [
-      "Reinhard Mo¨nig",
-      "Frank Mildner",
-      "Ralf Ro ̈per"
+      "Z. S. Spakovszky",
+      "James Paduano",
+      "R. Larsonneur",
+      "Alfons Traxler",
+      "Michelle M. Bright"
     ],
     "venue": "Journal of Turbomachinery",
     "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.1370167",
-    "abstract": "During the last few decades extremely powerful Quasi-three-dimensional (3D) codes and fully 3D Navier-Stokes solvers have been developed and successfully utilized in the design process and optimization of multistage axial-flow compressors. However, most of these methods proved to be difficult in handling and extremely time consuming. Due to these disadvantages, the primary stage design and stage matching as well as the off-design analysis is nowadays still based on fast 2D methods incorporating loss-, deviation- and end wall modeling. Only the detailed 3D optimization is normally performed by means of advanced 3D methods. In this paper a fast and efficient 2D calculation method is presented, which already in the initial design phase of multistage axial flow compressors, considers the influence of hub leakage flows, tip clearance effects, and other end wall flow phenomena. The method is generally based on the fundamental approach by Howard and Gallimore (1992). In order to allow a more accurate prediction of skewed and nondeveloped boundary layers in turbomachines, an improved theoretical approach was implemented. Particularly the splitting of the boundary layers into an axial and tangential component proved to be necessary in order to account for the change between rotating and stationary end walls. Additionally, a new approach is used for the prediction of the viscous end wall zones including hub leakage effects and strongly skewed boundary layers. As a result, empirical correlations for secondary flow effects are no longer required. The results of the improved method are compared with conventional 2D results including 3D loss- and deviation-models, with experimental data of a three-stage research compressor of the Institute for Jet Propulsion and Turbomachinery of the Technical University of Aachen and with 3D Navier-Stokes solutions of the V84.3A compressor and of a multistage Siemens research compressor. The results obtained using the new method show a remarkable improvement in comparison with conventional 2D methods. Due to the high quality and the extremely short computation time, the new method allows an overall viscous design of multistage compressors for heavy duty gas turbines and aeroengine applications.",
+    "url": "https://doi.org/10.1115/1.1370163",
+    "abstract": "Magnetic bearings are widely used as active suspension devices in rotating machinery, mainly for active vibration control purposes. The concept of active tip-clearance control suggests a new application of magnetic bearings as servo-actuators to stabilize rotating stall in axial compressors. This paper presents a first-of-a-kind feasibility study of an active stall control experiment with a magnetic bearing servo-actuator in the NASA Glenn high-speed single-stage compressor test facility. Together with CFD and experimental data a two-dimensional, incompressible compressor stability model was used in a stochastic estimation and control analysis to determine the required magnetic bearing performance for compressor stall control. The resulting requirements introduced new challenges to the magnetic bearing actuator design. A magnetic bearing servo-actuator was designed that fulfilled the performance specifications. Control laws were then developed to stabilize the compressor shaft. In a second control loop, a constant gain controller was implemented to stabilize rotating stall. A detailed closed loop simulation at 100 percent corrected design speed resulted in a 2.3 percent reduction of stalling mass flow, which is comparable to results obtained in the same compressor by Weigl et al. (1998. ASME J. Turbomach. 120, 625–636) using unsteady air injection. The design and simulation results presented here establish the viability of magnetic bearings for stall control in aero-engine high-speed compressors. Furthermore, the paper outlines a general design procedure to develop magnetic bearing servo-actuators for high-speed turbomachinery.",
     "keywords": [
-      "Mechanics",
-      "Flow (mathematics)",
-      "Axial compressor",
-      "Leakage (economics)",
+      "Stall (fluid mechanics)",
       "Gas compressor",
-      "Computer science",
-      "Secondary flow",
-      "Boundary value problem",
-      "Computational fluid dynamics",
-      "Mechanical engineering",
-      "Mathematical optimization",
-      "Mathematics",
+      "Magnetic bearing",
+      "Actuator",
+      "Control theory (sociology)",
+      "Axial compressor",
+      "Magnetic levitation",
       "Engineering",
-      "Physics",
-      "Turbulence",
-      "Mathematical analysis"
+      "Servo",
+      "Centrifugal compressor",
+      "Turbomachinery",
+      "Servo control",
+      "Mechanical engineering",
+      "Computer science",
+      "Aerospace engineering",
+      "Rotor (electric)",
+      "Magnet"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "压缩机稳定性",
+      "稳定性建模"
     ]
-  },
-  {
-    "id": "W2061153607",
-    "title": "A Transport Model for the Deterministic Stresses Associated With Turbomachinery Blade Row Interactions",
-    "date": "2000-02-01",
-    "year": 2000,
-    "authors": [
-      "Allan G. van de Wall",
-      "Jaikrishnan R. Kadambi",
-      "John J. Adamczyk"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.1312802",
-    "abstract": "The unsteady process resulting from the interaction of upstream vortical structures with a downstream blade row in turbomachines can have a significant impact on the machine efficiency. The upstream vortical structures or disturbances are transported by the mean flow of the downstream blade row, redistributing the time-average unsteady kinetic energy (K) associated with the incoming disturbance. A transport model was developed to take this process into account in the computation of time-averaged multistage turbomachinery flows. The model was applied to compressor and turbine geometry. For compressors, the K associated with upstream two-dimensional wakes and three-dimensional tip clearance flows is reduced as a result of their interaction with a downstream blade row. This reduction results from inviscid effects as well as viscous effects and reduces the loss associated with the upstream disturbance. Any disturbance passing through a compressor blade row results in a smaller loss than if the disturbance was mixed-out prior to entering the blade row. For turbines, the K associated with upstream two-dimensional wakes and three-dimensional tip clearance flows are significantly amplified by inviscid effects as a result of the interaction with a downstream turbine blade row. Viscous effects act to reduce the amplification of the K by inviscid effects but result in a substantial loss. Two-dimensional wakes and three-dimensional tip clearance flows passing through a turbine blade row result in a larger loss than if these disturbances were mixed-out prior to entering the blade row. [S0889-504X(00)01804-3]",
-    "keywords": [
-      "Inviscid flow",
-      "Turbomachinery",
-      "Tip clearance",
-      "Mechanics",
-      "Gas compressor",
-      "Turbine",
-      "Turbine blade",
-      "Upstream (networking)",
-      "Wake",
-      "Blade (archaeology)",
-      "Flow (mathematics)",
-      "Axial compressor",
-      "Physics",
-      "Vortex",
-      "Structural engineering",
-      "Engineering",
-      "Aerospace engineering"
-    ],
-    "topics_matched": []
   },
   {
     "id": "W2106295099",
@@ -9722,134 +9651,6 @@
       "Engineering",
       "Classical mechanics",
       "Aerodynamics"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W2015316272",
-    "title": "Unsteady Flow and Whirl-Inducing Forces in Axial-Flow Compressors: Part II—Analysis",
-    "date": "2000-02-01",
-    "year": 2000,
-    "authors": [
-      "F. F. Ehrich",
-      "Z. S. Spakovszky",
-      "Manuel Martı́nez-Sánchez",
-      "S. J. Song",
-      "D. C. Wisler",
-      "A. F. Storace",
-      "Hyun Wook Shin",
-      "B. F. Beacher"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.1370165",
-    "abstract": "An experimental and theoretical investigation was conducted to evaluate the effects seen in axial-flow compressors when the centerline of the rotor becomes displaced from the centerline of the static structure of the engine, thus creating circumferentially nonuniform rotor-tip clearances. This displacement produces unsteady flow and creates a system of destabilizing forces, which contribute significantly to rotor whirl instability in turbomachinery. These forces were first identified by Thomas (1958. Bull. AIM, 71, No. 11/12, pp. 1039–1063.) for turbines and by Alford (1965. J. Eng. Power, Oct., pp. 333–334) for jet engines. In Part I, the results from an experimental investigation of these phenomena were presented. In this Part II, three analytic models were used to predict both the magnitude and direction of the Thomas/Alford force in its normalized form, known as the β coefficient, and the unsteady effects for the compressors tested in Part I. In addition, the effects of a whirling shaft were simulated to evaluate differences between a rotor with static offset and an actual whirling eccentric rotor. The models were also used to assess the influence of the nonaxisymmetric static pressure distribution on the rotor spool, which was not measured in the experiment. The models evaluated were (1) the two-sector parallel compressor (2SPC) model, (2) the infinite-segment-parallel-compressor (ISPC) model, and (3) the two-coupled actuator disk (2CAD) model. The results of these analyses were found to be in agreement with the experimental data in both sign and trend. Thus, the validated models provide a general means to predict the aerodynamic destabilizing forces for axial flow compressors in turbine engines. These tools have the potential to improve the design of rotordynamically stable turbomachinery.",
-    "keywords": [
-      "Turbomachinery",
-      "Axial compressor",
-      "Mechanics",
-      "Gas compressor",
-      "Degree of reaction",
-      "Stall (fluid mechanics)",
-      "Rotor (electric)",
-      "Turbine",
-      "Flow (mathematics)",
-      "Displacement (psychology)",
-      "Control theory (sociology)",
-      "Physics",
-      "Engineering",
-      "Mechanical engineering",
-      "Computer science"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W2059374720",
-    "title": "On Flowfield Periodicity in the NASA Transonic Flutter Cascade",
-    "date": "2000-02-01",
-    "year": 2000,
-    "authors": [
-      "J. Lepicovsky",
-      "Rodrick V. Chima",
-      "E. R. McFarland",
-      "J. R. Wood"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.1378300",
-    "abstract": "A combined experimental and numerical program was carried out to improve the flow uniformity and periodicity in the NASA transonic flutter cascade. The objectives of the program were to improve the periodicity of the cascade and to resolve discrepancies between measured and computed flow incidence angles and exit pressures. Previous experimental data and some of the discrepancies with computations are discussed. In the present work surface pressure taps, boundary layer probes, shadowgraphs, and pressure-sensitive paints were used to measure the effects of boundary layer bleed and tailboard settings on flowfield periodicity. These measurements are described in detail. Two numerical methods were used to analyze the cascade. A multibody panel code was used to analyze the entire cascade and a quasi-three-dimensional viscous code was used to analyze the isolated blades. The codes are described and the results are compared to the measurements. The measurements and computations both showed that the operation of the cascade was heavily dependent on the endwall configuration. The endwalls were redesigned to approximate the midpassage streamlines predicted using the viscous code, and the measurements were repeated. The results of the program were that: (1) Boundary layer bleed does not improve the cascade flow periodicity. (2) Tunnel endwalls must be shaped like predicted cascade streamlines. (3) The actual flow incidence must be measured for each cascade configuration rather than using the tunnel geometry. (4) The redesigned cascade exhibits excellent periodicity over six of the nine blades.",
-    "keywords": [
-      "Cascade",
-      "Streamlines, streaklines, and pathlines",
-      "Transonic",
-      "Boundary layer",
-      "Flutter",
-      "Flow (mathematics)",
-      "Mechanics",
-      "Computation",
-      "Aerospace engineering",
-      "Physics",
-      "Simulation",
-      "Computer science",
-      "Aerodynamics",
-      "Engineering",
-      "Algorithm"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W2593163663",
-    "title": "Analysis of Aerodynamically Induced Whirling Forces in Axial Flow Compressors",
-    "date": "2000-02-01",
-    "year": 2000,
-    "authors": [
-      "Z. S. Spakovszky"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.1312801",
-    "abstract": "A new analytical model to predict the aerodynamic forces in axial flow compressors due to asymmetric tip-clearance is introduced. The model captures the effects of tip-clearance induced distortion (i.e., forced shaft whirl), unsteady momentum-induced tangential blade forces, and pressure-induced forces on the spool. Pressure forces are shown to lag the tip-clearance asymmetry, resulting in a tangential (i.e., whirl-inducing) force due to spool pressure. This force can be of comparable magnitude to the classical Alford force. Prediction and elucidation of the Alford force is also presented. In particular, a new parameter denoted as the blade loading indicator is deduced. This parameter depends only on stage geometry and mean flow and determines the direction of whirl tendency due to tangential blade loading forces in both compressors and turbines. All findings are suitable for incorporation into an overall dynamic system analysis and integration into existing engine design tools. [S0889-504X(00)01604-4]",
-    "keywords": [
-      "Mechanics",
-      "Tip clearance",
-      "Aerodynamic force",
-      "Gas compressor",
-      "Aerodynamics",
-      "Axial compressor",
-      "Physics",
-      "Flow (mathematics)",
-      "Classical mechanics",
-      "Vortex",
-      "Thermodynamics"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W2127905552",
-    "title": "Nonuniform Flow in a Compressor Due to Asymmetric Tip Clearance",
-    "date": "2000-02-01",
-    "year": 2000,
-    "authors": [
-      "Seung Jin Song",
-      "Seung Ho Cho"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.1308569",
-    "abstract": "This paper presents an analytical study of flow redistribution in a compressor stage due to asymmetric tip clearance distribution. The entire stage is modeled as an actuator disk and it is assumed that upstream and downstream flow fields are determined by the local tip clearance. The flow is assumed to be inviscid and incompressible. First, an axisymmetric flow model is used to connect upstream and downstream flows. Second, a linear perturbation approximation is used for nonaxisymmetric analysis in which each flow variable is assumed to consist of a mean (axisymmetric value) plus a small perturbation (asymmetric value). Thus, the perturbations in velocity and pressure induced by the tip clearance asymmetry are predicted. Furthermore, rotordynamic effects of such flow nonuniformity are examined as well. [S0889-504X(00)01404-5]",
-    "keywords": [
-      "Inviscid flow",
-      "Mechanics",
-      "Tip clearance",
-      "Rotational symmetry",
-      "Axial compressor",
-      "Asymmetry",
-      "Gas compressor",
-      "Physics",
-      "Trailing edge",
-      "Flow (mathematics)",
-      "Vortex",
-      "Thermodynamics"
     ],
     "topics_matched": []
   },
@@ -10020,6 +9821,205 @@
       "Engineering",
       "Computer science",
       "Finite element method"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2005878447",
+    "title": "Viscous-Flow Two-Dimensional Analysis Including Secondary Flow Effects",
+    "date": "2000-02-01",
+    "year": 2000,
+    "authors": [
+      "Reinhard Mo¨nig",
+      "Frank Mildner",
+      "Ralf Ro ̈per"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1370167",
+    "abstract": "During the last few decades extremely powerful Quasi-three-dimensional (3D) codes and fully 3D Navier-Stokes solvers have been developed and successfully utilized in the design process and optimization of multistage axial-flow compressors. However, most of these methods proved to be difficult in handling and extremely time consuming. Due to these disadvantages, the primary stage design and stage matching as well as the off-design analysis is nowadays still based on fast 2D methods incorporating loss-, deviation- and end wall modeling. Only the detailed 3D optimization is normally performed by means of advanced 3D methods. In this paper a fast and efficient 2D calculation method is presented, which already in the initial design phase of multistage axial flow compressors, considers the influence of hub leakage flows, tip clearance effects, and other end wall flow phenomena. The method is generally based on the fundamental approach by Howard and Gallimore (1992). In order to allow a more accurate prediction of skewed and nondeveloped boundary layers in turbomachines, an improved theoretical approach was implemented. Particularly the splitting of the boundary layers into an axial and tangential component proved to be necessary in order to account for the change between rotating and stationary end walls. Additionally, a new approach is used for the prediction of the viscous end wall zones including hub leakage effects and strongly skewed boundary layers. As a result, empirical correlations for secondary flow effects are no longer required. The results of the improved method are compared with conventional 2D results including 3D loss- and deviation-models, with experimental data of a three-stage research compressor of the Institute for Jet Propulsion and Turbomachinery of the Technical University of Aachen and with 3D Navier-Stokes solutions of the V84.3A compressor and of a multistage Siemens research compressor. The results obtained using the new method show a remarkable improvement in comparison with conventional 2D methods. Due to the high quality and the extremely short computation time, the new method allows an overall viscous design of multistage compressors for heavy duty gas turbines and aeroengine applications.",
+    "keywords": [
+      "Mechanics",
+      "Flow (mathematics)",
+      "Axial compressor",
+      "Leakage (economics)",
+      "Gas compressor",
+      "Computer science",
+      "Secondary flow",
+      "Boundary value problem",
+      "Computational fluid dynamics",
+      "Mechanical engineering",
+      "Mathematical optimization",
+      "Mathematics",
+      "Engineering",
+      "Physics",
+      "Turbulence",
+      "Mathematical analysis"
+    ],
+    "topics_matched": [
+      "叶尖间隙"
+    ]
+  },
+  {
+    "id": "W2061153607",
+    "title": "A Transport Model for the Deterministic Stresses Associated With Turbomachinery Blade Row Interactions",
+    "date": "2000-02-01",
+    "year": 2000,
+    "authors": [
+      "Allan G. van de Wall",
+      "Jaikrishnan R. Kadambi",
+      "John J. Adamczyk"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1312802",
+    "abstract": "The unsteady process resulting from the interaction of upstream vortical structures with a downstream blade row in turbomachines can have a significant impact on the machine efficiency. The upstream vortical structures or disturbances are transported by the mean flow of the downstream blade row, redistributing the time-average unsteady kinetic energy (K) associated with the incoming disturbance. A transport model was developed to take this process into account in the computation of time-averaged multistage turbomachinery flows. The model was applied to compressor and turbine geometry. For compressors, the K associated with upstream two-dimensional wakes and three-dimensional tip clearance flows is reduced as a result of their interaction with a downstream blade row. This reduction results from inviscid effects as well as viscous effects and reduces the loss associated with the upstream disturbance. Any disturbance passing through a compressor blade row results in a smaller loss than if the disturbance was mixed-out prior to entering the blade row. For turbines, the K associated with upstream two-dimensional wakes and three-dimensional tip clearance flows are significantly amplified by inviscid effects as a result of the interaction with a downstream turbine blade row. Viscous effects act to reduce the amplification of the K by inviscid effects but result in a substantial loss. Two-dimensional wakes and three-dimensional tip clearance flows passing through a turbine blade row result in a larger loss than if these disturbances were mixed-out prior to entering the blade row. [S0889-504X(00)01804-3]",
+    "keywords": [
+      "Inviscid flow",
+      "Turbomachinery",
+      "Tip clearance",
+      "Mechanics",
+      "Gas compressor",
+      "Turbine",
+      "Turbine blade",
+      "Upstream (networking)",
+      "Wake",
+      "Blade (archaeology)",
+      "Flow (mathematics)",
+      "Axial compressor",
+      "Physics",
+      "Vortex",
+      "Structural engineering",
+      "Engineering",
+      "Aerospace engineering"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2015316272",
+    "title": "Unsteady Flow and Whirl-Inducing Forces in Axial-Flow Compressors: Part II—Analysis",
+    "date": "2000-02-01",
+    "year": 2000,
+    "authors": [
+      "F. F. Ehrich",
+      "Z. S. Spakovszky",
+      "Manuel Martı́nez-Sánchez",
+      "S. J. Song",
+      "D. C. Wisler",
+      "A. F. Storace",
+      "Hyun Wook Shin",
+      "B. F. Beacher"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1370165",
+    "abstract": "An experimental and theoretical investigation was conducted to evaluate the effects seen in axial-flow compressors when the centerline of the rotor becomes displaced from the centerline of the static structure of the engine, thus creating circumferentially nonuniform rotor-tip clearances. This displacement produces unsteady flow and creates a system of destabilizing forces, which contribute significantly to rotor whirl instability in turbomachinery. These forces were first identified by Thomas (1958. Bull. AIM, 71, No. 11/12, pp. 1039–1063.) for turbines and by Alford (1965. J. Eng. Power, Oct., pp. 333–334) for jet engines. In Part I, the results from an experimental investigation of these phenomena were presented. In this Part II, three analytic models were used to predict both the magnitude and direction of the Thomas/Alford force in its normalized form, known as the β coefficient, and the unsteady effects for the compressors tested in Part I. In addition, the effects of a whirling shaft were simulated to evaluate differences between a rotor with static offset and an actual whirling eccentric rotor. The models were also used to assess the influence of the nonaxisymmetric static pressure distribution on the rotor spool, which was not measured in the experiment. The models evaluated were (1) the two-sector parallel compressor (2SPC) model, (2) the infinite-segment-parallel-compressor (ISPC) model, and (3) the two-coupled actuator disk (2CAD) model. The results of these analyses were found to be in agreement with the experimental data in both sign and trend. Thus, the validated models provide a general means to predict the aerodynamic destabilizing forces for axial flow compressors in turbine engines. These tools have the potential to improve the design of rotordynamically stable turbomachinery.",
+    "keywords": [
+      "Turbomachinery",
+      "Axial compressor",
+      "Mechanics",
+      "Gas compressor",
+      "Degree of reaction",
+      "Stall (fluid mechanics)",
+      "Rotor (electric)",
+      "Turbine",
+      "Flow (mathematics)",
+      "Displacement (psychology)",
+      "Control theory (sociology)",
+      "Physics",
+      "Engineering",
+      "Mechanical engineering",
+      "Computer science"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2059374720",
+    "title": "On Flowfield Periodicity in the NASA Transonic Flutter Cascade",
+    "date": "2000-02-01",
+    "year": 2000,
+    "authors": [
+      "J. Lepicovsky",
+      "Rodrick V. Chima",
+      "E. R. McFarland",
+      "J. R. Wood"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1378300",
+    "abstract": "A combined experimental and numerical program was carried out to improve the flow uniformity and periodicity in the NASA transonic flutter cascade. The objectives of the program were to improve the periodicity of the cascade and to resolve discrepancies between measured and computed flow incidence angles and exit pressures. Previous experimental data and some of the discrepancies with computations are discussed. In the present work surface pressure taps, boundary layer probes, shadowgraphs, and pressure-sensitive paints were used to measure the effects of boundary layer bleed and tailboard settings on flowfield periodicity. These measurements are described in detail. Two numerical methods were used to analyze the cascade. A multibody panel code was used to analyze the entire cascade and a quasi-three-dimensional viscous code was used to analyze the isolated blades. The codes are described and the results are compared to the measurements. The measurements and computations both showed that the operation of the cascade was heavily dependent on the endwall configuration. The endwalls were redesigned to approximate the midpassage streamlines predicted using the viscous code, and the measurements were repeated. The results of the program were that: (1) Boundary layer bleed does not improve the cascade flow periodicity. (2) Tunnel endwalls must be shaped like predicted cascade streamlines. (3) The actual flow incidence must be measured for each cascade configuration rather than using the tunnel geometry. (4) The redesigned cascade exhibits excellent periodicity over six of the nine blades.",
+    "keywords": [
+      "Cascade",
+      "Streamlines, streaklines, and pathlines",
+      "Transonic",
+      "Boundary layer",
+      "Flutter",
+      "Flow (mathematics)",
+      "Mechanics",
+      "Computation",
+      "Aerospace engineering",
+      "Physics",
+      "Simulation",
+      "Computer science",
+      "Aerodynamics",
+      "Engineering",
+      "Algorithm"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2593163663",
+    "title": "Analysis of Aerodynamically Induced Whirling Forces in Axial Flow Compressors",
+    "date": "2000-02-01",
+    "year": 2000,
+    "authors": [
+      "Z. S. Spakovszky"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1312801",
+    "abstract": "A new analytical model to predict the aerodynamic forces in axial flow compressors due to asymmetric tip-clearance is introduced. The model captures the effects of tip-clearance induced distortion (i.e., forced shaft whirl), unsteady momentum-induced tangential blade forces, and pressure-induced forces on the spool. Pressure forces are shown to lag the tip-clearance asymmetry, resulting in a tangential (i.e., whirl-inducing) force due to spool pressure. This force can be of comparable magnitude to the classical Alford force. Prediction and elucidation of the Alford force is also presented. In particular, a new parameter denoted as the blade loading indicator is deduced. This parameter depends only on stage geometry and mean flow and determines the direction of whirl tendency due to tangential blade loading forces in both compressors and turbines. All findings are suitable for incorporation into an overall dynamic system analysis and integration into existing engine design tools. [S0889-504X(00)01604-4]",
+    "keywords": [
+      "Mechanics",
+      "Tip clearance",
+      "Aerodynamic force",
+      "Gas compressor",
+      "Aerodynamics",
+      "Axial compressor",
+      "Physics",
+      "Flow (mathematics)",
+      "Classical mechanics",
+      "Vortex",
+      "Thermodynamics"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2127905552",
+    "title": "Nonuniform Flow in a Compressor Due to Asymmetric Tip Clearance",
+    "date": "2000-02-01",
+    "year": 2000,
+    "authors": [
+      "Seung Jin Song",
+      "Seung Ho Cho"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1308569",
+    "abstract": "This paper presents an analytical study of flow redistribution in a compressor stage due to asymmetric tip clearance distribution. The entire stage is modeled as an actuator disk and it is assumed that upstream and downstream flow fields are determined by the local tip clearance. The flow is assumed to be inviscid and incompressible. First, an axisymmetric flow model is used to connect upstream and downstream flows. Second, a linear perturbation approximation is used for nonaxisymmetric analysis in which each flow variable is assumed to consist of a mean (axisymmetric value) plus a small perturbation (asymmetric value). Thus, the perturbations in velocity and pressure induced by the tip clearance asymmetry are predicted. Furthermore, rotordynamic effects of such flow nonuniformity are examined as well. [S0889-504X(00)01404-5]",
+    "keywords": [
+      "Inviscid flow",
+      "Mechanics",
+      "Tip clearance",
+      "Rotational symmetry",
+      "Axial compressor",
+      "Asymmetry",
+      "Gas compressor",
+      "Physics",
+      "Trailing edge",
+      "Flow (mathematics)",
+      "Vortex",
+      "Thermodynamics"
     ],
     "topics_matched": []
   },
@@ -11099,38 +11099,6 @@
     "topics_matched": []
   },
   {
-    "id": "W2801339463",
-    "title": "Measurement and Analysis of Ingestion Through a Turbine Rim Seal",
-    "date": "2003-07-01",
-    "year": 2003,
-    "authors": [
-      "Olivier Gentilhomme",
-      "Nicholas J. Hills",
-      "Alan B. Turner",
-      "Jia Wei Chew"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.1556411",
-    "abstract": "Experimental measurements from a new single stage turbine are presented. The turbine has 26 vanes and 59 rotating blades with a design point stage expansion ratio of 2.5 and vane exit Mach number of 0.96. A variable sealing flow is supplied to the disk cavity upstream of the rotor and then enters the annulus through a simple axial clearance seal situated on the hub between the stator and rotor. Measurements at the annulus hub wall just downstream of the vanes show the degree of circumferential pressure variation. Further pressure measurements in the disk cavity indicate the strength of the swirling flow in the cavity, and show the effects of mainstream gas ingestion at low sealing flows. Ingestion is further quantified through seeding of the sealing air with nitrous oxide or carbon dioxide and measurement of gas concentrations in the cavity. Interpretation of the measurements is aided by steady and unsteady computational fluid dynamics solutions, and comparison with an elementary model of ingestion.",
-    "keywords": [
-      "Annulus (botany)",
-      "Mechanics",
-      "Stator",
-      "Turbine",
-      "Rotor (electric)",
-      "Mach number",
-      "Seal (emblem)",
-      "Materials science",
-      "Flow (mathematics)",
-      "Mechanical engineering",
-      "Physics",
-      "Engineering",
-      "Composite material"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W1990041515",
     "title": "Aerodynamic-Rotordynamic Interaction in Axial Compression Systems—Part II: Impact of Interaction on Overall System Stability",
     "date": "2003-07-01",
@@ -11196,6 +11164,38 @@
       "Engineering",
       "Mechanical engineering",
       "Thermodynamics"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2801339463",
+    "title": "Measurement and Analysis of Ingestion Through a Turbine Rim Seal",
+    "date": "2003-07-01",
+    "year": 2003,
+    "authors": [
+      "Olivier Gentilhomme",
+      "Nicholas J. Hills",
+      "Alan B. Turner",
+      "Jia Wei Chew"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1556411",
+    "abstract": "Experimental measurements from a new single stage turbine are presented. The turbine has 26 vanes and 59 rotating blades with a design point stage expansion ratio of 2.5 and vane exit Mach number of 0.96. A variable sealing flow is supplied to the disk cavity upstream of the rotor and then enters the annulus through a simple axial clearance seal situated on the hub between the stator and rotor. Measurements at the annulus hub wall just downstream of the vanes show the degree of circumferential pressure variation. Further pressure measurements in the disk cavity indicate the strength of the swirling flow in the cavity, and show the effects of mainstream gas ingestion at low sealing flows. Ingestion is further quantified through seeding of the sealing air with nitrous oxide or carbon dioxide and measurement of gas concentrations in the cavity. Interpretation of the measurements is aided by steady and unsteady computational fluid dynamics solutions, and comparison with an elementary model of ingestion.",
+    "keywords": [
+      "Annulus (botany)",
+      "Mechanics",
+      "Stator",
+      "Turbine",
+      "Rotor (electric)",
+      "Mach number",
+      "Seal (emblem)",
+      "Materials science",
+      "Flow (mathematics)",
+      "Mechanical engineering",
+      "Physics",
+      "Engineering",
+      "Composite material"
     ],
     "topics_matched": []
   },
@@ -11300,41 +11300,6 @@
     ]
   },
   {
-    "id": "W4238856618",
-    "title": "Backward Traveling Rotating Stall Waves in Centrifugal Compressors",
-    "date": "2004-01-01",
-    "year": 2004,
-    "authors": [
-      "Z. S. Spakovszky"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.1643382",
-    "abstract": "Rotating stall waves that travel against the direction of rotor rotation are reported for the first time and a new, low-order analytical approach to model centrifugal compressor stability is introduced. The model is capable of dealing with unsteady radially swirling flows and the dynamic effects of impeller-diffuser component interaction as it occurs in centrifugal compression systems. A simple coupling criterion is developed from first principles to explain the interaction mechanism important for system stability. The model findings together with experimental data explain the mechanism for first-ever observed backward traveling rotating stall in centrifugal compressors with vaned diffusers. Based on the low-order model predictions, an air injection scheme between the impeller and the vaned diffuser is designed for the NASA Glenn CC3 high-speed centrifugal compressor. The steady air injection experiments show an increase of 25% in surge-margin with an injection mass flow of 0.5% of the compressor mass flow. In addition, it is experimentally demonstrated that this injection scheme is robust to impeller tip-clearance effects and that a reduced number of injectors can be applied for similar gains in surge-margin. The results presented in this paper firmly establish the connection between the experimentally observed dynamic phenomena in the NASA CC3 centrifugal compressor and a first principles based coupling criterion. In addition, guidelines are given for the design of centrifugal compressors with enhanced stability. Winner of the “Best Paper Award,” Turbomachinery Committee",
-    "keywords": [
-      "Centrifugal compressor",
-      "Impeller",
-      "Stall (fluid mechanics)",
-      "Gas compressor",
-      "Turbomachinery",
-      "Diffuser (optics)",
-      "Mechanics",
-      "Surge",
-      "Axial compressor",
-      "Centrifugal pump",
-      "Turbine",
-      "Specific speed",
-      "Engineering",
-      "Physics",
-      "Mechanical engineering",
-      "Meteorology",
-      "Optics"
-    ],
-    "topics_matched": [
-      "压缩机稳定性"
-    ]
-  },
-  {
     "id": "W4254743712",
     "title": "Aerodynamic Blade Row Interactions in an Axial Compressor—Part II: Unsteady Profile Pressure Distribution and Blade Forces",
     "date": "2004-01-01",
@@ -11369,6 +11334,41 @@
       "Mechanical engineering"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W4238856618",
+    "title": "Backward Traveling Rotating Stall Waves in Centrifugal Compressors",
+    "date": "2004-01-01",
+    "year": 2004,
+    "authors": [
+      "Z. S. Spakovszky"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1643382",
+    "abstract": "Rotating stall waves that travel against the direction of rotor rotation are reported for the first time and a new, low-order analytical approach to model centrifugal compressor stability is introduced. The model is capable of dealing with unsteady radially swirling flows and the dynamic effects of impeller-diffuser component interaction as it occurs in centrifugal compression systems. A simple coupling criterion is developed from first principles to explain the interaction mechanism important for system stability. The model findings together with experimental data explain the mechanism for first-ever observed backward traveling rotating stall in centrifugal compressors with vaned diffusers. Based on the low-order model predictions, an air injection scheme between the impeller and the vaned diffuser is designed for the NASA Glenn CC3 high-speed centrifugal compressor. The steady air injection experiments show an increase of 25% in surge-margin with an injection mass flow of 0.5% of the compressor mass flow. In addition, it is experimentally demonstrated that this injection scheme is robust to impeller tip-clearance effects and that a reduced number of injectors can be applied for similar gains in surge-margin. The results presented in this paper firmly establish the connection between the experimentally observed dynamic phenomena in the NASA CC3 centrifugal compressor and a first principles based coupling criterion. In addition, guidelines are given for the design of centrifugal compressors with enhanced stability. Winner of the “Best Paper Award,” Turbomachinery Committee",
+    "keywords": [
+      "Centrifugal compressor",
+      "Impeller",
+      "Stall (fluid mechanics)",
+      "Gas compressor",
+      "Turbomachinery",
+      "Diffuser (optics)",
+      "Mechanics",
+      "Surge",
+      "Axial compressor",
+      "Centrifugal pump",
+      "Turbine",
+      "Specific speed",
+      "Engineering",
+      "Physics",
+      "Mechanical engineering",
+      "Meteorology",
+      "Optics"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1967352402",
@@ -11995,37 +11995,6 @@
     ]
   },
   {
-    "id": "W2066812834",
-    "title": "The Impact of Forward Swept Rotors on Tip Clearance Flows in Subsonic Axial Compressors",
-    "date": "2004-10-01",
-    "year": 2004,
-    "authors": [
-      "G. Scott McNulty",
-      "John J. Decker",
-      "B. F. Beacher",
-      "S. Arif Khalid"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.1773852",
-    "abstract": "This paper presents an experimental and analytical study of the impact of forward swept rotors on tip-limited, low-speed, multistage axial compressors. Two different configurations were examined, one with strong tip-clearance flows and the other with more moderate levels. Evaluations were done at multiple rotor tip clearances to assess differences in clearance sensitivity. Compared to conventionally stacked radial rotors, the forward swept blades demonstrated improvements in stall margin, efficiency and clearance sensitivity. The benefits were more pronounced for the configuration with stronger tip-clearance flows. Detailed flow measurements and three-dimensional viscous CFD analyses were used to investigate the responsible flow mechanisms. Forward sweep causes a spanwise redistribution of flow toward the blade tip and reduces the tip loading in terms of static pressure coefficient. This results in reduced tip-clearance flow blockage, a shallower (more axial) vortex trajectory and a smaller region of reversed flow in the clearance gap.",
-    "keywords": [
-      "Tip clearance",
-      "Stall (fluid mechanics)",
-      "Mechanics",
-      "Axial compressor",
-      "Gas compressor",
-      "Vortex",
-      "Materials science",
-      "Computational fluid dynamics",
-      "Static pressure",
-      "Flow (mathematics)",
-      "Physics",
-      "Thermodynamics"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W1979751461",
     "title": "Rotor-Stator Interactions in a Four-Stage Low-Speed Axial Compressor—Part II: Unsteady Aerodynamic Forces of Rotor and Stator Blades",
     "date": "2004-10-01",
@@ -12055,6 +12024,37 @@
       "Engineering",
       "Physics",
       "Mechanical engineering"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2066812834",
+    "title": "The Impact of Forward Swept Rotors on Tip Clearance Flows in Subsonic Axial Compressors",
+    "date": "2004-10-01",
+    "year": 2004,
+    "authors": [
+      "G. Scott McNulty",
+      "John J. Decker",
+      "B. F. Beacher",
+      "S. Arif Khalid"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1773852",
+    "abstract": "This paper presents an experimental and analytical study of the impact of forward swept rotors on tip-limited, low-speed, multistage axial compressors. Two different configurations were examined, one with strong tip-clearance flows and the other with more moderate levels. Evaluations were done at multiple rotor tip clearances to assess differences in clearance sensitivity. Compared to conventionally stacked radial rotors, the forward swept blades demonstrated improvements in stall margin, efficiency and clearance sensitivity. The benefits were more pronounced for the configuration with stronger tip-clearance flows. Detailed flow measurements and three-dimensional viscous CFD analyses were used to investigate the responsible flow mechanisms. Forward sweep causes a spanwise redistribution of flow toward the blade tip and reduces the tip loading in terms of static pressure coefficient. This results in reduced tip-clearance flow blockage, a shallower (more axial) vortex trajectory and a smaller region of reversed flow in the clearance gap.",
+    "keywords": [
+      "Tip clearance",
+      "Stall (fluid mechanics)",
+      "Mechanics",
+      "Axial compressor",
+      "Gas compressor",
+      "Vortex",
+      "Materials science",
+      "Computational fluid dynamics",
+      "Static pressure",
+      "Flow (mathematics)",
+      "Physics",
+      "Thermodynamics"
     ],
     "topics_matched": []
   },
@@ -13876,41 +13876,6 @@
     ]
   },
   {
-    "id": "W4238827231",
-    "title": "Clearance Effects on the Evolution of the Flow in the Vaneless Diffuser of a Centrifugal Compressor at Part Load Condition",
-    "date": "2008-05-02",
-    "year": 2008,
-    "authors": [
-      "Matthias Schleer",
-      "Reza S. Abhari"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2776955",
-    "abstract": "This work reports on flow measurements taken within the vaneless diffuser of a scaled-up model of a small-scale, highly loaded unshrouded compressor with large relative tip clearance. The aims are to describe and to analyze the influence of the clearance flow on the flow structure at the impeller exit in part load operation. The kind of compressor described herein is widely used in distributed power applications and automotive turbocharging. It demands further enhancement of the operation range, as well as a high head rise and an improved efficiency. Therefore, the understanding of flow features and their interaction is crucial. The interaction and mixing of the flow pattern downstream of the impeller are shown using spatially and temporally resolved 3D-velocity data. The measurements have been obtained by using a 3D laser Doppler anemometry system throughout the vaneless parallel wall diffuser. This unique data set provides insight into the development of the flow within the diffuser and allows conclusions on the mixing and migration of the three-dimensional pattern. The flow structure in part load condition is strongly affected by the flow across the large relative tip gap. Due to the large relative tip clearance, a low momentum zone is formed as an additional pattern at the shroud. This clearance flow is highly vortical and interacts with the channel wake structure but remains stable throughout the vaneless diffuser. At the pressure side hub corner, a jet structure is formed, which interacts rapidly with the blade wake. This flow behavior does not comply with the classical jet-wake pattern. It is proposed that in a centrifugal compressor with large relative tip clearance, a modified flow model that includes tip leakage is more appropriate to describe the flow structure at part load condition.",
-    "keywords": [
-      "Impeller",
-      "Centrifugal compressor",
-      "Diffuser (optics)",
-      "Shroud",
-      "Mechanics",
-      "Tip clearance",
-      "Wake",
-      "Flow (mathematics)",
-      "Gas compressor",
-      "Flow visualization",
-      "Internal flow",
-      "Materials science",
-      "Acoustics",
-      "Vortex",
-      "Physics",
-      "Mechanical engineering",
-      "Engineering",
-      "Optics"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W4232095588",
     "title": "Development and Demonstration of a Stability Management System for Gas Turbine Engines",
     "date": "2008-05-02",
@@ -13945,6 +13910,41 @@
     "topics_matched": [
       "压缩机稳定性"
     ]
+  },
+  {
+    "id": "W4238827231",
+    "title": "Clearance Effects on the Evolution of the Flow in the Vaneless Diffuser of a Centrifugal Compressor at Part Load Condition",
+    "date": "2008-05-02",
+    "year": 2008,
+    "authors": [
+      "Matthias Schleer",
+      "Reza S. Abhari"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2776955",
+    "abstract": "This work reports on flow measurements taken within the vaneless diffuser of a scaled-up model of a small-scale, highly loaded unshrouded compressor with large relative tip clearance. The aims are to describe and to analyze the influence of the clearance flow on the flow structure at the impeller exit in part load operation. The kind of compressor described herein is widely used in distributed power applications and automotive turbocharging. It demands further enhancement of the operation range, as well as a high head rise and an improved efficiency. Therefore, the understanding of flow features and their interaction is crucial. The interaction and mixing of the flow pattern downstream of the impeller are shown using spatially and temporally resolved 3D-velocity data. The measurements have been obtained by using a 3D laser Doppler anemometry system throughout the vaneless parallel wall diffuser. This unique data set provides insight into the development of the flow within the diffuser and allows conclusions on the mixing and migration of the three-dimensional pattern. The flow structure in part load condition is strongly affected by the flow across the large relative tip gap. Due to the large relative tip clearance, a low momentum zone is formed as an additional pattern at the shroud. This clearance flow is highly vortical and interacts with the channel wake structure but remains stable throughout the vaneless diffuser. At the pressure side hub corner, a jet structure is formed, which interacts rapidly with the blade wake. This flow behavior does not comply with the classical jet-wake pattern. It is proposed that in a centrifugal compressor with large relative tip clearance, a modified flow model that includes tip leakage is more appropriate to describe the flow structure at part load condition.",
+    "keywords": [
+      "Impeller",
+      "Centrifugal compressor",
+      "Diffuser (optics)",
+      "Shroud",
+      "Mechanics",
+      "Tip clearance",
+      "Wake",
+      "Flow (mathematics)",
+      "Gas compressor",
+      "Flow visualization",
+      "Internal flow",
+      "Materials science",
+      "Acoustics",
+      "Vortex",
+      "Physics",
+      "Mechanical engineering",
+      "Engineering",
+      "Optics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2133020385",
@@ -14009,39 +14009,6 @@
     ]
   },
   {
-    "id": "W2001912170",
-    "title": "Periodical Unsteady Flow Within a Rotor Blade Row of an Axial Compressor—Part II: Wake-Tip Clearance Vortex Interaction",
-    "date": "2008-07-31",
-    "year": 2008,
-    "authors": [
-      "Ronald Mailach",
-      "Ingolf Lehmann",
-      "Konrad Vogeler"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.2812330",
-    "abstract": "In this two-part paper, results of the periodical unsteady flow field within the third rotor blade row of the four-stage Dresden low-speed research compressor are presented. The main part of the experimental investigations was performed using laser Doppler anemometry. Results of the flow field at several spanwise positions between midspan and rotor blade tip will be discussed. In addition, time-resolving pressure sensors at midspan of the rotor blades provide information about the unsteady profile pressure distribution. In Part II of the paper, the flow field in the rotor blade tip region will be discussed. The experimental results reveal a strong periodical interaction of the incoming stator wakes and the rotor blade tip clearance vortices. Consequently, in the rotor frame of reference, the tip clearance vortices are periodical with the stator blade passing frequency. Due to the wakes, the tip clearance vortices are separated into different segments. Along the mean vortex trajectory, these parts can be characterized by alternating patches of higher and lower velocities and flow turning or subsequent counter-rotating vortex pairs. These flow patterns move downstream along the tip clearance vortex path in time. As a result of the wake influence, the orientation and extension of the tip clearance vortices as well as the flow blockage periodically vary in time.",
-    "keywords": [
-      "Tip clearance",
-      "Wake",
-      "Vortex",
-      "Mechanics",
-      "Rotor (electric)",
-      "Stator",
-      "Gas compressor",
-      "Axial compressor",
-      "Physics",
-      "Blade element theory",
-      "Flow (mathematics)",
-      "Wake turbulence",
-      "Aerospace engineering",
-      "Engineering",
-      "Aerodynamics"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W4255812395",
     "title": "Periodical Unsteady Flow Within a Rotor Blade Row of an Axial Compressor—Part I: Flow Field at Midspan",
     "date": "2008-07-31",
@@ -14075,6 +14042,39 @@
       "Acoustics",
       "Aerospace engineering",
       "Mechanical engineering"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2001912170",
+    "title": "Periodical Unsteady Flow Within a Rotor Blade Row of an Axial Compressor—Part II: Wake-Tip Clearance Vortex Interaction",
+    "date": "2008-07-31",
+    "year": 2008,
+    "authors": [
+      "Ronald Mailach",
+      "Ingolf Lehmann",
+      "Konrad Vogeler"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2812330",
+    "abstract": "In this two-part paper, results of the periodical unsteady flow field within the third rotor blade row of the four-stage Dresden low-speed research compressor are presented. The main part of the experimental investigations was performed using laser Doppler anemometry. Results of the flow field at several spanwise positions between midspan and rotor blade tip will be discussed. In addition, time-resolving pressure sensors at midspan of the rotor blades provide information about the unsteady profile pressure distribution. In Part II of the paper, the flow field in the rotor blade tip region will be discussed. The experimental results reveal a strong periodical interaction of the incoming stator wakes and the rotor blade tip clearance vortices. Consequently, in the rotor frame of reference, the tip clearance vortices are periodical with the stator blade passing frequency. Due to the wakes, the tip clearance vortices are separated into different segments. Along the mean vortex trajectory, these parts can be characterized by alternating patches of higher and lower velocities and flow turning or subsequent counter-rotating vortex pairs. These flow patterns move downstream along the tip clearance vortex path in time. As a result of the wake influence, the orientation and extension of the tip clearance vortices as well as the flow blockage periodically vary in time.",
+    "keywords": [
+      "Tip clearance",
+      "Wake",
+      "Vortex",
+      "Mechanics",
+      "Rotor (electric)",
+      "Stator",
+      "Gas compressor",
+      "Axial compressor",
+      "Physics",
+      "Blade element theory",
+      "Flow (mathematics)",
+      "Wake turbulence",
+      "Aerospace engineering",
+      "Engineering",
+      "Aerodynamics"
     ],
     "topics_matched": []
   },
@@ -16801,42 +16801,6 @@
     "topics_matched": []
   },
   {
-    "id": "W2072855162",
-    "title": "Experimental Study of Effects of Grooved Tip Clearances on the Flow Field in a Compressor Cascade Passage",
-    "date": "2012-05-08",
-    "year": 2012,
-    "authors": [
-      "Hongwei Ma",
-      "Jun Zhang",
-      "Jinghui Zhang",
-      "Zhou Yuan"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4004484",
-    "abstract": "This paper presents an experimental investigation of effects of grooved tip clearances on the flow field of a compressor cascade. The tests were performed in a low-speed large-scale cascade, respectively, with two tip-clearance configurations, including the flat tip and the grooved tip with a chordwise channel on the blade top. The flow field at 10% chord downstream from the cascade trailing edge was measured at four incidence angles using a mini five-hole pressure probe. The static pressure distribution was measured on the tip endwall. The results show that the pressure gradient from the pressure side to the suction side on the blade tip is reduced due to the existence of the channel. As a result, the leakage flow is weakened. The high-blockage and high-loss region caused by the leakage flow is narrower with the grooved tip. In the meantime, the leakage flow migrates to lower span-wise position. The combined result is that the flow capacity in the tip region is improved at the incidence angles of 0 deg and 5 deg with the grooved tip. However, the loss is slightly greater than that with the flat tip at all the incidence angles.",
-    "keywords": [
-      "Tip clearance",
-      "Trailing edge",
-      "Cascade",
-      "Mechanics",
-      "Materials science",
-      "Leakage (economics)",
-      "Gas compressor",
-      "Pressure gradient",
-      "Leading edge",
-      "Flow (mathematics)",
-      "Chord (peer-to-peer)",
-      "Optics",
-      "Vortex",
-      "Composite material",
-      "Physics",
-      "Engineering",
-      "Mechanical engineering"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W1995395673",
     "title": "Effect of Tip Clearance Dimensions and Control of Unsteady Flows in a Multi-Stage High-Pressure Compressor",
     "date": "2012-05-08",
@@ -16905,6 +16869,42 @@
       "Acoustics",
       "Engineering",
       "Mechanics"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2072855162",
+    "title": "Experimental Study of Effects of Grooved Tip Clearances on the Flow Field in a Compressor Cascade Passage",
+    "date": "2012-05-08",
+    "year": 2012,
+    "authors": [
+      "Hongwei Ma",
+      "Jun Zhang",
+      "Jinghui Zhang",
+      "Zhou Yuan"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4004484",
+    "abstract": "This paper presents an experimental investigation of effects of grooved tip clearances on the flow field of a compressor cascade. The tests were performed in a low-speed large-scale cascade, respectively, with two tip-clearance configurations, including the flat tip and the grooved tip with a chordwise channel on the blade top. The flow field at 10% chord downstream from the cascade trailing edge was measured at four incidence angles using a mini five-hole pressure probe. The static pressure distribution was measured on the tip endwall. The results show that the pressure gradient from the pressure side to the suction side on the blade tip is reduced due to the existence of the channel. As a result, the leakage flow is weakened. The high-blockage and high-loss region caused by the leakage flow is narrower with the grooved tip. In the meantime, the leakage flow migrates to lower span-wise position. The combined result is that the flow capacity in the tip region is improved at the incidence angles of 0 deg and 5 deg with the grooved tip. However, the loss is slightly greater than that with the flat tip at all the incidence angles.",
+    "keywords": [
+      "Tip clearance",
+      "Trailing edge",
+      "Cascade",
+      "Mechanics",
+      "Materials science",
+      "Leakage (economics)",
+      "Gas compressor",
+      "Pressure gradient",
+      "Leading edge",
+      "Flow (mathematics)",
+      "Chord (peer-to-peer)",
+      "Optics",
+      "Vortex",
+      "Composite material",
+      "Physics",
+      "Engineering",
+      "Mechanical engineering"
     ],
     "topics_matched": []
   },
@@ -17343,6 +17343,43 @@
     "topics_matched": []
   },
   {
+    "id": "W2111490562",
+    "title": "Prediction of Turbomachinery Aeroelastic Behavior From a Set of Representative Modes",
+    "date": "2012-10-30",
+    "year": 2012,
+    "authors": [
+      "María A. Mayorca",
+      "Damian M. Vogt",
+      "Hans Mårtensson",
+      "Torsten Fransson"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4006536",
+    "abstract": "A method is proposed for the determination of the aeroelastic behavior of a system responding to mode-shapes which are different from the tuned in vacuo ones, due to mistuning, mode family interaction, or any other source of mode-shape perturbation. The method is based on the generation of a data base of unsteady aerodynamic forces arising from the motion of arbitrary modes and uses least square approximations for the prediction of any responding mode. The use of a reduced order technique allows for mistuning analyses and is also applied for the selection of a limited number of arbitrary modes. The application of this method on a transonic compressor blade shows that the method captures the aeroelastic properties well in a wide frequency range. A discussion of the influence of the mode-shapes and frequency on the final stability response is also provided.",
+    "keywords": [
+      "Mistuning",
+      "Aeroelasticity",
+      "Turbomachinery",
+      "Aerodynamics",
+      "Transonic",
+      "Mode (computer interface)",
+      "Normal mode",
+      "Perturbation (astronomy)",
+      "Control theory (sociology)",
+      "Computer science",
+      "Stability (learning theory)",
+      "Set (abstract data type)",
+      "Vibration",
+      "Structural engineering",
+      "Acoustics",
+      "Physics",
+      "Engineering",
+      "Mechanics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W1974244710",
     "title": "Effect of Tip Clearance on the Prediction of Nonsynchronous Vibrations in Axial Compressors",
     "date": "2012-10-30",
@@ -17431,43 +17468,6 @@
     "topics_matched": [
       "叶尖间隙"
     ]
-  },
-  {
-    "id": "W2111490562",
-    "title": "Prediction of Turbomachinery Aeroelastic Behavior From a Set of Representative Modes",
-    "date": "2012-10-30",
-    "year": 2012,
-    "authors": [
-      "María A. Mayorca",
-      "Damian M. Vogt",
-      "Hans Mårtensson",
-      "Torsten Fransson"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4006536",
-    "abstract": "A method is proposed for the determination of the aeroelastic behavior of a system responding to mode-shapes which are different from the tuned in vacuo ones, due to mistuning, mode family interaction, or any other source of mode-shape perturbation. The method is based on the generation of a data base of unsteady aerodynamic forces arising from the motion of arbitrary modes and uses least square approximations for the prediction of any responding mode. The use of a reduced order technique allows for mistuning analyses and is also applied for the selection of a limited number of arbitrary modes. The application of this method on a transonic compressor blade shows that the method captures the aeroelastic properties well in a wide frequency range. A discussion of the influence of the mode-shapes and frequency on the final stability response is also provided.",
-    "keywords": [
-      "Mistuning",
-      "Aeroelasticity",
-      "Turbomachinery",
-      "Aerodynamics",
-      "Transonic",
-      "Mode (computer interface)",
-      "Normal mode",
-      "Perturbation (astronomy)",
-      "Control theory (sociology)",
-      "Computer science",
-      "Stability (learning theory)",
-      "Set (abstract data type)",
-      "Vibration",
-      "Structural engineering",
-      "Acoustics",
-      "Physics",
-      "Engineering",
-      "Mechanics"
-    ],
-    "topics_matched": []
   },
   {
     "id": "W1997354540",
@@ -20024,39 +20024,6 @@
     "topics_matched": []
   },
   {
-    "id": "W2043030287",
-    "title": "Redesign of a High-Pressure Compressor Blade Accounting for Nonlinear Structural Interactions",
-    "date": "2014-08-11",
-    "year": 2014,
-    "authors": [
-      "Alain Batailly",
-      "Mathias Legrand",
-      "Antoine Millecamps",
-      "Sébastien Cochon",
-      "François Garcin"
-    ],
-    "venue": "Journal of Engineering for Gas Turbines and Power",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4028263",
-    "abstract": "Recent numerical developments dedicated to the simulation of rotor/stator interaction involving direct structural contacts have been integrated within the Snecma industrial environment. This paper presents the first attempt to benefit from these developments and account for structural blade/casing contacts at the design stage of a high-pressure compressor blade. The blade of interest underwent structural divergence after blade/abradable coating contact occurrences on a rig test. The design improvements were carried out in several steps with significant modifications of the blade stacking law while maintaining aerodynamic performance of the original blade design. After a brief presentation of the proposed design strategy, basic concepts associated with the design variations are recalled. The iterated profiles are then numerically investigated and compared with respect to key structural criteria such as: (1) their mass, (2) the residual stresses stemming from centrifugal stiffening, (3) the vibratory level under aerodynamic forced response, and (4) the vibratory levels when unilateral contact occurs. Significant improvements of the final blade design are found: the need for an early integration of nonlinear structural interactions criteria in the design stage of modern aircraft engines components is highlighted.",
-    "keywords": [
-      "Aerodynamics",
-      "Blade (archaeology)",
-      "Centrifugal compressor",
-      "Gas compressor",
-      "Structural engineering",
-      "Casing",
-      "Stiffening",
-      "Rotor (electric)",
-      "Nonlinear system",
-      "Mechanical engineering",
-      "Engineering",
-      "Computer science",
-      "Aerospace engineering"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W1978774091",
     "title": "Ultrashort Nacelles for Low Fan Pressure Ratio Propulsors",
     "date": "2014-08-11",
@@ -20091,6 +20058,39 @@
       "Physics",
       "Turbine",
       "Thrust"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2043030287",
+    "title": "Redesign of a High-Pressure Compressor Blade Accounting for Nonlinear Structural Interactions",
+    "date": "2014-08-11",
+    "year": 2014,
+    "authors": [
+      "Alain Batailly",
+      "Mathias Legrand",
+      "Antoine Millecamps",
+      "Sébastien Cochon",
+      "François Garcin"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4028263",
+    "abstract": "Recent numerical developments dedicated to the simulation of rotor/stator interaction involving direct structural contacts have been integrated within the Snecma industrial environment. This paper presents the first attempt to benefit from these developments and account for structural blade/casing contacts at the design stage of a high-pressure compressor blade. The blade of interest underwent structural divergence after blade/abradable coating contact occurrences on a rig test. The design improvements were carried out in several steps with significant modifications of the blade stacking law while maintaining aerodynamic performance of the original blade design. After a brief presentation of the proposed design strategy, basic concepts associated with the design variations are recalled. The iterated profiles are then numerically investigated and compared with respect to key structural criteria such as: (1) their mass, (2) the residual stresses stemming from centrifugal stiffening, (3) the vibratory level under aerodynamic forced response, and (4) the vibratory levels when unilateral contact occurs. Significant improvements of the final blade design are found: the need for an early integration of nonlinear structural interactions criteria in the design stage of modern aircraft engines components is highlighted.",
+    "keywords": [
+      "Aerodynamics",
+      "Blade (archaeology)",
+      "Centrifugal compressor",
+      "Gas compressor",
+      "Structural engineering",
+      "Casing",
+      "Stiffening",
+      "Rotor (electric)",
+      "Nonlinear system",
+      "Mechanical engineering",
+      "Engineering",
+      "Computer science",
+      "Aerospace engineering"
     ],
     "topics_matched": []
   },
@@ -21812,35 +21812,6 @@
     "topics_matched": []
   },
   {
-    "id": "W1880575905",
-    "title": "Adaptation of Phase-Lagged Boundary Conditions to Large Eddy Simulation in Turbomachinery Configurations",
-    "date": "2015-11-20",
-    "year": 2015,
-    "authors": [
-      "Gaëlle Mouret",
-      "Nicolas Gourdain",
-      "Lionel Castillon"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4032044",
-    "abstract": "With the increase in computing power, large eddy simulation (LES) emerges as a promising technique to improve both knowledge of complex physics and reliability of turbomachinery flow predictions. However, these simulations are very expensive for industrial applications, especially when a 360 deg configuration should be considered. The objective of this paper is thus to adapt the well-known phase-lagged conditions to the LES approach by replacing the traditional Fourier series decomposition (FSD) with a compression method that does not make any assumptions on the spectrum of the flow. Several methods are reviewed, and the proper orthogonal decomposition (POD) is retained. This new method is first validated on a flow around a circular cylinder with rotating downstream blocks. The results show significant improvements with respect to the FSD. It is then applied to unsteady Reynolds-averaged Navier–Stokes (URANS) simulations of a single-stage compressor in 2.5D and 3D as a first validation step toward single-passage LES of turbomachinery configuration.",
-    "keywords": [
-      "Turbomachinery",
-      "Large eddy simulation",
-      "Flow (mathematics)",
-      "Computational fluid dynamics",
-      "Computer science",
-      "Gas compressor",
-      "Mechanics",
-      "Turbulence",
-      "Physics",
-      "Mechanical engineering",
-      "Engineering"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W2173164527",
     "title": "The Impact of Blade Loading and Unsteady Pressure Bifurcations on Low-Pressure Turbine Flutter Boundaries",
     "date": "2015-11-20",
@@ -21870,6 +21841,35 @@
       "Physics",
       "Gas compressor",
       "Aerospace engineering"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W1880575905",
+    "title": "Adaptation of Phase-Lagged Boundary Conditions to Large Eddy Simulation in Turbomachinery Configurations",
+    "date": "2015-11-20",
+    "year": 2015,
+    "authors": [
+      "Gaëlle Mouret",
+      "Nicolas Gourdain",
+      "Lionel Castillon"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4032044",
+    "abstract": "With the increase in computing power, large eddy simulation (LES) emerges as a promising technique to improve both knowledge of complex physics and reliability of turbomachinery flow predictions. However, these simulations are very expensive for industrial applications, especially when a 360 deg configuration should be considered. The objective of this paper is thus to adapt the well-known phase-lagged conditions to the LES approach by replacing the traditional Fourier series decomposition (FSD) with a compression method that does not make any assumptions on the spectrum of the flow. Several methods are reviewed, and the proper orthogonal decomposition (POD) is retained. This new method is first validated on a flow around a circular cylinder with rotating downstream blocks. The results show significant improvements with respect to the FSD. It is then applied to unsteady Reynolds-averaged Navier–Stokes (URANS) simulations of a single-stage compressor in 2.5D and 3D as a first validation step toward single-passage LES of turbomachinery configuration.",
+    "keywords": [
+      "Turbomachinery",
+      "Large eddy simulation",
+      "Flow (mathematics)",
+      "Computational fluid dynamics",
+      "Computer science",
+      "Gas compressor",
+      "Mechanics",
+      "Turbulence",
+      "Physics",
+      "Mechanical engineering",
+      "Engineering"
     ],
     "topics_matched": []
   },
@@ -25255,40 +25255,6 @@
     "topics_matched": []
   },
   {
-    "id": "W4237569147",
-    "title": "Periodic Unsteady Tip Clearance Vortex Development in a Low-Speed Axial Research Compressor at Different Tip Clearances",
-    "date": "2017-11-01",
-    "year": 2017,
-    "authors": [
-      "Martin Lange",
-      "Matthias Rolfes",
-      "Ronald Mailach",
-      "Henner Schrapp"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4038319",
-    "abstract": "Since the early work on axial compressors, the penalties due to radial clearances between blades and side walls are known and are an ongoing focus of research work. The periodic unsteadiness of the tip clearance vortex (TCV), due to its interaction with the stator wakes, has only rarely been addressed in research papers so far. The current work presents experimental and numerical results from a four-stage low-speed research compressor (LSRC) modeling a state-of-the-art compressor design. Time-resolved experimental measurements have been carried out at three different rotor tip clearances (gap to tip chord: 1.5%, 2.2%, 3.7%) to cover the third rotor's casing static pressure and exit flow field. These results are compared with either steady simulations using different turbulence models or harmonic Reynolds-averaged Navier–Stokes (RANS) calculations to discuss the periodical unsteady TCV development at different clearance heights. The prediction of the local tip leakage flow is clearly improved by the explicit algebraic Reynolds stress model (EARSM) turbulence model compared to the standard shear stress transport (SST) model. The harmonic RANS calculations (using the SST model) improve the prediction of time-averaged pressure rise and are used to analyze the rotor stator interaction in detail. The interaction of the rotor tip flow field with the passing stator wakes causes a segmentation of the TCV and results in a sinusoidal variation in blockage downstream the rotor row.",
-    "keywords": [
-      "Reynolds-averaged Navier–Stokes equations",
-      "Tip clearance",
-      "Mechanics",
-      "Axial compressor",
-      "Turbulence",
-      "Gas compressor",
-      "Vortex",
-      "Stator",
-      "Reynolds stress",
-      "Physics",
-      "Chord (peer-to-peer)",
-      "Engineering",
-      "Mechanical engineering",
-      "Computer science",
-      "Thermodynamics"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W4253155348",
     "title": "Influence of Rotor Tip Blockage on Near Stall Blade Vibrations in an Axial Compressor Rig",
     "date": "2017-11-01",
@@ -25328,6 +25294,40 @@
     "topics_matched": [
       "机匣处理"
     ]
+  },
+  {
+    "id": "W4237569147",
+    "title": "Periodic Unsteady Tip Clearance Vortex Development in a Low-Speed Axial Research Compressor at Different Tip Clearances",
+    "date": "2017-11-01",
+    "year": 2017,
+    "authors": [
+      "Martin Lange",
+      "Matthias Rolfes",
+      "Ronald Mailach",
+      "Henner Schrapp"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4038319",
+    "abstract": "Since the early work on axial compressors, the penalties due to radial clearances between blades and side walls are known and are an ongoing focus of research work. The periodic unsteadiness of the tip clearance vortex (TCV), due to its interaction with the stator wakes, has only rarely been addressed in research papers so far. The current work presents experimental and numerical results from a four-stage low-speed research compressor (LSRC) modeling a state-of-the-art compressor design. Time-resolved experimental measurements have been carried out at three different rotor tip clearances (gap to tip chord: 1.5%, 2.2%, 3.7%) to cover the third rotor's casing static pressure and exit flow field. These results are compared with either steady simulations using different turbulence models or harmonic Reynolds-averaged Navier–Stokes (RANS) calculations to discuss the periodical unsteady TCV development at different clearance heights. The prediction of the local tip leakage flow is clearly improved by the explicit algebraic Reynolds stress model (EARSM) turbulence model compared to the standard shear stress transport (SST) model. The harmonic RANS calculations (using the SST model) improve the prediction of time-averaged pressure rise and are used to analyze the rotor stator interaction in detail. The interaction of the rotor tip flow field with the passing stator wakes causes a segmentation of the TCV and results in a sinusoidal variation in blockage downstream the rotor row.",
+    "keywords": [
+      "Reynolds-averaged Navier–Stokes equations",
+      "Tip clearance",
+      "Mechanics",
+      "Axial compressor",
+      "Turbulence",
+      "Gas compressor",
+      "Vortex",
+      "Stator",
+      "Reynolds stress",
+      "Physics",
+      "Chord (peer-to-peer)",
+      "Engineering",
+      "Mechanical engineering",
+      "Computer science",
+      "Thermodynamics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2611267040",
@@ -25839,33 +25839,6 @@
     "topics_matched": []
   },
   {
-    "id": "W2781843202",
-    "title": "A New Approach for Centrifugal Impeller Preliminary Design and Aerothermal Analysis",
-    "date": "2018-01-03",
-    "year": 2018,
-    "authors": [
-      "Fangyuan Lou",
-      "John C. Fabian",
-      "Nicole L. Key"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4038876",
-    "abstract": "This paper introduces a new approach for the preliminary design and aerothermal analysis of centrifugal impellers using a relative diffusion effectiveness parameter. The relative diffusion effectiveness is defined as the ratio of the achieved diffusion to the maximum available diffusion in an impeller. It represents the quality of the relative diffusion process in an impeller. This parameter is used to evaluate impeller performance by correlating the relative diffusion effectiveness with the impeller isentropic efficiency using the experimental data acquired on a single-stage centrifugal compressor (SSCC). By including slip, which is appropriate considering it is an inviscid effect that should be included in the determination of maximum available diffusion in the impeller, a linear correlation between impeller efficiency and relative diffusion effectiveness resulted for all operating conditions. Additionally, a new method for impeller preliminary design was introduced using the relative diffusion effectiveness parameter, in which the optimal design is selected to maximize relative diffusion effectiveness. While traditional preliminary design methods are based on empirical loss models or empirical knowledge for selection of diffusion factor (DF) in the impeller, the new method does not require any such models, and it also provides an analytical approach for the selection of DF that gives optimal impeller performance. Validation of the method was performed using three classic impeller designs available in the open literature, and very good agreement was achieved. Furthermore, a sensitivity study shows that the method is robust in that the resulting flow angles at the impeller inlet and exit are insensitive to a wide range of blockage factors and various slip models.",
-    "keywords": [
-      "Impeller",
-      "Mechanical engineering",
-      "Centrifugal compressor",
-      "Engineering",
-      "Computer science",
-      "Aerospace engineering",
-      "Marine engineering",
-      "Mechanics",
-      "Physics"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W2746414287",
     "title": "Stall Inception Analysis of Transonic Compressors With Chordwise and Axial Sweep",
     "date": "2018-01-03",
@@ -25931,6 +25904,33 @@
     "topics_matched": [
       "压缩机稳定性"
     ]
+  },
+  {
+    "id": "W2781843202",
+    "title": "A New Approach for Centrifugal Impeller Preliminary Design and Aerothermal Analysis",
+    "date": "2018-01-03",
+    "year": 2018,
+    "authors": [
+      "Fangyuan Lou",
+      "John C. Fabian",
+      "Nicole L. Key"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4038876",
+    "abstract": "This paper introduces a new approach for the preliminary design and aerothermal analysis of centrifugal impellers using a relative diffusion effectiveness parameter. The relative diffusion effectiveness is defined as the ratio of the achieved diffusion to the maximum available diffusion in an impeller. It represents the quality of the relative diffusion process in an impeller. This parameter is used to evaluate impeller performance by correlating the relative diffusion effectiveness with the impeller isentropic efficiency using the experimental data acquired on a single-stage centrifugal compressor (SSCC). By including slip, which is appropriate considering it is an inviscid effect that should be included in the determination of maximum available diffusion in the impeller, a linear correlation between impeller efficiency and relative diffusion effectiveness resulted for all operating conditions. Additionally, a new method for impeller preliminary design was introduced using the relative diffusion effectiveness parameter, in which the optimal design is selected to maximize relative diffusion effectiveness. While traditional preliminary design methods are based on empirical loss models or empirical knowledge for selection of diffusion factor (DF) in the impeller, the new method does not require any such models, and it also provides an analytical approach for the selection of DF that gives optimal impeller performance. Validation of the method was performed using three classic impeller designs available in the open literature, and very good agreement was achieved. Furthermore, a sensitivity study shows that the method is robust in that the resulting flow angles at the impeller inlet and exit are insensitive to a wide range of blockage factors and various slip models.",
+    "keywords": [
+      "Impeller",
+      "Mechanical engineering",
+      "Centrifugal compressor",
+      "Engineering",
+      "Computer science",
+      "Aerospace engineering",
+      "Marine engineering",
+      "Mechanics",
+      "Physics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W4233145553",
@@ -26333,6 +26333,40 @@
     "topics_matched": []
   },
   {
+    "id": "W4241536788",
+    "title": "A Mixed-Fidelity Numerical Study for Fan–Distortion Interaction",
+    "date": "2018-07-20",
+    "year": 2018,
+    "authors": [
+      "Yunfei Ma",
+      "Jiahuan Cui",
+      "Nagabhushana Rao Vadlamani",
+      "Paul G. Tucker"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4040860",
+    "abstract": "Inlet distortion often occurs under off-design conditions when a flow separates within an intake and this unsteady phenomenon can seriously impact fan performance. Fan–distortion interaction is a highly unsteady aerodynamic process into which high-fidelity simulations can provide detailed insights. However, due to limitations on the computational resource, the use of an eddy resolving method for a fully resolved fan calculation is currently infeasible within industry. To solve this problem, a mixed-fidelity computational fluid dynamics method is proposed. This method uses the large Eddy simulation (LES) approach to resolve the turbulence associated with separation and the immersed boundary method (IBM) with smeared geometry (IBMSG) to model the fan. The method is validated by providing comparisons against the experiment on the Darmstadt Rotor, which shows a good agreement in terms of total pressure distributions. A detailed investigation is then conducted for a subsonic rotor with an annular beam-generating inlet distortion. A number of studies are performed in order to investigate the fan's influence on the distortions. A comparison to the case without a fan shows that the fan has a significant effect in reducing distortions. Three fan locations are examined which reveal that the fan nearer to the inlet tends to have a higher pressure recovery. Three beams with different heights are also tested to generate various degrees of distortion. The results indicate that the fan can suppress the distortions and that the recovery effect is proportional to the degree of inlet distortion.",
+    "keywords": [
+      "Distortion (music)",
+      "Aerodynamics",
+      "Computational fluid dynamics",
+      "Rotor (electric)",
+      "Inlet",
+      "Turbulence",
+      "Mechanics",
+      "Mechanical fan",
+      "Large eddy simulation",
+      "Computer science",
+      "Physics",
+      "Simulation",
+      "Acoustics",
+      "Mechanical engineering",
+      "Engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2811178488",
     "title": "Performance Analysis of a Centrifugal Compressor Based on Circumferential Flow Distortion Induced by Volute",
     "date": "2018-07-20",
@@ -26399,72 +26433,6 @@
     "topics_matched": []
   },
   {
-    "id": "W4241536788",
-    "title": "A Mixed-Fidelity Numerical Study for Fan–Distortion Interaction",
-    "date": "2018-07-20",
-    "year": 2018,
-    "authors": [
-      "Yunfei Ma",
-      "Jiahuan Cui",
-      "Nagabhushana Rao Vadlamani",
-      "Paul G. Tucker"
-    ],
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4040860",
-    "abstract": "Inlet distortion often occurs under off-design conditions when a flow separates within an intake and this unsteady phenomenon can seriously impact fan performance. Fan–distortion interaction is a highly unsteady aerodynamic process into which high-fidelity simulations can provide detailed insights. However, due to limitations on the computational resource, the use of an eddy resolving method for a fully resolved fan calculation is currently infeasible within industry. To solve this problem, a mixed-fidelity computational fluid dynamics method is proposed. This method uses the large Eddy simulation (LES) approach to resolve the turbulence associated with separation and the immersed boundary method (IBM) with smeared geometry (IBMSG) to model the fan. The method is validated by providing comparisons against the experiment on the Darmstadt Rotor, which shows a good agreement in terms of total pressure distributions. A detailed investigation is then conducted for a subsonic rotor with an annular beam-generating inlet distortion. A number of studies are performed in order to investigate the fan's influence on the distortions. A comparison to the case without a fan shows that the fan has a significant effect in reducing distortions. Three fan locations are examined which reveal that the fan nearer to the inlet tends to have a higher pressure recovery. Three beams with different heights are also tested to generate various degrees of distortion. The results indicate that the fan can suppress the distortions and that the recovery effect is proportional to the degree of inlet distortion.",
-    "keywords": [
-      "Distortion (music)",
-      "Aerodynamics",
-      "Computational fluid dynamics",
-      "Rotor (electric)",
-      "Inlet",
-      "Turbulence",
-      "Mechanics",
-      "Mechanical fan",
-      "Large eddy simulation",
-      "Computer science",
-      "Physics",
-      "Simulation",
-      "Acoustics",
-      "Mechanical engineering",
-      "Engineering"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W4252553634",
-    "title": "Development of a Criterion for a Robust Identification of Diffuser Rotating Stall Onset in Industrial Centrifugal Compressors",
-    "date": "2018-07-20",
-    "year": 2018,
-    "authors": [
-      "Alessandro Bianchini",
-      "Giulia Andreini",
-      "Lorenzo Ferrari",
-      "Dante Tommaso Rubino",
-      "Giovanni Ferrara"
-    ],
-    "venue": "Journal of Engineering for Gas Turbines and Power",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4040863",
-    "abstract": "Recent studies showed that a prompt detection of the stall inception, connected with a specific model to predict its associated aerodynamic force, could provide room for an extension of the left margin of the operating curve of high-pressure centrifugal compressors. In industrial machines working in the field, however, robust procedures to detect and identify the phenomenon are still missing, i.e., the operating curve is almost ever cut preliminarily by the manufacturer by a proper safety margin; moreover, no agreement is found in the literature about a well-defined threshold to define the onset of the stall. In particular, in some cases, the intensity of the arising subsynchronous frequency is compared to the revolution frequency, while in many other ones it is compared to the blade passage frequency. A large experience in experimental stall analyses collected by the authors revealed that in some cases unexpected spikes could make this direct comparison not reliable for a robust automatic detection. To this end, a new criterion was developed based on an integral analysis of the area subtended to the entire subsynchronous spectrum of the dynamic pressure signal of probes positioned just outside the impeller exit. A dimensionless parameter was then defined to account for the spectrum area increase in proximity to stall inception. This new parameter enabled the definition of a reference threshold to highlight the arising of stall conditions, whose validity and increased robustness was here verified based on a set of experimental analyses of different types of full-stage test cases of industrial centrifugal compressors at the test rig.",
-    "keywords": [
-      "Stall (fluid mechanics)",
-      "Centrifugal compressor",
-      "Gas compressor",
-      "Control theory (sociology)",
-      "Impeller",
-      "Dimensionless quantity",
-      "Engineering",
-      "Computer science",
-      "Mechanics",
-      "Mechanical engineering",
-      "Physics",
-      "Artificial intelligence"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W2811152204",
     "title": "Rotordynamic Characterization of a Staggered Labyrinth Seal: Experimental Test Data and Comparison With Predictions",
     "date": "2018-07-20",
@@ -26501,34 +26469,34 @@
     "topics_matched": []
   },
   {
-    "id": "W2884265978",
-    "title": "A Method for Parametric Analysis of Stability Boundaries for Nonlinear Periodic Vibrations of Structures With Contact Interfaces",
+    "id": "W4252553634",
+    "title": "Development of a Criterion for a Robust Identification of Diffuser Rotating Stall Onset in Industrial Centrifugal Compressors",
     "date": "2018-07-20",
     "year": 2018,
     "authors": [
-      "E. P. Petrov"
+      "Alessandro Bianchini",
+      "Giulia Andreini",
+      "Lorenzo Ferrari",
+      "Dante Tommaso Rubino",
+      "Giovanni Ferrara"
     ],
     "venue": "Journal of Engineering for Gas Turbines and Power",
     "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4040850",
-    "abstract": "A method for parametric analysis of the stability loss boundary has been developed for periodic regimes of nonlinear forced vibrations for a first time. The method allows parametric frequency-domain calculations of the stability loss together with the vibration amplitudes and design parameter values corresponding to the stability boundaries. The tracing algorithm is applied to obtain the trajectories of stability loss points as functions of design parameters. The parametric stability loss is formulated for cases when (i) the design parameters characterize the properties of nonlinear contact interfaces (e.g., gap, contact stiffness, and friction coefficient); (ii) the design parameters describe linear components of the analyzed structure (e.g., parameters of geometric shape, material, natural frequencies, and modal damping); and (iii) these parameters describe the excitation loads (e.g., their level, distribution or frequency). An approach allowing the multiparametric analysis of stability boundaries is proposed. The method uses the multiharmonic representation of the periodic forced response and aimed at the analysis of realistic gas-turbine structures comprising thousands and millions degrees-of-freedom (DOF). The method can be used for the effective search of isolated branches of the nonlinear solutions and examples of detection and search of the isolated branches are given: for relatively small and for large-scale finite element (FE) models. The efficiency of the method for calculation of the stability boundaries and for the search of isolated branches is demonstrated on simple systems and on a large-scale model of a turbine blade.",
+    "url": "https://doi.org/10.1115/1.4040863",
+    "abstract": "Recent studies showed that a prompt detection of the stall inception, connected with a specific model to predict its associated aerodynamic force, could provide room for an extension of the left margin of the operating curve of high-pressure centrifugal compressors. In industrial machines working in the field, however, robust procedures to detect and identify the phenomenon are still missing, i.e., the operating curve is almost ever cut preliminarily by the manufacturer by a proper safety margin; moreover, no agreement is found in the literature about a well-defined threshold to define the onset of the stall. In particular, in some cases, the intensity of the arising subsynchronous frequency is compared to the revolution frequency, while in many other ones it is compared to the blade passage frequency. A large experience in experimental stall analyses collected by the authors revealed that in some cases unexpected spikes could make this direct comparison not reliable for a robust automatic detection. To this end, a new criterion was developed based on an integral analysis of the area subtended to the entire subsynchronous spectrum of the dynamic pressure signal of probes positioned just outside the impeller exit. A dimensionless parameter was then defined to account for the spectrum area increase in proximity to stall inception. This new parameter enabled the definition of a reference threshold to highlight the arising of stall conditions, whose validity and increased robustness was here verified based on a set of experimental analyses of different types of full-stage test cases of industrial centrifugal compressors at the test rig.",
     "keywords": [
-      "Parametric statistics",
-      "Nonlinear system",
-      "Vibration",
-      "Stability (learning theory)",
-      "Finite element method",
-      "Boundary value problem",
-      "Stiffness",
-      "Modal analysis",
-      "Mathematical analysis",
+      "Stall (fluid mechanics)",
+      "Centrifugal compressor",
+      "Gas compressor",
       "Control theory (sociology)",
-      "Mathematics",
-      "Computer science",
-      "Structural engineering",
-      "Physics",
+      "Impeller",
+      "Dimensionless quantity",
       "Engineering",
-      "Acoustics"
+      "Computer science",
+      "Mechanics",
+      "Mechanical engineering",
+      "Physics",
+      "Artificial intelligence"
     ],
     "topics_matched": []
   },
@@ -26641,6 +26609,38 @@
       "Mathematics",
       "Electrical engineering",
       "Artificial intelligence"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2884265978",
+    "title": "A Method for Parametric Analysis of Stability Boundaries for Nonlinear Periodic Vibrations of Structures With Contact Interfaces",
+    "date": "2018-07-20",
+    "year": 2018,
+    "authors": [
+      "E. P. Petrov"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4040850",
+    "abstract": "A method for parametric analysis of the stability loss boundary has been developed for periodic regimes of nonlinear forced vibrations for a first time. The method allows parametric frequency-domain calculations of the stability loss together with the vibration amplitudes and design parameter values corresponding to the stability boundaries. The tracing algorithm is applied to obtain the trajectories of stability loss points as functions of design parameters. The parametric stability loss is formulated for cases when (i) the design parameters characterize the properties of nonlinear contact interfaces (e.g., gap, contact stiffness, and friction coefficient); (ii) the design parameters describe linear components of the analyzed structure (e.g., parameters of geometric shape, material, natural frequencies, and modal damping); and (iii) these parameters describe the excitation loads (e.g., their level, distribution or frequency). An approach allowing the multiparametric analysis of stability boundaries is proposed. The method uses the multiharmonic representation of the periodic forced response and aimed at the analysis of realistic gas-turbine structures comprising thousands and millions degrees-of-freedom (DOF). The method can be used for the effective search of isolated branches of the nonlinear solutions and examples of detection and search of the isolated branches are given: for relatively small and for large-scale finite element (FE) models. The efficiency of the method for calculation of the stability boundaries and for the search of isolated branches is demonstrated on simple systems and on a large-scale model of a turbine blade.",
+    "keywords": [
+      "Parametric statistics",
+      "Nonlinear system",
+      "Vibration",
+      "Stability (learning theory)",
+      "Finite element method",
+      "Boundary value problem",
+      "Stiffness",
+      "Modal analysis",
+      "Mathematical analysis",
+      "Control theory (sociology)",
+      "Mathematics",
+      "Computer science",
+      "Structural engineering",
+      "Physics",
+      "Engineering",
+      "Acoustics"
     ],
     "topics_matched": []
   },
@@ -26787,42 +26787,6 @@
     "topics_matched": []
   },
   {
-    "id": "W4246839363",
-    "title": "Performance Testing of an Axial Flow Fan Designed for Air-Cooled Heat Exchanger Applications",
-    "date": "2018-08-09",
-    "year": 2018,
-    "authors": [
-      "Michael B. Wilkinson",
-      "Sybrand J. van der Spuy",
-      "Theodor W. von Backström"
-    ],
-    "venue": "Journal of Engineering for Gas Turbines and Power",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4041010",
-    "abstract": "An axial flow fan developed in the previous study is tested in order to characterize its performance. The M-fan, a 7.3152 m diameter rotor only axial flow fan was designed to perform well under the challenging operating conditions encountered in air-cooled heat exchangers. Preliminary computational fluid dynamics (CFD) results obtained using an actuator disk model (ADM) as well as a periodic three dimensional model indicate that the fan meets the specified performance targets, with an expected total-to-static efficiency of 59.4% and a total-to-static pressure rise of 114.7 Pa at the operating point. Experimental tests are performed on the M-fan in order to determine its performance across a full range of flow rates. A range of fan configurations are tested in order to ascertain the effect of tip clearance, blade angle, and hub configuration on fan performance. Due to the lack of a suitable facility for testing a large diameter fan, a scaled 1.542 m diameter model is tested on the ISO 5801 type A fan test facility at Stellenbosch University. A Reynolds-averaged Navier–Stokes CFD model representing the M-fan in the test facility is also developed in order to provide additional insight into the flow field in the vicinity of the fan blades. The results of the CFD model will be validated using the experimental data obtained. Both the CFD results and the experimental data obtained are compared to the initial CFD results for the full scale fan, as obtained in the previous study, by means of fan scaling laws. Experimental data indicate that the M-fan does not meet the pressure requirement set out in the initial study at the design blade setting angle of 34 deg. Under these conditions, the M-fan attains a total-to-static pressure rise of 102.5 Pa and a total-to-static efficiency of 56.4%, running with a tip gap of 2 mm. Increasing the blade angle is shown to be a potential remedy, improving the total-to-static pressure rise and efficiency obtained at the operating point. The M-fan is also shown to be highly sensitive to increasing tip gap, with larger tip gaps substantially reducing fan performance. The losses due to tip gap are also shown to be overestimated by the CFD simulations. Both experimental and numerically obtained results indicate lower fan total-to-static efficiencies than obtained in the initial CFD study. Results indicate that the M-fan is suited to its intended application, however, it should be operated with a smaller tip gap than initially recommended and a larger blade setting angle. Hub configuration is also shown to have an influence on fan performance, potentially improving performance at low flow rates.",
-    "keywords": [
-      "Computational fluid dynamics",
-      "Heat exchanger",
-      "Mechanical fan",
-      "Fan coil unit",
-      "Reynolds number",
-      "Axial compressor",
-      "Static pressure",
-      "Rotor (electric)",
-      "Mechanics",
-      "Flow (mathematics)",
-      "Airflow",
-      "Pressure drop",
-      "Mechanical engineering",
-      "Simulation",
-      "Engineering",
-      "Structural engineering",
-      "Turbulence",
-      "Physics"
-    ],
-    "topics_matched": []
-  },
-  {
     "id": "W4229857973",
     "title": "A Study on Matching Between Centrifugal Compressor Impeller and Low Solidity Diffuser and Its Extension to Vaneless Diffuser",
     "date": "2018-08-09",
@@ -26857,6 +26821,42 @@
       "Optics",
       "Aerodynamics",
       "Inlet"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W4246839363",
+    "title": "Performance Testing of an Axial Flow Fan Designed for Air-Cooled Heat Exchanger Applications",
+    "date": "2018-08-09",
+    "year": 2018,
+    "authors": [
+      "Michael B. Wilkinson",
+      "Sybrand J. van der Spuy",
+      "Theodor W. von Backström"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4041010",
+    "abstract": "An axial flow fan developed in the previous study is tested in order to characterize its performance. The M-fan, a 7.3152 m diameter rotor only axial flow fan was designed to perform well under the challenging operating conditions encountered in air-cooled heat exchangers. Preliminary computational fluid dynamics (CFD) results obtained using an actuator disk model (ADM) as well as a periodic three dimensional model indicate that the fan meets the specified performance targets, with an expected total-to-static efficiency of 59.4% and a total-to-static pressure rise of 114.7 Pa at the operating point. Experimental tests are performed on the M-fan in order to determine its performance across a full range of flow rates. A range of fan configurations are tested in order to ascertain the effect of tip clearance, blade angle, and hub configuration on fan performance. Due to the lack of a suitable facility for testing a large diameter fan, a scaled 1.542 m diameter model is tested on the ISO 5801 type A fan test facility at Stellenbosch University. A Reynolds-averaged Navier–Stokes CFD model representing the M-fan in the test facility is also developed in order to provide additional insight into the flow field in the vicinity of the fan blades. The results of the CFD model will be validated using the experimental data obtained. Both the CFD results and the experimental data obtained are compared to the initial CFD results for the full scale fan, as obtained in the previous study, by means of fan scaling laws. Experimental data indicate that the M-fan does not meet the pressure requirement set out in the initial study at the design blade setting angle of 34 deg. Under these conditions, the M-fan attains a total-to-static pressure rise of 102.5 Pa and a total-to-static efficiency of 56.4%, running with a tip gap of 2 mm. Increasing the blade angle is shown to be a potential remedy, improving the total-to-static pressure rise and efficiency obtained at the operating point. The M-fan is also shown to be highly sensitive to increasing tip gap, with larger tip gaps substantially reducing fan performance. The losses due to tip gap are also shown to be overestimated by the CFD simulations. Both experimental and numerically obtained results indicate lower fan total-to-static efficiencies than obtained in the initial CFD study. Results indicate that the M-fan is suited to its intended application, however, it should be operated with a smaller tip gap than initially recommended and a larger blade setting angle. Hub configuration is also shown to have an influence on fan performance, potentially improving performance at low flow rates.",
+    "keywords": [
+      "Computational fluid dynamics",
+      "Heat exchanger",
+      "Mechanical fan",
+      "Fan coil unit",
+      "Reynolds number",
+      "Axial compressor",
+      "Static pressure",
+      "Rotor (electric)",
+      "Mechanics",
+      "Flow (mathematics)",
+      "Airflow",
+      "Pressure drop",
+      "Mechanical engineering",
+      "Simulation",
+      "Engineering",
+      "Structural engineering",
+      "Turbulence",
+      "Physics"
     ],
     "topics_matched": []
   },
@@ -28810,6 +28810,34 @@
     "topics_matched": []
   },
   {
+    "id": "W4252167234",
+    "title": "Leakage and Force Coefficients of a Grooved Wet (Bubbly Liquid) Seal for Multiphase Pumps and Comparisons With Prior Test Results for a Three Wave Seal",
+    "date": "2019-09-13",
+    "year": 2019,
+    "authors": [
+      "Xueliang Lu",
+      "Luis San Andrés",
+      "Tingcheng Wu"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4044682",
+    "abstract": "Abstract In the subsea oil and gas industry, multiphase pumps and wet gas compressors are engineered choices saving transportation and separation facility costs. In these machines, seals handling multiple phase components must be able to operate without affecting the system efficiency and its dynamic stability. This paper, extending prior work conducted with uniform clearance and wavy surface annular seals, presents measurements of leakage and dynamic force coefficients in a grooved seal whose dimensions are scaled from an impeller wear ring seal in a boiler feed pump. The 14-grooves seal has diameter D = 127 mm, length L = 0.34 D, and clearance c = 0.211 mm; each groove has shallow depth dg ∼2.6 c and length Lg ∼ 3.4% L. At a shaft speed of 3.5 krpm (surface speed = 23.3 m/s), a mixture of air in ISO VG 10 oil with inlet gas volume fraction (GVF) ranging from 0 (just oil) to 0.7 (mostly air) lubricates the seal. The pressure ratio (inlet/exit) is 2.9. The flow is laminar since the liquid is viscous and the pressure drop is low. The measured mixture mass flow decreases continuously with an increase in inlet GVF. The seal stiffnesses (direct K and cross coupled k), added mass (M), and direct damping (C) coefficients are constant when the supplied mixture is low in gas content, GVF ≤ 0.1. As the gas content increases, 0.2 ≤ GVF ≤ 0.5, the seal direct dynamic stiffness becomes nil with an increase in excitation frequency, whereas k and C reduce steadily with GVF. In general, for GVF ≤ 0.5, the direct damping is invariant with frequency; variations appearing for GVF = 0.7. Compared against a three wave annular seal, the grooved seal offers much lower force coefficients, in particular the viscous damping. Thus, for laminar flow operation (heavy oil) with a low pressure drop as in a wear ring seal, a three wave seal is recommended as it also offers a significant centering stiffness.",
+    "keywords": [
+      "Inlet",
+      "Materials science",
+      "Mechanics",
+      "Laminar flow",
+      "Impeller",
+      "Leakage (economics)",
+      "Volumetric flow rate",
+      "Mechanical engineering",
+      "Engineering",
+      "Physics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4239439222",
     "title": "Influence of Blade Flexibility on the Dynamic Response Simulation of a Turbomolecular Pump on Magnetic Bearings",
     "date": "2019-09-13",
@@ -28838,34 +28866,6 @@
       "Control engineering",
       "Mathematics",
       "Control (management)"
-    ],
-    "topics_matched": []
-  },
-  {
-    "id": "W4252167234",
-    "title": "Leakage and Force Coefficients of a Grooved Wet (Bubbly Liquid) Seal for Multiphase Pumps and Comparisons With Prior Test Results for a Three Wave Seal",
-    "date": "2019-09-13",
-    "year": 2019,
-    "authors": [
-      "Xueliang Lu",
-      "Luis San Andrés",
-      "Tingcheng Wu"
-    ],
-    "venue": "Journal of Engineering for Gas Turbines and Power",
-    "source": "OpenAlex",
-    "url": "https://doi.org/10.1115/1.4044682",
-    "abstract": "Abstract In the subsea oil and gas industry, multiphase pumps and wet gas compressors are engineered choices saving transportation and separation facility costs. In these machines, seals handling multiple phase components must be able to operate without affecting the system efficiency and its dynamic stability. This paper, extending prior work conducted with uniform clearance and wavy surface annular seals, presents measurements of leakage and dynamic force coefficients in a grooved seal whose dimensions are scaled from an impeller wear ring seal in a boiler feed pump. The 14-grooves seal has diameter D = 127 mm, length L = 0.34 D, and clearance c = 0.211 mm; each groove has shallow depth dg ∼2.6 c and length Lg ∼ 3.4% L. At a shaft speed of 3.5 krpm (surface speed = 23.3 m/s), a mixture of air in ISO VG 10 oil with inlet gas volume fraction (GVF) ranging from 0 (just oil) to 0.7 (mostly air) lubricates the seal. The pressure ratio (inlet/exit) is 2.9. The flow is laminar since the liquid is viscous and the pressure drop is low. The measured mixture mass flow decreases continuously with an increase in inlet GVF. The seal stiffnesses (direct K and cross coupled k), added mass (M), and direct damping (C) coefficients are constant when the supplied mixture is low in gas content, GVF ≤ 0.1. As the gas content increases, 0.2 ≤ GVF ≤ 0.5, the seal direct dynamic stiffness becomes nil with an increase in excitation frequency, whereas k and C reduce steadily with GVF. In general, for GVF ≤ 0.5, the direct damping is invariant with frequency; variations appearing for GVF = 0.7. Compared against a three wave annular seal, the grooved seal offers much lower force coefficients, in particular the viscous damping. Thus, for laminar flow operation (heavy oil) with a low pressure drop as in a wear ring seal, a three wave seal is recommended as it also offers a significant centering stiffness.",
-    "keywords": [
-      "Inlet",
-      "Materials science",
-      "Mechanics",
-      "Laminar flow",
-      "Impeller",
-      "Leakage (economics)",
-      "Volumetric flow rate",
-      "Mechanical engineering",
-      "Engineering",
-      "Physics"
     ],
     "topics_matched": []
   },
