@@ -1376,19 +1376,38 @@ select {
 .topic-preview-hit span { color: var(--rel3); }
 .topic-preview-actions { display: flex; gap: 8px; }
 /* ── Timeline heatmap ─────────────────────── */
-.heatmap-table { border-collapse:separate; border-spacing:3px; font-family:'IBM Plex Mono',monospace; font-size:11px; }
-.heatmap-table th { color:var(--text3); font-weight:400; padding:4px 8px; white-space:nowrap; text-align:center; }
-.heatmap-table th.row-header { text-align:right; padding-right:12px; min-width:80px; }
+.tl-wrap { display:flex; gap:0; height:calc(100vh - 100px); }
+.tl-left { flex:6; overflow:auto; padding:20px 24px; border-right:1px solid var(--border); }
+.tl-right { flex:4; overflow-y:auto; padding:20px 24px; background:var(--bg2); min-width:320px; }
+.tl-right-empty { display:flex; align-items:center; justify-content:center; height:100%; color:var(--text3); font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:.06em; opacity:.5; }
+
+.heatmap-table { border-collapse:separate; border-spacing:2px; font-family:'IBM Plex Mono',monospace; font-size:10px; width:100%; }
+.heatmap-table th { color:var(--text3); font-weight:400; padding:3px 2px; white-space:nowrap; text-align:center; font-size:9px; }
+.heatmap-table th.row-header { text-align:right; padding-right:10px; min-width:70px; font-size:11px; font-weight:500; }
 .heatmap-cell {
-  width:72px; height:36px; border-radius:4px; cursor:pointer;
+  height:32px; border-radius:3px; cursor:pointer;
   display:flex; align-items:center; justify-content:center;
-  font-size:11px; font-family:'IBM Plex Mono',monospace; color:rgba(255,255,255,.7);
-  transition:filter .15s, transform .1s;
+  font-size:10px; font-family:'IBM Plex Mono',monospace; color:rgba(255,255,255,.75);
+  transition:all .15s ease;
   position:relative;
 }
-.heatmap-cell:hover { filter:brightness(1.3); transform:scale(1.06); z-index:1; }
-.heatmap-cell.empty { background:rgba(255,255,255,.04); color:var(--text3); cursor:default; }
-.heatmap-cell.empty:hover { filter:none; transform:none; }
+.heatmap-cell:hover { filter:brightness(1.3); transform:scale(1.08); z-index:1; box-shadow:0 0 8px rgba(255,255,255,.15); }
+.heatmap-cell.active { outline:2px solid var(--gold); outline-offset:1px; z-index:2; }
+.heatmap-cell.empty { background:rgba(255,255,255,.03); color:transparent; cursor:default; }
+.heatmap-cell.empty:hover { filter:none; transform:none; box-shadow:none; }
+
+.tl-detail-title { font-family:'IBM Plex Mono',monospace; font-size:13px; color:var(--gold); letter-spacing:.06em; margin-bottom:16px; padding-bottom:10px; border-bottom:1px solid var(--border); }
+.tl-summary-card { border-left:2px solid var(--gold); padding:12px 16px; background:var(--surface2); border-radius:0 6px 6px 0; margin-bottom:16px; }
+.tl-summary-label { color:var(--gold); font-size:10px; font-family:'IBM Plex Mono',monospace; letter-spacing:.06em; margin-bottom:6px; }
+.tl-summary-text { color:var(--text3); font-size:12px; line-height:1.8; }
+.tl-paper-header { color:var(--text3); font-size:10px; font-family:'IBM Plex Mono',monospace; letter-spacing:.06em; margin-bottom:8px; }
+.tl-paper-item { background:var(--bg); border-radius:4px; padding:8px 12px; cursor:pointer; transition:background .1s; }
+.tl-paper-item:hover { background:var(--surface2); }
+.tl-paper-meta { color:var(--text2); font-size:11px; margin-bottom:2px; }
+.tl-paper-title { color:var(--text3); font-size:11px; line-height:1.5; }
+
+.heatmap-legend { margin-top:14px; display:flex; align-items:center; gap:8px; font-size:10px; color:var(--text3); font-family:'IBM Plex Mono',monospace; }
+.heatmap-legend-bar { width:80px; height:8px; border-radius:2px; }
 </style>
 </head>
 <body>
@@ -1521,22 +1540,6 @@ select {
     border-top:1px solid var(--border);"></div>
 </div>
 
-<div id="timeline-panel" style="
-  position:fixed; top:56px; right:0; bottom:0; width:420px;
-  background:var(--bg2); border-left:1px solid var(--border2);
-  display:flex; flex-direction:column;
-  transform:translateX(100%); transition:transform .25s ease;
-  z-index:502;
-">
-  <!-- 标题栏 -->
-  <div style="padding:14px 18px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:10px; flex-shrink:0;">
-    <span id="tl-panel-title" style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--gold); letter-spacing:.08em; flex:1;">—</span>
-    <button onclick="closeTimelinePanel()" style="background:none; border:none; color:var(--text3); font-size:18px; cursor:pointer; line-height:1; padding:0 2px;">×</button>
-  </div>
-  <!-- 内容区（可滚动） -->
-  <div id="tl-panel-body" style="flex:1; overflow-y:auto; padding:16px 18px; display:flex; flex-direction:column; gap:14px;">
-  </div>
-</div>
 
 <!-- 话题管理面板（右侧抽屉） -->
 <div id="topics-panel" style="
@@ -1680,21 +1683,28 @@ select {
   <div class="repo-list" id="repo-list"></div>
 </div>
 
-<div id="tab-timeline" style="display:none; padding:20px 24px;">
+<div id="tab-timeline" style="display:none;">
   <div id="timeline-loading" style="color:var(--text3); font-family:'IBM Plex Mono',monospace; font-size:12px; padding:40px 0; text-align:center;">
     载入时间轴数据…
   </div>
   <div id="timeline-error" style="display:none; color:var(--rel5); font-family:'IBM Plex Mono',monospace; font-size:12px; padding:40px 0; text-align:center;"></div>
-  <div id="timeline-heatmap" style="display:none;">
-    <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--text3); letter-spacing:.08em; margin-bottom:16px;">
-      论文数量热力图 · 1970–至今（点击格子查看年代综述和论文列表）
+  <div id="timeline-heatmap" class="tl-wrap" style="display:none;">
+    <div class="tl-left">
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--text3); letter-spacing:.08em; margin-bottom:14px;">
+        RESEARCH HEATMAP · 1970–至今 · 5 年间隔（点击格子查看综述和论文）
+      </div>
+      <div id="heatmap-grid"></div>
+      <div class="heatmap-legend">
+        <span>少</span>
+        <div class="heatmap-legend-bar" style="background:linear-gradient(to right, rgba(114,180,240,.08), rgba(114,180,240,.95));"></div>
+        <span>多</span>
+        <span style="margin-left:8px; opacity:.6;">颜色按行内相对值缩放</span>
+      </div>
     </div>
-    <div id="heatmap-grid" style="overflow-x:auto;"></div>
-    <div style="margin-top:12px; display:flex; align-items:center; gap:8px; font-size:10px; color:var(--text3); font-family:'IBM Plex Mono',monospace;">
-      <span>少</span>
-      <div style="width:60px; height:8px; border-radius:2px; background:linear-gradient(to right, rgba(114,180,240,.1), rgba(114,180,240,.9));"></div>
-      <span>多</span>
-      <span style="margin-left:12px;">（颜色深浅按各话题行内部相对值缩放）</span>
+    <div class="tl-right">
+      <div id="tl-detail" class="tl-right-empty">
+        ← 点击热力图格子查看详情
+      </div>
     </div>
   </div>
 </div>
@@ -3055,35 +3065,17 @@ function closePipelinePanel() {
   if (_pipelinePoll) { clearInterval(_pipelinePoll); _pipelinePoll = null; }
 }
 
-function openTimelinePanel(topicLabel, decade) {
+function showTimelineDetail(topicLabel, period) {
   const topic = timelineData?.topics?.find(t => t.label === topicLabel);
-  const cell  = topic?.decades?.[String(decade)];
+  const cellKey = timelineData.periods ? 'periods' : 'decades';
+  const cellData = topic?.[cellKey] || topic?.periods || topic?.decades || {};
+  const cell = cellData[String(period)];
   if (!cell) return;
 
-  document.getElementById('tl-panel-title').textContent =
-    `${topicLabel} · ${decade}s`;
+  const detail = document.getElementById('tl-detail');
+  const periodEnd = period + 4;
 
-  const body = document.getElementById('tl-panel-body');
-  body.innerHTML = '';
-
-  // AI summary block
-  const summaryDiv = document.createElement('div');
-  summaryDiv.style.cssText = 'border-left:2px solid var(--gold); padding:10px 14px; background:var(--surface2); border-radius:0 4px 4px 0;';
-  if (cell.summary) {
-    summaryDiv.innerHTML = `
-      <div style="color:var(--gold); font-size:10px; font-family:'IBM Plex Mono',monospace; letter-spacing:.06em; margin-bottom:6px;">✦ AI 年代综述</div>
-      <div style="color:var(--text3); font-size:12px; line-height:1.7;">${escapeHtml(cell.summary)}</div>`;
-  } else {
-    summaryDiv.innerHTML = `<div style="color:var(--text3); font-size:11px; font-family:'IBM Plex Mono',monospace;">暂无综述，请重新运行流水线</div>`;
-  }
-  body.appendChild(summaryDiv);
-
-  // Paper list header
-  const headerDiv = document.createElement('div');
-  headerDiv.style.cssText = 'color:var(--text3); font-size:10px; font-family:"IBM Plex Mono",monospace; letter-spacing:.06em;';
-  body.appendChild(headerDiv);
-
-  // Gather papers: historical + current
+  // Gather papers
   const allPapers = [];
   (cell.paper_ids || []).forEach(pid => {
     if (historicalPapers && historicalPapers[pid]) {
@@ -3094,81 +3086,35 @@ function openTimelinePanel(topicLabel, decade) {
     }
   });
   allPapers.sort((a, b) => (a.year || 0) - (b.year || 0));
-  headerDiv.textContent = `相关论文 · ${allPapers.length} 篇`;
 
-  const displayPapers = allPapers.slice(0, 20);
-  const remaining = allPapers.length - 20;
+  let html = `<div class="tl-detail-title">${escapeHtml(topicLabel)} ${period}-${periodEnd} <span style="font-size:11px; color:var(--text3); font-weight:400;">${cell.count} 篇</span></div>`;
 
-  const listDiv = document.createElement('div');
-  listDiv.style.cssText = 'display:flex; flex-direction:column; gap:6px;';
-
-  displayPapers.forEach(p => {
-    const item = document.createElement('div');
-    item.style.cssText = 'background:var(--bg); border-radius:4px; padding:8px 10px; cursor:pointer;';
-    const firstAuthor = (p.authors || [])[0] || '';
-    const yearAuthor = `${p.year || ''}${firstAuthor ? ' · ' + firstAuthor.split(',')[0].split(' ').slice(-1)[0] : ''}`;
-
-    if (p._source === 'current') {
-      item.title = '点击跳转到论文详情';
-      item.onclick = () => {
-        closeTimelinePanel();
-        switchTab('papers');
-        setTimeout(() => {
-          const el = document.getElementById('card-' + p.id);
-          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, 300);
-      };
-      item.innerHTML = `
-        <div style="color:var(--text2); font-size:11px; margin-bottom:2px;">${yearAuthor}</div>
-        <div style="color:var(--text3); font-size:11px; line-height:1.4;">${escapeHtml(p.title)}</div>`;
-    } else {
-      item.style.cursor = p.url ? 'pointer' : 'default';
-      if (p.url) item.onclick = () => window.open(p.url, '_blank');
-      item.innerHTML = `
-        <div style="color:var(--text2); font-size:11px; margin-bottom:2px;">${yearAuthor}${p.url ? ' ↗' : ''}</div>
-        <div style="color:var(--text3); font-size:11px; line-height:1.4;">${escapeHtml(p.title)}</div>`;
-    }
-    listDiv.appendChild(item);
-  });
-
-  if (remaining > 0) {
-    const moreBtn = document.createElement('button');
-    moreBtn.style.cssText = 'background:none; border:1px solid var(--border2); border-radius:4px; color:var(--text3); font-family:"IBM Plex Mono",monospace; font-size:10px; padding:6px; cursor:pointer; width:100%;';
-    moreBtn.textContent = `显示全部 ${allPapers.length} 篇`;
-    moreBtn.onclick = () => {
-      allPapers.slice(20).forEach(p => {
-        const item = document.createElement('div');
-        item.style.cssText = 'background:var(--bg); border-radius:4px; padding:8px 10px;';
-        const firstAuthor = (p.authors || [])[0] || '';
-        const yearAuthor = `${p.year || ''}${firstAuthor ? ' · ' + firstAuthor.split(',')[0].split(' ').slice(-1)[0] : ''}`;
-        item.innerHTML = `
-          <div style="color:var(--text2); font-size:11px; margin-bottom:2px;">${yearAuthor}${p._source === 'historical' && p.url ? ' ↗' : ''}</div>
-          <div style="color:var(--text3); font-size:11px; line-height:1.4;">${escapeHtml(p.title)}</div>`;
-        if (p._source === 'historical' && p.url) item.onclick = () => window.open(p.url, '_blank');
-        if (p._source === 'current') {
-          item.style.cursor = 'pointer';
-          item.onclick = () => {
-            closeTimelinePanel();
-            switchTab('papers');
-            setTimeout(() => {
-              const el = document.getElementById('card-' + p.id);
-              if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }, 300);
-          };
-        }
-        listDiv.insertBefore(item, moreBtn);
-      });
-      moreBtn.remove();
-    };
-    listDiv.appendChild(moreBtn);
+  // AI summary
+  if (cell.summary) {
+    html += `<div class="tl-summary-card">
+      <div class="tl-summary-label">AI SUMMARY</div>
+      <div class="tl-summary-text">${escapeHtml(cell.summary)}</div>
+    </div>`;
   }
 
-  body.appendChild(listDiv);
-  document.getElementById('timeline-panel').style.transform = 'translateX(0)';
-}
+  // Paper list
+  html += `<div class="tl-paper-header">PAPERS</div>`;
+  html += '<div style="display:flex; flex-direction:column; gap:5px;">';
+  allPapers.forEach(p => {
+    const firstAuthor = (p.authors || [])[0] || '';
+    const lastName = firstAuthor ? firstAuthor.split(',')[0].split(' ').slice(-1)[0] : '';
+    const yearAuthor = `${p.year || ''}${lastName ? ' · ' + lastName : ''}`;
+    const url = p.url || '';
+    const clickAttr = url ? `onclick="window.open('${url.replace(/'/g, "\\'")}','_blank')"` : '';
+    html += `<div class="tl-paper-item" ${clickAttr}>
+      <div class="tl-paper-meta">${yearAuthor}${url ? ' ↗' : ''}</div>
+      <div class="tl-paper-title">${escapeHtml(p.title)}</div>
+    </div>`;
+  });
+  html += '</div>';
 
-function closeTimelinePanel() {
-  document.getElementById('timeline-panel').style.transform = 'translateX(100%)';
+  detail.className = '';
+  detail.innerHTML = html;
 }
 
 function openTopicsPanel() {
@@ -3706,12 +3652,16 @@ let timelineLoaded = false;
 
 // Per-topic color palette (RGBA base, opacity applied per cell)
 const TIMELINE_COLORS = [
-  '114,180,240',  // blue
-  '240,188,90',   // gold
-  '110,216,154',  // green
-  '196,140,240',  // purple
-  '240,140,110',  // orange
-  '140,200,240',  // light blue
+  '100,170,240',  // blue
+  '240,180,70',   // gold
+  '90,210,140',   // green
+  '180,130,240',  // purple
+  '240,120,100',  // coral
+  '100,200,210',  // teal
+  '220,160,100',  // amber
+  '150,190,240',  // sky
+  '200,100,160',  // rose
+  '130,220,180',  // mint
 ];
 
 async function loadTimeline() {
@@ -3755,40 +3705,46 @@ function escapeHtml(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+let activeHeatmapCell = null;
+
 function renderHeatmap() {
   if (!timelineData) return;
-  const decades = timelineData.decades || [1970,1980,1990,2000,2010,2020];
+  const periods = timelineData.periods || timelineData.decades || [1970,1975,1980,1985,1990,1995,2000,2005,2010,2015,2020,2025];
   const topics  = timelineData.topics  || [];
   const grid    = document.getElementById('heatmap-grid');
+  // Use "periods" key; fallback to "decades" for old format
+  const cellKey = timelineData.periods ? 'periods' : 'decades';
 
-  // Build table
   let html = '<table class="heatmap-table"><thead><tr>';
   html += '<th class="row-header"></th>';
-  decades.forEach(d => { html += `<th>${d}s</th>`; });
+  periods.forEach(p => {
+    const label = `${String(p).slice(2)}-${String(p + 4).slice(2)}`;
+    html += `<th>${label}</th>`;
+  });
   html += '</tr></thead><tbody>';
 
   topics.forEach((topic, ti) => {
     const color = TIMELINE_COLORS[ti % TIMELINE_COLORS.length];
+    const cellData = topic[cellKey] || topic.periods || topic.decades || {};
 
-    // Compute max count in this row for opacity scaling
-    const counts = decades.map(d => (topic.decades[String(d)]?.count || 0));
+    const counts = periods.map(p => (cellData[String(p)]?.count || 0));
     const maxCount = Math.max(...counts, 1);
 
     html += '<tr>';
-    html += `<th class="row-header" style="color:rgba(${color},1)">${escapeHtml(topic.label)}</th>`;
+    html += `<th class="row-header" style="color:rgba(${color},.9)">${escapeHtml(topic.label)}</th>`;
 
-    decades.forEach(d => {
-      const cell = topic.decades[String(d)];
+    periods.forEach(p => {
+      const cell = cellData[String(p)];
       if (!cell || cell.count === 0) {
-        html += '<td><div class="heatmap-cell empty">—</div></td>';
+        html += '<td><div class="heatmap-cell empty"></div></td>';
         return;
       }
-      const opacity = Math.max(0.12, cell.count / maxCount).toFixed(2);
+      const opacity = Math.max(0.10, (cell.count / maxCount) * 0.9).toFixed(2);
       html += `<td><div class="heatmap-cell"
         style="background:rgba(${color},${opacity})"
         data-topic="${escapeHtml(topic.label)}"
-        data-decade="${d}"
-        title="${escapeHtml(topic.label)} · ${d}s · ${cell.count} 篇"
+        data-period="${p}"
+        title="${escapeHtml(topic.label)} ${p}-${p+4} · ${cell.count} 篇"
       >${cell.count}</div></td>`;
     });
     html += '</tr>';
@@ -3799,7 +3755,10 @@ function renderHeatmap() {
 
   grid.querySelectorAll('.heatmap-cell:not(.empty)').forEach(el => {
     el.addEventListener('click', () => {
-      openTimelinePanel(el.dataset.topic, Number(el.dataset.decade));
+      if (activeHeatmapCell) activeHeatmapCell.classList.remove('active');
+      el.classList.add('active');
+      activeHeatmapCell = el;
+      showTimelineDetail(el.dataset.topic, Number(el.dataset.period));
     });
   });
 }

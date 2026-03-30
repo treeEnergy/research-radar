@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 """
 build_timeline.py
-Generate data/timeline.json: count papers by topic x decade, generate DeepSeek summaries.
+Generate data/timeline.json: count papers by topic x 5-year period, generate DeepSeek summaries.
 Incremental: skip cells that already have summaries.
 """
 
@@ -21,18 +22,19 @@ HISTORICAL_PATH = DATA_DIR / "papers-historical.json"
 CURRENT_PATH = DATA_DIR / "papers.json"
 OUTPUT_PATH = DATA_DIR / "timeline.json"
 
-DECADES = [1970, 1980, 1990, 2000, 2010, 2020]
+PERIODS = list(range(1970, 2030, 5))  # [1970, 1975, 1980, ..., 2025]
 
 
-def get_decade(year: int) -> int:
-    return (year // 10) * 10
+def get_period(year: int) -> int:
+    """Map a year to its 5-year period start: 2023 → 2020, 1987 → 1985."""
+    return (year // 5) * 5
 
 
-def group_papers_by_topic_decade(
+def group_papers_by_topic_period(
     papers: list[dict], topics: list[dict]
 ) -> dict[str, dict[int, list[str]]]:
     """
-    Returns {topic_label: {decade: [paper_id, ...]}} for non-empty cells.
+    Returns {topic_label: {period: [paper_id, ...]}} for non-empty cells.
     A paper is included in a topic if its topics_matched OR tags contains the label.
     """
     result: dict[str, dict[int, list[str]]] = {}
@@ -44,15 +46,14 @@ def group_papers_by_topic_decade(
         year = paper.get("year")
         if not year:
             continue
-        decade = get_decade(year)
-        if decade not in DECADES:
+        period = get_period(year)
+        if period not in PERIODS:
             continue
 
         paper_id = paper.get("id", "")
         if not paper_id:
             continue
 
-        # Use topics_matched if present (historical); otherwise compute from text (current papers)
         if "topics_matched" in paper:
             matched_labels = set(paper["topics_matched"])
         else:
@@ -61,13 +62,12 @@ def group_papers_by_topic_decade(
         for label in matched_labels:
             if label not in result:
                 continue
-            if decade not in result[label]:
-                result[label][decade] = []
-            if paper_id not in result[label][decade]:
-                result[label][decade].append(paper_id)
+            if period not in result[label]:
+                result[label][period] = []
+            if paper_id not in result[label][period]:
+                result[label][period].append(paper_id)
 
-    # Remove topics with no data at all
-    return {label: decades for label, decades in result.items() if decades}
+    return {label: periods for label, periods in result.items() if periods}
 
 
 def _get_deepseek_client() -> OpenAI:
@@ -77,14 +77,15 @@ def _get_deepseek_client() -> OpenAI:
     return OpenAI(api_key=api_key, base_url="https://api.deepseek.com")
 
 
-def _generate_summary(client: OpenAI, topic_label: str, decade: int,
+def _generate_summary(client: OpenAI, topic_label: str, period: int,
                       titles: list[str]) -> str:
-    """Call DeepSeek to generate a decade summary; return empty string on failure."""
+    """Call DeepSeek to generate a period summary."""
     titles_text = "\n".join(f"- {t}" for t in titles[:30])  # max 30 titles
+    period_end = period + 4
     prompt = (
-        f"以下是{decade}年代关于“{topic_label}”的{len(titles)}篇论文标题：\n\n"
+        f'以下是{period}-{period_end}年关于"{topic_label}"的{len(titles)}篇论文标题：\n\n'
         f"{titles_text}\n\n"
-        "请用3-5句话（中文）概括这个年代该领域的主要研究进展和贡献。"
+        "请用2-4句话（中文）概括这个时期该领域的主要研究进展和贡献。"
         "要求：具体提及关键工作或发现，避免泛泛而谈。"
     )
     try:
@@ -96,7 +97,7 @@ def _generate_summary(client: OpenAI, topic_label: str, decade: int,
         )
         return resp.choices[0].message.content.strip()
     except Exception as e:
-        log.warning(f"DeepSeek summary failed [{topic_label} {decade}s]: {e}")
+        log.warning(f"DeepSeek summary failed [{topic_label} {period}-{period+4}]: {e}")
         return ""
 
 
@@ -117,9 +118,9 @@ def build_timeline() -> None:
     topics = get_topics()
     log.info(f"话题列表：{[t['label'] for t in topics]}")
 
-    # 3. Group by topic x decade
+    # 3. Group by topic x 5-year period
     paper_map = {p["id"]: p for p in all_papers}
-    grouped = group_papers_by_topic_decade(all_papers, topics)
+    grouped = group_papers_by_topic_period(all_papers, topics)
 
     # 4. Load existing timeline.json for incremental summaries
     existing: dict = {}
@@ -127,8 +128,8 @@ def build_timeline() -> None:
         try:
             existing_data = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
             for t in existing_data.get("topics", []):
-                for decade_str, cell in t.get("decades", {}).items():
-                    key = f"{t['label']}__{decade_str}"
+                for period_str, cell in t.get("periods", t.get("decades", {})).items():
+                    key = f"{t['label']}__{period_str}"
                     if cell.get("summary"):
                         existing[key] = cell["summary"]
         except Exception as e:
@@ -141,15 +142,15 @@ def build_timeline() -> None:
     topics_output = []
     for topic in topics:
         label = topic["label"]
-        decades_data = grouped.get(label, {})
-        decades_out = {}
+        periods_data = grouped.get(label, {})
+        periods_out = {}
 
-        for decade in DECADES:
-            ids = decades_data.get(decade, [])
+        for period in PERIODS:
+            ids = periods_data.get(period, [])
             if not ids:
                 continue
 
-            cache_key = f"{label}__{decade}"
+            cache_key = f"{label}__{period}"
             summary = existing.get(cache_key, "")
 
             if not summary:
@@ -157,25 +158,25 @@ def build_timeline() -> None:
                 if titles:
                     if client is None:
                         client = _get_deepseek_client()
-                    log.info(f"生成摘要：{label} {decade}s（{len(titles)} 篇）")
-                    summary = _generate_summary(client, label, decade, titles)
+                    log.info(f"生成摘要：{label} {period}-{period+4}（{len(titles)} 篇）")
+                    summary = _generate_summary(client, label, period, titles)
                     new_summaries += 1
 
-            decades_out[str(decade)] = {
+            periods_out[str(period)] = {
                 "count": len(ids),
                 "paper_ids": ids,
                 "summary": summary,
             }
 
-        if decades_out:
-            topics_output.append({"label": label, "decades": decades_out})
+        if periods_out:
+            topics_output.append({"label": label, "periods": periods_out})
 
     log.info(f"新生成摘要：{new_summaries} 个")
 
     # 6. Write timeline.json
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "decades": DECADES,
+        "periods": PERIODS,
         "topics": topics_output,
     }
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
