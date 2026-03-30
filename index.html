@@ -3727,7 +3727,8 @@ function renderHeatmap() {
       const opacity = Math.max(0.12, cell.count / maxCount).toFixed(2);
       html += `<td><div class="heatmap-cell"
         style="background:rgba(${color},${opacity})"
-        onclick="openTimelinePanel('${topic.label.replace(/'/g, "\\'")}', ${d})"
+        data-topic="${escapeHtml(topic.label)}"
+        data-decade="${d}"
         title="${escapeHtml(topic.label)} · ${d}s · ${cell.count} 篇"
       >${cell.count}</div></td>`;
     });
@@ -3736,6 +3737,12 @@ function renderHeatmap() {
 
   html += '</tbody></table>';
   grid.innerHTML = html;
+
+  grid.querySelectorAll('.heatmap-cell:not(.empty)').forEach(el => {
+    el.addEventListener('click', () => {
+      openTimelinePanel(el.dataset.topic, Number(el.dataset.decade));
+    });
+  });
 }
 
 // ── Wishlist ─────────────────────────────────

@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from openai import OpenAI
 
-from fetch_papers_historical import get_topics
+from fetch_papers_historical import get_topics, compute_topics_matched
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
@@ -52,8 +52,11 @@ def group_papers_by_topic_decade(
         if not paper_id:
             continue
 
-        # Merge topics_matched (historical) and tags (current) to cover both sources
-        matched_labels = set(paper.get("topics_matched") or []) | set(paper.get("tags") or [])
+        # Use topics_matched if present (historical); otherwise compute from text (current papers)
+        if "topics_matched" in paper:
+            matched_labels = set(paper["topics_matched"])
+        else:
+            matched_labels = set(compute_topics_matched(paper, topics))
 
         for label in matched_labels:
             if label not in result:
