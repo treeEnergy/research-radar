@@ -15,6 +15,8 @@ from pathlib import Path
 from fetch_papers import fetch_all_papers
 from process_with_ai import process_papers
 from fetch_repos import fetch_all_repos, enrich_repos
+from fetch_papers_historical import fetch_papers_historical_incremental
+from build_timeline import build_timeline
 from config import RESEARCH_GROUPS
 
 def load_all_groups() -> list:
@@ -239,6 +241,14 @@ def main() -> None:
     run_papers_pipeline()
     run_repos_pipeline()
     write_meta()
+
+    # 6. 历史论文增量抓取
+    log.info("─── 历史论文增量抓取 ───")
+    fetch_papers_historical_incremental()
+
+    # 7. 生成时间轴数据
+    log.info("─── 生成时间轴数据 ───")
+    build_timeline()
 
     log.info("════════ 流水线完成 ════════")
 
