@@ -7,11 +7,11 @@ Incremental: skip cells that already have summaries.
 import json
 import logging
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 from openai import OpenAI
 
-from config import FETCH_FROM_YEAR
-from fetch_papers_historical import get_topics, DEFAULT_TOPICS
+from fetch_papers_historical import get_topics
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
@@ -129,10 +129,10 @@ def build_timeline() -> None:
                     if cell.get("summary"):
                         existing[key] = cell["summary"]
         except Exception as e:
-            log.warning(f"Failed to read existing timeline.json (full rebuild): {e}")
+            log.warning(f"读取现有 timeline.json 失败（将全量重建）：{e}")
 
     # 5. Generate summaries (skip cells with existing summaries)
-    client = _get_deepseek_client()
+    client = None
     new_summaries = 0
 
     topics_output = []
@@ -152,7 +152,9 @@ def build_timeline() -> None:
             if not summary:
                 titles = [paper_map[pid]["title"] for pid in ids if pid in paper_map]
                 if titles:
-                    log.info(f"Generating summary: {label} {decade}s ({len(titles)} papers)")
+                    if client is None:
+                        client = _get_deepseek_client()
+                    log.info(f"生成摘要：{label} {decade}s（{len(titles)} 篇）")
                     summary = _generate_summary(client, label, decade, titles)
                     new_summaries += 1
 
@@ -165,10 +167,9 @@ def build_timeline() -> None:
         if decades_out:
             topics_output.append({"label": label, "decades": decades_out})
 
-    log.info(f"New summaries generated: {new_summaries}")
+    log.info(f"新生成摘要：{new_summaries} 个")
 
     # 6. Write timeline.json
-    from datetime import datetime, timezone
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "decades": DECADES,
@@ -176,7 +177,7 @@ def build_timeline() -> None:
     }
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
-    log.info(f"timeline.json written: {len(topics_output)} topics -> {OUTPUT_PATH}")
+    log.info(f"timeline.json 已写入：{len(topics_output)} 个话题 → {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":
