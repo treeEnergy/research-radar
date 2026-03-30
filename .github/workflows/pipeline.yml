@@ -32,4 +32,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update papers data [skip ci]"
-          file_pattern: data/papers.json data/repos.json data/groups.json data/meta.json
+          file_pattern: data/papers.json data/repos.json data/groups.json data/meta.json data/papers-historical.json data/timeline.json
