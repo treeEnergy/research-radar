@@ -1735,12 +1735,12 @@ select {
         <div class="build-stat-lbl">监控期刊</div>
       </div>
       <div class="build-stat">
-        <div class="build-stat-val">13</div>
-        <div class="build-stat-lbl">迭代版本</div>
+        <div class="build-stat-val">23</div>
+        <div class="build-stat-lbl">追踪课题组</div>
       </div>
       <div class="build-stat">
-        <div class="build-stat-val">3</div>
-        <div class="build-stat-lbl">换掉的数据源</div>
+        <div class="build-stat-val">10</div>
+        <div class="build-stat-lbl">研究话题</div>
       </div>
     </div>
   </div>
@@ -1757,12 +1757,12 @@ select {
       <div class="build-tech-desc">AI 分析引擎。生成中文综述、研究方法、创新点、主要结论、局限性和相关度评分（0–5分）。</div>
     </div>
     <div class="build-tech-card">
-      <div class="build-tech-name">Flask</div>
-      <div class="build-tech-desc">本地服务器。提供静态文件服务、标注 API、课题组 API 和流水线触发 API。</div>
+      <div class="build-tech-name">GitHub Actions</div>
+      <div class="build-tech-desc">每周自动运行流水线，抓取新论文 → AI 分析 → 提交数据文件。支持手动触发。静态部署，无需服务器。</div>
     </div>
     <div class="build-tech-card">
-      <div class="build-tech-name">Python 后台线程</div>
-      <div class="build-tech-desc">流水线在独立线程中运行，与 HTTP 请求解耦。关掉浏览器不中断，日志通过轮询实时回传。</div>
+      <div class="build-tech-name">GitHub Pages</div>
+      <div class="build-tech-desc">纯静态托管。前端直接读取仓库中的 JSON 数据文件渲染页面，无后端依赖。</div>
     </div>
     <div class="build-tech-card">
       <div class="build-tech-name">Cormorant Garamond</div>
@@ -1874,11 +1874,37 @@ select {
       <p>原有关键词漏掉了整个进气畸变方向，以及 fan（而非 compressor）的激盘模型文献。补入 4 个关键词：inlet distortion compressor、circumferential distortion compressor、actuator disk model fan、total pressure distortion turbomachinery。每次查询上限从 25 提高到 50。</p>
     </div>
 
-    <div class="build-entry milestone">
-      <span class="build-entry-tag t-milestone">当前状态</span>
+    <div class="build-entry solved">
+      <span class="build-entry-tag t-feature">功能</span>
       <h3>AI 对话面板：用自然语言检索论文库</h3>
       <p>新增 AI CHAT 标签页。可以直接问"库里有没有做激盘模型的论文"、"Dakun Sun 的研究方向是什么"——系统先在本地论文库做关键词检索，把最相关的 8 篇连同摘要送给 DeepSeek，回答实时流式输出。</p>
-      <p>接下来的可能方向：对接机构账号获取全文、增加邮件推送、接入更多期刊（如 IJHFF、Aerospace Science and Technology）。</p>
+    </div>
+
+    <div class="build-entry solved">
+      <span class="build-entry-tag t-feature">功能</span>
+      <h3>TIMELINE 热力图：50 年研究趋势可视化</h3>
+      <p>从 OpenAlex 抓取 1970–2025 年历史论文（2000+ 篇），按 10 个研究话题 × 5 年间隔构建热力图。每个格子由 DeepSeek 生成中文综述。</p>
+      <p>布局从单栏改为左右分栏（60/40）：左侧热力图全宽，右侧常驻详情面板。使用期刊风格的单色绿渐变色阶，全局统一缩放。顶部双行表头（年代 + 5 年细分），底部时间轴箭头。</p>
+    </div>
+
+    <div class="build-entry solved">
+      <span class="build-entry-tag t-decision">关键决策</span>
+      <h3>搜索关键词重构：短词优先，覆盖率翻倍</h3>
+      <p>原始 18 个关键词过于具体（如"circumferential distortion compressor"），要求所有词同时出现，漏掉大量论文。重构为 17 个短词优先（如"tip clearance"、"distortion"），靠 AI 评分过滤不相关内容。论文库从 400 篇增至 2500+。</p>
+    </div>
+
+    <div class="build-entry solved">
+      <span class="build-entry-tag t-feature">功能</span>
+      <h3>课题组体系：从自动堆砌到人工策展</h3>
+      <p>通过网络调研，把自动识别的 55 个 ★ 作者条目合并为 23 个有实际归属的课题组。按地区分组（北美 / 欧洲 / 中国 / 工业界），每张卡片显示 PI 姓名。修复了 PI 匹配逻辑中子串方向反转的 bug。</p>
+      <p>代表性课题组：Cambridge Whittle Lab（98 篇）、MIT GTL（85 篇）、Purdue Compressor Lab（50 篇）。</p>
+    </div>
+
+    <div class="build-entry milestone">
+      <span class="build-entry-tag t-milestone">v1.2 当前状态</span>
+      <h3>一个完整的领域文献追踪与分析系统</h3>
+      <p>2500+ 篇论文 · 23 个课题组 · 10 个研究话题 · 50 年历史趋势 · AI 对话检索 · GitHub Actions 自动更新。</p>
+      <p>接下来的可能方向：对接机构账号获取全文、增加邮件推送、接入更多期刊。</p>
     </div>
 
   </div>
