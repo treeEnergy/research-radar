@@ -3726,8 +3726,26 @@ function renderHeatmap() {
   // Use "periods" key; fallback to "decades" for old format
   const cellKey = timelineData.periods ? 'periods' : 'decades';
 
-  let html = '<table class="heatmap-table"><thead><tr>';
-  html += '<th class="row-header"></th>';
+  let html = '<table class="heatmap-table"><thead>';
+  // Decade row: 1970s, 1980s, ... spanning 2 columns each
+  html += '<tr><th class="row-header"></th>';
+  let curDecade = null;
+  let span = 0;
+  const decadeSpans = [];
+  periods.forEach(p => {
+    const decade = Math.floor(p / 10) * 10;
+    if (decade !== curDecade) {
+      if (curDecade !== null) decadeSpans.push({ decade: curDecade, span });
+      curDecade = decade; span = 1;
+    } else { span++; }
+  });
+  if (curDecade !== null) decadeSpans.push({ decade: curDecade, span });
+  decadeSpans.forEach(d => {
+    html += `<th colspan="${d.span}" style="font-size:13px;font-weight:600;color:var(--gold);letter-spacing:.05em;padding-bottom:2px;border-bottom:1px solid var(--border);">${d.decade}s</th>`;
+  });
+  html += '</tr>';
+  // 5-year sub-header row
+  html += '<tr><th class="row-header"></th>';
   periods.forEach(p => {
     const label = `${String(p).slice(2)}-${String(p + 4).slice(2)}`;
     html += `<th>${label}</th>`;
