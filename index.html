@@ -3740,7 +3740,7 @@ function renderHeatmap() {
 
 // ── Wishlist ─────────────────────────────────
 
-const LS_WISHLIST = 'ls_wishlist';
+const LS_WISHLIST = 'rr_wishlist';
 
 function getWishlist() {
   return lsGet(LS_WISHLIST, []);
@@ -3775,7 +3775,7 @@ function renderWishlist() {
     el.style.cssText = 'background:var(--bg); border-radius:6px; padding:10px 12px; position:relative;';
     const date = new Date(item.added_at).toLocaleDateString('zh-CN', { month:'short', day:'numeric', year:'numeric' });
     el.innerHTML = `
-      <button onclick="deleteWishlistItem(${idx})"
+      <button onclick="deleteWishlistItem('${item.id}')"
         style="position:absolute; top:8px; right:8px; background:none; border:none; color:var(--text3); font-size:14px; cursor:pointer; line-height:1; padding:2px 4px;"
         title="删除">✕</button>
       <div style="color:var(--text2); font-size:12px; line-height:1.5; margin-right:20px;">${escapeHtml(item.title)}</div>
@@ -3812,10 +3812,8 @@ function addWishlistItem() {
   renderWishlist();
 }
 
-function deleteWishlistItem(idx) {
-  const items = getWishlist();
-  items.splice(idx, 1);
-  saveWishlist(items);
+function deleteWishlistItem(id) {
+  saveWishlist(getWishlist().filter(i => i.id !== id));
   renderWishlist();
 }
 
@@ -4091,7 +4089,7 @@ load();
 <!-- ── Wishlist ──────────────────────────────── -->
 <!-- Floating button -->
 <button onclick="openWishlist()" style="
-  position:fixed; bottom:24px; right:24px; z-index:600;
+  position:fixed; bottom:24px; right:24px; z-index:602;
   background:var(--bg2); border:1px solid var(--border2); border-radius:20px;
   color:var(--text2); font-family:'IBM Plex Mono',monospace; font-size:12px;
   padding:8px 16px; cursor:pointer; display:flex; align-items:center; gap:6px;
@@ -4106,7 +4104,7 @@ load();
   background:var(--bg2); border-left:1px solid var(--border2);
   display:flex; flex-direction:column;
   transform:translateX(100%); transition:transform .25s ease;
-  z-index:601;
+  z-index:603;
 ">
   <!-- Header -->
   <div style="padding:14px 18px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:10px; flex-shrink:0;">
