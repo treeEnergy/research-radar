@@ -3019,7 +3019,7 @@ function openTimelinePanel(topicLabel, decade) {
   if (cell.summary) {
     summaryDiv.innerHTML = `
       <div style="color:var(--gold); font-size:10px; font-family:'IBM Plex Mono',monospace; letter-spacing:.06em; margin-bottom:6px;">✦ AI 年代综述</div>
-      <div style="color:var(--text3); font-size:12px; line-height:1.7;">${cell.summary}</div>`;
+      <div style="color:var(--text3); font-size:12px; line-height:1.7;">${escapeHtml(cell.summary)}</div>`;
   } else {
     summaryDiv.innerHTML = `<div style="color:var(--text3); font-size:11px; font-family:'IBM Plex Mono',monospace;">暂无综述，请重新运行流水线</div>`;
   }
@@ -3028,7 +3028,6 @@ function openTimelinePanel(topicLabel, decade) {
   // Paper list header
   const headerDiv = document.createElement('div');
   headerDiv.style.cssText = 'color:var(--text3); font-size:10px; font-family:"IBM Plex Mono",monospace; letter-spacing:.06em;';
-  headerDiv.textContent = `相关论文 · ${cell.count} 篇`;
   body.appendChild(headerDiv);
 
   // Gather papers: historical + current
@@ -3042,6 +3041,7 @@ function openTimelinePanel(topicLabel, decade) {
     }
   });
   allPapers.sort((a, b) => (a.year || 0) - (b.year || 0));
+  headerDiv.textContent = `相关论文 · ${allPapers.length} 篇`;
 
   const displayPapers = allPapers.slice(0, 20);
   const remaining = allPapers.length - 20;
@@ -3067,13 +3067,13 @@ function openTimelinePanel(topicLabel, decade) {
       };
       item.innerHTML = `
         <div style="color:var(--text2); font-size:11px; margin-bottom:2px;">${yearAuthor}</div>
-        <div style="color:var(--text3); font-size:11px; line-height:1.4;">${p.title}</div>`;
+        <div style="color:var(--text3); font-size:11px; line-height:1.4;">${escapeHtml(p.title)}</div>`;
     } else {
       item.style.cursor = p.url ? 'pointer' : 'default';
       if (p.url) item.onclick = () => window.open(p.url, '_blank');
       item.innerHTML = `
         <div style="color:var(--text2); font-size:11px; margin-bottom:2px;">${yearAuthor}${p.url ? ' ↗' : ''}</div>
-        <div style="color:var(--text3); font-size:11px; line-height:1.4;">${p.title}</div>`;
+        <div style="color:var(--text3); font-size:11px; line-height:1.4;">${escapeHtml(p.title)}</div>`;
     }
     listDiv.appendChild(item);
   });
@@ -3090,7 +3090,7 @@ function openTimelinePanel(topicLabel, decade) {
         const yearAuthor = `${p.year || ''}${firstAuthor ? ' · ' + firstAuthor.split(',')[0].split(' ').slice(-1)[0] : ''}`;
         item.innerHTML = `
           <div style="color:var(--text2); font-size:11px; margin-bottom:2px;">${yearAuthor}${p._source === 'historical' && p.url ? ' ↗' : ''}</div>
-          <div style="color:var(--text3); font-size:11px; line-height:1.4;">${p.title}</div>`;
+          <div style="color:var(--text3); font-size:11px; line-height:1.4;">${escapeHtml(p.title)}</div>`;
         if (p._source === 'historical' && p.url) item.onclick = () => window.open(p.url, '_blank');
         if (p._source === 'current') {
           item.style.cursor = 'pointer';
