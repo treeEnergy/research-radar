@@ -37,6 +37,9 @@ TARGET_JOURNALS = [
 # 只抓近几年的论文
 FETCH_FROM_YEAR = 2020
 
+# 历史论文起始年份（fetch_papers_historical.py 使用）
+FETCH_FROM_YEAR_HISTORICAL = 1970
+
 # GitHub 搜索词
 GITHUB_KEYWORDS = [
     "turbomachinery CFD",
