@@ -2,65 +2,65 @@
   {
     "name": "★ James A. Scobie",
     "institution": "（自动识别）",
-    "total": 19,
-    "avg_relevance": 2.7,
+    "total": 17,
+    "avg_relevance": 2.8,
     "preset": false
   },
   {
     "name": "Nicole L. Key Group",
     "institution": "Purdue University",
-    "total": 18,
+    "total": 16,
     "avg_relevance": 3.3,
     "preset": true,
     "custom": false
   },
   {
-    "name": "★ Gary D. Lock",
-    "institution": "（自动识别）",
-    "total": 14,
-    "avg_relevance": 2.8,
-    "preset": false
-  },
-  {
-    "name": "★ Hui Tang",
-    "institution": "（自动识别）",
-    "total": 13,
-    "avg_relevance": 2.8,
-    "preset": false
-  },
-  {
     "name": "★ Dakun Sun",
     "institution": "（自动识别）",
-    "total": 10,
+    "total": 11,
     "avg_relevance": 4.0,
     "preset": false
   },
   {
     "name": "★ Xiaofeng Sun",
     "institution": "（自动识别）",
-    "total": 10,
+    "total": 11,
     "avg_relevance": 4.0,
     "preset": false
   },
   {
     "name": "★ Alain Batailly",
     "institution": "（自动识别）",
-    "total": 10,
+    "total": 11,
     "avg_relevance": 2.9,
+    "preset": false
+  },
+  {
+    "name": "★ Gary D. Lock",
+    "institution": "（自动识别）",
+    "total": 11,
+    "avg_relevance": 2.8,
+    "preset": false
+  },
+  {
+    "name": "★ Xu Dong",
+    "institution": "（自动识别）",
+    "total": 10,
+    "avg_relevance": 3.8,
+    "preset": false
+  },
+  {
+    "name": "★ Hui Tang",
+    "institution": "（自动识别）",
+    "total": 10,
+    "avg_relevance": 2.8,
     "preset": false
   },
   {
     "name": "★ Carl M. Sangan",
     "institution": "（自动识别）",
     "total": 10,
-    "avg_relevance": 2.7,
-    "preset": false
-  },
-  {
-    "name": "★ Xu Dong",
-    "institution": "（自动识别）",
-    "total": 9,
-    "avg_relevance": 3.8,
+    "avg_relevance": 2.8,
     "preset": false
   },
   {
@@ -71,17 +71,10 @@
     "preset": false
   },
   {
-    "name": "★ Paolo Silvestri",
+    "name": "★ Roque Corral",
     "institution": "（自动识别）",
     "total": 9,
-    "avg_relevance": 3.1,
-    "preset": false
-  },
-  {
-    "name": "★ Christoph Brandstetter",
-    "institution": "（自动识别）",
-    "total": 8,
-    "avg_relevance": 3.4,
+    "avg_relevance": 2.9,
     "preset": false
   },
   {
@@ -92,7 +85,7 @@
     "preset": false
   },
   {
-    "name": "★ Xavier Ottavy",
+    "name": "★ Paolo Silvestri",
     "institution": "（自动识别）",
     "total": 8,
     "avg_relevance": 3.1,
@@ -106,6 +99,13 @@
     "preset": false
   },
   {
+    "name": "★ Yang Liu",
+    "institution": "（自动识别）",
+    "total": 7,
+    "avg_relevance": 4.0,
+    "preset": false
+  },
+  {
     "name": "★ Xinqian Zheng",
     "institution": "（自动识别）",
     "total": 7,
@@ -113,7 +113,14 @@
     "preset": false
   },
   {
-    "name": "★ Roque Corral",
+    "name": "★ Christoph Brandstetter",
+    "institution": "（自动识别）",
+    "total": 7,
+    "avg_relevance": 3.4,
+    "preset": false
+  },
+  {
+    "name": "★ Xavier Ottavy",
     "institution": "（自动识别）",
     "total": 7,
     "avg_relevance": 3.1,
@@ -127,32 +134,25 @@
     "preset": false
   },
   {
-    "name": "★ Carlo Alberto Niccolini Marmont Du Haut Champ",
+    "name": "★ Guillermo Paniagua",
     "institution": "（自动识别）",
     "total": 7,
-    "avg_relevance": 3.0,
+    "avg_relevance": 2.4,
     "preset": false
-  },
-  {
-    "name": "★ Tom E. W. Nicholas",
-    "institution": "（自动识别）",
-    "total": 6,
-    "avg_relevance": 2.8,
-    "preset": false
-  },
-  {
-    "name": "Stephen Spence Group",
-    "institution": "Queen's University Belfast",
-    "total": 5,
-    "avg_relevance": 3.2,
-    "preset": true,
-    "custom": false
   },
   {
     "name": "Jinfang Teng Group",
     "institution": "Shanghai Jiao Tong University",
     "total": 4,
     "avg_relevance": 4.0,
+    "preset": true,
+    "custom": false
+  },
+  {
+    "name": "Stephen Spence Group",
+    "institution": "Queen's University Belfast",
+    "total": 4,
+    "avg_relevance": 3.2,
     "preset": true,
     "custom": false
   },

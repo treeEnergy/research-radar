@@ -4,27 +4,30 @@
 # ─────────────────────────────────────────────
 
 # 搜索关键词（每个词会在所有目标期刊中搜索）
+# 原则：先用短词广搜，再用长词精搜，靠 AI 评分过滤不相关的
 KEYWORDS = [
+    # ── 叶尖间隙 ──
+    "tip clearance",
+    "tip leakage",
     "compressor tip clearance",
-    "casing treatment stall margin",
-    "axial compressor rotating stall",
-    "compressor stability",
-    "non-axisymmetric tip clearance",
+    # ── 机匣处理 ──
+    "casing treatment",
+    "stall margin",
+    # ── 失速 / 喘振 / 稳定性 ──
+    "rotating stall",
     "compressor surge",
-    "stall inception compressor",
-    # 稳定性建模方向
-    "actuator disk model compressor",
-    "actuator disk model fan",
-    "compressor stability model",
-    "three-dimensional stability model turbomachinery",
-    "Moore Greitzer model compressor",
-    "body force model compressor",
-    # 进气畸变方向
-    "inlet distortion compressor",
-    "inlet distortion fan",
+    "stall inception",
+    "compressor stability",
+    # ── 稳定性建模 ──
+    "actuator disk",
+    "body force model",
+    "Moore Greitzer",
+    "streamline curvature",
+    # ── 进气畸变 ──
+    "distortion",
+    "inlet distortion",
     "circumferential distortion",
-    "total pressure distortion",
-    "distortion stall",
+    "radial distortion",
 ]
 
 # 目标期刊（AIAA / ASME），按 ISSN 精准过滤
