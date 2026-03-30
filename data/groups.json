@@ -29,6 +29,20 @@
     "preset": false
   },
   {
+    "name": "★ Dakun Sun",
+    "institution": "（自动识别）",
+    "total": 10,
+    "avg_relevance": 4.0,
+    "preset": false
+  },
+  {
+    "name": "★ Xiaofeng Sun",
+    "institution": "（自动识别）",
+    "total": 10,
+    "avg_relevance": 4.0,
+    "preset": false
+  },
+  {
     "name": "★ Alain Batailly",
     "institution": "（自动识别）",
     "total": 10,
@@ -43,17 +57,10 @@
     "preset": false
   },
   {
-    "name": "★ Dakun Sun",
+    "name": "★ Xu Dong",
     "institution": "（自动识别）",
     "total": 9,
-    "avg_relevance": 4.0,
-    "preset": false
-  },
-  {
-    "name": "★ Xiaofeng Sun",
-    "institution": "（自动识别）",
-    "total": 9,
-    "avg_relevance": 4.0,
+    "avg_relevance": 3.8,
     "preset": false
   },
   {
@@ -71,17 +78,17 @@
     "preset": false
   },
   {
-    "name": "★ Xu Dong",
-    "institution": "（自动识别）",
-    "total": 8,
-    "avg_relevance": 3.8,
-    "preset": false
-  },
-  {
     "name": "★ Christoph Brandstetter",
     "institution": "（自动识别）",
     "total": 8,
     "avg_relevance": 3.4,
+    "preset": false
+  },
+  {
+    "name": "★ Cesare A. Hall",
+    "institution": "（自动识别）",
+    "total": 8,
+    "avg_relevance": 3.2,
     "preset": false
   },
   {
@@ -103,13 +110,6 @@
     "institution": "（自动识别）",
     "total": 7,
     "avg_relevance": 3.4,
-    "preset": false
-  },
-  {
-    "name": "★ Cesare A. Hall",
-    "institution": "（自动识别）",
-    "total": 7,
-    "avg_relevance": 3.3,
     "preset": false
   },
   {

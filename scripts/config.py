@@ -21,9 +21,10 @@ KEYWORDS = [
     "body force model compressor",
     # 进气畸变方向
     "inlet distortion compressor",
-    "circumferential distortion compressor",
     "inlet distortion fan",
-    "total pressure distortion turbomachinery",
+    "circumferential distortion",
+    "total pressure distortion",
+    "distortion stall",
 ]
 
 # 目标期刊（AIAA / ASME），按 ISSN 精准过滤
