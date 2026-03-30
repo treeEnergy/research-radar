@@ -182,9 +182,9 @@ def build_groups_json(papers: list[dict]) -> None:
     # 高频作者补充（不在预设组中）
     preset_pis = {pi.lower() for g in all_groups for pi in g["pis"]}
     for author, count in author_counter.most_common(50):
-        if count < 5:
+        if count < 15:
             break
-        if any(author.lower() in pi for pi in preset_pis):
+        if any(pi in author.lower() for pi in preset_pis):
             continue
         ids = paper_by_author[author]
         rels = [paper_map[i].get("relevance", 0) for i in ids if i in paper_map]

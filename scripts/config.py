@@ -77,34 +77,123 @@ MIN_RELEVANCE = 2
 # 重点追踪的课题组（PI 姓名列表用于匹配作者字段）
 # 可自由添加，name 字段会显示在网页上
 RESEARCH_GROUPS = [
+    # ── 北美 ──
     {
-        "name": "Greitzer Group",
+        "name": "MIT GTL",
         "institution": "MIT",
-        "pis": ["Greitzer", "Choon Tan", "Tan C"],
+        "pis": ["Greitzer", "Spakovszky", "C. S. Tan", "Choon Tan", "Paduano"],
     },
     {
-        "name": "Nicole L. Key Group",
+        "name": "Purdue Compressor Lab",
         "institution": "Purdue University",
-        "pis": ["Nicole Key", "Nicole L. Key", "Key N"],
+        "pis": ["Nicole Key", "Nicole L. Key", "Berdanier", "Sanford Fleeter"],
     },
     {
-        "name": "Chunill Hah Group",
-        "institution": "NASA Glenn",
-        "pis": ["Chunill Hah", "Hah C"],
+        "name": "NASA Glenn",
+        "institution": "NASA Glenn Research Center",
+        "pis": ["Chunill Hah", "Adamczyk"],
     },
     {
-        "name": "Yanhui Wu Group",
+        "name": "Polytechnique Montreal",
+        "institution": "Polytechnique Montreal",
+        "pis": ["Huu Duc Vo", "Alain Batailly"],
+    },
+    # ── 欧洲 ──
+    {
+        "name": "Cambridge Whittle Lab",
+        "institution": "University of Cambridge",
+        "pis": ["Cumpsty", "Hodson", "I. J. Day", "Cesare A. Hall", "Paul G. Tucker"],
+    },
+    {
+        "name": "Oxford Thermofluids",
+        "institution": "University of Oxford",
+        "pis": ["L. He", "Thomas Povey"],
+    },
+    {
+        "name": "Imperial Aeroelasticity",
+        "institution": "Imperial College London",
+        "pis": ["Mehdi Vahdati"],
+    },
+    {
+        "name": "ETH Zurich LEC",
+        "institution": "ETH Zurich",
+        "pis": ["Reza S. Abhari"],
+    },
+    {
+        "name": "Ecole Centrale Lyon LMFA",
+        "institution": "Ecole Centrale de Lyon",
+        "pis": ["Xavier Ottavy", "Christoph Brandstetter", "Fabrice Thouverez"],
+    },
+    {
+        "name": "TU Dresden",
+        "institution": "TU Dresden",
+        "pis": ["Ronald Mailach"],
+    },
+    {
+        "name": "Cranfield Propulsion",
+        "institution": "Cranfield University",
+        "pis": ["David G. MacManus", "Vassilios Pachidis"],
+    },
+    {
+        "name": "Bath Sealing Group",
+        "institution": "University of Bath",
+        "pis": ["James A. Scobie", "Gary D. Lock", "Carl M. Sangan"],
+    },
+    {
+        "name": "ITP Aero / UPM",
+        "institution": "ITP Aero / Univ. Politecnica de Madrid",
+        "pis": ["Roque Corral"],
+    },
+    # ── 中国 ──
+    {
+        "name": "Beihang BUAA",
+        "institution": "Beihang University",
+        "pis": ["Xiaofeng Sun", "Dakun Sun", "Xu Dong"],
+    },
+    {
+        "name": "Tsinghua Turbo Lab",
+        "institution": "Tsinghua University",
+        "pis": ["Xinqian Zheng"],
+    },
+    {
+        "name": "CAS IET",
+        "institution": "Chinese Academy of Sciences",
+        "pis": ["Juan Du"],
+    },
+    {
+        "name": "Peking University",
+        "institution": "Peking University",
+        "pis": ["Chao Zhou"],
+    },
+    {
+        "name": "BIT Wu Group",
         "institution": "Beijing Institute of Technology",
-        "pis": ["Yanhui Wu", "Wu Y"],
+        "pis": ["Yanhui Wu"],
     },
     {
-        "name": "Jinfang Teng Group",
+        "name": "SJTU Teng Group",
         "institution": "Shanghai Jiao Tong University",
-        "pis": ["Jinfang Teng", "Teng J", "Mingmin Zhu"],
+        "pis": ["Jinfang Teng", "Mingmin Zhu"],
+    },
+    # ── 工业界 ──
+    {
+        "name": "Penn State (historical)",
+        "institution": "Penn State University",
+        "pis": ["Lakshminarayana"],
     },
     {
-        "name": "Stephen Spence Group",
-        "institution": "Queen's University Belfast",
-        "pis": ["Stephen Spence", "Spence S"],
+        "name": "Ferrara / Parma",
+        "institution": "Univ. Ferrara / Univ. Parma",
+        "pis": ["Michele Pinelli", "Mirko Morini"],
+    },
+    {
+        "name": "GE Aviation",
+        "institution": "GE Aviation",
+        "pis": ["A. R. Wadia"],
+    },
+    {
+        "name": "Kurz & Brun (Industrial GT)",
+        "institution": "Solar Turbines / Elliott Group",
+        "pis": ["Rainer Kurz", "Klaus Brun"],
     },
 ]
