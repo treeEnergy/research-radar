@@ -1704,7 +1704,7 @@ select {
       </div>
       <div class="heatmap-legend">
         <span>少</span>
-        <div class="heatmap-legend-bar" style="background:linear-gradient(to right, rgb(10,8,30), rgb(50,10,80), rgb(120,28,110), rgb(180,50,75), rgb(220,95,35), rgb(245,165,10), rgb(250,230,80));"></div>
+        <div class="heatmap-legend-bar" style="background:linear-gradient(to right, rgb(8,15,12), rgb(10,40,30), rgb(15,75,50), rgb(25,120,75), rgb(50,170,100), rgb(110,210,140), rgb(190,240,195));"></div>
         <span>多</span>
         <span style="margin-left:8px; opacity:.6;">颜色按行内相对值缩放</span>
       </div>
@@ -3659,17 +3659,16 @@ let timelineData = null;         // parsed timeline.json
 let historicalPapers = null;     // id → paper map from papers-historical.json
 let timelineLoaded = false;
 
-// "Inferno" colormap — perceptually uniform, professional, dark-bg friendly
-// Adapted from matplotlib's inferno for 0→1 mapping
+// Sequential green colormap — journal style
 function heatmapColor(ratio) {
   const stops = [
-    [10, 8, 30],      // 0.00 — near black
-    [50, 10, 80],     // 0.15 — deep indigo
-    [120, 28, 110],   // 0.30 — purple
-    [180, 50, 75],    // 0.45 — magenta-rose
-    [220, 95, 35],    // 0.60 — burnt orange
-    [245, 165, 10],   // 0.80 — warm amber
-    [250, 230, 80],   // 1.00 — bright yellow
+    [8, 15, 12],
+    [10, 40, 30],
+    [15, 75, 50],
+    [25, 120, 75],
+    [50, 170, 100],
+    [110, 210, 140],
+    [190, 240, 195],
   ];
   const t = Math.max(0, Math.min(1, ratio));
   const idx = t * (stops.length - 1);
