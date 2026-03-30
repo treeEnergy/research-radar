@@ -144,6 +144,7 @@ def build_groups_json(papers: list[dict]) -> None:
         g["name"]: {
             "name": g["name"],
             "institution": g["institution"],
+            "pis": g.get("pis", []),
             "paper_ids": [],
             "total": 0,
             "avg_relevance": 0.0,

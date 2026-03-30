@@ -2,6 +2,13 @@
   {
     "name": "Cambridge Whittle Lab",
     "institution": "University of Cambridge",
+    "pis": [
+      "Cumpsty",
+      "Hodson",
+      "I. J. Day",
+      "Cesare A. Hall",
+      "Paul G. Tucker"
+    ],
     "total": 98,
     "avg_relevance": 3.2,
     "preset": true,
@@ -10,6 +17,13 @@
   {
     "name": "MIT GTL",
     "institution": "MIT",
+    "pis": [
+      "Greitzer",
+      "Spakovszky",
+      "C. S. Tan",
+      "Choon Tan",
+      "Paduano"
+    ],
     "total": 85,
     "avg_relevance": 3.5,
     "preset": true,
@@ -18,6 +32,12 @@
   {
     "name": "Purdue Compressor Lab",
     "institution": "Purdue University",
+    "pis": [
+      "Nicole Key",
+      "Nicole L. Key",
+      "Berdanier",
+      "Sanford Fleeter"
+    ],
     "total": 50,
     "avg_relevance": 3.2,
     "preset": true,
@@ -26,6 +46,10 @@
   {
     "name": "Oxford Thermofluids",
     "institution": "University of Oxford",
+    "pis": [
+      "L. He",
+      "Thomas Povey"
+    ],
     "total": 42,
     "avg_relevance": 2.3,
     "preset": true,
@@ -34,6 +58,11 @@
   {
     "name": "Ecole Centrale Lyon LMFA",
     "institution": "Ecole Centrale de Lyon",
+    "pis": [
+      "Xavier Ottavy",
+      "Christoph Brandstetter",
+      "Fabrice Thouverez"
+    ],
     "total": 31,
     "avg_relevance": 3.2,
     "preset": true,
@@ -42,6 +71,10 @@
   {
     "name": "Polytechnique Montreal",
     "institution": "Polytechnique Montreal",
+    "pis": [
+      "Huu Duc Vo",
+      "Alain Batailly"
+    ],
     "total": 29,
     "avg_relevance": 2.8,
     "preset": true,
@@ -50,6 +83,10 @@
   {
     "name": "NASA Glenn",
     "institution": "NASA Glenn Research Center",
+    "pis": [
+      "Chunill Hah",
+      "Adamczyk"
+    ],
     "total": 27,
     "avg_relevance": 5.0,
     "preset": true,
@@ -58,6 +95,11 @@
   {
     "name": "Beihang BUAA",
     "institution": "Beihang University",
+    "pis": [
+      "Xiaofeng Sun",
+      "Dakun Sun",
+      "Xu Dong"
+    ],
     "total": 26,
     "avg_relevance": 3.8,
     "preset": true,
@@ -66,6 +108,11 @@
   {
     "name": "Bath Sealing Group",
     "institution": "University of Bath",
+    "pis": [
+      "James A. Scobie",
+      "Gary D. Lock",
+      "Carl M. Sangan"
+    ],
     "total": 26,
     "avg_relevance": 2.8,
     "preset": true,
@@ -74,6 +121,10 @@
   {
     "name": "Cranfield Propulsion",
     "institution": "Cranfield University",
+    "pis": [
+      "David G. MacManus",
+      "Vassilios Pachidis"
+    ],
     "total": 23,
     "avg_relevance": 2.7,
     "preset": true,
@@ -82,6 +133,9 @@
   {
     "name": "Penn State (historical)",
     "institution": "Penn State University",
+    "pis": [
+      "Lakshminarayana"
+    ],
     "total": 23,
     "avg_relevance": 0.0,
     "preset": true,
@@ -90,6 +144,9 @@
   {
     "name": "Imperial Aeroelasticity",
     "institution": "Imperial College London",
+    "pis": [
+      "Mehdi Vahdati"
+    ],
     "total": 21,
     "avg_relevance": 3.1,
     "preset": true,
@@ -98,6 +155,9 @@
   {
     "name": "Tsinghua Turbo Lab",
     "institution": "Tsinghua University",
+    "pis": [
+      "Xinqian Zheng"
+    ],
     "total": 20,
     "avg_relevance": 3.4,
     "preset": true,
@@ -106,6 +166,9 @@
   {
     "name": "ETH Zurich LEC",
     "institution": "ETH Zurich",
+    "pis": [
+      "Reza S. Abhari"
+    ],
     "total": 20,
     "avg_relevance": 0.0,
     "preset": true,
@@ -114,6 +177,10 @@
   {
     "name": "Ferrara / Parma",
     "institution": "Univ. Ferrara / Univ. Parma",
+    "pis": [
+      "Michele Pinelli",
+      "Mirko Morini"
+    ],
     "total": 16,
     "avg_relevance": 0.0,
     "preset": true,
@@ -122,6 +189,9 @@
   {
     "name": "GE Aviation",
     "institution": "GE Aviation",
+    "pis": [
+      "A. R. Wadia"
+    ],
     "total": 16,
     "avg_relevance": 0.0,
     "preset": true,
@@ -130,6 +200,10 @@
   {
     "name": "Kurz & Brun (Industrial GT)",
     "institution": "Solar Turbines / Elliott Group",
+    "pis": [
+      "Rainer Kurz",
+      "Klaus Brun"
+    ],
     "total": 16,
     "avg_relevance": 0.0,
     "preset": true,
@@ -138,6 +212,9 @@
   {
     "name": "CAS IET",
     "institution": "Chinese Academy of Sciences",
+    "pis": [
+      "Juan Du"
+    ],
     "total": 13,
     "avg_relevance": 4.4,
     "preset": true,
@@ -146,6 +223,9 @@
   {
     "name": "Peking University",
     "institution": "Peking University",
+    "pis": [
+      "Chao Zhou"
+    ],
     "total": 13,
     "avg_relevance": 4.0,
     "preset": true,
@@ -154,6 +234,9 @@
   {
     "name": "TU Dresden",
     "institution": "TU Dresden",
+    "pis": [
+      "Ronald Mailach"
+    ],
     "total": 12,
     "avg_relevance": 3.3,
     "preset": true,
@@ -162,6 +245,9 @@
   {
     "name": "ITP Aero / UPM",
     "institution": "ITP Aero / Univ. Politecnica de Madrid",
+    "pis": [
+      "Roque Corral"
+    ],
     "total": 11,
     "avg_relevance": 2.9,
     "preset": true,
@@ -170,6 +256,10 @@
   {
     "name": "SJTU Teng Group",
     "institution": "Shanghai Jiao Tong University",
+    "pis": [
+      "Jinfang Teng",
+      "Mingmin Zhu"
+    ],
     "total": 5,
     "avg_relevance": 4.0,
     "preset": true,
@@ -178,6 +268,9 @@
   {
     "name": "BIT Wu Group",
     "institution": "Beijing Institute of Technology",
+    "pis": [
+      "Yanhui Wu"
+    ],
     "total": 3,
     "avg_relevance": 4.0,
     "preset": true,

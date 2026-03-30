@@ -2796,6 +2796,7 @@ function renderGroups() {
       ${editBtn}
       <div class="group-name">${displayName}${badge}</div>
       <div class="group-inst">${displayInst}</div>
+      ${g.pis && g.pis.length ? `<div style="color:var(--text2);font-size:11px;font-family:'IBM Plex Mono',monospace;margin:4px 0 6px;line-height:1.5;opacity:.8;">${g.pis.join(' · ')}</div>` : ''}
       <div class="group-stats">
         <div class="group-stat"><span class="group-stat-val">${g.total}</span><span class="group-stat-lbl">PAPERS</span></div>
         <div class="group-stat"><span class="group-stat-val">${g.avg_relevance||0}</span><span class="group-stat-lbl">AVG REL</span></div>
