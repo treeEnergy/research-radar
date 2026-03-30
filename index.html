@@ -1381,26 +1381,24 @@ select {
 .tl-right { flex:4; overflow-y:auto; padding:20px 24px; background:var(--bg2); min-width:320px; }
 .tl-right-empty { display:flex; align-items:center; justify-content:center; height:100%; color:var(--text3); font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:.06em; opacity:.5; }
 
-.heatmap-table { border-collapse:collapse; font-family:'IBM Plex Mono',monospace; font-size:10px; width:100%; table-layout:fixed; }
-.heatmap-table tr { height:36px; }
-.heatmap-table td, .heatmap-table th { padding:1px; vertical-align:middle; }
-.heatmap-table thead th { color:var(--text2); font-weight:500; white-space:nowrap; text-align:center; font-size:12px; height:28px; }
+.heatmap-table { border-collapse:separate; border-spacing:2px 2px; font-family:'IBM Plex Mono',monospace; font-size:10px; width:100%; table-layout:fixed; }
+.heatmap-table thead th { color:var(--text2); font-weight:500; white-space:nowrap; text-align:center; font-size:12px; padding:4px 0; }
 .heatmap-time-axis { display:flex; align-items:center; margin-top:6px; padding-left:112px; }
 .heatmap-time-axis .axis-line { flex:1; height:2px; background:linear-gradient(to right, rgba(200,146,58,.15), rgba(200,146,58,.6)); border-radius:1px; }
 .heatmap-time-axis .axis-arrow { width:0; height:0; border-top:5px solid transparent; border-bottom:5px solid transparent; border-left:10px solid rgba(200,146,58,.6); margin-left:-1px; }
 .heatmap-time-axis .axis-label { font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--gold); letter-spacing:.08em; margin-left:6px; opacity:.7; }
-.heatmap-table th.row-header { text-align:right; padding-right:12px; width:110px; font-family:'Microsoft YaHei','PingFang SC',sans-serif; font-size:13px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-.heatmap-cell {
-  height:32px; margin:1px; border-radius:3px; cursor:pointer;
-  display:flex; align-items:center; justify-content:center;
+.heatmap-table th.row-header { text-align:right; padding-right:12px; width:110px; font-family:'Noto Serif SC','Source Han Serif SC',serif; font-size:13px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; letter-spacing:.03em; }
+.heatmap-table td.hm {
+  height:32px; border-radius:3px; cursor:pointer;
+  text-align:center; vertical-align:middle;
   font-size:10px; font-family:'IBM Plex Mono',monospace; color:rgba(255,255,255,.75);
   transition:all .15s ease;
-  position:relative;
+  position:relative; padding:0;
 }
-.heatmap-cell:hover { filter:brightness(1.3); transform:scale(1.08); z-index:1; box-shadow:0 0 8px rgba(255,255,255,.15); }
-.heatmap-cell.active { outline:2px solid var(--gold); outline-offset:1px; z-index:2; }
-.heatmap-cell.empty { color:rgba(255,255,255,.15); cursor:default; }
-.heatmap-cell.empty:hover { filter:none; transform:none; box-shadow:none; }
+.heatmap-table td.hm:hover { filter:brightness(1.3); transform:scale(1.08); z-index:1; box-shadow:0 0 8px rgba(255,255,255,.15); }
+.heatmap-table td.hm.active { outline:2px solid var(--gold); outline-offset:1px; z-index:2; }
+.heatmap-table td.hm.empty { color:rgba(255,255,255,.15); cursor:default; }
+.heatmap-table td.hm.empty:hover { filter:none; transform:none; box-shadow:none; }
 
 .tl-detail-title { font-family:'IBM Plex Mono',monospace; font-size:15px; color:var(--gold); letter-spacing:.06em; margin-bottom:16px; padding-bottom:10px; border-bottom:1px solid var(--border); }
 .tl-summary-card { border-left:2px solid var(--gold); padding:14px 18px; background:var(--surface2); border-radius:0 6px 6px 0; margin-bottom:16px; }
@@ -3749,18 +3747,18 @@ function renderHeatmap() {
       const cell = cellData[String(p)];
       const count = cell?.count || 0;
       if (count === 0) {
-        html += `<td><div class="heatmap-cell empty" style="background:rgba(${color},0.04);"
+        html += `<td class="hm empty" style="background:rgba(${color},0.04);"
           title="${escapeHtml(topic.label)} ${p}-${p+4} · 0 篇"
-        >0</div></td>`;
+        >0</td>`;
         return;
       }
       const opacity = Math.max(0.10, (count / maxCount) * 0.9).toFixed(2);
-      html += `<td><div class="heatmap-cell"
+      html += `<td class="hm"
         style="background:rgba(${color},${opacity})"
         data-topic="${escapeHtml(topic.label)}"
         data-period="${p}"
         title="${escapeHtml(topic.label)} ${p}-${p+4} · ${count} 篇"
-      >${count}</div></td>`;
+      >${count}</td>`;
     });
     html += '</tr>';
   });
@@ -3768,7 +3766,7 @@ function renderHeatmap() {
   html += '</tbody></table>';
   grid.innerHTML = html;
 
-  grid.querySelectorAll('.heatmap-cell:not(.empty)').forEach(el => {
+  grid.querySelectorAll('td.hm:not(.empty)').forEach(el => {
     el.addEventListener('click', () => {
       if (activeHeatmapCell) activeHeatmapCell.classList.remove('active');
       el.classList.add('active');
