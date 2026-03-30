@@ -39,7 +39,7 @@ GITHUB_TOKEN=ghp_xxx
 ## 注意
 - DeepSeek 用 deepseek-chat 模型，base_url = https://api.deepseek.com
 - 抓取和 AI 处理都已并发，流水线总时间比原版快约 5-8 倍
-- papers.json 最多保留 500 篇，按日期倒序
+- papers.json 无数量上限，按日期倒序
 - custom_groups.json 存用户在网页端编辑的课题组，replaces 字段指向被替换的 ★ 作者名
 - AI 对话端点：POST /api/chat，SSE 流式返回，先检索本地论文库再调 DeepSeek
 

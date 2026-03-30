@@ -2285,7 +2285,7 @@ select {
     <h2 style="margin-top:28px">启动服务</h2>
     <div class="manual-cmd">cd scripts &amp;&amp; python server.py</div>
     <p style="margin-top:10px">访问 <span class="manual-tag green">http://localhost:8000</span>。服务器提供静态文件 + 标注 API + AI 对话，需要保持运行状态。</p>
-    <div class="manual-warn">data/papers.json 最多保留 500 篇，超出后按日期自动截断。annotations.json 保存所有标注，请妥善备份。</div>
+    <div class="manual-warn">data/papers.json 无数量上限，按日期倒序排列。标注数据存在浏览器 localStorage 中，请妥善备份。</div>
   </div>
 
   <!-- 历史开发步骤（仅保留结构，实际内容见 BUILD 页） -->

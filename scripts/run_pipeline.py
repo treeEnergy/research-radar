@@ -86,10 +86,9 @@ def run_papers_pipeline() -> None:
         log.info("没有新论文入库")
         return
 
-    # 3. 合并，按日期倒序，只保留最新 500 篇
+    # 3. 合并，按日期倒序
     combined = new_papers + existing
     combined.sort(key=lambda p: p.get("date", ""), reverse=True)
-    combined = combined[:500]
 
     # 4. 新论文打入库时间戳
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")

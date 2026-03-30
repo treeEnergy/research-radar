@@ -143,7 +143,7 @@ GitHub Actions → commit 回仓库  （自动更新数据文件）
 
 ## 数据说明
 
-- `data/papers.json`：最多保留 500 篇，按日期倒序
+- `data/papers.json`：无数量上限，按日期倒序
 - `data/papers-historical.json`：1960–2019 历史论文，增量抓取
 - `data/timeline.json`：热力图数据 + AI 综述，增量更新
 - `data/groups.json`：课题组统计，合并历史 + 当前论文
