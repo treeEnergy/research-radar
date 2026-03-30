@@ -10355,6 +10355,36 @@
     "groups": []
   },
   {
+    "id": "9dc8662f3ed3",
+    "title": "Effect of Three-Dimensional Geometry on Harmonic Gust–Airfoil Interaction",
+    "abstract": "Two-dimensional (2-D) strip-theory modeling of unsteady gust–airfoil interaction is standard practice in many industrial applications, but the limits of applicability of 2-D unsteady flow modeling on three-dimensional (3-D) wing and rotor geometries are not well understood. This paper investigates the effects of 3-D geometry features (such as finite span, taper, sweep, and rotation) on the unsteady lift response to gusts and the flow-physical differences between 2-D and 3-D geometries in unsteady flow. A frequency-domain inviscid vortex lattice model is validated and used for the 3-D analysis. The results are compared to unsteady transfer functions from 2-D linear analytic theory (for example, Theodorsen and Sears functions). The study agrees with previous research findings that 3-D effects are most significant at low reduced frequencies and low aspect ratios, as well as near the wing tips. The driving cause of 3-D response is shown to be the wake vorticity: both streamwise and spanwise components of unsteady wake vorticity must be modeled. The study concludes by investigating whether unsteady response of more complex 3-D wing and rotor geometries can be represented by the response of a rectangular wing. The results indicate that this is possible for tapered wings and rotating blades, but not for swept wings.<br/><br/>",
+    "authors": [
+      "Amanda Smyth",
+      "Anna Young",
+      "Luca di Mare"
+    ],
+    "date": "2020-11-11",
+    "url": "https://doi.org/10.2514/1.j059661",
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本文研究三维几何特征（如有限展长、锥度、后掠和旋转）对非定常阵风-翼型相互作用的影响，采用频域无粘涡格模型进行分析。核心发现表明，三维效应在低减缩频率、低展弦比和翼尖附近最显著，非定常尾迹涡量的流向和展向分量是关键驱动因素。",
+    "method": "采用频域无粘涡格模型进行数值分析，对比二维线性解析理论（如Theodorsen和Sears函数）。",
+    "innovation": "通过三维涡格模型系统量化几何特征对非定常升力响应的影响，强调尾迹涡量分量建模的重要性。",
+    "conclusions": "三维效应在低减缩频率和低展弦比时最显著；矩形翼可代表锥度和旋转翼型的响应，但不适用于后掠翼。",
+    "limitations": "基于无粘模型，未考虑粘性效应和湍流影响，可能限制实际流动预测精度。",
+    "tags": [
+      "稳定性分析",
+      "数值方法",
+      "其他"
+    ],
+    "relevance": 3,
+    "relevance_reason": "涉及非定常流动和稳定性分析，与压气机稳定性研究部分相关，但未直接针对叶尖间隙或激盘模型。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-30",
+    "groups": []
+  },
+  {
     "id": "bbe9de296368",
     "title": "Compressor Stall Warning Using Nonlinear Feature Extraction Algorithms",
     "abstract": "Abstract Stall is a type of flow instability in compressors that sets the low-flow limit for compressor operation. During the past few decades, efforts to develop a reliable stall warning system have had limited success. This paper focuses on the small nonlinear disturbances prior to deep surge and introduces a new approach to identify these disturbances using nonlinear feature extraction algorithms including phase-reconstruction of time-series signals and evaluation of a parameter called approximate entropy. To the best of our knowledge, this is the first time approximate entropy has been used for stall warning, and thus, its definition and utility are presented in detail. The technique is applied to stall data sets from two different compressors: a high-speed centrifugal compressor that unexpectedly entered rotating stall during a speed transient and a multistage axial compressor with both modal- and spike-type stall inception. In both cases, nonlinear disturbances appear, in terms of spikes in approximate entropy, prior to surge. The presence of these presurge spikes indicates the potential of using the approximate entropy parameter for small disturbance detection and stall warning. The details of the nonlinear feature extraction algorithm, including guidelines for its application as well as results from applying the algorithm to rig-level data, are presented.",
