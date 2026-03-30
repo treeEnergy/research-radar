@@ -3548,15 +3548,19 @@ async function loadTimeline() {
       arr.forEach(p => { historicalPapers[p.id] = p; });
     }
 
-    timelineLoaded = true;
     loadingEl.style.display = 'none';
     renderHeatmap();
     heatmapEl.style.display = '';
+    timelineLoaded = true;
   } catch (err) {
     loadingEl.style.display = 'none';
     errorEl.textContent = err.message || '加载失败';
     errorEl.style.display = '';
   }
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
 function renderHeatmap() {
@@ -3579,7 +3583,7 @@ function renderHeatmap() {
     const maxCount = Math.max(...counts, 1);
 
     html += '<tr>';
-    html += `<th class="row-header" style="color:rgba(${color},1)">${topic.label}</th>`;
+    html += `<th class="row-header" style="color:rgba(${color},1)">${escapeHtml(topic.label)}</th>`;
 
     decades.forEach(d => {
       const cell = topic.decades[String(d)];
@@ -3591,7 +3595,7 @@ function renderHeatmap() {
       html += `<td><div class="heatmap-cell"
         style="background:rgba(${color},${opacity})"
         onclick="openTimelinePanel('${topic.label.replace(/'/g, "\\'")}', ${d})"
-        title="${topic.label} · ${d}s · ${cell.count} 篇"
+        title="${escapeHtml(topic.label)} · ${d}s · ${cell.count} 篇"
       >${cell.count}</div></td>`;
     });
     html += '</tr>';
