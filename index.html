@@ -3956,7 +3956,11 @@ function appendChatMsg(role, text, sources) {
 
   const textEl = document.createElement('div');
   textEl.className = 'chat-msg-text';
-  textEl.textContent = text;
+  if (role === 'assistant' && text) {
+    textEl.innerHTML = renderMarkdown(text);
+  } else {
+    textEl.textContent = text;
+  }
 
   body.appendChild(name);
   body.appendChild(textEl);
@@ -4038,6 +4042,18 @@ function searchPapersLocal(query, topK = 12) {
   }
   scored.sort((a, b) => b[0] - a[0]);
   return scored.slice(0, topK).map(x => x[1]);
+}
+
+function renderMarkdown(text) {
+  return escapeHtml(text)
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/^### (.+)$/gm, '<h4 style="color:var(--text2);font-size:13px;margin:10px 0 4px;">$1</h4>')
+    .replace(/^## (.+)$/gm, '<h3 style="color:var(--text2);font-size:14px;margin:12px 0 4px;">$1</h3>')
+    .replace(/^\* (.+)$/gm, '<div style="padding-left:12px;">• $1</div>')
+    .replace(/^- (.+)$/gm, '<div style="padding-left:12px;">• $1</div>')
+    .replace(/`(.+?)`/g, '<code style="background:var(--surface2);padding:1px 4px;border-radius:2px;font-size:0.9em;">$1</code>')
+    .replace(/\n/g, '<br>');
 }
 
 async function sendChat() {
@@ -4148,7 +4164,7 @@ async function sendChat() {
           if (delta) {
             aiText += delta;
             if (aiTextEl) {
-              aiTextEl.textContent = aiText;
+              aiTextEl.innerHTML = renderMarkdown(aiText);
               document.getElementById('chat-messages').scrollTop = 99999;
             }
           }
