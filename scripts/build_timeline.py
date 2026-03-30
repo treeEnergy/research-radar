@@ -22,7 +22,7 @@ HISTORICAL_PATH = DATA_DIR / "papers-historical.json"
 CURRENT_PATH = DATA_DIR / "papers.json"
 OUTPUT_PATH = DATA_DIR / "timeline.json"
 
-PERIODS = list(range(1970, 2030, 5))  # [1970, 1975, 1980, ..., 2025]
+PERIODS = list(range(1960, 2030, 5))  # [1960, 1965, 1970, ..., 2025]
 
 
 def get_period(year: int) -> int:

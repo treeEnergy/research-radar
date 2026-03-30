@@ -12,6 +12,10 @@ from pathlib import Path
 
 import requests
 from config import TARGET_JOURNALS, FETCH_FROM_YEAR, FETCH_FROM_YEAR_HISTORICAL
+try:
+    from config import HISTORICAL_JOURNALS
+except ImportError:
+    HISTORICAL_JOURNALS = []
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
@@ -216,9 +220,10 @@ def fetch_all_historical(from_year: int = FETCH_FROM_YEAR_HISTORICAL,
                          to_year: int = FETCH_FROM_YEAR - 1) -> list[dict]:
     """抓取全量历史论文并计算 topics_matched。"""
     from config import KEYWORDS
+    all_journals = TARGET_JOURNALS + HISTORICAL_JOURNALS
     tasks = [
         (kw, journal["issn"], journal["name"])
-        for journal in TARGET_JOURNALS
+        for journal in all_journals
         for kw in KEYWORDS
     ]
     log.info(f"历史论文抓取：{from_year}–{to_year}，{len(tasks)} 个查询（4 线程）")

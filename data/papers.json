@@ -23,7 +23,9 @@
     "relevance_reason": "论文涉及压气机腔体热传递和叶尖间隙相关热应力，但核心方向是热传递建模而非直接针对稳定性或叶尖间隙畸变。",
     "innovation": "开发了统一的瑞利-格拉晓夫相关性模型，用于预测浮力驱动流动中的热质传递，并首次在不对称加热条件下验证。",
     "conclusions": "模型能准确捕捉热质传递特性，与实验数据一致；适用于航空发动机热机械设计代码。",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2026,
     "topics_matched": [
@@ -59,7 +61,9 @@
     "relevance_reason": "研究涉及涡轮性能分析，与压气机稳定性、叶尖间隙等核心方向间接相关，但非直接聚焦。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Oxford Thermofluids"
+    ],
     "year": 2026,
     "topics_matched": [
       "叶片气动设计",
@@ -220,7 +224,9 @@
     "relevance_reason": "论文直接研究压气机稳定性、畸变进气与机匣处理，与核心方向高度匹配。",
     "innovation": "结合进口周向畸变与优化机匣处理，通过高精度非定常压力测量揭示畸变对不稳定模式和激波结构的影响机制。",
     "conclusions": "优化机匣处理在所有测量工况下提升失速裕度且效率损失最小；进口畸变能改变不稳定模式，机匣处理通过改善激波分离增强稳定性。",
-    "groups": [],
+    "groups": [
+      "CAS IET"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2026,
     "topics_matched": [
@@ -291,7 +297,7 @@
     "innovation": "结合真实尾迹流入和端壁旋转边界条件，模拟多级环境中上游尾迹对叶尖间隙泄漏流的影响，并解耦其相互作用。",
     "conclusions": "宽尾迹使叶栅熵损失系数增加68%（大间隙）和94%（小间隙）；两种尾迹均能稳定叶尖间隙泄漏流。",
     "groups": [
-      "Jinfang Teng Group"
+      "SJTU Teng Group"
     ],
     "fetched_at": "2026-03-27",
     "year": 2026,
@@ -324,7 +330,7 @@
     "innovation": "实验验证了离心压气机对进气畸变的声学折减频率临界值（约为1），补充了前人计算模拟结果，首次在实验中发现折减频率高于1时畸变影响最小。",
     "conclusions": "折减频率大于1时，畸变对压气机效率和喘振裕度影响可忽略；所有进气畸变配置下，压气机在相同功系数值发生喘振。",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "fetched_at": "2026-03-27",
     "year": 2026,
@@ -334,6 +340,38 @@
       "跨音速/激波",
       "离心压气机"
     ]
+  },
+  {
+    "id": "e9421d953682",
+    "title": "Data-Driven Approaches for Thermocouple Conduction and Inertia Correction to Improve Engine Digital Twin Modeling",
+    "abstract": "Abstract Digital engine twins duplicate the real existing, complex system by a digitally created construct representing its time-dependent characteristics. Based on real-time measured data, they provide information about the system state, which are not accessible by a data analysis. This makes accurate transient temperature measurements critical to digital engine twins. Thermocouples represent an established means of engine temperature measurement. However, they are affected by thermal inertia and conductive heat transfer, which introduce a bias and a time-delay of the sensor response. There are different physical phenomena leading to bias and time delay. Discussion of these phenomena makes it obvious that the transient reading of a thermocouple highly depends on its installation in the engine and the associated thermal environment. It is demonstrated that these distortions obscure the time series of measurements and complicate the distinction between nominal and non-nominal engine state. The time delay can be corrected a priori via a first-order time lag system based on basic physical properties. The potential of calibrating for the complex gas path flow conditions affecting the time lag is estimated using a physics-informed neural network. Matching the temperature readings completely to the model output indicates the amount of transient calibration data required to capture all effects due to the installation of the thermocouple in the engine structure.",
+    "authors": [
+      "Tihomir Varchev",
+      "Rico Poser",
+      "Henry Späth",
+      "Zamira Daw",
+      "Stephan Staudacher"
+    ],
+    "date": "2026-01-13",
+    "url": "https://doi.org/10.1115/1.4070876",
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "该研究针对航空发动机数字孪生建模中热电偶温度测量的关键问题，分析了热惯性和导热效应导致的测量偏差与时间延迟。研究提出基于一阶时滞系统的先验校正方法，并利用物理信息神经网络估计复杂流场条件下的时间延迟校准潜力。核心发现表明，热电偶安装位置和热环境显著影响瞬态读数，需足够瞬态校准数据才能完全匹配模型输出。",
+    "method": "基于物理信息神经网络的数据驱动方法，结合一阶时滞系统理论校正，主要针对发动机复杂流场条件下的热电偶瞬态测量。",
+    "innovation": "将物理信息神经网络应用于热电偶时间延迟校准，结合先验物理模型与数据驱动方法，提高数字孪生建模中温度测量的准确性。",
+    "conclusions": "热电偶安装位置和热环境显著影响瞬态测量精度，需足够瞬态校准数据才能完全匹配模型输出；物理信息神经网络可有效估计复杂流场条件下的时间延迟校准潜力。",
+    "limitations": "研究未涉及具体发动机工况参数，且校准数据需求可能受安装条件限制。",
+    "tags": [
+      "实验测量",
+      "数值方法",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "该研究关注温度测量与数字孪生建模，虽涉及发动机状态监测，但与压气机稳定性、叶尖间隙等核心方向间接相关。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-30",
+    "groups": []
   },
   {
     "id": "4dd89d90dcf8",
@@ -583,7 +621,9 @@
     "relevance_reason": "论文涉及涡轮机械通流计算的数值方法，与压气机稳定性分析间接相关，但未直接聚焦于核心研究方向。",
     "innovation": "引入异常算法，在梯度更新不可靠时自动切换至无导数回退步骤，提升求解器鲁棒性，减少用户手动干预。",
     "conclusions": "算法在轴流涡轮通流计算中提高了收敛鲁棒性，未引入明显的精度或速度损失。",
-    "groups": [],
+    "groups": [
+      "Cranfield Propulsion"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -805,7 +845,9 @@
     "relevance_reason": "论文直接研究压气机流动不稳定性和失速机理，与研究方向核心高度相关。",
     "innovation": "创新性地整合解析子分析与动量势理论，用于分解扰动场并分析模态相互作用，揭示了流体动力-热相互作用在失速起始中的主导作用。",
     "conclusions": "流体动力-热相互作用是总波动焓的主要贡献者；流体动力/热分量与科里奥利加速度的相互作用是失速起始的关键驱动因素。",
-    "groups": [],
+    "groups": [
+      "Beihang BUAA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -910,7 +952,7 @@
     "innovation": "首次统一了压气机旋转失速起始的两种不同路径（模式和尖峰），通过低阶模型揭示其连续体特性，无需显式叶片建模。",
     "conclusions": "失速起始行为由压力上升特性在峰值左侧的斜率决定：小正斜率导致模式发展，大正斜率导致尖峰快速演化。",
     "groups": [
-      "Greitzer Group"
+      "MIT GTL"
     ],
     "fetched_at": "2026-03-27",
     "year": 2025,
@@ -974,7 +1016,9 @@
     "relevance_reason": "论文涉及压气机流动稳定性分析，与研究方向部分相关，但未直接聚焦叶尖间隙或机匣处理。",
     "innovation": "优化RANS设置，结合叶片边界层触发和端壁处理，提升角区分离预测精度，相比传统方法更准确模拟损失分布。",
     "conclusions": "优化RANS设置能准确预测端壁附近静压分布和角区分离引起的总压损失；全湍流端壁处理增强叶片载荷和边界层稳定性。",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -1140,7 +1184,9 @@
     "relevance_reason": "论文涉及叶尖间隙和机匣处理，与压气机稳定性领域部分相关，但主要针对涡轮而非压气机。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Purdue Compressor Lab"
+    ]
   },
   {
     "id": "1e15bd76fbe1",
@@ -1201,7 +1247,10 @@
     "relevance_reason": "论文涉及风扇稳定性分析和畸变进气，与压气机稳定性研究方向部分相关，但未直接聚焦叶尖间隙或机匣处理。",
     "innovation": "首次综合评估进气道长度、风扇运行点和侧风速度对风扇稳定性的影响，揭示临界质量流量增加机制与风扇吸力无关，而是整流罩位置变化导致。",
     "conclusions": "进气道流动主要受平均质量流量控制，风扇压比或接近失速线影响有限；短进气道使分离起始点移至更高质量流量，临界质量流量增加由整流罩位置变化驱动。",
-    "groups": [],
+    "groups": [
+      "Imperial Aeroelasticity",
+      "ITP Aero / UPM"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -1299,7 +1348,7 @@
     "innovation": "提出基于转子焓的畸变追踪方法，并比较简化频率法，为离心压气机临界畸变角度分析提供新物理机制。",
     "conclusions": "临界畸变角度与声波传播时间相关，临界声学简化频率为1；稳态单通道模型与全环面模拟结果误差小于0.2度。",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "fetched_at": "2026-03-27",
     "year": 2025,
@@ -1334,7 +1383,9 @@
     "relevance_reason": "论文涉及离心压缩机的流动稳定性分析，但未直接聚焦于压气机稳定性、叶尖间隙畸变或机匣处理等核心方向。",
     "innovation": "首次提出并分析了离心压缩机中的同向旋转涡轮模式，相比传统反向旋转模式，通过旋流机制实现功率生产。",
     "conclusions": "45度旋转扩压器叶片配置可处理高达46%的反向流量，峰值功率输出提升6.25%。",
-    "groups": [],
+    "groups": [
+      "Cranfield Propulsion"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -1395,7 +1446,9 @@
     "relevance_reason": "论文直接研究压气机中的压力波动和旋转不稳定性，涉及剪切层和叶尖间隙影响，与稳定性分析核心方向相关。",
     "innovation": "创新点在于使用Coandă喷嘴在端壁上游主动诱导剪切层，系统研究其对压力波动的影响，为旋转不稳定性起源提供新实验证据。",
     "conclusions": "1. 无叶尖间隙配置中观察到类似旋转不稳定性的频谱模式，支持剪切层不稳定性假说。2. Coandă喷嘴喷射可诱导、抑制或增强压力波动，验证了剪切层在流动稳定性中的作用。",
-    "groups": [],
+    "groups": [
+      "TU Dresden"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -1528,7 +1581,10 @@
     "relevance_reason": "论文涉及压气机稳定性分析，但主要关注风扇颤振而非核心压气机，且未直接涉及叶尖间隙或机匣处理。",
     "innovation": "首次揭示地面涡对风扇叶片颤振稳定性的影响，填补了以往研究中忽略地面平面效应的空白。",
     "conclusions": "地面涡在温和侧风下轻微改变进气声学，导致颤振裕度小幅降低。",
-    "groups": [],
+    "groups": [
+      "Imperial Aeroelasticity",
+      "ITP Aero / UPM"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -1665,7 +1721,9 @@
     "relevance_reason": "研究涉及涡轮腔体流动不稳定性和压力场同步，与压气机稳定性分析相关，但非直接针对压气机叶尖间隙畸变。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "year": 2025,
     "topics_matched": [
       "非定常流动"
@@ -1696,7 +1754,9 @@
     "relevance_reason": "论文涉及压气机腔体流动和叶尖间隙相关热传递，与研究方向部分相关但非核心稳定性分析。",
     "innovation": "创新点在于通过旋转孔引入预旋流，系统量化了旋流对腔体流动和热传递的影响，扩展了浮力诱导流动的研究范围。",
     "conclusions": "1. 建立了机匣努塞尔数与格拉晓夫数的单一关联式，能有效表征旋流效应。2. 旋流改变了腔体内的温度分布和质量交换，影响转子膨胀和叶尖间隙。",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -1735,7 +1795,9 @@
     "relevance_reason": "研究涉及进气畸变（异物吸入）和数值方法，但与压气机稳定性、叶尖间隙等核心方向关联较弱。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Cranfield Propulsion"
+    ],
     "year": 2025,
     "topics_matched": []
   },
@@ -1766,7 +1828,9 @@
     "relevance_reason": "涉及叶尖间隙和稳定性分析，但未直接针对压气机稳定性或叶尖间隙畸变的核心建模。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "ITP Aero / UPM"
+    ]
   },
   {
     "id": "6276b419a047",
@@ -1824,7 +1888,9 @@
     "relevance_reason": "论文涉及上游畸变对风扇稳定性的影响分析，与压气机稳定性研究方向相关，但未直接聚焦叶尖间隙或机匣处理。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "ITP Aero / UPM"
+    ]
   },
   {
     "id": "dfe25e20781a",
@@ -2072,7 +2138,9 @@
     "relevance_reason": "研究涉及畸变进气下的稳定性分析和机匣处理，与用户课题预测叶尖畸变下的稳定裕度高度相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Beihang BUAA"
+    ]
   },
   {
     "id": "27f3df57613c",
@@ -2173,7 +2241,9 @@
     "relevance_reason": "论文直接研究压气机稳定性、畸变进气下的失速起始机制，与核心方向高度匹配。",
     "innovation": "揭示了叶尖径向畸变下失速起始从模态波向尖峰型过渡的物理机制，并通过实验验证了流动分离与叶尖泄漏涡的相互作用。",
     "conclusions": "1. 叶尖径向畸变导致失速起始类型从模态波转变为尖峰型，而轮毂畸变下保持模态波。2. 失速预警信号分析显示，自相关系数减小而小波系数增大，反映叶尖区域不稳定性增强。",
-    "groups": [],
+    "groups": [
+      "CAS IET"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -2235,7 +2305,7 @@
     "innovation": "首次利用增材制造在扩压器叶片表面实现非侵入式稳态和非稳态压力测量，公开了叶片气动载荷和扩散过程数据。",
     "conclusions": "增材制造技术成功应用于扩压器测量，揭示了入口流动对扩压器性能的关键影响。",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "fetched_at": "2026-03-27",
     "year": 2025,
@@ -2343,6 +2413,39 @@
     "groups": []
   },
   {
+    "id": "904823adf137",
+    "title": "Impact of Trailing Edge Damage on Nozzle Guide Vane Flow Capacity",
+    "abstract": "Abstract In this paper, we consider the impact of trailing edge burn-back (due to oxidation damage) on the flow capacity of cooled transonic high-pressure (HP) nozzle guide vanes. The purpose is to provide understanding that can lead to improved whole-life engine performance modelling. We present experimental results from an ultra-low uncertainty experiment in a full-annulus nozzle guide vane cascade and compare these with results from high-fidelity computational fluid dynamics simulations. Experiments were performed in the engine component aerothermal (ECAT) facility at the University of Oxford, using a sequence of four geometries with increasing simulated burn-back. We find that for fixed vane pressure ratio, increased burn-back leads to: increased overall vane capacity, with changes from the nominal geometry of +2.7%, +7.4%, and +16.1%; increased coolant capacity, with changes from the nominal geometry of +2.4%, +6.9%, and +15.0%; and significant variation in whirl angle distribution within the burn-back region, with little effect on the outside region. There is very poor correlation between the change in geometric minimum area and the vane capacity change, highlighting the need to consider the aerodynamics in the entire controlling region of the vane. Taken together with a related paper on the impact of burn-back on aerodynamic performance, these papers provide a basis for an HP stage model within a whole-life engine performance model.",
+    "authors": [
+      "Zelimhan Raduev",
+      "Dougal Jackson",
+      "Nafiz H. K. Chowdhury",
+      "Thomas Povey"
+    ],
+    "date": "2025-08-26",
+    "url": "https://doi.org/10.1115/1.4069602",
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本文研究了氧化损伤导致的尾缘烧蚀对冷却跨音速高压导向叶片流通能力的影响。通过全环叶栅实验和高保真CFD模拟，发现随烧蚀加剧，叶片总流通能力和冷却剂流通能力显著增加，但几何最小面积变化与流通能力变化相关性差，需考虑整个控制区域的气动特性。",
+    "method": "实验方法：在牛津大学ECAT设施进行全环叶栅实验，模拟四种烧蚀程度；数值方法：高保真CFD模拟；工况：固定叶片压比。",
+    "innovation": "创新点：结合全环叶栅实验与高保真CFD，系统量化烧蚀对流通能力的影响，强调几何最小面积不足以预测性能变化，需整体气动分析。",
+    "conclusions": "关键结论：烧蚀加剧使叶片总流通能力增加（最大+16.1%），冷却剂流通能力增加（最大+15.0%）；几何最小面积变化与流通能力变化相关性差。",
+    "limitations": "局限：仅针对高压导向叶片，未涉及压气机或稳定性分析；实验工况可能未覆盖全发动机运行范围。",
+    "tags": [
+      "实验测量",
+      "数值方法",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "研究聚焦导向叶片流通能力，与压气机稳定性、叶尖间隙畸变等核心方向间接相关，但非直接涉及。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-30",
+    "groups": [
+      "Oxford Thermofluids"
+    ]
+  },
+  {
     "id": "4d36e7bf8013",
     "title": "Experimental and Numerical Investigation of Deep Surge in a Centrifugal Compressor With Vaned Diffuser and Piping System",
     "abstract": "Abstract Deep surge is a violent flow instability that affects the flow field throughout the entire compression system, potentially leading to performance deterioration and mechanical failures in compressors. A deeper understanding of this system instability is crucial for advancing design theory and developing effective flow control strategies. In this article, both experimental and numerical investigations are conducted to uncover the flow mechanism of deep surge. Transient velocity and static pressure measurements are performed to capture the surge limit cycles and the developing characteristics of the diffuser rotating stall under various throttling conditions. A three-dimensional numerical model of the compression system is developed to predict the system instability of deep surge. The numerical results demonstrate very good quantitative agreement with the experimental data in terms of the system characteristics and the development of diffuser rotating stall. The predicted internal flow field is analyzed to reveal the three-dimensional flow structure, with particular emphasis on the development of diffuser rotating stall during the deep surge cycle. Both experimental and numerical results demonstrate that the stall cells appear and disappear as the transient operating point periodically shifts between the stall and nonstall regions within the operating range. Furthermore, flow reversal during the deep-surge cycle suppresses the circumferential propagation of the stall cells.",
@@ -2413,6 +2516,40 @@
       "压缩机稳定性",
       "叶片气动设计"
     ]
+  },
+  {
+    "id": "2cfa1213a318",
+    "title": "Thermo-Acoustic Instabilities and Shape Bifurcations of a Pilot-Only Spray Flame in a Staged Burner",
+    "abstract": "Abstract Aircraft engine manufacturers develop new combustion technologies to comply with stricter regulations on pollutant emissions, such as nitrous oxides or soot. Staged systems coupled with lean premixed combustion show promising prospects to reduce these emissions through correct mixing of the fuel ahead of the combustion chamber, but are more prone to thermo-acoustic instabilities. Hence, guaranteeing the stability over the entire operating range is more challenging. The thermo-acoustic behavior of lean staged systems is investigated experimentally on the laboratory-scale BIMER combustor, an atmospheric pressure test rig composed of a two-stage swirled injector reminiscent of industrial systems and fueled with liquid dodecane. It uses a simplex atomizer in the pilot stage, multipoint injection in the main stage, and can be externally forced using a siren device located upstream of the injector. This study focuses on the thermo-acoustic behavior of the pilot stage of the BIMER combustor. Flame response to acoustic perturbations at different preheating temperatures (ranging from 383 to 473 K) is assessed. To this end, flame describing functions (FDF) are measured using acoustic forcing, a photomultiplier with an OH* filter for heat release rate fluctuation measurements and the multimicrophone method to determine acoustic velocity fluctuations. An acoustic network model of the combustor using the L-ζ model for the injector is used to compute acoustic velocity fluctuations at the base of the flame. This model is parameterized using only the burner geometrical configuration, with no tuning to fit reference experimental data. The accuracy of the model prediction is discussed. Measurements also display flame shape bifurcations from V to Tulip-shape flames generated by acoustic forcing at certain frequencies and amplitudes. High-speed imaging of flame chemiluminescence in the visible range is used to describe these bifurcations. The role of acoustic forcing is highlighted through phase-averaging.",
+    "authors": [
+      "Quentin Buisson",
+      "Antoine Renaud",
+      "Laurent Zimmer",
+      "Guillaume J. J. Fournier",
+      "Abel Faure-Beaulieu",
+      "Yoann Méry",
+      "Sébastien Ducruix"
+    ],
+    "date": "2025-08-21",
+    "url": "https://doi.org/10.1115/1.4069464",
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本研究在实验室规模的BIMER燃烧器上，实验研究了贫油分级燃烧系统的热声不稳定性。通过声学强迫测量火焰描述函数，结合L-ζ模型预测声速波动，发现火焰形状在特定频率和振幅下发生从V形到郁金香形的分岔，并评估了预热温度（383-473 K）对火焰响应的影响。",
+    "method": "实验研究，采用声学强迫、光电倍增管和OH*滤波器测量热释放率波动，多麦克风法测声速波动，结合L-ζ模型进行声学网络建模。",
+    "innovation": "使用L-ζ模型参数化燃烧器几何配置预测声速波动，无需实验数据调参，并系统研究了预热温度对火焰热声响应的影响。",
+    "conclusions": "火焰形状在声学强迫下发生从V形到郁金香形的分岔，预热温度升高可能增强火焰对声学扰动的敏感性。",
+    "limitations": "研究限于实验室大气压条件，未涉及实际发动机高压环境，且仅关注燃烧器导流级。",
+    "tags": [
+      "稳定性分析",
+      "实验测量",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "论文涉及燃烧稳定性分析，与压气机稳定性部分相关，但核心是燃烧热声不稳定性而非压气机气动热力学。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-30",
+    "groups": []
   },
   {
     "id": "ccaa9f81cda1",
@@ -2731,7 +2868,9 @@
     "relevance_reason": "论文涉及密封件颤振的稳定性分析和实验验证，与压气机稳定性部分相关，但未直接聚焦于叶尖间隙或机匣处理。",
     "innovation": "开发了新型密封件颤振预测方法，并构建独特试验台进行实验验证，结合1D和3D模型分析迷宫密封的颤振行为。",
     "conclusions": "试验台成功在受控条件下产生密封件颤振，验证数据显著提升了预测模型的置信度。",
-    "groups": [],
+    "groups": [
+      "ITP Aero / UPM"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -2862,7 +3001,9 @@
     "relevance_reason": "论文直接涉及压气机稳定性分析和流动稳定性预测，与研究方向核心高度相关。",
     "innovation": "结合数值模拟与稳定性预测模型，系统分析转子/静子载荷分布对压气机性能及稳定性的交互影响，揭示后载静子通过减弱转子尾迹与分离干扰提升性能的机制。",
     "conclusions": "后载转子设计显著降低失速起始流量，提升流动稳定性；后载静子设计在低流量工况下性能改善更明显，主要源于静子特性优化。",
-    "groups": [],
+    "groups": [
+      "Beihang BUAA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -2901,7 +3042,9 @@
     "relevance_reason": "研究涉及流动稳定性分析和数值方法，与压气机稳定性领域部分相关，但主题聚焦排气系统而非压气机。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Cranfield Propulsion"
+    ],
     "year": 2025,
     "topics_matched": []
   },
@@ -3096,6 +3239,36 @@
     ]
   },
   {
+    "id": "816dc0b5c6af",
+    "title": "Aeroacoustic Prediction of Overwing Propulsion at Incidence",
+    "abstract": "The premise of over-the-wing mounted rotors is that a favorable aerodynamic effect is achieved by interaction with the lifting wing, which also acts as noise shield. A physics-based low-order model is proposed that accounts for aerodynamic interactions in the prediction of the aeroacoustic footprint of the installed rotor. The nonuniform inflow of the rotor disk is modeled by an analytical description of the inviscid potential effects of the wing’s circulation, given as a function of the blade sectional coordinates. Furthermore, the ingestion of the separated boundary layer is considered at large angles of attack. The related steady inflow distortion serves as input to an aeroacoustic noise prediction chain that computes the unsteady loading on the blades and the resulting tonal noise emission by helicoidal surface theory. The model is validated by measurements from a single over-the-wing mounted rotor for a wide range of angle of attack, advance ratios, and rotor positions over the wing’s chord. The predictions and experimental data show an equivalent increase in the tonal components relative to the isolated rotor, and a minimization of the tonal noise for a midchord rotor position, for emission directions around the rotor disk plane over the wing’s suction side.",
+    "authors": [
+      "Hasse Dekker",
+      "Marthijn Tuinstra",
+      "Daniele Ragni"
+    ],
+    "date": "2025-07-02",
+    "url": "https://doi.org/10.2514/1.j064986",
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本文研究翼上安装旋翼的气动声学预测，提出一种基于物理的低阶模型，考虑机翼环流和分离边界层吸入对旋翼非均匀入流的影响，通过螺旋面理论预测叶片非定常载荷和声学噪声。模型在多种攻角、前进比和旋翼位置下验证，发现翼上安装旋翼的声学成分相对于孤立旋翼增加，且中弦位置噪声最小。",
+    "method": "理论建模与实验验证相结合，主要工况包括攻角、前进比和旋翼在翼弦上的位置变化。",
+    "innovation": "提出低阶模型整合机翼环流和边界层吸入效应，用于预测翼上旋翼的非均匀入流和声学噪声。",
+    "conclusions": "翼上安装旋翼的声学成分相对于孤立旋翼增加；中弦位置旋翼噪声最小，适用于翼吸力侧发射方向。",
+    "limitations": "模型基于无粘势流假设，可能忽略粘性效应；仅验证单旋翼，未考虑多旋翼或复杂安装条件。",
+    "tags": [
+      "畸变进气",
+      "实验测量",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "研究涉及非均匀入流和畸变进气，与压气机稳定性分析部分相关，但核心方向是气动声学而非热力学稳定性。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-30",
+    "groups": []
+  },
+  {
     "id": "54c84a6c4e80",
     "title": "Stall Inception of Axial Fan with Foam Metal Casing Treatment",
     "abstract": "The effect of the foam metal casing treatment on the stall inception of an axial flow fan is experimentally and numerically investigated in this paper. The foam metal casing treatment is a wide casing groove filled with a foam metal ring (GFM). It is found there is a link between the axial location of the GFM and the prestall behavior patterns. When the GFM is placed at locations near the leading edge of the rotor blade, the fan stalls via the short-length-scale disturbance (spikes). However, at locations near the midchord of blade, the fan experiences a long-length-scale disturbance before the rotating stall. Particularly at location 35 mm downstream of the blade leading edge (represented by CT8), there appears two long-length-scale disturbances in the prestall process. The stall inception mechanism of the fan in CT8 is presented with focus on the behavior of the tip leakage behavior during the throttling. Detailed observation shows that the second long-length-scale disturbance corresponds to the unsteady forward spillage of the partial tip leakage flow, while the first long-length-scale disturbance is related to the classical modal wave. The transition of the stall inception pattern and the trigger mechanism of the second long-length-scale disturbance are also discussed.",
@@ -3127,7 +3300,9 @@
     "relevance_reason": "论文直接涉及压气机稳定性、叶尖间隙畸变和机匣处理，与用户研究方向高度相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Beihang BUAA"
+    ]
   },
   {
     "id": "d109072447f7",
@@ -3192,7 +3367,9 @@
     "relevance_reason": "该论文直接涉及压气机稳定性、畸变进气下的失速机理和预警方法，与用户研究方向高度相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "CAS IET"
+    ],
     "year": 2025,
     "topics_matched": [
       "叶尖间隙",
@@ -3230,7 +3407,7 @@
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "year": 2025,
     "topics_matched": [
@@ -3356,7 +3533,9 @@
     "relevance_reason": "论文直接研究叶尖间隙对压气机稳定性的影响，属于核心研究方向之一。",
     "innovation": "结合声传播特性分析叶尖间隙对风扇气动弹性的影响，揭示间隙效应与声学模式的关联性。",
     "conclusions": "叶尖间隙不改变最不稳定节径位置；间隙对气动阻尼的影响取决于声传播模式，无最优气动弹性间隙。",
-    "groups": [],
+    "groups": [
+      "Beihang BUAA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2025,
     "topics_matched": [
@@ -3365,6 +3544,36 @@
       "非定常流动",
       "气弹/振动"
     ]
+  },
+  {
+    "id": "bcd0184b157d",
+    "title": "Streak-Based Control for First-Mode Oblique Breakdown at Mach 4.5",
+    "abstract": "Previous research demonstrated that streaks effectively suppress first-mode oblique breakdown in a Mach 2.0 supersonic boundary layer. However, whether streaks can be effective in delaying oblique breakdown in high-speed boundary layers is still unknown. The present study examines the control effect of streaks on the first-mode oblique breakdown in a high-speed boundary layer at Mach 4.5 using direct numerical simulation and stability analysis. The results show significant differences in control mechanisms. Firstly, the mean-flow distortion induced by streaks in the current study exerts a destabilizing effect on the oblique wave, in contrast to the suppression of the oblique mode reported in earlier work. Secondly, the control modes analyzed here, with a spanwise wavenumber twice that of the fundamental oblique wave, can delay the onset of oblique breakdown. When the spanwise wavenumber exceeds 2.0, the control mode results in a higher amplification rate of the fundamental oblique mode in the present study, whereas it was found to suppress the oblique wave in previous studies. Lastly, the streaks can suppress the receptivity process of the boundary layer to the oblique mode, which is the main reason for the transition delay.",
+    "authors": [
+      "Teng Zhou",
+      "Chen Gong",
+      "Yanhui Lu",
+      "Wenzheng Wang"
+    ],
+    "date": "2025-05-01",
+    "url": "https://doi.org/10.2514/1.j065103",
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本研究通过直接数值模拟和稳定性分析，探讨了条纹控制对马赫4.5高速边界层中第一模态斜波破裂的影响。研究发现，条纹引起的平均流畸变对斜波具有失稳作用，而控制模式（展向波数为斜波两倍）能延迟破裂发生，主要通过抑制边界层对斜波的接受性来实现过渡延迟。",
+    "method": "采用直接数值模拟和稳定性分析，研究马赫4.5高速边界层中条纹控制对第一模态斜波破裂的影响。",
+    "innovation": "与马赫2.0研究相比，揭示了条纹在高马赫数下的不同控制机制，如平均流畸变对斜波的失稳效应，拓展了高速边界层稳定性控制的理解。",
+    "conclusions": "条纹控制模式（展向波数为斜波两倍）能延迟斜波破裂；当展向波数超过2.0时，控制模式反而增加斜波的放大率。",
+    "limitations": "研究仅基于马赫4.5工况，未覆盖更宽马赫数范围或实际压气机环境，可能限制通用性。",
+    "tags": [
+      "稳定性分析",
+      "数值方法"
+    ],
+    "relevance": 2,
+    "relevance_reason": "论文涉及边界层稳定性分析和数值方法，与压气机稳定性研究部分相关，但未直接针对叶尖间隙或机匣处理。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-30",
+    "groups": []
   },
   {
     "id": "b1d77b6b080a",
@@ -3583,7 +3792,9 @@
     "relevance_reason": "论文涉及失速机理和稳定性建模，与压气机稳定性分析部分相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Bath Sealing Group"
+    ]
   },
   {
     "id": "54340a1561d9",
@@ -3676,7 +3887,7 @@
     "innovation": "首次通过全环模拟揭示非轴对称叶尖间隙引起的二次谐波动量分布对失速传播特性的影响，并建立了周向失速传播模型。",
     "conclusions": "非轴对称叶尖间隙布局导致失速传播速度差异，间隙增大区域传播速度约75%转速，间隙减小区域约62.5%转速。",
     "groups": [
-      "Jinfang Teng Group"
+      "SJTU Teng Group"
     ],
     "fetched_at": "2026-03-27",
     "year": 2025,
@@ -3776,13 +3987,44 @@
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "year": 2025,
     "topics_matched": [
       "进气畸变",
       "离心压气机"
     ]
+  },
+  {
+    "id": "2a292b546e0d",
+    "title": "Aeroelastic Wing Performance in High-Intensity Freestream Turbulence: Integral Length Scale Effects",
+    "abstract": "The impact of variations in the integral length scale of incoming freestream turbulence on an aeroelastic NACA0012 wing is investigated using force, moment, and particle image velocimetry measurements. At a chord-based Reynolds number ([Formula: see text]) of [Formula: see text], an active grid generates turbulence intensities of 15% at normalized integral length scales ranging from [Formula: see text] to [Formula: see text] (where [Formula: see text] is the chord length). The introduction of turbulence improves the time-averaged performance characteristics of the aeroelastic wing by delaying stall and increasing the peak lift coefficient. The turbulence excites structural modes such as bending and torsion, but it does not introduce new frequencies in the forces and moments. Instead, it amplifies particular frequencies that appear in the clean flow case. It is observed that, for full-chord integral length scales, the magnitude of the fluctuations in forces and moments at the frequency of a structural bending mode is excited. Meanwhile, at half-chord integral length scales, the magnitude of the fluctuations in forces and moments at the frequency of a torsional response is excited. The structural excitations resulting from the incoming turbulence in turn generate unique characteristics in the flowfield surrounding the aeroelastic wing.",
+    "authors": [
+      "Craig Thompson",
+      "Hülya Biler",
+      "Sean Symon",
+      "Bharathram Ganapathisubramani"
+    ],
+    "date": "2025-02-07",
+    "url": "https://doi.org/10.2514/1.j064015",
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "该研究通过实验方法，探究了来流湍流积分长度尺度变化对NACA0012气动弹性机翼性能的影响。在雷诺数为[Formula: see text]时，使用主动网格生成15%湍流强度，积分长度尺度范围为[Formula: see text]至[Formula: see text]。核心发现：湍流能延迟失速、提高峰值升力系数，并激发结构弯曲和扭转模态，但未引入新频率，而是放大清洁流中已有频率。",
+    "method": "实验研究，采用力、力矩和粒子图像测速测量，雷诺数[Formula: see text]，湍流强度15%，积分长度尺度[Formula: see text]至[Formula: see text]。",
+    "innovation": "创新点在于系统研究积分长度尺度对气动弹性机翼性能的影响，揭示湍流如何选择性放大特定结构模态频率，而非引入新频率。",
+    "conclusions": "湍流能延迟失速并提高峰值升力系数；全弦长积分长度尺度激发弯曲模态频率，半弦长激发扭转模态频率。",
+    "limitations": "研究仅针对NACA0012机翼和特定工况，未涉及其他翼型或更宽参数范围。",
+    "tags": [
+      "实验测量",
+      "稳定性分析",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "该论文涉及气动弹性稳定性分析，但与压气机稳定性、叶尖间隙畸变等核心方向关联较弱。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-30",
+    "groups": []
   },
   {
     "id": "ac28cdb5f104",
@@ -3885,7 +4127,7 @@
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
     "groups": [
-      "Jinfang Teng Group"
+      "SJTU Teng Group"
     ],
     "year": 2025,
     "topics_matched": [
@@ -4048,7 +4290,9 @@
     "relevance_reason": "论文聚焦于压气机稳定性预测模型，直接涉及稳定性分析，但未深入讨论叶尖间隙畸变或机匣处理等核心方向。",
     "innovation": "在经典失速压力上升方法基础上，引入叶片展弦比修正因子，优化归一化扩散长度定义，以更准确预测压气机失稳边界。",
     "conclusions": "模型将失速静压上升预测误差从10%降低到5%；实验数据验证了模型在多种低转速压气机配置下的准确性。",
-    "groups": [],
+    "groups": [
+      "Tsinghua Turbo Lab"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -4086,7 +4330,9 @@
     "relevance_reason": "研究涉及叶片损伤导致的流动畸变和稳定性变化，与压气机稳定性分析相关，但未直接聚焦叶尖间隙或激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Cambridge Whittle Lab"
+    ],
     "year": 2024,
     "topics_matched": [
       "叶尖间隙"
@@ -4219,7 +4465,9 @@
     "relevance_reason": "研究涉及进气畸变对下游压缩系统稳定性的影响，与压气机稳定性分析相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Cranfield Propulsion"
+    ]
   },
   {
     "id": "be03ef10f3ae",
@@ -4349,7 +4597,7 @@
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "year": 2024,
     "topics_matched": [
@@ -4612,7 +4860,9 @@
     "relevance_reason": "论文直接聚焦于压气机稳定性（NSV）和叶尖间隙畸变，与研究方向核心高度一致。",
     "innovation": "首次系统揭示了叶尖间隙变化对NSV气动扰动传播机制的影响，并建模了间隙变化对振动的气动失谐效应。",
     "conclusions": "叶尖间隙增大可提高扰动速度和强度；叶尖间隙变化作为气动失谐，引发多节点直径振动。",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -4646,7 +4896,9 @@
     "relevance_reason": "论文直接涉及压气机稳定性分析、叶尖间隙畸变和实验测量，与研究方向高度相关。",
     "innovation": "首次在UHBR风扇实验中系统研究结构失谐和叶尖间隙变化对NSV的影响，提供基准数据集，挑战现有数值预测方法。",
     "conclusions": "结构失谐配置的叶片振动幅度高于调谐参考配置；实验观测的相互作用模式与数值预测存在显著差异。",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -4656,6 +4908,37 @@
       "非定常流动",
       "气弹/振动"
     ]
+  },
+  {
+    "id": "8c5582c4ea30",
+    "title": "Film Cooling and Thermal Performances of a Blade Tip Winglet Operated in an Annular Test Rig and a Test Gas Turbine Power Plant",
+    "abstract": "Abstract This paper investigates the film cooling performances and thermal behavior of a blade tip winglet, which was initially investigated in a 1.5-stage experimental axial turbine facility and subsequently also tested in a gas turbine power plant. The adiabatic film cooling effectiveness was measured in the rotating 1.5-stage axial turbine facility, whereas in the gas turbine power plant, the tip winglet had active internal cooling coupled to the airfoil and winglet film cooling system. For both test facilities, the tip winglet consisted of several fan-shaped diffuser cooling holes, which were distributed in various regions of the tip winglet and airfoil. The pressure-sensitive paint method was employed to measure the film cooling effectiveness in the 1.5-stage test rig, which was conducted for two tip clearances and a range of blowing ratios. The tip winglet in the gas turbine test power plant was operated for a long duration and under various gas turbine steady-state and transient operating conditions. The blade and tip metal temperatures were measured with embedded thermocrystal sensors and thermocouples for a wide range of operating conditions. Measured local film cooling distributions from the 1.5-stage experimental turbine indicated that it was strongly dependent on the coolant blowing ratios but relatively insensitive to the tip clearances and coolant-to-hot gas density ratio. The measurements also indicated that there was reasonably good coverage of film cooling in large areas of the winglet cavity floor and pressure and suction side tip rims. Metal temperature measurements at various locations of the tip winglet from the gas turbine power plant tests, also indicated that the measured values were within the expected ranges of the predicted metal temperatures.",
+    "authors": [
+      "Shailendra Naik",
+      "M. Henze",
+      "Manuel Wilhelm",
+      "Heinz-Peter Schiffer"
+    ],
+    "date": "2024-11-21",
+    "url": "https://doi.org/10.1115/1.4067237",
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本文研究了叶片叶尖小翼的薄膜冷却性能和热行为，在1.5级实验轴流涡轮设施和燃气轮机发电厂中进行了测试。采用压力敏感涂料法测量薄膜冷却效率，结果表明冷却效率强烈依赖于吹风比，但对叶尖间隙和密度比相对不敏感。金属温度测量值在预测范围内，表明冷却系统有效。",
+    "method": "实验研究，包括1.5级旋转轴流涡轮设施和燃气轮机发电厂测试，工况参数包括不同叶尖间隙、吹风比和稳态/瞬态运行条件。",
+    "innovation": "创新点在于将叶尖小翼薄膜冷却系统从实验设施扩展到实际燃气轮机发电厂，结合内部冷却和薄膜冷却，验证了长期运行下的热性能。",
+    "conclusions": "薄膜冷却效率强烈依赖于吹风比，但对叶尖间隙和冷却剂-热气体密度比相对不敏感；金属温度测量值在预测范围内，表明冷却系统设计有效。",
+    "limitations": "研究主要关注热性能和冷却效率，未深入分析对压气机稳定性或流动失速的影响，可能缺乏气动稳定性方面的数据。",
+    "tags": [
+      "实验测量",
+      "叶尖间隙",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "研究涉及叶尖间隙和实验测量，但与压气机稳定性、激盘模型等核心方向关联较弱。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-30",
+    "groups": []
   },
   {
     "id": "53c20f6f53c4",
@@ -4687,7 +4970,10 @@
     "relevance_reason": "论文涉及畸变进气下的稳定性分析，与用户研究方向部分相关，但未直接涉及叶尖间隙或机匣处理。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Imperial Aeroelasticity",
+      "ITP Aero / UPM"
+    ],
     "year": 2024,
     "topics_matched": [
       "压缩机稳定性",
@@ -4815,7 +5101,7 @@
     "innovation": "创新点在于利用超音速流场中的强压力梯度，通过时钟设计优化再循环通道的注入和提取时机，减少稳定性与效率之间的权衡。",
     "conclusions": "再循环通道的稳定性增强机制由有效时钟决定；振荡衰减机制通过增加叶尖平均轴向速度和衰减振荡来提升稳定性。",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "fetched_at": "2026-03-27",
     "year": 2024,
@@ -5009,7 +5295,9 @@
     "relevance_reason": "论文涉及压气机内部流动稳定性分析，与研究方向部分相关。",
     "innovation": "首次实验研究低压和中压压气机中倒置温度梯度下的流动与传热，填补了该领域的空白。",
     "conclusions": "倒置温度梯度下的流动结构与正温度梯度相似；临界罗斯贝数决定涡旋结构类型。",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -5105,7 +5393,9 @@
     "relevance_reason": "论文涉及叶尖间隙优化，与压气机稳定性中的叶尖间隙畸变和机匣处理部分相关，但主要针对涡轮而非压气机。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Purdue Compressor Lab"
+    ]
   },
   {
     "id": "4f69afe03608",
@@ -5135,7 +5425,9 @@
     "relevance_reason": "论文涉及叶尖间隙流动和机匣处理技术，与用户研究方向部分相关，但重点在涡轮而非压气机。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Purdue Compressor Lab"
+    ]
   },
   {
     "id": "b0431cee87ab",
@@ -5425,7 +5717,10 @@
     "relevance_reason": "研究涉及畸变进气下的风扇稳定性问题，与压气机稳定性分析相关，但未直接聚焦叶尖间隙或机匣处理。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Imperial Aeroelasticity",
+      "ITP Aero / UPM"
+    ]
   },
   {
     "id": "471633d2b51a",
@@ -5490,7 +5785,9 @@
     "relevance_reason": "论文直接涉及压气机稳定性分析和流动稳定性方法，与研究方向核心高度相关。",
     "innovation": "创新点在于将子午流线稳定性模型与伴随方法结合，建立了定量评估压气机流动稳定性的敏感性分析方法，能有效识别失速敏感区域。",
     "conclusions": "旋转失速对转子叶尖区域高度敏感；对叶尖附近流场进行控制可提升压气机失速裕度。",
-    "groups": [],
+    "groups": [
+      "Beihang BUAA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -5717,7 +6014,9 @@
     "relevance_reason": "论文涉及机匣泄漏流控制，与机匣处理部分相关，但核心方向是涡轮而非压气机，且未直接涉及稳定性或叶尖间隙畸变。",
     "innovation": "首次尝试通过增材制造技术开发流动控制方案，同时降低泄漏流的混合损失和风阻损失，解决了传统方法中控制要求冲突的难题。",
     "conclusions": "流动控制方案使腔体风阻累计降低16%；涡轮级机械效率估计提高1%。",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -5781,7 +6080,9 @@
     "relevance_reason": "论文涉及高速接触和热机械响应，与压气机叶尖间隙和稳定性分析部分相关，但非核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "year": 2024,
     "topics_matched": []
   },
@@ -5840,9 +6141,7 @@
     "relevance_reason": "论文直接研究压气机稳定性，涉及机匣处理和数值模拟，与研究方向高度相关。",
     "innovation": "提出改进的叶轮扩散因子（DF），结合高保真CFD，量化评估带机匣处理的压气机叶轮稳定性，填补了不同配置稳定性理解的空白。",
     "conclusions": "改进的叶轮扩散因子能定量评估稳定性变化，如某配置提升稳定性3%；失速行为从叶轮主导转变为无叶扩压器主导。",
-    "groups": [
-      "Stephen Spence Group"
-    ],
+    "groups": [],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -5881,7 +6180,9 @@
     "relevance_reason": "研究涉及刷式密封对燃气轮机稳定性的贡献，与压气机稳定性分析相关，但非核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "year": 2024,
     "topics_matched": [
       "压缩机稳定性"
@@ -5915,7 +6216,10 @@
     "relevance_reason": "研究涉及叶尖间隙接触问题，与压气机稳定性分析相关，但未直接聚焦气动热力学核心。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal",
+      "Ecole Centrale Lyon LMFA"
+    ],
     "year": 2024,
     "topics_matched": [
       "气弹/振动"
@@ -5984,7 +6288,9 @@
     "relevance_reason": "研究刷式密封的吹下现象与叶尖间隙相关，但未直接涉及压气机稳定性或激盘模型等核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Bath Sealing Group"
+    ]
   },
   {
     "id": "5b3bae5d2a34",
@@ -6133,7 +6439,9 @@
     "relevance_reason": "论文涉及结构动力学和数值方法，与压气机稳定性分析中的建模和数值模拟部分相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "year": 2024,
     "topics_matched": []
   },
@@ -6202,7 +6510,9 @@
     "relevance_reason": "研究涉及压气机/涡轮稳定性分析中的颤振现象，与稳定性建模和流动稳定性相关，但非核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "ITP Aero / UPM"
+    ],
     "year": 2024,
     "topics_matched": [
       "非定常流动",
@@ -6232,7 +6542,7 @@
     "innovation": "采用增材制造技术快速原型化离心压缩机的静止扩散系统，结合SLA树脂材料，显著降低了成本和开发周期，实现了高效迭代设计和实验测量。",
     "conclusions": "增材制造的扩散系统在多次设计迭代中表现出良好的可重复性和温度独立性；材料选择需权衡其性能特性以优化制造过程。",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "fetched_at": "2026-03-27",
     "year": 2024,
@@ -6360,7 +6670,7 @@
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "year": 2024,
     "topics_matched": [
@@ -6625,7 +6935,9 @@
     "relevance_reason": "涉及畸变进气对风扇性能的影响，与压气机稳定性研究部分相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Cambridge Whittle Lab"
+    ],
     "year": 2024,
     "topics_matched": [
       "进气畸变",
@@ -6693,7 +7005,9 @@
     "relevance_reason": "论文涉及叶尖间隙相关的热膨胀和腔体流动，但核心更偏向热交换而非稳定性分析。",
     "innovation": "首次系统研究盘毂间距对压气机腔体热质交换的影响，并建立可靠的降阶模型。",
     "conclusions": "盘毂间距显著影响腔体与通流的相互作用；模型能有效预测温度分布，支持发动机设计优化。",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -6817,7 +7131,9 @@
     "relevance_reason": "论文直接涉及压气机稳定性分析、机匣处理优化和数值方法，与核心研究方向高度匹配。",
     "innovation": "提出基于解析分析框架的阻抗边界条件机匣处理优化方法，将非线性扰动视为强迫，实现阻抗与能量增益的线性关系分析。",
     "conclusions": "一阶周向模态在给定工况下能量最高；最优阻抗边界条件能显著抑制扰动，尤其在近失速工况下降低能量增益。",
-    "groups": [],
+    "groups": [
+      "Beihang BUAA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -6883,8 +7199,7 @@
     "innovation": "揭示了非均匀叶尖间隙下旋转不稳定性与失速前扰动的关联机制，通过后相位锁定技术结合实验与模拟验证了泄漏涡破裂的物理过程。",
     "conclusions": "旋转不稳定性是失速前扰动的上游迁移结果；叶尖泄漏涡的螺旋型破裂是旋转不稳定性的起源机制。",
     "groups": [
-      "Yanhui Wu Group",
-      "Stephen Spence Group"
+      "BIT Wu Group"
     ],
     "fetched_at": "2026-03-27",
     "year": 2024,
@@ -7144,7 +7459,9 @@
     "venue": "ASME Turbo Expo 2024",
     "innovation": "结合叶尖间隙变化与叶片材料差异，系统分析旋转不稳定性诱导的非同步振动机制，并验证金属丝网机匣处理的有效性。",
     "conclusions": "大叶尖间隙下尼龙叶片易诱发高振幅非同步振动，金属丝网机匣处理能有效扩展稳定裕度并抑制振动。",
-    "groups": [],
+    "groups": [
+      "Beihang BUAA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -7177,7 +7494,9 @@
     "relevance_reason": "论文直接研究压气机喘振机理和流动稳定性，与研究方向核心高度相关。",
     "innovation": "首次通过三维数值模拟揭示了离心压气机喘振中蜗壳不对称几何诱导的失速胞演化机制及其与逆流、膨胀波的相互作用。",
     "conclusions": "喘振初期，蜗壳出口压力畸变在叶轮入口诱导两种独立失速胞；喘振发展导致失速胞混合，引发不对称局部逆流并扩展至全周向，压比骤降。",
-    "groups": [],
+    "groups": [
+      "Peking University"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -7243,7 +7562,9 @@
     "relevance_reason": "研究涉及畸变进气对导叶性能的影响，与压气机稳定性部分相关，但焦点在涡轮而非压气机。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Oxford Thermofluids"
+    ]
   },
   {
     "id": "60899d7422ea",
@@ -7345,7 +7666,9 @@
     "relevance_reason": "研究涉及涡轮转子在近失速工况下的稳定性分析，与压气机稳定性领域部分相关，但焦点在气动弹性而非气动热力学。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "ITP Aero / UPM"
+    ]
   },
   {
     "id": "ab127f7f39fe",
@@ -7568,7 +7891,9 @@
     "relevance_reason": "论文直接研究叶片-机匣相互作用和稳定性分析，与压气机稳定性、叶尖间隙畸变高度相关。",
     "innovation": "将数值分岔跟踪策略应用于高维非线性系统，特别是叶片-机匣相互作用，扩展了频率方法的工业适用性。",
     "conclusions": "该方法能高效识别孤立解分支，对设计至关重要；适用于NASA转子67等工业风扇叶片系统。",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": []
@@ -7730,7 +8055,9 @@
     "relevance_reason": "研究涉及进气畸变对风扇稳定性的影响及被动控制方法，与压气机稳定性领域相关，但未直接聚焦叶尖间隙或机匣处理。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal"
+    ],
     "year": 2024,
     "topics_matched": [
       "进气畸变",
@@ -7891,7 +8218,7 @@
     "innovation": "相比前人主要依赖数值模拟，本文提供了独特的实验研究，直接评估可变进口导叶重调对压气机失速行为的实际影响。",
     "conclusions": "可变进口导叶重调改变了压气机的级匹配，但未改变失速起始机制。",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "fetched_at": "2026-03-27",
     "year": 2024,
@@ -7924,7 +8251,9 @@
     "relevance_reason": "论文直接研究压气机稳定性，涉及失速/喘振机理和实验测量，与研究方向核心高度相关。",
     "innovation": "首次在轴流-离心组合压气机中系统实验揭示了不同转速下不稳定性演化过程，特别是中速工况下类似两区喘振的行为。",
     "conclusions": "1. 旋转失速在蜗舌附近形成高压区，导致周向压力畸变和失速胞振幅差异。2. 中速工况下离心级出现高频轻度喘振与旋转失速交替，类似两区喘振现象。",
-    "groups": [],
+    "groups": [
+      "Tsinghua Turbo Lab"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -8054,7 +8383,9 @@
     "relevance_reason": "研究涉及流动稳定性分析和实验测量，与压气机稳定性领域部分相关，但焦点在涡轮而非压气机。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "year": 2024,
     "topics_matched": []
   },
@@ -8113,7 +8444,9 @@
     "relevance_reason": "论文聚焦于压气机稳定性分析，涉及气动弹性稳定性和非同步振动，与研究方向核心部分相关。",
     "innovation": "相比前人工作，本文创新性地应用时间精确模拟结合谐波振荡，深入分析非同步振动的非线性行为和锁入机制，为气动弹性稳定性评估提供了新视角。",
     "conclusions": "1. 模拟揭示了非同步振动中多波数发展和模式散射现象；2. 振动幅度对气动弹性响应具有非线性依赖，强调了强耦合方法在评估中的必要性。",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -8214,7 +8547,9 @@
     "relevance_reason": "论文涉及进气畸变对发动机稳定性的影响，与压气机稳定性分析相关，但未直接涉及叶尖间隙或机匣处理。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Cranfield Propulsion"
+    ]
   },
   {
     "id": "0f8a0caa716a",
@@ -8243,7 +8578,9 @@
     "relevance_reason": "论文直接研究机匣处理在畸变进气下对压气机稳定性的影响，与核心方向高度匹配。",
     "innovation": "优化机匣处理在畸变进气下提升失速裕度，并揭示畸变改变风扇不稳定性模式（从喘振到失速）的新现象。",
     "conclusions": "OPCT在100%设计转速下提升失速裕度7.31%，效率增益1.94%；畸变进气下B参数从2.942降至0.863，风扇不稳定性模式从喘振变为失速。",
-    "groups": [],
+    "groups": [
+      "CAS IET"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2024,
     "topics_matched": [
@@ -8345,7 +8682,9 @@
     "relevance_reason": "研究涉及压气机稳定性分析，但未直接针对叶尖间隙畸变或机匣处理，与用户课题部分相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Cambridge Whittle Lab"
+    ]
   },
   {
     "id": "486d1e4218c4",
@@ -8456,7 +8795,9 @@
     "relevance_reason": "研究涉及压气机级中的引气槽和机匣处理，与机匣处理相关，但核心方向更偏向水提取而非稳定性分析。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Cambridge Whittle Lab"
+    ],
     "year": 2024,
     "topics_matched": []
   },
@@ -8520,7 +8861,9 @@
     "relevance_reason": "论文直接研究机匣处理对压气机稳定性的影响，涉及失速预测和流动分析，与研究方向高度相关。",
     "innovation": "将金属丝网机匣处理建模为阻抗边界条件，并集成到失速起始预测模型中，实现了快速设计迭代。",
     "conclusions": "机匣处理安装在中弦位置时失速裕度提升最大；阻抗边界条件能有效衰减扰动并限制其分布范围。",
-    "groups": [],
+    "groups": [
+      "Beihang BUAA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2023,
     "topics_matched": [
@@ -8558,7 +8901,9 @@
     "relevance_reason": "涉及叶尖间隙流动和数值方法，但未直接关联压气机稳定性或机匣处理等核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Oxford Thermofluids"
+    ]
   },
   {
     "id": "6edea1359c18",
@@ -8620,7 +8965,10 @@
     "relevance_reason": "论文涉及压气机进气畸变传播的模拟，与用户研究方向中的叶尖间隙畸变和流动稳定性分析部分相关，但未直接聚焦于稳定性建模或机匣处理。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Imperial Aeroelasticity",
+      "Tsinghua Turbo Lab"
+    ],
     "year": 2023,
     "topics_matched": [
       "进气畸变",
@@ -8654,9 +9002,7 @@
     "relevance_reason": "论文涉及涡轮机械流动稳定性分析，但核心主题是涡轮而非压气机，与指定研究方向部分相关。",
     "innovation": "首次系统评估多涡壳蜗壳对不同叶片锥角混合流涡轮的影响，识别出能有效减少轮毂区域入射角的叶片锥角范围。",
     "conclusions": "大叶片锥角（60度）与多涡壳蜗壳配对可显著提升效率并改善轮毂区域流动；小叶片锥角（30度）则因增加入射角而降低性能。",
-    "groups": [
-      "Stephen Spence Group"
-    ],
+    "groups": [],
     "fetched_at": "2026-03-27",
     "year": 2023,
     "topics_matched": []
@@ -8818,7 +9164,9 @@
     "relevance_reason": "论文核心研究压气机稳定性、机匣处理与叶尖间隙流动的相互作用，直接涉及研究方向的核心内容。",
     "innovation": "集成优化设计转子与轴向槽机匣处理，结合前偏转槽和前掠转子最大化动量交换，并基于级内匹配机制重新设计静子。",
     "conclusions": "失速裕度提升10.89%且峰值效率无损失；重新设计静子后效率提升0.87%。",
-    "groups": [],
+    "groups": [
+      "CAS IET"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2023,
     "topics_matched": [
@@ -8858,7 +9206,9 @@
     "relevance_reason": "论文直接涉及压气机稳定性分析和畸变进气下的失速预警，与用户研究方向部分相关，但未深入叶尖间隙或激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Beihang BUAA"
+    ],
     "year": 2023,
     "topics_matched": [
       "进气畸变"
@@ -8894,7 +9244,9 @@
     "relevance_reason": "该研究涉及叶尖间隙预测，与压气机稳定性相关，但未直接聚焦于稳定性分析或畸变进气。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Tsinghua Turbo Lab"
+    ],
     "year": 2023,
     "topics_matched": [
       "叶尖间隙",
@@ -8926,7 +9278,9 @@
     "relevance_reason": "论文涉及叶尖间隙测量和流动稳定性分析，与压气机稳定性研究方向部分相关。",
     "innovation": "开发并共享了ECL5/CATANA开放测试案例风扇，为现代超高通比风扇提供了首个全面的实验基准数据集，支持多保真度方法验证。",
     "conclusions": "叶尖流动和静子角分离的预测存在显著不准确；需要运行条件下的真实叶片几何测量以提高模拟精度。",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2023,
     "topics_matched": [
@@ -9144,7 +9498,9 @@
     "relevance_reason": "研究直接关联叶尖间隙的热膨胀预测，但未深入涉及稳定性分析或激盘模型等核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "year": 2023,
     "topics_matched": [
       "叶尖间隙"
@@ -9259,7 +9615,9 @@
     "relevance_reason": "论文涉及排气系统气动性能，与压气机稳定性等核心方向间接相关，但非直接研究压气机内部流动。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Cranfield Propulsion"
+    ],
     "year": 2023,
     "topics_matched": [
       "跨音速/激波"
@@ -9456,7 +9814,9 @@
     "relevance_reason": "研究涉及气动和热场测量，与压气机稳定性分析部分相关，但焦点在导叶冷却而非核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Oxford Thermofluids"
+    ]
   },
   {
     "id": "63a8904284de",
@@ -9557,7 +9917,9 @@
     "relevance_reason": "研究涉及密封流动行为，与压气机稳定性中的泄漏和间隙控制部分相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "year": 2023,
     "topics_matched": [
       "压缩机稳定性"
@@ -9592,7 +9954,9 @@
     "relevance_reason": "研究涉及进气道畸变和非定常流动对风扇稳定性的影响，与压气机稳定性分析相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Cranfield Propulsion"
+    ]
   },
   {
     "id": "605fc402cc12",
@@ -9686,7 +10050,9 @@
     "relevance_reason": "研究涉及压气机稳定性分析和实验测量，与用户课题的稳定性预测相关，但未直接涉及叶尖间隙畸变或激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "year": 2023,
     "topics_matched": [
       "压缩机稳定性",
@@ -9722,7 +10088,10 @@
     "relevance_reason": "研究涉及叶片在接触下的动力学响应，与压气机稳定性分析相关，但未直接聚焦于气动热力学或畸变进气。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal",
+      "Ecole Centrale Lyon LMFA"
+    ],
     "year": 2023,
     "topics_matched": [
       "气弹/振动"
@@ -9844,7 +10213,9 @@
     "relevance_reason": "论文涉及压气机热传递和叶尖间隙控制，与研究方向部分相关，但核心更偏向热力学建模而非直接的气动稳定性分析。",
     "innovation": "创新点在于采用迭代耦合策略，结合URANS流体模拟与固体稳态模拟，直接预测盘片温度，避免了传统方法中依赖已知温度边界条件的限制。",
     "conclusions": "1. 模拟预测的金属温度和热传递关联与实验测量结果在发动机相关条件下一致。2. 该方法能有效捕捉非定常流动特征，提高热传递预测的准确性。",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2023,
     "topics_matched": [
@@ -9985,7 +10356,9 @@
     "relevance_reason": "论文涉及密封动态特性，与压气机稳定性间接相关，但未直接聚焦叶尖间隙畸变或机匣处理。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "year": 2023,
     "topics_matched": [
       "叶尖间隙"
@@ -10135,7 +10508,9 @@
     "relevance_reason": "研究直接涉及压气机叶尖间隙的瞬态变化和流动稳定性分析，与压气机稳定性、叶尖间隙畸变等核心方向相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "year": 2023,
     "topics_matched": [
       "叶尖间隙",
@@ -10299,7 +10674,9 @@
     "relevance_reason": "论文涉及叶尖间隙相关的非线性振动和接触现象，但核心方向是动力学仿真而非气动热力学稳定性分析。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal"
+    ],
     "year": 2023,
     "topics_matched": []
   },
@@ -10501,7 +10878,9 @@
     "relevance_reason": "论文涉及压气机叶片结构重设计，与叶尖间隙和稳定性分析间接相关，但非核心方向。",
     "innovation": "提出双向建模方法，结合参数化叶片和迭代优化，实现高保真度结构重设计，以处理非线性接触问题。",
     "conclusions": "方法应用于转子37重设计，提高了其对接触相互作用的鲁棒性；验证了参数化叶片在几何和动态特性上的高保真度。",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2023,
     "topics_matched": [
@@ -10638,7 +11017,9 @@
     "relevance_reason": "论文涉及压气机性能预测和数值方法，与用户研究方向部分相关，但未直接涉及叶尖间隙畸变或稳定性分析。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Imperial Aeroelasticity"
+    ],
     "year": 2023,
     "topics_matched": [
       "叶尖间隙",
@@ -10794,9 +11175,7 @@
     "relevance_reason": "论文直接研究压气机流动不稳定性和失速/喘振机理，与用户研究方向部分相关但未涉及叶尖间隙畸变或激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [
-      "Yanhui Wu Group"
-    ],
+    "groups": [],
     "year": 2023,
     "topics_matched": [
       "压缩机稳定性"
@@ -10860,7 +11239,9 @@
     "relevance_reason": "研究涉及压气机叶尖区域流动分离和数值建模，与稳定性分析和叶尖间隙相关，但非核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Cambridge Whittle Lab"
+    ],
     "year": 2023,
     "topics_matched": [
       "稳定性建模",
@@ -10891,7 +11272,9 @@
     "relevance_reason": "论文直接针对压气机旋转失速的稳定性分析，属于核心研究方向。",
     "innovation": "将非线性特征值问题转化为广义问题，利用Arnoldi算法实现快速预测旋转失速起始，大幅缩短计算时间。",
     "conclusions": "模型计算时间从数百小时缩短至几分钟；在跨音速和亚音速案例中，预测结果与实验数据一致。",
-    "groups": [],
+    "groups": [
+      "Beihang BUAA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2023,
     "topics_matched": [
@@ -11396,7 +11779,7 @@
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "year": 2023,
     "topics_matched": [
@@ -11430,7 +11813,9 @@
     "relevance_reason": "论文直接研究机匣处理对压气机旋转不稳定性的影响，与研究方向核心高度相关。",
     "innovation": "结合分区大涡模拟与动态模态分解，量化分析机匣槽对旋转不稳定性的频率和空间分布影响，揭示其抑制机制。",
     "conclusions": "机匣槽使旋转不稳定性主导频率从约0.5倍叶片通过频率向上游偏移；槽下区域波动被有效抑制，改变旋转不稳定性特性。",
-    "groups": [],
+    "groups": [
+      "TU Dresden"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2023,
     "topics_matched": [
@@ -11496,9 +11881,7 @@
     "relevance_reason": "论文涉及离心压缩机的稳定性分析和性能优化，与压气机稳定性研究方向相关，但未直接聚焦于叶尖间隙畸变或机匣处理。",
     "innovation": "创新点在于系统研究了带叶片扩压器中侧隙几何和位置对压缩机性能的影响，填补了该领域在可变几何压缩机设计中的知识空白。",
     "conclusions": "侧隙作为流场不连续性会导致效率损失；侧隙几何和位置对压缩机效率和稳定性有显著影响，需优化设计以提升近喘振性能。",
-    "groups": [
-      "Stephen Spence Group"
-    ],
+    "groups": [],
     "fetched_at": "2026-03-27",
     "year": 2023,
     "topics_matched": [
@@ -11669,7 +12052,9 @@
     "relevance_reason": "研究涉及畸变进气（旋流和温度畸变）对涡轮导向叶片的影响，与压气机稳定性领域部分相关，但焦点在燃烧室模拟和涡轮部件，非压气机核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Oxford Thermofluids"
+    ],
     "year": 2022,
     "topics_matched": [
       "进气畸变",
@@ -12066,7 +12451,7 @@
     "innovation": "将喘振机制与组件静态压力特性关联，揭示跨音速进口条件对喘振类型的影响，为预测失速起始提供新方法。",
     "conclusions": "喘振机制与组件静态压力特性直接相关；跨音速进口条件导致90%转速下的温和喘振。",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "fetched_at": "2026-03-27",
     "year": 2022,
@@ -12100,7 +12485,7 @@
     "innovation": "挑战传统观点，发现叶轮而非扩压器是离心压缩机失稳的主要来源，为喘振抑制策略提供了新方向。",
     "conclusions": "喘振类型与叶尖相对马赫数相关，深度喘振发生在亚音速和超音速工况，温和喘振在接近音速时出现；叶轮是压缩机图中大部分工况的失稳起源。",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "fetched_at": "2026-03-27",
     "year": 2022,
@@ -12133,13 +12518,46 @@
     "relevance_reason": "论文直接研究压气机稳定性中的喘振机理，与研究方向核心高度相关。",
     "innovation": "首次通过实验和模型分析，建立了叶轮进口回流与压力比斜率变化之间的直接关联，阐明了离心压气机两阶段喘振的流动机制。",
     "conclusions": "压力比特性从正斜率转为负斜率是触发两阶段喘振的必要条件；叶轮进口回流通过调节功输入和流动损失增长率，实现平衡并导致斜率变化。",
-    "groups": [],
+    "groups": [
+      "Tsinghua Turbo Lab"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2022,
     "topics_matched": [
       "压缩机稳定性",
       "离心压气机"
     ]
+  },
+  {
+    "id": "24bd0c0cb33b",
+    "title": "Static and Rotordynamic Characteristics for Supercritical Carbon Dioxide Spiral Groove Dry Gas Seal With the Tilted Seal Ring",
+    "abstract": "Abstract Supercritical carbon dioxide (SCO2) Brayton cycle has been widely used as a substitute for traditional steam cycles. As one of the key components of power-dense turbomachines, dry gas seal (DGS) has been considered one of the most suitable dynamic seal options due to its superior sealing performance. In this paper, considering the installation errors and external disturbances of the shaft end seal in a 14 MW supercritical carbon dioxide turbine, a comprehensive numerical study was conducted on the seal static and rotordynamic characteristics for four dry gas seal designs with different coning displacements. To account for the real gas effect of SCO2, a table lookup program was used to obtain the physics properties of CO2 under supercritical conditions based on the database of the National Institute of Standards and Technology (NIST). A frequency-dependent rotordynamic coefficients stiffness damping model (KC model) for SCO2 DGS and the mesh deformation technique were adapted to analyze the rotordynamic performance of the designed DGS. Steady-state numerical results of leakage rate, opening force, and steady film stiffness were analyzed and compared under four coning displacements. Transient numerical results of rotordynamic force coefficients were analyzed and studied under four coning displacement ratios and 10 vibration frequencies. Results show that the increase in coning displacement causes a 20% rise in leakage rate and a 2.4% increase in opening force. The tilted seal ring results in a maximum 30%–84% variation of the dynamic stiffness and greatly influences the damping coefficient. From a comprehensive view, the tilt of the seal rings brings undesired influences on both the static and rotor dynamic performance of SCO2 DGS. The distortion of the seal rings due to installation errors and other disturbances should be avoided as far as possible in SCO2 DGSs.",
+    "authors": [
+      "Tao Yuan",
+      "Zhigang Li",
+      "Jun Li",
+      "Qi Yuan"
+    ],
+    "date": "2022-09-26",
+    "url": "https://doi.org/10.1115/1.4055787",
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本文针对14 MW超临界二氧化碳涡轮机中的干气密封，研究了密封环倾斜对静态和转子动力学特性的影响。采用数值模拟方法，基于NIST数据库考虑真实气体效应，分析了四种不同锥形位移下的泄漏率、开启力和动态刚度。核心发现是倾斜导致泄漏率增加20%、开启力增加2.4%，动态刚度变化达30%-84%，对阻尼系数有显著影响，表明倾斜对密封性能产生不利影响。",
+    "method": "数值模拟方法，基于NIST数据库考虑真实气体效应，分析四种锥形位移和10种振动频率下的静态和转子动力学特性。",
+    "innovation": "创新点在于结合真实气体效应和频率依赖的转子动力学系数模型，系统评估超临界二氧化碳干气密封在倾斜条件下的性能变化。",
+    "conclusions": "密封环倾斜导致泄漏率增加20%、开启力增加2.4%，动态刚度变化达30%-84%，显著影响阻尼系数，应尽量避免安装误差引起的倾斜。",
+    "limitations": "研究基于数值模拟，未进行实验验证；仅考虑特定工况，可能未覆盖所有实际运行条件。",
+    "tags": [
+      "数值方法",
+      "稳定性分析",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "论文涉及转子动力学和稳定性分析，但与压气机叶尖间隙畸变等核心方向关联较弱。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-30",
+    "groups": []
   },
   {
     "id": "449522c34fae",
@@ -12313,7 +12731,9 @@
     "relevance_reason": "研究涉及涡轮密封结构的流动稳定性分析，与压气机稳定性领域部分相关，但焦点在涡轮而非压气机。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "year": 2022,
     "topics_matched": [
       "非定常流动"
@@ -12348,7 +12768,9 @@
     "relevance_reason": "研究涉及叶尖间隙畸变下的叶片结构优化，与用户课题中预测叶尖畸变稳定裕度相关，但未直接使用激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal"
+    ],
     "year": 2022,
     "topics_matched": [
       "叶片气动设计"
@@ -12407,7 +12829,7 @@
     "innovation": "揭示了CCGs通过减少叶尖间隙质量流量而非再注入流来改善失速裕度的核心流体机制，澄清了前人关于机匣处理作用的误解。",
     "conclusions": "CCGs使叶尖间隙质量流量减少约16%，主要驱动失速裕度提升；设计工况下效率变化微小，叶尖泄漏涡行为改变。",
     "groups": [
-      "Chunill Hah Group"
+      "NASA Glenn"
     ],
     "fetched_at": "2026-03-27",
     "year": 2022,
@@ -12536,7 +12958,7 @@
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
     "groups": [
-      "Greitzer Group"
+      "MIT GTL"
     ],
     "year": 2022,
     "topics_matched": [
@@ -12680,7 +13102,9 @@
     "relevance_reason": "该论文涉及压气机叶片稳定性分析，与用户研究方向中的压气机稳定性相关，但未直接涉及叶尖间隙畸变或机匣处理的具体气动热力学问题。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal"
+    ],
     "year": 2022,
     "topics_matched": [
       "压缩机稳定性"
@@ -12810,7 +13234,9 @@
     "relevance_reason": "论文涉及压气机盘温度分布和叶尖间隙控制，但核心焦点是传热和流动分层，与稳定性分析等核心方向部分相关。",
     "innovation": "引入可压缩性参数χ，系统分析其对旋转腔内流动分层和传热的影响，提出新的传热关联式。",
     "conclusions": "存在临界可压缩性参数χ，使机匣对流热通量为零；流动分层导致压气机盘温度分布和应力发生显著变化。",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2022,
     "topics_matched": [
@@ -12838,7 +13264,9 @@
     "relevance_reason": "论文讨论了航空发动机的稳定性问题，包括动态不稳定性和流体-结构耦合，与压气机稳定性分析相关，但未专门针对叶尖间隙或机匣处理。",
     "innovation": "将航空发动机问题从静态转向动态不稳定性的系统性分析，强调动力学建模和机制识别作为核心创新点。",
     "conclusions": "动态不稳定问题已成为现代航空发动机设计和认证的主要挑战；未来研究需聚焦于阻尼特性和流体-结构耦合的基础机制。",
-    "groups": [],
+    "groups": [
+      "MIT GTL"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2022,
     "topics_matched": [
@@ -12874,7 +13302,10 @@
     "relevance_reason": "研究涉及叶尖间隙相关的摩擦接触相互作用和稳定性分析，但未直接涉及用户核心的叶尖畸变稳定裕度预测或三维激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Polytechnique Montreal",
+      "Ecole Centrale Lyon LMFA"
+    ]
   },
   {
     "id": "7838acc675fd",
@@ -12996,7 +13427,9 @@
     "relevance_reason": "研究涉及畸变进气（侧滑导致的旋流和总压畸变）对风扇稳定性和性能的影响，与压气机稳定性分析相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Cambridge Whittle Lab"
+    ],
     "year": 2022,
     "topics_matched": [
       "进气畸变",
@@ -13096,7 +13529,9 @@
     "relevance_reason": "论文直接聚焦于机匣处理在畸变进气下的稳定性增强，与研究方向核心高度匹配。",
     "innovation": "针对非轴对称畸变进气，创新性地设计并实验验证了部分机匣处理，通过优化位置以最小化转子叶尖流动扰动，相比传统轴对称处理更高效。",
     "conclusions": "部分机匣处理位置对半环面叶尖低畸变下的失速裕度改善有强依赖性，当处理位于转子进入畸变扇区时扰动最小；72度处理范围可实现全环面50%以上失速裕度改善，效率损失仅20%。",
-    "groups": [],
+    "groups": [
+      "Cambridge Whittle Lab"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2022,
     "topics_matched": [
@@ -13172,7 +13607,9 @@
     "relevance_reason": "该研究涉及压气机稳定性预测和叶尖堵塞分析，与用户研究方向部分相关，但未直接涉及叶尖间隙畸变或激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Imperial Aeroelasticity"
+    ]
   },
   {
     "id": "7f75c43231d8",
@@ -13370,7 +13807,7 @@
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "year": 2022,
     "topics_matched": [
@@ -13530,7 +13967,9 @@
     "relevance_reason": "论文直接研究机匣处理对压气机稳定性和叶尖间隙流动的影响，与研究方向高度相关。",
     "innovation": "揭示了ASCT通过流体分叉机制影响叶尖载荷和叶尖泄漏流相互作用的非定常机理，相比前人更深入解析了槽处理对流动稳定性的动态影响。",
     "conclusions": "ASCT能提高压气机失速裕度约10%（定性），通过抑制叶尖泄漏流溢出延迟旋转失速。",
-    "groups": [],
+    "groups": [
+      "CAS IET"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2022,
     "topics_matched": [
@@ -13702,7 +14141,9 @@
     "relevance_reason": "研究涉及压气机角区分离的非定常拓扑和稳定性行为，与稳定性分析相关，但未直接聚焦于叶尖间隙或机匣处理等核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "year": 2022,
     "topics_matched": [
       "叶片气动设计",
@@ -13829,7 +14270,9 @@
     "relevance_reason": "论文涉及等离子体作动器在流动控制中的应用，但与压气机气动热力学核心方向（如稳定性、叶尖间隙）仅偶有间接关联。",
     "innovation": "首次系统探讨高压高温耦合环境对DBD等离子体作动器性能的影响，填补了极端工况下作动器行为研究的空白。",
     "conclusions": "高压高温耦合导致作动器放电效率降低，流动控制能力减弱；需调整作动器参数以适应极端环境。",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2022,
     "topics_matched": [
@@ -14050,7 +14493,9 @@
     "relevance_reason": "研究涉及畸变进气（大迎角导致的进气道分离）和失速机理（转子-分离相互作用），与压气机稳定性分析相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Cambridge Whittle Lab"
+    ],
     "year": 2022,
     "topics_matched": [
       "压缩机稳定性",
@@ -14089,7 +14534,7 @@
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
     "groups": [
-      "Greitzer Group"
+      "MIT GTL"
     ],
     "year": 2022,
     "topics_matched": [
@@ -14220,7 +14665,7 @@
     "innovation": "在组件级和多种转速下系统研究叶尖间隙效应，填补了前人主要关注设计工况和级分析的空白。",
     "conclusions": "叶尖间隙增大导致压气机性能下降，但在跨音速过渡区敏感性最高；CFD模型能准确预测间隙对性能的影响。",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "fetched_at": "2026-03-27",
     "year": 2022,
@@ -14285,7 +14730,9 @@
     "relevance_reason": "论文直接研究压气机失速性能和稳定性，与研究方向中的稳定性分析和失速机理高度相关。",
     "innovation": "首次系统研究雷诺数对失速后压气机性能的影响，特别是失速单元尺寸、数量和速度的依赖关系，填补了失速机理中环境参数效应的研究空白。",
     "conclusions": "1. 雷诺数从20,000增至100,000时，失速滞后增大六倍；2. 低雷诺数下失速单元状态不稳定，导致失速单元数量直接跳跃变化。",
-    "groups": [],
+    "groups": [
+      "Cambridge Whittle Lab"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2022,
     "topics_matched": [
@@ -14387,7 +14834,9 @@
     "relevance_reason": "研究涉及旋转腔流动结构，与压气机稳定性分析部分相关，但未直接聚焦叶尖间隙或激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Bath Sealing Group"
+    ],
     "year": 2022,
     "topics_matched": [
       "非定常流动"
@@ -14422,7 +14871,9 @@
     "relevance_reason": "涉及旋转失速稳定性分析，但未直接关联压气机叶尖间隙畸变或激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Tsinghua Turbo Lab"
+    ],
     "year": 2022,
     "topics_matched": [
       "压缩机稳定性",
@@ -14562,9 +15013,7 @@
     "relevance_reason": "该论文直接涉及压气机稳定性分析，包括旋转不稳定性和旋转失速的模式特性，与用户研究方向核心相关，但未明确涉及叶尖间隙畸变或机匣处理。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [
-      "Yanhui Wu Group"
-    ],
+    "groups": [],
     "year": 2021,
     "topics_matched": [
       "压缩机稳定性"
@@ -14790,7 +15239,9 @@
     "relevance_reason": "该研究涉及压气机稳定性分析和实验测量，与用户研究方向部分相关，但未直接涉及叶尖间隙畸变或机匣处理。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "CAS IET"
+    ],
     "year": 2021,
     "topics_matched": [
       "压缩机稳定性",
@@ -14819,7 +15270,10 @@
     "relevance_reason": "论文直接研究压气机失速和喘振预测，与稳定性分析高度相关。",
     "innovation": "创新点在于开发了一种高效的三维体力模型，能快速预测失速和喘振，显著减少计算时间。",
     "conclusions": "方法能正确捕捉失速和喘振特征；模拟时间相比URANS减少1-2个数量级。",
-    "groups": [],
+    "groups": [
+      "Imperial Aeroelasticity",
+      "Tsinghua Turbo Lab"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2021,
     "topics_matched": [
@@ -14854,7 +15308,9 @@
     "relevance_reason": "论文涉及涡轮导叶损失特性，与压气机稳定性、叶尖间隙等核心方向部分相关但非直接研究。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Oxford Thermofluids"
+    ],
     "year": 2021,
     "topics_matched": [
       "跨音速/激波",
@@ -14889,7 +15345,9 @@
     "relevance_reason": "论文涉及非均匀流动分析，与压气机稳定性研究中的流动畸变评估相关，但未直接聚焦叶尖间隙或激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Oxford Thermofluids"
+    ],
     "year": 2021,
     "topics_matched": [
       "跨音速/激波",
@@ -15162,7 +15620,7 @@
     "innovation": "采用高斯概率密度函数生成随机非轴对称叶尖间隙布局，并量化其对压气机性能和稳定性的影响，揭示了间隙尺寸周向分布如何通过重新分配流动参数来减轻阻塞。",
     "conclusions": "非轴对称叶尖间隙布局能提高等熵效率1.3%和失速裕度4%；间隙尺寸周向分布导致叶尖泄漏流阻塞显著减轻，从而改善整体性能。",
     "groups": [
-      "Jinfang Teng Group"
+      "SJTU Teng Group"
     ],
     "fetched_at": "2026-03-27",
     "year": 2021,
@@ -15200,7 +15658,9 @@
     "relevance_reason": "该研究涉及畸变进气对推进系统稳定性的影响，与用户课题中预测叶尖畸变下的稳定裕度相关，但未直接涉及叶尖间隙或激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-30",
-    "groups": []
+    "groups": [
+      "Cranfield Propulsion"
+    ]
   },
   {
     "id": "c815c98e8f24",
@@ -15297,7 +15757,9 @@
     "relevance_reason": "论文涉及叶尖间隙对压气机流动的影响，与研究方向部分相关，但未直接聚焦稳定性或机匣处理。",
     "innovation": "首次系统比较SST、SAS和ZLES模型在不同叶尖间隙下的性能，揭示ZLES在捕捉复杂湍流流动中的优势，为压气机湍流建模提供新见解。",
     "conclusions": "ZLES模型在所有叶尖间隙下均能最佳模拟压气机转子流动；SST模型性能随间隙增大而下降，SAS模型在中、大间隙时表现接近ZLES。",
-    "groups": [],
+    "groups": [
+      "TU Dresden"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2021,
     "topics_matched": [
@@ -15326,7 +15788,9 @@
     "relevance_reason": "论文直接研究压气机稳定性问题，涉及流动稳定性分析，但未聚焦于叶尖间隙畸变或机匣处理等核心方向。",
     "innovation": "首次系统结合气动和结构失谐效应，在线性模型中研究其对非同步振动的抑制机制，并量化了失谐程度的影响。",
     "conclusions": "气动失谐主要通过周向平均条件抑制NSV，模式影响较小；结合1%的气动和结构失谐可有效提高稳定性。",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2021,
     "topics_matched": [
@@ -15662,7 +16126,9 @@
     "relevance_reason": "研究涉及叶尖间隙相关的接触事件，但未直接聚焦于稳定性或畸变进气，与用户课题部分相关。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal"
+    ],
     "year": 2021,
     "topics_matched": [
       "叶尖间隙"
@@ -15695,7 +16161,9 @@
     "relevance_reason": "研究涉及叶尖间隙相互作用和数值方法，与用户课题的叶尖畸变稳定裕度预测部分相关，但未直接涉及三维激盘模型或稳定裕度预测。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal"
+    ],
     "year": 2021,
     "topics_matched": []
   },
@@ -15797,7 +16265,9 @@
     "relevance_reason": "研究涉及转子/静子接触和失谐对稳定性的影响，但未直接聚焦叶尖间隙畸变或机匣处理等用户核心方向。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Polytechnique Montreal"
+    ],
     "year": 2021,
     "topics_matched": [
       "气弹/振动"
@@ -15923,7 +16393,9 @@
     "relevance_reason": "论文直接研究机匣处理对压气机稳定性的影响，与研究方向高度相关。",
     "innovation": "创新点在于系统比较不同PPI泡沫金属机匣处理在两种安装位置下的稳定性和噪声性能，揭示其优化机制。",
     "conclusions": "泡沫金属机匣处理在位置1能有效提升失速裕度并降低噪声，而位置2虽大幅提高稳定性但噪声增加。",
-    "groups": [],
+    "groups": [
+      "Beihang BUAA"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2021,
     "topics_matched": [
@@ -15960,7 +16432,9 @@
     "relevance_reason": "研究涉及压气机稳定性分析和叶尖区域旋转不稳定性，与用户研究方向部分相关但未直接涉及叶尖间隙畸变或激盘模型。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Ecole Centrale Lyon LMFA"
+    ],
     "year": 2021,
     "topics_matched": [
       "压缩机稳定性",
@@ -16005,6 +16479,36 @@
     ]
   },
   {
+    "id": "3ed3d5e00127",
+    "title": "Influence of Leading-Edge Tubercle with Amplitude Modulation on NACA 0015 Airfoil",
+    "abstract": "Flow around a NACA 0015 airfoil with leading-edge tubercles was investigated using force measurements and flow visualization at . The experiments were carried out at a low Reynolds number of , where the transition to turbulent flow still occurred on the suction side of the airfoil. The leading-edge patterns of the models were produced by using only either one wave function or one superposition of two wave functions. Two tubercle models with uniform distribution and nine more realistic biomimicked airfoil models with amplitude modulation in tubercle geometry were tested in experiments. Force measurements showed that when compared to the baseline model, models with tubercles did not experience a sudden loss of lift and have higher lift coefficients in the poststall regime, irrespective of the model. It was found that the W15 model performs best in terms of maximum lift coefficient, stall angle, aerodynamic performance in the poststall regime; as well as in terms of the minimum fluctuating lift coefficient in both pre- and poststall regimes. Enhancement of aerodynamic performance is due to the presence of stall cell formation with the counter-rotating vortex pairs and three-dimensional spanwise flow pattern initiated by leading-edge tubercles at the poststall regime.",
+    "authors": [
+      "Mehmet Seyhan",
+      "Mustafa Sarıoğlu",
+      "Yahya Erkan Akansu"
+    ],
+    "date": "2021-07-06",
+    "url": "https://doi.org/10.2514/1.j060180",
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "pdf_url": "",
+    "summary_zh": "本研究通过实验方法，在低雷诺数下探究了NACA 0015翼型前缘结节（包括均匀分布和振幅调制的仿生模型）对流动的影响。核心发现是结节翼型能避免升力突然下降，在失速后区域提升升力系数，其中W15模型表现最佳，归因于结节诱导的反向旋转涡对和三维展向流动模式。",
+    "method": "实验研究，包括力测量和流动可视化，在低雷诺数下进行，测试了均匀分布和振幅调制的结节模型。",
+    "innovation": "创新点在于引入振幅调制的仿生前缘结节，相比传统均匀结节，更贴近生物原型，优化了失速后气动性能。",
+    "conclusions": "结节翼型在失速后区域升力系数更高，无突然失速；W15模型在最大升力系数、失速角和升力波动最小化方面表现最佳。",
+    "limitations": "研究限于低雷诺数工况，未涉及高雷诺数或实际压气机环境，可能影响应用推广。",
+    "tags": [
+      "实验测量",
+      "失速/喘振机理",
+      "其他"
+    ],
+    "relevance": 2,
+    "relevance_reason": "研究涉及翼型失速机理和流动稳定性，与压气机稳定性分析部分相关，但未直接针对叶尖间隙或机匣处理。",
+    "has_fulltext": false,
+    "fetched_at": "2026-03-30",
+    "groups": []
+  },
+  {
     "id": "97e7c8acfaa3",
     "title": "The Effects of Reynolds Number on the Stall and Pre-Stall Behavior of Compact Axial Compressors",
     "abstract": "Abstract Compact axial compression systems are of interest to the domestic appliance industry. The associated low Reynolds number leads to high losses compared to large-scale compressors due to a transitional flow field with large regions of separation. This paper investigates how Reynolds number variations affect the three-dimensional and unsteady flow field in a compact compressor both pre-stall and in stall. An experimental study has been conducted using a scaled-up single-stage axial compressor across a Reynolds number range of 104–105. Steady and unsteady casing static pressure measurements, along with rotor upstream and downstream unsteady velocity measurements, have been used to observe the rotor flow field. As the Reynolds number is reduced below a critical value, 60,000 in the case of the compressor studied, the pressure rise coefficient of the compressor rapidly decreases. The exact value of the critical Reynolds number is expected to vary with the compressor geometry. This fall-off in performance corresponds to an increase in the compressor rotor secondary flows. Prior to stall, a broadband hump at around 50% of the blade passing frequency is present in the near-field casing static pressure spectra. At Reynolds numbers below the critical value, multiple equally spaced peaks also appear around the peak of the broadband hump. The spacing of these peaks has been found to be exactly equal to the measured stall cell speed once rotating stall is established. When operating in stall, the stall cell is found to increase in circumferential size and slow down as Reynolds number decreases. The measured spectra and observed flow structures show that disturbances exist prior to stall at frequencies consistent with the frequencies within stall. The size and shape of the stall cells that form are related to the extent of the three-dimensional flow field present prior to stall. Below a critical value, all of these flow features are highly sensitive to Reynolds number.",
@@ -16031,7 +16535,9 @@
     "relevance_reason": "论文涉及压气机稳定性分析，包括失速前行为和失速机理，与用户研究方向部分相关，但未直接涉及叶尖间隙畸变或机匣处理。",
     "has_fulltext": false,
     "fetched_at": "2026-03-27",
-    "groups": [],
+    "groups": [
+      "Cambridge Whittle Lab"
+    ],
     "year": 2021,
     "topics_matched": [
       "压缩机稳定性",
@@ -16062,7 +16568,9 @@
     "venue": "ASME Turbo Expo 2021",
     "innovation": "利用磁悬浮轴承系统实现转子-机匣偏心调节，无需拆卸试验段，创新性地在连续运行条件下研究非轴对称叶尖间隙效应。",
     "conclusions": "转子-机匣偏心在测试范围内不影响整体涡轮效率；偏心局部影响效率和转子出口流场，与现有分析方法一致。",
-    "groups": [],
+    "groups": [
+      "Purdue Compressor Lab"
+    ],
     "fetched_at": "2026-03-27",
     "year": 2021,
     "topics_matched": [
@@ -16154,7 +16662,7 @@
     "innovation": "提出广义平板叶栅模型结合特征值方法，系统分析非均匀叶片间距对压气机转子颤振稳定性的影响，扩展了气动弹性建模能力。",
     "conclusions": "非均匀叶片间距能显著改变叶片气动阻尼，部分叶片可能失稳；交替和单叶片移位间距可轻微提高整体稳定性，而正弦间距有轻微失稳效应。",
     "groups": [
-      "Nicole L. Key Group"
+      "Purdue Compressor Lab"
     ],
     "fetched_at": "2026-03-27",
     "year": 2021,
@@ -16163,312 +16671,6 @@
       "叶片气动设计",
       "非定常流动",
       "气弹/振动"
-    ]
-  },
-  {
-    "id": "12d3ed69c9ff",
-    "title": "Considerations in the Selection of Inflow States with Finite-State Dynamic Inflow",
-    "abstract": "No AccessTechnical NotesConsiderations in the Selection of Inflow States with Finite-State Dynamic InflowJimmy C. Ho and Hyeonsoo YeoJimmy C. HoU.S. Army Combat Capabilities Development Command Aviation & Missile Center Ames Research Center, Moffett Field, California 94035*Aerospace Engineer. Senior Member AIAA.Search for more papers by this author and Hyeonsoo YeoU.S. Army Combat Capabilities Development Command Aviation & Missile Center Ames Research Center, Moffett Field, California 94035†Research Aerospace Engineer. Associate Fellow AIAA.Search for more papers by this authorPublished Online:21 May 2021https://doi.org/10.2514/1.J060176SectionsRead Now ToolsAdd to favoritesDownload citationTrack citations About References [1] Peters D. A., “How Dynamic Inflow Survives in the Competitive World of Rotorcraft Aerodynamics,” Journal of the American Helicopter Society, Vol. 54, No. 1, 2009, Paper 011001. https://doi.org/10.4050/JAHS.54.011001 CrossrefGoogle Scholar[2] Peters D. A., Boyd D. D. and He C. J., “Finite-State Induced-Flow Model for Rotors in Hover and Forward Flight,” Journal of the American Helicopter Society, Vol. 34, No. 4, 1989, pp. 5–17. https://doi.org/10.4050/JAHS.34.5 CrossrefGoogle Scholar[3] Peters D. A. and He C. J., “Correlation of Measured Induced Velocities with a Finite-State Wake Model,” Journal of the American Helicopter Society, Vol. 36, No. 3, 1991, pp. 59–70. https://doi.org/10.4050/JAHS.36.59 CrossrefGoogle Scholar[4] Peters D. A. and He C. J., “Finite State Induced Flow Models Part II: Three-Dimensional Rotor Disk,” Journal of Aircraft, Vol. 32, No. 2, 1995, pp. 323–333. https://doi.org/10.2514/3.46719 LinkGoogle Scholar[5] Du Val R. W. and He C., “Validation of the FLIGHTLAB Virtual Engineering Toolset,” Aeronautical Journal, Vol. 122, No. 1250, 2018, pp. 519–555. https://doi.org/10.1017/aer.2018.12 CrossrefGoogle Scholar[6] Saberi H., Hasbun M., Hong J., Yeo H. and Ormiston R. A., “Overview of RCAS Capabilities, Validations, and Rotorcraft Applications,” Proceedings of the American Helicopter Society 71st Annual Forum, Vertical Flight Soc., Fairfax, VA, May 2015, p. 328. Google Scholar[7] Kinner W., “Die kreisförmige Tragfläche auf potentialtheoretischer Grundlage,” Ingenieur-Archiv, Vol. 8, No. 1, 1937, pp. 47–80. https://doi.org/10.1007/BF02086522 CrossrefGoogle Scholar[8] Rosen A. and Gur O., “Novel Approach to Axisymmetric Actuator Disk Modeling,” AIAA Journal, Vol. 46, No. 11, 2008, pp. 2914–2925. https://doi.org/10.2514/1.37383 LinkGoogle Scholar[9] Kominer S. and Rosen A., “New Actuator-Disk Model for a Skewed Flow,” AIAA Journal, Vol. 51, No. 6, 2013, pp. 1382–1393. https://doi.org/10.2514/1.J052057 LinkGoogle Scholar[10] Yu W., Ferreira C. and van Kuik G. A. M., “Analytical Actuator Disk Solution for Unsteady and/or Non-Uniform Loading,” AIAA Paper 2016-0751, Jan. 2016. https://doi.org/10.2514/6.2016-0751 Google Scholar[11] Dick S. C., Waal S. R., Ng P., Gnaggy S. L. and Westphal R., “Compressible Isolated Actuator Disk Theory Solutions,” AIAA Paper 2019-3827, Aug. 2019. https://doi.org/10.2514/6.2019-3827 Google Scholar[12] Fei Z. and Peters D. A., “Fundamental Solutions of the Potential Flow Equations for Rotorcraft with Applications,” AIAA Journal, Vol. 53, No. 5, 2015, pp. 1251–1261. https://doi.org/10.2514/1.J053308 LinkGoogle Scholar[13] Pitt D. M. and Peters D. A., “Theoretical Prediction of Dynamic-Inflow Derivatives,” Vertica, Vol. 5, No. 1, 1981, pp. 21–34. Google Scholar[14] Balch D. T. and Lombardi J., “Experimental Study of Main Rotor Tip Geometry and Tail Rotor Interactions in Hover. Volume I—Text and Figures,” NASA CR 177336, Feb. 1985. Google Scholar[15] Ho J. C. and Yeo H., “Evaluation of Finite-State Dynamic Inflow for Rotors,” Journal of Aircraft, April 2021. https://doi.org/10.2514/1.C036208 Google Scholar Previous article Next article FiguresReferencesRelatedDetails What's Popular Volume 59, Number 7July 2021 CrossmarkInformationThis material is declared a work of the U.S. Government and is not subject to copyright protection in the United States. All requests for copying and permission to reprint should be submitted to CCC at www.copyright.com; employ the eISSN 1533-385X to initiate your request. See also AIAA Rights and Permissions www.aiaa.org/randp. TopicsAerodynamic PerformanceAerodynamicsAerospace SciencesFlight DynamicsFlight MechanicsFlow RegimesFluid DynamicsVortex Dynamics KeywordsAeromechanicsVorticesBlade Pitch ControlFlight SimulationAngle of AttackActuator DiskRotor BladesPotential FlowRotorcraftsPDF Received10 October 2020Accepted19 April 2021Published online21 May 2021",
-    "authors": [
-      "Jimmy Ho",
-      "Hyeonsoo Yeo"
-    ],
-    "date": "2021-05-21",
-    "url": "https://doi.org/10.2514/1.j060176",
-    "venue": "AIAA Journal",
-    "source": "OpenAlex",
-    "pdf_url": "",
-    "summary_zh": "该论文探讨了有限状态动态入流模型中入流状态的选择问题，针对旋翼机气动分析。通过理论建模和数值方法，研究了不同入流状态对动态入流模型精度的影响，旨在优化模型选择以提高预测准确性。",
-    "method": "基于理论建模和数值分析，采用有限状态动态入流模型，参考Peters等人的经典理论框架进行入流状态选择研究。",
-    "innovation": "系统分析了有限状态动态入流模型中入流状态选择的影响，为旋翼机气动分析提供了更精确的模型选择指导。",
-    "conclusions": "1. 入流状态的选择显著影响动态入流模型的预测精度；2. 优化入流状态选择可提高旋翼机气动性能分析的可靠性。",
-    "limitations": "研究主要针对旋翼机，未涉及压气机叶尖间隙畸变等具体工程问题。",
-    "tags": [
-      "激盘/体力模型",
-      "稳定性建模",
-      "其他"
-    ],
-    "relevance": 2,
-    "relevance_reason": "论文涉及激盘/体力模型和稳定性建模，但与压气机叶尖间隙畸变等核心研究方向关联较弱。",
-    "has_fulltext": false,
-    "fetched_at": "2026-03-30",
-    "groups": []
-  },
-  {
-    "id": "ac85d207d03d",
-    "title": "Aerodynamic Loading Considerations of Three-Shaft Engine Compression System During Surge",
-    "abstract": "Abstract Compressor surge imposes a limit on aero-engine operability and can compromise integrity because of significant aerodynamic loads imparted on the engine components. The aim of this article is to use 3D unsteady computational fluid dynamics (CFD) to predict the surge loadings on a compression system of a modern three-spool engine. The compression system is matched at a high power condition and computations are performed using a whole-assembly approach. In this study, the effect of two types of surge initiation on the maximum loading recorded during surge are studied: throttling of the high pressure compressor (HPC) and turning of the intermediate pressure compressor (IPC) variable stator vanes (VSV). An explanation of the main physical phenomena that contribute to those loadings is offered. It was found that in an aero-engine surge event, the maximum overpressure is driven by a combined effect of the surge shock wave passing and high pressure gas blown toward the front of the engine during depressurization. The amplitude of maximum overpressure is dictated by the compression system exit pressure at the moment of surge inception. The surge initiation via HPC throttling produces larger overpressure and therefore should be considered for design intent.",
-    "authors": [
-      "José Manuel Díaz Moreno",
-      "John A. Dodds",
-      "Christopher Sheaf",
-      "Fanzhou Zhao",
-      "Mehdi Vahdati"
-    ],
-    "date": "2021-05-19",
-    "url": "https://doi.org/10.1115/1.4051207",
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "pdf_url": "",
-    "summary_zh": "本文使用三维非定常CFD方法，研究现代三轴发动机压缩系统在喘振过程中的气动载荷。通过全装配模拟，比较了高压压气机节流和中压压气机可调静叶转动两种喘振触发方式对最大载荷的影响。核心发现是最大超压由喘振激波传递和高压气体前吹共同驱动，且喘振起始时的出口压力决定其幅值，其中高压压气机节流触发产生更大超压。",
-    "method": "采用三维非定常CFD进行全装配数值模拟，匹配高功率工况，研究高压压气机节流和中压压气机可调静叶转动触发喘振。",
-    "innovation": "创新点在于使用全装配CFD分析三轴发动机喘振载荷，并比较不同喘振触发机制（如高压压气机节流与可调静叶转动）对载荷的影响。",
-    "conclusions": "喘振最大超压由喘振激波和高压气体前吹共同导致，其幅值取决于喘振起始时的压缩系统出口压力；高压压气机节流触发比可调静叶转动产生更大超压。",
-    "limitations": "研究基于CFD模拟，可能未完全验证实验数据，且仅针对特定三轴发动机设计，通用性有限。",
-    "tags": [
-      "稳定性分析",
-      "数值方法",
-      "失速/喘振机理"
-    ],
-    "relevance": 3,
-    "relevance_reason": "论文涉及喘振机理和稳定性分析，与用户研究方向部分相关，但未直接聚焦叶尖间隙畸变或激盘模型。",
-    "has_fulltext": false,
-    "fetched_at": "2026-03-27",
-    "groups": [],
-    "year": 2021,
-    "topics_matched": [
-      "压缩机稳定性",
-      "跨音速/激波",
-      "非定常流动"
-    ]
-  },
-  {
-    "id": "28fda4922b78",
-    "title": "Experimental and Numerical Study of an Open Impeller Centrifugal Compressor Stage Utilizing Three-Dimensional (3D) Diffuser End Wall Contouring for Operating Range Extension",
-    "abstract": "Abstract Highly efficient and concurrent flexible operation are heavy demands on today's centrifugal compressor units. Diffuser end wall contouring is a measure to delay the incipience of instability and therefore to extend the compressor's operating range while maintaining efficient performance. In the presented paper, a hub-side wall contouring, applied in the vaneless space upstream the diffuser vane's leading edge and within the diffuser passage of a state-of-the-art centrifugal compressor stage with an open impeller, is examined. Computational fluid dynamics computations are performed for both a baseline diffuser design with parallel channel walls and the hub-side wall contoured diffuser design. Comparisons of characteristic and diffuser stability decisive flow variables are made in perpendicular sections along an extrapolated camber line of the diffuser vane for full span, near shroud and near hub wall. In operating points near the stability limit at two different stage Mach numbers, the stabilizing effect of the hub-side wall contouring on the diffuser flow is clearly shown. In a scale-model test rig, experimental data including pneumatic five-hole probe data for a full diffuser blade-to-blade passage, static wall pressures at various planes as well as total temperatures were measured. The experimental data are utilized for the validation of the presented numerical calculations. The flow stabilizing effect of the hub-wall contouring is clearly visible in the measurements, which showed 8% range extension at highest stage Mach number Mu2 = 1.16 and a range extension of 2% at design stage Mach number Mu2 = 1.",
-    "authors": [
-      "Daniel Hermann",
-      "Manfred Wirsum",
-      "Douglas Robinson",
-      "Philipp Jenny"
-    ],
-    "date": "2021-05-03",
-    "url": "https://doi.org/10.1115/1.4051045",
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "pdf_url": "",
-    "summary_zh": "本文通过实验和数值方法研究了一种采用轮毂侧壁面轮廓设计的开式叶轮离心压气机级，旨在扩展其工作范围。研究对比了基准平行壁面扩压器和轮毂侧壁面轮廓扩压器，在近稳定性极限工况下，轮毂侧壁面轮廓显著稳定了扩压器流动，实验验证了数值计算，并在最高马赫数下实现了8%的范围扩展。",
-    "method": "采用计算流体动力学数值模拟和缩比模型实验台测量，包括五孔探针、壁面静压和总温数据，工况涉及设计马赫数Mu2=1和最高马赫数Mu2=1.16。",
-    "innovation": "创新点在于将轮毂侧壁面轮廓应用于扩压器前缘无叶区和通道内，针对开式叶轮离心压气机，通过三维轮廓设计延迟失稳起始，扩展工作范围。",
-    "conclusions": "轮毂侧壁面轮廓在近稳定性极限工况下显著稳定扩压器流动，实验数据显示在最高马赫数Mu2=1.16时工作范围扩展8%，设计马赫数Mu2=1时扩展2%。",
-    "limitations": "研究可能局限于特定离心压气机配置，未考虑叶尖间隙或畸变进气影响，且实验数据基于缩比模型。",
-    "tags": [
-      "稳定性分析",
-      "数值方法",
-      "实验测量"
-    ],
-    "relevance": 3,
-    "relevance_reason": "该研究涉及压气机稳定性分析和扩展工作范围，与用户研究方向部分相关，但未直接涉及叶尖间隙畸变或激盘模型。",
-    "has_fulltext": false,
-    "fetched_at": "2026-03-27",
-    "groups": [],
-    "year": 2021,
-    "topics_matched": [
-      "压缩机稳定性",
-      "离心压气机"
-    ]
-  },
-  {
-    "id": "a717daa531bd",
-    "title": "Relation Between Geometry and Wake Characteristics of a Supersonic Microramp",
-    "abstract": "Microramp vortex generators are robust, reliable, and simple devices for passively controlling the boundary layer in several aerospace applications. Various past studies have investigated the effectiveness of microramps in controlling the flow separation induced by shock-wave/boundary-layer interactions. Building upon the past knowledge, this paper reports a systematic investigation of the relation between the microramp geometry and the downstream flow characteristics. A simplified flow model of the microramp wake is provided to explain and predict the influence of changing the geometry on the circulation of the primary vortex pair. The model also provides scaling relations for the evolution of the wake characteristics (that is, wake velocity, wake location, and added incompressible momentum), incorporating the effect of all geometry parameters. Extensive experimental data have been used to validate the model.",
-    "authors": [
-      "Sumit Tambe",
-      "Ferry Schrijer",
-      "B.W. van Oudheusden"
-    ],
-    "date": "2021-04-29",
-    "url": "https://doi.org/10.2514/1.j059868",
-    "venue": "AIAA Journal",
-    "source": "OpenAlex",
-    "pdf_url": "",
-    "summary_zh": "本文系统研究了超音速微斜坡的几何形状与下游流动特性之间的关系，通过简化流动模型解释了几何变化对主涡对环量的影响，并提供了包含所有几何参数的尾迹特性演化标度关系，实验数据验证了模型的有效性。",
-    "method": "基于实验数据验证的理论建模方法，主要工况为超音速流动，涉及几何参数变化对尾迹特性的影响。",
-    "innovation": "提出了一个简化流动模型，系统关联几何参数与尾迹特性，并提供了标度关系，相比以往研究更全面地量化了几何影响。",
-    "conclusions": "1. 微斜坡几何形状显著影响主涡对的环量，模型能预测这种影响；2. 尾迹特性（如速度、位置和动量）的演化可通过标度关系描述，实验验证了模型准确性。",
-    "limitations": "研究可能局限于特定超音速工况，未考虑复杂边界层或三维效应，模型简化可能忽略次要流动结构。",
-    "tags": [
-      "实验测量",
-      "稳定性分析",
-      "其他"
-    ],
-    "relevance": 2,
-    "relevance_reason": "论文涉及流动控制和边界层稳定性，与压气机稳定性分析部分相关，但非核心方向。",
-    "has_fulltext": false,
-    "fetched_at": "2026-03-27",
-    "groups": [],
-    "year": 2021,
-    "topics_matched": [
-      "跨音速/激波",
-      "非定常流动"
-    ]
-  },
-  {
-    "id": "f2a5e0118d9e",
-    "title": "Part-Load Strategy Definition and Preliminary Annual Simulation for Small Size sCO2-Based Pulverized Coal Power Plant",
-    "abstract": "Abstract In the near future, due to the growing share of variable renewable energy in the electricity mix and the lack of large-scale electricity storage, coal plants will have to shift their role from base-load operation to providing fluctuating back-up power. However, current coal power plants, based on steam Rankine cycle, are not optimized for flexible part-load operation, resulting in an intrinsic inadequacy for fast load variations. The founding idea of the H2020 sCO2-Flex project is to improve the flexibility of pulverized coal power plants by adopting supercritical CO2 Brayton power cycles. Despite the extensive literature about the design of sCO2 plants, there is still limited discussion about the strategies to be implemented to maximize system efficiency during part-load operation. This paper aims to provide deeper insight about the potential of sCO2 power plants based on recompressed cycle with high-temperature recuperator (HTR) bypass configuration for small modular coal power plants (25 MWel). Analysis focuses on both design and part-load operation providing a preliminary sizing of each component and comparing different operating strategies. Results demonstrate that sCO2 coal power plants can achieve competitive efficiency in both nominal and part-load operation thanks to the progressive increase of heat exchangers effectiveness. Moreover, they can be operated down to 20% electric load increasing power range of coal plants. Finally, the possibility to optimize the cycle minimum pressure ensures a safe operation of the compressor far from the surge line and to increase the performance at low load.",
-    "authors": [
-      "Darío Alfani",
-      "Marco Astolfi",
-      "Marco Binotti",
-      "Paolo Silva"
-    ],
-    "date": "2021-04-28",
-    "url": "https://doi.org/10.1115/1.4051003",
-    "venue": "Journal of Engineering for Gas Turbines and Power",
-    "source": "OpenAlex",
-    "pdf_url": "",
-    "summary_zh": "本文针对小型模块化燃煤电厂（25 MWel），研究采用超临界CO2布雷顿循环（带高温回热器旁路配置）的燃煤电厂在部分负荷下的运行策略。通过初步组件尺寸设计和不同操作策略比较，分析表明sCO2电厂在额定和部分负荷下均能实现高效运行，负荷可降至20%，并通过优化循环最小压力确保压缩机远离喘振线，提升低负荷性能。",
-    "method": "基于数值模拟和理论分析，研究sCO2再压缩循环在部分负荷下的运行策略，包括组件尺寸设计和工况比较。",
-    "innovation": "首次针对小型模块化燃煤电厂（25 MWel）的sCO2循环，提出高温回热器旁路配置的部分负荷策略，优化压缩机稳定性。",
-    "conclusions": "sCO2燃煤电厂在部分负荷下可降至20%电负荷，通过优化循环最小压力确保压缩机远离喘振线，提升低负荷性能。",
-    "limitations": "摘要未涉及具体实验验证，可能缺乏实际运行数据支持，且仅针对25 MWel小型电厂。",
-    "tags": [
-      "稳定性分析",
-      "其他"
-    ],
-    "relevance": 3,
-    "relevance_reason": "论文涉及压缩机稳定性（如远离喘振线），与压气机稳定性分析相关，但非核心方向。",
-    "has_fulltext": false,
-    "fetched_at": "2026-03-28",
-    "groups": [],
-    "year": 2021,
-    "topics_matched": [
-      "压缩机稳定性"
-    ]
-  },
-  {
-    "id": "96ea48ec303d",
-    "title": "Aeroacoustic Coupling Effect During the Ascent of Space Transportation Systems",
-    "abstract": "After the failure of maiden flight 157 of Ariane 5 Evolution Cryotechnique type A (ECA), the inquiry board responsible for the investigation reported as one of the probable causes the “non-exhaustive definition of the loads to which the Vulcain 2 engine is subjected during flight.” As a result, many research activities were set up with the objective to isolate the driving mechanisms. Driving mechanisms such as pumping, flapping, or swinging were found to excite oscillations in the base region. Despite this finding, the question of why the pressure fluctuations and base flow excitations are especially pronounced in the subsonic to transonic flow regime remained unclear. This question is addressed in the study at hand. Results from the literature are combined with recent wind-tunnel measurements on the base model of a space transportation system. The measurement data were acquired by means of particle image velocimetry, pressure transducers, and high-speed schlieren imaging. The results suggest that an aeroacoustic coupling takes place between a jet noise generation mechanism called screeching and the near-wake dynamics. Due to the nature of both effects, they are likely to reach a resonating frequency during the ascent. The resonant frequency appears to increase unfavorable fluctuations in the base region, which are held responsible for the amplified unsteady loads. A schematic model concept is proposed, which describes the underlying governing mechanism. It provides an explanation for question why buffeting effects are especially amplified in the high subsonic ambient flow regime.",
-    "authors": [
-      "Dominik Saile",
-      "Ali Gülhan"
-    ],
-    "date": "2021-04-24",
-    "url": "https://doi.org/10.2514/1.j059747",
-    "venue": "AIAA Journal",
-    "source": "OpenAlex",
-    "pdf_url": "",
-    "summary_zh": "本研究针对Ariane 5 ECA首次飞行失败，探究了亚音速至跨音速流场中压力波动和基流激励增强的原因。结合文献综述和风洞实验（使用粒子图像测速、压力传感器和高速纹影成像），发现喷流噪声（尖叫）与近尾流动力学之间的气动声学耦合在上升过程中产生共振频率，导致基区不稳定载荷放大，并提出了一个描述该机制的模型概念。",
-    "method": "实验方法：风洞测量，使用粒子图像测速、压力传感器和高速纹影成像，工况为亚音速至跨音速流场。",
-    "innovation": "创新点在于揭示了喷流噪声与近尾流动力学的气动声学耦合机制，解释了亚音速至跨音速流场中基区波动增强的原因，并提出了一个概念模型。",
-    "conclusions": "关键结论：1. 喷流尖叫与近尾流动力学发生气动声学耦合，在上升过程中产生共振频率；2. 该共振导致基区压力波动和载荷放大，尤其在亚音速至跨音速流场中显著。",
-    "limitations": "局限：基于摘要推断，可能未涵盖全飞行工况或缺乏详细定量数据验证。",
-    "tags": [
-      "稳定性分析",
-      "实验测量",
-      "其他"
-    ],
-    "relevance": 2,
-    "relevance_reason": "该研究涉及流动稳定性分析和实验测量，但主题聚焦于火箭基区气动声学耦合，与压气机稳定性、叶尖间隙等核心方向间接相关。",
-    "has_fulltext": false,
-    "fetched_at": "2026-03-30",
-    "groups": []
-  },
-  {
-    "id": "c24b940870e7",
-    "title": "Effects of Inlet Guide Vanes on the Performance and Stability of an Aeronautical Centrifugal Compressor",
-    "abstract": "Abstract A research centrifugal compressor stage designed and built by Safran Helicopter Engines is tested at three inlet guide vanes (IGV) stagger angles. The compressor stage includes four blade rows: axial inlet guide vanes, a backswept splittered impeller, a splittered vaned radial diffuser (RD), and axial outlet guide vanes (OGVs). The methodology for calculating the performance is detailed, including the consideration of humidity in order to minimize errors related in particular to operating atmospheric conditions. The shift of the surge line toward lower mass flow rate as the IGV stagger angle increases highly depends on the rotation speed. The surge line shift is very small at low rotation speeds, whereas it significantly increases at high rotation speeds. A first-order stability analysis of the impeller and diffuser sub-components shows that the diffuser (resp. impeller) is the first unstable component at low (resp. high) rotation speeds. This situation is unaltered by increasing the IGV stagger angle. At low rotation speeds below a given mass flow rate, rotating instabilities (RI) at the impeller inlet are detected at zero IGV stagger angle. Their occurrence is conditioned by the relative flow angle at the tip of the leading edge of the impeller. As the IGV stagger angle increases, the mass flow decreases to maintain a given inlet flow angle. Therefore, the onset of the rotating instabilities is delayed toward lower mass flow rates. At high rotation speeds, the absolute flow angle at the diffuser inlet near surge decreases as the IGV stagger angle increases. As a result, the flow is highly alternate over two adjacent channels of the radial diffuser beyond the surge line at IGV stagger angle of 0 deg.",
-    "authors": [
-      "Nicolas Poujol",
-      "Isabelle Trébinjac",
-      "Pierre Duquesne"
-    ],
-    "date": "2021-04-21",
-    "url": "https://doi.org/10.1115/1.4050944",
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "summary_zh": "本文研究了Safran直升机发动机设计的离心压气机级，在不同进口导叶安装角下的性能和稳定性。通过实验测量和考虑湿度的性能计算方法，发现喘振线随导叶角增大向低流量偏移，且偏移量随转速增加而显著。稳定性分析表明，低转速下扩压器先失稳，高转速下叶轮先失稳，导叶角变化不影响此规律。旋转失稳的发生受叶轮前缘叶尖相对流动角影响，导叶角增大会延迟其发生。",
-    "tags": [
-      "稳定性分析",
-      "实验测量",
-      "失速/喘振机理"
-    ],
-    "relevance": 3,
-    "relevance_reason": "论文直接涉及压气机稳定性分析，与研究方向核心的稳定性分析相关。",
-    "innovation": "结合进口导叶安装角变化，系统分析离心压气机在不同转速下的稳定性机制，并关联旋转失稳与流动角条件。",
-    "conclusions": "喘振线偏移随转速增加而显著；低转速下扩压器先失稳，高转速下叶轮先失稳。",
-    "groups": [],
-    "fetched_at": "2026-03-27",
-    "year": 2021,
-    "topics_matched": [
-      "压缩机稳定性",
-      "叶片气动设计",
-      "离心压气机"
-    ]
-  },
-  {
-    "id": "280fda0569ac",
-    "title": "Stall Behavior in an Ultrahigh-Pressure-Ratio Centrifugal Compressor: Backward-Traveling Rotating Stall",
-    "abstract": "Abstract This paper describes the stall mechanism in an ultrahigh-pressure-ratio centrifugal compressor, composed of a double-splitter impeller, radial diffuser, and axial diffuser. A model comprising all impeller and diffuser blade passages is used to conduct unsteady simulations that trace the onset of instability in the compressor. Backward-traveling rotating stall waves appear at the inlet of the radial diffuser when the compressor is throttled. Six stall cells propagate circumferentially at approximately 0.7% of the impeller rotation speed. The detached shock of the radial diffuser leading edge and the number of stall cells determine the direction of stall propagation, which is opposite to the impeller rotation direction. Dynamic mode decomposition is applied to instantaneous flow fields to extract the flow structure related to the stall mode. This shows that intensive pressure fluctuations concentrate in the diffuser throat as a result of changes in the detached shock intensity. The diffuser passage stall and stall recovery are accompanied by changes in incidence angle and shock wave intensity. When the diffuser passage stalls, the shock-induced boundary–layer separation region near the diffuser vane suction surface gradually expands, increasing the incidence angle and decreasing the shock intensity. The shock is pushed from the diffuser's throat toward the diffuser leading edge. When the diffuser passage recovers from the stall, the shock wave gradually returns to the diffuser throat, with the incidence angle decreasing and the shock intensity increasing. Once the shock intensity reaches its maximum, the diffuser passage suffers severe shock-induced boundary–layer separation and stalls again.",
-    "authors": [
-      "Yingjie Zhang",
-      "Xingen Lu",
-      "Yanfeng Zhang",
-      "Ziqing Zhang",
-      "Xu Dong",
-      "Ge Han"
-    ],
-    "date": "2021-04-20",
-    "url": "https://doi.org/10.1115/1.4050918",
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "pdf_url": "",
-    "summary_zh": "本文研究了超高压比离心压气机（含双分流叶轮、径向扩压器和轴向扩压器）的失速机理。通过全通道非定常模拟，发现节流时径向扩压器入口出现反向传播的旋转失速波，约6个失速单元以叶轮转速的0.7%周向传播。动态模态分解揭示扩压器喉部压力波动与脱体激波强度变化相关，失速和恢复过程伴随入射角和激波强度的周期性变化。",
-    "method": "采用全通道非定常数值模拟方法，结合动态模态分解分析流动结构，工况为超高压比离心压气机节流状态。",
-    "innovation": "首次在超高压比离心压气机中详细揭示反向传播旋转失速波的传播机制，并关联扩压器脱体激波与失速动态过程。",
-    "conclusions": "失速波以约0.7%叶轮转速反向传播，由扩压器脱体激波和失速单元数决定；扩压器喉部压力波动与激波强度变化直接相关，失速恢复时激波返回喉部并增强。",
-    "limitations": "研究基于数值模拟，未进行实验验证；可能未考虑实际运行中的叶尖间隙或进气畸变影响。",
-    "tags": [
-      "失速/喘振机理",
-      "数值方法",
-      "稳定性分析"
-    ],
-    "relevance": 3,
-    "relevance_reason": "论文聚焦压气机失速机理和稳定性分析，与用户研究方向部分相关但未直接涉及叶尖间隙畸变或机匣处理。",
-    "has_fulltext": false,
-    "fetched_at": "2026-03-27",
-    "groups": [],
-    "year": 2021,
-    "topics_matched": [
-      "压缩机稳定性",
-      "跨音速/激波",
-      "离心压气机",
-      "非定常流动"
-    ]
-  },
-  {
-    "id": "0b156961839e",
-    "title": "Reynolds, Mach, and Freestream Turbulence Effects on the Flow in a Low-Pressure Turbine",
-    "abstract": "Abstract This article presents the large-eddy simulation (LES) of a low-pressure turbine (LPT) nozzle guide vane (NGV) for different Reynolds (Re) and Mach (Ma) numbers with or without inlet turbulence prescribed. The analysis is based on a slice of an LPT blading representative of a midspan flow, where secondary flows, hub, and shroud effects are lower. The characteristic Re of the LPT can vary by a factor of four between take-off and cruise conditions. In addition, the LPT operates at different Ma values, and the incident flow can have significant levels of turbulence due to upstream blade wakes. This article investigates numerically using LES the flow around an LPT blading with three different Reynolds number Re = 175,000 (cruise), 280,000 (mid-level altitude), and 500,000 (take-off) keeping the same characteristic Mach number Ma = 0.2 and three different Mach number Ma = 0.2, 0.5, and 0.8 keeping the same Reynolds number Re = 280,000. These different simulations are performed with 0% freestream turbulence (FST) followed by inlet turbulence (6% FST). The study focuses on the influence of these three parameters (Re, Ma, and upstream turbulence) on different flow characteristics: pressure distribution around the blade, near-wall flow behavior, loss generation, and turbulent kinetic energy (TKE) budget. The results show an earlier boundary layer separation on the aft region of the blade suction side when the Re is increased, while the increase of the Ma delays separation, similar to freestream turbulence. The TKE budget led on the different cases shows the predominant effect of the turbulent production and diffusion in the wake, the axial evolution of these different terms being relatively insensitive to Re and Ma.",
-    "authors": [
-      "Maxime Fiore",
-      "Nicolas Gourdain"
-    ],
-    "date": "2021-04-20",
-    "url": "https://doi.org/10.1115/1.4050919",
-    "venue": "Journal of Turbomachinery",
-    "source": "OpenAlex",
-    "pdf_url": "",
-    "summary_zh": "本文通过大涡模拟（LES）研究了低涡涡轮（LPT）导叶在不同雷诺数（Re=175,000、280,000、500,000）和马赫数（Ma=0.2、0.5、0.8）下，有无自由流湍流（0%和6% FST）对流动特性的影响。研究对象为LPT叶片中跨流动，重点关注压力分布、近壁流动、损失生成和湍动能预算。核心发现：Re增加导致叶片吸力面后部边界层分离提前，而Ma增加和自由流湍流则延迟分离，湍动能预算中湍流产生和扩散在尾流中占主导，且对Re和Ma变化不敏感。",
-    "method": "采用大涡模拟（LES）数值方法，研究不同Re（175,000、280,000、500,000）和Ma（0.2、0.5、0.8）工况，结合0%和6%自由流湍流条件。",
-    "innovation": "创新点在于系统量化Re、Ma和上游湍流对LPT流动的综合影响，通过LES详细分析湍动能预算，揭示分离机制与参数敏感性。",
-    "conclusions": "关键结论：Re从175,000增至500,000时，叶片吸力面边界层分离提前；Ma从0.2增至0.8或引入6% FST则延迟分离。湍动能预算显示湍流产生和扩散在尾流中占主导，且对Re和Ma变化不敏感。",
-    "limitations": "局限：研究基于中跨流动切片，未考虑叶尖间隙、机匣处理等三维效应，可能限制实际发动机应用。",
-    "tags": [
-      "数值方法",
-      "稳定性分析",
-      "其他"
-    ],
-    "relevance": 3,
-    "relevance_reason": "研究涉及流动稳定性分析（如边界层分离）和数值方法（LES），与压气机稳定性领域部分相关，但直接针对涡轮而非压气机。",
-    "has_fulltext": false,
-    "fetched_at": "2026-03-27",
-    "groups": [],
-    "year": 2021,
-    "topics_matched": [
-      "非定常流动"
     ]
   }
 ]

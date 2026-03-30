@@ -50,8 +50,8 @@
       "L. He",
       "Thomas Povey"
     ],
-    "total": 42,
-    "avg_relevance": 2.3,
+    "total": 43,
+    "avg_relevance": 2.2,
     "preset": true,
     "custom": false
   },
@@ -93,19 +93,6 @@
     "custom": false
   },
   {
-    "name": "Beihang BUAA",
-    "institution": "Beihang University",
-    "pis": [
-      "Xiaofeng Sun",
-      "Dakun Sun",
-      "Xu Dong"
-    ],
-    "total": 26,
-    "avg_relevance": 3.8,
-    "preset": true,
-    "custom": false
-  },
-  {
     "name": "Bath Sealing Group",
     "institution": "University of Bath",
     "pis": [
@@ -115,6 +102,19 @@
     ],
     "total": 26,
     "avg_relevance": 2.8,
+    "preset": true,
+    "custom": false
+  },
+  {
+    "name": "Beihang BUAA",
+    "institution": "Beihang University",
+    "pis": [
+      "Xiaofeng Sun",
+      "Dakun Sun",
+      "Xu Dong"
+    ],
+    "total": 25,
+    "avg_relevance": 3.9,
     "preset": true,
     "custom": false
   },
@@ -142,17 +142,6 @@
     "custom": false
   },
   {
-    "name": "Imperial Aeroelasticity",
-    "institution": "Imperial College London",
-    "pis": [
-      "Mehdi Vahdati"
-    ],
-    "total": 21,
-    "avg_relevance": 3.1,
-    "preset": true,
-    "custom": false
-  },
-  {
     "name": "Tsinghua Turbo Lab",
     "institution": "Tsinghua University",
     "pis": [
@@ -160,6 +149,17 @@
     ],
     "total": 20,
     "avg_relevance": 3.4,
+    "preset": true,
+    "custom": false
+  },
+  {
+    "name": "Imperial Aeroelasticity",
+    "institution": "Imperial College London",
+    "pis": [
+      "Mehdi Vahdati"
+    ],
+    "total": 20,
+    "avg_relevance": 3.1,
     "preset": true,
     "custom": false
   },

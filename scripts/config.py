@@ -38,11 +38,17 @@ TARGET_JOURNALS = [
     {"name": "AIAA Journal",                        "issn": "0001-1452"},
 ]
 
+# 历史期刊（前身），仅 fetch_papers_historical 使用
+HISTORICAL_JOURNALS = [
+    {"name": "J. Eng. for Power (→JEGTP前身)",     "issn": "0022-0825"},
+    {"name": "J. Basic Engineering",                "issn": "0021-9223"},
+]
+
 # 只抓近几年的论文
 FETCH_FROM_YEAR = 2020
 
 # 历史论文起始年份（fetch_papers_historical.py 使用）
-FETCH_FROM_YEAR_HISTORICAL = 1970
+FETCH_FROM_YEAR_HISTORICAL = 1960
 
 # GitHub 搜索词
 GITHUB_KEYWORDS = [
