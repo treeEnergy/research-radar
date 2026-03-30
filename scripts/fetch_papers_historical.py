@@ -26,22 +26,58 @@ POLITE_EMAIL = "research@example.com"
 DEFAULT_TOPICS = [
     {"label": "叶尖间隙", "terms": [
         "compressor tip clearance", "non-axisymmetric tip clearance", "tip clearance effect",
+        "tip clearance", "tip leakage", "tip gap", "leakage vortex", "leakage flow",
+        "blade tip", "tip vortex",
     ]},
     {"label": "机匣处理", "terms": [
         "casing treatment stall margin", "casing treatment",
+        "casing groove", "casing slot", "shroud treatment", "endwall treatment",
     ]},
     {"label": "压缩机稳定性", "terms": [
         "axial compressor rotating stall", "compressor stability",
         "compressor surge", "stall inception compressor",
+        "rotating stall", "stall inception", "surge", "stall margin",
+        "post-stall", "spike", "modal wave", "stall cell",
+        "active control stall", "stall recovery", "hysteresis",
+        "instability", "stability",
     ]},
     {"label": "稳定性建模", "terms": [
         "actuator disk model compressor", "actuator disk model fan",
         "compressor stability model", "three-dimensional stability model turbomachinery",
         "Moore Greitzer model compressor", "body force model compressor",
+        "actuator disk", "actuator disc", "body force model", "body force",
+        "moore-greitzer", "moore greitzer", "throughflow model",
+        "streamline curvature", "reduced order model", "meanline",
     ]},
     {"label": "进气畸变", "terms": [
         "inlet distortion compressor", "circumferential distortion compressor",
         "inlet distortion fan", "total pressure distortion turbomachinery",
+        "inlet distortion", "circumferential distortion", "total pressure distortion",
+        "distortion", "non-uniform inlet", "nonuniform inlet",
+    ]},
+    {"label": "跨音速/激波", "terms": [
+        "transonic compressor", "transonic fan", "transonic rotor",
+        "shock wave", "shock structure", "passage shock", "bow shock",
+        "supersonic compressor", "transonic cascade", "transonic stage",
+        "transonic", "shock",
+    ]},
+    {"label": "叶片气动设计", "terms": [
+        "blade design", "airfoil design", "cascade", "blade row",
+        "controlled diffusion", "swept blade", "blade sweep", "lean",
+        "optimization", "blade profile", "blade shape",
+    ]},
+    {"label": "离心压气机", "terms": [
+        "centrifugal compressor", "centrifugal impeller", "radial compressor",
+        "vaneless diffuser", "vaned diffuser", "inducer",
+        "centrifugal", "impeller", "diffuser",
+    ]},
+    {"label": "非定常流动", "terms": [
+        "unsteady flow", "unsteady", "time-resolved", "rotor-stator interaction",
+        "wake", "clocking", "deterministic stress",
+    ]},
+    {"label": "气弹/振动", "terms": [
+        "flutter", "aeroelastic", "forced response", "mistuning",
+        "blade vibration", "aeromechanics", "aeroelasticity",
     ]},
 ]
 

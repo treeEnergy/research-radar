@@ -27,7 +27,11 @@
       "Turbulence",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2076200821",
@@ -50,7 +54,10 @@
       "Physics",
       "Geometry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2102083746",
@@ -73,7 +80,11 @@
       "Mechanics",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2015048044",
@@ -101,7 +112,9 @@
       "Aerodynamics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
     ]
   },
   {
@@ -134,7 +147,13 @@
       "Aerodynamics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W1659863424",
@@ -163,7 +182,10 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2031748150",
@@ -192,7 +214,13 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2028651284",
@@ -224,7 +252,12 @@
       "Computer science",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2016130937",
@@ -261,7 +294,11 @@
       "Mechanical engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4249864435",
@@ -288,7 +325,10 @@
       "Thermodynamics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2079914990",
@@ -320,7 +360,9 @@
       "Computer science",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1991584882",
@@ -344,7 +386,9 @@
       "Engineering",
       "Mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2054157874",
@@ -371,7 +415,9 @@
       "Physics",
       "Economics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2036173095",
@@ -404,7 +450,9 @@
       "Thermodynamics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2133453535",
@@ -437,7 +485,11 @@
       "Physics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1964362526",
@@ -467,7 +519,11 @@
       "Physics",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2086992041",
@@ -501,7 +557,10 @@
       "Engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -533,7 +592,9 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2068257962",
@@ -567,7 +628,11 @@
       "Physics",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2035402315",
@@ -593,7 +658,9 @@
       "Computer science",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2045224988",
@@ -628,7 +695,10 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1989574585",
@@ -658,7 +728,10 @@
       "Physics",
       "Acoustics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2031998904",
@@ -718,7 +791,10 @@
       "Mechanical engineering",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2025827811",
@@ -745,7 +821,10 @@
       "Law",
       "Impeller"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2022158282",
@@ -778,7 +857,11 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2014843656",
@@ -809,7 +892,10 @@
       "Physics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2093919105",
@@ -833,7 +919,10 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4253240363",
@@ -860,7 +949,9 @@
       "Thermodynamics",
       "Political science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1987375759",
@@ -897,7 +988,9 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "进气畸变",
+      "叶片气动设计"
     ]
   },
   {
@@ -925,7 +1018,10 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2026583293",
@@ -961,7 +1057,11 @@
       "Physics",
       "Mathematical analysis"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2118700105",
@@ -1031,7 +1131,11 @@
       "Acoustics",
       "Vibration"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2013193255",
@@ -1057,7 +1161,10 @@
       "Thermodynamics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2094977883",
@@ -1083,7 +1190,10 @@
       "Physics",
       "Political science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2077096373",
@@ -1115,7 +1225,8 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "进气畸变"
     ]
   },
   {
@@ -1225,7 +1336,9 @@
       "Thermodynamics",
       "Composite material"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2023290211",
@@ -1266,7 +1379,9 @@
       "Computer science",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2010212793",
@@ -1298,7 +1413,9 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W1981717790",
@@ -1328,7 +1445,9 @@
       "Thermodynamics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2000931048",
@@ -1359,7 +1478,11 @@
       "Mach wave",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2088874003",
@@ -1391,7 +1514,12 @@
       "Aerospace engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2031107800",
@@ -1426,7 +1554,10 @@
       "Geometry",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2040904581",
@@ -1455,7 +1586,10 @@
       "Mechanical engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2019338041",
@@ -1517,7 +1651,8 @@
       "Optics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -1547,7 +1682,10 @@
       "Engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2018290986",
@@ -1578,7 +1716,11 @@
       "Mechanics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1969847733",
@@ -1608,7 +1750,9 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
     ]
   },
   {
@@ -1637,7 +1781,9 @@
       "Political science",
       "Law"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2077764381",
@@ -1667,7 +1813,9 @@
       "Computer science",
       "Inlet"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2012787842",
@@ -1698,7 +1846,9 @@
       "Physics",
       "Marine engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2020376020",
@@ -1727,7 +1877,10 @@
       "Thermodynamics",
       "Meteorology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2073669440",
@@ -1759,7 +1912,11 @@
       "Computer science",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2023571811",
@@ -1793,7 +1950,10 @@
       "Engineering",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2008611191",
@@ -1823,7 +1983,10 @@
       "Thermodynamics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2036714017",
@@ -1855,7 +2018,9 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W1971580713",
@@ -1886,7 +2051,10 @@
       "Computer graphics (images)",
       "Chemical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4246130594",
@@ -1921,7 +2089,9 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -1961,7 +2131,8 @@
       "Geometry"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "进气畸变"
     ]
   },
   {
@@ -1993,7 +2164,10 @@
       "Engineering",
       "Geology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1987759615",
@@ -2021,7 +2195,11 @@
       "Environmental science",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2017463149",
@@ -2049,7 +2227,11 @@
       "Mathematical analysis",
       "Partial differential equation"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2112389123",
@@ -2074,7 +2256,9 @@
       "Computer science",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1978436073",
@@ -2163,7 +2347,11 @@
       "Thermodynamics",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2072679826",
@@ -2191,7 +2379,10 @@
       "Physics",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2006089280",
@@ -2274,7 +2465,9 @@
       "Aerospace engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1974009358",
@@ -2310,7 +2503,12 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2006919892",
@@ -2345,7 +2543,9 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W1964056511",
@@ -2377,7 +2577,10 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4235853839",
@@ -2458,7 +2661,9 @@
       "Control (management)",
       "Meteorology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2137369231",
@@ -2488,7 +2693,10 @@
       "Physics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2149441142",
@@ -2525,7 +2733,10 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2038092520",
@@ -2589,7 +2800,10 @@
       "Physics",
       "Composite material"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2100857993",
@@ -2624,7 +2838,11 @@
       "Vortex",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2079891159",
@@ -2660,7 +2878,11 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2047987191",
@@ -2723,7 +2945,10 @@
       "Mechanics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W1986552287",
@@ -2754,7 +2979,9 @@
       "Mechanical engineering",
       "Nonlinear system"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2093322518",
@@ -2786,7 +3013,9 @@
       "Thermodynamics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -2821,7 +3050,8 @@
     ],
     "topics_matched": [
       "机匣处理",
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
@@ -2844,7 +3074,9 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2101292715",
@@ -2875,7 +3107,10 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2000138459",
@@ -2904,7 +3139,9 @@
       "Geology",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1982895311",
@@ -2932,7 +3169,10 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2001594788",
@@ -2960,7 +3200,9 @@
       "Mechanical engineering",
       "Law"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2016946680",
@@ -2998,7 +3240,11 @@
       "Mechanical engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1993691306",
@@ -3031,7 +3277,9 @@
       "Mathematical analysis",
       "Compressibility"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2082772528",
@@ -3061,7 +3309,11 @@
       "Engineering",
       "Medicine"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1988768709",
@@ -3094,7 +3346,10 @@
       "Physics",
       "Geology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2067812703",
@@ -3125,7 +3380,9 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1986656406",
@@ -3195,7 +3452,10 @@
       "Optics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机",
+      "气弹/振动"
     ]
   },
   {
@@ -3264,7 +3524,9 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "气弹/振动"
+    ]
   },
   {
     "id": "W1974318498",
@@ -3292,7 +3554,9 @@
       "Optics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1993393487",
@@ -3320,7 +3584,9 @@
       "Political science",
       "Law"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1992106388",
@@ -3346,7 +3612,9 @@
       "Materials science",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2156666196",
@@ -3377,7 +3645,10 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2080284364",
@@ -3436,7 +3707,9 @@
       "Mechanics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1970273298",
@@ -3466,7 +3739,9 @@
       "Political science",
       "Law"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1967517754",
@@ -3497,7 +3772,10 @@
       "Mechanical engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2076280309",
@@ -3529,7 +3807,10 @@
       "Materials science",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1969159346",
@@ -3592,7 +3873,9 @@
       "Political science",
       "Economics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W1968898940",
@@ -3628,7 +3911,9 @@
       "Thermodynamics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
     ]
   },
   {
@@ -3728,7 +4013,11 @@
       "Thermodynamics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2019375765",
@@ -3762,7 +4051,11 @@
       "Physics",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2049159390",
@@ -3795,7 +4088,8 @@
       "Physics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -3819,7 +4113,9 @@
       "Engineering",
       "Chemical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2077687151",
@@ -3854,7 +4150,10 @@
       "Optics",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2155177002",
@@ -3887,7 +4186,9 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -3923,7 +4224,9 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -3953,7 +4256,9 @@
       "Thermodynamics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2029005134",
@@ -3986,7 +4291,11 @@
       "Mechanical engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2014900532",
@@ -4021,7 +4330,10 @@
       "Compressibility",
       "Algorithm"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2048580032",
@@ -4054,7 +4366,11 @@
       "Meteorology",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2019610590",
@@ -4084,7 +4400,11 @@
       "Computer science",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1997590370",
@@ -4124,7 +4444,11 @@
       "Engineering",
       "Electronic engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2166442740",
@@ -4154,7 +4478,9 @@
       "Marine engineering",
       "Geology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2043876246",
@@ -4186,7 +4512,9 @@
       "Waste management",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2018360377",
@@ -4211,7 +4539,11 @@
       "K-epsilon turbulence model",
       "Classical mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2119468179",
@@ -4246,7 +4578,9 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2013798398",
@@ -4275,7 +4609,10 @@
       "Physics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W3182456591",
@@ -4307,7 +4644,9 @@
       "Engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2030276497",
@@ -4334,7 +4673,9 @@
       "Meteorology",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2060228818",
@@ -4415,7 +4756,9 @@
       "Optics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2050680035",
@@ -4476,7 +4819,12 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2090613748",
@@ -4500,7 +4848,9 @@
       "Political science",
       "Law"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W1968454902",
@@ -4532,7 +4882,9 @@
       "Vortex",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2124579925",
@@ -4559,7 +4911,9 @@
       "Meteorology",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2085323716",
@@ -4592,7 +4946,10 @@
       "Control (management)",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1968729257",
@@ -4628,7 +4985,8 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -4668,7 +5026,8 @@
       "Structural engineering"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "叶片气动设计"
     ]
   },
   {
@@ -4697,7 +5056,10 @@
       "Aerospace engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2018632882",
@@ -4727,7 +5089,11 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2090521694",
@@ -4758,7 +5124,10 @@
       "Political science",
       "Law"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1998733417",
@@ -4816,7 +5185,10 @@
       "Turbulence",
       "Compressibility"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2021129821",
@@ -4852,7 +5224,10 @@
       "Mathematics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2011241412",
@@ -4879,7 +5254,9 @@
       "Classical mechanics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2045700276",
@@ -4907,7 +5284,10 @@
       "Mechanical engineering",
       "Chemical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2155056632",
@@ -4945,7 +5325,10 @@
       "Mathematics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2060909388",
@@ -4983,7 +5366,12 @@
       "Reynolds number",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2028732277",
@@ -5018,7 +5406,11 @@
       "Physics",
       "Geology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2103040119",
@@ -5053,7 +5445,9 @@
       "Thermodynamics",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2069789326",
@@ -5095,7 +5489,13 @@
       "Mechanical engineering",
       "Algorithm"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4244872031",
@@ -5126,7 +5526,13 @@
       "Mechanical engineering",
       "Electronic engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4237001450",
@@ -5158,7 +5564,10 @@
       "Physics",
       "Mathematics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1965525869",
@@ -5190,7 +5599,9 @@
       "Physics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "跨音速/激波",
+      "叶片气动设计"
     ]
   },
   {
@@ -5261,7 +5672,10 @@
       "Computer science",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2039590454",
@@ -5295,7 +5709,10 @@
       "Computer science",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1971205824",
@@ -5328,7 +5745,9 @@
       "Computer science",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2022117441",
@@ -5356,7 +5775,9 @@
       "Control (management)",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2010613323",
@@ -5419,7 +5840,8 @@
       "Artificial intelligence"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -5451,7 +5873,12 @@
       "Mechanical engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "稳定性建模",
+      "叶片气动设计",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2047590847",
@@ -5516,7 +5943,10 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1967010893",
@@ -5544,7 +5974,8 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -5572,7 +6003,9 @@
       "Computer science",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2058202773",
@@ -5600,7 +6033,9 @@
       "Acoustics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2078285425",
@@ -5630,7 +6065,11 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2000900178",
@@ -5654,7 +6093,9 @@
       "Thermodynamics",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "离心压气机"
+    ]
   },
   {
     "id": "W2142931819",
@@ -5687,7 +6128,11 @@
       "Power (physics)",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2027668501",
@@ -5716,7 +6161,10 @@
       "Chemistry",
       "Combustion"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1995038575",
@@ -5747,7 +6195,9 @@
       "Aerospace engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2071978875",
@@ -5781,7 +6231,12 @@
       "Reynolds number",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2073203373",
@@ -5813,7 +6268,10 @@
       "Political science",
       "Law"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2035704066",
@@ -5849,7 +6307,11 @@
       "Thermodynamics",
       "Composite material"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1973777506",
@@ -5878,7 +6340,10 @@
       "Vortex",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2035349350",
@@ -5910,7 +6375,10 @@
       "Aerospace engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1965593549",
@@ -5937,7 +6405,10 @@
       "Chemistry",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2115654298",
@@ -5971,7 +6442,10 @@
       "Turbulence",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2068384769",
@@ -6005,7 +6479,11 @@
       "Structural engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2052481594",
@@ -6030,7 +6508,9 @@
       "Aerodynamics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W1997642774",
@@ -6058,7 +6538,10 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2117598810",
@@ -6094,7 +6577,8 @@
       "Impeller"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -6126,7 +6610,10 @@
       "Physics",
       "Mathematics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2057128542",
@@ -6179,7 +6666,11 @@
       "Engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1973510102",
@@ -6211,7 +6702,9 @@
       "Physics",
       "Power (physics)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2116027187",
@@ -6245,7 +6738,9 @@
       "Physics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W2021304929",
@@ -6277,7 +6772,11 @@
       "Mathematical optimization",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2289793396",
@@ -6307,7 +6806,10 @@
       "Physics",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2104287636",
@@ -6372,7 +6874,11 @@
       "Physics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2034087312",
@@ -6400,7 +6906,8 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "进气畸变"
     ]
   },
   {
@@ -6436,7 +6943,12 @@
       "Thermodynamics",
       "Geometry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "稳定性建模",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2107682548",
@@ -6466,7 +6978,9 @@
       "Electrical engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2004453791",
@@ -6498,7 +7012,9 @@
       "Mechanical engineering",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2081215246",
@@ -6529,7 +7045,9 @@
       "Aerospace engineering",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2021120256",
@@ -6555,7 +7073,10 @@
       "Geology",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2054933068",
@@ -6589,7 +7110,10 @@
       "Compressibility",
       "Mathematical optimization"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1977487821",
@@ -6618,7 +7142,10 @@
       "Mechanical engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2155761434",
@@ -6654,7 +7181,10 @@
       "Computer science",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2059788978",
@@ -6687,7 +7217,11 @@
       "Turbulence",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2056867542",
@@ -6721,7 +7255,10 @@
       "Physics",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2083152813",
@@ -6748,7 +7285,10 @@
       "Computer science",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2076189598",
@@ -6790,7 +7330,10 @@
       "Classical mechanics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "进气畸变",
+      "非定常流动",
+      "气弹/振动"
     ]
   },
   {
@@ -6825,7 +7368,10 @@
       "Engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2152077601",
@@ -6860,7 +7406,10 @@
       "Mechanical engineering",
       "Composite material"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2173622529",
@@ -6892,7 +7441,10 @@
       "Aerodynamics",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2043836890",
@@ -6919,7 +7471,10 @@
       "Thermodynamics",
       "Chromatography"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2095937352",
@@ -6951,7 +7506,10 @@
       "Thermodynamics",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2011035427",
@@ -6982,7 +7540,10 @@
       "Chromatography",
       "Law"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2096883908",
@@ -7016,7 +7577,11 @@
       "Engineering",
       "Geology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1979184525",
@@ -7052,7 +7617,9 @@
       "Physics",
       "Electrode"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2010044969",
@@ -7083,7 +7650,9 @@
       "Engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W1997619907",
@@ -7113,7 +7682,10 @@
       "Aerospace engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2058515401",
@@ -7143,7 +7715,8 @@
       "Thermodynamics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "非定常流动"
     ]
   },
   {
@@ -7178,7 +7751,10 @@
       "Rotor (electric)",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2004336718",
@@ -7211,7 +7787,11 @@
       "Mechanical engineering",
       "Medicine"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1995088171",
@@ -7238,7 +7818,11 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2314563473",
@@ -7267,7 +7851,11 @@
       "Telecommunications",
       "Geomorphology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1987314828",
@@ -7287,7 +7875,11 @@
       "Mathematics",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2135951571",
@@ -7322,7 +7914,9 @@
       "Physics",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2049357320",
@@ -7389,7 +7983,11 @@
       "Data mining",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2042448765",
@@ -7420,7 +8018,10 @@
       "Aerospace engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2031814859",
@@ -7457,7 +8058,11 @@
       "Mechanical engineering",
       "Meteorology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2129707540",
@@ -7485,7 +8090,10 @@
       "Amplifier",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2008725326",
@@ -7519,7 +8127,10 @@
       "Physics",
       "Mathematics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2146578911",
@@ -7550,7 +8161,10 @@
       "Structural engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1986528851",
@@ -7581,7 +8195,13 @@
       "Engineering",
       "Vortex"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "进气畸变",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2002552030",
@@ -7614,7 +8234,9 @@
       "Electrical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2095981717",
@@ -7652,7 +8274,10 @@
       "Physics",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2163331644",
@@ -7681,7 +8306,10 @@
       "Mathematics",
       "Geometry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2005799258",
@@ -7709,7 +8337,9 @@
       "Turbulence"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "跨音速/激波",
+      "非定常流动"
     ]
   },
   {
@@ -7745,7 +8375,9 @@
       "Mechanical engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W2013551603",
@@ -7778,7 +8410,11 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2000662654",
@@ -7807,7 +8443,9 @@
       "Physics",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2166539395",
@@ -7844,7 +8482,10 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2115052748",
@@ -7875,7 +8516,10 @@
       "Optics",
       "Boundary layer"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2135873187",
@@ -7909,7 +8553,12 @@
       "Mathematics",
       "Mathematical optimization"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2019527576",
@@ -7946,7 +8595,11 @@
       "Engineering",
       "Partial differential equation"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2141343631",
@@ -7983,7 +8636,13 @@
       "Thermodynamics",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "跨音速/激波",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2000069515",
@@ -8017,7 +8676,10 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4234576229",
@@ -8050,7 +8712,10 @@
       "Aerospace engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2072401785",
@@ -8084,7 +8749,10 @@
       "Mechanical engineering",
       "Structural engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4252345539",
@@ -8118,7 +8786,12 @@
       "Control (management)",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2029498818",
@@ -8148,7 +8821,9 @@
       "Mechanical engineering",
       "Materials science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4235067475",
@@ -8185,7 +8860,8 @@
       "Turbulence"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "跨音速/激波"
     ]
   },
   {
@@ -8224,7 +8900,10 @@
       "Aerodynamics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W4250398046",
@@ -8259,7 +8938,8 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -8296,7 +8976,12 @@
       "Mathematics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2017006531",
@@ -8333,7 +9018,9 @@
       "Meteorology"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "跨音速/激波",
+      "气弹/振动"
     ]
   },
   {
@@ -8369,7 +9056,11 @@
       "Thermodynamics",
       "Geometry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4240666095",
@@ -8404,7 +9095,11 @@
       "Engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "稳定性建模",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4243566939",
@@ -8439,7 +9134,11 @@
       "Anatomy",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4245384383",
@@ -8469,7 +9168,9 @@
       "Control (management)",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2101848238",
@@ -8501,7 +9202,10 @@
       "Physics",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2078759767",
@@ -8527,7 +9231,11 @@
       "Aerospace engineering",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2163210625",
@@ -8567,7 +9275,10 @@
       "Engineering",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W4245692411",
@@ -8599,7 +9310,9 @@
       "Classical mechanics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2063318553",
@@ -8635,7 +9348,8 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -8671,7 +9385,11 @@
       "Optics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4248521582",
@@ -8707,7 +9425,13 @@
       "Physics",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1979502356",
@@ -8735,7 +9459,10 @@
       "Thermodynamics",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2011682950",
@@ -8765,7 +9492,10 @@
       "Computer science",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2073571569",
@@ -8798,7 +9528,13 @@
       "Turbulence",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4254732753",
@@ -8840,7 +9576,8 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -8879,7 +9616,9 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -8913,7 +9652,11 @@
       "Electrical engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2038194368",
@@ -8951,7 +9694,10 @@
       "Optics",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4230527674",
@@ -8984,7 +9730,13 @@
       "Thermodynamics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4248715180",
@@ -9020,7 +9772,13 @@
       "Computer science",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2086886500",
@@ -9050,7 +9808,10 @@
       "Statistical physics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2026230194",
@@ -9091,7 +9852,9 @@
       "Computer science",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2060657260",
@@ -9118,7 +9881,9 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W1981388654",
@@ -9149,7 +9914,11 @@
       "Physics",
       "Boundary layer"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1995649908",
@@ -9186,7 +9955,11 @@
       "Composite material",
       "Anatomy"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2091540821",
@@ -9212,7 +9985,10 @@
       "Mechanical engineering",
       "Automotive engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1967862827",
@@ -9243,7 +10019,8 @@
     ],
     "topics_matched": [
       "叶尖间隙",
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
@@ -9276,7 +10053,10 @@
       "Aerospace engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2038574881",
@@ -9307,7 +10087,10 @@
       "Aerodynamics",
       "Mathematical analysis"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2078385811",
@@ -9338,7 +10121,10 @@
       "Materials science",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1984992193",
@@ -9373,7 +10159,11 @@
       "Meteorology",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2091420323",
@@ -9408,7 +10198,9 @@
       "Turbulence"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -9441,7 +10233,11 @@
       "Physics",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1965964692",
@@ -9474,7 +10270,10 @@
       "Computer science",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4239381032",
@@ -9500,7 +10299,9 @@
       "Aerospace engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1973536359",
@@ -9530,7 +10331,10 @@
       "Mathematics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2119224410",
@@ -9571,7 +10375,12 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2051453557",
@@ -9609,8 +10418,11 @@
       "Magnet"
     ],
     "topics_matched": [
+      "叶尖间隙",
       "压缩机稳定性",
-      "稳定性建模"
+      "稳定性建模",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -9652,7 +10464,13 @@
       "Classical mechanics",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4236448241",
@@ -9683,7 +10501,12 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2801630720",
@@ -9721,8 +10544,10 @@
       "Composite material"
     ],
     "topics_matched": [
+      "叶尖间隙",
       "机匣处理",
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "跨音速/激波"
     ]
   },
   {
@@ -9756,7 +10581,10 @@
       "Electronic engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W1989776038",
@@ -9789,7 +10617,11 @@
       "Computer science",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4231417473",
@@ -9822,7 +10654,13 @@
       "Computer science",
       "Finite element method"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2005878447",
@@ -9857,7 +10695,8 @@
       "Mathematical analysis"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "叶片气动设计"
     ]
   },
   {
@@ -9893,7 +10732,11 @@
       "Engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2015316272",
@@ -9931,7 +10774,12 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "稳定性建模",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2059374720",
@@ -9965,7 +10813,11 @@
       "Engineering",
       "Algorithm"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2593163663",
@@ -9992,7 +10844,11 @@
       "Vortex",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2127905552",
@@ -10021,7 +10877,10 @@
       "Vortex",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "稳定性建模"
+    ]
   },
   {
     "id": "W2045216968",
@@ -10054,7 +10913,8 @@
       "Control (management)"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
@@ -10084,7 +10944,12 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2028186610",
@@ -10154,7 +11019,10 @@
       "Computer science",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2035280344",
@@ -10190,7 +11058,10 @@
       "Chemistry",
       "Hydrogen"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2093197559",
@@ -10239,7 +11110,10 @@
       "Physics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2161725824",
@@ -10272,7 +11146,11 @@
       "Mathematical analysis",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1970313530",
@@ -10308,7 +11186,9 @@
       "Control (management)",
       "Medicine"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2118639681",
@@ -10337,7 +11217,9 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2088195187",
@@ -10373,7 +11255,10 @@
       "Chemistry",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2120319027",
@@ -10402,7 +11287,9 @@
       "Mechanics",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4247810554",
@@ -10429,7 +11316,9 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2034728597",
@@ -10468,7 +11357,10 @@
       "Mechanical engineering",
       "Wing"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1982823276",
@@ -10494,7 +11386,11 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2130480416",
@@ -10523,7 +11419,10 @@
       "Classical mechanics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "稳定性建模"
+    ]
   },
   {
     "id": "W4239286340",
@@ -10555,7 +11454,8 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -10591,7 +11491,9 @@
       "Organic chemistry",
       "Selectivity"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2017775588",
@@ -10624,7 +11526,9 @@
       "Classical mechanics",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2014139698",
@@ -10658,7 +11562,12 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2802318855",
@@ -10689,7 +11598,12 @@
       "Classical mechanics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2112251119",
@@ -10722,7 +11636,9 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1983235194",
@@ -10748,7 +11664,10 @@
       "Classical mechanics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2030309666",
@@ -10790,7 +11709,8 @@
       "Optics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -10825,7 +11745,9 @@
       "Control (management)",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4242698491",
@@ -10860,7 +11782,11 @@
       "Thermodynamics",
       "Meteorology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1991517594",
@@ -10890,7 +11816,10 @@
       "Mechanical engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2123405689",
@@ -10923,7 +11852,9 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2036929940",
@@ -10954,7 +11885,12 @@
       "Optics",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4245699944",
@@ -10988,7 +11924,12 @@
       "Computer science",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2013295853",
@@ -11027,7 +11968,8 @@
     ],
     "topics_matched": [
       "机匣处理",
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -11064,7 +12006,12 @@
       "Engineering",
       "Flow (mathematics)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "进气畸变",
+      "跨音速/激波",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2092731178",
@@ -11096,7 +12043,9 @@
       "Computer science",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1990041515",
@@ -11132,7 +12081,9 @@
       "Computer science"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "稳定性建模"
     ]
   },
   {
@@ -11165,7 +12116,12 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "稳定性建模",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2801339463",
@@ -11197,7 +12153,9 @@
       "Engineering",
       "Composite material"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W2159685361",
@@ -11231,7 +12189,10 @@
       "Turbulence",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4297409573",
@@ -11264,7 +12225,11 @@
       "Automotive engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2161136943",
@@ -11296,6 +12261,7 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
+      "叶尖间隙",
       "压缩机稳定性"
     ]
   },
@@ -11333,7 +12299,11 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4238856618",
@@ -11367,7 +12337,9 @@
       "Optics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -11399,7 +12371,9 @@
       "Aerospace engineering",
       "Materials science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2160906362",
@@ -11431,7 +12405,12 @@
       "Engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2165636161",
@@ -11463,7 +12442,9 @@
       "Automotive engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W1979768428",
@@ -11498,7 +12479,10 @@
       "Turbulence",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2077275891",
@@ -11531,7 +12515,9 @@
       "Physics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
     ]
   },
   {
@@ -11562,7 +12548,9 @@
       "Gas compressor",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2130066196",
@@ -11625,7 +12613,9 @@
       "Aerospace engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1970486655",
@@ -11661,7 +12651,10 @@
       "Composite material",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1988703240",
@@ -11695,7 +12688,9 @@
       "Electrical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2104651692",
@@ -11730,7 +12725,9 @@
       "Electrical engineering",
       "Reliability engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W2045979647",
@@ -11759,7 +12756,10 @@
       "Aerospace engineering",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1969861857",
@@ -11791,7 +12791,9 @@
       "Mechanical engineering",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4233312516",
@@ -11823,7 +12825,9 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
@@ -11853,7 +12857,9 @@
       "Engineering",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2054561856",
@@ -11891,7 +12897,11 @@
       "Turbulence"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
     ]
   },
   {
@@ -11921,7 +12931,10 @@
       "Structural engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2153152226",
@@ -11954,7 +12967,8 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -11991,7 +13005,10 @@
       "Physics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波"
     ]
   },
   {
@@ -12025,7 +13042,11 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2066812834",
@@ -12056,7 +13077,11 @@
       "Physics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2803035284",
@@ -12129,7 +13154,11 @@
       "Engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2088445561",
@@ -12170,7 +13199,9 @@
       "Acoustics",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1998582839",
@@ -12205,7 +13236,10 @@
       "Aerospace engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4229574704",
@@ -12241,7 +13275,8 @@
       "Physics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -12270,7 +13305,10 @@
       "Physics",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2063476100",
@@ -12298,7 +13336,10 @@
       "Physics",
       "Classical mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2004749822",
@@ -12331,7 +13372,13 @@
       "Aerospace engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4229592595",
@@ -12366,7 +13413,10 @@
       "Optics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4232319600",
@@ -12399,7 +13449,11 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "稳定性建模",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2007530601",
@@ -12433,7 +13487,12 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2013449138",
@@ -12470,7 +13529,11 @@
       "Engineering",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1976282970",
@@ -12507,7 +13570,10 @@
       "Engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2061403201",
@@ -12545,7 +13611,9 @@
       "Computer science"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
     ]
   },
   {
@@ -12576,7 +13644,8 @@
       "Computer science"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
@@ -12607,7 +13676,10 @@
       "Materials science",
       "Automotive engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2143068853",
@@ -12659,7 +13731,10 @@
       "Structural engineering",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2091673823",
@@ -12688,7 +13763,10 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2039554697",
@@ -12719,7 +13797,9 @@
       "Exponential stability",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2080229411",
@@ -12758,7 +13838,11 @@
       "Physics",
       "Electronic engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2020094146",
@@ -12783,7 +13867,10 @@
       "Engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2059998016",
@@ -12841,7 +13928,9 @@
       "Engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4251219752",
@@ -12871,7 +13960,9 @@
       "Thermodynamics",
       "Statistics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2137063853",
@@ -12896,7 +13987,9 @@
       "Grid",
       "Geometry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2127372593",
@@ -12924,7 +14017,10 @@
       "Engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4231045365",
@@ -12958,7 +14054,9 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2110231409",
@@ -12994,7 +14092,11 @@
       "Mechanical engineering",
       "Structural engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2059961527",
@@ -13038,7 +14140,8 @@
       "Composite material"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -13071,7 +14174,11 @@
       "Computer science",
       "Classical mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2035711484",
@@ -13102,7 +14209,10 @@
       "Mechanical engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2081370053",
@@ -13140,7 +14250,9 @@
       "Physics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W4251694096",
@@ -13175,7 +14287,12 @@
       "Aerodynamics",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2799498220",
@@ -13206,7 +14323,9 @@
       "Process integration",
       "Process engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1971247068",
@@ -13241,7 +14360,10 @@
       "Geology",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4233088901",
@@ -13279,7 +14401,10 @@
       "Thermodynamics",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2047156992",
@@ -13359,7 +14484,8 @@
       "Artificial intelligence"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -13389,7 +14515,12 @@
       "Aerospace engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2057918619",
@@ -13422,7 +14553,12 @@
       "Classical mechanics",
       "Acoustics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2008702711",
@@ -13525,7 +14661,9 @@
       "Inlet"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -13557,7 +14695,10 @@
       "Thermodynamics",
       "Inlet"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4252053803",
@@ -13595,7 +14736,9 @@
       "Optics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "跨音速/激波",
+      "离心压气机"
     ]
   },
   {
@@ -13636,7 +14779,11 @@
       "Computer science",
       "Composite material"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2016058863",
@@ -13669,7 +14816,10 @@
       "Computer science",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2123663611",
@@ -13701,7 +14851,9 @@
       "Materials science",
       "Meteorology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W2132791452",
@@ -13763,7 +14915,8 @@
       "Thermodynamics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
@@ -13805,7 +14958,12 @@
       "Optics",
       "Mathematics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2175977886",
@@ -13838,7 +14996,10 @@
       "Aerospace engineering",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2007005122",
@@ -13872,7 +15033,9 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "进气畸变",
+      "叶片气动设计"
     ]
   },
   {
@@ -13908,7 +15071,8 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "进气畸变"
     ]
   },
   {
@@ -13944,7 +15108,11 @@
       "Engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2133020385",
@@ -13974,7 +15142,9 @@
       "Vibration",
       "Atomic physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1987030471",
@@ -14005,7 +15175,9 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "非定常流动",
+      "气弹/振动"
     ]
   },
   {
@@ -14043,7 +15215,12 @@
       "Aerospace engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2001912170",
@@ -14076,7 +15253,11 @@
       "Engineering",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4300941565",
@@ -14106,7 +15287,14 @@
       "Computational fluid dynamics",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2086262937",
@@ -14142,7 +15330,9 @@
     ],
     "topics_matched": [
       "叶尖间隙",
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "跨音速/激波",
+      "离心压气机"
     ]
   },
   {
@@ -14181,7 +15371,11 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
     ]
   },
   {
@@ -14254,7 +15448,10 @@
       "Physics",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2060156298",
@@ -14291,7 +15488,12 @@
       "Materials science",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2082233897",
@@ -14332,7 +15534,8 @@
       "Optics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "气弹/振动"
     ]
   },
   {
@@ -14366,7 +15569,9 @@
       "Physics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性"
     ]
   },
   {
@@ -14396,7 +15601,9 @@
       "Mathematics",
       "Materials science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2141981925",
@@ -14430,7 +15637,11 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2032963113",
@@ -14459,7 +15670,12 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2124618920",
@@ -14533,6 +15749,7 @@
       "Chemistry"
     ],
     "topics_matched": [
+      "叶尖间隙",
       "压缩机稳定性"
     ]
   },
@@ -14571,7 +15788,11 @@
       "Inlet",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2025635390",
@@ -14606,7 +15827,9 @@
       "Electrical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2096257704",
@@ -14707,7 +15930,9 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2102585250",
@@ -14748,7 +15973,9 @@
       "Propellant",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2012298520",
@@ -14771,7 +15998,11 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1998317046",
@@ -14843,7 +16074,9 @@
       "Composite material"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
@@ -14875,7 +16108,8 @@
       "Control (management)"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -14939,7 +16173,9 @@
       "Engineering",
       "Sound pressure"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W1969063091",
@@ -14975,7 +16211,13 @@
       "Meteorology",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W1991464312",
@@ -15001,7 +16243,10 @@
       "Computer science",
       "Impeller"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2027216229",
@@ -15035,7 +16280,10 @@
       "Mechanical engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2802567623",
@@ -15066,7 +16314,9 @@
       "Vehicle dynamics",
       "Aeronautics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1967752142",
@@ -15095,7 +16345,11 @@
       "Marine engineering",
       "Electronic engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2102938148",
@@ -15131,7 +16385,11 @@
       "Mach number",
       "Electronic engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4238076976",
@@ -15160,7 +16418,8 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -15193,7 +16452,10 @@
       "Stiffness",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1987670670",
@@ -15230,7 +16492,13 @@
       "Optics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "进气畸变",
+      "离心压气机",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2133893360",
@@ -15259,7 +16527,10 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1977293973",
@@ -15288,7 +16559,10 @@
       "Computer science",
       "Geomorphology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2006342818",
@@ -15321,7 +16595,11 @@
       "Atomic physics",
       "Nonlinear distortion"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2121926307",
@@ -15354,7 +16632,10 @@
       "Thermodynamics",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2033712850",
@@ -15386,7 +16667,12 @@
       "Engineering",
       "Programming language"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "稳定性建模",
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4236354567",
@@ -15419,7 +16705,11 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
     ]
   },
   {
@@ -15458,7 +16748,10 @@
       "Engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波"
     ]
   },
   {
@@ -15496,7 +16789,10 @@
       "Electrical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2066764043",
@@ -15528,7 +16824,10 @@
       "Materials science",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2010599166",
@@ -15566,7 +16865,10 @@
       "Physics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4236812707",
@@ -15599,7 +16901,11 @@
       "Physics",
       "Mathematics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "机匣处理",
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2034017760",
@@ -15633,7 +16939,13 @@
       "Mach number",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1979618685",
@@ -15669,7 +16981,10 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
     ]
   },
   {
@@ -15697,7 +17012,10 @@
       "Computer science",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2070086139",
@@ -15726,7 +17044,11 @@
       "Materials science",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W4235358764",
@@ -15758,7 +17080,10 @@
       "Mechanical engineering",
       "Classical mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2090391678",
@@ -15793,7 +17118,9 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2087980327",
@@ -15865,7 +17192,12 @@
       "Turbulence",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "稳定性建模",
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2134954498",
@@ -15896,7 +17228,10 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W4249318321",
@@ -15927,7 +17262,10 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2019764710",
@@ -15961,7 +17299,12 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "稳定性建模",
+      "跨音速/激波",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1995563690",
@@ -16025,7 +17368,10 @@
       "Physics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2031267411",
@@ -16063,7 +17409,12 @@
       "Aerodynamics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "离心压气机"
     ]
   },
   {
@@ -16098,7 +17449,11 @@
       "Aerodynamics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4232197670",
@@ -16136,7 +17491,10 @@
       "Laser",
       "Organic chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2013246158",
@@ -16174,7 +17532,9 @@
       "Rotor (electric)",
       "Composite material"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4250907316",
@@ -16202,7 +17562,9 @@
       "Physics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
@@ -16242,7 +17604,10 @@
       "Aerospace engineering",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1998694469",
@@ -16286,7 +17651,11 @@
       "Computer science",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2136381314",
@@ -16319,7 +17688,11 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2006557938",
@@ -16349,7 +17722,9 @@
       "Engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W1994343250",
@@ -16383,7 +17758,11 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2146000374",
@@ -16420,7 +17799,10 @@
       "Centrifugal pump",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2111555214",
@@ -16454,7 +17836,11 @@
       "Thermodynamics",
       "Impeller"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2014980846",
@@ -16482,7 +17868,8 @@
       "Physics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -16511,7 +17898,10 @@
       "Physics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W4255766617",
@@ -16544,7 +17934,12 @@
       "Physics",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波",
+      "离心压气机",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4244209344",
@@ -16577,7 +17972,8 @@
       "Artificial intelligence"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "进气畸变"
     ]
   },
   {
@@ -16604,7 +18000,9 @@
       "Engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1988596067",
@@ -16641,7 +18039,11 @@
       "Reynolds number",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2057530812",
@@ -16680,7 +18082,10 @@
       "Computer science",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2157668510",
@@ -16718,7 +18123,11 @@
       "Optics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -16756,7 +18165,8 @@
       "Acoustics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -16798,7 +18208,11 @@
       "Gas compressor",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1995395673",
@@ -16834,7 +18248,10 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -16870,7 +18287,13 @@
       "Engineering",
       "Mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "稳定性建模",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2072855162",
@@ -16906,7 +18329,10 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2013338820",
@@ -16942,7 +18368,11 @@
       "Electrical engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2014345680",
@@ -16974,7 +18404,11 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2086810171",
@@ -17003,7 +18437,9 @@
       "Thermodynamics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -17038,7 +18474,11 @@
       "Computer science",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2042776307",
@@ -17069,7 +18509,10 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2047863270",
@@ -17105,7 +18548,11 @@
       "Aerodynamics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2014835810",
@@ -17137,7 +18584,12 @@
       "Mechanical engineering",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2385258000",
@@ -17169,7 +18621,10 @@
       "Differential equation",
       "Nonlinear system"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1963828280",
@@ -17202,7 +18657,11 @@
       "Computer science",
       "Acoustics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W1995568260",
@@ -17234,7 +18693,10 @@
       "Physics",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2048141720",
@@ -17270,7 +18732,11 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
     ]
   },
   {
@@ -17303,7 +18769,9 @@
       "Aerodynamics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2026171859",
@@ -17340,7 +18808,10 @@
       "Turbulence",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2111490562",
@@ -17377,7 +18848,12 @@
       "Engineering",
       "Mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W1974244710",
@@ -17406,7 +18882,10 @@
       "Mechanical engineering",
       "Acoustics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2034540627",
@@ -17437,6 +18916,7 @@
       "Meteorology"
     ],
     "topics_matched": [
+      "叶尖间隙",
       "压缩机稳定性"
     ]
   },
@@ -17466,7 +18946,8 @@
       "Physics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "离心压气机"
     ]
   },
   {
@@ -17500,7 +18981,11 @@
       "Aerodynamics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "进气畸变",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W1990119677",
@@ -17531,7 +19016,11 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2068981840",
@@ -17563,7 +19052,9 @@
       "Physics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -17604,7 +19095,13 @@
       "Mechanical engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2077983627",
@@ -17640,7 +19137,10 @@
       "Turbulence",
       "Algorithm"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2144230584",
@@ -17672,7 +19172,11 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2130307359",
@@ -17710,7 +19214,12 @@
       "Inlet"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "离心压气机",
+      "非定常流动",
+      "气弹/振动"
     ]
   },
   {
@@ -17748,7 +19257,10 @@
       "Geology",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2057163868",
@@ -17786,7 +19298,10 @@
       "Electrical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "离心压气机",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2006827424",
@@ -17816,7 +19331,12 @@
       "Gas compressor",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1972495490",
@@ -17850,7 +19370,10 @@
       "Turbulence",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2145403132",
@@ -17883,7 +19406,10 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1972748372",
@@ -17919,7 +19445,9 @@
       "Algorithm"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波"
     ]
   },
   {
@@ -17952,7 +19480,8 @@
       "Simulation"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "进气畸变"
     ]
   },
   {
@@ -17985,7 +19514,10 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2082562018",
@@ -18016,7 +19548,10 @@
       "Physics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "离心压气机"
     ]
   },
   {
@@ -18049,7 +19584,10 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
     ]
   },
   {
@@ -18080,7 +19618,8 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -18127,7 +19666,9 @@
       "Electrical engineering",
       "Heat transfer"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W2101859243",
@@ -18162,7 +19703,11 @@
       "Flow (mathematics)",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2085367237",
@@ -18198,7 +19743,9 @@
       "Aerospace engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W1974337674",
@@ -18225,7 +19772,11 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "进气畸变",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W1997527488",
@@ -18261,7 +19812,11 @@
       "Physics",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1972639621",
@@ -18299,7 +19854,10 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
     ]
   },
   {
@@ -18335,7 +19893,10 @@
       "Metallurgy",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2014594911",
@@ -18392,7 +19953,10 @@
       "Structural engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2079422440",
@@ -18425,7 +19989,10 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2088142959",
@@ -18458,7 +20025,9 @@
       "Thermodynamics",
       "Classical mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2004720464",
@@ -18497,7 +20066,9 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1994243210",
@@ -18539,7 +20110,10 @@
       "Physics",
       "Rotational speed"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2056576786",
@@ -18639,7 +20213,11 @@
       "Engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1974749106",
@@ -18678,7 +20256,10 @@
       "Aerodynamics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波"
     ]
   },
   {
@@ -18711,7 +20292,9 @@
       "Artificial intelligence"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -18752,7 +20335,10 @@
       "Aerodynamics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波"
     ]
   },
   {
@@ -18783,7 +20369,10 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2076549484",
@@ -18818,7 +20407,11 @@
       "Mechanical engineering",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2311347420",
@@ -18850,7 +20443,11 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2112702945",
@@ -18881,7 +20478,10 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1978723712",
@@ -18921,7 +20521,12 @@
       "Engineering",
       "Meteorology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2144319210",
@@ -18957,7 +20562,12 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2016049725",
@@ -18989,7 +20599,9 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2102777690",
@@ -19020,7 +20632,12 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "进气畸变",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2110028292",
@@ -19050,7 +20667,10 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2063177894",
@@ -19084,7 +20704,10 @@
       "Composite material",
       "Classical mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2128519315",
@@ -19116,7 +20739,8 @@
       "Computer science"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -19149,7 +20773,11 @@
       "Physics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1982709615",
@@ -19191,7 +20819,11 @@
       "Partial differential equation",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1983082038",
@@ -19257,7 +20889,10 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
     ]
   },
   {
@@ -19295,7 +20930,9 @@
       "Electricity generation",
       "Power (physics)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2089960027",
@@ -19324,7 +20961,9 @@
       "Seismology",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2050010756",
@@ -19361,7 +21000,9 @@
       "Mathematics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W2007395663",
@@ -19436,7 +21077,10 @@
       "Physics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2052607644",
@@ -19473,7 +21117,9 @@
       "Physics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2045205249",
@@ -19544,7 +21190,10 @@
       "Mechanics",
       "Algorithm"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2025195947",
@@ -19610,7 +21259,8 @@
     ],
     "topics_matched": [
       "机匣处理",
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "跨音速/激波"
     ]
   },
   {
@@ -19647,7 +21297,8 @@
     ],
     "topics_matched": [
       "机匣处理",
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "跨音速/激波"
     ]
   },
   {
@@ -19686,7 +21337,10 @@
       "Surgery",
       "Medicine"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2084061650",
@@ -19719,7 +21373,11 @@
       "Optics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2160796205",
@@ -19751,7 +21409,10 @@
       "Thermodynamics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2051207158",
@@ -19781,7 +21442,9 @@
       "Thermodynamics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2123560960",
@@ -19813,7 +21476,10 @@
       "Computer science",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2008938364",
@@ -19875,7 +21541,10 @@
       "Physics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2081025271",
@@ -19912,7 +21581,9 @@
       "Acoustics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "气弹/振动"
     ]
   },
   {
@@ -19944,7 +21615,12 @@
       "Acoustics",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2114294452",
@@ -19982,7 +21658,10 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "稳定性建模",
+      "离心压气机"
     ]
   },
   {
@@ -20021,7 +21700,10 @@
       "Physics",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1978774091",
@@ -20059,7 +21741,11 @@
       "Turbine",
       "Thrust"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2043030287",
@@ -20092,7 +21778,11 @@
       "Computer science",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计",
+      "离心压气机",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2013593035",
@@ -20128,7 +21818,11 @@
       "Aerodynamics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2122190487",
@@ -20170,7 +21864,9 @@
       "Electrical engineering",
       "Voltage"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "离心压气机"
+    ]
   },
   {
     "id": "W2110404511",
@@ -20199,7 +21895,11 @@
       "Composite material",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2079165293",
@@ -20237,7 +21937,9 @@
       "Physics",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1998837710",
@@ -20271,7 +21973,10 @@
       "Waste heat",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2032106199",
@@ -20311,7 +22016,11 @@
       "Aerodynamics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2059022827",
@@ -20344,7 +22053,10 @@
       "Structural engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2167997396",
@@ -20377,7 +22089,9 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -20412,7 +22126,10 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2159524245",
@@ -20471,7 +22188,11 @@
       "Turbulence",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2122942791",
@@ -20502,7 +22223,11 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "稳定性建模",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2105999062",
@@ -20541,7 +22266,10 @@
       "Engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W1965282675",
@@ -20574,7 +22302,10 @@
       "Mechanical engineering",
       "Statistics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2161975592",
@@ -20604,7 +22335,10 @@
       "Mechanical engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2068999952",
@@ -20639,7 +22373,10 @@
       "Physics",
       "Rack"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2061708062",
@@ -20672,7 +22409,9 @@
       "Engineering",
       "Composite material"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2098971379",
@@ -20708,7 +22447,12 @@
       "Geology",
       "Inlet"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1971326462",
@@ -20773,7 +22517,9 @@
       "Structural engineering",
       "Geometry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2027815709",
@@ -20809,7 +22555,13 @@
       "Vortex",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "稳定性建模",
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1993961976",
@@ -20845,7 +22597,11 @@
       "Engineering",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2064832462",
@@ -20883,7 +22639,10 @@
       "Computer science",
       "Acoustics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2030217705",
@@ -20912,7 +22671,9 @@
       "Algorithm",
       "Mathematics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W1988878644",
@@ -20941,7 +22702,11 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2100734229",
@@ -20974,7 +22739,10 @@
       "Physics",
       "K-omega turbulence model"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2131602305",
@@ -20998,7 +22766,11 @@
       "Philosophy",
       "Art"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2121398043",
@@ -21029,7 +22801,9 @@
       "Computer science"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -21061,7 +22835,10 @@
       "Physics",
       "Mathematics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2032732569",
@@ -21096,7 +22873,10 @@
       "Computer science",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2124192558",
@@ -21160,7 +22940,11 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2129325656",
@@ -21238,7 +23022,10 @@
       "Mechanics",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2080859140",
@@ -21269,7 +23056,9 @@
       "Reynolds-averaged Navier–Stokes equations",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W2094400559",
@@ -21302,7 +23091,8 @@
       "Thermodynamics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "气弹/振动"
     ]
   },
   {
@@ -21335,7 +23125,9 @@
       "Mechanical engineering",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W1524893210",
@@ -21368,7 +23160,12 @@
       "Meteorology",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2130942319",
@@ -21405,7 +23202,10 @@
       "Medicine",
       "Surgery"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W1491953076",
@@ -21443,7 +23243,11 @@
       "Mathematical optimization",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1888010099",
@@ -21476,7 +23280,12 @@
       "Physics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2098178963",
@@ -21507,7 +23316,8 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -21539,7 +23349,12 @@
       "Aerospace engineering",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W1904937771",
@@ -21567,6 +23382,7 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
+      "叶尖间隙",
       "压缩机稳定性"
     ]
   },
@@ -21598,7 +23414,11 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1901202448",
@@ -21636,7 +23456,10 @@
       "Physics",
       "Acoustics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1749334252",
@@ -21677,7 +23500,10 @@
       "Rotor (electric)",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1917874643",
@@ -21708,7 +23534,11 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2218326049",
@@ -21742,7 +23572,9 @@
       "Aerodynamics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波"
     ]
   },
   {
@@ -21776,7 +23608,10 @@
       "Computer science",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2105921932",
@@ -21809,7 +23644,10 @@
       "Composite material",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2173164527",
@@ -21842,7 +23680,12 @@
       "Gas compressor",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W1880575905",
@@ -21871,7 +23714,9 @@
       "Mechanical engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W1948255552",
@@ -21908,7 +23753,12 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
     ]
   },
   {
@@ -21945,7 +23795,11 @@
       "Computer science"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
     ]
   },
   {
@@ -21979,7 +23833,10 @@
       "Finite element method",
       "Structural engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2033411535",
@@ -22016,7 +23873,10 @@
       "Meteorology",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2239176546",
@@ -22052,7 +23912,11 @@
       "Physics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "进气畸变",
+      "跨音速/激波",
+      "离心压气机"
     ]
   },
   {
@@ -22083,7 +23947,9 @@
       "Compression ratio",
       "Internal combustion engine"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W1626081558",
@@ -22117,7 +23983,12 @@
       "Electrical engineering",
       "Dielectric barrier discharge"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2340854557",
@@ -22148,7 +24019,8 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -22187,7 +24059,11 @@
       "Physics",
       "Materials science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W1143114678",
@@ -22223,7 +24099,9 @@
       "Mechanical engineering",
       "Acoustics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2297881161",
@@ -22262,7 +24140,9 @@
       "Acoustics",
       "Composite material"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "离心压气机"
+    ]
   },
   {
     "id": "W2283861182",
@@ -22301,7 +24181,8 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -22336,7 +24217,8 @@
       "Chemistry"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -22374,7 +24256,11 @@
       "Mechanical engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2022443002",
@@ -22408,7 +24294,10 @@
       "Meteorology",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2340792797",
@@ -22440,7 +24329,10 @@
       "Physics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
@@ -22479,7 +24371,9 @@
       "Turbulence",
       "Reynolds number"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2464589757",
@@ -22513,6 +24407,7 @@
       "Physics"
     ],
     "topics_matched": [
+      "叶尖间隙",
       "机匣处理",
       "压缩机稳定性"
     ]
@@ -22554,7 +24449,10 @@
       "Inlet"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "跨音速/激波",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -22588,7 +24486,9 @@
       "Electricity generation",
       "Power (physics)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2344901186",
@@ -22622,7 +24522,12 @@
       "Gas compressor",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2347205112",
@@ -22654,7 +24559,11 @@
       "Physics",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2399570274",
@@ -22687,7 +24596,11 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2414266631",
@@ -22722,7 +24635,10 @@
       "Engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变"
+    ]
   },
   {
     "id": "W2431409189",
@@ -22756,7 +24672,12 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "稳定性建模",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2470144422",
@@ -22794,7 +24715,10 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "气弹/振动"
     ]
   },
   {
@@ -22878,7 +24802,8 @@
       "Control (management)"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -22910,7 +24835,8 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -22944,7 +24870,9 @@
       "Composite material",
       "FOIL method"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2906998696",
@@ -22981,7 +24909,11 @@
       "Optics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4242737740",
@@ -23020,7 +24952,9 @@
       "Mathematical optimization",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2515855537",
@@ -23047,7 +24981,11 @@
       "Computer science",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2511381026",
@@ -23082,7 +25020,11 @@
       "Thermodynamics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2508593757",
@@ -23122,7 +25064,12 @@
       "Engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2801064780",
@@ -23152,7 +25099,10 @@
       "Engineering",
       "Reynolds number"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4248919670",
@@ -23189,7 +25139,9 @@
       "Computer science"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -23262,7 +25214,9 @@
     ],
     "topics_matched": [
       "机匣处理",
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
     ]
   },
   {
@@ -23302,7 +25256,10 @@
       "Thermodynamics",
       "Statistics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4250783087",
@@ -23333,7 +25290,10 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2279931346",
@@ -23369,7 +25329,11 @@
       "Mathematical analysis",
       "Mathematical optimization"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4238872971",
@@ -23402,7 +25366,11 @@
       "Physics",
       "Geology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4254557623",
@@ -23478,7 +25446,12 @@
       "Turbulence",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4232023629",
@@ -23514,7 +25487,10 @@
       "Inlet",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4249183493",
@@ -23554,7 +25530,10 @@
       "Computer science",
       "Gas compressor"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4237515505",
@@ -23591,7 +25570,9 @@
       "Physics",
       "Structural engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4229695154",
@@ -23620,7 +25601,10 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2551700811",
@@ -23652,7 +25636,10 @@
       "Vibration",
       "Materials science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4256174408",
@@ -23685,7 +25672,9 @@
       "Computer science",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W2566561964",
@@ -23721,7 +25710,11 @@
       "Simulation",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4245959650",
@@ -23752,7 +25745,10 @@
       "Turbulence",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2566002657",
@@ -23787,7 +25783,10 @@
       "Computer science",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2483195176",
@@ -23815,7 +25814,10 @@
       "Physics",
       "Mathematical analysis"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2570899310",
@@ -23844,7 +25846,9 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W4253790024",
@@ -23874,7 +25878,8 @@
       "Physics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -23910,7 +25915,10 @@
       "Algorithm",
       "Mathematical analysis"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2584793613",
@@ -23944,7 +25952,13 @@
       "Physics",
       "Mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4230687218",
@@ -23973,7 +25987,10 @@
       "Thermodynamics",
       "Vortex"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2595265089",
@@ -24008,7 +26025,9 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W4254918888",
@@ -24041,7 +26060,11 @@
       "Amplifier",
       "Algorithm"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2601046884",
@@ -24085,7 +26108,10 @@
       "Waste management",
       "Compression ratio"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2334277929",
@@ -24122,7 +26148,10 @@
       "Reynolds-averaged Navier–Stokes equations",
       "Telecommunications"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4254849618",
@@ -24159,7 +26188,9 @@
       "Meteorology",
       "Composite material"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2317247112",
@@ -24190,7 +26221,10 @@
       "Mathematics",
       "Mathematical analysis"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2413174085",
@@ -24222,7 +26256,10 @@
       "Optics",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2509002083",
@@ -24295,7 +26332,11 @@
       "Mechanical engineering",
       "Meteorology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2615769187",
@@ -24333,7 +26374,9 @@
       "Engineering",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2614603394",
@@ -24363,7 +26406,10 @@
       "Mechanical engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2618512685",
@@ -24396,7 +26442,11 @@
       "Physics",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2622067682",
@@ -24430,7 +26480,9 @@
       "Aerospace engineering",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2729290838",
@@ -24467,7 +26519,10 @@
       "Electrical engineering",
       "Sound pressure"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2738436721",
@@ -24502,7 +26557,9 @@
       "Turbulence"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性"
     ]
   },
   {
@@ -24566,7 +26623,10 @@
       "Aerospace engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2740041716",
@@ -24604,7 +26664,9 @@
       "Engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W2739843671",
@@ -24639,7 +26701,9 @@
       "Optics",
       "Mathematical analysis"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W4252913609",
@@ -24676,7 +26740,12 @@
       "Physics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4250971842",
@@ -24709,7 +26778,10 @@
       "Physics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4249277673",
@@ -24742,7 +26814,10 @@
       "Operations management",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4243036570",
@@ -24779,7 +26854,8 @@
       "Meteorology"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -24811,7 +26887,9 @@
       "Mechanical engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4243803151",
@@ -24844,7 +26922,9 @@
       "Physics"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "非定常流动"
     ]
   },
   {
@@ -24875,7 +26955,8 @@
       "Physics"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "压缩机稳定性"
     ]
   },
   {
@@ -24907,7 +26988,11 @@
       "Aerospace engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4242086661",
@@ -24941,7 +27026,10 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2902464088",
@@ -24975,7 +27063,9 @@
       "Heat transfer",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2747786935",
@@ -25012,7 +27102,9 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -25046,7 +27138,10 @@
       "Meteorology",
       "Chemistry"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4250989555",
@@ -25081,7 +27176,10 @@
       "Engineering",
       "Optics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4254687047",
@@ -25179,7 +27277,12 @@
       "Aerospace engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2767180712",
@@ -25215,7 +27318,13 @@
       "Vibration",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2766424308",
@@ -25252,7 +27361,11 @@
       "Reynolds-averaged Navier–Stokes equations",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4253155348",
@@ -25292,7 +27405,11 @@
       "Mechanical engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "气弹/振动"
     ]
   },
   {
@@ -25327,7 +27444,10 @@
       "Computer science",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2611267040",
@@ -25359,7 +27479,12 @@
       "Materials science",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2737761912",
@@ -25424,7 +27549,10 @@
       "Acoustics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4240951330",
@@ -25461,7 +27589,10 @@
       "Organic chemistry",
       "Combustor"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2746428415",
@@ -25500,7 +27631,9 @@
       "Sea ice",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2521269223",
@@ -25538,7 +27671,9 @@
       "Rotor (electric)",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2729623407",
@@ -25609,7 +27744,12 @@
       "Mechanical engineering",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2773994080",
@@ -25638,7 +27778,10 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2747477285",
@@ -25674,7 +27817,10 @@
       "Computer science",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2771309235",
@@ -25700,7 +27846,9 @@
       "Magnet",
       "Automotive engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4242219229",
@@ -25738,7 +27886,8 @@
       "Physics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -25867,7 +28016,10 @@
       "Aerospace engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2781920250",
@@ -25902,7 +28054,9 @@
       "Optics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机"
     ]
   },
   {
@@ -25930,7 +28084,9 @@
       "Mechanics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "离心压气机"
+    ]
   },
   {
     "id": "W4233145553",
@@ -25965,7 +28121,12 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2782708531",
@@ -25998,7 +28159,10 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4243019920",
@@ -26027,7 +28191,10 @@
       "Physics",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2790645712",
@@ -26060,7 +28227,9 @@
       "Computer science"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
     ]
   },
   {
@@ -26100,7 +28269,10 @@
       "Reynolds number",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4241897079",
@@ -26131,7 +28303,9 @@
       "Physics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W2745890655",
@@ -26162,7 +28336,9 @@
       "Physics",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2802274635",
@@ -26193,7 +28369,11 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2795325290",
@@ -26227,7 +28407,11 @@
       "Mechanical engineering",
       "Inlet"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2586893497",
@@ -26259,7 +28443,9 @@
       "Mechanical engineering",
       "Sociology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2729927554",
@@ -26295,7 +28481,11 @@
       "Engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4232020132",
@@ -26330,7 +28520,12 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4241536788",
@@ -26364,7 +28559,10 @@
       "Mechanical engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2811178488",
@@ -26396,7 +28594,12 @@
       "Physics",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "进气畸变",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4231855123",
@@ -26430,7 +28633,9 @@
       "Design for manufacturability",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "离心压气机"
+    ]
   },
   {
     "id": "W2811152204",
@@ -26466,7 +28671,9 @@
       "Thermodynamics",
       "Mathematics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4252553634",
@@ -26498,7 +28705,10 @@
       "Physics",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2811175697",
@@ -26610,7 +28820,9 @@
       "Electrical engineering",
       "Artificial intelligence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2884265978",
@@ -26642,7 +28854,10 @@
       "Engineering",
       "Acoustics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2883576310",
@@ -26675,7 +28890,11 @@
       "Physics",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2883860812",
@@ -26747,7 +28966,11 @@
       "Petroleum engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "机匣处理",
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4241315313",
@@ -26784,7 +29007,12 @@
       "Physics",
       "Inlet"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4229857973",
@@ -26822,7 +29050,11 @@
       "Aerodynamics",
       "Inlet"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4246839363",
@@ -26858,7 +29090,10 @@
       "Turbulence",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "稳定性建模"
+    ]
   },
   {
     "id": "W4238389792",
@@ -26893,7 +29128,10 @@
       "Turbulence"
     ],
     "topics_matched": [
-      "叶尖间隙"
+      "叶尖间隙",
+      "机匣处理",
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -26928,7 +29166,9 @@
       "Computer science",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4244574404",
@@ -26959,7 +29199,9 @@
       "Physics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "非定常流动",
+      "气弹/振动"
     ]
   },
   {
@@ -26993,7 +29235,10 @@
       "Physics",
       "Algorithm"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W4240221018",
@@ -27030,7 +29275,9 @@
       "Voltage",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4236304714",
@@ -27060,7 +29307,9 @@
       "Electrical engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W3047841251",
@@ -27088,7 +29337,8 @@
       "Physics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
@@ -27128,7 +29378,9 @@
       "Geology",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4255439602",
@@ -27161,7 +29413,9 @@
       "Physics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -27198,7 +29452,11 @@
       "Mechanical engineering",
       "Meteorology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4242694048",
@@ -27227,7 +29485,11 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4254850955",
@@ -27255,7 +29517,9 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2888946329",
@@ -27289,7 +29553,9 @@
       "Structural engineering",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2892916049",
@@ -27331,7 +29597,8 @@
     ],
     "topics_matched": [
       "机匣处理",
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -27366,7 +29633,10 @@
       "Aerospace engineering"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
     ]
   },
   {
@@ -27402,7 +29672,9 @@
       "Turbulence",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W2895846736",
@@ -27438,7 +29710,9 @@
       "Physics",
       "K-omega turbulence model"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W4246724843",
@@ -27470,7 +29744,11 @@
       "Machine learning",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2899393058",
@@ -27506,7 +29784,8 @@
       "Telecommunications"
     ],
     "topics_matched": [
-      "机匣处理"
+      "机匣处理",
+      "压缩机稳定性"
     ]
   },
   {
@@ -27552,7 +29831,9 @@
       "Telecommunications",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2570170051",
@@ -27579,7 +29860,9 @@
       "Finite difference",
       "Finite difference method"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2902328516",
@@ -27621,7 +29904,11 @@
       "Mechanical engineering",
       "Telecommunications"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2971487377",
@@ -27659,7 +29946,8 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -27697,7 +29985,9 @@
       "Physics",
       "Turbine"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W4230849529",
@@ -27728,7 +30018,11 @@
       "Physics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2903860063",
@@ -27763,7 +30057,12 @@
       "Chemistry",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2810425052",
@@ -27792,7 +30091,10 @@
       "Turbine",
       "Mach number"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2903921806",
@@ -27830,7 +30132,11 @@
       "Inlet",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2905398681",
@@ -27870,7 +30176,9 @@
       "Thermodynamics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -27903,7 +30211,11 @@
       "Vibration",
       "Materials science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4235984855",
@@ -27940,7 +30252,9 @@
       "Structural engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2907091757",
@@ -27974,7 +30288,8 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -28007,7 +30322,10 @@
       "Electrical engineering",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2908575180",
@@ -28041,7 +30359,11 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2914352517",
@@ -28079,7 +30401,9 @@
       "Optics"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -28115,7 +30439,11 @@
       "Optics",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4229856125",
@@ -28156,7 +30484,11 @@
       "Mechanical engineering",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2912815977",
@@ -28195,7 +30527,9 @@
       "Electrical engineering"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
     ]
   },
   {
@@ -28230,7 +30564,12 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2916358261",
@@ -28258,7 +30597,10 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "离心压气机"
+    ]
   },
   {
     "id": "W2938751843",
@@ -28292,7 +30634,9 @@
       "Mechanical engineering",
       "Meteorology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4242028029",
@@ -28323,7 +30667,11 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4235521765",
@@ -28389,7 +30737,9 @@
       "K-omega turbulence model",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4236644508",
@@ -28421,7 +30771,11 @@
       "Optics",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4241815161",
@@ -28465,7 +30819,12 @@
       "Plasma",
       "Computer science"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2782008083",
@@ -28499,7 +30858,9 @@
       "Computer science",
       "Turbulence"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W4253162045",
@@ -28531,7 +30892,12 @@
       "Mechanical engineering",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2943731784",
@@ -28560,7 +30926,12 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4244098335",
@@ -28638,7 +31009,9 @@
       "Computer science",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W4231816119",
@@ -28677,7 +31050,10 @@
       "Turbine",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4243698919",
@@ -28714,7 +31090,9 @@
       "Mechanical engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2968542166",
@@ -28745,7 +31123,9 @@
       "Mach number",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2972610708",
@@ -28783,7 +31163,9 @@
       "Gas compressor",
       "Thermodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W4252237554",
@@ -28835,7 +31217,10 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4239439222",
@@ -28867,7 +31252,10 @@
       "Mathematics",
       "Control (management)"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2974713701",
@@ -28905,7 +31293,9 @@
       "Impeller"
     ],
     "topics_matched": [
-      "压缩机稳定性"
+      "叶尖间隙",
+      "压缩机稳定性",
+      "离心压气机"
     ]
   },
   {
@@ -28940,7 +31330,9 @@
       "Optics",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "离心压气机"
+    ]
   },
   {
     "id": "W2976630011",
@@ -28977,7 +31369,9 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4239401859",
@@ -29007,7 +31401,10 @@
       "Mechanical engineering",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4247908701",
@@ -29112,7 +31509,9 @@
       "Computer science",
       "Aerospace engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4236447068",
@@ -29189,7 +31588,10 @@
       "Mechanical engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2980491196",
@@ -29254,7 +31656,10 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4237465116",
@@ -29292,7 +31697,9 @@
       "Aerospace engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "进气畸变"
+    ]
   },
   {
     "id": "W2989128022",
@@ -29322,7 +31729,9 @@
       "Physics",
       "Engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W2984020627",
@@ -29349,7 +31758,12 @@
       "Physics",
       "Geology"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "稳定性建模",
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2984147704",
@@ -29382,7 +31796,11 @@
       "Optics",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2985766397",
@@ -29415,7 +31833,10 @@
       "Engineering",
       "Marine engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W4235678583",
@@ -29491,7 +31912,9 @@
       "Computer science",
       "Mechanics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2990338465",
@@ -29526,7 +31949,12 @@
       "Physics",
       "Aerodynamics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "进气畸变",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2991483288",
@@ -29563,7 +31991,12 @@
       "Dielectric barrier discharge",
       "Electrical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "压缩机稳定性",
+      "稳定性建模",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W4237543360",
@@ -29600,7 +32033,13 @@
       "Engineering",
       "Mechanical engineering"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2964498129",
@@ -29712,6 +32151,9 @@
       "Engineering",
       "Physics"
     ],
-    "topics_matched": []
+    "topics_matched": [
+      "叶片气动设计",
+      "离心压气机"
+    ]
   }
 ]
