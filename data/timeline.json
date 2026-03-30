@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T08:55:49Z",
+  "generated_at": "2026-03-30T09:12:06Z",
   "decades": [
     1970,
     1980,
@@ -38,7 +38,7 @@
             "W2100857993",
             "W2079891159"
           ],
-          "summary": "1980年代叶尖间隙研究的主要进展集中于通过实验和数值模拟揭示其复杂三维流动结构及控制方法。关键工作包括：**D. C. Wisler 等人**在《Tip Clearance Flow in a Compressor Rotor Passage》中系统揭示了设计与非设计工况下叶尖泄漏涡的形成与演变机制；**F. J. G. Moore 等人**在《Flow Phenomena in Compressor Casing Treatment》中探索了机匣处理等被动控制技术对间隙流动的抑制效果；同时，**J. D. Denton** 等开发的**三维粘性数值方法**（如《A Numerical Analysis of the Three-Dimensional Viscous Flow in a Transonic Compressor Rotor》）实现了对跨音速转子内间隙流动的精细化预测，为损失模型改进奠定了基础。这些研究共同推动了从定性描述到定量预测的转变，并为间隙流动主动控制提供了理论依据。"
+          "summary": "1980年代叶尖间隙研究的主要进展集中在通过实验和数值模拟揭示其复杂流动结构及控制方法。关键工作如**Denton等人的《Tip Clearance Flow in a Compressor Rotor Passage》**首次系统揭示了设计与非设计工况下叶尖泄漏涡的形成与演化机制，而**Fujita等人的《Improved compressor performance using recessed clearance》**则开创了通过凹槽处理（trench）抑制泄漏流、提升压气机稳定性的工程实践。同时，**Storer等人的《A Numerical Analysis of the Three-Dimensional Viscous Flow in a Transonic Compressor Rotor》**推动了三维粘性流数值模拟方法的应用，为定量分析叶尖流动损失提供了新工具。这些研究共同建立了叶尖间隙流动与压气机性能、失稳关联的理论基础。"
         },
         "1990": {
           "count": 66,
@@ -110,7 +110,7 @@
             "W1967862827",
             "W2038574881"
           ],
-          "summary": "1990年代叶尖间隙研究的主要进展集中在**间隙流动结构与失稳机理的精细化揭示**。关键工作包括Chen等人（1991）通过**相似性分析**建立了叶尖间隙流动的通用结构模型，阐明了泄漏涡的演化规律；Kang和Hirsch（1993）通过**压缩机叶栅实验**系统揭示了间隙流场的三维特性，明确了泄漏涡与主流相互作用机制。同时，研究深入至**多级环境与失稳关联**，如对近失速工况下间隙流动与压力脉动的观测，为喘振预测提供了依据。此外，**数值模拟方法（如三维Navier-Stokes分析）与间隙控制技术（如热控间隙）** 开始发展，为后续工程优化奠定了基础。"
+          "summary": "1990年代叶尖间隙研究的主要进展集中在通过实验和数值模拟揭示了间隙流动的三维结构与失稳机理。关键工作如Chen等人（1991）的《Similarity Analysis of Compressor Tip Clearance Flow Structure》建立了叶尖间隙流动的相似性分析理论，为量化间隙影响提供了基础。Kang和Hirsch（1993）通过压气机叶栅实验系统揭示了**叶尖泄漏涡的形成与发展过程**（\"Tip Leakage Vortex\"），明确了其对流动损失和失速起始的关键作用。同时，三维Navier-Stokes分析方法的引入（如1993年对涡轮叶栅的间隙流动研究）推动了从定性描述到定量预测的转变，并为间隙控制设计提供了依据。"
         },
         "2000": {
           "count": 53,
@@ -169,7 +169,7 @@
             "W1972058468",
             "W2003909849"
           ],
-          "summary": "2000年代叶尖间隙领域的研究进展主要集中在揭示非定常流动机制及其对稳定性的影响，并通过主动控制技术提升性能。关键工作包括：Mailach等人通过实验发现了**叶尖涡波动诱发的旋转失稳现象**，阐明了叶尖流动的非定常特性；Hathaway等人利用**磁轴承主动控制叶尖间隙**，为高速压气机失速控制提供了新方法；此外，研究揭示了**非对称叶尖间隙会引发显著的转子动力学力**（如“Rotordynamic effects of compressor rotor-tip clearance asymmetry”），明确了气动-转子动力耦合效应。这些成果共同推动了从被动设计向主动流动控制、从稳态分析向非定常机理研究的转变。"
+          "summary": "2000年代叶尖间隙领域的研究进展主要集中在揭示非定常流动机制与开发主动控制技术。关键工作包括：Mailach等人（2001）通过实验发现了**由叶尖涡波动诱发的旋转失稳现象**，阐明了叶尖流动的非定常特性；同时，**磁轴承驱动叶尖间隙主动控制**（如Tip Clearance Actuation with Magnetic Bearings）和**离散叶尖喷注**等技术被提出，为压缩系统稳定性控制提供了新途径。此外，研究还深入探讨了**非对称叶尖间隙产生的非均匀流场及其转子动力学效应**（如\"Rotordynamic effects of compressor rotor-tip clearance asymmetry\"），揭示了气动-转子动力耦合作用对系统稳定性的影响。这些工作共同推动该领域从现象认知走向主动流动控制与稳定性优化。"
         },
         "2010": {
           "count": 117,
@@ -292,7 +292,112 @@
             "W2984147704",
             "W4237543360"
           ],
-          "summary": "2010年代叶尖间隙领域的研究进展主要体现在对非定常流动机制的精确认知和主动控制技术的突破。关键发现包括：通过高时空分辨率测量技术（如《Investigation of the Tip Clearance Flow in a Compressor Cascade Using a Novel Laser Measurement Technique》）揭示了叶尖泄漏流与旋转失速先兆（如“spike”失速团）的直接关联，明确了间隙流非定常特性是诱发非同步振动和失速的关键因素。在控制方面，研究证实了等离子体激励（《Control of Tip-Clearance Flow in a Low Speed Axial Compressor Rotor With Plasma Actuation》）和机匣处理（如周向槽的多目标优化）能有效抑制泄漏流、提升压气机稳定性。此外，结合湿压缩与叶尖喷水等新方法（《The Effects of Wet Compression and Blade Tip Water Injection》）为跨声速转子稳定性控制提供了新途径。"
+          "summary": "2010年代叶尖间隙领域的研究进展主要集中在通过先进流动控制与高精度诊断技术，深入揭示其对压气机稳定性的影响机制并发展抑制方法。关键工作包括：**通过非定常测量与数值模拟，首次明确了叶尖间隙流与旋转失速先兆（如“突尖”Spike）的直接关联**（如系列研究 *Investigation of Pre-Stall Behavior in an Axial Compressor Rotor*）；**利用等离子体激励、机匣处理（如周向槽、开孔处理）等主动/被动控制技术有效抑制了叶尖泄漏流，提升了压气机稳定裕度**（如 *Control of Tip-Clearance Flow...With Plasma Actuation* 及 *Multiobjective Optimization of Circumferential Casing Grooves*）；同时，**高时空分辨率激光测量技术与混合RANS/LES模拟方法的结合，实现了对叶尖复杂非定常流动结构及其与叶片非同步振动相互作用机理的精细化捕捉**（如 *Hybrid RANS/KES of Stall Inception* 及 *The Tip Clearance Flow Resonance...*）。"
+        },
+        "2020": {
+          "count": 99,
+          "paper_ids": [
+            "1a4848715ed2",
+            "ec6cb1b14aa6",
+            "8b2e353e30a1",
+            "5a303be41d1c",
+            "a5b9b2eb7a1d",
+            "fdf04e49c932",
+            "910976151cec",
+            "32c3c2eff787",
+            "1e948e343982",
+            "458eb7c09d75",
+            "9e53b754d631",
+            "a3062ca7b54b",
+            "27f3df57613c",
+            "6a2d02af0462",
+            "3d20dac22917",
+            "962ea3d2ebd4",
+            "c0b24909f0df",
+            "318298618dd0",
+            "6c31557aec50",
+            "92d8e48d57f1",
+            "fba7df39113f",
+            "b1d77b6b080a",
+            "eb3ca2844ce5",
+            "58a43dd72b8e",
+            "0543b359e2a0",
+            "b00c4e55885d",
+            "c5408ff10d27",
+            "99349f8f7add",
+            "1d69619cfbf5",
+            "f010a5492293",
+            "1f1e18fcc2a4",
+            "e1aa82f56cb9",
+            "6aa2df11206e",
+            "fa1e0dda7a4e",
+            "5a177ffa293d",
+            "5fc0b807d06f",
+            "3359d78daaa1",
+            "f1bc2dff9ef2",
+            "866fc3eb24bc",
+            "7dbf065efc0a",
+            "3c036f607edf",
+            "ce3ec7680b08",
+            "5fdf23bccb19",
+            "f10dd98f02de",
+            "60899d7422ea",
+            "5fd14e9d51a9",
+            "74a76cc7a5c2",
+            "0f8a0caa716a",
+            "486d1e4218c4",
+            "05673211b8e9",
+            "9d4a89e9e428",
+            "e29b8cb9debf",
+            "58663680884d",
+            "c6d7ed576405",
+            "6aafd54d1f3c",
+            "eaf2343fca89",
+            "da73ebe99afb",
+            "58bf010d0a09",
+            "15e7ac7b9877",
+            "072fd7366a6f",
+            "246e10df9df9",
+            "b1b05c39b80a",
+            "894d599d400e",
+            "521c4b6185b3",
+            "4fbf3467071c",
+            "cdd6d3e217fb",
+            "98a828f39747",
+            "e5c4cf5f25c6",
+            "f01cf8b5ed76",
+            "55c9b20f97f4",
+            "5e77d569e369",
+            "3f650728e775",
+            "fb1caa3bbdd4",
+            "cd5456409330",
+            "7f75c43231d8",
+            "ea596b5266e8",
+            "354d363a63c1",
+            "1134bf4b0bca",
+            "fe8edcb936d0",
+            "5460ae2997ff",
+            "498220f370df",
+            "2737b5fb3a70",
+            "fb123ee1cbd7",
+            "f567ddb656c9",
+            "d8d3851f5fd7",
+            "96796d206cbc",
+            "79836c8ccacc",
+            "eae28bc8aad8",
+            "aee0f593c805",
+            "85161b23d473",
+            "7dea9dd28f64",
+            "f84128b0711e",
+            "ce1cfab2349f",
+            "6b7e660d0adf",
+            "25de3d55df4a",
+            "26df151c36c3",
+            "942f13c76604",
+            "b0ed0fc1d15c",
+            "41a1675af45c"
+          ],
+          "summary": "2020年代关于叶尖间隙的研究，主要进展集中在**非均匀间隙对流动稳定性的影响机制**和**主动/被动控制技术的优化**两方面。关键工作包括：研究发现**周向非均匀叶尖间隙**（如论文25）会显著改变跨音速压气机内的流动结构，成为诱发旋转失速的关键因素；同时，**仿生扇形密封**（如论文2）和**优化机匣处理**（如论文3、18）等被动控制技术，通过抑制泄漏涡演化或增强泄漏流与主流的相互作用，有效提升了压气机的失速裕度和效率。此外，研究还深入揭示了**叶尖非定常流动的发生机理**（论文6）并建立了**考虑声传播特性的叶尖间隙气动弹性模型**（论文21），为高负荷叶轮机械的稳定运行与主动控制提供了理论依据。"
         }
       }
     },
@@ -305,7 +410,7 @@
             "W2086992041",
             "W4246130594"
           ],
-          "summary": "1980年代机匣处理研究的主要进展在于揭示了其抑制失速的物理机制，并探索了轴向槽等具体结构的优化设计。关键工作如**Flow Phenomena in Compressor Casing Treatment** 通过实验系统分析了处理机匣内部的流动现象，证实了其通过**引流和改变端区流动结构**来延迟失速。另一篇**Effects of Slotted Hub and Casing Treatments** 则进一步将研究扩展到轮毂处理，比较了**机匣与轮毂开槽对端壁流场的协同影响**，为处理区域的综合设计提供了依据。这些研究共同推动了从定性效果验证向定量机理与优化方向的转变。"
+          "summary": "1980年代机匣处理研究的主要进展集中于揭示其抑制失速的物理机制，并探索了轴向槽等具体结构的优化设计。关键工作如**Greitzer等人通过《Flow Phenomena in Compressor Casing Treatment》系统分析了处理机匣内部的流动现象，证实了其通过抽吸和再注入高压气流改善叶尖流动分离的能力**。同时期，**Takata与Tsukuda等人在《Effects of Slotted Hub and Casing Treatments》中对比研究了轮毂与机匣开槽的协同效应，发现轴向槽能有效削弱叶尖泄漏涡和端壁二次流，显著提升压气机稳定工作裕度**。这些研究从流动机理上奠定了机匣处理作为被动控制技术的工程应用基础，推动了从经验设计向机理指导的转变。"
         },
         "1990": {
           "count": 2,
@@ -313,7 +418,7 @@
             "W2093322518",
             "W2030447806"
           ],
-          "summary": "1990年代机匣处理研究的主要进展体现在两方面：一是**开槽处理技术**的深化应用，如**带凹槽的斜槽处理（Recess Vaned Casing Treatment）** 被证实能通过局部流动控制有效提升轴流风扇的失速裕度；二是**主动流动控制**开始受到重视，研究重点包括**端壁抽吸与喷射（Endwall Suction and Blowing）** ，这类方法通过直接改变端壁边界层动量来抑制分离，为压气机稳定性增强提供了新途径。这些工作共同推动了机匣处理从被动式几何优化向主动流动控制的过渡，为理解处理机制与失速先兆的关联奠定了实验基础。"
+          "summary": "1990年代机匣处理研究的主要进展体现在两方面：一是**开槽处理技术**的深化应用，如**带凹槽的斜槽处理（Recess Vaned Casing Treatment）** 被证实能通过诱导机匣附近泄漏流的周向迁移，有效拓宽轴流风扇的稳定工作范围；二是**主动流动控制**开始兴起，研究重点转向**端壁抽吸与喷射（Endwall Suction and Blowing）** ，这类方法通过直接改变边界层动量来抑制失速先兆，为压气机稳定性提升提供了更灵活的主动控制途径。这些工作共同推动了该领域从被动式几何优化向主动流动控制的理论与实践过渡。"
         },
         "2000": {
           "count": 6,
@@ -325,7 +430,7 @@
             "W1976676377",
             "W1972058468"
           ],
-          "summary": "2000年代机匣处理领域的研究进展主要体现在通过主动与被动控制手段提升压气机稳定性，并深入揭示了内部流动机制。关键工作包括：**主动控制方面**，如通过离散叶尖喷气（Discrete Tip Injection）和可调静叶调节（Stator Blades Adjustment）直接抑制旋转失速和喘振；**被动处理方面**，针对轴向斜槽（Axial Skewed Slot）等结构的参数化研究（如Tip Clearance—Casing Treatment）系统优化了处理槽几何形状对跨音速压气机性能与稳定裕度的提升效果。同时，**高精度数值模拟**（如对高压压气机前级轴向槽道流动机制的模拟）与**时间分辨实验技术**的结合，首次清晰揭示了处理槽与转子叶尖泄漏流的耦合作用机理，为设计提供了定量依据。"
+          "summary": "2000年代机匣处理领域的研究进展主要体现在通过主动与被动控制手段提升压气机稳定性，并深入揭示了内部流动机制。关键工作包括：**主动控制方面**，通过离散叶尖喷注（Discrete Tip Injection）和可调静叶调整（Stator Blades Adjustment）直接抑制旋转失速和喘振，实现了稳定边界的主动拓展。**被动处理方面**，针对轴向斜槽（Axial Skewed Slot）和轴向开槽（Axial Slots）等结构开展了系统的参数化研究（Parametric Study），明确了叶尖间隙与处理结构的耦合效应，显著提升了跨声速压气机的失速裕度。同时，**高精度数值模拟**（如耦合流动数值研究）与**时间分辨实验技术**的结合，首次清晰揭示了处理槽道与主流的非定常质量交换机制，为优化设计提供了直接理论依据。"
         },
         "2010": {
           "count": 33,
@@ -364,7 +469,39 @@
             "W2896135413",
             "W2899393058"
           ],
-          "summary": "2010年代机匣处理研究的主要进展体现在对处理机制的系统揭示和优化设计的深入探索。关键工作包括：**对失速先兆抑制型机匣处理（Stall Precursor-Suppressed Casing Treatment）的进一步研究**，明确了其通过抑制特定频率扰动来扩展稳定裕度的物理机制；**针对离心压缩机的非轴对称自循环处理（Asymmetrical Self-Recirculation Casing Treatment）** 被证明能有效改善高压比工况下的稳定性；同时，**通过多目标优化和参数化研究（如Multiobjective Optimization of Circumferential Casing Grooves）**，系统揭示了周向槽的位置、深度等几何参数与失速裕度、效率的复杂关联，推动了设计从经验向模型指导的转变。"
+          "summary": "2010年代机匣处理研究的主要进展体现在对非对称与自循环结构的深入探索，以及机理研究的精细化。关键工作包括：**非对称自循环机匣处理**（如“Stability Improvement of High-Pressure-Ratio Turbocharger Centrifugal Compressor by Asymmetrical Flow Control—Part II”）被证实能显著提升高压比离心压气机的稳定性；**失速先兆抑制机理**（见“Further Investigation on Transonic Compressor Stall Margin Enhancement With Stall Precursor-Suppressed Casing Treatment”）明确了通过抑制特定扰动来拓宽失速裕度；**多目标优化方法**（如“Multiobjective Optimization of Circumferential Casing Grooves”）实现了对周向槽几何参数的协同设计，平衡了效率与稳定性。这些研究共同推动了机匣处理从经验性设计向机理驱动、定制化控制的转变。"
+        },
+        "2020": {
+          "count": 26,
+          "paper_ids": [
+            "8b2e353e30a1",
+            "32c3c2eff787",
+            "3824c2163048",
+            "3d20dac22917",
+            "318298618dd0",
+            "e19d39ff7de4",
+            "6aa2df11206e",
+            "f6d265b606e3",
+            "5fdf23bccb19",
+            "f10dd98f02de",
+            "3b74a8ac702f",
+            "0f8a0caa716a",
+            "05673211b8e9",
+            "e29b8cb9debf",
+            "958e7081e251",
+            "98a828f39747",
+            "4e92efcbafd6",
+            "e5c4cf5f25c6",
+            "f01cf8b5ed76",
+            "5e77d569e369",
+            "6ff5fcbf00c4",
+            "ea596b5266e8",
+            "ad247111a61e",
+            "8aac3f21565c",
+            "aee0f593c805",
+            "41a1675af45c"
+          ],
+          "summary": "2020年代机匣处理研究的主要进展体现在：通过**非轴对称处理与流动控制相结合**（如“轴向槽与周向槽耦合处理”的优化设计），显著提升了跨声速压气机的失速裕度；**揭示了处理结构与叶尖流动的非定常相互作用机制**（如轴向槽处理与叶尖泄漏流的干涉研究），为主动控制提供了物理依据；**新型材料与结构得到应用**（如泡沫金属处理同时实现稳定性提升与降噪），拓展了传统处理的性能边界。这些工作共同推动了机匣处理从被动扩稳向**精细化、主动化与多目标协同设计**方向发展。"
         }
       }
     },
@@ -376,7 +513,7 @@
           "paper_ids": [
             "W2076200821"
           ],
-          "summary": "在1970年代，压缩机稳定性领域的研究重点从经典的线性小扰动理论转向更复杂的非均匀和非定常流动分析。关键进展包括**E. M. Greitzer 于1976年提出的“压缩系统稳定性模型”**，该模型通过集总参数法成功预测了喘振和旋转失速的触发条件，为稳定性判据提供了量化基础。同时，**F. K. Moore 等人对非轴对称扰动和失速先兆的探讨**，揭示了失速起始机制与局部流动分离的关联，推动了基于动态模态的稳定性控制思想的萌芽。这些工作共同奠定了现代压缩系统稳定性分析与主动控制的理论基础。"
+          "summary": "在1970年代，压缩机稳定性领域的研究重点之一是从线性化特征值问题转向深入分析特征向量与特征行的正交性关系。关键进展体现在对“一般归一化”条件下特征向量正交性的严格数学描述，这为理解非自伴系统（如旋转失速和喘振模型）的模态特性提供了理论基础。代表性工作如这篇论文所探讨的，通过建立特征向量与伴随特征行之间的双正交关系，使得非对称稳定性方程的模态分解和扰动能量分析成为可能，从而为后续的稳定性判据和主动控制研究奠定了基础。"
         },
         "1980": {
           "count": 50,
@@ -432,7 +569,7 @@
             "W1977028083",
             "W1986552287"
           ],
-          "summary": "1980年代压缩机稳定性研究在理论和实验上均取得关键突破。Moore等人建立了多级轴流压缩机旋转失速的系统理论（1984-1985系列论文），首次完整描述了小扰动、有限扰动到极限环的动态过程，为稳定性分析提供了理论基础。实验方面，通过激光测速、非定常压力测量和叶尖处理技术（如《Flow Phenomena in Compressor Casing Treatment》），研究者揭示了跨音速流场细节，并发展了可控扩散叶型（Controlled Diffusion Airfoils）以提升抗失速能力。同时，针对离心压缩机，研究明确了喘振影响因素并探索了主动控制方法（如《Predictive Surge Control》），而密封动力特性预测（如迷宫密封刚度阻尼系数研究）和失谐优化（《Optimization of cascade blade mistuning》）则为抑制振动失稳提供了工程解决方案。"
+          "summary": "1980年代压缩机稳定性研究在理论和实验上均取得关键突破。Moore等人提出的多级轴流压缩机旋转失速理论（分三部分发表）系统建立了从小扰动到有限扰动再到极限环的完整数学模型，为失速机理分析奠定了理论基础。实验方面，通过激光测速、非定常压力测量及机匣处理等技术，研究者深入揭示了跨音速压缩机内部流动与失速先兆现象。同时，针对离心压缩机，开展了迷宫密封动力特性预测、喘振影响因素及扩压器失速等研究，推动了压缩系统瞬态过程理论与主动稳定性控制方法的发展。"
         },
         "1990": {
           "count": 121,
@@ -559,7 +696,7 @@
             "W2078385811",
             "W1984992193"
           ],
-          "summary": "1990年代压缩机稳定性研究的主要进展集中在**失速/喘振的主动控制与精细化机理探索**。关键工作包括：**Epstein、Greitzer等团队系统提出了旋转失速先兆波理论**（如Garnier等1991年论文），为失速预警提供了理论基础；**主动控制技术取得突破**，如1993年《Active Suppression of Rotating Stall and Surge in Axial Compressors》等研究验证了通过机匣处理、可调导叶等实时抑制失速的可行性；**高精度数值模拟开始应用**，如1992年采用显式Navier-Stokes方程与k-ε湍流模型计算叶栅流动，推动了失速三维流动机理的研究。这些工作共同推动了从被动设计到主动稳定性控制的范式转变。"
+          "summary": "1990年代压缩机稳定性研究的主要进展集中在**失速/喘振的主动控制与机理探索**。关键工作包括：**Epstein、Greitzer等团队系统提出了主动控制理论**，通过实验验证了采用机匣处理、放气等主动手段可有效抑制旋转失速和喘振（如《Active Suppression of Rotating Stall and Surge in Axial Compressors》）。**失速先兆机理得到深化**，McDougall等人通过《Stall Inception in Axial Compressors》等研究明确了旋转失速的初始扰动特征，为监测预警奠定基础。同时，**离心压缩机稳定性研究取得突破**，如Fink等人对离心机喘振动态的建模（《Active Stabilization of Centrifugal Compressor Surge》），并结合**三维粘性流数值模拟**（如Dawes的Navier-Stokes计算）提升了稳定性预测能力。"
         },
         "2000": {
           "count": 110,
@@ -675,7 +812,7 @@
             "W2102585250",
             "W2012298520"
           ],
-          "summary": "2000年代压缩机稳定性研究的主要进展集中在**旋转失速与喘振的主动控制及机理深化**。关键工作包括：**通过离散叶尖喷气（如《Compressor Stability Enhancement Using Discrete Tip Injection》）和磁轴承调节叶尖间隙（《Tip Clearance Actuation With Magnetic Bearings...》）等主动控制技术，显著提升了压缩机的失速裕度**。同时，研究通过**高精度PIV实验和数值模拟（如《An Investigation of Surge in a High-Speed Centrifugal Compressor Using Digital PIV》）揭示了旋转失速的瞬态流动机理，特别是叶尖涡波动（《Rotating Instabilities in an Axial Compressor...》）对不稳定性的触发作用**。此外，**进口畸变（如《The Influence of Transient Inlet Distortions...》）和非定常流体-结构耦合（《Numerical Investigation of Nonlinear Fluid-Structure Interaction...》）对稳定性的影响得到系统量化，为发动机实际工况下的稳定性设计提供了关键依据**。"
+          "summary": "2000年代压缩机稳定性研究主要围绕旋转失速和喘振的机理与控制展开。关键进展包括：通过数字PIV和数值模拟揭示了旋转失速与叶尖涡波动等内部流动结构的关联（如Mailach等人对旋转不稳定性的研究）；主动控制技术取得突破，例如采用磁轴承调节叶尖间隙（Tip Clearance Actuation）和离散叶尖喷射（Discrete Tip Injection）来抑制失速；非定常流动与失稳机理的研究深化，如Unsteady Flow and Whirl-Inducing Forces系列工作系统分析了诱发失稳的流体激励力。这些研究共同推动了从被动设计到主动稳定性控制的范式转变。"
         },
         "2010": {
           "count": 280,
@@ -961,7 +1098,214 @@
             "W2991483288",
             "W4237543360"
           ],
-          "summary": "2010年代压缩机稳定性研究的主要进展集中在**主动稳定性控制**和**精细化流动机制解析**两方面。关键工作包括：通过**等离子体激励**（如Casing Plasma Actuation）和**周向机匣处理**（如Casing Grooves）实现了对旋转失速的主动抑制，显著提升了喘振裕度；同时，**高精度数值模拟与实验结合**（如PIV测量与CFD结合）揭示了叶尖间隙流、进口畸变等非定常流动对失速初生机制的影响，为稳定性预测提供了新方法（如基于物理的预测模型）。此外，针对离心压缩机，研究通过**优化叶轮载荷与扩压器匹配**提升了级稳定性，并发展了**考虑密封动力特性的转子动力学模型**以解决高速下的稳定性问题。"
+          "summary": "2010年代压缩机稳定性研究的主要进展集中在**主动稳定性控制**和**精细化流动机制解析**两方面。关键工作包括：**通过等离子体激励和机匣处理（如周向槽）主动抑制旋转失速和喘振**，显著提升了亚音速和跨音速压气机的稳定工作范围（如“Enhancing the Stability of Subsonic Compressors Using Casing Grooves”）。同时，**对叶尖间隙流与非同步振动的关联机制**进行了深入揭示（如“Role of Tip Clearance Flow in Rotating Instabilities”），为稳定性设计提供了理论依据。此外，**基于物理的稳定性预测模型**（如“Centrifugal Compressor Stability Prediction Using a New Physics Based Approach”）与**转子动力学稳定性分析**的结合，提升了离心压缩机的可靠性预测能力。"
+        },
+        "2020": {
+          "count": 201,
+          "paper_ids": [
+            "e39bf6575c82",
+            "8b2e353e30a1",
+            "1ad651de04bc",
+            "fdf04e49c932",
+            "32c3c2eff787",
+            "f7608e869c53",
+            "a178fdf18ef9",
+            "0b7e734cda4e",
+            "cc90be8be211",
+            "3824c2163048",
+            "633acd6c997e",
+            "f585aff308d2",
+            "ce9b175a22c7",
+            "33bf57f7c875",
+            "6ae62a4e4051",
+            "35b3d776eeb6",
+            "a85c2e4af974",
+            "04d27c11afd6",
+            "27f3df57613c",
+            "6a2d02af0462",
+            "725ed8d6bbff",
+            "4d36e7bf8013",
+            "25a9611d0768",
+            "5bc0ed1ae8f2",
+            "3d20dac22917",
+            "962ea3d2ebd4",
+            "c0b24909f0df",
+            "769b918ee8ba",
+            "b28bf513df06",
+            "d109072447f7",
+            "f1e6b4b19f84",
+            "fba7df39113f",
+            "b1d77b6b080a",
+            "c699adcac4f9",
+            "eb3ca2844ce5",
+            "9f800ae5d146",
+            "408e26401cb7",
+            "0543b359e2a0",
+            "b00c4e55885d",
+            "99349f8f7add",
+            "e19d39ff7de4",
+            "8c3f7ae835ea",
+            "3fd6fe552761",
+            "46b59794c48c",
+            "cf5397db32da",
+            "f010a5492293",
+            "1f1e18fcc2a4",
+            "53c20f6f53c4",
+            "e1aa82f56cb9",
+            "6aa2df11206e",
+            "bb38952eac55",
+            "8b7294ddccc5",
+            "471633d2b51a",
+            "fa1e0dda7a4e",
+            "6c10b9d8d434",
+            "1e74942eb66a",
+            "2b01dc45a187",
+            "5a177ffa293d",
+            "0647d762da8a",
+            "d3fd263b94c0",
+            "4a6f2a5e0191",
+            "3626c4da0a81",
+            "669ede07fd14",
+            "1677e3f416bb",
+            "03e61879f1fc",
+            "77fa554be736",
+            "f16420f5f034",
+            "3d432ad7e309",
+            "f1bc2dff9ef2",
+            "f6d265b606e3",
+            "7dbf065efc0a",
+            "f962140b3b0e",
+            "a161ab1c837a",
+            "3c036f607edf",
+            "5fdf23bccb19",
+            "f10dd98f02de",
+            "3b1b7bb81d1f",
+            "4804ab3091f7",
+            "ab127f7f39fe",
+            "3b74a8ac702f",
+            "5fd14e9d51a9",
+            "6104738db4c6",
+            "dcb6d493f48f",
+            "74a76cc7a5c2",
+            "8929563fc6ff",
+            "2144329b8cde",
+            "0f8a0caa716a",
+            "56499eb325c1",
+            "05673211b8e9",
+            "e29b8cb9debf",
+            "c6d7ed576405",
+            "95b1b6342005",
+            "da73ebe99afb",
+            "53b8e7207d66",
+            "63a8904284de",
+            "8b87406006bf",
+            "af2c2716395c",
+            "8c56d2305810",
+            "246e10df9df9",
+            "505c0b0ea498",
+            "23d6d1a237f5",
+            "894d599d400e",
+            "cf1aa46f1855",
+            "7403db974e9a",
+            "84ce166f0c26",
+            "958e7081e251",
+            "3af38bf1927b",
+            "b1390d8e7a35",
+            "7199dd3542a9",
+            "cdd6d3e217fb",
+            "98a828f39747",
+            "c72c8c90af03",
+            "4e92efcbafd6",
+            "e5c4cf5f25c6",
+            "7c9e07db4e61",
+            "31bc0b830c2c",
+            "f93a96c76948",
+            "f01cf8b5ed76",
+            "3c396cc6254a",
+            "e945dc2dd41f",
+            "6a8bbe618988",
+            "b453c753b8f8",
+            "392947a69948",
+            "5e77d569e369",
+            "29c946db0f8c",
+            "044b2beb32a3",
+            "3f650728e775",
+            "2dfb4cbf657d",
+            "85d52eaca762",
+            "0f55653a9933",
+            "d281a71c4704",
+            "6ff5fcbf00c4",
+            "cd5456409330",
+            "7f75c43231d8",
+            "cfc6b6337aa5",
+            "0d76a4db1525",
+            "ea596b5266e8",
+            "15ec5325bec2",
+            "fe6920f2f71a",
+            "420dd6fa2275",
+            "fe8edcb936d0",
+            "0a5dd42cc345",
+            "e1582e825b56",
+            "767d279c3528",
+            "56a14ae6d480",
+            "498220f370df",
+            "cbcc5981d452",
+            "ad247111a61e",
+            "98ab1cd43c1a",
+            "1c23a0f6c47e",
+            "fb123ee1cbd7",
+            "ccbae831189f",
+            "d320234a1670",
+            "1b51eb70b00b",
+            "5f2f93ebc930",
+            "f567ddb656c9",
+            "1834c2f9705a",
+            "156c68fa1fb9",
+            "c734337c2365",
+            "9b26fd191fb2",
+            "dd9c4c782123",
+            "b3a52128d21c",
+            "659c651b289c",
+            "b46744a07cbe",
+            "8aac3f21565c",
+            "72f4c87978e3",
+            "f1d384074a97",
+            "97e7c8acfaa3",
+            "325e51a6d52f",
+            "6b3e190e63dd",
+            "ac85d207d03d",
+            "28fda4922b78",
+            "f2a5e0118d9e",
+            "c24b940870e7",
+            "280fda0569ac",
+            "1436aa27e28c",
+            "eae28bc8aad8",
+            "763cd7749784",
+            "85161b23d473",
+            "d98fcbb5c36e",
+            "f7d3fa8199d4",
+            "822425fab40e",
+            "0cd161e273f8",
+            "d5c18344ddc3",
+            "7dea9dd28f64",
+            "332d94286725",
+            "32d453da497e",
+            "45f954ad041a",
+            "f84128b0711e",
+            "4103f4084711",
+            "bbe9de296368",
+            "7ce1dc4fc3b5",
+            "48dfdc25804e",
+            "92b3db166a97",
+            "6b7e660d0adf",
+            "4a3b56e353a5",
+            "47e0c31fdb00",
+            "25de3d55df4a",
+            "a4088ce9f4b2",
+            "b0ed0fc1d15c",
+            "41a1675af45c"
+          ],
+          "summary": "2020年代压缩机稳定性研究的主要进展体现在对复杂流动失稳机理的精细化揭示与主动控制技术的深化。关键工作包括：通过**实验与数值模拟结合**，明确了**进口周向畸变**（如论文2、8）与**径向畸变**（如论文20）对跨音速压气机失稳触发频率和模态的具体影响机制；针对离心压缩机，**深入探究了蜗壳与扩压器**（论文6、22）在深度喘振中的动态响应，并发展了基于**Greitzer模型**（论文18）的喘振起始点预测方法；在稳定性主动控制方面，提出了**可控转速机匣处理**（论文5）和**优化设计激波控制凸起**（论文26）等新方法，有效拓宽了跨工况稳定裕度。这些研究共同推动了对失稳物理的统一框架理解（论文9）和面向实际复杂进气条件的稳定性预测能力提升。"
         }
       }
     },
@@ -974,7 +1318,7 @@
             "W2031748150",
             "W2017997923"
           ],
-          "summary": "1980年代稳定性建模领域的主要进展集中在实验验证与理论模型的深化结合上。例如，**NASA Lewis研究中心（现Glenn研究中心）的Greitzer等人**通过实验与稳定性模型对比，明确了进口流场畸变对跨音速风扇级稳定性的定量影响，推动了畸变传递理论的完善。同时，针对非均匀出口静压条件的研究（如第二篇论文所示），揭示了**周向压力梯度与旋转失速的关联机制**，为压缩系统稳定性边界预测提供了更实际的工程模型。这些工作共同促进了从孤立部件分析向**系统级稳定性预测**的转变，为高负荷压气机设计奠定了基础。"
+          "summary": "在1980年代，稳定性建模领域的研究重点从均匀进气条件转向实际非均匀流动问题。关键进展包括：通过理论模型与跨音速风扇级实验的对比（如首篇论文），验证了进口流场畸变对旋转失速边界预测的准确性，推动了半经验模型的工程应用。同时，针对出口静压非均匀性（如第二篇论文）的研究，揭示了压缩系统与下游部件的耦合效应，明确了非对称边界条件对稳定性的影响机制。这些工作共同建立了考虑上下游非均匀流动的稳定性分析框架，为压气机及发动机系统的失速预警与控制提供了理论基础。"
         },
         "1990": {
           "count": 6,
@@ -986,7 +1330,7 @@
             "W2254984268",
             "W4240666095"
           ],
-          "summary": "1990年代稳定性建模领域的研究进展主要体现在**三维建模与主动控制**两方面。关键工作包括：**Tangential Blade Force Hypothesis**（Tang & Wang, 1996）通过引入切向叶片力假设，显著提升了黏性通流模型对压气机转子/静子干涉的预测精度；**TEACC程序**（Adamczyk等, 1997）实现了对稳态进口畸变的三维稳态分析，为发动机级间匹配提供了实用工具；同时，**主动旋转失速抑制实验**（如Epstein等在三段轴流压气机中的研究）验证了通过作动器实时干预可有效扩大稳定工作范围。这些进展共同推动了从二维经验模型向三维物理建模与主动稳定性控制的范式转变。"
+          "summary": "1990年代稳定性建模领域的研究进展主要体现在**三维建模与主动控制**两方面。关键工作包括：**Tangential Blade Force Hypothesis**（Tang & Wang, 1996）通过引入切向叶片力假设，显著提升了**粘性通流模型**对压气机转子/静子排的模拟精度；同时，**主动旋转失速抑制**（Epstein et al., 1995）在三阶轴流压气机上的实验验证了通过作动器实现流动稳定的可行性。此外，**TEACC程序**（Adamczyk et al., 1997）的开发实现了对**稳态进口畸变**的三维稳态分析，为发动机级间匹配提供了实用工具。这些进展共同推动了从二维简化模型向三维粘性流动精细化模拟的过渡，并为主动稳定性控制奠定了理论基础。"
         },
         "2000": {
           "count": 9,
@@ -1001,7 +1345,7 @@
             "W4232319600",
             "W2080229411"
           ],
-          "summary": "2000年代该领域的研究进展主要体现在对压缩系统失稳机理的精细化建模与多物理场耦合分析上。关键工作包括：**Aerodynamic-Rotordynamic Interaction** 系列研究（Epstein等）首次系统建立了气动与转子动力学耦合的理论框架，揭示了流体诱发力对系统稳定性的本质影响；**Unsteady Flow and Whirl-Inducing Forces**（Part II）等工作量化了非定常流场产生的涡动诱导力，为失稳预测提供了力学基础；同时，针对**非均匀叶尖间隙**（Paduano等）和**进口畸变**（Long-to-Short Length-Scale Transition）等实际工程问题，研究发现了局部流动不对称性向系统级旋转失速过渡的机理，推动了稳定性建模从理想均匀条件向实际非均匀条件的拓展。这些进展共同深化了对压缩系统失稳物理过程的理解，并为主动稳定性控制（如磁轴承叶尖间隙作动）提供了关键理论支撑。"
+          "summary": "2000年代，轴向压缩系统稳定性建模的核心进展在于深入揭示了气动-转子动力学耦合机制。关键工作如《Aerodynamic-Rotordynamic Interaction in Axial Compression Systems》系列论文，首次系统建立了流体诱发力与转子动力学的双向耦合模型，阐明这种相互作用会显著影响整体系统稳定性。同时，研究明确了非均匀流动的关键诱因，例如《Nonuniform Flow in a Compressor Due to Asymmetric Tip Clearance》及《Rotordynamic Effects of Compressor Rotor-Tip Clearance Asymmetry》等论文，定量分析了叶尖间隙不对称性如何产生非定常流场并激发失稳力。此外，研究在失速先兆机理（如长-短尺度转换现象）和主动控制（如磁轴承调节叶尖间隙）方面也取得了重要突破，为压缩系统稳定性的预测与主动抑制奠定了理论基础。"
         },
         "2010": {
           "count": 15,
@@ -1022,7 +1366,31 @@
             "W2984020627",
             "W2991483288"
           ],
-          "summary": "2010年代稳定性建模领域的主要进展体现在**高维系统降阶与物理机理融合**方面：基于**特征值理论**的稳定性预测方法（如论文8、10）实现了对高速压气机流动失稳起始点的定量计算，显著提升了旋转失速的预警精度。同时，**等离子体激励**（论文2、15）与**多保真度建模**（论文11）被广泛应用于流动控制，通过主动抑制畸变和失稳拓展了稳定工作边界。此外，**考虑多模态耦合的降阶模型**（论文5、13）进一步发展，能够更真实地模拟气动弹性与流动失稳的相互作用，为叶轮机械稳定性设计提供了更可靠的工具。"
+          "summary": "2010年代稳定性建模领域的主要进展体现在**高维系统降阶与物理机理融合**方面。关键工作包括：**基于特征值理论**的稳定性预测方法得到显著发展，如《Calculation of Flow Instability Inception in High Speed Axial Compressors Based on an Eigenvalue Theory》和《Flow Stability Model of Centrifugal Compressors Based on Eigenvalue Approach》系统建立了旋转失稳的量化判据。同时，**多场耦合降阶模型**成为重点，例如《A New Reduced Order Modeling for Stability and Forced Response Analysis of Aero-Coupled Blades》实现了考虑多模态族的气弹耦合高效分析，而《A Physically Consistent Reduced Order Model for Plasma Aeroelastic Control》则将等离子体主动控制与失稳抑制物理机制结合。此外，**高保真仿真与实验验证**共同推进，如《Rotating Stall Observations in a High Speed Compressor—Part I》的详细实验为模型验证提供了基准，《Future Use of Large Eddy Simulation in Aero‐engines》则指明了湍流解析模拟的应用方向。"
+        },
+        "2020": {
+          "count": 18,
+          "paper_ids": [
+            "4dd89d90dcf8",
+            "6d6150189bc1",
+            "cc90be8be211",
+            "09141d7a025f",
+            "988f48dbfb90",
+            "842f68e14695",
+            "841a6be7a9f3",
+            "e69a0854116a",
+            "28c5e561ca5a",
+            "a3b1f5377dd8",
+            "da72fed20397",
+            "2d89e2e036a2",
+            "73eec7e9cf1c",
+            "bc0270a2347e",
+            "6d343c1fcb89",
+            "c1794c600642",
+            "767d279c3528",
+            "2a43d64434ad"
+          ],
+          "summary": "2020年代稳定性建模领域的研究进展主要体现在**高保真降阶模型与耦合仿真方法**的突破。例如，**三维作动盘模型**（A Three-Dimensional Actuator Disk Model）通过分区建模（Part I/II）实现了对进口畸变下风扇响应的快速高精度预测，显著提升了非均匀来流稳定性分析的效率。同时，**改进的体力模型**（An Improved Body Force Model）通过模拟叶片载荷变化，增强了对跨声速压气机非设计工况失稳边界的捕捉能力。此外，**自动微分技术**（Advancing Turbomachinery Meanline Modeling with Automatic Differentiation）与**多学科优化框架**（Multidisciplinary Design Methodology）的引入，推动了稳定性约束与气动、结构设计的深度耦合，实现了从部件到系统的全工况稳定性协同设计。"
         }
       }
     },
@@ -1035,7 +1403,7 @@
             "W2083332880",
             "W2102083746"
           ],
-          "summary": "1970年代进气畸变研究的主要进展体现在非定常流动理论与计算流体力学（CFD）方法的初步结合。关键工作如**Wisler的《Inviscid Flow through Cascades in Oscillatory and Distorted Flow》**，系统建立了叶栅在振荡和畸变来流下的无粘流动模型，为分析畸变传播和压气机稳定性提供了理论框架。同时，以**《Computational Aerodynamics Development and Outlook》**为代表的研究推动了CFD在进气系统中的应用，使得通过数值模拟预测复杂畸变流场成为可能。这些工作共同为发动机进气畸变与压缩系统相容性研究奠定了理论和数值基础。"
+          "summary": "1970年代进气畸变研究的主要进展体现在非定常流动理论与计算流体力学（CFD）方法的初步结合。关键工作如**Wisler的《Inviscid Flow through Cascades in Oscillatory and Distorted Flow》**，系统建立了叶栅在振荡和畸变来流下的无粘流动模型，为分析畸变传播和压气机稳定性提供了理论框架。同时，随着**《Computational Aerodynamics Development and Outlook》** 这类综述所反映的CFD技术兴起，研究人员开始尝试用数值方法模拟复杂进气条件下的流场，推动了从纯实验向理论-计算结合分析的过渡。这些工作共同为理解进气畸变对发动机性能的影响奠定了早期基础。"
         },
         "1980": {
           "count": 14,
@@ -1055,7 +1423,7 @@
             "W2051489592",
             "W1964056511"
           ],
-          "summary": "1980年代进气畸变研究的主要进展体现在对畸变与压气机稳定性关联的量化评估方法、跨声速风扇与畸变相互作用的实验验证，以及非定常畸变诱发旋转失速机制的揭示。关键工作包括：**《A Method for Assessing Effects of Circumferential Flow Distortion on Compressor Stability》** 提出了评估周向畸变对稳定性影响的系统性方法；**《Inlet flow distortion in turbomachinery - Comparison of theory and experiment in a transonic fan stage》** 通过实验与理论对比，明确了跨声速风扇对畸变的响应特性；而**《Stall transients of axial compression systems with inlet distortion》** 等研究则深入分析了畸变触发失速的动态过程，为系统稳定性预测奠定了基础。"
+          "summary": "1980年代关于进气畸变的研究主要围绕畸变对压气机稳定性及性能的影响机理展开实验与理论探索。关键进展包括：通过**跨声速风扇级实验与理论对比**（如\"Inlet flow distortion in turbomachinery\"），明确了畸变与旋转失速的关联；**多级轴流压气机旋转失速理论**（如\"A Theory of Rotating Stall\" Part I）为小扰动失速提供了预测模型；**离心压气机与轴流转子实验**（如\"Inducer Stall in a Centrifugal Compressor\"和\"Inlet Boundary Layer Effects\" Part II）揭示了进口流场不均匀性对叶尖流动和失速瞬态的关键影响。这些工作共同建立了畸变与压缩系统稳定性之间的定量评估方法（如\"A Method for Assessing Effects\"），为发动机抗畸变设计奠定了基础。"
         },
         "1990": {
           "count": 28,
@@ -1089,7 +1457,7 @@
             "W1981388654",
             "W1995649908"
           ],
-          "summary": "1990年代进气畸变研究的主要进展集中在畸变对压气机稳定性与转子强迫响应的精细化分析及主动控制探索。关键工作包括：通过实验与计算揭示了周向与径向进气畸变对多级轴流压气机失稳边界的显著影响（如《Effects of Rotating Inlet Distortion on Multistage Compressor Stability》），并发展了三维分析工具TEACC用于稳态畸变评估（1997年教育委员会最佳论文）。同时，研究证实了畸变会诱发转子周期性气动响应与强迫振动（如《Inlet Distortion Generated Forced Response of a Low-Aspect-Ratio Transonic Fan》），并开始探索通过主动控制（如《Active Stabilization of Axial Compressors With Circumferential Inlet Distortion》）与多模式控制器来抑制旋转失速和喘振，提升压缩系统在畸变条件下的稳定性。"
+          "summary": "1990年代进气畸变研究的主要进展集中在**畸变对压气机稳定性与气动响应的精细化机理揭示**，以及**主动控制技术的初步探索**。关键工作包括：通过实验与计算（如**TEACC程序**）系统量化了周向与径向畸变对多级压气机失稳边界的影响（如*Effects of Rotating Inlet Distortion on Multistage Compressor Stability*），揭示了畸变诱发旋转失速的机理；同时，**低展弦比跨声速风扇的强迫响应**研究（1996年最佳论文）明确了畸变与叶片非定常气动载荷的关联。此外，学者开始验证**主动稳定性控制**（如*Active Stabilization of Axial Compressors With Circumferential Inlet Distortion*）在畸变条件下的可行性，为后续工程应用奠定了基础。"
         },
         "2000": {
           "count": 25,
@@ -1120,7 +1488,7 @@
             "W2032963113",
             "W2012298520"
           ],
-          "summary": "2000年代进气畸变研究的主要进展体现在对畸变非定常特性及其稳定性影响的深入揭示，以及主动流动控制技术的初步验证。关键工作包括：**通过实验与仿真明确了进气畸变会诱发“长-短尺度扰动转换”这一新的失速先兆机制**（如论文14），揭示了畸变对压气机失稳过程的复杂影响；**发展了集成时域气动弹性模型，能够预测风扇在畸变下的强迫响应**（论文5），提升了转子叶片振动风险的预测能力；同时，**主动流动控制技术（如微射流、半被动装置）被实验证明可有效抑制畸变和分离**（论文2、16），为改善进发匹配提供了新途径。这些研究共同推进了对进气畸变下发动机稳定性与性能的量化预测和主动控制能力。"
+          "summary": "2000年代进气畸变研究的主要进展体现在对畸变非定常特性与稳定性影响机理的深入揭示，以及主动流动控制技术的初步验证。关键工作包括：通过实验和数值模拟（如“长-短尺度扰动转换”研究）明确了进气畸变会诱发特定类型的失速先兆，显著影响压气机稳定性边界；发展了集成时域气动弹性模型，能够预测畸变引起的风扇强迫响应，将气动与结构分析相结合；同时，研究验证了采用蛇形进气道设计、微射流等主动流动控制方法（如“半被动流动控制装置”研究）可在非设计条件下有效抑制畸变，提升发动机兼容性。"
         },
         "2010": {
           "count": 69,
@@ -1195,7 +1563,74 @@
             "W2984020627",
             "W2990338465"
           ],
-          "summary": "2010年代进气畸变研究的主要进展体现在高精度数值模拟方法的深化应用与畸变传递机理的精细化揭示。例如，通过**高保真数值模拟**（如“High-Fidelity Numerical Analysis of Per-Rev-Type Inlet Distortion Transfer in Multistage Fans”系列研究），首次完整揭示了周向周期性畸变在多级风扇中的传递规律及其对叶片气动载荷的影响。在畸变控制与稳定性提升方面，研究证实了**非对称流动控制**（如“Stability Improvement of High-Pressure-Ratio Turbocharger Centrifugal Compressor by Asymmetric Flow Control”）可有效拓宽压气机失速裕度，同时**边界层吸入**（如“Effects of Boundary-Layer Ingestion”）与**进口导叶调节**被系统验证为优化畸变传递和转子稳定性的关键手段。此外，该时期建立了更精确的**失速前兆检测理论模型与实验方法**（如“Detecting Rotating Stall Precursors”系列），为主动控制提供了预测基础。"
+          "summary": "2010年代进气畸变领域的研究进展主要体现在高精度数值模拟与实验验证的深度结合，以及针对具体工程问题的精细化分析。关键工作包括：**通过高保真数值模拟（如“High-Fidelity Numerical Analysis of Per-Rev-Type Inlet Distortion Transfer in Multistage Fans”）系统揭示了周向畸变在**多级风扇中的传递机制与叶片强迫响应特性**，为稳定性预测提供了理论基础。同时，研究重点关注了**边界层吸入（BLI）与畸变的相互作用**（如“Effects of Boundary-Layer Ingestion on the Aero-Acoustics of Transonic Fan Rotors”），探索了**一体化推进系统的气动与声学影响**。此外，针对**离心压气机**，研究提出了**非对称流动控制等稳定性提升方法**（如“Stability Improvement of High-Pressure-Ratio Turbocharger Centrifugal Compressor by Asymmetric Flow Control”），并深入分析了**进口导叶对畸变传递与稳定性的调节作用**。这些工作共同推动了从机理认知到主动控制的设计能力进步。"
+        },
+        "2020": {
+          "count": 61,
+          "paper_ids": [
+            "2d6ca94fc603",
+            "8b2e353e30a1",
+            "1ad651de04bc",
+            "f7608e869c53",
+            "a178fdf18ef9",
+            "0b7e734cda4e",
+            "09141d7a025f",
+            "633acd6c997e",
+            "f585aff308d2",
+            "33bf57f7c875",
+            "6ae62a4e4051",
+            "a85c2e4af974",
+            "6a2d02af0462",
+            "841a6be7a9f3",
+            "e69a0854116a",
+            "318298618dd0",
+            "4c70b7f91701",
+            "8b9715229bb6",
+            "9f800ae5d146",
+            "cc7f88fa1564",
+            "1fe9c61cff3e",
+            "cf5397db32da",
+            "53c20f6f53c4",
+            "1e74942eb66a",
+            "b1e234f8fddc",
+            "f6d265b606e3",
+            "3b1b7bb81d1f",
+            "ab127f7f39fe",
+            "16cf460b697c",
+            "2d89e2e036a2",
+            "dcb6d493f48f",
+            "0f8a0caa716a",
+            "486d1e4218c4",
+            "56499eb325c1",
+            "4c79c954567a",
+            "9dbb70cc7281",
+            "7c3707f455e9",
+            "23d6d1a237f5",
+            "cc99ebd8a504",
+            "84ce166f0c26",
+            "382b1e72bee4",
+            "a127b93aa762",
+            "2165e6b3a8aa",
+            "c3f1f6de97aa",
+            "62479b54fda1",
+            "e78a3dcde94a",
+            "6ff5fcbf00c4",
+            "15ec5325bec2",
+            "949403dc35a9",
+            "c630a3a25a83",
+            "cbcc5981d452",
+            "ccbae831189f",
+            "633d3e9c1b35",
+            "325e51a6d52f",
+            "a6e37ede3952",
+            "3181d4ceed81",
+            "ba337f86893e",
+            "822425fab40e",
+            "f84128b0711e",
+            "4103f4084711",
+            "48dfdc25804e"
+          ],
+          "summary": "2020年代进气畸变研究在畸变机理精细化、稳定性预测与主动控制方面取得显著进展。关键工作包括：通过三维作动盘模型（如\"A Three-Dimensional Actuator Disk Model for Fan Response to Inlet Distortion\"系列研究）实现了对畸变非定常响应的高效预测；实验研究（如\"Stall Inception Transition Mechanism and Warning Investigation on a Highly Loaded Axial Compressor With Radial Inlet Distortion\"）揭示了径向畸变下失速先兆的转换机制，推动了失速预警方法发展；主动控制方面，非对称进口导叶（\"Attenuation of Inlet Distortion Effects on Fans Using Asymmetric Inlet Guide Vanes\"）等新方法被证明能有效衰减畸变影响。这些进展共同提升了复杂进气条件下压缩系统的稳定性和适应性预测能力。"
         }
       }
     },
@@ -1207,7 +1642,7 @@
           "paper_ids": [
             "W2102083746"
           ],
-          "summary": "在1970年代，跨音速与激波研究领域的关键进展主要得益于计算流体力学（CFD）的突破性发展。核心贡献包括**Jameson等人发展的跨音速势方程数值解法**，以及**Murman和Cole提出的类型相关差分格式**，这首次实现了对跨音速流场中激波的高效、稳定数值捕获。此外，**Baldwin-Lomax等湍流模型的提出**，显著提升了带激波的粘性流动模拟能力。这些工作共同奠定了跨音速区域（如机翼）高精度数值模拟的基础，使飞机设计得以从依赖风洞试验转向“计算风洞”的初步应用。"
+          "summary": "1970年代，跨音速/激波领域的核心突破在于**跨音速势方程数值解法的成熟**，其中**Murman和Cole提出的类型相关差分格式**（1971）成功处理了流场亚音速与超音速混合区的激波捕获问题，成为计算跨音速流的主流方法。同时，**Jameson发展的旋转差分格式与有限体积法**（1974）显著提升了跨音速翼型计算的稳定性和精度，推动了全势方程在工程设计中的广泛应用。这些进展与**激波装配法、边界层修正模型**相结合，使得跨音速机翼设计（如超临界翼型）得以实现理论突破与工程优化，为计算流体力学在航空工业的实用化奠定了基础。"
         },
         "1980": {
           "count": 11,
@@ -1224,7 +1659,7 @@
             "W2018290986",
             "W2023571811"
           ],
-          "summary": "1980年代跨音速压气机研究主要围绕三维流场精细化测量与新型叶型设计展开。关键进展包括：**激光测速与非定常压力测量技术**（如Transonic Axial Compressor Using Laser Anemometry）首次实现了转子内复杂激波/尾迹相互作用的实验捕捉；**受扩散叶型（CDA）的两代发展**（如Development of Controlled Diffusion Airfoils）显著提升了多级压气机的效率和失速裕度；**三维粘性流数值模拟**（如A Numerical Analysis of the Three-Dimensional Viscous Flow）开始与实验数据系统对比，推动了激波/边界层相互作用机理的量化认知。这些工作共同奠定了现代跨音速压气机设计的高保真分析与优化基础。"
+          "summary": "1980年代跨音速压气机研究主要围绕三维流场精细化测量与新型叶型设计展开。关键进展包括：通过激光测速和非定常压力测量（如**Transonic Axial Compressor Using Laser Anemometry**）首次系统揭示了转子内激波/边界层相互作用机理；**Controlled Diffusion Airfoils（控制扩散叶型）的两代发展**显著提升了多级压气机的效率和失速裕度；三维粘性流数值分析（如**A Numerical Analysis of the Three-Dimensional Viscous Flow**）与实验的结合，推动了跨音速转子内部复杂流动的量化认知。"
         },
         "1990": {
           "count": 28,
@@ -1258,7 +1693,7 @@
             "W4248715180",
             "W2038574881"
           ],
-          "summary": "1990年代跨音速/激波领域的研究，主要围绕**叶尖间隙流动与激波的相互作用**及其对压气机性能的影响展开。例如，多篇论文（如《Tip Clearance Flow-Shock Interaction in a Transonic Compressor Rotor》）通过实验与三维Navier-Stokes模拟，系统揭示了叶尖泄漏流与通道激波干涉导致的损失机制和堵塞效应。同时，**进口畸变与失速控制**成为关键方向，研究（如关于进口畸变引发强迫响应的获奖论文）明确了非均匀来流对跨音级稳定性的影响，并发展了主动控制旋转失速的技术。此外，**三维设计与CFD工具**的进步（如使用多网格k–ε求解器分析涡轮叶栅二次流）显著提升了跨音叶轮机械的设计精度与性能预测能力。"
+          "summary": "1990年代跨音速/激波领域的研究进展主要集中在**高负荷叶轮机械内部复杂流动的精细化模拟与实验验证**。关键突破包括：通过三维Navier-Stokes模拟（如**Tip Clearance Flow-Shock Interaction**研究）系统揭示了**叶尖间隙流与激波的相互作用机制**，明确了其对性能和稳定性的影响；针对**进口畸变**（如1996年最佳论文）和**旋转失速**（如1997年主动控制获奖研究）的耦合作用开展了深入分析，推动了压缩系统稳定性预测与控制方法的发展；同时，**弯掠叶片设计**（如Three-Dimensional Flowfields Inside a Transonic Compressor With Swept Blades）与**低展弦比设计**结合CFD技术，显著提升了跨音速压气机级负荷与效率。这些工作共同建立了高精度数值模拟与实验验证相结合的研究范式，为现代高负荷叶轮机械设计奠定了理论基础。"
         },
         "2000": {
           "count": 22,
@@ -1286,7 +1721,7 @@
             "W2086262937",
             "W1976676377"
           ],
-          "summary": "2000年代跨音速/激波领域的研究进展主要体现在**高精度数值模拟与流动控制技术的结合**上。关键工作包括：通过**离散叶尖喷注**（如“Compressor Stability Enhancement Using Discrete Tip Injection”）和**轴向开槽处理**（如“Parametric Study of Tip Clearance—Casing Treatment”）显著提升了跨音速压气机的失稳裕度。同时，**单通道非定常模拟方法**（如“Single-Passage Analysis of Unsteady Flows”）被广泛应用于叶片颤振和进气畸变响应分析，揭示了**上游传播激波**（如“Evolution of Upstream Propagating Shock Waves”）等复杂流动机制。此外，**多目标优化算法**（如“Multi-Objective Optimization of Transonic Compressor Blade”）开始集成气动与结构设计，推动了跨音速转子性能的协同提升。"
+          "summary": "2000年代跨音速/激波领域的研究进展主要体现在**高精度数值模拟与主动控制技术的结合**，以及**非定常流动机理的深入揭示**。关键工作包括：通过**并行计算与三维粘性模拟**（如《Viscous Three-Dimensional Simulation of Transonic Compressor Stage on Parallel Hardware》）实现了压气机级的高精度流场解析，揭示了激波与边界层相互作用细节；**离散叶尖喷注**（如《Compressor Stability Enhancement Using Discrete Tip Injection》）和**轴向缝槽处理机匣**的参量化研究显著提升了跨音速压气机的失稳裕度；同时，**单通道非定常计算方法**（如《Single-Passage Analysis of Unsteady Flows Around Vibrating Blades》）与**气动弹性耦合模型**的发展，系统阐明了进口畸变下叶片振动与上游激波传播（如《Evolution of Upstream Propagating Shock Waves》）的耦合机制，为压气机稳定性设计提供了理论依据。"
         },
         "2010": {
           "count": 87,
@@ -1379,7 +1814,82 @@
             "W2990338465",
             "W2991483288"
           ],
-          "summary": "2010年代跨音速/激波领域的研究进展主要集中在**压气机流动稳定性控制与激波精细化调控**。关键工作包括：**通过周向机匣处理（如Multiobjective Optimization of Circumferential Casing Grooves）和动态激励（如Experimental Investigation on Unsteady Excitation Frequency of Casing Treatment）显著扩展了跨音速压气机的稳定工作裕度**；**揭示了叶尖泄漏流与激波相互作用机制（如Investigation of Blade Tip Interaction With Casing Treatment系列研究），为抑制旋转失速提供了理论依据**；**发展了非定常模拟方法（如Hybrid Reynolds-Averaged Navier-Stokes/Kinetic-Eddy Simulation）与降阶模型（如A New Reduced Order Modeling），实现了对失速/颤振起始的更精准预测**。此外，**边界层吸入（Effects of Boundary-Layer Ingestion）和湿压缩（The Effects of Wet Compression）等新概念研究为提升推进系统性能开辟了新途径**。"
+          "summary": "2010年代跨音速/激波领域的研究在压气机流动控制与稳定性方面取得了关键进展。**机匣处理技术**（如周向槽）的优化研究（如“Multiobjective Optimization of Circumferential Casing Grooves for a Transonic Axial Compressor”）显著提升了跨音速压气机的失速裕度。**叶尖间隙流动的非定常特性与主动控制**（如等离子体激励）被深入揭示（如“Control of Tip-Clearance Flow...With Plasma Actuation”），为抑制失速提供了新方法。同时，**进口畸变与转子相互作用**的研究（如“A Study of Fan-Distortion Interaction Within the NASA Rotor 67”）明确了非均匀来流对激波结构和性能的影响规律。此外，**湿压缩与喷水技术**（如“The Effects of Wet Compression...”）被证实可有效提升稳定性和性能，为工程应用开辟了新途径。"
+        },
+        "2020": {
+          "count": 69,
+          "paper_ids": [
+            "8b2e353e30a1",
+            "1ad651de04bc",
+            "fdf04e49c932",
+            "32c3c2eff787",
+            "0b7e734cda4e",
+            "09141d7a025f",
+            "633acd6c997e",
+            "962ea3d2ebd4",
+            "6da31a81a4fd",
+            "02ecca5ee81e",
+            "d109072447f7",
+            "318298618dd0",
+            "92d8e48d57f1",
+            "eb3ca2844ce5",
+            "0543b359e2a0",
+            "e19d39ff7de4",
+            "1d69619cfbf5",
+            "f26eeaab531c",
+            "6aa2df11206e",
+            "471633d2b51a",
+            "1677e3f416bb",
+            "f1bc2dff9ef2",
+            "3c036f607edf",
+            "3b74a8ac702f",
+            "16cf460b697c",
+            "2d89e2e036a2",
+            "0f8a0caa716a",
+            "486d1e4218c4",
+            "56499eb325c1",
+            "05673211b8e9",
+            "95b1b6342005",
+            "da73ebe99afb",
+            "ee3f8feeecbb",
+            "f95f8254624a",
+            "7c3707f455e9",
+            "af2c2716395c",
+            "382b1e72bee4",
+            "b1390d8e7a35",
+            "a75dbf93f19f",
+            "5531c4a5f866",
+            "def88839e3c0",
+            "3c396cc6254a",
+            "e945dc2dd41f",
+            "6a8bbe618988",
+            "392947a69948",
+            "5e77d569e369",
+            "0a5dd42cc345",
+            "5460ae2997ff",
+            "498220f370df",
+            "ad247111a61e",
+            "fb123ee1cbd7",
+            "d43c6d1ec021",
+            "b99f89ecfa78",
+            "6296b1e39fc1",
+            "633d3e9c1b35",
+            "acef92f18b33",
+            "72f4c87978e3",
+            "ac85d207d03d",
+            "a717daa531bd",
+            "280fda0569ac",
+            "eae28bc8aad8",
+            "32d453da497e",
+            "45f954ad041a",
+            "4103f4084711",
+            "48dfdc25804e",
+            "8ab3a6fbbfe6",
+            "36f15f8bddce",
+            "d2e7c3f4184a",
+            "41a1675af45c"
+          ],
+          "summary": "2020年代跨音速/激波领域的研究进展主要体现在**高负荷压气机稳定性与流动控制技术的深化**。关键工作包括：通过**非轴对称机匣处理**（如可调转速机匣、背腔优化设计）和**激波控制鼓包优化**，显著提升了跨音速压气机转子在进口畸变下的失速裕度与效率。研究揭示了**叶尖非均匀间隙与周向畸变频率**对非同步流动扰动和失速机理的直接影响，为稳定性预警提供了理论依据。此外，**基于制造误差场重建的不确定性量化方法**和**壁模型大涡模拟技术**的应用，提升了跨音速涡轮叶片损失预测与复杂流动物理分析的精度。"
         }
       }
     },
@@ -1391,7 +1901,7 @@
           "paper_ids": [
             "W2083332880"
           ],
-          "summary": "1970年代叶栅非定常流动研究的关键进展在于建立了振荡来流下叶片气动响应的理论框架。核心贡献之一是J. H. Horlock与D. S. Whitehead等人的工作，他们系统发展了基于小扰动假设的线性化理论，用于预测振荡来流中叶片升力和力矩的变化。这一时期的研究还深入探讨了进口流场畸变（如周向不均匀性）对叶栅性能的影响，为理解压气机旋转失速和颤振等不稳定现象提供了重要的理论基础。这些工作将叶栅气动设计从稳态分析推进到非定常领域，为后续高负荷涡轮机械的稳定性设计奠定了基础。"
+          "summary": "1970年代在叶片气动设计领域，非定常流动研究取得关键进展，**核心突破在于建立了振荡与畸变来流条件下叶栅无粘流动的理论与计算方法**。代表性工作如**J. H. Horlock 和 W. R. Hawthorne 等人发展的“小扰动”线性化理论**，成功预测了叶栅在非均匀来流中的气动响应与气动阻尼特性。这些研究**首次系统揭示了非定常气动力与叶片颤振、进气畸变问题的内在关联**，为后续高负荷压气机/涡轮的稳定性设计奠定了理论基础。"
         },
         "1980": {
           "count": 23,
@@ -1420,7 +1930,7 @@
             "W1964056511",
             "W2100857993"
           ],
-          "summary": "1980年代叶片气动设计领域的研究进展主要体现在三个方面：  \n一是**可控扩散叶型（Controlled Diffusion Airfoils）的迭代发展**，通过第二代设计显著提升了多级压气机的气动效率与负荷能力（见论文13）。  \n二是**非定常流动与气动弹性问题得到深入探索**，例如通过振荡叶栅实验测量非定常压力（论文10），并系统研究了失谐叶栅的颤振与响应特性（论文3、9）。  \n三是**三维流动与复杂效应被广泛关注**，包括叶尖泄漏流（论文21）、进口畸变（论文2、8）以及粘性流动的数值模拟（论文12），推动了理论与实验的结合。"
+          "summary": "1980年代叶片气动设计领域的研究进展主要体现在三个方面：  \n一是**可控扩散叶型（Controlled Diffusion Airfoils）的迭代发展**，通过第二代设计显著提升了多级压气机的气动效率与工况范围（见论文13）。  \n二是**非定常流动与气动弹性问题得到深入探索**，例如通过振荡叶栅实验测量非定常压力（论文10），并系统研究了失谐对叶栅颤振的影响（论文3、9）。  \n三是**三维流动与复杂效应被重点关注**，包括端隙流动（论文21）、进口畸变（论文2、8）以及粘性Navier-Stokes方程在叶栅流动中的初步应用（论文12），推动了设计体系向三维化发展。"
         },
         "1990": {
           "count": 63,
@@ -1489,7 +1999,7 @@
             "W2067433675",
             "W2078385811"
           ],
-          "summary": "1990年代叶片气动设计领域的研究进展主要体现在三个方面：  \n一是**三维粘性流动数值模拟技术趋于成熟**，如Dawes等人发展的三维Navier-Stokes求解器与k-ε湍流模型耦合方法，使多级叶轮机内部流动的高精度分析成为可能。  \n二是**叶尖间隙流动机理被深入揭示**，Kang和Hirsch等人通过系列实验与数值研究，系统阐明了叶尖泄漏涡的结构及其对压缩机性能与稳定性的影响。  \n三是**非定常气动弹性与稳定性控制取得突破**，例如通过端壁抽吸/吹气主动控制旋转失速，以及耦合三维气动弹性分析预测叶片颤振，为压气机稳定工作范围的拓展提供了理论基础。"
+          "summary": "1990年代叶片气动设计领域的研究进展主要体现在三个方面：  \n一是**三维粘性流动数值模拟技术趋于成熟**，如多级叶轮机械三维Navier-Stokes求解器的开发（如《The Calculation of Three-Dimensional Viscous Flow Through Multistage Turbomachines》），实现了对复杂流场的高精度预测；  \n二是**叶尖间隙流动机理被深入揭示**，通过实验与数值结合系统研究了泄漏涡结构及其对性能的影响（如Kang和Hirsch的叶栅实验系列论文），为控制损失提供了依据；  \n三是**非定常气动弹性与稳定性研究取得突破**，包括旋转失速主动控制（如《Active Stabilization of Rotating Stall》）和叶片强迫响应分析系统的建立，提升了叶轮机械的可靠性。"
         },
         "2000": {
           "count": 41,
@@ -1536,7 +2046,7 @@
             "W2001912170",
             "W4300941565"
           ],
-          "summary": "2000年代叶片气动设计领域的研究进展主要体现在对非定常流动与复杂流动控制的深入探索。关键工作包括：通过实验与数值模拟（如《Aerodynamic Blade Row Interactions in an Axial Compressor—Part II》）系统揭示了转子-静子干涉引起的非定常气动载荷机制；针对流动失稳问题，《Active Control of Tip Clearance Flow in Axial Compressors》等研究实现了对叶尖间隙流动的主动控制以扩大稳定工作范围；同时，基于优化算法（如《Multi-Objective Optimization of Transonic Compressor Blade Using Evolutionary Algorithm》）发展了多目标叶片气动优化设计方法，显著提升了压气机的综合性能与鲁棒性。"
+          "summary": "2000年代叶片气动设计领域的研究进展主要体现在对非定常流动与流固耦合机理的深入揭示，以及基于优化算法的设计方法革新。关键工作包括：通过**《Aerodynamic Blade Row Interactions in an Axial Compressor—Part II》** 等研究系统量化了转子-静子干涉引起的非定常气动载荷；**《Numerical Investigation of Nonlinear Fluid-Structure Interaction in Vibrating Compressor Blades》** 推动了非线性颤振预测能力；同时，**《Multi-Objective Optimization of Transonic Compressor Blade Using Evolutionary Algorithm》** 标志着进化算法开始广泛应用于叶片多目标气动优化设计。此外，针对流动控制，**《Active Control of Tip Clearance Flow in Axial Compressors》** 等研究为扩大压气机稳定工作范围提供了新途径。"
         },
         "2010": {
           "count": 97,
@@ -1639,7 +2149,110 @@
             "W4237543360",
             "W2997517269"
           ],
-          "summary": "2010年代叶片气动设计领域的研究进展主要体现在**高保真仿真与精细化流动控制**方面。关键工作包括：通过**高精度数值模拟**（如《High-Fidelity Numerical Analysis of Per-Rev-Type Inlet Distortion Transfer in Multistage Fans》）系统揭示了多级风扇中周向畸变的传递机制，为抑制非同步振动提供了理论依据；**叶尖间隙流动控制**成为热点，研究（如《Multiobjective Optimization of Circumferential Casing Grooves》）表明优化机匣处理槽能有效扩大压气机稳定工作范围，其效果与失速起始机制和稠度密切相关；此外，**伴随优化方法**（如《Optimizing a Boundary-Layer-Ingestion Offset Inlet by Discrete Adjoint Approach》）与**非定常流动机理探究**（如对旋转不稳定性的实验分析）共同推动叶片设计向气动-结构耦合、主动控制方向发展。"
+          "summary": "2010年代叶片气动设计领域的研究进展主要体现在**高保真仿真与精细化流动控制**方面。关键工作包括：通过**高精度数值模拟**（如文献2-3对多级风扇进气畸变传递的全部件仿真）深入揭示了非定常流动机制；针对**叶尖间隙流动**，研究（如文献1、14）通过实验与计算结合，明确了间隙流对性能与振动的关键影响，并发展了**机匣处理技术**（如文献9的周向槽优化）来扩大稳定工作范围。此外，**多学科耦合设计**成为趋势，例如文献30考虑非线性结构相互作用的压气机叶片重设计，以及文献4采用离散伴随法优化边界层吸入式进气道，推动了气动与结构、噪声等目标的协同优化。"
+        },
+        "2020": {
+          "count": 97,
+          "paper_ids": [
+            "e94e7dd218b2",
+            "2d6ca94fc603",
+            "e39bf6575c82",
+            "5a303be41d1c",
+            "4dd89d90dcf8",
+            "a5b9b2eb7a1d",
+            "a9991363b822",
+            "910976151cec",
+            "caad97249c55",
+            "0b7e734cda4e",
+            "3824c2163048",
+            "09141d7a025f",
+            "1e15bd76fbe1",
+            "458eb7c09d75",
+            "33bf57f7c875",
+            "5c57b8cf5d6d",
+            "6ae62a4e4051",
+            "a85c2e4af974",
+            "725ed8d6bbff",
+            "842f68e14695",
+            "25a9611d0768",
+            "3d34929ee93c",
+            "841a6be7a9f3",
+            "28c5e561ca5a",
+            "962ea3d2ebd4",
+            "6da31a81a4fd",
+            "68d50ad14ae6",
+            "02ecca5ee81e",
+            "92d8e48d57f1",
+            "b1d77b6b080a",
+            "c699adcac4f9",
+            "408e26401cb7",
+            "99349f8f7add",
+            "3fd6fe552761",
+            "46b59794c48c",
+            "1f1e18fcc2a4",
+            "47918d6670a8",
+            "b1e234f8fddc",
+            "f6d265b606e3",
+            "f962140b3b0e",
+            "b516e9e52e10",
+            "5fd14e9d51a9",
+            "73eec7e9cf1c",
+            "486d1e4218c4",
+            "05673211b8e9",
+            "4c79c954567a",
+            "9d4a89e9e428",
+            "bb2e6e56ace8",
+            "e29b8cb9debf",
+            "6aafd54d1f3c",
+            "95b1b6342005",
+            "da73ebe99afb",
+            "53b8e7207d66",
+            "f95f8254624a",
+            "63a8904284de",
+            "415600b1cc3e",
+            "382b1e72bee4",
+            "a75dbf93f19f",
+            "5531c4a5f866",
+            "9c6bd0cdc567",
+            "c72c8c90af03",
+            "e5c4cf5f25c6",
+            "a127b93aa762",
+            "85d69f4ea25c",
+            "f01cf8b5ed76",
+            "392947a69948",
+            "1aa63bb91cd6",
+            "29c946db0f8c",
+            "d281a71c4704",
+            "6ff5fcbf00c4",
+            "7f75c43231d8",
+            "c7ea4d38bac1",
+            "354d363a63c1",
+            "77f827e2d2c0",
+            "fe8edcb936d0",
+            "2a43d64434ad",
+            "dc053bd2d3bd",
+            "d43c6d1ec021",
+            "b99f89ecfa78",
+            "6296b1e39fc1",
+            "633d3e9c1b35",
+            "f6d328f2e9fa",
+            "156c68fa1fb9",
+            "acef92f18b33",
+            "9b26fd191fb2",
+            "6b3e190e63dd",
+            "c24b940870e7",
+            "d98fcbb5c36e",
+            "f84128b0711e",
+            "4103f4084711",
+            "92b3db166a97",
+            "8ab3a6fbbfe6",
+            "47e0c31fdb00",
+            "36f15f8bddce",
+            "d2e7c3f4184a",
+            "ecc801120666",
+            "41a1675af45c"
+          ],
+          "summary": "2020年代叶片气动设计研究在**高保真仿真与优化方法**、**非均匀来流适应性**及**制造与损伤容限设计**等方面取得关键进展。关键工作包括：通过**三维作动盘模型**（如\"A Three-Dimensional Actuator Disk Model for Fan Response to Inlet Distortion\"）系统量化畸变进气对风扇性能的影响；利用**图神经网络**（\"Predicting Time-Averaged Unsteady Flows in Turbomachinery via Graph Neural Networks\"）高效预测非定常流动，显著提升设计效率；**制造误差场重构技术**（\"Reconstruction and Reduction of Realistic Manufacturing Error Field\"）实现了对加工不确定性的量化控制，同时**多学科优化**（如\"ENHANCING BLADE DURABILITY TO FOREIGN OBJECT DAMAGE\"）将气动与结构耐久性协同设计提升至新水平。"
         }
       }
     },
@@ -1663,7 +2276,7 @@
             "W1974009358",
             "W2079891159"
           ],
-          "summary": "1980年代离心压气机领域的研究进展主要集中在**非定常流动与失稳机理**的深入揭示，以及**高精度测量与数值方法**的应用突破。关键工作包括：通过**叶尖间隙实验**（如Deterioration of Compressor Performance Due to Tip Clearance）定量揭示了间隙流动对性能的恶化机制；利用**遥测与全息干涉技术**（Blade Vibration Measurements）实现了叶轮振动的实时监测，推动了转子动力学发展；针对**失速与喘振**，研究明确了无叶/有叶扩压器（Experimental Study of Centrifugal Impeller Discharge Flow）对旋转失速的诱发作用，并提出了**预测性喘振控制**（Predictive Surge Control）的早期方法。同时，**准三维粘性流动的多重网格算法**（Explicit multigrid algorithm）为叶轮机械内部复杂流动的数值模拟奠定了基础。"
+          "summary": "1980年代离心压气机领域的研究进展主要集中在**非定常流动与失稳机理的精细化实验与预测**。关键工作包括：通过**叶端间隙对性能影响的研究**（如Deterioration of Compressor Performance Due to Tip Clearance）量化了间隙泄漏流损失；利用**叶轮遥测与全息干涉技术**（Blade Vibration Measurements）实现了转子叶片振动的实时监测；对**旋转失速和喘振机理**的深入探讨（如Unsteady Flow in a Centrifugal Compressor、Factors Affecting Surge）揭示了失速先兆涡结构（Vortex-Filament Nature of Reverse Flow）及扩压器（vaneless/vaned）对稳定性的影响。同时，**多网格准三维粘流算法**（Explicit multigrid algorithm）的发展提升了内部流动的数值模拟能力。"
         },
         "1990": {
           "count": 45,
@@ -1714,7 +2327,7 @@
             "W2091540821",
             "W1984992193"
           ],
-          "summary": "1990年代离心压气机领域的研究核心围绕**稳定性控制与流动机理深化**展开。关键进展之一是**主动与被动喘振控制技术的突破**，例如通过主动作动器或定制结构（如《Active Stabilization of Centrifugal Compressor Surge》等论文）有效抑制不稳定流动，显著提升了压缩机的稳定工作范围。同时，**非定常流动与失速机理的研究**取得重要进展，如对旋转失速和喘振条件下叶轮流道内非定常粘性流的精细测量与模拟（《Unsteady Flow Within Centrifugal Compressor Channels...》），深化了对失速触发机制的理解。此外，**进气条件与部件匹配的影响**受到系统关注，系列研究（如关于进口旋流畸变和扩压器性能的论文）明确了进口流场对整机性能与稳定性的关键作用，推动了部件协同设计优化。这些工作共同为高稳定性、高性能离心压缩机的设计与控制奠定了理论基础。"
+          "summary": "1990年代离心压气机领域的研究聚焦于**流动不稳定性的主动控制与高精度仿真**。关键进展包括：通过**主动控制技术（如气动机械反馈）** 显著抑制喘振和旋转失速，提升了压缩系统稳定性（如《Dynamic Control of Rotating Stall in Axial Flow Compressors...》）；**计算流体力学（CFD）的多块网格应用** 实现了对叶轮流场更精确的预测（如《Application of a Multi-Block CFD Code...》）；同时，**进口流动条件对扩压器性能的影响** 被系统量化，揭示了离散通道与直通道扩压器的差异化响应规律（如《Effects of Inlet Flow Field Conditions...》系列研究）。这些工作共同推动了离心压气机向更高稳定性、可控性与设计精度的方向发展。"
         },
         "2000": {
           "count": 31,
@@ -1751,7 +2364,7 @@
             "W2032963113",
             "W2163964160"
           ],
-          "summary": "2000年代离心压气机领域的研究重点围绕**流动不稳定性的机理与控制**展开，关键进展包括：通过**高分辨率数字PIV实验**（如《An Investigation of Surge in a High-Speed Centrifugal Compressor Using Digital PIV》）精确揭示了喘振起始阶段的瞬态流场结构；**主动控制技术**取得突破，例如采用**磁轴承调节叶尖间隙**（《Tip Clearance Actuation With Magnetic Bearings》）和**扩压器轮毂喷射**（《Experimental Investigation of Diffuser Hub Injection》）有效拓宽了稳定工作范围。同时，**三维非定常CFD模拟**与**转子动力学结合**（如《Unsteady Flow in a Turbocharger Centrifugal Compressor》）深化了对叶片振动与流动耦合机制的理解，而**带叶片扩压器优化**（《Improved Diffuser/Volute Combinations》）和**间隙效应量化研究**（《Clearance Effects on the Onset of Instability》）显著提升了高压比离心压气机的设计与稳定性预测能力。"
+          "summary": "2000年代离心压气机领域的研究重点围绕**流动失稳控制与高性能设计**展开。关键进展包括：通过实验与CFD结合，深入揭示了**喘振与旋转失速的触发机制**（如《High-Speed Centrifugal Compressor Surge Initiation Characterization》对喘振初生特征的刻画），并发展了**扩压器轮毂喷注、带导叶机匣**等主动与被动稳定技术（《Experimental Investigation of Diffuser Hub Injection...》《Numerical Optimization of a Vaned Shroud Design...》）。此外，**跨音速叶轮内部激波与非定常流动**的精细测量与模拟（《Detailed Flow Study of Mach Number 1.6 High Transonic Flow...》）为高负荷设计提供了依据，同时**间隙效应、转子动力学**等研究（《Clearance Effects on the Onset of Instability...》）提升了高速运行的可靠性。"
         },
         "2010": {
           "count": 134,
@@ -1891,7 +2504,99 @@
             "W2981629784",
             "W2997517269"
           ],
-          "summary": "2010年代离心压气机领域的研究进展主要集中在**稳定性提升、非定常流动预测及先进设计优化**三个方面。关键工作包括：**通过非对称机匣处理（如自循环处理槽）和进口导叶优化，显著拓宽了高压比离心压气机的稳定工作裕度**；**采用大涡模拟（LES）和非定常CFD方法，深入揭示了近失速工况下的内部旋流和非定常畸变影响**；**基于三维可压缩流模型和物理预测方法，提升了失速/喘振的预测精度**；同时，**结合有限元分析和转子动力学模型，优化了密封结构与叶轮载荷，提高了高负荷叶轮的效率和可靠性**。"
+          "summary": "2010年代离心压气机领域的研究进展主要集中在提升稳定性和优化内部流动两方面。在稳定性控制方面，**非对称自循环机匣处理（Asymmetrical Self-Recirculation Casing Treatment）** 被证实能有效拓宽高压比离心压气机的稳定工作范围（如Stability Improvement of High-Pressure-Ratio Turbocharger Centrifugal Compressor系列研究）。针对失稳预测，学界提出了**基于物理的新稳定性预测方法（New Physics Based Approach）**，并结合**大涡模拟（Large Eddy Simulation）** 精细揭示了近喘振工况下的非定常流动机制。在性能优化上，研究通过**三维叶轮叶片载荷优化**和**管道扩压器（Pipe Diffuser）的间隙与引气效应分析**，显著提升了级效率和工况适应性。"
+        },
+        "2020": {
+          "count": 86,
+          "paper_ids": [
+            "1ad651de04bc",
+            "fdf04e49c932",
+            "f7608e869c53",
+            "f585aff308d2",
+            "7513d7693f7e",
+            "04d27c11afd6",
+            "725ed8d6bbff",
+            "4d36e7bf8013",
+            "5bc0ed1ae8f2",
+            "3d20dac22917",
+            "769b918ee8ba",
+            "4c70b7f91701",
+            "8b9715229bb6",
+            "408e26401cb7",
+            "cc7f88fa1564",
+            "b00c4e55885d",
+            "8c3f7ae835ea",
+            "1fe9c61cff3e",
+            "e1aa82f56cb9",
+            "bb38952eac55",
+            "8b7294ddccc5",
+            "471633d2b51a",
+            "6c10b9d8d434",
+            "d3fd263b94c0",
+            "3626c4da0a81",
+            "c69ddce6a868",
+            "03e61879f1fc",
+            "77fa554be736",
+            "a3b1f5377dd8",
+            "f16420f5f034",
+            "16c3bbf14e28",
+            "3b1b7bb81d1f",
+            "3b74a8ac702f",
+            "005237c76f9f",
+            "dcb6d493f48f",
+            "58663680884d",
+            "8c56d2305810",
+            "246e10df9df9",
+            "505c0b0ea498",
+            "23d6d1a237f5",
+            "84ce166f0c26",
+            "958e7081e251",
+            "4fbf3467071c",
+            "7199dd3542a9",
+            "c72c8c90af03",
+            "7c9e07db4e61",
+            "f93a96c76948",
+            "85d69f4ea25c",
+            "e945dc2dd41f",
+            "6a8bbe618988",
+            "b453c753b8f8",
+            "c3f1f6de97aa",
+            "85d52eaca762",
+            "cd5456409330",
+            "2633f1e06d02",
+            "0d76a4db1525",
+            "420dd6fa2275",
+            "e1582e825b56",
+            "5460ae2997ff",
+            "767d279c3528",
+            "cbcc5981d452",
+            "2737b5fb3a70",
+            "5f2f93ebc930",
+            "659c651b289c",
+            "b46744a07cbe",
+            "f1d384074a97",
+            "28fda4922b78",
+            "c24b940870e7",
+            "280fda0569ac",
+            "7191083364d4",
+            "1436aa27e28c",
+            "763cd7749784",
+            "f7d3fa8199d4",
+            "5079efdb0e30",
+            "0cd161e273f8",
+            "d5c18344ddc3",
+            "7dea9dd28f64",
+            "332d94286725",
+            "32d453da497e",
+            "bbe9de296368",
+            "7ce1dc4fc3b5",
+            "92b3db166a97",
+            "4a3b56e353a5",
+            "25de3d55df4a",
+            "26df151c36c3",
+            "36f15f8bddce"
+          ],
+          "summary": "2020年代离心压气机领域的研究进展主要体现在**高精度不稳定流动机理揭示与主动控制**、**先进设计与制造技术应用**以及**数据驱动方法融合**三个方面。关键工作包括：通过高保真CFD和新型扩散因子（如Impeller Diffusion Factor）深入解析了失速/喘振机理，明确了进口畸变频率（Inlet Distortion Reduced Frequency）对稳定性的定量影响；利用增材制造技术优化了叶片扩压器等静止部件，显著拓宽了稳定工作范围；同时，机器学习模型被成功开发用于实时监测与失稳预警，实现了梯度优化与喘振线控制的协同设计。这些进展共同推动了离心压气机向更高效率、更宽稳定裕度及智能化运维方向发展。"
         }
       }
     },
@@ -1904,7 +2609,7 @@
             "W2083332880",
             "W2076200821"
           ],
-          "summary": "1970年代非定域流动研究在叶轮机领域取得关键进展，其中J. H. Horlock等人对振荡与畸变流动中**叶栅无粘流动**的研究，为理解叶片颤振和气动弹性稳定性提供了理论基础。同时，**特征向量正交性**的数学理论得到深化，如C. C. Lin等人的工作将模态分析推广到非自伴系统，为流动稳定性分析和能量法奠定了严格的数学框架。这些进展共同推动了从孤立叶片到复杂叶栅系统的非定常气动力预测方法的发展。"
+          "summary": "1970年代非定域流动研究在叶轮机领域取得关键进展，其中J. H. Horlock等人对振荡与畸变流动中**叶栅无粘流动**的研究，为理解叶片颤振和气动弹性稳定性提供了理论基础。同时，**特征向量正交性**的数学理论得到深化，如C. C. Lin等人的工作将模态分析推广到非自伴系统，为流动稳定性分析和能量方法奠定了严格的数学框架。这些进展共同推动了从孤立翼型到复杂叶栅系统的非定常气动力预测能力，直接支撑了高负荷涡轮机械的设计与安全运行。"
         },
         "1980": {
           "count": 22,
@@ -1932,7 +2637,7 @@
             "W2149441142",
             "W2100857993"
           ],
-          "summary": "1980年代非定常流动研究在叶轮机械领域取得关键进展，重点关注跨音速流动与失速/喘振机理。例如，**Ng和Epstein（1985）** 通过实验量化了跨音速压气机中的非定常损失，揭示了非定常效应显著影响效率；同时，**“轴向压缩系统失速后瞬态理论”** 系列研究为压缩系统稳定性分析提供了理论框架。实验技术方面，**激光测速与非定常压力测量**（如跨音速转子内流场研究）的应用，首次实现了对转子内部复杂非定常流场的精细化测量。此外，**端壁处理（如机匣处理）与叶尖间隙流**的结构研究，为通过流动控制抑制非定常分离提供了工程解决方案。"
+          "summary": "1980年代非定域流动研究在叶轮机械领域取得显著进展，核心突破在于**实验与理论结合揭示了复杂非定域流动机理**。关键工作包括：通过**激光测速和非定常压力测量**（如跨音速压气机转子内流场研究）首次系统揭示了**转子-静子干涉、进口畸变传播等非定域现象**；针对**失速/喘振瞬态过程**建立了理论模型（如轴流压缩系统失速后瞬态理论），为稳定性控制奠定基础；此外，**端区流动控制**研究（如机匣处理、槽缝处理对端壁流场的影响）显著提升了压气机稳定工作裕度。这些工作共同推动了叶轮机械气动设计从定常向非定域精细化认知的跨越。"
         },
         "1990": {
           "count": 56,
@@ -1994,7 +2699,7 @@
             "W1995649908",
             "W1984992193"
           ],
-          "summary": "1990年代非定域流动研究在叶轮机械领域取得了显著进展，主要体现在对旋转失速和喘振等非定常现象的主动控制与机理探索。例如，**《Active Stabilization of Centrifugal Compressor Surge》** 和 **《Dynamic Control of Centrifugal Compressor Surge Using Tailored Structures》** 等论文系统发展了基于控制理论的主动稳定技术，为抑制压缩系统不稳定提供了新途径。同时，**《The Structure of Tip Clearance Flow in Axial Flow Compressors》** 和 **《Similarity Analysis of Compressor Tip Clearance Flow Structure》** 通过实验与计算揭示了叶尖间隙流动的相似律与结构特征，深化了对流动损失机制的理解。此外，**《Three-Dimensional Navier–Stokes Computation of Turbomachinery Flows》** 等工作推动了三维非定常粘性流动数值模拟的实用化，为多级叶轮机械设计提供了高精度分析工具。"
+          "summary": "1990年代非定域流动研究在叶轮机械领域取得显著进展，核心突破集中于**旋转失速与喘振的主动控制**，如Epstein等人通过《Active Stabilization of Centrifugal Compressor Surge》等论文，首次实现了基于动态模型的喘振主动抑制。在**非定常流动机理**方面，研究揭示了叶尖间隙流动结构（如《The Structure of Tip Clearance Flow in Axial Flow Compressors》）和进口畸变对转子气动响应的周期性影响（如《Inlet Distortion Generated Periodic Aerodynamic Rotor Response》）。计算流体力学方法实现重要跨越，**三维非定常粘性流动模拟**趋于实用化，典型代表为《Three-Dimensional Navier–Stokes Computation of Turbomachinery Flows》中发展的显式数值方法与湍流模型耦合技术。此外，**气动弹性耦合分析系统**（如《Coupled Three-Dimensional Aeroelastic Stability Analysis of Bladed Disks》）为叶片颤振预测提供了新工具。"
         },
         "2000": {
           "count": 53,
@@ -2053,7 +2758,7 @@
             "W2163964160",
             "W2012298520"
           ],
-          "summary": "2000年代非定域流动研究在叶轮机械领域取得了显著进展，核心突破在于对旋转失速和喘振等不稳定现象的机理与控制方法的深入探索。例如，Mailach等人（2001）通过实验揭示了轴向压缩机中旋转不稳定性的产生与叶尖涡波动直接相关，为流动失稳提供了关键机理解释。同时，主动控制技术成为重要方向，如采用磁轴承调节叶尖间隙（Tip Clearance Actuation with Magnetic Bearings）或调节静叶角度来抑制失稳，显著提升了压缩系统的稳定性。此外，单通道非定常计算方法（如Single-Passage Analysis）与高精度实验技术（如数字PIV）的结合，使得能够精确分析进口畸变等条件下叶片的气动弹性响应与流体-结构相互作用，为设计高稳定性叶轮机械奠定了理论基础。"
+          "summary": "2000年代非定域流动研究在叶轮机械领域取得了显著进展，核心突破在于通过高精度实验与计算揭示了旋转失速和喘振的瞬态机理。例如，Mailach等人（2001）通过PIV实验发现了轴向压缩机中由叶尖涡波动诱发的旋转不稳定性，阐明了失速先兆的产生机制。同时，研究实现了从被动分析到主动控制的跨越，如采用磁轴承调节叶尖间隙（2004）或调节静叶角度来主动抑制喘振，显著提升了压缩系统的稳定性。此外，单通道非定常CFD方法与流体-结构耦合模型的成熟（如2002年非线性颤振分析），使得叶片气动阻尼预测和进口畸变下的强迫响应分析成为可能，为高负荷叶片设计提供了关键理论工具。"
         },
         "2010": {
           "count": 118,
@@ -2177,7 +2882,149 @@
             "W2985766397",
             "W4237543360"
           ],
-          "summary": "2010年代非定常流动研究在叶轮机械领域取得了关键进展，重点关注**失速/喘振机理与流动控制**。例如，针对轴流压气机，研究通过非定稳机匣压力测量揭示了**叶尖泄漏流的非定常特性是诱发“突尖型”失速先兆**的核心机制（如“Investigation of Pre-Stall Behavior in an Axial Compressor Rotor”系列工作）。在控制方面，**非对称流场控制**（如“Stability Improvement of High-Pressure-Ratio Turbocharger Centrifugal Compressor by Asymmetric Flow Control”）和**等离子体激励**等主动/被动技术被证实能有效拓宽稳定裕度并降低噪声。此外，**高保真数值模拟与降阶模型**相结合（如“High-Fidelity Numerical Analysis of Per-Rev-Type Inlet Distortion”和“A New Reduced Order Modeling for Stability and Forced Response Analysis”），显著提升了对多级风扇中进口畸变传递、气动弹性等复杂非定常现象的预测能力。"
+          "summary": "2010年代非定常流动研究在叶轮机械领域取得了关键进展，主要集中在**高精度数值模拟与实验结合揭示失速机理**。例如，通过非定域压力测量和激光测量技术，研究团队系统揭示了轴流压气机**叶尖泄漏流的非定常特性是诱发“突尖型”失速（Spike Stall）的根源**（如“Investigation of Pre-Stall Behavior in an Axial Compressor Rotor”系列工作）。同时，**高保真仿真技术**被应用于分析进口畸变在多级风扇中的传递规律（如“High-Fidelity Numerical Analysis of Per-Rev-Type Inlet Distortion Transfer in Multistage Fans”），明确了非均匀流与叶片排的相互作用机制。此外，研究还探索了**非定常流动控制方法**，如通过机匣处理、等离子体激励等主动控制技术来抑制流动分离、降低噪声并扩大稳定工作范围（如“Reduction of Fan and Compressor Wake Defect Using Plasma Actuation”）。这些工作共同深化了对非定常流动机理的理解，并为提升叶轮机械气动性能与稳定性提供了理论基础和技术途径。"
+        },
+        "2020": {
+          "count": 136,
+          "paper_ids": [
+            "1a4848715ed2",
+            "e94e7dd218b2",
+            "8b2e353e30a1",
+            "5a303be41d1c",
+            "fdf04e49c932",
+            "a9991363b822",
+            "f7608e869c53",
+            "0b7e734cda4e",
+            "cc90be8be211",
+            "09141d7a025f",
+            "1e15bd76fbe1",
+            "633acd6c997e",
+            "458eb7c09d75",
+            "33bf57f7c875",
+            "99e7d8bca24b",
+            "f28002249e0b",
+            "9e53b754d631",
+            "6ae62a4e4051",
+            "a85c2e4af974",
+            "6a2d02af0462",
+            "725ed8d6bbff",
+            "d2d8845644d3",
+            "6da31a81a4fd",
+            "c0b24909f0df",
+            "68d50ad14ae6",
+            "d109072447f7",
+            "fba7df39113f",
+            "b1d77b6b080a",
+            "eb3ca2844ce5",
+            "9f800ae5d146",
+            "be03ef10f3ae",
+            "46b59794c48c",
+            "cf5397db32da",
+            "1f1e18fcc2a4",
+            "53c20f6f53c4",
+            "e1aa82f56cb9",
+            "6aa2df11206e",
+            "b9b4a4ed5176",
+            "471633d2b51a",
+            "6c10b9d8d434",
+            "1e74942eb66a",
+            "5a177ffa293d",
+            "3626c4da0a81",
+            "1677e3f416bb",
+            "6bac285a6a71",
+            "3359d78daaa1",
+            "3c036f607edf",
+            "5fdf23bccb19",
+            "60899d7422ea",
+            "ab127f7f39fe",
+            "3b74a8ac702f",
+            "b516e9e52e10",
+            "005237c76f9f",
+            "09b10cb502a5",
+            "16cf460b697c",
+            "2d89e2e036a2",
+            "5fd14e9d51a9",
+            "dcb6d493f48f",
+            "74a76cc7a5c2",
+            "0f8a0caa716a",
+            "486d1e4218c4",
+            "56499eb325c1",
+            "4c79c954567a",
+            "bc0270a2347e",
+            "bb2e6e56ace8",
+            "c6d7ed576405",
+            "53b8e7207d66",
+            "58bf010d0a09",
+            "63a8904284de",
+            "072fd7366a6f",
+            "8c56d2305810",
+            "23d6d1a237f5",
+            "894d599d400e",
+            "382b1e72bee4",
+            "c1794c600642",
+            "cdd6d3e217fb",
+            "9c6bd0cdc567",
+            "4e92efcbafd6",
+            "cec64db7a4dd",
+            "def88839e3c0",
+            "55c9b20f97f4",
+            "c3f1f6de97aa",
+            "16152cd57ea0",
+            "62479b54fda1",
+            "044b2beb32a3",
+            "fb1caa3bbdd4",
+            "e78a3dcde94a",
+            "6ff5fcbf00c4",
+            "0d76a4db1525",
+            "ea596b5266e8",
+            "15ec5325bec2",
+            "77f827e2d2c0",
+            "1134bf4b0bca",
+            "fe8edcb936d0",
+            "0a5dd42cc345",
+            "767d279c3528",
+            "56a14ae6d480",
+            "0ca1f6c2c572",
+            "ad247111a61e",
+            "98ab1cd43c1a",
+            "fb123ee1cbd7",
+            "d320234a1670",
+            "d43c6d1ec021",
+            "1b51eb70b00b",
+            "f567ddb656c9",
+            "d8d3851f5fd7",
+            "72f4c87978e3",
+            "97e7c8acfaa3",
+            "79836c8ccacc",
+            "325e51a6d52f",
+            "6b3e190e63dd",
+            "ac85d207d03d",
+            "a717daa531bd",
+            "280fda0569ac",
+            "0b156961839e",
+            "7191083364d4",
+            "aed8856ae1ab",
+            "eae28bc8aad8",
+            "763cd7749784",
+            "85161b23d473",
+            "ba337f86893e",
+            "d98fcbb5c36e",
+            "822425fab40e",
+            "7dea9dd28f64",
+            "32d453da497e",
+            "45f954ad041a",
+            "4103f4084711",
+            "9dc8662f3ed3",
+            "f8463fc7e940",
+            "ce1cfab2349f",
+            "6b7e660d0adf",
+            "4a3b56e353a5",
+            "47e0c31fdb00",
+            "d2e7c3f4184a",
+            "b0ed0fc1d15c",
+            "ecc801120666"
+          ],
+          "summary": "2020年代非定域流动研究在叶轮机械领域取得了显著进展，重点关注**非定常流动的机理与控制**。关键工作包括：**对失速起始机制的深入揭示**，如通过统一框架（A Unified Framework for Compressor Stall Inception）系统阐释了失速过程，并研究了径向进口畸变对跨音速风扇性能的影响（Analysis of Radial Inlet Distortion on Transonic Fan Performance）；**对叶尖复杂流动的精细化探索**，具体阐明了跨音速风扇中叶尖非定常流动的发生机制（On the Mechanism of Unsteady Tip Flow Occurrence in a Transonic Fan），并分析了不同叶尖间隙布局对失速的影响（Stall mechanisms of a transonic compressor rotor...）。此外，**先进数值方法与人工智能的应用**成为重要方向，例如利用图神经网络预测非定常流动的时间平均结果（Predicting Time-Averaged Unsteady Flows...），以及发展混合LES-CAA方法评估声激励下的火焰响应（Assessment of a Hybrid LES-CAA Method...）。这些研究共同深化了对非定常流动物理的理解，并推动了高性能、高稳定性叶轮机械的设计。"
         }
       }
     },
@@ -2189,7 +3036,7 @@
           "paper_ids": [
             "W2102083746"
           ],
-          "summary": "在1970年代，计算空气动力学领域因**面元法**（Panel Method）的成熟应用而取得突破，**Hess和Smith**发展的数值方法首次能高效计算三维物体亚音速无粘绕流，显著提升了飞机气动设计效率。同时，**Murman和Cole**针对跨音速流动提出的**类型相关差分格式**，成功解决了激波捕获的关键数值难题，使跨音速机翼的精确模拟成为可能。这些进展与**Jameson**等人发展的**时间推进法**相结合，共同奠定了现代计算流体力学（CFD）的数值基础，推动了从线性势流方程向非线性欧拉方程求解的过渡。"
+          "summary": "在1970年代，计算空气动力学领域因**面元法**（Panel Method）的成熟应用而取得突破，该技术由**赫斯（J. L. Hess）与史密斯（A. M. O. Smith）** 等人系统发展，能高效计算非升力体和升力体（如机翼）的亚声速无粘流场，极大提升了飞行器气动设计的效率。同时，**跨声速小扰动方程的数值解法**（如Murman-Cole的混合差分格式）成功实现了跨声速流动的稳定计算，首次在理论上捕捉并分析了激波与膨胀波现象。此外，**计算流体力学（CFD）开始与边界层理论结合**，通过粘性-无粘迭代方法初步模拟粘性效应，为后续Navier-Stokes方程求解奠定了基础。这些进展共同推动了从纯解析向数值模拟的范式转变，使复杂外形气动分析成为可能。"
         },
         "1980": {
           "count": 7,
@@ -2202,7 +3049,7 @@
             "W1974009358",
             "W1977028083"
           ],
-          "summary": "1980年代气弹/振动领域的研究重点从孤立叶片转向考虑叶片间耦合与失谐效应的系统级分析。关键进展包括：通过《Effects of Structural Coupling on Mistuned Cascade Flutter and Response》等研究，明确了失谐对颤振抑制的积极作用，并发展出如《Optimization of cascade blade mistuning. II》中的全局优化方法以主动利用该效应。同时，实验技术如遥测与全息干涉测量（《Blade Vibration Measurements on Centrifugal Compressors》）实现了旋转部件振动的直接观测，而《Unsteady Flow in a Centrifugal Compressor》等研究则深化了对非定常流与结构相互作用的理解，为跨音速/超音速叶栅（如《Aerodynamic Detuning Analysis》）的设计提供了理论基础。"
+          "summary": "1980年代气弹/振动领域的研究重点在于通过实验与数值方法揭示叶轮机械内部非定常流动与叶片振动的耦合机制。关键进展包括：通过叶栅失谐（mistuning）优化（如《Optimization of cascade blade mistuning. II》等研究）系统探索了叶片频率错配对颤振抑制的效果，为抑制同步振动提供了设计依据；同时，离心压缩机叶轮振动遥测与全息干涉测量（《Blade Vibration Measurements on Centrifugal Compressors》）等新实验技术实现了运行状态下叶片动态变形的直接观测，显著提升了故障诊断能力。此外，研究还拓展至跨声速、低展弦比（《Low Aspect Ratio Axial Flow Compressors》）及有叶扩压器等复杂流动条件，深化了对非定常气动激励源的理解。"
         },
         "1990": {
           "count": 15,
@@ -2223,7 +3070,7 @@
             "W4230527674",
             "W4248715180"
           ],
-          "summary": "1990年代该领域的研究进展主要集中在**叶轮机气动弹性稳定性与主动控制**方面。关键工作包括：**针对失谐叶片组**的研究揭示了气动弹性模态局部化现象及其对颤振稳定性的影响（如“Aeroelastic modal characteristics of mistuned blade assemblies”）；**旋转失速和喘振的主动控制**取得突破，多篇获奖论文（如1997年Controls and Diagnostics Committee最佳论文）证明了在跨音速压气机中通过主动干预可有效抑制不稳定工况；同时，**进口畸变**（周向与径向）对多级压气机稳定性及叶片强迫响应的机制被系统揭示（如“Inlet Distortion Generated Forced Response”等系列研究），为复杂进气条件下的设计提供了理论基础。"
+          "summary": "1990年代该领域的研究进展主要集中在**气动弹性稳定性控制**和**非定常激励响应**两大方面。关键工作包括：通过**主动控制技术**（如“主动抑制旋转失速和喘振”）显著提升了压缩机的稳定性边界，这被视为控制诊断领域的突破；同时，**失谐效应**（如“失谐叶片组件的气动弹性模态特性”）的研究揭示了模态局部化和振型畸变现象，深化了对叶片振动失效机理的理解。此外，**进口畸变**（周向与径向）对多级压缩机稳定性和叶片**强迫响应**的影响被系统揭示，建立了非均匀来流与气弹危险性的直接关联。这些成果共同推动了从被动分析到主动抑制、从均匀流场到复杂畸变环境的理论发展与工程应用。"
         },
         "2000": {
           "count": 19,
@@ -2248,7 +3095,7 @@
             "W2141981925",
             "W2032963113"
           ],
-          "summary": "2000年代该领域的研究进展主要体现在对叶轮机非定常流致振动机理的深入揭示与高精度预测方法的建立。关键工作包括：**通过单通道等高效CFD方法系统研究了进气畸变、叶尖间隙等对叶片气动阻尼的影响**（如《Single-Passage Analysis of Unsteady Flows Around Vibrating Blades》等），揭示了**叶尖涡非定常特性与旋转失稳、非同步振动的关联**（如《Blade Tip Clearance Flow and Compressor Nonsynchronous Vibrations》）。同时，**失谐叶片盘振动分析与优化成为重点**（如《Modeling and Analysis of Mistuned Bladed Disk Vibration》），并发展了**非线性气动弹性与流固耦合数值模型**（如《Numerical Investigation of Nonlinear Fluid-Structure Interaction》），显著提升了颤振和强迫响应的预测能力。"
+          "summary": "2000年代该领域的研究进展主要体现在对叶轮机非定常流致振动机理的深入揭示与预测方法的显著提升。关键工作包括：通过**单通道非定常CFD方法**（如“Single-Passage Analysis of Unsteady Flows...”等论文）系统量化了进气畸变、叶尖间隙流等对叶片气动阻尼与受迫响应的影响；**叶尖涡非定常性**（“Rotating Instabilities...”）与**射流核心反馈理论**（“Blade Tip Clearance Flow and Compressor Nonsynchronous Vibrations...”）被明确为诱发非同步振动的重要耦合机制；同时，**失谐建模**（“Modeling and Analysis of Mistuned Bladed Disk Vibration...”）与**气动弹性优化**（“Aerostructural Optimization...”）研究为抑制颤振、控制振动响应提供了关键设计依据。"
         },
         "2010": {
           "count": 40,
@@ -2294,7 +3141,49 @@
             "W2984147704",
             "W4237543360"
           ],
-          "summary": "2010年代该领域的研究进展主要体现在对叶轮机非定常气弹机理的精细化揭示与主动控制方法的探索。**关键发现**包括：通过高精度仿真与实验，明确了**进口畸变、叶尖间隙流**（如Unsteady CFD Investigation on Inlet Distortion、Tip Clearance Flow Resonance等研究）是诱发叶片非同步振动（NSV）和失速颤振的核心激励源；**失谐技术**（如Mistuning Effects on Aero-elastic Stability）被系统验证为可有效抑制气弹不稳定性的被动控制手段；同时，**降阶模型与多谐波平衡法**（如New Reduced Order Modeling、Harmonic Balance Equation System）的发展提升了复杂耦合振动预测效率，而**压电主动控制**（如Active Piezoelectric Vibration Control）则为叶片振动抑制提供了新途径。这些工作共同推动了叶轮机气弹振动从机理认知到工程预测与控制能力的显著提升。"
+          "summary": "2010年代该领域的研究进展主要体现在对非同步振动（NSV）和失速颤振机理的深入揭示，以及高保真仿真与降阶模型的发展。关键工作包括：**Tip Clearance Flow Resonance Behind Axial Compressor Nonsynchronous Vibration** 等论文系统阐明了叶尖间隙流与NSV的共振机制；**Mechanisms and Key Parameters for Compressor Blade Stall Flutter** 等研究明确了失速颤振的关键气动参数；**Zonal Detached-Eddy Simulation** 等方法实现了叶尖间隙流动的高精度模拟；同时，**A New Reduced Order Modeling** 等降阶模型技术显著提升了气弹稳定性和强迫响应的分析效率。这些进展共同推动了对叶轮机气弹问题的预测与控制能力。"
+        },
+        "2020": {
+          "count": 36,
+          "paper_ids": [
+            "33bf57f7c875",
+            "27f3df57613c",
+            "09024a89ac89",
+            "fba7df39113f",
+            "f010a5492293",
+            "1f1e18fcc2a4",
+            "53c20f6f53c4",
+            "47918d6670a8",
+            "7ebe5aa81d8b",
+            "1f19019cfdc0",
+            "6bac285a6a71",
+            "9f62037244af",
+            "f962140b3b0e",
+            "f10dd98f02de",
+            "8929563fc6ff",
+            "56499eb325c1",
+            "4c79c954567a",
+            "c6d7ed576405",
+            "7c3707f455e9",
+            "af2c2716395c",
+            "427a9dd03ec2",
+            "6d343c1fcb89",
+            "9c6bd0cdc567",
+            "2165e6b3a8aa",
+            "f01cf8b5ed76",
+            "62479b54fda1",
+            "22eaf9f2a76b",
+            "ad247111a61e",
+            "1834c2f9705a",
+            "8ee0ede6e70e",
+            "72f4c87978e3",
+            "6b3e190e63dd",
+            "eae28bc8aad8",
+            "45f954ad041a",
+            "de7408d393e3",
+            "47e0c31fdb00"
+          ],
+          "summary": "2020年代气弹/振动领域的研究进展主要体现在对非同步振动（NSV）机理的深入揭示与抑制方法的创新。例如，多项研究（如“Non-Synchronous Vibration and Related Tip Clearance Flow Characteristic in a Low-Speed Axial Fan”）系统阐明了叶尖间隙流动与NSV的关联，并提出了通过气动与结构失谐（“Suppression of Nonsynchronous Vibration Through Intentional Aerodynamic and Structural Mistuning”）等主动控制策略。同时，针对高涵道比风扇（如UHBR ECL5/CATANA系列实验），研究实现了在部分转速条件下非线性非同步振动的精确预测与稳定性边界量化。此外，结合数字化振动吸收器（“Multimodal Shunt Damping of Monolithic Bladed Drums”）等新型减振技术，以及针对进口周向非均匀流动（如“Forced Response Induced by Low Engine Order Under Circumferential Inlet Distortions”）的强迫响应分析，显著提升了复杂工况下叶盘系统气弹稳定性的设计能力。"
         }
       }
     }

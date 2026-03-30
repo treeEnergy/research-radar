@@ -2537,13 +2537,20 @@ const REL_LABEL = { 5:'核心方向', 4:'高度相关', 3:'相关', 2:'部分相
 const REL_CLASS = { 5:'r5', 4:'r4', 3:'r3', 2:'r2' };
 
 async function load() {
-  const [p, r, m, g] = await Promise.allSettled([
+  const [p, r, m, g, ph] = await Promise.allSettled([
     fetch('data/papers.json').then(x => x.json()),
     fetch('data/repos.json').then(x => x.json()),
     fetch('data/meta.json').then(x => x.json()),
     fetch('data/groups.json').then(x => x.json()),
+    fetch('data/papers-historical.json').then(x => x.json()),
   ]);
-  papers       = p.status === 'fulfilled' ? p.value : [];
+  const currentPapers    = p.status === 'fulfilled' ? p.value : [];
+  const historicalPapers = ph.status === 'fulfilled' ? ph.value : [];
+  // 合并：以 current 为主，historical 补充（去重）
+  const existingIds = new Set(currentPapers.map(x => x.id));
+  const merged = [...currentPapers, ...historicalPapers.filter(x => !existingIds.has(x.id))];
+  merged.sort((a, b) => (b.date || '') > (a.date || '') ? 1 : -1);
+  papers       = merged;
   repos        = r.status === 'fulfilled' ? r.value : [];
   groups       = g.status === 'fulfilled' ? g.value : [];
   customGroups = getCustomGroups();
@@ -3652,12 +3659,18 @@ function appendPipelineLog(msg) {
 
 async function reloadData() {
   closePipelinePanel();
-  const [p, g, m] = await Promise.allSettled([
+  const [p, g, m, ph] = await Promise.allSettled([
     fetch('data/papers.json?t=' + Date.now()).then(x => x.json()),
     fetch('data/groups.json?t=' + Date.now()).then(x => x.json()),
     fetch('data/meta.json?t=' + Date.now()).then(x => x.json()),
+    fetch('data/papers-historical.json?t=' + Date.now()).then(x => x.json()),
   ]);
-  if (p.status === 'fulfilled') papers = p.value;
+  const currentPapers    = p.status === 'fulfilled' ? p.value : [];
+  const historicalPapers = ph.status === 'fulfilled' ? ph.value : [];
+  const existingIds = new Set(currentPapers.map(x => x.id));
+  const merged = [...currentPapers, ...historicalPapers.filter(x => !existingIds.has(x.id))];
+  merged.sort((a, b) => (b.date || '') > (a.date || '') ? 1 : -1);
+  papers = merged;
   if (g.status === 'fulfilled') groups = g.value;
   const meta = m.status === 'fulfilled' ? m.value : [];
   if (meta[0]?.last_updated)
