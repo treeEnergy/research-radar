@@ -194,8 +194,12 @@ def fetch_all_historical(from_year: int = FETCH_FROM_YEAR_HISTORICAL,
             for kw, issn, name in tasks
         }
         for future in as_completed(futures):
-            for p in future.result():
-                all_papers[p["id"]] = p
+            try:
+                for p in future.result():
+                    all_papers[p["id"]] = p
+            except Exception as e:
+                name, kw = futures[future]
+                log.warning(f"历史抓取任务失败 [{name} / {kw}]: {e}")
 
     result = list(all_papers.values())
     log.info(f"历史论文去重后：{len(result)} 篇，计算 topics_matched…")
