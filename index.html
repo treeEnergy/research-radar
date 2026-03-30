@@ -3738,6 +3738,87 @@ function renderHeatmap() {
   grid.innerHTML = html;
 }
 
+// ── Wishlist ─────────────────────────────────
+
+const LS_WISHLIST = 'ls_wishlist';
+
+function getWishlist() {
+  return lsGet(LS_WISHLIST, []);
+}
+
+function saveWishlist(items) {
+  lsSet(LS_WISHLIST, items);
+}
+
+function openWishlist() {
+  renderWishlist();
+  document.getElementById('wishlist-panel').style.transform = 'translateX(0)';
+  document.getElementById('wish-title-input').focus();
+}
+
+function closeWishlist() {
+  document.getElementById('wishlist-panel').style.transform = 'translateX(100%)';
+}
+
+function renderWishlist() {
+  const items = getWishlist();
+  const listEl = document.getElementById('wish-list');
+
+  if (items.length === 0) {
+    listEl.innerHTML = '<div style="color:var(--text3); font-size:12px; font-family:\'IBM Plex Mono\',monospace; text-align:center; padding:24px 0;">暂无记录，把想找的文献记在这里</div>';
+    return;
+  }
+
+  listEl.innerHTML = '';
+  items.forEach((item, idx) => {
+    const el = document.createElement('div');
+    el.style.cssText = 'background:var(--bg); border-radius:6px; padding:10px 12px; position:relative;';
+    const date = new Date(item.added_at).toLocaleDateString('zh-CN', { month:'short', day:'numeric', year:'numeric' });
+    el.innerHTML = `
+      <button onclick="deleteWishlistItem(${idx})"
+        style="position:absolute; top:8px; right:8px; background:none; border:none; color:var(--text3); font-size:14px; cursor:pointer; line-height:1; padding:2px 4px;"
+        title="删除">✕</button>
+      <div style="color:var(--text2); font-size:12px; line-height:1.5; margin-right:20px;">${escapeHtml(item.title)}</div>
+      ${item.note ? `<div style="color:var(--text3); font-size:11px; margin-top:4px; line-height:1.4;">${escapeHtml(item.note)}</div>` : ''}
+      <div style="color:var(--text3); font-size:10px; font-family:'IBM Plex Mono',monospace; margin-top:6px;">${date}</div>`;
+    listEl.appendChild(el);
+  });
+}
+
+function addWishlistItem() {
+  const titleEl = document.getElementById('wish-title-input');
+  const noteEl  = document.getElementById('wish-note-input');
+  const errEl   = document.getElementById('wish-error');
+  const title = titleEl.value.trim();
+
+  if (!title) {
+    errEl.textContent = '请输入论文标题';
+    errEl.style.display = '';
+    return;
+  }
+  errEl.style.display = 'none';
+
+  const items = getWishlist();
+  items.unshift({
+    id: Date.now().toString(),
+    title,
+    note: noteEl.value.trim(),
+    added_at: new Date().toISOString(),
+  });
+  saveWishlist(items);
+
+  titleEl.value = '';
+  noteEl.value  = '';
+  renderWishlist();
+}
+
+function deleteWishlistItem(idx) {
+  const items = getWishlist();
+  items.splice(idx, 1);
+  saveWishlist(items);
+  renderWishlist();
+}
+
 // ── AI Chat ──────────────────────────────────
 
 let chatHistory = [];
@@ -4005,6 +4086,52 @@ load();
       <button onclick="confirmSettings()" style="background:var(--gold);border:none;color:#111;padding:8px 18px;border-radius:4px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;">保存</button>
     </div>
   </div>
+</div>
+
+<!-- ── Wishlist ──────────────────────────────── -->
+<!-- Floating button -->
+<button onclick="openWishlist()" style="
+  position:fixed; bottom:24px; right:24px; z-index:600;
+  background:var(--bg2); border:1px solid var(--border2); border-radius:20px;
+  color:var(--text2); font-family:'IBM Plex Mono',monospace; font-size:12px;
+  padding:8px 16px; cursor:pointer; display:flex; align-items:center; gap:6px;
+  box-shadow:0 2px 8px rgba(0,0,0,.4); transition:border-color .2s;
+" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='var(--border2)'">
+  📋 <span>愿望清单</span>
+</button>
+
+<!-- Wishlist slide panel -->
+<div id="wishlist-panel" style="
+  position:fixed; top:56px; right:0; bottom:0; width:380px;
+  background:var(--bg2); border-left:1px solid var(--border2);
+  display:flex; flex-direction:column;
+  transform:translateX(100%); transition:transform .25s ease;
+  z-index:601;
+">
+  <!-- Header -->
+  <div style="padding:14px 18px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:10px; flex-shrink:0;">
+    <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--gold); letter-spacing:.08em; flex:1;">文献愿望清单</span>
+    <button onclick="closeWishlist()" style="background:none; border:none; color:var(--text3); font-size:18px; cursor:pointer; line-height:1; padding:0 2px;">×</button>
+  </div>
+
+  <!-- Add form -->
+  <div style="padding:14px 18px; border-bottom:1px solid var(--border); flex-shrink:0;">
+    <input id="wish-title-input" type="text" placeholder="论文标题 / 描述（必填）"
+      style="width:100%; box-sizing:border-box; background:var(--bg); border:1px solid var(--border2); border-radius:4px;
+             padding:8px 12px; color:var(--text); font-family:'IBM Plex Mono',monospace; font-size:12px; outline:none; margin-bottom:8px;" />
+    <textarea id="wish-note-input" placeholder="备注（可选）" rows="2"
+      style="width:100%; box-sizing:border-box; background:var(--bg); border:1px solid var(--border2); border-radius:4px;
+             padding:8px 12px; color:var(--text); font-family:'IBM Plex Mono',monospace; font-size:12px; outline:none; resize:none; margin-bottom:8px;"></textarea>
+    <button onclick="addWishlistItem()"
+      style="width:100%; background:var(--gold-glow); border:1px solid var(--gold-dim); border-radius:4px;
+             color:var(--gold); font-family:'IBM Plex Mono',monospace; font-size:11px; padding:8px; cursor:pointer;">
+      + 添加
+    </button>
+    <div id="wish-error" style="display:none; color:var(--rel5); font-size:11px; font-family:'IBM Plex Mono',monospace; margin-top:6px;"></div>
+  </div>
+
+  <!-- List -->
+  <div id="wish-list" style="flex:1; overflow-y:auto; padding:12px 18px; display:flex; flex-direction:column; gap:8px;"></div>
 </div>
 
 </body>
