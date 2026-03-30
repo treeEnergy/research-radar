@@ -1704,7 +1704,7 @@ select {
       </div>
       <div class="heatmap-legend">
         <span>少</span>
-        <div class="heatmap-legend-bar" style="background:linear-gradient(to right, rgb(30,50,80), rgb(20,80,130), rgb(30,140,180), rgb(80,190,140), rgb(220,180,60), rgb(230,100,50));"></div>
+        <div class="heatmap-legend-bar" style="background:linear-gradient(to right, rgb(10,8,30), rgb(50,10,80), rgb(120,28,110), rgb(180,50,75), rgb(220,95,35), rgb(245,165,10), rgb(250,230,80));"></div>
         <span>多</span>
         <span style="margin-left:8px; opacity:.6;">颜色按行内相对值缩放</span>
       </div>
@@ -3659,19 +3659,17 @@ let timelineData = null;         // parsed timeline.json
 let historicalPapers = null;     // id → paper map from papers-historical.json
 let timelineLoaded = false;
 
-// Sequential color scale (low → high) inspired by journal heatmaps
-// Uses a blue-to-red diverging scale similar to RdYlBu reversed
+// "Inferno" colormap — perceptually uniform, professional, dark-bg friendly
+// Adapted from matplotlib's inferno for 0→1 mapping
 function heatmapColor(ratio) {
-  // ratio: 0 (empty) → 1 (max in row)
-  // Color stops: #f7fbff → #6baed6 → #2171b5 → #08306b (sequential blue, like d3 Blues)
-  // But for dark background, we use a warm sequential: dark → amber → bright orange
   const stops = [
-    [30, 50, 80],     // 0.0 — dark navy
-    [20, 80, 130],    // 0.25 — deep blue
-    [30, 140, 180],   // 0.5 — teal
-    [80, 190, 140],   // 0.7 — green-teal
-    [220, 180, 60],   // 0.85 — warm yellow
-    [230, 100, 50],   // 1.0 — bright orange-red
+    [10, 8, 30],      // 0.00 — near black
+    [50, 10, 80],     // 0.15 — deep indigo
+    [120, 28, 110],   // 0.30 — purple
+    [180, 50, 75],    // 0.45 — magenta-rose
+    [220, 95, 35],    // 0.60 — burnt orange
+    [245, 165, 10],   // 0.80 — warm amber
+    [250, 230, 80],   // 1.00 — bright yellow
   ];
   const t = Math.max(0, Math.min(1, ratio));
   const idx = t * (stops.length - 1);
@@ -3761,11 +3759,15 @@ function renderHeatmap() {
   });
   html += '</tr></thead><tbody>';
 
+  // Global max for uniform color scaling across all cells
+  let globalMax = 1;
+  topics.forEach(topic => {
+    const cd = topic[cellKey] || topic.periods || topic.decades || {};
+    periods.forEach(p => { globalMax = Math.max(globalMax, cd[String(p)]?.count || 0); });
+  });
+
   topics.forEach((topic, ti) => {
     const cellData = topic[cellKey] || topic.periods || topic.decades || {};
-
-    const counts = periods.map(p => (cellData[String(p)]?.count || 0));
-    const maxCount = Math.max(...counts, 1);
 
     html += '<tr>';
     html += `<th class="row-header">${escapeHtml(topic.label)}</th>`;
@@ -3773,7 +3775,7 @@ function renderHeatmap() {
     periods.forEach(p => {
       const cell = cellData[String(p)];
       const count = cell?.count || 0;
-      const ratio = count / maxCount;
+      const ratio = count / globalMax;
       if (count === 0) {
         html += `<td class="hm empty" style="background:rgba(255,255,255,0.03);"
           title="${escapeHtml(topic.label)} ${p}-${p+4} · 0 篇"
@@ -3781,8 +3783,9 @@ function renderHeatmap() {
         return;
       }
       const bg = heatmapColor(ratio);
+      const textColor = ratio > 0.65 ? 'rgba(0,0,0,.7)' : 'rgba(255,255,255,.8)';
       html += `<td class="hm"
-        style="background:${bg}"
+        style="background:${bg};color:${textColor}"
         data-topic="${escapeHtml(topic.label)}"
         data-period="${p}"
         title="${escapeHtml(topic.label)} ${p}-${p+4} · ${count} 篇"
