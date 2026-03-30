@@ -1521,6 +1521,23 @@ select {
     border-top:1px solid var(--border);"></div>
 </div>
 
+<div id="timeline-panel" style="
+  position:fixed; top:56px; right:0; bottom:0; width:420px;
+  background:var(--bg2); border-left:1px solid var(--border2);
+  display:flex; flex-direction:column;
+  transform:translateX(100%); transition:transform .25s ease;
+  z-index:502;
+">
+  <!-- 标题栏 -->
+  <div style="padding:14px 18px; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:10px; flex-shrink:0;">
+    <span id="tl-panel-title" style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--gold); letter-spacing:.08em; flex:1;">—</span>
+    <button onclick="closeTimelinePanel()" style="background:none; border:none; color:var(--text3); font-size:18px; cursor:pointer; line-height:1; padding:0 2px;">×</button>
+  </div>
+  <!-- 内容区（可滚动） -->
+  <div id="tl-panel-body" style="flex:1; overflow-y:auto; padding:16px 18px; display:flex; flex-direction:column; gap:14px;">
+  </div>
+</div>
+
 <!-- 话题管理面板（右侧抽屉） -->
 <div id="topics-panel" style="
   position:fixed; top:56px; right:0; bottom:0; width:380px;
@@ -2591,7 +2608,7 @@ function render() {
     const isRead     = !!(ann && ann.read);
 
     return `
-    <div class="paper-card ${isRead ? 'is-read' : ''}" data-rel="${rel}" style="animation-delay:${delay}ms">
+    <div id="card-${p.id}" class="paper-card ${isRead ? 'is-read' : ''}" data-rel="${rel}" style="animation-delay:${delay}ms">
       <div class="paper-main">
         <a class="paper-title" href="${p.url||'#'}" target="_blank">${p.title}</a>
         <div class="paper-meta">
@@ -2983,6 +3000,122 @@ function openPipelinePanel() {
 function closePipelinePanel() {
   document.getElementById('pipeline-panel').style.transform = 'translateX(100%)';
   if (_pipelinePoll) { clearInterval(_pipelinePoll); _pipelinePoll = null; }
+}
+
+function openTimelinePanel(topicLabel, decade) {
+  const topic = timelineData?.topics?.find(t => t.label === topicLabel);
+  const cell  = topic?.decades?.[String(decade)];
+  if (!cell) return;
+
+  document.getElementById('tl-panel-title').textContent =
+    `${topicLabel} · ${decade}s`;
+
+  const body = document.getElementById('tl-panel-body');
+  body.innerHTML = '';
+
+  // AI summary block
+  const summaryDiv = document.createElement('div');
+  summaryDiv.style.cssText = 'border-left:2px solid var(--gold); padding:10px 14px; background:var(--surface2); border-radius:0 4px 4px 0;';
+  if (cell.summary) {
+    summaryDiv.innerHTML = `
+      <div style="color:var(--gold); font-size:10px; font-family:'IBM Plex Mono',monospace; letter-spacing:.06em; margin-bottom:6px;">✦ AI 年代综述</div>
+      <div style="color:var(--text3); font-size:12px; line-height:1.7;">${cell.summary}</div>`;
+  } else {
+    summaryDiv.innerHTML = `<div style="color:var(--text3); font-size:11px; font-family:'IBM Plex Mono',monospace;">暂无综述，请重新运行流水线</div>`;
+  }
+  body.appendChild(summaryDiv);
+
+  // Paper list header
+  const headerDiv = document.createElement('div');
+  headerDiv.style.cssText = 'color:var(--text3); font-size:10px; font-family:"IBM Plex Mono",monospace; letter-spacing:.06em;';
+  headerDiv.textContent = `相关论文 · ${cell.count} 篇`;
+  body.appendChild(headerDiv);
+
+  // Gather papers: historical + current
+  const allPapers = [];
+  (cell.paper_ids || []).forEach(pid => {
+    if (historicalPapers && historicalPapers[pid]) {
+      allPapers.push({ ...historicalPapers[pid], _source: 'historical' });
+    } else {
+      const cp = papers.find(p => p.id === pid);
+      if (cp) allPapers.push({ ...cp, _source: 'current' });
+    }
+  });
+  allPapers.sort((a, b) => (a.year || 0) - (b.year || 0));
+
+  const displayPapers = allPapers.slice(0, 20);
+  const remaining = allPapers.length - 20;
+
+  const listDiv = document.createElement('div');
+  listDiv.style.cssText = 'display:flex; flex-direction:column; gap:6px;';
+
+  displayPapers.forEach(p => {
+    const item = document.createElement('div');
+    item.style.cssText = 'background:var(--bg); border-radius:4px; padding:8px 10px; cursor:pointer;';
+    const firstAuthor = (p.authors || [])[0] || '';
+    const yearAuthor = `${p.year || ''}${firstAuthor ? ' · ' + firstAuthor.split(',')[0].split(' ').slice(-1)[0] : ''}`;
+
+    if (p._source === 'current') {
+      item.title = '点击跳转到论文详情';
+      item.onclick = () => {
+        closeTimelinePanel();
+        switchTab('papers');
+        setTimeout(() => {
+          const el = document.getElementById('card-' + p.id);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 300);
+      };
+      item.innerHTML = `
+        <div style="color:var(--text2); font-size:11px; margin-bottom:2px;">${yearAuthor}</div>
+        <div style="color:var(--text3); font-size:11px; line-height:1.4;">${p.title}</div>`;
+    } else {
+      item.style.cursor = p.url ? 'pointer' : 'default';
+      if (p.url) item.onclick = () => window.open(p.url, '_blank');
+      item.innerHTML = `
+        <div style="color:var(--text2); font-size:11px; margin-bottom:2px;">${yearAuthor}${p.url ? ' ↗' : ''}</div>
+        <div style="color:var(--text3); font-size:11px; line-height:1.4;">${p.title}</div>`;
+    }
+    listDiv.appendChild(item);
+  });
+
+  if (remaining > 0) {
+    const moreBtn = document.createElement('button');
+    moreBtn.style.cssText = 'background:none; border:1px solid var(--border2); border-radius:4px; color:var(--text3); font-family:"IBM Plex Mono",monospace; font-size:10px; padding:6px; cursor:pointer; width:100%;';
+    moreBtn.textContent = `显示全部 ${allPapers.length} 篇`;
+    moreBtn.onclick = () => {
+      allPapers.slice(20).forEach(p => {
+        const item = document.createElement('div');
+        item.style.cssText = 'background:var(--bg); border-radius:4px; padding:8px 10px;';
+        const firstAuthor = (p.authors || [])[0] || '';
+        const yearAuthor = `${p.year || ''}${firstAuthor ? ' · ' + firstAuthor.split(',')[0].split(' ').slice(-1)[0] : ''}`;
+        item.innerHTML = `
+          <div style="color:var(--text2); font-size:11px; margin-bottom:2px;">${yearAuthor}${p._source === 'historical' && p.url ? ' ↗' : ''}</div>
+          <div style="color:var(--text3); font-size:11px; line-height:1.4;">${p.title}</div>`;
+        if (p._source === 'historical' && p.url) item.onclick = () => window.open(p.url, '_blank');
+        if (p._source === 'current') {
+          item.style.cursor = 'pointer';
+          item.onclick = () => {
+            closeTimelinePanel();
+            switchTab('papers');
+            setTimeout(() => {
+              const el = document.getElementById('card-' + p.id);
+              if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 300);
+          };
+        }
+        listDiv.insertBefore(item, moreBtn);
+      });
+      moreBtn.remove();
+    };
+    listDiv.appendChild(moreBtn);
+  }
+
+  body.appendChild(listDiv);
+  document.getElementById('timeline-panel').style.transform = 'translateX(0)';
+}
+
+function closeTimelinePanel() {
+  document.getElementById('timeline-panel').style.transform = 'translateX(100%)';
 }
 
 function openTopicsPanel() {
