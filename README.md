@@ -16,6 +16,8 @@
 - 📌 **标注系统**：标记已读、写评价笔记
 - 👥 **课题组追踪**：按 PI 姓名追踪特定课题组的论文
 - ⚡ **一键更新**：网页内触发 GitHub Actions 流水线，每周自动运行
+- 🗓️ **时间轴**：1970 年至今的热力图（话题 × 年代），点击格子查看该年代 AI 综述和论文列表
+- 📋 **文献愿望清单**：记录想追加到库里的文献，纯本地 localStorage，随时可查
 
 ---
 
@@ -88,17 +90,19 @@ RESEARCH_GROUPS = [
 
 ```
 GitHub 仓库（静态资源）
-├── index.html          ← 纯前端，无构建工具
-├── data/papers.json    ← 论文库（GitHub Actions 自动更新）
-└── scripts/            ← Python 抓取 + AI 分析脚本
+├── index.html                      ← 纯前端，无构建工具
+├── data/papers.json                ← 近期论文库，最多 500 篇（Actions 自动更新）
+├── data/papers-historical.json     ← 1970–2019 历史论文（增量抓取，无上限）
+├── data/timeline.json              ← 时间轴数据：话题×年代计数 + AI 综述
+└── scripts/                        ← Python 抓取 + AI 分析脚本
 
 运行时数据流：
 浏览器 → fetch data/*.json       （静态论文数据）
 浏览器 → DeepSeek API            （AI 对话，Key 存 localStorage）
 浏览器 → GitHub Actions API      （触发流水线，Token 存 localStorage）
-GitHub Actions → OpenAlex API   （抓取论文）
-GitHub Actions → DeepSeek API   （AI 分析）
-GitHub Actions → commit 回仓库  （更新 papers.json）
+GitHub Actions → OpenAlex API   （抓取论文，含 1970 年至今历史数据）
+GitHub Actions → DeepSeek API   （AI 分析 + 时间轴年代综述）
+GitHub Actions → commit 回仓库  （更新 papers.json / papers-historical.json / timeline.json）
 ```
 
 **所有敏感 Key 仅存在用户浏览器的 localStorage 中，不会上传到任何服务器。**
@@ -124,11 +128,26 @@ GitHub Actions → commit 回仓库  （更新 papers.json）
 ## 数据说明
 
 - `data/papers.json`：最多保留 500 篇，按日期倒序，由 GitHub Actions 自动维护
+- `data/papers-historical.json`：1970–2019 历史论文，增量抓取，无数量上限
+- `data/timeline.json`：话题 × 年代热力图数据，含 DeepSeek 生成的年代综述，增量更新（已有综述不重复调用）
 - `data/annotations.json`：**不再使用**（已迁移到 localStorage）
-- 标注/已读状态存在浏览器本地，清除浏览器缓存会丢失
+- 标注/已读状态、愿望清单存在浏览器本地，清除浏览器缓存会丢失
 
 ---
 
 ## License
 
 MIT — 自由使用、修改、分发。
+
+---
+
+## 更新日志
+
+### v1.1（2026-03-30）
+- 新增 **时间轴**：1970 年至今的话题 × 年代热力图，点击格子查看 AI 生成的年代综述和论文列表
+- 新增 **文献愿望清单**：右下角悬浮面板，记录想追加的文献，localStorage 存储
+- 新增 `scripts/fetch_papers_historical.py`：增量抓取 1970–2019 历史论文
+- 新增 `scripts/build_timeline.py`：生成 `data/timeline.json`，增量调用 DeepSeek 生成年代综述
+
+### v1.0
+- 初始发布：论文抓取、AI 分析、课题组追踪、标注系统、AI 问答、一键流水线
