@@ -544,7 +544,7 @@ select {
   content: '';
   position: absolute; left: 0; top: 0; bottom: 0;
   width: 3px;
-  border-radius: 3px 0 0 3px;
+  border-radius: var(--card-radius) 0 0 var(--card-radius);
   transition: opacity .2s;
 }
 .paper-card[data-rel="5"]::before { background: var(--rel5); }
@@ -3755,8 +3755,8 @@ function toggleTheme() {
   const next = current === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
   localStorage.setItem('rr_theme', next);
-  // Force re-render heatmap if loaded
-  if (timelineLoaded) { timelineLoaded = false; loadTimeline(); }
+  // Re-render heatmap with new colors (no re-fetch)
+  if (timelineLoaded) renderHeatmap();
 }
 // Restore saved theme
 (function() {
