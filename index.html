@@ -1770,7 +1770,7 @@ select {
       </div>
       <div class="heatmap-legend">
         <span>少</span>
-        <div class="heatmap-legend-bar" style="background:linear-gradient(to right, rgb(8,15,12), rgb(10,40,30), rgb(15,75,50), rgb(25,120,75), rgb(50,170,100), rgb(110,210,140), rgb(190,240,195));"></div>
+        <div class="heatmap-legend-bar"></div>
         <span>多</span>
         <span style="margin-left:8px; opacity:.6;">颜色按行内相对值缩放</span>
       </div>
@@ -3784,8 +3784,15 @@ function toggleTheme() {
   const next = current === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
   localStorage.setItem('rr_theme', next);
-  // Mark heatmap for re-render on next tab switch (avoid blocking UI)
-  if (timelineLoaded) timelineLoaded = false;
+  // Re-render heatmap colors if data already loaded (no re-fetch)
+  if (timelineData) renderHeatmap();
+  // Update legend bar
+  const legendBar = document.querySelector('.heatmap-legend-bar');
+  if (legendBar) {
+    legendBar.style.background = next === 'dark'
+      ? 'linear-gradient(to right, rgb(8,15,12), rgb(15,75,50), rgb(50,170,100), rgb(190,240,195))'
+      : 'linear-gradient(to right, rgb(240,243,235), rgb(180,210,175), rgb(95,160,100), rgb(30,100,45))';
+  }
 }
 // Restore saved theme
 (function() {
@@ -3950,6 +3957,15 @@ function renderHeatmap() {
       showTimelineDetail(el.dataset.topic, Number(el.dataset.period));
     });
   });
+
+  // Update legend bar to match current theme
+  const isDk = document.documentElement.getAttribute('data-theme') === 'dark';
+  const legendBar = document.querySelector('.heatmap-legend-bar');
+  if (legendBar) {
+    legendBar.style.background = isDk
+      ? 'linear-gradient(to right, rgb(8,15,12), rgb(15,75,50), rgb(50,170,100), rgb(190,240,195))'
+      : 'linear-gradient(to right, rgb(240,243,235), rgb(180,210,175), rgb(95,160,100), rgb(30,100,45))';
+  }
 }
 
 // ── Wishlist ─────────────────────────────────
