@@ -5,9 +5,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>研究雷达 · Research Radar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
 <style>
-:root {
+/* ── Light theme (default) ── */
+:root, [data-theme="light"] {
+  --bg:        #faf9f5;
+  --bg2:       #faf9f5;
+  --surface:   #f0eee6;
+  --surface2:  #f5f3ec;
+  --border:    rgba(20,20,19,.06);
+  --border2:   rgba(20,20,19,.12);
+  --read-bg:   rgba(92,122,110,.06);
+  --gold:      #c6613f;
+  --gold-dim:  #b5552f;
+  --gold-glow: rgba(198,97,63,.08);
+  --blue:      #5c7a6e;
+  --blue-dim:  rgba(92,122,110,.08);
+  --text:      #141413;
+  --text2:     #878680;
+  --text3:     #b0aea5;
+  --venue:     #5c7a6e;
+  --rel5:      #c6613f;
+  --rel4:      #8b7355;
+  --rel3:      #5c7a6e;
+  --rel2:      #6b5b73;
+  --rel5-bg:   rgba(198,97,63,.10);
+  --rel4-bg:   rgba(139,115,85,.10);
+  --rel3-bg:   rgba(92,122,110,.10);
+  --rel2-bg:   rgba(107,91,115,.10);
+  --header-bg: #f0eee6;
+  --card-bg:   #faf9f5;
+  --card-hover:#fffffe;
+  --card-radius:16px;
+  --nav-active-bg: #141413;
+  --nav-active-color: #faf9f5;
+  --font-body: 'Source Serif 4', 'Noto Serif SC', Georgia, serif;
+  --font-ui:   'Inter', -apple-system, sans-serif;
+  --scanline:  none;
+}
+
+/* ── Dark theme ── */
+[data-theme="dark"] {
   --bg:        #111820;
   --bg2:       #171f2a;
   --surface:   #1e2837;
@@ -32,31 +70,41 @@
   --rel4-bg:   rgba(240,188,90,.15);
   --rel3-bg:   rgba(110,216,154,.15);
   --rel2-bg:   rgba(114,180,240,.15);
+  --header-bg: #171f2a;
+  --card-bg:   #171f2a;
+  --card-hover:#1e2837;
+  --card-radius:4px;
+  --nav-active-bg: transparent;
+  --nav-active-color: var(--gold);
+  --font-body: 'Noto Serif SC', serif;
+  --font-ui:   'IBM Plex Mono', monospace;
+  --scanline:  repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,.03) 2px, rgba(0,0,0,.03) 4px);
 }
+
+::selection { background: rgba(204, 120, 92, 0.5); }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(128,128,128,.2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(128,128,128,.35); }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Noto Serif SC', serif;
+  font-family: var(--font-body);
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* ── Scanline texture overlay ── */
+/* ── Scanline texture overlay (dark theme only) ── */
 body::before {
   content: '';
   position: fixed; inset: 0;
-  background: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(0,0,0,.03) 2px,
-    rgba(0,0,0,.03) 4px
-  );
+  background: var(--scanline);
   pointer-events: none;
   z-index: 9999;
 }
@@ -64,7 +112,7 @@ body::before {
 /* ── Header ── */
 header {
   position: sticky; top: 0; z-index: 100;
-  background: var(--bg2);
+  background: var(--header-bg);
   border-bottom: 1px solid var(--border);
   padding: 0 40px;
   display: flex; align-items: stretch; gap: 0;
@@ -85,7 +133,7 @@ header {
 .brand-icon svg { width: 100%; height: 100%; }
 
 .brand-text {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-size: 20px;
   font-weight: 600;
   letter-spacing: .04em;
@@ -357,21 +405,28 @@ nav {
 
 nav button {
   height: 56px;
-  padding: 0 20px;
+  padding: 0 14px;
   border: none; background: none;
   cursor: pointer;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 11px;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: var(--text3);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .005em;
+  text-transform: none;
+  color: var(--text2);
   border-bottom: 2px solid transparent;
-  transition: color .2s, border-color .2s;
+  border-radius: 10px;
+  transition: all .15s;
 }
-nav button:hover { color: var(--text2); }
+nav button:hover { color: var(--text); background: rgba(128,128,128,.06); }
 nav button.active {
-  color: var(--gold);
-  border-bottom-color: var(--gold);
+  background: var(--nav-active-bg);
+  color: var(--nav-active-color);
+  border-bottom-color: transparent;
+  border-radius: 10px;
+  margin: 12px 2px;
+  height: 32px;
+  padding: 0 14px;
 }
 
 /* ── Controls bar ── */
@@ -396,24 +451,24 @@ nav button.active {
 }
 .search-wrap input {
   width: 100%;
-  padding: 8px 12px 8px 34px;
+  padding: 10px 14px 10px 34px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 4px;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 12px;
+  border-radius: 10px;
+  font-family: var(--font-ui);
+  font-size: 13px;
   color: var(--text);
   outline: none;
-  transition: border-color .2s;
+  transition: border-color .15s, box-shadow .15s;
 }
 .search-wrap input::placeholder { color: var(--text3); }
-.search-wrap input:focus { border-color: var(--gold-dim); }
+.search-wrap input:focus { border-color: rgba(198,97,63,.3); box-shadow: 0 0 0 3px rgba(198,97,63,.08); }
 
 select {
   padding: 8px 12px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 4px;
+  border-radius: 10px;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 11px;
   color: var(--text2);
@@ -472,19 +527,18 @@ select {
 
 .paper-card {
   position: relative;
-  background: var(--bg2);
+  background: var(--card-bg);
   border: 1px solid var(--border);
   padding: 24px 28px;
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 0 20px;
-  transition: border-color .2s, background .2s;
+  transition: all .2s;
   animation: fadeUp .4s ease both;
+  border-radius: var(--card-radius);
+  box-shadow: 0 1px 2px rgba(0,0,0,.02);
 }
-.paper-card:first-child { border-radius: 4px 4px 0 0; }
-.paper-card:last-child  { border-radius: 0 0 4px 4px; }
-.paper-card:only-child  { border-radius: 4px; }
-.paper-card + .paper-card { border-top: none; }
+.paper-card + .paper-card { margin-top: 6px; }
 
 .paper-card::before {
   content: '';
@@ -498,7 +552,7 @@ select {
 .paper-card[data-rel="3"]::before { background: var(--rel3); }
 .paper-card[data-rel="2"]::before { background: var(--rel2); }
 
-.paper-card:hover { background: var(--surface); border-color: var(--border2); }
+.paper-card:hover { background: var(--card-hover); border-color: var(--border2); box-shadow: 0 2px 12px rgba(0,0,0,.05); }
 .paper-card.is-read { background: var(--read-bg); opacity: .82; }
 
 @keyframes fadeUp {
@@ -544,7 +598,7 @@ select {
 .paper-summary {
   font-size: 15.5px;
   line-height: 1.9;
-  color: var(--text2);
+  color: var(--text);
   padding-left: 12px;
   margin-bottom: 10px;
   border-left: 2px solid var(--border2);
@@ -559,23 +613,23 @@ select {
 .paper-detail-item {
   font-size: 14px;
   line-height: 1.7;
-  color: var(--text2);
+  color: var(--text);
   display: flex; gap: 8px;
 }
 .paper-detail-label {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--font-ui);
   font-size: 11px;
   color: var(--gold);
-  letter-spacing: .06em;
+  font-weight: 500;
+  letter-spacing: .02em;
   white-space: nowrap;
   padding-top: 3px;
   min-width: 52px;
 }
 
 .paper-reason {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 12px;
-  color: var(--text3);
+  font-size: 13px;
+  color: var(--text);
   font-style: italic;
   padding-left: 12px;
   margin-bottom: 14px;
@@ -583,12 +637,15 @@ select {
 
 .paper-tags { display: flex; gap: 5px; flex-wrap: wrap; padding-left: 12px; }
 .ptag {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 12px;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 500;
   padding: 3px 10px;
-  border: 1px solid var(--border2);
-  color: var(--text3);
-  letter-spacing: .04em;
+  border-radius: 6px;
+  background: rgba(20,20,19,.06);
+  border: none;
+  color: var(--text);
+  letter-spacing: .02em;
 }
 
 /* Relevance badge */
@@ -691,12 +748,13 @@ select {
   gap: 12px;
 }
 .group-card {
-  background: var(--bg2);
+  background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 4px;
+  border-radius: var(--card-radius);
   padding: 18px 20px;
   cursor: pointer;
-  transition: border-color .2s, background .2s;
+  transition: all .2s;
+  box-shadow: 0 1px 2px rgba(0,0,0,.02);
 }
 .group-card:hover, .group-card.active {
   background: var(--surface);
@@ -704,7 +762,7 @@ select {
 }
 .group-card.active { border-color: var(--gold); }
 .group-name {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-body);
   font-size: 17px;
   font-weight: 600;
   color: var(--text);
@@ -1402,7 +1460,7 @@ select {
 .tl-detail-title { font-family:'IBM Plex Mono',monospace; font-size:15px; color:var(--gold); letter-spacing:.06em; margin-bottom:16px; padding-bottom:10px; border-bottom:1px solid var(--border); }
 .tl-summary-card { border-left:2px solid var(--gold); padding:14px 18px; background:var(--surface2); border-radius:0 6px 6px 0; margin-bottom:16px; }
 .tl-summary-label { color:var(--gold); font-size:11px; font-family:'IBM Plex Mono',monospace; letter-spacing:.06em; margin-bottom:8px; }
-.tl-summary-text { color:var(--text3); font-size:14px; line-height:1.9; }
+.tl-summary-text { color:var(--text); font-size:14px; line-height:1.9; }
 .tl-paper-header { color:var(--text3); font-size:10px; font-family:'IBM Plex Mono',monospace; letter-spacing:.06em; margin-bottom:8px; }
 .tl-paper-item { background:var(--bg); border-radius:4px; padding:8px 12px; cursor:pointer; transition:background .1s; }
 .tl-paper-item:hover { background:var(--surface2); }
@@ -1443,6 +1501,13 @@ select {
   </nav>
 
   <div class="header-meta">
+    <button id="theme-toggle" onclick="toggleTheme()" style="
+      margin-right:16px; padding:4px 10px; height:28px;
+      font-family:var(--font-ui); font-size:11px; font-weight:500;
+      background:none; border:1px solid var(--border2); border-radius:8px;
+      color:var(--text2); cursor:pointer; transition:all .15s;
+    " onmouseover="this.style.borderColor='var(--gold)';this.style.color='var(--gold)'"
+       onmouseout="this.style.borderColor='var(--border2)';this.style.color='var(--text2)'">☀ / ☽</button>
     <span class="dot"></span>
     <span id="meta">LOADING…</span>
     <button id="topics-btn" onclick="openTopicsPanel()" style="
@@ -3684,9 +3749,25 @@ let timelineData = null;         // parsed timeline.json
 let historicalPapers = null;     // id → paper map from papers-historical.json
 let timelineLoaded = false;
 
-// Sequential green colormap — journal style
+// Theme toggle
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme') || 'light';
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('rr_theme', next);
+  // Force re-render heatmap if loaded
+  if (timelineLoaded) { timelineLoaded = false; loadTimeline(); }
+}
+// Restore saved theme
+(function() {
+  const saved = localStorage.getItem('rr_theme') || 'light';
+  document.documentElement.setAttribute('data-theme', saved);
+})();
+
+// Green colormap — adapts to theme
 function heatmapColor(ratio) {
-  const stops = [
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const stops = isDark ? [
     [8, 15, 12],
     [10, 40, 30],
     [15, 75, 50],
@@ -3694,6 +3775,14 @@ function heatmapColor(ratio) {
     [50, 170, 100],
     [110, 210, 140],
     [190, 240, 195],
+  ] : [
+    [240, 243, 235],
+    [215, 230, 210],
+    [180, 210, 175],
+    [140, 185, 135],
+    [95, 160, 100],
+    [55, 130, 70],
+    [30, 100, 45],
   ];
   const t = Math.max(0, Math.min(1, ratio));
   const idx = t * (stops.length - 1);
@@ -3807,7 +3896,10 @@ function renderHeatmap() {
         return;
       }
       const bg = heatmapColor(ratio);
-      const textColor = ratio > 0.65 ? 'rgba(0,0,0,.7)' : 'rgba(255,255,255,.8)';
+      const isDarkTheme = document.documentElement.getAttribute('data-theme') === 'dark';
+      const textColor = isDarkTheme
+        ? (ratio > 0.65 ? 'rgba(0,0,0,.7)' : 'rgba(255,255,255,.8)')
+        : (ratio > 0.5 ? 'rgba(255,255,255,.9)' : 'rgba(20,20,19,.55)');
       html += `<td class="hm"
         style="background:${bg};color:${textColor}"
         data-topic="${escapeHtml(topic.label)}"
