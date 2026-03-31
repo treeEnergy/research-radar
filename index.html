@@ -3221,7 +3221,7 @@ function showTimelineDetail(topicLabel, period) {
   if (cell.summary) {
     html += `<div class="tl-summary-card">
       <div class="tl-summary-label">AI SUMMARY</div>
-      <div class="tl-summary-text">${escapeHtml(cell.summary)}</div>
+      <div class="tl-summary-text">${renderMarkdown(cell.summary)}</div>
     </div>`;
   }
 
