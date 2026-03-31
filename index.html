@@ -2748,7 +2748,13 @@ function render() {
     return;
   }
 
-  el.innerHTML = list.map((p, i) => {
+  const PAGE_SIZE = 80;
+  window._renderList = list;
+  window._renderOffset = 0;
+
+  function renderBatch(start, count) {
+    return list.slice(start, start + count).map((p, idx) => {
+      const i = start + idx;
     const rel = p.relevance || 0;
     const tags = effectiveTags(p).map(t => `<span class="ptag">${t}</span>`).join('');
     const AUTHOR_COLORS = ['#72b4f0','#6ed89a','#f0bc5a','#c48cf0','#f08080','#70d4d4'];
@@ -2815,7 +2821,28 @@ function render() {
         <div class="rel-dots">${dots}</div>
       </div>
     </div>`;
-  }).join('');
+    }).join('');
+  }
+
+  el.innerHTML = renderBatch(0, PAGE_SIZE);
+  window._renderOffset = PAGE_SIZE;
+
+  if (list.length > PAGE_SIZE) {
+    const moreBtn = document.createElement('button');
+    moreBtn.style.cssText = 'display:block;width:100%;padding:12px;margin:12px 0;background:none;border:1px solid var(--border2);border-radius:10px;color:var(--text2);font-family:var(--font-ui);font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;';
+    moreBtn.textContent = `加载更多（剩余 ${list.length - PAGE_SIZE} 篇）`;
+    moreBtn.onmouseover = () => { moreBtn.style.borderColor = 'var(--gold)'; moreBtn.style.color = 'var(--gold)'; };
+    moreBtn.onmouseout = () => { moreBtn.style.borderColor = 'var(--border2)'; moreBtn.style.color = 'var(--text2)'; };
+    moreBtn.onclick = () => {
+      const html = renderBatch(window._renderOffset, PAGE_SIZE);
+      moreBtn.insertAdjacentHTML('beforebegin', html);
+      window._renderOffset += PAGE_SIZE;
+      const remaining = list.length - window._renderOffset;
+      if (remaining <= 0) moreBtn.remove();
+      else moreBtn.textContent = `加载更多（剩余 ${remaining} 篇）`;
+    };
+    el.appendChild(moreBtn);
+  }
 }
 
 function renderRepos() {
@@ -3755,8 +3782,8 @@ function toggleTheme() {
   const next = current === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
   localStorage.setItem('rr_theme', next);
-  // Re-render heatmap with new colors (no re-fetch)
-  if (timelineLoaded) renderHeatmap();
+  // Mark heatmap for re-render on next tab switch (avoid blocking UI)
+  if (timelineLoaded) timelineLoaded = false;
 }
 // Restore saved theme
 (function() {
