@@ -798,12 +798,14 @@ select {
 /* ── Annotation ── */
 .paper-groups { display: flex; gap: 5px; flex-wrap: wrap; padding-left: 12px; margin-bottom: 10px; }
 .pgroup {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 10px;
-  padding: 2px 8px;
-  border: 1px solid var(--gold-dim);
-  color: var(--gold);
-  letter-spacing: .04em;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 6px;
+  background: var(--gold-glow);
+  border: none;
+  color: var(--text);
 }
 .annotation-wrap { padding-left: 12px; margin-top: 12px; }
 .annotation-toggle {
@@ -1444,11 +1446,11 @@ select {
 .heatmap-time-axis { display:flex; align-items:center; margin-top:4px; padding-left:112px; }
 .heatmap-time-axis .axis-line { flex:1; height:1px; background:linear-gradient(to right, rgba(255,255,255,.05), rgba(255,255,255,.25)); }
 .heatmap-time-axis .axis-arrow { width:0; height:0; border-top:4px solid transparent; border-bottom:4px solid transparent; border-left:8px solid rgba(255,255,255,.25); }
-.heatmap-table th.row-header { text-align:right; padding-right:12px; width:110px; font-family:'Noto Serif SC','Source Han Serif SC',serif; font-size:13px; font-weight:700; color:var(--text2); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; letter-spacing:.03em; }
+.heatmap-table th.row-header { text-align:right; padding-right:12px; width:110px; font-family:var(--font-body); font-size:14px; font-weight:600; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .heatmap-table td.hm {
   height:32px; border-radius:3px; cursor:pointer;
   text-align:center; vertical-align:middle;
-  font-size:10px; font-family:'IBM Plex Mono',monospace; color:rgba(255,255,255,.75);
+  font-size:13px; font-family:var(--font-ui); font-weight:500; color:var(--text2);
   transition:all .15s ease;
   position:relative; padding:0;
 }
