@@ -7,10 +7,12 @@ run_pipeline.py
 import os
 import json
 import logging
-from dotenv import load_dotenv
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', '.env'))
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
+
+from dotenv import load_dotenv
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 from fetch_papers import fetch_all_papers
 from process_with_ai import process_papers
@@ -18,15 +20,6 @@ from fetch_repos import fetch_all_repos, enrich_repos
 from fetch_papers_historical import fetch_papers_historical_incremental
 from build_timeline import build_timeline
 from config import RESEARCH_GROUPS
-
-def load_all_groups() -> list:
-    """合并 config.py 预设组 + data/custom_groups.json 自定义组"""
-    custom_path = DATA_DIR / "custom_groups.json"
-    custom = []
-    if custom_path.exists():
-        import json as _json
-        custom = _json.loads(custom_path.read_text(encoding="utf-8"))
-    return RESEARCH_GROUPS + custom
 
 logging.basicConfig(
     level=logging.INFO,
@@ -36,6 +29,15 @@ log = logging.getLogger(__name__)
 
 # 输出目录（相对于项目根）
 DATA_DIR = Path(__file__).parent.parent / "data"
+
+
+def load_all_groups() -> list:
+    """合并 config.py 预设组 + data/custom_groups.json 自定义组"""
+    custom_path = DATA_DIR / "custom_groups.json"
+    custom = []
+    if custom_path.exists():
+        custom = json.loads(custom_path.read_text(encoding="utf-8"))
+    return RESEARCH_GROUPS + custom
 
 
 # ─────────────────────────────────────────────
@@ -132,10 +134,11 @@ def build_groups_json(papers: list[dict]) -> None:
     if hist_path.exists():
         historical = json.loads(hist_path.read_text(encoding="utf-8"))
     existing_ids = {p["id"] for p in papers}
-    all_papers = papers + [p for p in historical if p["id"] not in existing_ids]
+    hist_only = [p for p in historical if p["id"] not in existing_ids]
 
-    # 给历史论文也打课题组标签
-    tag_groups(all_papers)
+    # 只给历史论文打课题组标签（当前论文已在 run_papers_pipeline 中打过）
+    tag_groups(hist_only)
+    all_papers = papers + hist_only
 
     # 预设课题组统计
     all_groups = load_all_groups()
@@ -153,8 +156,7 @@ def build_groups_json(papers: list[dict]) -> None:
         for g in all_groups
     }
 
-    # 统计高频作者（出现 5 篇以上视为值得追踪）
-    from collections import Counter
+    # 统计高频作者
     author_counter: Counter = Counter()
     paper_by_author: dict[str, list[str]] = {}
     for p in all_papers:

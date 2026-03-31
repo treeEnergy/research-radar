@@ -1613,7 +1613,6 @@ select {
       <option value="fetch">入库日期 ↓</option>
       <option value="date">发表日期 ↓</option>
       <option value="rel">相关度 ↓</option>
-      <option value="rel">相关度 ↓</option>
     </select>
     <select id="read-filter" onchange="render()">
       <option value="all">全部论文</option>
@@ -2730,7 +2729,7 @@ function render() {
         ${p.relevance_reason ? `<div class="paper-reason">${p.relevance_reason}</div>` : ''}
         <div class="paper-tags">${tags}</div>
         <div class="annotation-wrap">
-          ${hasNote ? `<div class="existing-note">📝 ${ann.note}</div>` : ''}
+          ${hasNote ? `<div class="existing-note">📝 ${escapeHtml(ann.note)}</div>` : ''}
           <button class="annotation-toggle ${hasNote ? 'has-note' : ''}"
                   onclick="toggleAnnotation('${p.id}', this)">
             ${hasNote ? '编辑评价' : '+ 写评价'}

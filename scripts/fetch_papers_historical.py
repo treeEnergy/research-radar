@@ -97,12 +97,7 @@ def get_topics() -> list[dict]:
     return DEFAULT_TOPICS
 
 
-def reconstruct_abstract(inv: dict) -> str:
-    """把 OpenAlex 倒排索引还原为摘要文本。"""
-    if not inv:
-        return ""
-    pairs = [(pos, word) for word, positions in inv.items() for pos in positions]
-    return " ".join(word for _, word in sorted(pairs))
+from fetch_papers import reconstruct_abstract  # 共用摘要还原函数
 
 
 def matches_topic(paper: dict, terms: list[str]) -> bool:
