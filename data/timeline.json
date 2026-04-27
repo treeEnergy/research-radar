@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T05:20:18Z",
+  "generated_at": "2026-04-27T05:31:48Z",
   "periods": [
     1960,
     1965,
@@ -1445,7 +1445,7 @@
           "summary": "这一时期的研究重点集中在压缩机旋转失速和喘振的主动控制与机理探索。关键进展包括：通过离散叶尖喷气（如《Compressor Stability Enhancement Using Discrete Tip Injection》）和磁轴承调节叶尖间隙（《Tip Clearance Actuation With Magnetic Bearings...》）等主动控制技术显著提升了稳定性；同时，研究揭示了叶尖涡波动（《Rotating Instabilities... Originating From the Fluctuating Blade Tip Vortex》）和非定常流体力（《Unsteady Flow and Whirl-Inducing Forces...》）是诱发旋转失速的重要机理。此外，针对进口畸变的影响（如《The Influence of Transient Inlet Distortions...》）和扩压器壁面粗糙度控制（《Suppression of Rotating Stall by Wall Roughness Control...》）等被动方法也为稳定性改善提供了新途径。"
         },
         "2005": {
-          "count": 66,
+          "count": 67,
           "paper_ids": [
             "W4229574704",
             "W2046714155",
@@ -1511,6 +1511,7 @@
             "W2102411738",
             "W2102585250",
             "W2012298520",
+            "W1999600705",
             "W2000793742",
             "W1990440968"
           ],
