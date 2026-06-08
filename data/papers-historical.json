@@ -41341,6 +41341,43 @@
     ]
   },
   {
+    "id": "W2129596838",
+    "title": "Combining Classification Techniques With Kalman Filters for Aircraft Engine Diagnostics",
+    "date": "2004-03-01",
+    "year": 2004,
+    "authors": [
+      "Pierre Dewallef",
+      "C. Romessis",
+      "Olivier Léonard",
+      "K. Mathioudakis"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2056507",
+    "abstract": "A diagnostic method consisting of a combination of Kalman filters and Bayesian Belief Network (BBN) is presented. A soft-constrained Kalman filter uses a priori information derived by a BBN at each time step, to derive estimations of the unknown health parameters. The resulting algorithm has improved identification capability in comparison to the stand-alone Kalman filter. The paper focuses on a way of combining the information produced by the BBN with the Kalman filter. An extensive set of fault cases is used to test the method on a typical civil turbofan layout. The effectiveness of the method is thus demonstrated, and its advantages over individual constituent methods are presented.",
+    "keywords": [
+      "Kalman filter",
+      "Fast Kalman filter",
+      "Turbofan",
+      "Extended Kalman filter",
+      "Invariant extended Kalman filter",
+      "Computer science",
+      "A priori and a posteriori",
+      "Alpha beta filter",
+      "Fault (geology)",
+      "Set (abstract data type)",
+      "Identification (biology)",
+      "Ensemble Kalman filter",
+      "Artificial intelligence",
+      "Algorithm",
+      "Data mining",
+      "Engineering",
+      "Moving horizon estimation",
+      "Automotive engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4233312516",
     "title": "Design of Industrial Axial Compressor Blade Sections for Optimal Range and Performance",
     "date": "2004-04-01",
@@ -79161,6 +79198,37 @@
       "叶尖间隙",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2889756000",
+    "title": "Simulation of Volcanic Ash Ingestion Into a Large Aero Engine: Particle–Fan Interactions",
+    "date": "2018-09-18",
+    "year": 2018,
+    "authors": [
+      "A. Vogel",
+      "A. J. Durant",
+      "Massimo Cassiani",
+      "Rory Clarkson",
+      "Michal Slaby",
+      "Spyros Diplas",
+      "Kirstin Krüger",
+      "A. Stohl"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4041464",
+    "abstract": "Volcanic ash (VA) clouds in flight corridors present a significant threat to aircraft operations as VA particles can cause damage to gas turbine engine components that lead to a reduction of engine performance and compromise flight safety. In the last decade, research has mainly focused on processes such as erosion of compressor blades and static components caused by impinging ash particles as well as clogging and/or corrosion effects of soft or molten ash particles on hot section turbine airfoils and components. However, there is a lack of information on how the fan separates ingested VA particles from the core stream flow into the bypass flow and therefore influences the mass concentration inside the engine core section, which is most vulnerable and critical for safety. In this numerical simulation study, we investigated the VA particle–fan interactions and resulting reductions in particle mass concentrations entering the engine core section as a function of particle size, fan rotation rate, and for two different flight altitudes. For this, we used a high-bypass gas-turbine engine design, with representative intake, fan, spinner, and splitter geometries for numerical computational fluid dynamics (CFD) simulations including a Lagrangian particle-tracking algorithm. Our results reveal that particle–fan interactions redirect particles from the core stream flow into the bypass stream tube, which leads to a significant particle mass concentration reduction inside the engine core section. The results also show that the particle–fan interactions increase with increasing fan rotation rates and VA particle size. Depending on ingested VA size distributions, the particle mass inside the engine core flow can be up to 30% reduced compared to the incoming particle mass flow. The presented results enable future calculations of effective core flow exposure or dosages based on simulated or observed atmospheric VA particle size distribution, which is required to quantify engine failure mechanisms after exposure to VA. As an example, we applied our methodology to a recent aircraft encounter during the Mt. Kelud 2014 eruption. Based on ambient VA concentrations simulated with an atmospheric particle dispersion model (FLEXPART), we calculated the effective particle mass concentration inside the core stream flow along the actual flight track and compared it with the whole engine exposure.",
+    "keywords": [
+      "Particle (ecology)",
+      "Mechanics",
+      "Computational fluid dynamics",
+      "Materials science",
+      "Mechanical engineering",
+      "Engineering",
+      "Geology",
+      "Physics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2889816872",
