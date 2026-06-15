@@ -2311,6 +2311,38 @@
     ]
   },
   {
+    "id": "W2030375565",
+    "title": "A bimodal approximation for reacting turbulent flows. I - Description of the model.",
+    "date": "1966-02-01",
+    "year": 1966,
+    "authors": [
+      "Shao‐Chi Lin"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.3420",
+    "abstract": "21 Winkler, E. M., Design and calibration of stagnation temperature probes for use at high supersonic speeds and elevated temperature, J. Appl. Phys. 25, 231-232 (February 1954). 22 Danberg, J. E., The equilibrium temperature probe, a device for measuring temperatures in hypersonic boundary layers/' U. S. Naval Ordnance Lab., White Oak Md., NOL TR 61-2 (February 1962). 23 Hill, F. K., Turbulent boundary layer measurements at Mach numbers from 8 to 10, Phys. Fluids 2, 668-680 (1959). 24 Bertram, M. H. and Neal, L., Jr., Recent experiments in hypersonic turbulent boundary layers, NASA Langley Research Center, Langley Station, Va.; also presented at AGARD Specialist Meeting on Recent Development in Boundary Layer Research, Naples, Italy (May 1965). 25 Cohen, N. B., A method for computing turbulent heat transfer in the presence of a streamwise pressure gradient for bodies in high-speed flow, NASA Memo. 1-2-59L (March 1959). 26 Walz, A., Compressible turbulent boundary layers, International Symposium on the Mechanique de le Turbulence (Centre National de la Recherche Scientifique, Paris, 1962), pp. 299-350. 27 McLafferty, G. H. and Barrer, R. E., The effect of adverse pressure gradients on the characteristics of turbulent boundary layers in supersonic stream, J. Aerospace Sci. 29, 1-10(1962). 28 Kepler, C. E. and O'Brien, R. L., Supersonic turbulent boundary layer growth over cooled walls in adverse pressure gradients, United Aircraft Corp., Aeronautical Systems Div. ASD-TDR-62-87 (October 1962). 29 Burke, A. F., Turbulent boundary layers on highly cooled surfaces at high Mach numbers, Proceedings of Symposium on Aerothermoelasticity, Dayton, Ohio (1961), pp. 704-741; also U.S. Air Force, Aeronautical Systems Div., Wright-Patterson Air Force Base, Ohio, TR 6-645 (1961). 30 Morkovin, M. V., Effects of high acceleration on a turbulent supersonic shear layer, Proceeding of the 1955 Heat Transfer and Fluid Mechanics Institute (Stanford University Press, Stanford, Calif., 1955), pp. IV, I-IV, 17. 31 Libby, P. A. and Baronti, P. O., A transformation theory of the turbulent compressible boundary layer with pressure gradient and heat transfer, General Applied Science Labs., Inc., TR 455 (August 1964).",
+    "keywords": [
+      "Boundary layer",
+      "Mach number",
+      "Turbulence",
+      "Supersonic speed",
+      "Hypersonic speed",
+      "Adverse pressure gradient",
+      "Physics",
+      "Pressure gradient",
+      "Aerospace engineering",
+      "Boundary layer thickness",
+      "Mechanics",
+      "Freestream",
+      "Meteorology",
+      "Flow separation",
+      "Reynolds number",
+      "Engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2032327694",
     "title": "Recent Research on Cascade-Flow Problems",
     "date": "1966-03-01",
@@ -3762,6 +3794,31 @@
     ]
   },
   {
+    "id": "W2002452484",
+    "title": "Discussion: “Unsteady Flow Phenomena in Rotating Centrifugal Impeller Passages” (Lennemann, E., and Howard, J. H. G., 1970, ASME J. Eng. Power, 92, pp. 65–71)",
+    "date": "1970-01-01",
+    "year": 1970,
+    "authors": [
+      "H.S. Fowler"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445303",
+    "abstract": "6 At zero flow there is a strong momentum exchange between diffuse!' and impeller.The investigation of diffuser influence on the passage stall was not carried out as part of the present study, but it is felt that the interaction between impeller, secondary flow, and diffuser entry region could explain some of the desirable characteristics of the pipe diffuser [14],",
+    "keywords": [
+      "Impeller",
+      "Physics",
+      "Mechanics",
+      "Power (physics)",
+      "Flow (mathematics)",
+      "Thermodynamics"
+    ],
+    "topics_matched": [
+      "离心压气机",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2044131409",
     "title": "Use of discrete sonic jets as boundary-layer trips in hypersonic flow",
     "date": "1970-05-01",
@@ -4517,6 +4574,38 @@
       "Computer science"
     ],
     "topics_matched": [
+      "离心压气机"
+    ]
+  },
+  {
+    "id": "W2054926938",
+    "title": "Discussion: “Some Experimental Results of Two-Dimensional Compressor Cascades at Supersonic Inlet Velocities” (Starken, H., and Lichtfuss, H. J., 1970, ASME J. Eng. Power, 92, pp. 267–274)",
+    "date": "1971-04-01",
+    "year": 1971,
+    "authors": [
+      "R. G. Hantman"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445574",
+    "abstract": "S. YAMAGUCW. 2 I understand that this paper shows the possibility of the approximate calculation of shock loss at a spill point based on the wave pattern shown in Pig. 5. In the early stage of the development of supersonic compressors the blade elements were designed as a blade passage using supersonic diffuser criteria, and hence many blade elements have been designed as a convergent-divergent passage. However, it has been evident that deceleration from supersonic to subsonic flow in the blade passage does not occur through only one normal shock at the minimum cross-section, but through a series of shocks or pseudo-shocks because of the strong shock-boundary layer interaction. This paper succeeds in replacing the loss due to such a series of shocks at a spill point by that due to a shock pattern shown in Fig. As far as the shock loss is concerned, I think the design concept mentioned above is, therefore, inadequate, especially in the range of measured upstream Mach numbers in this paper. I would be very glad if you would give your opinion on the design concept based on supersonic diffuser criteria.",
+    "keywords": [
+      "Supersonic speed",
+      "Gas compressor",
+      "Mechanics",
+      "Physics",
+      "Power (physics)",
+      "Aerospace engineering",
+      "Inlet",
+      "Engineering",
+      "Materials science",
+      "Mechanical engineering",
+      "Nuclear engineering",
+      "Thermodynamics"
+    ],
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计",
       "离心压气机"
     ]
   },
@@ -5518,6 +5607,41 @@
     "topics_matched": [
       "进气畸变"
     ]
+  },
+  {
+    "id": "W2054952920",
+    "title": "Exact analytical solutions for orbits of bodies with atmospheric drag.",
+    "date": "1973-03-01",
+    "year": 1973,
+    "authors": [
+      "Morris Morduchow",
+      "Giuseppe Volpe"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.6757",
+    "abstract": "Exact analytical solutions, by an inverse type of method, are derived for the motion of a particle under a central Newtonian gravitational force and an atmospheric drag force proportional to the square of the speed. In these solutions a form of the orbit is assumed, and the corresponding required atmospheric density, as a function of height, is determined. Some simple specific examples are furnished to illustrate such exact solutions for the entire motion of a satellite including both its orbital decay phase and its planetary entry phase. In one of these examples the required atmospheric density distribution closely approximates, at least in the orbital decay phase, isothermal models frequently assumed for actual planetary atmospheres. (Author)",
+    "keywords": [
+      "Drag",
+      "Physics",
+      "Classical mechanics",
+      "Orbital decay",
+      "Orbit (dynamics)",
+      "Orbital elements",
+      "Mechanics",
+      "Exact solutions in general relativity",
+      "Isothermal process",
+      "Circular orbit",
+      "Gravitation",
+      "Distribution function",
+      "Satellite",
+      "Astrophysics",
+      "Astronomy",
+      "Thermodynamics",
+      "Aerospace engineering",
+      "Quantum mechanics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2034931583",
@@ -6568,6 +6692,36 @@
       "Structural engineering",
       "Engineering",
       "Composite material"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2093213960",
+    "title": "Application of Hamilton's law of varying action",
+    "date": "1975-09-01",
+    "year": 1975,
+    "authors": [
+      "Cecil D. Bailey"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.6966",
+    "abstract": "The application of Hamilton's Law to the direct solution of nonstationary as well as stationary problems in mechanics of solids is discussed. Solutions are demonstrated for conservative and monconservative, stationary and/or nonstationary particle motion. Mathematical models are developed to establish the relationships of the parameters.",
+    "keywords": [
+      "Hamilton's principle",
+      "Principle of least action",
+      "Action (physics)",
+      "Nonlinear system",
+      "Analytical mechanics",
+      "Classical mechanics",
+      "Mathematics",
+      "Analytical dynamics",
+      "Differential equation",
+      "Equations of motion",
+      "Law",
+      "Physics",
+      "Mathematical analysis",
+      "Quantum mechanics"
     ],
     "topics_matched": []
   },
@@ -7965,6 +8119,29 @@
     ]
   },
   {
+    "id": "W2144746770",
+    "title": "Influence of spin rate on side force of an axisymmetric body",
+    "date": "1978-04-01",
+    "year": 1978,
+    "authors": [
+      "Robert L. Kruse"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.7536",
+    "abstract": "Results are presented for an experimental study in which a 10-deg half-angle pointed cone model 57.9 cm long and made of magnesium (for lightness and minimization of inertial effects) is spun at several rates about its axis of symmetry. The model is spun in both directions, but most of the data presented are for the counterclockwise rotation. The resulting side force is recorded on an oscillograph. It is shown that the side force observed occurs under conditions of spin about the longitudinal axis, and that the general shape of the side-force curve with roll position does not depend strongly on spin rate. However, the peak-to-peak value of side force decreases substantially with spin rate, suggesting that the vortices producing the side force require a significant amount of time to change position and/or strength.",
+    "keywords": [
+      "Rotational symmetry",
+      "Mechanics",
+      "Spin (aerodynamics)",
+      "Physics",
+      "Materials science",
+      "Classical mechanics",
+      "Thermodynamics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W1965163725",
     "title": "Axisymmetric Supersonic Turbulent Base Pressures",
     "date": "1978-06-01",
@@ -9044,6 +9221,46 @@
     "topics_matched": []
   },
   {
+    "id": "W1990780752",
+    "title": "Design and Closed Loop Testing of High-Pressure Centrifugal Gas Compressors for the Suppression of Subsynchronous Vibration",
+    "date": "1980-01-01",
+    "year": 1980,
+    "authors": [
+      "Albert F. Criqui",
+      "P. G. Wendt"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3230210",
+    "abstract": "The causative phenomena of subsynchronous vibration, or re-excitation of the critical speed of a rotor, are discussed. Two rotor systems designed to control this type of vibration are presented. One system employs tuned, oil film damper bearings while the other features a stiffened rotor geometry. Stability thresholds of each design are compared based on high-pressure closed loop testing.",
+    "keywords": [
+      "Centrifugal compressor",
+      "Gas compressor",
+      "Rotor (electric)",
+      "Vibration",
+      "Damper",
+      "Control theory (sociology)",
+      "Structural engineering",
+      "Rotordynamics",
+      "Engineering",
+      "Axial compressor",
+      "Excitation",
+      "Critical speed",
+      "Helicopter rotor",
+      "Loop (graph theory)",
+      "Mechanical engineering",
+      "Physics",
+      "Computer science",
+      "Acoustics",
+      "Control (management)",
+      "Mathematics"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机"
+    ]
+  },
+  {
     "id": "W1987090792",
     "title": "The Prediction of Steady, Circumferential Pressure and Temperature Distortions in Multistage Axial Flow Compressors",
     "date": "1980-04-01",
@@ -9643,6 +9860,35 @@
     ]
   },
   {
+    "id": "W2128363615",
+    "title": "Flowfield about and Forces on Slender Bodies at High Angles of Attack",
+    "date": "1981-03-01",
+    "year": 1981,
+    "authors": [
+      "W. YANTA",
+      "A. WARDLAW"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.50949",
+    "abstract": "A rigidly supported tangent ogive model has been tested in low-turbulence, incompressible flow at incidences of 25, 35, 45, and 55 deg. A constant crossflow Reynolds number of 1 x 105 was maintained which produced laminar boundary-layer separation. Both unsteady surface pressures and flowfield velocities were measured, the latter with a three-component Laser Doppler Velocimeter. Analysis of the results indicates that high levels of velocity and surface pressure fluctuations occur downstream of the nose on the leeside of the model. An analysis of mean pressure and velocity distributions indicates that the maximum local side force occurs as the first vortex is shed and is directed toward the side with the remaining vortex. Far from the nose the flowfield shows reduced vorticity peaks and a disappearance of highly asymmetric pressure distributions. The portion of the flowfield causing peak side forces is concluded to be predominantly steady and varying side force levels are produced by changes in the mean vortex pattern.",
+    "keywords": [
+      "Angle of attack",
+      "Mechanics",
+      "Physics",
+      "Aerospace engineering",
+      "Geometry",
+      "Classical mechanics",
+      "Geology",
+      "Engineering",
+      "Aerodynamics",
+      "Mathematics"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2044416263",
     "title": "On the Pressure Losses Due to the Tip Clearance of Centrifugal Blowers",
     "date": "1981-04-01",
@@ -10091,6 +10337,37 @@
       "叶片气动设计",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W1610435334",
+    "title": "Vortex model for Magnus forces at low speeds, spins, and angles",
+    "date": "1982-02-01",
+    "year": 1982,
+    "authors": [
+      "Eugene E. Covert",
+      "D. Eberhardt"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.7906",
+    "abstract": "A slender body that is both spinning about its longitudinal axis and at an angle of attack experiences a force (and moments) whose plane of action is rotated 90 deg from the plane of the velocity vector and the longitudinal axis or spin axis of the body. This force (and moment) is called the Magnus force in honor of the discoverer. The results presented here show the nature of the Magnus force is strongly dependent upon whether or not vorticity is shed, and if shed, the coupling between the shed vorticity, spin induced effects, and the angle of attack.",
+    "keywords": [
+      "Magnus effect",
+      "Physics",
+      "Vorticity",
+      "Angle of attack",
+      "Vortex",
+      "Spin (aerodynamics)",
+      "Plane (geometry)",
+      "Spinning",
+      "Classical mechanics",
+      "Mechanics",
+      "Geometry",
+      "Aerodynamics",
+      "Mathematics",
+      "Engineering"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2077026743",
@@ -10766,6 +11043,40 @@
     ]
   },
   {
+    "id": "W2066343690",
+    "title": "Simultaneous Solution of the Inviscid Flow and Boundary Layers for Compressor Cascades",
+    "date": "1982-10-01",
+    "year": 1982,
+    "authors": [
+      "H. L. Moses",
+      "S. B. Thomason",
+      "R. R. Jones"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.51209",
+    "abstract": "absence of buoyancy forces, is stable to small disturbances, in contradiction to the experimental results of Block. The cellular instability which he observed perhaps was the result of some small but unknown surface contamination or, possibly, it can only be explained by nonlinear stability theory. It also might be useful to repeat the experiments to determine the range of parameters over which the observed instability occurs.",
+    "keywords": [
+      "Inviscid flow",
+      "Instability",
+      "Buoyancy",
+      "Mechanics",
+      "Flow (mathematics)",
+      "Gas compressor",
+      "Nonlinear system",
+      "Range (aeronautics)",
+      "Stability (learning theory)",
+      "Physics",
+      "Thermodynamics",
+      "Materials science",
+      "Computer science"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2025208406",
     "title": "Experimental Verification of Propeller Noise Prediction",
     "date": "1982-11-01",
@@ -10819,6 +11130,33 @@
       "Materials science",
       "Engineering",
       "Mechanical engineering"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2079258972",
+    "title": "Turbulent boundary-layer flow over re-entry bodies including roughness effects",
+    "date": "1982-12-01",
+    "year": 1982,
+    "authors": [
+      "P. R. Gogineni"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.8017",
+    "abstract": "which shows that the normalized distribution is symmetric about x = 7r/2 for all values of B. This, too, is in agreement with Taylor's observations.' In addition, it is apparent that the peak magnitude of the normalized internal force distribution is given by (2ir/J)I(ir/2,6) = 1 and is independent of incidence angle. Table 2 demonstrates that Taylor's data are again consistent with the Schach model except, perhaps, at",
+    "keywords": [
+      "Turbulence",
+      "Boundary layer",
+      "Mechanics",
+      "Physics",
+      "Distribution (mathematics)",
+      "Geometry",
+      "Flow (mathematics)",
+      "Taylor microscale",
+      "Mathematics",
+      "Reynolds number",
+      "Mathematical analysis"
     ],
     "topics_matched": []
   },
@@ -14900,6 +15238,35 @@
     ]
   },
   {
+    "id": "W2167538510",
+    "title": "The two-fluid model of turbulence applied to combustion phenomena",
+    "date": "1986-06-01",
+    "year": 1986,
+    "authors": [
+      "D. B. Spalding"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.9362",
+    "abstract": "bx = body force component in x direction Cf = interfluid friction constant Dj = diffusion flux of fluid / fy = volumetric interfluid friction coefficient fiw = volumetric fluid/wall friction coefficient gi = generalized flux of phase / £ = reciprocal of interface area per unit volume mi mass transfer rate into fluid / per unit volume p pressure TI volume fraction of fluid / t = time u = velocity in x direction YI = velocity vector of fluid / pt = density of fluid / r = reactedness = general conserved fluid property $ = source of entity measured by",
+    "keywords": [
+      "Turbulence",
+      "Mechanics",
+      "Combustion",
+      "K-epsilon turbulence model",
+      "Computational fluid dynamics",
+      "K-omega turbulence model",
+      "Physics",
+      "Reynolds-averaged Navier–Stokes equations",
+      "Materials science",
+      "Thermodynamics",
+      "Chemistry"
+    ],
+    "topics_matched": [
+      "稳定性建模"
+    ]
+  },
+  {
     "id": "W2017997923",
     "title": "Performance of Axial Compressor With Nonuniform Exit Static Pressure",
     "date": "1986-07-01",
@@ -18209,6 +18576,45 @@
     ]
   },
   {
+    "id": "W2169751571",
+    "title": "Unsteady transonic airfoil computation using implicit Euler scheme on body-fixed grid",
+    "date": "1989-08-01",
+    "year": 1989,
+    "authors": [
+      "Osama A. Kandil",
+      "H. Andrew Chuang"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.10217",
+    "abstract": "The unsteady Euler equations have been derived for the flow relative motion with respect to a frame of reference that is rigidly attached to the moving airfoil. The resulting equations preserve the conservation form. The grid is generated once by an elliptic solver without any need for dynamic grid computation. An implicit approximately factored finite-volume scheme has been developed and implemented through a fully vectorized computer program. The scheme is based on the spatial approximate factorization of Beam and Warming. Implicit second-order and explicit second- and fourth-order dissipations are added to the scheme. The boundary conditions are explicitly satisfied. The scheme is applied to steady and unsteady transonic rigid-airfoil flows. For forced harmonic airfoil motions, periodic solutions are achieved within the third cycle of oscillation. The results are in good agreement with the experimental data. sonic flows past a NACA 0015 airfoil at a constant pitch rate.18 The latter case is the same application considered in Ref. 16. The numerical solution has been obtained by using the flux-vector splitting and the flux-difference splitting meth- ods extended for dynamic meshes.19 In Ref. 18, it is noted that different turbulence models give different normal-force and pitching-moment coefficients. Numerical solutions of the unsteady Euler equations are less expensive than those of the unsteady Navier-Stokes equations. For the unsteady transonic flow, the unsteady Euler equations adequately model most of the real flow features, with the exception of viscous effects whenever they are substantial. The Euler equations model shock waves and their motion, entropy increase across shocks and entropy gradient, and vorticity production and convection behind shocks, as can be seen from Crocco's theorem and the inviscid vorticity transport equa- tion. Recently, successful time-accurate solutions of the un- steady Euler equations have been presented for pitching air- foils19 and wings in transonic flows,20 and for the rolling oscillation of delta wings—a vortex-dominated flow problem in a locally conical supersonic flows.21 To the best of bur knowledge, Ref. 21 is the first work done for unsteady vortex- dominated flows with shock waves, which is directly applica- ble to maneuvering delta wings. In this paper, we present an implicit approximately-factored finite-volume scheme for the time-accurate numerical solution of the unsteady Euler equations of the flow relative motion with respect to an airfoil-fixed frame of reference. The scheme is applied to steady and unsteady transonic flows around a NACA 0012 airfoil. For the unsteady flows, the airfoil is in pitching oscillation about a small and moderate mean angle of attack at a large amplitude. The computational results are compared with the experimental data.",
+    "keywords": [
+      "Transonic",
+      "Airfoil",
+      "Computation",
+      "Euler's formula",
+      "NACA airfoil",
+      "Euler equations",
+      "Mathematics",
+      "Unstructured grid",
+      "Mechanics",
+      "Grid",
+      "Physics",
+      "Computer science",
+      "Aerodynamics",
+      "Mathematical analysis",
+      "Classical mechanics",
+      "Geometry",
+      "Reynolds number",
+      "Algorithm",
+      "Turbulence"
+    ],
+    "topics_matched": [
+      "跨音速/激波",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2079891159",
     "title": "The Vortex-Filament Nature of Reverse Flow on the Verge of Rotating Stall",
     "date": "1989-10-01",
@@ -20887,6 +21293,41 @@
     "topics_matched": [
       "压缩机稳定性",
       "非定常流动"
+    ]
+  },
+  {
+    "id": "W2165374083",
+    "title": "Asymmetric Vortices on a Slender Body of Revolution",
+    "date": "1991-05-01",
+    "year": 1991,
+    "authors": [
+      "Gregory Zilliac",
+      "David Degani",
+      "Murray Tobak"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.59934",
+    "abstract": "The symmetric and asymmetric leeward-side flow fields on an inclined ogive-cylinder have been investigated using a number of experimental techniques. Naturally occurring and perturbed flow fields were studied at a moderate Reynolds number and at many incidence angles. By close examination of the steady side force behavior at different roll orientations of the tip, it has been established that micro-variations in the tip geometry of the model have a large influence on the downstream development of the flow field. Under certain conditions, a bistable flow field was observed.",
+    "keywords": [
+      "Reynolds number",
+      "Mechanics",
+      "Vortex",
+      "Flow (mathematics)",
+      "Bistability",
+      "Cylinder",
+      "Physics",
+      "Kármán vortex street",
+      "Vortex shedding",
+      "Angle of attack",
+      "Classical mechanics",
+      "Geometry",
+      "Turbulence",
+      "Mathematics",
+      "Aerodynamics"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -51898,6 +52339,47 @@
     ]
   },
   {
+    "id": "W2067929080",
+    "title": "Supersonic Drag Reduction with Repetitive Laser Pulses Through a Blunt Body",
+    "date": "2010-11-11",
+    "year": 2010,
+    "authors": [
+      "Akihiro Sasoh",
+      "Yohei Sekiya",
+      "Takeharu Sakai",
+      "Jae‐Hyung Kim",
+      "Atsushi Matsuda"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050174",
+    "abstract": "A drag over a flat-nosed cylinder with repetitive laser pulse irradiations ahead of it were experimentally measured in a Mach-1.92, in-draft wind tunnel. Laser pulses were focused using a plane-convex lens fabricated on the nose of the cylinder at a repetition frequency of up to 10 kHz and power of 70 W at a maximum. The drag was measured using a low-friction piston which was backed by a load cell in a cavity at a controlled pressure. Under the experimentally available operation conditions, an up-to-3 % drag reduction and an efficiency of energy deposition of about 10 were obtained. Mechanisms of the drag reduction are analyzed based on experimental flow visualization and numerical simulation. Nomenclature A = cross-sectional area of cylinder model c = constant D = drag D0 = drag without energy deposition E = laser energy per pulse FL = force to/from load cell FO = resultant force from O-rings f = laser pulse repetition frequency l = distance between cylinder nose and laser focus P = static pressure P0 = atmospheric pressure Psub = static pressure in sub-chamber t = time originated in (first) laser pulse iradiation U0 = test flow speed VL = output voltage of load cell VL,O = output voltage of load cell during wind tunnel run without laser energy depositions VL,W = output voltage of load cell during wind tunnel run with laser energy depositions W = time-averaged laser power = fE D = constant determined in calibration E = constant determined in calibration &amp;apos;D = decrement in drag due to energy depositions K = efficiency of energy deposition I.",
+    "keywords": [
+      "Drag divergence Mach number",
+      "Drag",
+      "Optics",
+      "Materials science",
+      "Zero-lift drag coefficient",
+      "Wind tunnel",
+      "Parasitic drag",
+      "Flow visualization",
+      "Cylinder",
+      "Aerodynamic drag",
+      "Laser",
+      "Drag coefficient",
+      "Reduction (mathematics)",
+      "Supersonic speed",
+      "Mechanics",
+      "Lift-induced drag",
+      "Physics",
+      "Flow (mathematics)",
+      "Engineering",
+      "Mechanical engineering",
+      "Geometry"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2090391678",
     "title": "Stability Enhancement of a Multistage Compressor by Air Injection",
     "date": "2010-11-12",
@@ -58524,6 +59006,39 @@
       "压缩机稳定性",
       "跨音速/激波"
     ]
+  },
+  {
+    "id": "W2085644547",
+    "title": "Spatially Developing Supersonic Turbulent Boundary Layer with a Body-Force-Based Method",
+    "date": "2013-06-25",
+    "year": 2013,
+    "authors": [
+      "Nathan Mullenix",
+      "Datta V. Gaitonde",
+      "Miguel R. Visbal"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j051861",
+    "abstract": "A method to obtain a spatially developing equilibrium supersonic turbulent flat-plate boundary layer suitable for direct numerical simulations or large-eddy simulations of viscous/inviscid interactions is described. A steady counterflow actuator with properties based on a dielectric barrier discharge is employed to trip an incoming laminar boundary layer. The resulting unstable shear layer transitions rapidly and breaks down to generate the desired turbulent boundary layer. A fifth-order bandwidth and order optimized weighted essentially nonoscillatory scheme using Roe fluxes is used along with sixth-order viscous terms to simulate this process. The properties of the boundary layer are exhaustively analyzed on meshes of 65, 37, and 20 million grid points. The fine-grid solution agrees with the mean flow and statistical properties observed in the literature, and is used as a truth model to investigate results on smaller meshes. The medium-grid solution reproduces the fine-grid behavior with modest differences in some quantities. The coarse-grid solution shows delayed transition and reproduces some flow quantities with significant discrepancies in others. Anticipated coherent structures are observed to exist on all grids. An examination of the length scale and timescale of the turbulence shows no signature of the tripping mechanism.",
+    "keywords": [
+      "Inviscid flow",
+      "Boundary layer",
+      "Mechanics",
+      "Turbulence",
+      "Supersonic speed",
+      "Laminar flow",
+      "Direct numerical simulation",
+      "Boundary layer thickness",
+      "Large eddy simulation",
+      "Polygon mesh",
+      "Physics",
+      "Reynolds number",
+      "Classical mechanics",
+      "Geometry",
+      "Mathematics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2085367237",
@@ -74747,6 +75262,47 @@
     ]
   },
   {
+    "id": "W2913104233",
+    "title": "Detailed Analysis of the Wake Structure of a Straight-Blade H-Darrieus Wind Turbine by Means of Wind Tunnel Experiments and Computational Fluid Dynamics Simulations",
+    "date": "2017-09-15",
+    "year": 2017,
+    "authors": [
+      "Alessandro Bianchini",
+      "Francesco Balduzzi",
+      "Giovanni Ferrara",
+      "Lorenzo Ferrari",
+      "Giacomo Persico",
+      "Vincenzo Dossena",
+      "Lorenzo Battisti"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4037906",
+    "abstract": "Darrieus vertical axis wind turbines (VAWTs) have been recently identified as the most promising solution for new types of applications, such as small-scale installations in complex terrains or offshore large floating platforms. To improve their efficiencies further and make them competitive with those of conventional horizontal axis wind turbines, a more in depth understanding of the physical phenomena that govern the aerodynamics past a rotating Darrieus turbine is needed. Within this context, computational fluid dynamics (CFD) can play a fundamental role, since it represents the only model able to provide a detailed and comprehensive representation of the flow. Due to the complexity of similar simulations, however, the possibility of having reliable and detailed experimental data to be used as validation test cases is pivotal to tune the numerical tools. In this study, a two-dimensional (2D) unsteady Reynolds-averaged Navier–Stokes (U-RANS) computational model was applied to analyze the wake characteristics on the midplane of a small-size H-shaped Darrieus VAWT. The turbine was tested in a large-scale, open-jet wind tunnel, including both performance and wake measurements. Thanks to the availability of such a unique set of experimental data, systematic comparisons between simulations and experiments were carried out for analyzing the structure of the wake and correlating the main macrostructures of the flow to the local aerodynamic features of the airfoils in cycloidal motion. In general, good agreement on the turbine performance estimation was constantly appreciated.",
+    "keywords": [
+      "Wake",
+      "Aerodynamics",
+      "Computational fluid dynamics",
+      "Reynolds-averaged Navier–Stokes equations",
+      "Wind tunnel",
+      "Turbine",
+      "Marine engineering",
+      "Context (archaeology)",
+      "Aerospace engineering",
+      "Airfoil",
+      "Vertical axis wind turbine",
+      "Wind power",
+      "Mechanics",
+      "Computer science",
+      "Engineering",
+      "Geology",
+      "Physics"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2326997402",
     "title": "Transition Prediction in Hypersonic Boundary Layers Using Receptivity and Freestream Spectra",
     "date": "2017-09-21",
@@ -76726,6 +77282,44 @@
       "压缩机稳定性",
       "跨音速/激波",
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2749040703",
+    "title": "EBFOG: Deposition, Erosion, and Detachment on High-Pressure Turbine Vanes",
+    "date": "2018-02-02",
+    "year": 2018,
+    "authors": [
+      "Nicola Casari",
+      "Michele Pinelli",
+      "Alessio Suman",
+      "Luca di Mare",
+      "Francesco Montomoli"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4039181",
+    "abstract": "Fouling and erosion are two pressing problems that severely affect gas turbine performance and life. When aircraft fly through a volcanic ash cloud, the two phenomena occur simultaneously in the cold as well as in the hot section of the engine. In the high-pressure turbine (HPT), in particular, particles soften or melt due to the high gas temperatures and stick to the wet surfaces. The throat area, and hence the capacity, of the HPT is modified by these phenomena, affecting the engine stability and possibly forcing engine shutdown. This work presents a model for deposition and erosion in gas turbines and its implementation in a three-dimensional Navier–Stokes solver. Both deposition and erosion are taken into account, together with deposit detachment due to changed flow conditions. The model is based on a statistical description of the behavior of softened particles. The particles can stick to the surface or can bounce away, eroding the material. The sticking prediction relies on the authors' Energy Based FOulinG (EBFOG) model. The impinging particles which do not stick to the surface are responsible for the removal of material. The model is demonstrated on a HPT vane. The airfoil shape evolution over the exposure time as a consequence of the impinging particles has been carefully monitored. The variation of the flow field as a consequence of the geometrical changes is reported as an important piece of on-board information for the flight crew.",
+    "keywords": [
+      "Erosion",
+      "Deposition (geology)",
+      "Turbine",
+      "Fouling",
+      "Mechanics",
+      "Flow (mathematics)",
+      "Materials science",
+      "Airfoil",
+      "Environmental science",
+      "Mechanical engineering",
+      "Meteorology",
+      "Geology",
+      "Aerospace engineering",
+      "Engineering",
+      "Physics",
+      "Chemistry"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -80238,6 +80832,43 @@
       "叶片气动设计",
       "非定常流动",
       "气弹/振动"
+    ]
+  },
+  {
+    "id": "W2904195140",
+    "title": "Large Eddy Simulation and RANS Analysis of the End-Wall Flow in a Linear Low-Pressure-Turbine Cascade—Part II: Loss Generation",
+    "date": "2018-12-08",
+    "year": 2018,
+    "authors": [
+      "Michele Marconcini",
+      "Roberto Pacciani",
+      "Andrea Arnone",
+      "Vittorio Michelassi",
+      "Richard Pichler",
+      "Yaomin Zhao",
+      "Richard D. Sandberg"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4042208",
+    "abstract": "In low-pressure turbines (LPT) at design point, around 60–70% of losses are generated in the blade boundary layers far from end walls, while the remaining 30–40% is controlled by the interaction of the blade profile with the end-wall boundary layer. Increasing attention is devoted to these flow regions in industrial design processes. This paper discusses the end-wall flow characteristics of the T106 profile with parallel end walls at realistic LPT conditions, as described in the experimental setup of Duden, A., and Fottner, L., 1997, “Influence of Taper, Reynolds Number and Mach Number on the Secondary Flow Field of a Highly Loaded Turbine Cascade,” Proc. Inst. Mech. Eng., Part A, 211(4), pp.309–320. Calculations are carried out by both Reynolds-averaged Navier–Stokes (RANS), due to its continuing role as the design verification workhorse, and highly resolved large eddy simulation (LES). Part II of this paper focuses on the loss generation associated with the secondary end-wall vortices. Entropy generation and the consequent stagnation pressure losses are analyzed following the aerodynamic investigation carried out in the companion paper (GT2018-76233). The ability of classical turbulence models generally used in RANS to discern the loss contributions of the different vortical structures is discussed in detail and the attainable degree of accuracy is scrutinized with the help of LES and the available test data. The purpose is to identify the flow features that require further modeling efforts in order to improve RANS/unsteady RANS (URANS) approaches and make them able to support the design of the next generation of LPTs.",
+    "keywords": [
+      "Reynolds-averaged Navier–Stokes equations",
+      "Mechanics",
+      "Aerodynamics",
+      "Turbulence",
+      "Boundary layer",
+      "Turbine",
+      "Mach number",
+      "Detached eddy simulation",
+      "Large eddy simulation",
+      "Aerospace engineering",
+      "Engineering",
+      "Physics"
+    ],
+    "topics_matched": [
+      "叶片气动设计",
+      "非定常流动"
     ]
   },
   {
