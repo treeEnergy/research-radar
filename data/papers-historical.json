@@ -84027,6 +84027,46 @@
     "topics_matched": []
   },
   {
+    "id": "W4250496830",
+    "title": "The Effect of Vanes and Blades on Ingress in Gas Turbines",
+    "date": "2019-10-09",
+    "year": 2019,
+    "authors": [
+      "Fabian P. Hualca",
+      "Joshua T. M. Horwood",
+      "Carl M. Sangan",
+      "Gary D. Lock",
+      "James A. Scobie"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4045149",
+    "abstract": "Abstract This paper presents experimental and computational results using a 1.5-stage test rig designed to investigate the effects of ingress through a double radial overlap rim-seal. The effect of the vanes and blades on ingress was investigated by a series of carefully controlled experiments: first, the position of the vane relative to the rim seal was varied; second, the effect of the rotor blades was isolated using a disk with and without blades. Measurements of steady pressure in the annulus show a strong influence of the vane position. The relationship between sealing effectiveness and purge flowrate exhibited a pronounced inflection for intermediate levels of purge; the inflection did not occur for experiments with a bladeless rotor. Shifting the vane closer to the rim-seal, and therefore the blade, caused a local increase in ingress in the inflection region; again, this effect was not observed for the bladeless experiments. Unsteady pressure measurements at the periphery of the wheel-space revealed the existence of large-scale pressure structures (or instabilities) which depended weakly on the vane position and sealing flowrate. These were measured with and without the blades on the rotor disk. In all cases, these structures rotated close to the disk speed.",
+    "keywords": [
+      "Annulus (botany)",
+      "Rotor (electric)",
+      "Inflection point",
+      "Seal (emblem)",
+      "Mechanics",
+      "Blade (archaeology)",
+      "Turbomachinery",
+      "Purge",
+      "Materials science",
+      "Flow (mathematics)",
+      "Volumetric flow rate",
+      "Labyrinth seal",
+      "Mechanical engineering",
+      "Composite material",
+      "Engineering",
+      "Physics",
+      "Mathematics",
+      "Geometry"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2981045235",
     "title": "Effects of Double-Side Labyrinth Seals on Aerodynamic Performance in a Transonic Shrouded Turbine Stage",
     "date": "2019-10-14",
