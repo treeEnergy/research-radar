@@ -66908,6 +66908,39 @@
     ]
   },
   {
+    "id": "W2120957647",
+    "title": "Use of Fin Equation to Calculate Nusselt Numbers for Rotating Disks",
+    "date": "2015-08-20",
+    "year": 2015,
+    "authors": [
+      "Hui Tang",
+      "Tony Shardlow",
+      "J. Michael Owen"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4031355",
+    "abstract": "Conduction in thin disks can be modeled using the fin equation, and there are analytical solutions of this equation for a circular disk with a constant heat-transfer coefficient. However, convection (particularly free convection) in rotating-disk systems is a conjugate problem: the heat transfer in the fluid and the solid are coupled, and the relative effects of conduction and convection are related to the Biot number, Bi, which in turn is related to the Nusselt number. In principle, if the radial distribution of the disk temperature is known then Bi can be determined numerically. But the determination of heat flux from temperature measurements is an example of an inverse problem where small uncertainties in the temperatures can create large uncertainties in the computed heat flux. In this paper, Bayesian statistics are applied to the inverse solution of the circular fin equation to produce reliable estimates of Bi for rotating disks, and numerical experiments using simulated noisy temperature measurements are used to demonstrate the effectiveness of the Bayesian method. Using published experimental temperature measurements, the method is also applied to the conjugate problem of buoyancy-induced flow in the cavity between corotating compressor disks.",
+    "keywords": [
+      "Nusselt number",
+      "Biot number",
+      "Mechanics",
+      "Fin",
+      "Heat flux",
+      "Thermal conduction",
+      "Heat transfer",
+      "Physics",
+      "Heat transfer coefficient",
+      "Thermodynamics",
+      "Natural convection",
+      "Convection",
+      "Materials science",
+      "Reynolds number",
+      "Turbulence"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2149988631",
     "title": "Computational Fluid Dynamics Investigation of Labyrinth Seal Leakage Performance Depending on Mushroom-Shaped Tooth Wear",
     "date": "2015-08-21",
