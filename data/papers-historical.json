@@ -11077,6 +11077,43 @@
     ]
   },
   {
+    "id": "W2015456131",
+    "title": "Three-Dimensional Flow Field in the Tip Region of a Compressor Rotor Passage—Part II: Turbulence Properties",
+    "date": "1982-10-01",
+    "year": 1982,
+    "authors": [
+      "B. Lakshminarayana",
+      "R. Davino",
+      "M. Pouagare"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3227343",
+    "abstract": "The turbulence properties in the annulus wall region of an axial flow compressor rotor was measured using a triaxial, hot-wire probe rotating with the rotor. The flow was surveyed across the entire passage at five axial locations (leading edge, 1/4 chord, 1/2 chord, 3/4 chord, and the trailing edge location) and at six radial locations in a low-speed compressor rotor. The data derived include all three components of turbulence intensity and three components of turbulence stress. A comprehensive interpretation of the data with emphasis on features related to rotation, leakage flow, annulus wall boundary layer, and blade boundary layer interactions is included. All the components of turbulent intensities and stresses are found to be high in the leakage-flow mixing region. The radial component of intensities and stresses is found to be much higher than the corresponding streamwise components. The turbulent spectra clearly reveal the decay process of the inlet-guide-vane wake within the rotor passage.",
+    "keywords": [
+      "Turbulence",
+      "Mechanics",
+      "Chord (peer-to-peer)",
+      "Boundary layer",
+      "Axial compressor",
+      "Rotor (electric)",
+      "Physics",
+      "Gas compressor",
+      "Leading edge",
+      "Trailing edge",
+      "Annulus (botany)",
+      "Turbomachinery",
+      "Turbulence kinetic energy",
+      "Materials science",
+      "Thermodynamics",
+      "Computer science"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2025208406",
     "title": "Experimental Verification of Propeller Noise Prediction",
     "date": "1982-11-01",
@@ -70958,6 +70995,33 @@
     ]
   },
   {
+    "id": "W2432034653",
+    "title": "Point Vortex Model of Deflected Wakes of Oscillating Airfoils",
+    "date": "2016-08-28",
+    "year": 2016,
+    "authors": [
+      "Xi He",
+      "Ismet Gursul"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055118",
+    "abstract": "",
+    "keywords": [
+      "Airfoil",
+      "Aerodynamics",
+      "Aerospace engineering",
+      "Physics",
+      "Aeronautics",
+      "Flapping",
+      "Engineering",
+      "Wing"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2514041107",
     "title": "Effects of Impeller Squealer Tip on Centrifugal Compressor Performance",
     "date": "2016-08-29",
@@ -76178,6 +76242,44 @@
     "topics_matched": [
       "压缩机稳定性",
       "气弹/振动"
+    ]
+  },
+  {
+    "id": "W2747004680",
+    "title": "Flame Dynamics Intermittency in the Bistable Region Near a Subcritical Hopf Bifurcation",
+    "date": "2017-11-02",
+    "year": 2017,
+    "authors": [
+      "Dominik Ebi",
+      "A. Denisov",
+      "Giacomo Bonciolini",
+      "E. Boujo",
+      "Nicolas Noiray"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4038326",
+    "abstract": "We report experimental evidence of thermoacoustic bistability in a lab-scale turbulent combustor over a well-defined range of fuel–air equivalence ratios. Pressure oscillations are characterized by an intermittent behavior with “bursts,” i.e., sudden jumps between low and high amplitudes occurring at random time instants. The corresponding probability density functions (PDFs) of the acoustic pressure signal show clearly separated maxima when the burner is operated in the bistable region. The gain and phase between acoustic pressure and heat release rate fluctuations are evaluated at the modal frequency from simultaneously recorded flame chemiluminescence and acoustic pressure. The representation of the corresponding statistics is new and particularly informative. It shows that the system is characterized, in average, by a nearly constant gain and by a drift of the phase as function of the oscillation amplitude. This finding may suggest that the bistability does not result from an amplitude-dependent balance between flame gain and acoustic damping, but rather from the nonconstant phase difference between the acoustic pressure and the coherent fluctuations of heat release rate.",
+    "keywords": [
+      "Intermittency",
+      "Bistability",
+      "Amplitude",
+      "Combustor",
+      "Mechanics",
+      "Physics",
+      "Probability density function",
+      "Oscillation (cell signaling)",
+      "Thermoacoustics",
+      "Turbulence",
+      "Combustion",
+      "Mathematics",
+      "Optics",
+      "Statistics",
+      "Chemistry",
+      "Quantum mechanics"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
