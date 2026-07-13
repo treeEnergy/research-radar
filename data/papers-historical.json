@@ -70748,6 +70748,38 @@
     ]
   },
   {
+    "id": "W2477037647",
+    "title": "Diffusion-Flame Ignition by Shock-Wave Impingement on a Hydrogen–Air Supersonic Mixing Layer",
+    "date": "2016-07-28",
+    "year": 2016,
+    "authors": [
+      "César Huete",
+      "Antonio L. Sánchez",
+      "Forman A. Williams"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.b36236",
+    "abstract": "Ignition in a supersonic hydrogen–air mixing layer interacting with an oblique shock wave is investigated analytically under conditions such that the postshock flow is supersonic and the peak postshock temperature before ignition remains below the crossover temperature. The study requires consideration of the flow structure in the postshock ignition kernel found around the point of maximum temperature, which is assumed in this study to lie at an intermediate location across the mixing layer, as occurs in mixing layers subject to significant viscous dissipation. The ignition kernel displays a balance between the rates of chemical reaction and postshock flow expansion, including the acoustic interactions of the chemical heat release with the shock wave leading to increased front curvature. The problem is formulated with account taken of the strong temperature dependence of the chemical heat-release rate characterizing the ignition chemistry in the low-temperature regime analyzed here. It is shown how consideration of a two-step reduced chemical–kinetic mechanism derived in previous work leads to a boundary-value problem that can be solved analytically to determine ignition as a fold bifurcation, with the turning point in the diagram of peak perturbation induced by the chemical reaction as a function of the Damköhler number providing the critical conditions for ignition.",
+    "keywords": [
+      "Mechanics",
+      "Ignition system",
+      "Thermodynamics",
+      "Supersonic speed",
+      "Materials science",
+      "Shock wave",
+      "Boundary layer",
+      "Choked flow",
+      "Chemical reaction",
+      "Mixing (physics)",
+      "Chemistry",
+      "Physics"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
+    ]
+  },
+  {
     "id": "W4241657292",
     "title": "A Multiscale Approach for Nonlinear Dynamic Response Predictions With Fretting Wear",
     "date": "2016-08-01",
@@ -82618,6 +82650,43 @@
       "跨音速/激波",
       "叶片气动设计"
     ]
+  },
+  {
+    "id": "W3126453699",
+    "title": "Accuracy of Diesel Engine Combustion Metrics Over the Full Range of Engine Operating Conditions",
+    "date": "2019-05-07",
+    "year": 2019,
+    "authors": [
+      "Peter G. Dowell",
+      "Sam Akehurst",
+      "Richard Burke"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4043700",
+    "abstract": "Measuring and analyzing combustion is a critical part of the development of high efficiency and low emitting engines. Faced with changes in legislation such as real driving emissions (RDE) and the fundamental change in the role of the combustion engine with the introduction of hybrid-electric powertrains, it is essential that combustion analysis can be conducted accurately across the full range of operating conditions. In this work, the sensitivity of five key combustion metrics is investigated with respect to eight necessary assumptions used for single zone diesel combustion analysis. The sensitivity was evaluated over the complete operating range of the engine using a combination of experimental and modeling techniques. This provides a holistic understanding of combustion measurement accuracy. For several metrics, it was found that the sensitivity at the mid-speed/load condition was not representative of sensitivity across the full operating range, in particular at low speeds and loads. Peak heat release rate and indicated mean effective pressure (IMEP) were found to be most sensitive to the determination of top dead center (TDC) and the assumption of in-cylinder gas properties. An error of 0.5 deg in the location of TDC would cause on average a 4.2% error in peak heat release rate. The ratio of specific heats had a strong impact on peak heat release with an error of 8% for using the assumption of a constant value. A novel method for determining TDC was proposed which combined a filling and emptying simulation with measured data obtained experimentally from an advanced engine test rig with external boosting system. This approach improved the robustness of the prediction of TDC which will allow engineers to measure accurate combustion data in operating conditions representative of in-service applications.",
+    "keywords": [
+      "Combustion",
+      "Automotive engineering",
+      "Diesel engine",
+      "Sensitivity (control systems)",
+      "Range (aeronautics)",
+      "Diesel fuel",
+      "Internal combustion engine cooling",
+      "Mean effective pressure",
+      "Cylinder",
+      "Environmental science",
+      "Internal combustion engine",
+      "Computer science",
+      "Nuclear engineering",
+      "Materials science",
+      "Mechanical engineering",
+      "Compression ratio",
+      "Combustion chamber",
+      "Engineering",
+      "Chemistry"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2948416290",
