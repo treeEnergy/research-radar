@@ -23147,6 +23147,40 @@
     "topics_matched": []
   },
   {
+    "id": "W2071680444",
+    "title": "Coal-Water Slurry Spray Characteristics of a Positive Displacement Fuel Injection System",
+    "date": "1992-07-01",
+    "year": 1992,
+    "authors": [
+      "Ajoy Kumar Seshadri",
+      "Jerald A. Caton",
+      "Kenneth D. Kihm"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2906621",
+    "abstract": "Experiments have been completed to characterize coal-water slurry sprays from a modified positive displacement fuel injection system of a diesel engine. The injection system includes an injection jerk pump driven by an electric motor, a specially designed diaphragm to separate the abrasive coal from the pump, and a single-hole fuel nozzle. The sprays were injected into a pressurized chamber equipped with windows. High speed movies and instantaneous fuel line pressures were obtained. For injection pressures of order 30 MPa or higher, the sprays were similar for coal-water slurry, diesel fuel, and water. The time until the center core of the spray broke up (break-up time) was determined both from the movies and from a model using the fuel line pressures. Results from these two independent procedures were in good agreement. For the base conditions, the break-up time was 0.58 and 0.50 ms for coal-water slurry and diesel fuel, respectively. The break-up times increased with increasing nozzle orifice size and with decreasing chamber density. The break-up time was not a function of coal loading for coal loadings up to 53 percent. Cone angles of the sprays were dependent on the operating conditions and fluid, as well as on the time and location of the measurement. For one set of cases studied, the time-averaged cone angle was 15.9 and 16.3 deg for coal-water slurry and diesel fuel, respectively.",
+    "keywords": [
+      "Nozzle",
+      "Coal water",
+      "Coal",
+      "Coal slurry",
+      "Diesel fuel",
+      "Slurry",
+      "Materials science",
+      "Fuel injection",
+      "Environmental science",
+      "Water injection (oil production)",
+      "Petroleum engineering",
+      "Waste management",
+      "Composite material",
+      "Engineering",
+      "Automotive engineering",
+      "Mechanical engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W3182456591",
     "title": "Aeroelastic modal characteristics of mistuned blade assemblies - Mode localization and loss of eigenstructure",
     "date": "1992-10-01",
@@ -67780,6 +67814,38 @@
     ]
   },
   {
+    "id": "W2108044282",
+    "title": "Efficient Mode Matching Based on Closed-Form Integrals of Pridmore-Brown Modes",
+    "date": "2015-11-02",
+    "year": 2015,
+    "authors": [
+      "Martien Oppeneer",
+      "S.W. Rienstra",
+      "Pieter Sijtsma"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j054167",
+    "abstract": "A new mode-matching method is developed for acoustic modes in axially sectioned lined ducts with parallel, but otherwise arbitrary mean flow. The method is evaluated in detail for a circularly symmetric configuration (where the mean flow depends only on the radial coordinate), with the so-called Pridmore-Brown modes, satisfying the radial Pridmore-Brown equation. Classically, the matching of the modal representations at the interfaces between the sections is based on continuity of pressure and velocity in combination with projection to a suitable but unrelated set of test functions by means of a standard integral inner product. The alternative proposed here uses essentially the same Pridmore-Brown modes, but instead of the standard inner product it applies a particular bilinear form that can be evaluated in closed form. Apart from numerical efficiency, this approach features also a higher accuracy because it avoids the inherently inaccurate numerical quadrature of oscillating functions. The results are compared with results obtained by an implementation of the classical approach, and the agreement is excellent, with higher accuracy and with greater computational efficiency.",
+    "keywords": [
+      "Mathematics",
+      "Quadrature (astronomy)",
+      "Mathematical analysis",
+      "Bilinear interpolation",
+      "Modal",
+      "Projection (relational algebra)",
+      "Axial symmetry",
+      "Gaussian quadrature",
+      "Integral equation",
+      "Algorithm",
+      "Geometry",
+      "Nyström method",
+      "Physics",
+      "Optics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2105921932",
     "title": "Flat Plate Honeycomb Seals Friction Factor Analysis",
     "date": "2015-11-09",
@@ -72934,6 +73000,47 @@
     ]
   },
   {
+    "id": "W2578852013",
+    "title": "Uncertainty Quantification for Fat-Tailed Probability Distributions in Aircraft Engine Simulations",
+    "date": "2017-01-20",
+    "year": 2017,
+    "authors": [
+      "Richard Ahlfeld",
+      "Francesco Montomoli",
+      "Enrico Scalas",
+      "Shahrokh Shahpar"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.b36278",
+    "abstract": "Rare event simulation is vital for industrial design because some events, so-called black swans, can have fatal consequences despite their low probability of occurrence. Finding low-probability events far off the mean design is a challenging task for realistic engineering models because they are characterized by high computational demands, many input variables, and often insufficient statistical information to build parametric probability distributions. Therefore, an adaptive and arbitrary polynomial chaos method, called sparse approximation of moment-based arbitrary polynomial chaos, is suggested in this work. Sparse approximation of moment-based arbitrary polynomial chaos creates custom polynomial basis functions and grids based on statistical moments to avoid incorrect statistical assumptions. The contribution of this work is that it is derived how rare event simulation can conveniently be integrated into adaptive sparse grid methods by calculating polynomial chaos expansions based on the statistical moments of truncated fat-tailed distributions. Moreover, the use of tempered alpha-stable distributions is suggested to avoid discontinuous tail cutoffs. Sparse approximation of moment-based arbitrary polynomial chaos is compared to other statistical methods in two industrial aircraft engine simulations: a simulation of transient cycle temperature in a turbine cavity and hot-gas ingestion in the interwheel region. In both cases, sparse approximation of moment-based arbitrary polynomial chaos agrees with previous results but obtains them with lower computational effort.",
+    "keywords": [
+      "Polynomial chaos",
+      "Moment (physics)",
+      "Uncertainty quantification",
+      "Polynomial",
+      "Sparse grid",
+      "Applied mathematics",
+      "Parametric statistics",
+      "Polynomial expansion",
+      "Probability distribution",
+      "Probability density function",
+      "Event (particle physics)",
+      "Mathematics",
+      "Rare events",
+      "Mathematical optimization",
+      "Algorithm",
+      "Computer science",
+      "Monte Carlo method",
+      "Statistics",
+      "Mathematical analysis",
+      "Physics"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W4239816933",
     "title": "Characterizing Flow Effects of Ported Shroud Casing Treatment on Centrifugal Compressor Performance",
     "date": "2017-01-23",
@@ -74761,6 +74868,40 @@
     "topics_matched": [
       "进气畸变",
       "跨音速/激波"
+    ]
+  },
+  {
+    "id": "W2739631140",
+    "title": "Synchrotron X-Ray Interrogation of Turbulent Gas–Liquid Mixing in Cryogenic Rocket Sprays",
+    "date": "2017-08-02",
+    "year": 2017,
+    "authors": [
+      "Christopher D. Radke",
+      "J. Patrick McManamen",
+      "Alan Kastengren",
+      "Andrew Swantek",
+      "Terrence R. Meyer"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055938",
+    "abstract": "The atomization and vaporization of liquid jets within turbulent gaseous flows are characterized by the mixing phenomena occurring over a wide range of spatiotemporal scales. This creates a complex, turbid medium that is not easily interrogated using conventional optical-measurement techniques. In the current work, the optically dense, multiphase flow created by a cryogenic liquid jet injected into a turbulent gaseous coflow is probed using high-speed (MHz) X-ray radiography from a focused, narrowband synchrotron source to resolve the internal cascade of scales and the evolution to isotropic, homogeneous turbulence. Changes in the spectral characteristics for different flow conditions are furthermore correlated with changes in the spatial distributions of the liquid and gas phases within the spray using simultaneous X-ray radiography and tracer (krypton) fluorescence. It is found that an increase in entrainment and mixing infers an evolution in spectral characteristics toward the well-known law of energy dissipation in the context of the classical Kolmogorov theory. These data demonstrate the utility of the synchrotron-based X-ray radiography and fluorescence for uncovering the internal, turbulent mixing processes in multiphase and optically dense flows.",
+    "keywords": [
+      "Turbulence",
+      "Synchrotron",
+      "Physics",
+      "Optics",
+      "Mixing (physics)",
+      "Turbulence kinetic energy",
+      "Mechanics",
+      "Synchrotron radiation",
+      "Dissipation",
+      "Computational physics",
+      "Materials science",
+      "Thermodynamics"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
     ]
   },
   {
@@ -78902,6 +79043,54 @@
     ]
   },
   {
+    "id": "W2800124864",
+    "title": "Influence of Charge Motion and Compression Ratio on the Performance of a Combustion Concept Employing In-Cylinder Gasoline and Natural Gas Blending",
+    "date": "2018-07-20",
+    "year": 2018,
+    "authors": [
+      "James Sevik",
+      "Michael Pamminger",
+      "Thomas Wallner",
+      "Riccardo Scarcelli",
+      "Steven Wooldridge",
+      "Brad Boyer",
+      "Scott A. Miers",
+      "Carrie M. Hall"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4040090",
+    "abstract": "The present paper represents a small piece of an extensive experimental effort investigating the dual-fuel operation of a light-duty spark ignited engine. Natural gas (NG) was directly injected into the cylinder and gasoline was injected into the intake-port. Direct injection (DI) of NG was used in order to overcome the power density loss usually experienced with NG port-fuel injection (PFI) as it allows an injection after intake valve closing. Having two separate fuel systems allows for a continuum of in-cylinder blend levels from pure gasoline to pure NG operation. The huge benefit of gasoline is its availability and energy density, whereas NG allows efficient operation at high load due to improved combustion phasing enabled by its higher knock resistance. Furthermore, using NG allowed a reduction of carbon dioxide emissions across the entire engine map due to the higher hydrogen-to-carbon ratio. Exhaust gas recirculation (EGR) was used to (a) increase efficiency at low and part-load operation and (b) reduce the propensity of knock at higher compression ratios (CRs) thereby enabling blend levels with greater amount of gasoline across a wider operating range. Two integral engine parameters, CR and in-cylinder turbulence levels, were varied in order to study their influence on efficiency, emissions, and performance over a specific speed and load range. Increasing the CR from 10.5 to 14.5 allowed an absolute increase in indicated thermal efficiency of more than 3% for 75% NG (25% gasoline) operation at 8 bar net indicated mean effective pressure (IMEP) and 2500 rpm. However, as anticipated, the achievable peak load at CR 14.5 with 100% gasoline was greatly reduced due to its lower knock resistance. The in-cylinder turbulence level was varied by means of tumble plates (TPs) as well as an insert for the NG injector that guides the injection “spray” to augment the tumble motion. The usage of TPs showed a significant increase in EGR dilution tolerance for pure gasoline operation, however, no such impact was found for blended operation of gasoline and NG.",
+    "keywords": [
+      "Gasoline",
+      "Compression ratio",
+      "Combustion",
+      "Engine power",
+      "Thermal efficiency",
+      "Natural gas",
+      "Naturally aspirated engine",
+      "Volumetric efficiency",
+      "Mean effective pressure",
+      "Cylinder",
+      "Exhaust gas recirculation",
+      "Automotive engineering",
+      "Petrol engine",
+      "Materials science",
+      "Gasoline direct injection",
+      "Environmental science",
+      "Octane rating",
+      "Internal combustion engine",
+      "Power (physics)",
+      "Chemistry",
+      "Waste management",
+      "Mechanical engineering",
+      "Engineering",
+      "Physics",
+      "Thermodynamics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4243789089",
     "title": "Vortex Shedding and Frequency Lock in on Stand Still Wind Turbines—A Baseline Experiment",
     "date": "2018-07-21",
@@ -80024,6 +80213,35 @@
     "topics_matched": [
       "叶片气动设计"
     ]
+  },
+  {
+    "id": "W2782072807",
+    "title": "Engineering Design with Digital Thread",
+    "date": "2018-10-01",
+    "year": 2018,
+    "authors": [
+      "Victor Singh",
+      "Karen Willcox"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057255",
+    "abstract": "Digital Thread is a data-driven architecture that links together information generated from across the product lifecycle. Though Digital Thread is gaining traction as a digital communication framework to streamline design, manufacturing, and operation processes in order to more efficiently design, build, and maintain engineering products, a principled mathematical formulation describing the manner in which Digital Thread can be used for critical design decisions remains absent. The contribution of this paper is to present such a formulation from the context of a data-driven design and decision problem under uncertainty. This formulation accounts for the fact that the design process is highly iterative and not all information is available at once. Output design decisions are made not only on what data to collect but also on the costs and benefits involved in experimentation and sensor instrumentation to collect that data. The mathematical formulation is illustrated through an example design of a structural fiber-steered composite component. In this example, the methodology highlights how different sequencing of small-scale experimentation with manufacturing and deployment lead to different designs and different associated costs.",
+    "keywords": [
+      "Thread (computing)",
+      "Computer science",
+      "Iterative design",
+      "Engineering design process",
+      "Systems engineering",
+      "Software deployment",
+      "Architecture",
+      "Industrial engineering",
+      "Software engineering",
+      "Distributed computing",
+      "Engineering",
+      "Compatibility (geochemistry)"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W4254850955",
@@ -83861,6 +84079,42 @@
     ]
   },
   {
+    "id": "W4253615917",
+    "title": "Pressure Profile Measurements Within the Gas Film of Journal Foil Bearings Using an Instrumented Rotor With Telemetry",
+    "date": "2019-09-13",
+    "year": 2019,
+    "authors": [
+      "Karim Shalash",
+      "Jürg Schiffmann"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4044798",
+    "abstract": "Abstract Foil bearings are strong candidates to support oil-free turbomachinery. Although foil bearings are a widely used technology, models describing their behavior are not validated using the film pressure, which is the fundamental variable of any fluid film bearing. This paper presents pressure profiles measured within the gas film of a journal foil bearing. The pressure is measured using an instrumented rotor with embedded pressure probes and wireless telemetry. The measurements yield the simultaneous circumferential pressure profiles at two axial positions inside the bearing. Proximity probes on the bearing allowed the measurement of the corresponding rotor orbits. The bearing under investigation is a bump-type compliant journal bearing, with a nominal diameter of 40 mm, an L/D = 1, and was tested up to 37.5 krpm. Load-displacement and break-away tests were performed on the test bearing in order to identify bearing parameters necessary for reproducibility. The pressure profiles are compared to a frequency domain foil bearing model. This paper is a step toward further fundamental understanding of the foil bearing behavior and the validation of the rich modeling literature.",
+    "keywords": [
+      "Bearing (navigation)",
+      "Foil bearing",
+      "FOIL method",
+      "Rotor (electric)",
+      "Reproducibility",
+      "Turbomachinery",
+      "Displacement (psychology)",
+      "Materials science",
+      "Fluid bearing",
+      "Acoustics",
+      "Mechanical engineering",
+      "Structural engineering",
+      "Mechanics",
+      "Engineering",
+      "Composite material",
+      "Computer science",
+      "Physics",
+      "Lubrication",
+      "Chemistry"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2974713701",
     "title": "Nonaxisymmetric Study of Tip Leakage Flow in a Centrifugal Compressor With a Volute During Stall Process",
     "date": "2019-09-18",
@@ -84966,6 +85220,40 @@
     "topics_matched": [
       "稳定性建模",
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2996667192",
+    "title": "Impact of Vibrational Nonequilibrium on the Supersonic Mode in Hypersonic Boundary Layers",
+    "date": "2019-12-18",
+    "year": 2019,
+    "authors": [
+      "Carleton P. Knisely",
+      "Xiaolin Zhong"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j058758",
+    "abstract": "The supersonic mode in hypersonic boundary layers has recently been shown to achieve a larger peak growth rate than the traditional second mode in particular circumstances relevant to free flight. In this environment, high levels of aerodynamic heating are encountered such that incorporation of chemical and vibrational nonequilibrium effects can become critical. The impact of thermal nonequilibrium (TNE) on the supersonic mode in particular has not been thoroughly and systematically investigated. This work uses thermochemical nonequilibrium (TCNE) direct numerical simulation (DNS) and TCNE linear stability theory (LST) to obtain a more complete investigation of the supersonic mode using both nonequilibrium and frozen gas models. The simulation is Mach 5 flow over a 1-mm-nose-radius axisymmetric cone 1 m in length, representative of experimental conditions in ground test facilities. Both LST and DNS results indicate that TNE effects are destabilizing compared with frozen flow and can lead to an -factor difference of approximately at the end of the cone. LST results also indicate that TNE effects are stabilizing to the second and supersonic modes in comparison with thermal equilibrium. The supersonic mode appeared to be slightly more affected by TNE than the second mode. Collectively, the findings in this work suggest that even in ground test facilities where TCNE effects are relatively small compared with free flight, incorporating nonequilibrium models in both the mean flow and stability solvers can have a practical effect on hypersonic boundary-layer transition prediction analyses.",
+    "keywords": [
+      "Supersonic speed",
+      "Hypersonic speed",
+      "Non-equilibrium thermodynamics",
+      "Mach number",
+      "Mechanics",
+      "Choked flow",
+      "Aerodynamics",
+      "Aerodynamic heating",
+      "Hypersonic flight",
+      "Work (physics)",
+      "Boundary layer",
+      "Physics",
+      "Materials science",
+      "Thermodynamics",
+      "Heat transfer"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
