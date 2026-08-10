@@ -49657,6 +49657,35 @@
     ]
   },
   {
+    "id": "W2102620351",
+    "title": "Power Balance in Aerodynamic Flows",
+    "date": "2009-06-11",
+    "year": 2009,
+    "authors": [
+      "Mark Drela"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.42409",
+    "abstract": "A control volume analysis of the compressible viscous flow about an aircraft is performed,including integrated propulsors and flow control systems. In contrast to most past analyses which have focused on forces and momentum flow, in particular thrust and drag, the present analysis focuses on mechanical power and kinetic energy flow. The result is a clear identification and quantification of all the power sources, power sinks, and their interactions which are present in any aerodynamic flow. The formulation does not require any separate definitions of thrust and drag, and hence it is especially useful for analysis and optimization of aerodynamic configurations which have tightly integrated propulsion and boundary layer control systems.",
+    "keywords": [
+      "Aerodynamics",
+      "Balance (ability)",
+      "Mechanics",
+      "Aerospace engineering",
+      "Power (physics)",
+      "Computational fluid dynamics",
+      "Environmental science",
+      "Physics",
+      "Geology",
+      "Meteorology",
+      "Engineering"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2017891824",
     "title": "Tip-Clearance Effects on Hot-Streak Migration in Low-Pressure Stage of Vaneless Counter-Rotating Turbine",
     "date": "2009-06-29",
@@ -75057,6 +75086,48 @@
     "topics_matched": [
       "压缩机稳定性",
       "离心压气机"
+    ]
+  },
+  {
+    "id": "W4246898419",
+    "title": "Experimental Study of Transient Mechanisms of Bistable Flame Shape Transitions in a Swirl Combustor",
+    "date": "2017-08-21",
+    "year": 2017,
+    "authors": [
+      "Michael Stöhr",
+      "Kilian Oberleithner",
+      "Moritz Sieber",
+      "Zhiyao Yin",
+      "Wolfgang Meier"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4037724",
+    "abstract": "Sudden changes of flame shape are an undesired, yet poorly understood feature of swirl combustors used in gas turbines. The present work studies flame shape transition mechanisms of a bistable turbulent swirl flame in a gas turbine model combustor, which alternates intermittently between an attached V-form and a lifted M-form. Time-resolved velocity fields and two-dimensional flame structures were measured simultaneously using high-speed stereo-particle image velocimetry (PIV) and planar laser-induced fluorescence of OH (OH-PLIF) at 10 kHz. The data analysis is performed using two novel methods that are well adapted to the study of transient flame shape transitions: First, the linear stability analysis (LSA) of a time-varying mean flow and second, the recently proposed spectral proper orthogonal decomposition (SPOD). The results show that the transitions are governed by two types of instability, namely a hydrodynamic instability in the form of a precessing vortex core (PVC) and a thermoacoustic (TA) instability. The LSA shows that the V-M transition implies the transient formation of a PVC as the result of a self-amplification process. The V-M transition, on the other hand, is induced by the appearance of a TA instability that suppresses the PVC and thereby modifies the flowfield such that the flame re-attaches at the nozzle. In summary, these results provide novel insights into the complex interactions of TA and hydrodynamic instabilities that govern the shape of turbulent swirl-stabilized flames.",
+    "keywords": [
+      "Instability",
+      "Combustor",
+      "Planar laser-induced fluorescence",
+      "Mechanics",
+      "Bistability",
+      "Particle image velocimetry",
+      "Transient (computer programming)",
+      "Nozzle",
+      "Turbulence",
+      "Vortex",
+      "Flame structure",
+      "Materials science",
+      "Combustion",
+      "Physics",
+      "Optics",
+      "Thermodynamics",
+      "Laser",
+      "Chemistry",
+      "Laser-induced fluorescence"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
