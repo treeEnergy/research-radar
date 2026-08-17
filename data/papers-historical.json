@@ -73991,6 +73991,35 @@
     ]
   },
   {
+    "id": "W2412423240",
+    "title": "Methodology for Path Planning with Dynamic Data-Driven Flight Capability Estimation",
+    "date": "2017-05-02",
+    "year": 2017,
+    "authors": [
+      "Victor Singh",
+      "Karen Willcox"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055551",
+    "abstract": "This paper presents methodology to enable path planning for an unmanned aerial vehicle that uses dynamic data-driven flight capability estimation. The main contribution of the work is a general mathematical approach that leverages offline high-fidelity physics-based modeling together with onboard sensor measurements to achieve dynamic path planning. The mathematical framework, expressed as a constrained partially observable Markov decision process, accounts for vehicle capability constraints and is robust to modeling error and disturbances in both the vehicle process and measurement models. Vehicle capability constraints are incorporated using probabilistic support vector machine surrogates of high-fidelity physics-based models that adequately capture the richness of the vehicle dynamics. Sensor measurements are treated in a general manner and can include combinations of multiple modalities such as that through global positioning system signals, inertial mass unit outputs, and structural strain data of the airframe. Results are presented for a simulated three-dimensional environment and point-mass airplane model. The vehicle can dynamically adjust its trajectory according to the observations it receives about its current state of health, thereby retaining a high probability of survival and mission success.",
+    "keywords": [
+      "Trajectory",
+      "Computer science",
+      "Process (computing)",
+      "Motion planning",
+      "Airplane",
+      "Probabilistic logic",
+      "Vehicle dynamics",
+      "Control engineering",
+      "Simulation",
+      "Engineering",
+      "Aerospace engineering",
+      "Artificial intelligence"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4234579496",
     "title": "Effects of Radial Loading Distribution on Partial-Surge-Initiated Instability in a Transonic Axial Flow Compressor",
     "date": "2017-05-04",
@@ -75376,6 +75405,41 @@
     "topics_matched": [
       "叶尖间隙",
       "压缩机稳定性"
+    ]
+  },
+  {
+    "id": "W2751964841",
+    "title": "Multifidelity Uncertainty Propagation via Adaptive Surrogates in Coupled Multidisciplinary Systems",
+    "date": "2017-09-06",
+    "year": 2017,
+    "authors": [
+      "Anirban Chaudhuri",
+      "Rémi Lam",
+      "Karen Willcox"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055678",
+    "abstract": "Fixed point iteration is a common strategy to handle interdisciplinary coupling within a feedback-coupled multidisciplinary analysis. For each coupled analysis, this requires a large number of disciplinary high-fidelity simulations to resolve the interactions between different disciplines. When embedded within an uncertainty analysis loop (e.g., with Monte Carlo sampling over uncertain parameters), the number of high-fidelity disciplinary simulations quickly becomes prohibitive, because each sample requires a fixed point iteration and the uncertainty analysis typically involves thousands or even millions of samples. This paper develops a method for uncertainty quantification in feedback-coupled systems that leverage adaptive surrogates to reduce the number of cases for which fixed point iteration is needed. The multifidelity coupled uncertainty propagation method is an iterative process that uses surrogates for approximating the coupling variables and adaptive sampling strategies to refine the surrogates. The adaptive sampling strategies explored in this work are residual error, information gain, and weighted information gain. The surrogate models are adapted in a way that does not compromise the accuracy of the uncertainty analysis relative to the original coupled high-fidelity problem as shown through a rigorous convergence analysis.",
+    "keywords": [
+      "Propagation of uncertainty",
+      "Uncertainty analysis",
+      "Computer science",
+      "Uncertainty quantification",
+      "Adaptive sampling",
+      "Sampling (signal processing)",
+      "Monte Carlo method",
+      "Mathematical optimization",
+      "Leverage (statistics)",
+      "Convergence (economics)",
+      "Mathematics",
+      "Algorithm",
+      "Machine learning",
+      "Statistics",
+      "Simulation"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
     ]
   },
   {
@@ -77766,6 +77830,40 @@
     "topics_matched": []
   },
   {
+    "id": "W2793098734",
+    "title": "Charge Control Strategy for Aircraft-Triggered Lightning Strike Risk Reduction",
+    "date": "2018-03-12",
+    "year": 2018,
+    "authors": [
+      "Carmen Guerra-Garcia",
+      "Ngoc Cuong Nguyen",
+      "J. Peraire",
+      "Manuel Martı́nez-Sánchez"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056406",
+    "abstract": "We propose a charge control strategy to reduce the risk of an aircraft-triggered lightning strike that exploits the asymmetry between the positive and negative ends of the bidirectional leader development, which is the first phase of an aircraft-initiated lightning event. Because positive leaders are initiated and can propagate in lower fields than negative leaders, in general, a positive leader would occur first. During propagation of the positive leader, initiation of the negative leader is favored through the removal of positive charge from the aircraft. Based on this well-accepted bidirectional leader theory, we propose hindering the initiation of the positive leader by charging the aircraft to a negative level, selected to ensure that a negative leader will not form. Although not observed so far, a negative leader could be initiated first if the field enhancement at the negative end were much greater than at the positive end. In this situation, the biasing of the aircraft should be to positive levels. More generally, we propose that the optimum level of aircraft charging is that which makes both leaders equally unlikely. We present a theoretical study of the effectiveness of the strategy for an ellipsoidal fuselage as well as the geometry of a Falcon aircraft. The practical implementation, including the necessary sensors and actuators, is also discussed.",
+    "keywords": [
+      "Fuselage",
+      "Lightning (connector)",
+      "Control (management)",
+      "Aeronautics",
+      "Interference (communication)",
+      "Charge (physics)",
+      "Aerospace engineering",
+      "Asymmetry",
+      "Control theory (sociology)",
+      "Computer science",
+      "Physics",
+      "Engineering",
+      "Power (physics)",
+      "Telecommunications",
+      "Channel (broadcasting)"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2793129061",
     "title": "Leading-Edge Noise Prediction of General Airfoil Profiles with Spanwise-Varying Inflow Conditions",
     "date": "2018-03-15",
@@ -79617,6 +79715,48 @@
     "topics_matched": [
       "压缩机稳定性"
     ]
+  },
+  {
+    "id": "W4233942849",
+    "title": "Vibration-Based Condition Monitoring of Wind Turbine Gearboxes Based on Cyclostationary Analysis",
+    "date": "2018-08-10",
+    "year": 2018,
+    "authors": [
+      "Alexandre Mauricio",
+      "Junyu Qi",
+      "Konstantinos Gryllias"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4041114",
+    "abstract": "Wind industry experiences a tremendous growth during the last few decades. As of the end of 2016, the worldwide total installed electricity generation capacity from wind power amounted to 486,790 MW, presenting an increase of 12.5% compared to the previous year. Nowadays wind turbine manufacturers tend to adopt new business models proposing total health monitoring services and solutions, using regular inspections or even embedding sensors and health monitoring systems within each unit. Regularly planned or permanent monitoring ensures a continuous power generation and reduces maintenance costs, prompting specific actions when necessary. The core of wind turbine drivetrain is usually a complicated planetary gearbox. One of the main gearbox components which are commonly responsible for the machinery breakdowns are rolling element bearings. The failure signs of an early bearing damage are usually weak compared to other sources of excitation (e.g., gears). Focusing toward the accurate and early bearing fault detection, a plethora of signal processing methods have been proposed including spectral analysis, synchronous averaging and enveloping. Envelope analysis is based on the extraction of the envelope of the signal, after filtering around a frequency band excited by impacts due to the bearing faults. Kurtogram has been proposed and widely used as an automatic methodology for the selection of the filtering band, being on the other hand sensible in outliers. Recently, an emerging interest has been focused on modeling rotating machinery signals as cyclostationary, which is a particular class of nonstationary stochastic processes. Cyclic spectral correlation and cyclic spectral coherence (CSC) have been presented as powerful tools for condition monitoring of rolling element bearings, exploiting their cyclostationary behavior. In this work, a new diagnostic tool is introduced based on the integration of the cyclic spectral coherence (CSC) along a frequency band that contains the diagnostic information. A special procedure is proposed in order to automatically select the filtering band, maximizing the corresponding fault indicators. The effectiveness of the methodology is validated using the National Renewable Energy Laboratory (NREL) wind turbine gearbox vibration condition monitoring benchmarking dataset which includes various faults with different levels of diagnostic complexity.",
+    "keywords": [
+      "Condition monitoring",
+      "Turbine",
+      "Cyclostationary process",
+      "Envelope (radar)",
+      "Drivetrain",
+      "Wind power",
+      "Bearing (navigation)",
+      "Structural health monitoring",
+      "Computer science",
+      "Downtime",
+      "Engineering",
+      "Vibration",
+      "Rolling-element bearing",
+      "Reliability engineering",
+      "Automotive engineering",
+      "Structural engineering",
+      "Mechanical engineering",
+      "Artificial intelligence",
+      "Telecommunications",
+      "Acoustics",
+      "Electrical engineering",
+      "Torque",
+      "Channel (broadcasting)",
+      "Radar"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W4244574404",
@@ -82290,6 +82430,39 @@
     "topics_matched": [
       "叶尖间隙",
       "离心压气机"
+    ]
+  },
+  {
+    "id": "W2781949510",
+    "title": "Influence of Transonic Flutter on the Conceptual Design of Next-Generation Transport Aircraft",
+    "date": "2019-03-13",
+    "year": 2019,
+    "authors": [
+      "Max M. J. Opgenoord",
+      "Mark Drela",
+      "Karen Willcox"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057302",
+    "abstract": "Transonic aeroelasticity is an important consideration in the conceptual design of next-generation aircraft configurations. This paper develops a low-order physics-based flutter model for swept high-aspect-ratio wings. The approach builds upon a previously developed flutter model that uses the flowfield’s lowest moments of vorticity and volume-source density perturbations as its states. The contribution of this paper is a new formulation of the model for swept high-aspect-ratio wings. The aerodynamic model is calibrated using offline two-dimensional unsteady transonic computational-fluid-dynamics simulations. Combining that aerodynamic model with a beam model results in a low-dimensional overall aeroelastic system. The low computational cost of the model permits its incorporation in a conceptual design tool for next-generation transport aircraft. The model’s capabilities are demonstrated by finding transonic flutter boundaries for different clamped-wing configurations and investigating the influence of transonic flutter on the planform design of next-generation transport aircraft.",
+    "keywords": [
+      "Transonic",
+      "Flutter",
+      "Aeroelasticity",
+      "Aerodynamics",
+      "Aerospace engineering",
+      "Computational fluid dynamics",
+      "Wing configuration",
+      "Engineering",
+      "Structural engineering",
+      "Mechanics",
+      "Physics"
+    ],
+    "topics_matched": [
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
     ]
   },
   {
