@@ -15776,6 +15776,40 @@
     ]
   },
   {
+    "id": "W1985610593",
+    "title": "Experimental Rotordynamic Coefficient Results for Teeth-on-Rotor and Teeth-on-Stator Labyrinth Gas Seals",
+    "date": "1986-10-01",
+    "year": 1986,
+    "authors": [
+      "Dara W. Childs",
+      "J. K. Scharrer"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3239953",
+    "abstract": "An experimental test facility is used to measure the rotordynamic coefficients of teeth-on-rotor and teeth-on-stator labyrinth gas seals. Direct damping coefficients are presented for these seals for the first time. The results are presented for the two seal configurations at identical operating conditions, and show that, in a rotordynamic sense, the teeth-on-stator seal is more stable than the teeth-on-rotor seal, for inlet tangential velocity in the direction of rotation.",
+    "keywords": [
+      "Stator",
+      "Rotor (electric)",
+      "Seal (emblem)",
+      "Bearing (navigation)",
+      "Labyrinth seal",
+      "Rotation (mathematics)",
+      "Rotational speed",
+      "Inlet",
+      "Mechanics",
+      "Engineering",
+      "Materials science",
+      "Mechanical engineering",
+      "Structural engineering",
+      "Physics",
+      "Mathematics",
+      "Stiffness",
+      "Geometry"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2020376020",
     "title": "Stall transients of axial compression systems with inlet distortion",
     "date": "1986-11-01",
@@ -21298,6 +21332,29 @@
     "topics_matched": [
       "稳定性建模"
     ]
+  },
+  {
+    "id": "W1984836338",
+    "title": "Discussion: “Mixing in Axial-Flow Compressors: Conclusions Drawn From Three-Dimensional Navier–Stokes Analyses and Experiments” (Leylek, J. H., and Wisler, D. C., 1991, ASME J. Turbomach., 113, pp. 139–156)",
+    "date": "1991-04-01",
+    "year": 1991,
+    "authors": [
+      "A. J. Strazisar"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929073",
+    "abstract": "",
+    "keywords": [
+      "Mixing (physics)",
+      "Gas compressor",
+      "Mechanics",
+      "Flow (mathematics)",
+      "Materials science",
+      "Thermodynamics",
+      "Physics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2002207952",
@@ -29800,6 +29857,35 @@
     ]
   },
   {
+    "id": "W1994643563",
+    "title": "Early results from solar dynamic space power system testing",
+    "date": "1996-09-01",
+    "year": 1996,
+    "authors": [
+      "Richard K. Shaltens",
+      "Lee S. Mason"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.24113",
+    "abstract": "A government/industry team designed, built and tested a 2-kW e solar dynamic space power system in a large thermal/ vacuum facility with a simulated Sun at the NASA Lewis Research Center.The Lewis facility provides an accurate simulation of temperatures, high vacuum and solar flux as encountered in low-Earth orbit.The solar dynamic system includes a Brayton power conversion unit integrated with a solar receiver which is designed to store energy for continuous power operation during the eclipse phase of the orbit.This paper reviews the goals and status of the Solar Dynamic Ground Test Demonstration project and describes the initial testing, including both operational and performance data.System testing to date has accumulated over 365 hrs of power operation (ranging from 400 W to 2.0-kWe), including 187 simulated orbits, 16 ambient starts and 2 hot restarts.Data are shown for an orbital startup, transient and steady-state orbital operation and shutdown.System testing with varying insolation levels and operating speeds is discussed.The solar dynamic ground test demonstration is providing the experience and confidence toward a successful flight demonstration of the solar dynamic technologies on the Space Station Mir in 1997.",
+    "keywords": [
+      "Brayton cycle",
+      "Aerospace engineering",
+      "Solar power",
+      "Photovoltaic system",
+      "Solar energy",
+      "Environmental science",
+      "Engineering",
+      "Power (physics)",
+      "Simulation",
+      "Computer science",
+      "Electrical engineering",
+      "Physics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W1997619907",
     "title": "Stall Inception Measurements in a High-Speed Multistage Compressor",
     "date": "1996-10-01",
@@ -33170,6 +33256,32 @@
     "topics_matched": [
       "进气畸变"
     ]
+  },
+  {
+    "id": "W2040541693",
+    "title": "Propellant Management in Booster and Upper-Stage Propulsion Systems",
+    "date": "1998-09-01",
+    "year": 1998,
+    "authors": [
+      "Mark F. Fisher"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/2.5326",
+    "abstract": "A summary review of some of the technical issues which surround the design of the propulsion systems for Booster and Upper Stage systems are presented. The work focuses on Propellant Geyser, Slosh, and Orientation. A brief description of the concern is given with graphics which help the reader to understand the physics of the situation. The most common solutions to these problems are given with there respective advantages and disadvantages.",
+    "keywords": [
+      "Propellant",
+      "Booster (rocketry)",
+      "Propulsion",
+      "Aerospace engineering",
+      "Thrust",
+      "Aeronautics",
+      "Launch vehicle",
+      "Automotive engineering",
+      "Engineering",
+      "Materials science"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2017006531",
@@ -42053,6 +42165,30 @@
     "topics_matched": []
   },
   {
+    "id": "W3010763574",
+    "title": "Full- and Partial-Admission Performance of a Simplex Turbine",
+    "date": "2004-05-01",
+    "year": 2004,
+    "authors": [
+      "Daniel J. Dorney",
+      "Lisa W. Griffin",
+      "Douglas L. Sondak"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.10379",
+    "abstract": "The turbines used in rocket-engine applications are often partial-admission turbines, meaning that the flow enters the rotor over only a portion of the annulus. These turbines have been traditionally analyzed, however, assuming full-admission characteristics. This assumption enables the simulation of only a portion of the 360-degree annulus, with periodic boundary conditions applied in the circumferential direction. While this traditional approach to the simulating the flow in partial-admission turbines significantly reduces the computational requirements, the accuracy of the solutions has rarely been evaluated. In the current investigation, both full- and partial-admission three dimensional unsteady Navier-Stokes simulations were performed for a partial-admission turbine designed and tested at NASA Marshall Space Flight Center. The results indicate that the partial-admission nature of the turbine must be included in simulations to properly predict the performance and flow unsteadiness of the turbine.",
+    "keywords": [
+      "Turbine",
+      "Computer science",
+      "Engineering",
+      "Mechanical engineering"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2054561856",
     "title": "A Numerical Investigation of the Flow Mechanisms in a High Pressure Compressor Front Stage With Axial Slots",
     "date": "2004-07-01",
@@ -48868,6 +49004,42 @@
       "Explosive material",
       "Combustion",
       "Chemistry"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W1964871146",
+    "title": "Can Tip Vortices Enhance Lift of a Flapping Wing?",
+    "date": "2009-01-20",
+    "year": 2009,
+    "authors": [
+      "Wei Shyy",
+      "Pat Trizila",
+      "Chang-Kwon Kang",
+      "Hikaru Aono"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.41732",
+    "abstract": "experimental observations that justify rapid publication.They are stringently prescreened, and only a few are selected for rapid review by an Editor.They are published as soon as possible electronically and then appear in the print version of the journal.",
+    "keywords": [
+      "Aeronautics",
+      "Aerospace engineering",
+      "Lift (data mining)",
+      "Flapping",
+      "Vortex",
+      "Aerospace",
+      "Wing",
+      "Airfoil",
+      "Aerodynamics",
+      "Vortex lift",
+      "Physics",
+      "Engineering",
+      "Computer science",
+      "Marine engineering",
+      "Lift coefficient",
+      "Mechanics",
+      "Reynolds number"
     ],
     "topics_matched": []
   },
@@ -62420,6 +62592,43 @@
     "topics_matched": []
   },
   {
+    "id": "W2004458425",
+    "title": "Dual-Mode Scramjet Flameholding Operability Measurements",
+    "date": "2014-04-21",
+    "year": 2014,
+    "authors": [
+      "James M. Donohue"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.b35016",
+    "abstract": "Measurements were made in a direct-connect combustor facility designed to simulate cavity flameholding in a hydrocarbon-fueled dual-mode scramjet combustor where the presence of a shock train upstream of the flameholder has a significant impact on the inlet flow to the combustor and on flameholding limits. A mechanical throttle was installed in the downstream end of the test rig to provide the backpressurization needed to form the shock train and to decouple the operation of the flameholder from the backpressure formed by heat release and thermal choking, as it would be in a flight engine. The flameholding limits were measured by ramping inlet air temperature down until blowout was observed. The test facility used a vitiated air heater, Mach 2.2 and 3.3 inlet nozzles, a 0.65–in.-deep cavity, and ethylene and heated JP-7 fuel. A Mean blowout temperature of 1502°R was measured at the baseline condition which used a Mach 2.2 inlet, a cavity pressure of 21 psia, and ethylene fuel. The blowout temperature was found to be most sensitive to fuel injection location and fuel flow rates, and relatively insensitive to inlet Mach number and operating pressure. Video imaging showed unsteady flame structures with significant movements laterally and upstream of the flameholder.",
+    "keywords": [
+      "Scramjet",
+      "Combustor",
+      "Mach number",
+      "Throttle",
+      "Inlet",
+      "Aerospace engineering",
+      "Nozzle",
+      "Total air temperature",
+      "Mechanics",
+      "Materials science",
+      "Environmental science",
+      "Nuclear engineering",
+      "Automotive engineering",
+      "Engineering",
+      "Mechanical engineering",
+      "Chemistry",
+      "Combustion",
+      "Physics"
+    ],
+    "topics_matched": [
+      "跨音速/激波",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2092483685",
     "title": "Closed-Loop Flow Control of a Forebody at a High Incidence Angle",
     "date": "2014-04-23",
@@ -74320,6 +74529,34 @@
     ]
   },
   {
+    "id": "W2618682473",
+    "title": "Flow Evolution Through a Turning Midturbine Frame with Embedded Design",
+    "date": "2017-05-30",
+    "year": 2017,
+    "authors": [
+      "Pascal Bader",
+      "Wolfgang Sanz",
+      "Rosario Spataro",
+      "Emil Göttlich"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.b36257",
+    "abstract": "The paper discusses the time-averaged flow of a new-concept turbine transition duct placed in a two-stage counter-rotating test turbine. As a possible architecture for the turbine transition duct of future engines, the structural vanes carrying the bearing loadings can be integrated with the first low-pressure vane row in one aerodynamically optimized wide-chord vane called the turning midturbine frame. To increase the flow uniformity and to decrease the unsteady content of the flow, a baseline turning midturbine frame is redesigned by embedding two splitter vanes into the strut passage. The discussion on the flowfield is based on numerical results obtained by computational fluid dynamics and validated by aerodynamic measurements. In particular, the splitters are seen playing a major role in suppressing the big structures generated by the struts and the secondary flows of the high-pressure turbine. On the other hand, new losses are introduced by the splitters. Such structures play a decisive role in the overall component performance; therefore, their effect should be properly understood. This work provides a deep insight into the flow physics of an embedded turning midturbine frame for next-generation aeroengines, which is seen as a promising architecture in order to compact the engine size while keeping component performance high. The present work can be considered as a first attempt to implement splitter blades into an already existing turning midturbine frame design, and its value lies in a thorough experimental and computational study on the losses and benefits of such a design.",
+    "keywords": [
+      "Flow (mathematics)",
+      "Mechanical engineering",
+      "Materials science",
+      "Mechanics",
+      "Aerospace engineering",
+      "Engineering",
+      "Physics"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2622067682",
     "title": "A Detailed Modular Governor-Turbine Model for Multiple-Spool Gas Turbine With Scrutiny of Bleeding Effect",
     "date": "2017-06-06",
@@ -78550,6 +78787,37 @@
     ]
   },
   {
+    "id": "W2809860131",
+    "title": "Numerical Simulation of a Flapping Micro Aerial Vehicle Through Wing Deformation Capture",
+    "date": "2018-06-30",
+    "year": 2018,
+    "authors": [
+      "Wee-Beng Tay",
+      "Jouke H. S. de Baar",
+      "Mustafa Perçin",
+      "Shuanghou Deng",
+      "B.W. van Oudheusden"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056482",
+    "abstract": "Three-dimensional numerical simulations of a four-wing flapping micro aerial vehicle (FMAV) with actual experimentally captured wing membrane kinematics have been performed using an immersed boundary method Navier-Stokes finite volume solver. To successfully simulate the clap and fling motion involving the wing intersection, the numerical solver has been specifically modified to use a newly improved interpolation template searching algorithm to prevent divergence. Reasonable agreement was found between the numerical and experimental results, with the first and second force peaks from the experimental results well captured by the simulations, which was not possible in the past. Moreover, a \"V-shaped linked\" vortex was observed, which was similar to the vortical structures found in other experiments and simulations. A wing drag analysis showed that the drag magnitude of the clap and fling configuration was about 2.5 times that of the single-wing configuration. Visualizations of the flowfields through pressure contours and vortical isosurfaces led to a better understanding of the underlying flapping-wing aerodynamics. The ability to accurately simulate the FMAV with flexible wings opened up many opportunities for further FMAV design-related problems.",
+    "keywords": [
+      "Flapping",
+      "Aerospace engineering",
+      "Wing",
+      "Computer simulation",
+      "Deformation (meteorology)",
+      "Computational fluid dynamics",
+      "Mechanics",
+      "Marine engineering",
+      "Physics",
+      "Engineering",
+      "Meteorology"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2883134605",
     "title": "Postlimiters and Simple Dirty-Cell Detection for Three-Dimensional Unstructured (Unlimited) Aerodynamic Simulations",
     "date": "2018-07-17",
@@ -81916,6 +82184,46 @@
     "topics_matched": []
   },
   {
+    "id": "W2909814313",
+    "title": "Favre-Averaged Nonlinear Harmonic Method for Compressible Periodic Flows",
+    "date": "2019-01-12",
+    "year": 2019,
+    "authors": [
+      "Feng Wang",
+      "Luca di Mare"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057523",
+    "abstract": "The treatment of compressible flows subject to periodic disturbances of finite amplitude with nonlinear harmonic (NLH) methods requires a careful choice of averaging procedures and variable sets to average. A judicious choice of averaging procedure for the unsteady Navier–Stokes equations and its associated variable set is one that preserves certain properties of the flow of particular interest and also leads to a simple formulation of the equations governing the time-mean flow. This paper studies the time-averaged Navier–Stokes equations with different averaging procedure and variable set, and presents a new formulation of the NLH method based on Favre averaging of the primitive variable set. The resulting formulation of the time-averaged Navier–Stokes equations has exactly the same form as the steady base flow plus contributions from deterministic fluxes and stresses. Favre averages of the primitive variables preserve the time average of the conserved flow variables. From a practical point of view, this can minimize the modifications to the baseline solver to implement the NLH method. The details of the method are presented, and the method is validated from a two-dimensional transonic diffuser to compressors in subsonic and transonic flow regimes. A good agreement with the unsteady simulations using time marching is observed for all cases.",
+    "keywords": [
+      "Transonic",
+      "Mathematics",
+      "Nonlinear system",
+      "Solver",
+      "Flow (mathematics)",
+      "Navier–Stokes equations",
+      "Compressible flow",
+      "Mean flow",
+      "Applied mathematics",
+      "Compressibility",
+      "Variable (mathematics)",
+      "Mathematical analysis",
+      "Mechanics",
+      "Physics",
+      "Mathematical optimization",
+      "Aerodynamics",
+      "Turbulence",
+      "Geometry"
+    ],
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计",
+      "离心压气机",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2914352517",
     "title": "On the Effect of Engine Pulsations on the Performance of a Turbocharger Centrifugal Compressor",
     "date": "2019-01-24",
@@ -82569,6 +82877,36 @@
     "topics_matched": [
       "进气畸变"
     ]
+  },
+  {
+    "id": "W2923074322",
+    "title": "New Concept for Aircraft Morphing Wing Skin: Design, Modeling, and Analysis",
+    "date": "2019-03-19",
+    "year": 2019,
+    "authors": [
+      "Hangil You",
+      "Seongik Kim",
+      "Bruce W. Jo",
+      "Gun Jin Yun"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j058102",
+    "abstract": "In this paper, a new concept of a gripper pin structure is proposed for an aircraft morphing wing that can decouple in-plane stiffness from out-of-plane stiffness. There has been a pressing need for morphing wing skin structures that hold both low in-plane and high out-of-plane stiffness. A design methodology for the gripper pin morphing wing skin is presented here. The torsional and bending resistance mechanisms of the wing skin are presented to demonstrate its performance. The performance of the gripper pin wing skin under the variable camber compliant wing morphing process was estimated using 3D finite element models. According to the 3D finite element analyses, the stress levels of the gripper pin skin are much lower than that of the bulk material skin. The gripper pin wing skin structure has an enormous advantage with regard to the stress level and given its low actuation energy.",
+    "keywords": [
+      "Morphing",
+      "Wing",
+      "Structural engineering",
+      "Finite element method",
+      "Stiffness",
+      "Camber (aerodynamics)",
+      "Bending stiffness",
+      "Engineering",
+      "Mechanical engineering",
+      "Materials science",
+      "Computer science"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2938751843",
