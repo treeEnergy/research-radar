@@ -318,6 +318,33 @@
     "topics_matched": []
   },
   {
+    "id": "W1969416085",
+    "title": "Discussion: “The Selection of Length and Head Scales for Cavitation Tests” (Danel, Pierre, and Duport, Jacques, 1960, ASME J. Basic Eng., 82, pp. 784–789)",
+    "date": "1960-12-01",
+    "year": 1960,
+    "authors": [
+      "R. B. Willi"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3662758",
+    "abstract": "M. Strasberg, \"Undissolved-Air Cavities as Cavitation Nuclei.\"H. Gerber, \"Some Reflections on Modern Scale Formulas for Cavitation Phenomena.\"R. N. Cox and W. A. Clayden, \"Air Entrainment at the Rear of a Steady Cavity.\"F. Numachi, \"Effect of Static Pressure Differences on the Cavitation Characteristics of Hydrofoil Profiles.\"R. T. Knapp, \"Further",
+    "keywords": [
+      "Cavitation",
+      "Head (geology)",
+      "Selection (genetic algorithm)",
+      "Engineering",
+      "Materials science",
+      "Physics",
+      "Mechanics",
+      "Computer science",
+      "Geology",
+      "Artificial intelligence",
+      "Geomorphology"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2062173644",
     "title": "Discussion: “Advances in Steam Turbines for Marine Propulsion” (Somes, A. D., 1961, ASME J. Eng. Power, 83, pp. 108–118)",
     "date": "1961-01-01",
@@ -803,6 +830,35 @@
       "Physics",
       "Mechanics",
       "Materials science"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W1971688032",
+    "title": "Closure to “Discussions of ‘Transient Loading Improvements for Large Steam-Electric Generating Units’” (1962, ASME J. Eng. Power, 84, pp. 20–23)",
+    "date": "1962-01-01",
+    "year": 1962,
+    "authors": [
+      "Charles Strohmeyer"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3673370",
+    "abstract": "temperature.A new method is proposed for cooling exhaust steam to the condenser. ConclusionsImproved co-ordination between boiler and turbine operation provides greater safety during transient conditions and minimizes thermal losses when shutting down and starting up large high pressure, high temperature steam-electric generating units.Dynamic control principles can be applied to automation of unit start-up.Improvement in steam temperature control for all operating conditions should be a prime objective when designing new units.The co-operation and assistance received from the following companies is gratefully acknowledged.Without their, help this paper would not be possible.",
+    "keywords": [
+      "Closure (psychology)",
+      "Transient (computer programming)",
+      "Power (physics)",
+      "Nuclear engineering",
+      "Electric power",
+      "Mechanical engineering",
+      "Engineering",
+      "Electrical engineering",
+      "Mechanics",
+      "Thermodynamics",
+      "Physics",
+      "Computer science",
+      "Political science"
     ],
     "topics_matched": []
   },
@@ -1781,6 +1837,33 @@
     ]
   },
   {
+    "id": "W2132637797",
+    "title": "Solution of variational problems by means of a generalized newton-raphson operator",
+    "date": "1964-10-01",
+    "year": 1964,
+    "authors": [
+      "Robert McGill",
+      "PAUL KENNETH"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.2662",
+    "abstract": "Abstract : This paper presents the development of an indirect method for solving variational problems by means of an algorithm for obtaining the solution to the associated nonlinear two-point boundary value problem. The method departs from the usual indirect procedure of successively integrating the nonlinear equations and adjusting arbitrary initial conditions until the remaining boundary conditions are satisfied. Instead, an operator is introduced which produces a sequence of sets of functions which satisfy the boundary conditions but in general do not satisfy the nonlinear system formed by the state equations and the Euler-Lagrange equations. Under appropriate conditions this sequence converges uniformly and rapidly (quadratically) to the solution of the nonlinear boundary value problem. The computational effectiveness of the algorithm is demonstrated by three numerical examples. (Author)",
+    "keywords": [
+      "Newton's method",
+      "Applied mathematics",
+      "Operator (biology)",
+      "Mathematics",
+      "Mathematical analysis",
+      "Mathematical optimization",
+      "Physics",
+      "Nonlinear system"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2042000162",
     "title": "Rotating Stall in a Radial Vaneless Diffuser",
     "date": "1964-12-01",
@@ -2426,6 +2509,57 @@
     ]
   },
   {
+    "id": "W2060698227",
+    "title": "Dynamic buckling estimates.",
+    "date": "1966-03-01",
+    "year": 1966,
+    "authors": [
+      "John W. Hutchinson",
+      "Bernard Budiansky"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.3468",
+    "abstract": "Dynamic buckling of imperfection sensitive models, specifically cylindrical shells under axial compression",
+    "keywords": [
+      "Buckling",
+      "Structural engineering",
+      "Mechanics",
+      "Materials science",
+      "Engineering",
+      "Physics"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2042164347",
+    "title": "A direct method for calculation of the flow about an axisymmetric blunt body at angle of attack.",
+    "date": "1966-05-01",
+    "year": 1966,
+    "authors": [
+      "I.O. Bohachevsky",
+      "Robert E. Mates"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.3546",
+    "abstract": "Direct calculation method for supersonic inviscid flow around axisymmetric blunt body with conically reentrant afterbody flying at large angle of attack",
+    "keywords": [
+      "Inviscid flow",
+      "Rotational symmetry",
+      "Angle of attack",
+      "Mechanics",
+      "Blunt",
+      "Supersonic speed",
+      "Choked flow",
+      "Flow (mathematics)",
+      "Physics",
+      "Materials science",
+      "Aerodynamics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W1992220238",
     "title": "Discussion: “Experimental Investigation of a Magnetically Balanced Arc in a Transverse Argon Flow” (Myers, T. W., McKinnon, C. N., and Lysen, J. C., 1966, ASME J. Eng. Power, 88, pp. 27–30)",
     "date": "1966-07-01",
@@ -2627,6 +2761,38 @@
     ],
     "topics_matched": [
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2068487294",
+    "title": "Convective and radiative heat transfer during superorbital entry.",
+    "date": "1967-01-01",
+    "year": 1967,
+    "authors": [
+      "H. Hoshizaki",
+      "K. H. Wilson"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.3903",
+    "abstract": "The convective and radiative heat transfer to vehicles entering planetary atmospheres at superorbital velocities is investigated.An integral method is employed to determine the radiative and convective heating around a blunt body.The effect of mass injection, radiative emission and absorption, radiation cooling, and coupling between convection and radiation are included in the analysis.The absorption coefficients of the shock-layer gas, as well as the injected ablation products are determined as a function of particle-number density, temperature, and radiation frequency.The results obtained show that self-absorption can reduce the radiative heating by an order of magnitude but has little effect on the convective heating.It was also found that the nose radius which results in the minimum total heat-transfer rate at the stagnation point is much larger (6 ft to 10 ft diam.at Uoo = 50,000 fps) than the values indicated by an optically thin analysis.Furthermore, it is shown that the total stagnationpoint heat-transfer rate is a very weak function of the nose radius, contrary to the results obtained from an optically thin analysis.",
+    "keywords": [
+      "Atmospheric entry",
+      "Radiative transfer",
+      "Convection",
+      "Convective heat transfer",
+      "Heat transfer",
+      "Mechanics",
+      "Thermal radiation",
+      "Aerospace engineering",
+      "Physics",
+      "Optics",
+      "Astronomy",
+      "Thermodynamics",
+      "Engineering"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
     ]
   },
   {
@@ -2925,6 +3091,34 @@
     "topics_matched": []
   },
   {
+    "id": "W2154928920",
+    "title": "On the dynamic characteristics of a variable- mass slender elastic body under high accelerations.",
+    "date": "1967-08-01",
+    "year": 1967,
+    "authors": [
+      "L. Meirovitch",
+      "Donald A. Wesley"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.4217",
+    "abstract": "Differential equations of motion for determining dynamic characteristics of variable mass slender elastic body moving under high accelerations",
+    "keywords": [
+      "Variable (mathematics)",
+      "Mechanics",
+      "Differential (mechanical device)",
+      "Acceleration",
+      "Differential equation",
+      "Physics",
+      "Mathematics",
+      "Classical mechanics",
+      "Structural engineering",
+      "Mathematical analysis",
+      "Engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2033904849",
     "title": "Discussion: “A Performance Prediction Method for Unstalled, Two-Dimensional Diffusers” (Reneau, L. R., and Johnston, J. P., 1967, ASME J. Basic Eng., 89, pp. 643–652)",
     "date": "1967-09-01",
@@ -3032,6 +3226,36 @@
     "topics_matched": [
       "稳定性建模",
       "离心压气机"
+    ]
+  },
+  {
+    "id": "W2149838499",
+    "title": "Particulate damping in solid-propellant combustion instability.",
+    "date": "1967-10-01",
+    "year": 1967,
+    "authors": [
+      "Louis A. Povinelli"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.4306",
+    "abstract": "y had been i n v e s t i g a t e d i n a vortex burner developed previously.was composed of a main chamber having a shallow c e n t e r -p e r f o r a t e d g r a i n and a h o t gas generator.",
+    "keywords": [
+      "Propellant",
+      "Combustion",
+      "Particulates",
+      "Instability",
+      "Mechanics",
+      "Materials science",
+      "Combustion products",
+      "Aerospace engineering",
+      "Nuclear engineering",
+      "Physics",
+      "Engineering",
+      "Chemistry"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -3329,6 +3553,33 @@
     "topics_matched": [
       "进气畸变"
     ]
+  },
+  {
+    "id": "W2018769877",
+    "title": "Convergent-divergent nozzle flows.",
+    "date": "1968-09-01",
+    "year": 1968,
+    "authors": [
+      "J. R. Kliegel",
+      "Victor Quan"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.4851",
+    "abstract": "Convergent-divergent nozzle flow field solution obtained in form of perturbation about one dimensional flow field",
+    "keywords": [
+      "Nozzle",
+      "Mechanics",
+      "Perturbation (astronomy)",
+      "Flow (mathematics)",
+      "Physics",
+      "Two-dimensional flow",
+      "Aerospace engineering",
+      "Classical mechanics",
+      "Engineering",
+      "Thermodynamics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2146920706",
@@ -5678,6 +5929,31 @@
     ]
   },
   {
+    "id": "W2085039132",
+    "title": "Experimental Study of Slot Injection into a Supersonic Stream",
+    "date": "1973-05-01",
+    "year": 1973,
+    "authors": [
+      "M. A. Kenworthy",
+      "Joseph A. Schetz"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.50497",
+    "abstract": "An experimental investigation of two-dimensional tangential-slot injection into a turbulent boundary layer at a freestream Mach number of 2.4 has been conducted.Nearly adiabatic surface temperatures were maintained during all tests.Static and pitot pressure profiles at four stations downstream of the slot were obtained.Skin friction was measured at the last three stations with a self-nulling balance.Schlierin photographs of the flow field were also obtained.Most of the data were obtained with slot Mach numbers of 0.31 and 0.66 corresponding to slot pressures less than and equal to stream static pressure, respectively.For the latter matched-pressure case, tangential slot injection reduced the surface shear at the three measuring stations by about 60 to 20 percent for increasing downstream distances from the slot of 12 to 28 slot heights.However, for the other case where slot pressure was less than stream static pressure, the effect of injection was to increase the shear by about 90 percent at the last downstream station of 28 slot heights.This increase in shear is attributed to the rapid acceleration of the low speed injectant stream by the high speed main stream and the increasing pressure through the recompression zone which is absent for the matched pressure case.17. Key Words (Suggested by Author(s)) slot injection experiment supersonic turbulent boundary layer skin friction balance data 19.Security dassif.(of this report) Unclassified 18. Distribution Statement Unclassified -Unlimited 20.Security Classif.(of this page) '\" 21.No. of Pages 22.",
+    "keywords": [
+      "Supersonic speed",
+      "Choked flow",
+      "Mechanics",
+      "Aerospace engineering",
+      "Materials science",
+      "Environmental science",
+      "Physics",
+      "Engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2146318488",
     "title": "Calculation of Unsteady and Three-Dimensional Boundary-Layer Flows",
     "date": "1973-06-01",
@@ -5921,6 +6197,33 @@
       "跨音速/激波",
       "叶片气动设计"
     ]
+  },
+  {
+    "id": "W2072021666",
+    "title": "A Preliminary Analytical and Experimental Investigation of Helicopter Rotor Boundary Layers",
+    "date": "1973-12-01",
+    "year": 1973,
+    "authors": [
+      "Dwight A. Blaser",
+      "Henry R. Velkoff"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.50666",
+    "abstract": "The experimental data is compared with existing two-dimensional data where possible.A comparison of the theoretical model and the hot wire data is made for the zero lift condition.",
+    "keywords": [
+      "Helicopter rotor",
+      "Rotor (electric)",
+      "Aerospace engineering",
+      "Mechanics",
+      "Aerodynamics",
+      "Boundary layer",
+      "Materials science",
+      "Physics",
+      "Engineering",
+      "Mechanical engineering"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2061386553",
@@ -7222,6 +7525,37 @@
     ]
   },
   {
+    "id": "W2145030371",
+    "title": "Split Space-Marching Finite-Volume Method for Chemically Reacting Supersonic Flow",
+    "date": "1976-05-01",
+    "year": 1976,
+    "authors": [
+      "Arthur Rizzi",
+      "Harry E. Bailey"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.61403",
+    "abstract": "A space-marching finite-volume method employing a nonorthogonal coordinate system and using a split differencing scheme for calculating steady supersonic flow over aerodynamic shapes is presented. It is a second-order-accurate mixed explicit-implicit procedure that solves the inviscid adiabatic and nondiffusive equations for chemically reacting flow in integral conservation-law form. The relationship between the finite-volume and differential forms of the equations is examined and the relative merits of each discussed. The method admits initial Cauchy data situated on any arbitrary surface and integrates them forward along a general curvilinear coordinate, distorting and deforming the surface as it advances. The chemical kinetics term is split from the convective terms which are themselves dimensionally split, thereby freeing the fluid operators from the restricted step size imposed by the chemical reactions and increasing the computational efficiency. The accuracy of this splitting technique is analyzed, a sufficient stability criterion is established, a representative flow computation is discussed, and some comparisons are made with another method.",
+    "keywords": [
+      "Curvilinear coordinates",
+      "Finite volume method",
+      "Inviscid flow",
+      "Supersonic speed",
+      "Aerodynamics",
+      "Flow (mathematics)",
+      "Mathematics",
+      "Choked flow",
+      "Mechanics",
+      "Mathematical analysis",
+      "Physics",
+      "Geometry"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
     "id": "W2121872191",
     "title": "Transient temperature distortion in a slab due to thermocouple cavity",
     "date": "1976-07-01",
@@ -7478,6 +7812,36 @@
     ],
     "topics_matched": [
       "压缩机稳定性",
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W2088572707",
+    "title": "Vortex interactions and decay in aircraft wakes",
+    "date": "1977-02-01",
+    "year": 1977,
+    "authors": [
+      "Alan J. Bilanin",
+      "Milton E. Teske",
+      "Guy G Williamson"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.7318",
+    "abstract": "The dynamic interaction of aircraft wake vortices was investigated using both inviscid and viscous models. For the viscous model, a computer code was developed using a second-order closure model of turbulent transport. The phenomenon of vortex merging which results in the rapid aging of a vortex wake was examined in detail. It was shown that the redistribution of vorticity during merging results from both convective and diffusive mechanisms.",
+    "keywords": [
+      "Vortex",
+      "Physics",
+      "Mechanics",
+      "Vortex shedding",
+      "Tourbillon",
+      "Aerospace engineering",
+      "Classical mechanics",
+      "Turbulence",
+      "Reynolds number",
+      "Engineering"
+    ],
+    "topics_matched": [
       "非定常流动"
     ]
   },
@@ -9491,6 +9855,29 @@
     ]
   },
   {
+    "id": "W2147963452",
+    "title": "Numerical Solution of Supersonic Laminar Flow Over an Inclined Body of Revolution",
+    "date": "1980-08-01",
+    "year": 1980,
+    "authors": [
+      "C. M. Hung"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.50835",
+    "abstract": "A mixed explicit-implicit scheme is used to solve the time-dependent thin-layer approximation of the Navier-Stokes equations for a supersonic laminar flow over an inclined body of revolution. Test cases for Mach 2.8 flow over a cylinder with 15-deg flare angle at angles of attack of 0,1, and 4 deg are calculated. Good agreement is obtained between the present computed results and experimental measurements of surface pressure. A pair of vortices on the leeward and a peak in the normal force distribution near the flared juncture are predicted; the role of circumferential communication is discussed.",
+    "keywords": [
+      "Laminar flow",
+      "Mechanics",
+      "Supersonic speed",
+      "Choked flow",
+      "Flow (mathematics)",
+      "Materials science",
+      "Physics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2089812583",
     "title": "Prediction of Two- and Three-Dimensional Asymmetrical Turbulent Wakes, Including Curvature and Rotation Effects",
     "date": "1980-10-01",
@@ -9691,6 +10078,32 @@
       "进气畸变",
       "跨音速/激波",
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2060917459",
+    "title": "Modeling the plasma near-wakes",
+    "date": "1980-10-01",
+    "year": 1980,
+    "authors": [
+      "V. C. Liu",
+      "S. J. Ying"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.7721",
+    "abstract": "Peer Reviewed",
+    "keywords": [
+      "Plasma",
+      "Mechanics",
+      "Materials science",
+      "Physics",
+      "Aerospace engineering",
+      "Engineering",
+      "Nuclear physics"
+    ],
+    "topics_matched": [
+      "非定常流动"
     ]
   },
   {
@@ -12988,6 +13401,40 @@
     ]
   },
   {
+    "id": "W1976848743",
+    "title": "Flutter and forced response of mistuned rotors using standing wave analysis",
+    "date": "1984-11-01",
+    "year": 1984,
+    "authors": [
+      "John Dugundji",
+      "David J. Bundas"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.8832",
+    "abstract": "A standing wave approach is applied to the analysis of the flutter and forced response of tuned and mistuned rotors. The traditional traveling wave cascade airforces are recast into standing wave arbitrary motion form using Pade approximants, and the resulting equations of motion are written in the matrix form. Applications for vibration modes, flutter, and forced response are discussed. It is noted that the standing wave methods may prove to be more versatile for dealing with certain applications, such as coupling flutter with forced response and dynamic shaft problems, transient impulses on the rotor, low-order engine excitation, bearing motion, and mistuning effects in rotors.",
+    "keywords": [
+      "Flutter",
+      "Mistuning",
+      "Mechanics",
+      "Response analysis",
+      "Forced oscillation",
+      "Control theory (sociology)",
+      "Structural engineering",
+      "Physics",
+      "Acoustics",
+      "Engineering",
+      "Aerodynamics",
+      "Vibration",
+      "Computer science",
+      "Nonlinear system"
+    ],
+    "topics_matched": [
+      "叶片气动设计",
+      "气弹/振动"
+    ]
+  },
+  {
     "id": "W1989574585",
     "title": "Vibration Characteristics of the HPOTP (High-Pressure Oxygen Turbopump) of the SSME (Space Shuttle Main Engine)",
     "date": "1985-01-01",
@@ -15808,6 +16255,36 @@
       "Geometry"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2012114545",
+    "title": "Alternative approximation concepts for space frame synthesis",
+    "date": "1986-10-01",
+    "year": 1986,
+    "authors": [
+      "R. V. Lust",
+      "L. A. Schmit"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.9500",
+    "abstract": "xiv",
+    "keywords": [
+      "Space (punctuation)",
+      "Space frame",
+      "Mathematics",
+      "Computer science",
+      "Applied mathematics",
+      "Aerospace engineering",
+      "Physics",
+      "Classical mechanics",
+      "Mathematical optimization",
+      "Calculus (dental)",
+      "Engineering"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2020376020",
@@ -21795,6 +22272,42 @@
     ]
   },
   {
+    "id": "W2050525910",
+    "title": "Computation of Navier-Stokes equations for three-dimensional flow separation",
+    "date": "1991-10-01",
+    "year": 1991,
+    "authors": [
+      "C. M. Hung"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.10788",
+    "abstract": "Supersonic flows over a sharp and a flat-faced blunt fin mounted on a flat plate are simulated numerically. Several basic issues involved in the resultant three-dimensional steady flow separation are studied. Using the same number of grid points, different grid spacings are employed to investigate the effects of a grid resolution on the origin of the line of separation. Various shock strengths are used to study the so-called separated and unseparated boundary layer and to establish the existence or absence of secondary separation. The length of separation ahead of the flat-faced blunt fin, bifurcation of a horseshoe vortex, and the accessibility of a closed-type separation are investigated. The usual interpretation of the flow field from previous studies and new interpretations arising from the present simulation are discussed.",
+    "keywords": [
+      "Separation (statistics)",
+      "Flow separation",
+      "Mechanics",
+      "Vortex",
+      "Boundary layer",
+      "Computation",
+      "Bifurcation",
+      "Flow (mathematics)",
+      "Grid",
+      "Choked flow",
+      "Shock (circulatory)",
+      "Supersonic speed",
+      "Physics",
+      "Mathematics",
+      "Classical mechanics",
+      "Geometry",
+      "Algorithm",
+      "Nonlinear system"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
+    ]
+  },
+  {
     "id": "W2089330148",
     "title": "Stage-by-stage poststall compression system modeling technique",
     "date": "1991-11-01",
@@ -23236,6 +23749,44 @@
       "Mechanical engineering"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2033838224",
+    "title": "Fourier functional analysis for unsteady aerodynamic modeling",
+    "date": "1992-09-01",
+    "year": 1992,
+    "authors": [
+      "Suei Chin",
+      "C. Edward Lan"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.11213",
+    "abstract": "A method based on Fourier analysis is developed to analyze the force and moment data obtained in large amplitude forced oscillation tests at high angles of attack. The aerodynamic models for normal force, lift, drag, and pitching moment coefficients are built up from a set of aerodynamic responses to harmonic motions at different frequencies. Based on the aerodynamic models of harmonic data, the indicial responses are formed. The final expressions for the models involve time integrals of the indicial type advocated by Tobak and Schiff. Results from linear two- and three-dimensional unsteady aerodynamic theories as well as test data for a 70-degree delta wing are used to verify the models. It is shown that the present modeling method is accurate in producing the aerodynamic responses to harmonic motions and the ramp type motions. The model also produces correct trend for a 70-degree delta wing in harmonic motion with different mean angles-of-attack. However, the current model cannot be used to extrapolate data to higher angles-of-attack than that of the harmonic motions which form the aerodynamic model. For linear ramp motions, a special method is used to calculate the corresponding frequency and phase angle at a given time. The calculated results from modeling show a higher lift peak for linear ramp motion than for harmonic ramp motion. The current model also shows reasonably good results for the lift responses at different angles of attack.",
+    "keywords": [
+      "Aerodynamics",
+      "Pitching moment",
+      "Aerodynamic force",
+      "Lift (data mining)",
+      "Harmonic",
+      "Angle of attack",
+      "Fourier series",
+      "Amplitude",
+      "Moment (physics)",
+      "Oscillation (cell signaling)",
+      "Simple harmonic motion",
+      "Mathematics",
+      "Physics",
+      "Mechanics",
+      "Mathematical analysis",
+      "Classical mechanics",
+      "Acoustics",
+      "Computer science",
+      "Optics"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W3182456591",
@@ -31062,6 +31613,39 @@
     ]
   },
   {
+    "id": "W2124587671",
+    "title": "Effect of Velocity and Temperature Distribution at the Hole Exit on Film Cooling of Turbine Blades",
+    "date": "1997-04-01",
+    "year": 1997,
+    "authors": [
+      "Vijay K. Garg",
+      "Raymond E. Gaugler"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2841117",
+    "abstract": "An existing three-dimensional Navier–Stokes code (Arnone et al., 1991), modified to include film cooling considerations (Garg and Gaugler, 1994), has been used to study the effect of coolant velocity and temperature distribution at the hole exit on the heat transfer coefficient on three film-cooled turbine blades, namely, the C3X vane, the VKI rotor, and the ACE rotor. Results are also compared with the experimental data for all the blades. Moreover, Mayle’s transition criterion (1991), Forest’s model for augmentation of leading edge heat transfer due to free-stream turbulence (1977), and Crawford’s model for augmentation of eddy viscosity due to film cooling (Crawford et al., 1980) are used. Use of Mayle’s and Forest’s models is relevant only for the ACE rotor due to the absence of showerhead cooling on this rotor. It is found that, in some cases, the effect of distribution of coolant velocity and temperature at the hole exit can be as much as 60 percent on the heat transfer coefficient at the blade suction surface, and 50 percent at the pressure surface. Also, different effects are observed on the pressure and suction surface depending upon the blade as well as upon the hole shape, conical or cylindrical.",
+    "keywords": [
+      "Coolant",
+      "Mechanics",
+      "Rotor (electric)",
+      "Suction",
+      "Turbulence",
+      "Heat transfer",
+      "Turbine",
+      "Trailing edge",
+      "Materials science",
+      "Turbine blade",
+      "Heat transfer coefficient",
+      "Leading edge",
+      "Thermodynamics",
+      "Mechanical engineering",
+      "Physics",
+      "Engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2172024152",
     "title": "Self-Contained Automated Methodology for Optimal Flow Control",
     "date": "1997-05-01",
@@ -32178,6 +32762,31 @@
       "叶片气动设计",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2136679136",
+    "title": "Analytical comparison of the acoustic analogy and Kirchhoff formulation for moving surfaces",
+    "date": "1998-01-01",
+    "year": 1998,
+    "authors": [
+      "Kenneth S. Brentner",
+      "F. Farassat"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.13979",
+    "abstract": "The Lighthill acoustic analogy, as embodied in the Ffowcs Williams{Hawkings (FW{H) equation, is compared with the Kirchho formulation for moving surfaces.A comparison of the two governing equations reveals that the main Kirchho advantage (namely nonlinear ow eects are included in the surface integration) is also available to the FW{H method if the integration surface used in the FW{H equation is not assumed impenetrable.The FW{H equation is analytically superior for aeroacoustics because it is based upon the conservation laws of uid mechanics rather than the wave equation.This means that the FW{H equation is valid even if the integration surface is in the nonlinear region.This is demonstrated numerically in the paper.The Kirchho approach can lead to substantial errors if the integration surface is not positioned in the linear region.These errors may be hard to identify.Finally, new metrics based on the Sobolev norm are introduced which may be used to compare input data for both quadrupole noise calculations and Kirchho noise predictions.",
+    "keywords": [
+      "Analogy",
+      "Mechanics",
+      "Classical mechanics",
+      "Mathematical analysis",
+      "Physics",
+      "Mathematics",
+      "Geometry",
+      "Acoustics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2013551603",
@@ -37300,6 +37909,42 @@
     "topics_matched": [
       "进气畸变",
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2023703556",
+    "title": "Experimental Investigation of the Confluent Boundary Layer of a High-Lift System",
+    "date": "2000-06-01",
+    "year": 2000,
+    "authors": [
+      "Flint O. Thomas",
+      "Robert C. Nelson",
+      "Xiaofeng Liu"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/2.1081",
+    "abstract": "This paper describes a fundamental experimental investigation of the confluent boundary layer generated by the interaction of a leading-edge slat wake with the boundary layer on the main element of a multi-element airfoil model. The slat and airfoil model geometry are both fully two-dimensional. The research reported in this paper is performed in an attempt to investigate the flow physics of confluent boundary layers and to build an archival data base on the interaction of the slat wake and the main element wall layer. In addition, an attempt is made to clearly identify the role that slat wake / airfoil boundary layer confluence has on lift production and how this occurs. Although complete LDV flow surveys were performed for a variety of slat gap and overhang settings, in this report the focus is on two cases representing both strong and weak wake boundary layer confluence.",
+    "keywords": [
+      "Airfoil",
+      "Wake",
+      "Boundary layer",
+      "Lift (data mining)",
+      "Geometry",
+      "Boundary layer thickness",
+      "Mechanics",
+      "Leading edge",
+      "Stall (fluid mechanics)",
+      "Boundary layer control",
+      "Physics",
+      "Materials science",
+      "Structural engineering",
+      "Engineering",
+      "Mathematics",
+      "Computer science"
+    ],
+    "topics_matched": [
+      "非定常流动"
     ]
   },
   {
@@ -44463,6 +45108,49 @@
     "topics_matched": []
   },
   {
+    "id": "W2002472736",
+    "title": "Active Control of Separation from the Flap of a Supercritical Airfoil",
+    "date": "2006-01-01",
+    "year": 2006,
+    "authors": [
+      "LaTunia Pack Melton",
+      "Chung Sheng Yao",
+      "Avi Seifert"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.12225",
+    "abstract": "Active flow control in the form of periodic zero-mass-flux excitation was applied at several regions on the leading edge and trailing edge flaps of a simplified high-lift system t o delay flow separation.The NASA Energy Efficient Transport (EET) supercritical airfoil was equipped with a 15% chord simply hinged leading edge flap and a 25% chord simply hinged trailing edge flap.Detailed flow features were measured in an attempt to identify optimal actuator placement.The measurements included steady and unsteady model and tunnel wall pressures, wake surveys, arrays of surface hot-films, flow visualization, and particle image velocimetry (PIV).The current paper describes the application of active separation control a t several locations on the deflected trailing edge flap.High frequency (F+ Y 10) and low frequency amplitude modulation ( F i A I FZ 1) of the high frequency excitation were used for control.Preliminary efforts to combine leading and trailing edge flap excitations are also reported.Nomenclature model chord oscillatory excitation nioineiit urnpressure coefficient oscillation frequency, Hz reduced frequency, = (f xsp)/UlIlf slot height or width oscillatory moineiitum at slot exit, hlach number pressure static pressure freestream dyiianiic pressure, 1 /2pUm2 chord Reyiiolds number, EE U,c/v distance from actuator to trailing edge temperature average and fluctuating streamwise velocity uormalized streamwise location phui",
+    "keywords": [
+      "Trailing edge",
+      "Airfoil",
+      "Particle image velocimetry",
+      "Chord (peer-to-peer)",
+      "Leading edge",
+      "Wake",
+      "Flow control (data)",
+      "Flow separation",
+      "Mechanics",
+      "Flow visualization",
+      "Aerodynamics",
+      "Angle of attack",
+      "Acoustics",
+      "Lift coefficient",
+      "Physics",
+      "Materials science",
+      "Aerospace engineering",
+      "Flow (mathematics)",
+      "Engineering",
+      "Computer science",
+      "Turbulence",
+      "Telecommunications",
+      "Reynolds number"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2080229411",
     "title": "Prediction of Engine Performance Under Compressor Inlet Flow Distortion Using Streamline Curvature",
     "date": "2006-02-01",
@@ -44532,6 +45220,39 @@
       "进气畸变",
       "离心压气机"
     ]
+  },
+  {
+    "id": "W1990374785",
+    "title": "Numerical Study of Detonation Stabilization by Finite Length Wedges",
+    "date": "2006-02-01",
+    "year": 2006,
+    "authors": [
+      "Miguel Walter",
+      "Luı́s Fernando Figueira da Silva"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.12417",
+    "abstract": "International audience",
+    "keywords": [
+      "Detonation",
+      "Wedge (geometry)",
+      "Mechanics",
+      "Oblique case",
+      "Euler equations",
+      "Finite volume method",
+      "Decoupling (probability)",
+      "Materials science",
+      "Combustion",
+      "Geometry",
+      "Physics",
+      "Classical mechanics",
+      "Thermodynamics",
+      "Mathematics",
+      "Chemistry",
+      "Explosive material"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2059998016",
@@ -48785,6 +49506,83 @@
       "Geometry"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W1998079234",
+    "title": "Multiple-Surrogate Approach to Helicopter Rotor Blade Vibration Reduction",
+    "date": "2008-12-18",
+    "year": 2008,
+    "authors": [
+      "Bryan Glaz",
+      "Tushar Goel",
+      "Li Liu",
+      "Peretz P. Friedmann",
+      "Raphael T. Haftka"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.40291",
+    "abstract": "The advantages of using multiple surrogates for approximation and reduction of helicopter vibration are studied.Multiple approximation methods, including a weighted-average approach, are considered so that pitfalls associated with only using a single best surrogate for the rotor blade vibration-reduction problem are avoided.A vibration objective function corresponding to a flight condition in which blade-vortex interaction causes high levels of vibration is considered.The design variables consist of cross-sectional dimensions of the structural member of the blade and nonstructural masses.The optimized designs are compared with a baseline design resembling a Messerschmitt-Bölkow-Blohm BO-105 blade.The results indicate that at relatively little additional cost compared with optimizing a single surrogate, multiple surrogates can be used to locate various reduced-vibration designs that would be overlooked if only a single approximation method was employed, and the most accurate surrogate may not lead to the best design.",
+    "keywords": [
+      "Vibration",
+      "Rotor (electric)",
+      "Surrogate model",
+      "Blade (archaeology)",
+      "Reduction (mathematics)",
+      "Helicopter rotor",
+      "Structural engineering",
+      "Cost reduction",
+      "Engineering",
+      "Computer science",
+      "Control theory (sociology)",
+      "Mathematics",
+      "Mechanical engineering",
+      "Acoustics",
+      "Mathematical optimization",
+      "Physics",
+      "Artificial intelligence"
+    ],
+    "topics_matched": [
+      "叶片气动设计",
+      "气弹/振动"
+    ]
+  },
+  {
+    "id": "W2131266849",
+    "title": "Evaluation of Euler Fluxes for Hypersonic Flow Computations",
+    "date": "2008-12-18",
+    "year": 2008,
+    "authors": [
+      "Keiichi Kitamura",
+      "Philip L. Roe",
+      "Farzad Ismail"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.33735",
+    "abstract": "Peer Reviewed",
+    "keywords": [
+      "Shock (circulatory)",
+      "Hypersonic speed",
+      "Dissipation",
+      "Euler equations",
+      "Computation",
+      "Flow (mathematics)",
+      "Flux (metallurgy)",
+      "Mechanics",
+      "Physics",
+      "Euler's formula",
+      "Function (biology)",
+      "Statistical physics",
+      "Classical mechanics",
+      "Mathematics",
+      "Mathematical analysis",
+      "Thermodynamics",
+      "Materials science"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
+    ]
   },
   {
     "id": "W2050275580",
@@ -56530,6 +57328,39 @@
       "叶片气动设计",
       "离心压气机",
       "非定常流动"
+    ]
+  },
+  {
+    "id": "W2166992028",
+    "title": "Numerical Simulation of Air-He Shock Tube Flow with Equilibrium Air Model",
+    "date": "2012-08-10",
+    "year": 2012,
+    "authors": [
+      "Hua Chen",
+      "Chih‐Yung Wen",
+      "Chih-Kai Yang"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j051129",
+    "abstract": "2012-2013 > Academic research: refereed > Publication in refereed journal",
+    "keywords": [
+      "Shock tube",
+      "Mechanics",
+      "Computer simulation",
+      "Shock (circulatory)",
+      "Flow (mathematics)",
+      "Tube (container)",
+      "Airflow",
+      "Shock wave",
+      "Environmental science",
+      "Physics",
+      "Thermodynamics",
+      "Engineering",
+      "Mechanical engineering"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
     ]
   },
   {
@@ -76671,6 +77502,47 @@
     ]
   },
   {
+    "id": "W2765356917",
+    "title": "Novel Methodology for Viscous-Layer Meshing by the Boundary Element Method",
+    "date": "2017-10-31",
+    "year": 2017,
+    "authors": [
+      "Yao Zheng",
+      "Zhoufang Xiao",
+      "Jianjun Chen",
+      "Jifa Zhang"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056126",
+    "abstract": "A configuration of prismatic elements in boundary layers created by marching a surface triangulation on viscous walls along certain directions is a typical mesh for viscous-flow simulations. The quality of the resulting elements and the reliability of the meshing procedure thus highly depend on the computing strategy used to determine the marching directions. In this study, the authors propose to compute a field of marching directions governed by Laplacian equations. This new approach can ensure the smooth transition of marching directions, and thereby lead to more desirable element shapes. In addition, the possible intersections of boundary-layer elements growing from the opposite sides of a narrow region can be identified by analyzing the vector field. With respect to the solution of the governing equation, the boundary element method is preferred because of its advantageous solution accuracy. Because the boundary element method only needs a surface-triangulation input, there is no need to create a volume background mesh. Following the aforementioned idea, a new hybrid prismatic meshing method is developed, and the capability of the method is demonstrated by meshing experiments on models with complex geometries.",
+    "keywords": [
+      "Marching cubes",
+      "Triangulation",
+      "Fast marching method",
+      "Boundary (topology)",
+      "Finite element method",
+      "Boundary element method",
+      "Laplacian smoothing",
+      "Boundary layer",
+      "Computer science",
+      "Surface (topology)",
+      "Flow (mathematics)",
+      "Geometry",
+      "Mesh generation",
+      "Mechanics",
+      "Mathematics",
+      "Mathematical analysis",
+      "Algorithm",
+      "Structural engineering",
+      "Physics",
+      "Engineering",
+      "Artificial intelligence",
+      "Visualization"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4253155348",
     "title": "Influence of Rotor Tip Blockage on Near Stall Blade Vibrations in an Axial Compressor Rig",
     "date": "2017-11-01",
@@ -76970,6 +77842,39 @@
     "topics_matched": [
       "压缩机稳定性",
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2746561997",
+    "title": "A Combined Experimental and Numerical Investigation of the Flow and Heat Transfer Inside a Turbine Vane Cooled by Jet Impingement",
+    "date": "2017-11-13",
+    "year": 2017,
+    "authors": [
+      "Emmanuel Laroche",
+      "Matthieu Fénot",
+      "Eva Dorignac",
+      "Jean-Jacques Vuillerme",
+      "Laurent E. Brizzi",
+      "Juan Carlos Larroya"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4038411",
+    "abstract": "The present study aims at characterizing the flow field and heat transfer for a schematic but realistic vane cooling scheme. Experimentally, both velocity and heat transfer measurements are conducted to provide a detailed database of the investigated configuration. From a numerical point of view, the configuration is investigated using isotropic and anisotropic Reynolds-averaged Navier–Stokes (RANS) turbulence models. A hybrid RANS/large eddy simulation (LES) technique is also considered to evaluate potential unsteady effects. Both experimental and numerical results show a very complex three-dimensional (3D) flow. Air is not evenly distributed between different injections, mainly because of a large recirculation flow. Due to the strong flow deviation at the hole inlet, the velocity distribution and the turbulence characteristics at the hole exit are far from fully developed profiles. The comparison between particle image velocimetry (PIV) measurements and numerical results shows a reasonable agreement. However, coming to heat transfer, all RANS models exhibit a major overestimation compared to IR thermography measurements. The Billard–Laurence model does not bring any improvement compared to a classical k–ω shear stress transport (SST) model. The hybrid RANS/LES simulation provides the best heat transfer estimation, exhibiting potential unsteady effects ignored by RANS models. Those conclusions are different from the ones usually obtained for a single fully developed impinging jet.",
+    "keywords": [
+      "Reynolds-averaged Navier–Stokes equations",
+      "Mechanics",
+      "Turbulence",
+      "Heat transfer",
+      "Particle image velocimetry",
+      "Jet (fluid)",
+      "Large eddy simulation",
+      "Computational fluid dynamics",
+      "Physics",
+      "Materials science"
+    ],
+    "topics_matched": [
+      "非定常流动"
     ]
   },
   {
