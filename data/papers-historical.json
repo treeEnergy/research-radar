@@ -16319,6 +16319,23 @@
     ]
   },
   {
+    "id": "W4246413396",
+    "title": "Chronological Index",
+    "date": "1986-11-01",
+    "year": 1986,
+    "authors": [],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.51265",
+    "abstract": "",
+    "keywords": [
+      "Index (typography)",
+      "Materials science",
+      "Computer science"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2073669440",
     "title": "Inducer Stall in a Centrifugal Compressor With Inlet Distortion",
     "date": "1987-01-01",
@@ -16984,6 +17001,44 @@
       "叶尖间隙",
       "压缩机稳定性",
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2023156420",
+    "title": "Euler Analysis of the Three-Dimensional Flow Field of a High-Speed Propeller: Boundary Condition Effects",
+    "date": "1987-07-01",
+    "year": 1987,
+    "authors": [
+      "M. Nallasamy",
+      "B. J. Clark",
+      "John F. Groeneweg"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3262110",
+    "abstract": "This paper presents the results of an investigation of the effects of far field boundary conditions on the solution of the three-dimensional Euler equations governing the flow field of a high-speed single rotation propeller. The results show that the solutions obtained with the nonreflecting boundary conditions are in good agreement with experimental data. The specification of nonreflecting boundary conditions is effective in reducing the dependence of the solution on the location of the far field boundary. Details of the flow field within the blade passage and the tip vortex are presented. The dependence of the computed power coefficient on the blade setting angle is examined.",
+    "keywords": [
+      "Propeller",
+      "Rotation (mathematics)",
+      "Boundary value problem",
+      "Boundary (topology)",
+      "Mechanics",
+      "Euler's formula",
+      "Flow (mathematics)",
+      "Field (mathematics)",
+      "Vortex",
+      "Rotational speed",
+      "Euler equations",
+      "Mathematics",
+      "Mathematical analysis",
+      "Physics",
+      "Geometry",
+      "Classical mechanics",
+      "Engineering",
+      "Marine engineering"
+    ],
+    "topics_matched": [
+      "叶尖间隙"
     ]
   },
   {
@@ -26928,6 +26983,38 @@
     ]
   },
   {
+    "id": "W2045432882",
+    "title": "Effect of Wind Tunnel Acoustic Modes on Linear Oscillating Cascade Aerodynamics",
+    "date": "1994-07-01",
+    "year": 1994,
+    "authors": [
+      "Daniel H. Buffum",
+      "Sanford Fleeter"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929440",
+    "abstract": "The aerodynamics of a biconvex airfoil cascade oscillating in torsion is investigated using the unsteady aerodynamic influence coefficient technique. For subsonic flow and reduced frequencies as large as 0.9, airfoil surface unsteady pressures resulting from oscillation of one of the airfoils are measured using flush-mounted high-frequency-response pressure transducers. The influence coefficient data are examined in detail and then used to predict the unsteady aerodynamics of a cascade oscillating at various interblade phase angles. These results are correlated with experimental data obtained in the traveling-wave mode of oscillation and linearized analysis predictions. It is found that the unsteady pressure disturbances created by an oscillating airfoil excite wind tunnel acoustic modes, which have detrimental effects on the experimental results. Acoustic treatment is proposed to rectify this problem.",
+    "keywords": [
+      "Airfoil",
+      "Cascade",
+      "Aerodynamics",
+      "Wind tunnel",
+      "Oscillation (cell signaling)",
+      "Mechanics",
+      "Reduced frequency",
+      "Acoustics",
+      "Physics",
+      "Pressure coefficient",
+      "Engineering",
+      "Reynolds number"
+    ],
+    "topics_matched": [
+      "叶片气动设计",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W1995038575",
     "title": "Characterization of abrupt rotating stall initiation in an axial flow compressor",
     "date": "1994-09-01",
@@ -32495,6 +32582,38 @@
     "topics_matched": [
       "进气畸变",
       "跨音速/激波"
+    ]
+  },
+  {
+    "id": "W2025117697",
+    "title": "Closure to “Discussion of ‘The Acoustic Influence of Cell Depth on the Rotordynamic Characteristics of Smooth-Rotor/Honeycomb-Stator Annular Gas Seals’” (1997, ASME J. Eng. Gas Turbines Power, 119, p. 956)",
+    "date": "1997-10-01",
+    "year": 1997,
+    "authors": [
+      "George F. Kleynhans",
+      "D. W. Childs"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2817081",
+    "abstract": "Discussion and ConclusionsThe analysis presented demonstrates that the cells of honeycomb act to reduce the effective acoustic velocity of flow through the seal, which can drop seal acoustic natural frequencies into the frequency range of interest for rotordynamics.In these circumstances, the conventional (frequency-independent) rotordynamic-coefficient model is invalid, and a more general transfer-function model is required.The transfer functions calculated here are a lead-lag function for the direct term and a simple lag function for the cross-coupled term.Given that the lowest axial acoustic mode natural frequency is approximately wc 0 /L and the lowest circumferential mode frequency is approximately c a IR where c 0 is the effective acoustic velocity, conventional (frequency-independent) models may work for short seals with small diameters and (comparatively) low speeds.For all other cases, general transfer functions should be employed.General transfer-function models for honeycomb seals require nonconventional rotordynamics tools for stability and/or transient analysis.For synchronous response due to imbalance, running-speed-dependent stiffness and damping coefficients can be used with conventional analyses.A reasonable question to consider at this point is: Does the new model fit test data better than the old model?Unfortunately, the answer is inconclusive with respect to the authors' test data, because our feasible frequency range of excitation (40 to 70 Hz) is too restricted.Test data are needed from low frequencies out to frequencies in excess of running speed to verify the predictions of the present analysis.The test apparatus described by Childs and Hale (1994) for testing hydrostatic bearings has the required frequency range and has been modified to test liquid annular seals (Lindsey and Childs, 1995).The test rig is currently being considered for future air-seal testing.",
+    "keywords": [
+      "Stator",
+      "Rotor (electric)",
+      "Closure (psychology)",
+      "Gas turbines",
+      "Power (physics)",
+      "Mechanics",
+      "Engineering",
+      "Mechanical engineering",
+      "Materials science",
+      "Acoustics",
+      "Physics",
+      "Thermodynamics",
+      "Economics"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -39448,6 +39567,41 @@
     ],
     "topics_matched": [
       "进气畸变",
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W2052691315",
+    "title": "Unsteady Flow in a Supersonic Turbine with Variable Specific Heats",
+    "date": "2002-03-01",
+    "year": 2002,
+    "authors": [
+      "Daniel J. Dorney",
+      "Lisa W. Griffin",
+      "Frank Hüber",
+      "Douglas L. Sondak"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/2.5962",
+    "abstract": "Modern high-work turbines can be compact, transonic, supersonic, counter-rotating, or use a dense drive gas. The vast majority of modern rocket turbine designs fall into these Categories. These turbines usually have large temperature variations across a given stage, and are characterized by large amounts of flow unsteadiness. The flow unsteadiness can have a major impact on the turbine performance and durability. For example, the Space Transportation Main Engine (STME) fuel turbine, a high work, transonic design, was found to have an unsteady inter-row shock which reduced efficiency by 2 points and increased dynamic loading by 24 percent. The Revolutionary Reusable Technology Turbopump (RRTT), which uses full flow oxygen for its drive gas, was found to shed vortices with such energy as to raise serious blade durability concerns. In both cases, the sources of the problems were uncovered (before turbopump testing) with the application of validated, unsteady computational fluid dynamics (CFD) to the designs. In the case of the RRTT and the Alternate Turbopump Development (ATD) turbines, the unsteady CFD codes have been used not just to identify problems, but to guide designs which mitigate problems due to unsteadiness. Using unsteady flow analyses as a part of the design process has led to turbine designs with higher performance (which affects temperature and mass flow rate) and fewer dynamics problems. One of the many assumptions made during the design and analysis of supersonic turbine stages is that the values of the specific heats are constant. In some analyses the value is based on an average of the expected upstream and downstream temperatures. In stages where the temperature can vary by 300 to 500 K, however, the assumption of constant fluid properties may lead to erroneous performance and durability predictions. In this study the suitability of assuming constant specific heats has been investigated by performing three-dimensional unsteady Navier-Stokes simulations for a supersonic turbine stage.",
+    "keywords": [
+      "Transonic",
+      "Turbine",
+      "Computational fluid dynamics",
+      "Supersonic speed",
+      "Aerospace engineering",
+      "Mechanical engineering",
+      "Mach number",
+      "Aerodynamics",
+      "Flow (mathematics)",
+      "Mechanics",
+      "Computer science",
+      "Engineering",
+      "Physics"
+    ],
+    "topics_matched": [
+      "跨音速/激波",
       "非定常流动"
     ]
   },
@@ -46807,6 +46961,39 @@
       "叶尖间隙",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2020391923",
+    "title": "Hall Thruster Cluster Operation with a Shared Cathode",
+    "date": "2007-04-24",
+    "year": 2007,
+    "authors": [
+      "Mitchell L. R. Walker",
+      "Alec D. Gallimore"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.23688",
+    "abstract": "Peer Reviewed",
+    "keywords": [
+      "Cathode",
+      "Acceleration",
+      "Displacement (psychology)",
+      "Ion thruster",
+      "Aerospace engineering",
+      "Separation (statistics)",
+      "Cluster (spacecraft)",
+      "Mechanics",
+      "Range (aeronautics)",
+      "Materials science",
+      "Electrical engineering",
+      "Physics",
+      "Engineering",
+      "Propulsion",
+      "Computer science",
+      "Classical mechanics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2040982803",
@@ -70243,6 +70430,46 @@
     ]
   },
   {
+    "id": "W2136088098",
+    "title": "Loss and Deviation in Windmilling Fans",
+    "date": "2016-03-25",
+    "year": 2016,
+    "authors": [
+      "E. J. Gunn",
+      "Cesare A. Hall"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4033163",
+    "abstract": "For an unpowered turbofan in flight, the airflow through the engine causes the fan to freewheel. This paper considers the flow field through a fan operating in this mode, with emphasis on the effects of blade row losses and deviation. A control volume analysis is used to show that windmilling fans operate at a fixed flow coefficient which depends on the blade metal and deviation angles, while the blade row losses are shown to determine the fan mass flow rate. Experimental and numerical results are used to understand how the loss and deviation differ from the design condition due to the flow physics encountered at windmill. Results are presented from an experimental study of a windmilling low-speed rig fan, including detailed area traverses downstream of the rotor and stator. Three-dimensional computational fluid dynamics (CFD) calculations of the fan rig and a representative transonic fan windmilling at a cruise flight condition have also been completed. The rig test results confirm that in the windmilling condition, the flow through the fan stator separates from the pressure surface over most of the span. This generates high loss, and the resulting blockage changes the rotor work profile leading to modified rotational speed. In the engine fan rotor, a vortex forms at the pressure surface near the tip and further loss results from a hub separation caused by blockage from the downstream core and splitter.",
+    "keywords": [
+      "Turbofan",
+      "Mechanical fan",
+      "Stator",
+      "Rotor (electric)",
+      "Computational fluid dynamics",
+      "Transonic",
+      "Mechanics",
+      "Axial compressor",
+      "Flow (mathematics)",
+      "Vortex",
+      "Static pressure",
+      "Rotational speed",
+      "Engineering",
+      "Marine engineering",
+      "Structural engineering",
+      "Aerospace engineering",
+      "Physics",
+      "Mechanical engineering",
+      "Aerodynamics",
+      "Gas compressor"
+    ],
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2283861182",
     "title": "Enhancement of Centrifugal Compressor Operating Range by Control of Inlet Recirculation With Inlet Fins",
     "date": "2016-03-28",
@@ -82139,6 +82366,53 @@
       "Physics",
       "Turbulence",
       "Reynolds number"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2901275875",
+    "title": "Propulsive Performance and Heating Environment of Rotating Detonation Engine with Various Nozzles",
+    "date": "2018-11-12",
+    "year": 2018,
+    "authors": [
+      "Keisuké Goto",
+      "Junpei Nishimura",
+      "Akira Kawasaki",
+      "Ken Matsuoka",
+      "Jiro Kasahara",
+      "Akiko Matsuo",
+      "Ikkoh Funaki",
+      "Daisuke Nakata",
+      "Masaharu UCHIUMI",
+      "Kazuyuki Higashino"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.b37196",
+    "abstract": "Geometric throats are commonly applied to rocket combustors to increase pressure and specific impulse. This paper presents the results from thrust measurements of an ethylene/gas-oxygen rotating detonation engine with various throat geometries in a vacuum chamber to simulate varied backpressure conditions in a range of 1.1–104 kPa. For the throatless case, the detonation channel area was regarded to be equivalent the throat area, and three throat-contraction ratios were tested: 1, 2.5, and 8. Results revealed that combustor pressure was approximately proportional to equivalent throat mass flux for all test cases. Specific impulse was measured for a wide range of pressure ratios, defined as the ratio of the combustor pressure to the backpressure in the vacuum chamber. The rotating detonation engine could achieve almost the same level of optimum specific impulse for each backpressure, whether or not flow was squeezed by a geometric throat. In addition, heat-flux measurements using heat-resistant material are summarized. Temporally and spatially averaged heat flux in the engine were roughly proportional to channel mass flux. Heat-resistant material wall compatibility with two injector shapes of doublet and triplet injection is also discussed.",
+    "keywords": [
+      "Mechanics",
+      "Detonation",
+      "Specific impulse",
+      "Combustor",
+      "Heat flux",
+      "Injector",
+      "Rocket engine",
+      "Materials science",
+      "Nozzle",
+      "Thrust",
+      "Combustion chamber",
+      "Mass flux",
+      "Chamber pressure",
+      "Impulse (physics)",
+      "Mass flow",
+      "Heat transfer",
+      "Mechanical engineering",
+      "Combustion",
+      "Physics",
+      "Engineering",
+      "Chemistry",
+      "Classical mechanics"
     ],
     "topics_matched": []
   },
