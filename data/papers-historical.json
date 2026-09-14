@@ -266,6 +266,109 @@
     ]
   },
   {
+    "id": "W1983315602",
+    "title": "Discussion: “Analysis of Axially Loaded Annular Shells With Applications to Welded Bellows” (Hetenyi, M., and Timms, R. J., 1960, ASME J. Basic Eng., 82, pp. 741–753)",
+    "date": "1960-09-01",
+    "year": 1960,
+    "authors": [
+      "Melville F. Peters"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3662738",
+    "abstract": "Substituting the real and the imaginary parts of W and W' into the formulas in equation (g), we obtain (3, ty and /3', ty' of equations ( 8) to (11) in the first part of the paper.By means of these, the stress and displacement components can be calculated from equations (1) to (7).",
+    "keywords": [
+      "Bellows",
+      "Axial symmetry",
+      "Welding",
+      "Materials science",
+      "Engineering",
+      "Structural engineering",
+      "Mechanics",
+      "Physics",
+      "Mechanical engineering",
+      "Composite material"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2053780961",
+    "title": "Discussion: “The Twin Throat Venturi: A New Fluid-Flow Measuring Device” (Kalinske, A. A., 1960, ASME J. Basic Eng., 82, pp. 710–713)",
+    "date": "1960-09-01",
+    "year": 1960,
+    "authors": [
+      "Marvin Bogema"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3662713",
+    "abstract": "DISCUSSION Marvin Bogerna 7The search for a differential metering device with low head loss characteristic has been going on for some time and has now produced two types of meters, one of which is described by the author.Both the Dall tube and the Twin Throat Venturi accomplish this by locating the throat pressure tap at a point where it is subject to both the pressure drop due to the normal Bernoulli effect, and a local radial acceleration near the meter wall.For a given rate of flow and beta ratio, this location for the throat tap results in a much greater pressure differential than is found in the standard venturi.If these new types of meters are compared with a standard venturi meter for conditions giving the same flow rate and the same differential head, it is found that the new meters will have a larger beta ratio and therefore would tend to have a smaller over-all head loss.Since it is customary to express the head loss for a given meter as a per cent of the differential head, a comparison of the over-all losses can be made as was shown in the author's Fig. 2.",
+    "keywords": [
+      "Venturi effect",
+      "Throat",
+      "Flow (mathematics)",
+      "Mechanics",
+      "Mechanical engineering",
+      "Engineering",
+      "Physics",
+      "Medicine",
+      "Surgery"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
+    "id": "W2080006231",
+    "title": "Discussion: “Analysis of Axially Loaded Annular Shells With Applications to Welded Bellows” (Hetenyi, M., and Timms, R. J., 1960, ASME J. Basic Eng., 82, pp. 741–753)",
+    "date": "1960-09-01",
+    "year": 1960,
+    "authors": [
+      "Norman C. Dahl"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3662736",
+    "abstract": "Substituting the real and the imaginary parts of W and W' into the formulas in equation (g), we obtain (3, ty and /3', ty' of equations ( 8) to (11) in the first part of the paper.By means of these, the stress and displacement components can be calculated from equations (1) to (7).",
+    "keywords": [
+      "Bellows",
+      "Axial symmetry",
+      "Welding",
+      "Materials science",
+      "Structural engineering",
+      "Engineering",
+      "Mechanical engineering",
+      "Mechanics",
+      "Physics"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2084606623",
+    "title": "Discussion: “Analysis of Axially Loaded Annular Shells With Applications to Welded Bellows” (Hetenyi, M., and Timms, R. J., 1960, ASME J. Basic Eng., 82, pp. 741–753)",
+    "date": "1960-09-01",
+    "year": 1960,
+    "authors": [
+      "J. D. Howell"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3662737",
+    "abstract": "Substituting the real and the imaginary parts of W and W' into the formulas in equation (g), we obtain (3, ty and /3', ty' of equations ( 8) to (11) in the first part of the paper.By means of these, the stress and displacement components can be calculated from equations (1) to (7).",
+    "keywords": [
+      "Bellows",
+      "Axial symmetry",
+      "Welding",
+      "Materials science",
+      "Engineering",
+      "Structural engineering",
+      "Mechanical engineering",
+      "Composite material",
+      "Metallurgy"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2059320714",
     "title": "Closure to “Discussions of ‘Throat Tap Nozzles Used for Accurate Flow Measurements’” (1960, ASME J. Eng. Power, 82, pp. 253–261)",
     "date": "1960-10-01",
@@ -555,6 +658,35 @@
     ]
   },
   {
+    "id": "W2011010245",
+    "title": "Discussion: “Cooling Tower Fan Performance” (Forman, George W., and Kelly, Neil W., 1961, ASME J. Eng. Power, 83, pp. 155–159)",
+    "date": "1961-04-01",
+    "year": 1961,
+    "authors": [
+      "Johan Holmberg"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3673157",
+    "abstract": "",
+    "keywords": [
+      "George (robot)",
+      "Cooling tower",
+      "Tower",
+      "Power (physics)",
+      "Engineering",
+      "Electrical engineering",
+      "Physics",
+      "Mechanical engineering",
+      "Art",
+      "Art history",
+      "Structural engineering",
+      "Water cooling",
+      "Thermodynamics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2062371708",
     "title": "Closure to “Discussions of ‘The Volume of Stressed Material Involved in the Rolling of a Ball’” (1961, ASME J. Basic Eng., 83, pp. 167–168)",
     "date": "1961-06-01",
@@ -813,6 +945,32 @@
     ]
   },
   {
+    "id": "W1968982454",
+    "title": "Discussion: “The Hydraulic Analogy Applied to Nonsteady, Two-Dimensional Flow in the Partial-Admission Turbine” (Heen, Helge K., and Mann, Robert W., 1961, ASME J. Basic Eng., 83, pp. 408–419)",
+    "date": "1961-09-01",
+    "year": 1961,
+    "authors": [
+      "H.G. Kraft"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3658986",
+    "abstract": "",
+    "keywords": [
+      "Analogy",
+      "Turbine",
+      "Hydraulic turbines",
+      "Engineering",
+      "Physics",
+      "Geology",
+      "Mechanics",
+      "Thermodynamics",
+      "Philosophy",
+      "Epistemology"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2067842285",
     "title": "Discussion: “A Preliminary Study of Turbulence Characteristics of Flow Along a Corner” (Gessner, F. B., and Jones, J. B., 1961, ASME J. Basic Eng., 83, pp. 657–661)",
     "date": "1961-12-01",
@@ -861,6 +1019,27 @@
       "Political science"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2036337854",
+    "title": "Discussion: “Flow Regimes in Curved Subsonic Diffusers” (Fox, R. W., and Kline, S. J., 1962, ASME J. Basic Eng., 84, pp. 303–312)",
+    "date": "1962-09-01",
+    "year": 1962,
+    "authors": [
+      "H.G. Kraft"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3657310",
+    "abstract": "he line joining the peaks approaches a line of constant area ratio.4 The angle of transition to fully developed stall, line b-b, monotonically decreases with increased turning angle at constant A r /TFi for all turning angles and N/Wi tested.5 Secondary flow in the form of a roller of fixed height, independent of water depth (measured from the parallel wall or floor) was observed for all diffuser geometries at turning angles equal to, or greater than, 40 deg.6 As the radius of curvature of the inner wall is decreased (small N/Wi, large |3), the flow along the inner wall tended to remain laminar.7 Reasonable variations of inlet velocity profile have only a slight effect on the location of first appreciable stall.",
+    "keywords": [
+      "Flow (mathematics)",
+      "Mechanics",
+      "Physics"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
   },
   {
     "id": "W2060842176",
@@ -2041,6 +2220,62 @@
     ]
   },
   {
+    "id": "W1983790783",
+    "title": "Discussion: “The Static and Dynamic Characteristics of the Spiral-Grooved Thrust Bearing” (Malanoski, S. B., and Pan, C. H. T., 1965, ASME J. Basic Eng., 87, pp. 547–555)",
+    "date": "1965-09-01",
+    "year": 1965,
+    "authors": [
+      "E.A. Muijderman"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3650604",
+    "abstract": "",
+    "keywords": [
+      "Spiral (railway)",
+      "Thrust bearing",
+      "Bearing (navigation)",
+      "Thrust",
+      "Structural engineering",
+      "Engineering",
+      "Materials science",
+      "Physics",
+      "Geology",
+      "Mechanical engineering"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2023694598",
+    "title": "Closure to “Discussion of ‘The Static and Dynamic Characteristics of the Spiral-Grooved Thrust Bearing’” (1965, ASME J. Basic Eng., 87, pp. 555–556)",
+    "date": "1965-09-01",
+    "year": 1965,
+    "authors": [
+      "S. B. Malanoski",
+      "C. H. T. Pan"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3650605",
+    "abstract": "",
+    "keywords": [
+      "Closure (psychology)",
+      "Spiral (railway)",
+      "Thrust",
+      "Thrust bearing",
+      "Bearing (navigation)",
+      "Engineering",
+      "Structural engineering",
+      "Mechanical engineering",
+      "Materials science",
+      "Mechanics",
+      "Physics",
+      "Law",
+      "Political science"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2044063050",
     "title": "Turbulence spectra in a reacting gas.",
     "date": "1965-10-01",
@@ -2144,6 +2379,29 @@
       "进气畸变",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W1992876496",
+    "title": "Discussion: “Three-Dimensional Theory of Incompressible and Inviscid Flow Through Mixed Flow Turbomachines” (Schilhansl, M. J., 1965, ASME J. Eng. Power, 87, pp. 361–372)",
+    "date": "1965-10-01",
+    "year": 1965,
+    "authors": [
+      "L. H. Smith"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3678278",
+    "abstract": "",
+    "keywords": [
+      "Inviscid flow",
+      "Flow (mathematics)",
+      "Compressibility",
+      "Mechanics",
+      "Power (physics)",
+      "Physics",
+      "Thermodynamics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2055561823",
@@ -3291,6 +3549,55 @@
     "topics_matched": []
   },
   {
+    "id": "W1969983147",
+    "title": "Discussion: “An Evaluation of the Hydrogen Bubble Technique for the Quantitative Determination of Fluid Velocities Within Clear Tubes” (Davis, W., and Fox, R. W., 1967, ASME J. Basic Eng., 89, pp. 771–777)",
+    "date": "1967-12-01",
+    "year": 1967,
+    "authors": [
+      "L. E. Jones",
+      "Ramesh N. Ingle"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3609703",
+    "abstract": "DISCUSSION K. H. Haywood 2 and C",
+    "keywords": [
+      "Bubble",
+      "Thermodynamics",
+      "Materials science",
+      "Mechanics",
+      "Physics"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2031327153",
+    "title": "Discussion: “An Evaluation of the Hydrogen Bubble Technique for the Quantitative Determination of Fluid Velocities Within Clear Tubes” (Davis, W., and Fox, R. W., 1967, ASME J. Basic Eng., 89, pp. 771–777)",
+    "date": "1967-12-01",
+    "year": 1967,
+    "authors": [
+      "F.A. Schraub",
+      "S. J. Kline",
+      "H. T. Kim"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3609704",
+    "abstract": "DISCUSSION K. H. Haywood 2 and C",
+    "keywords": [
+      "Bubble",
+      "Hydrogen",
+      "Gas bubble",
+      "Mechanics",
+      "Thermodynamics",
+      "Materials science",
+      "Physics",
+      "Mechanical engineering",
+      "Engineering"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W1976555934",
     "title": "Frequency-Dependent Friction in Transient Pipe Flow",
     "date": "1968-03-01",
@@ -3389,6 +3696,31 @@
     "topics_matched": [
       "叶尖间隙",
       "离心压气机"
+    ]
+  },
+  {
+    "id": "W2013347028",
+    "title": "Discussion: “Testing Pumps in Air” (King, J. A., 1968, ASME J. Eng. Power, 90, pp. 97–104)",
+    "date": "1968-04-01",
+    "year": 1968,
+    "authors": [
+      "G. F. Wislicenus"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3609142",
+    "abstract": "Testing Pumps in AirResearch on pumps, particularly those for transporting cryogenic fluids, is very expensive.Rocketdyne has tested pumps with air as the working fluid, and has found that a very good correlation exists between air test data and liquid test data.This paper gives a description of the air rigs used by Rocketdyne and compares the data taken in air with data taken in water, LOX, RP-1, and liquid hydrogen.Also presented is the effect of tip clearance on the head of an axial-flow pump as determined from air tests.Fig.I Mark 4 pump on an air rig",
+    "keywords": [
+      "Power (physics)",
+      "Engineering",
+      "Mechanical engineering",
+      "Physics",
+      "Environmental science",
+      "Nuclear engineering",
+      "Thermodynamics"
+    ],
+    "topics_matched": [
+      "叶尖间隙"
     ]
   },
   {
@@ -3775,6 +4107,31 @@
     ]
   },
   {
+    "id": "W2065909336",
+    "title": "Discussion: “Some Correlations of Theory and Experiment for Developing Turbulent Free Shear Layers” (Lamb, J. P., and Bass, R. L., 1968, ASME J. Basic Eng., 90, pp. 572–578)",
+    "date": "1968-12-01",
+    "year": 1968,
+    "authors": [
+      "William G. Hill"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3605197",
+    "abstract": "",
+    "keywords": [
+      "Bass (fish)",
+      "Turbulence",
+      "Shear (geology)",
+      "Physics",
+      "Mechanics",
+      "Geology",
+      "Materials science",
+      "Oceanography",
+      "Composite material"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2108179331",
     "title": "New features of the method of integral relations for the blunt body problem.",
     "date": "1969-02-01",
@@ -4017,6 +4374,31 @@
     "topics_matched": []
   },
   {
+    "id": "W4248206841",
+    "title": "Discussion: “The Unsteady Flow and Wake Near an Oscillating Cylinder” (Toebes, G. H., 1969, ASME J. Basic Eng., 91, pp. 493–502)",
+    "date": "1969-12-01",
+    "year": 1969,
+    "authors": [
+      "V. W. Goldschmidt"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3571235",
+    "abstract": "",
+    "keywords": [
+      "Wake",
+      "Cylinder",
+      "Mechanics",
+      "Flow (mathematics)",
+      "Physics",
+      "Engineering",
+      "Mechanical engineering"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W4241560661",
     "title": "Unsteady Flow Phenomena in Rotating Centrifugal Impeller Passages",
     "date": "1970-01-01",
@@ -4063,6 +4445,38 @@
       "Power (physics)",
       "Flow (mathematics)",
       "Thermodynamics"
+    ],
+    "topics_matched": [
+      "离心压气机",
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W2075656845",
+    "title": "Closure to “Discussions of ‘Unsteady Flow Phenomena in Rotating Centrifugal Impeller Passages’” (1970, ASME J. Eng. Power, 92, pp. 71–72)",
+    "date": "1970-01-01",
+    "year": 1970,
+    "authors": [
+      "E. Lennemann",
+      "J. H. G. Howard"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445305",
+    "abstract": "6 At zero flow there is a strong momentum exchange between diffuse!' and impeller.The investigation of diffuser influence on the passage stall was not carried out as part of the present study, but it is felt that the interaction between impeller, secondary flow, and diffuser entry region could explain some of the desirable characteristics of the pipe diffuser [14],",
+    "keywords": [
+      "Impeller",
+      "Closure (psychology)",
+      "Mechanics",
+      "Flow (mathematics)",
+      "Power (physics)",
+      "Centrifugal pump",
+      "Physics",
+      "Mechanical engineering",
+      "Engineering",
+      "Thermodynamics",
+      "Political science",
+      "Law"
     ],
     "topics_matched": [
       "离心压气机",
@@ -4925,6 +5339,33 @@
       "Optics",
       "Political science",
       "Law"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W1995587974",
+    "title": "Discussion: “An Axial Compressor End-Wall Boundary Layer Theory” (Mellor, G. L., and Wood, G. M., 1971, ASME J. Basic Eng., 93, pp. 300–314)",
+    "date": "1971-06-01",
+    "year": 1971,
+    "authors": [
+      "J. H. Horlock",
+      "D. Hoadley"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3425232",
+    "abstract": "",
+    "keywords": [
+      "Boundary layer",
+      "Gas compressor",
+      "Boundary (topology)",
+      "Materials science",
+      "Mechanical engineering",
+      "Engineering",
+      "Mechanics",
+      "Physics",
+      "Mathematics",
+      "Mathematical analysis"
     ],
     "topics_matched": []
   },
@@ -6324,6 +6765,55 @@
     ]
   },
   {
+    "id": "W1986580665",
+    "title": "Discussion: “Investigation of the Aerodynamic Performance of Small Axial Turbines” (Ewen, J. S., Huber, F. W., and Mitchell, J. P., 1973, ASME J. Eng. Power, 95, pp. 326–332)",
+    "date": "1974-07-01",
+    "year": 1974,
+    "authors": [
+      "Elissa Lister"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445839",
+    "abstract": "",
+    "keywords": [
+      "Aerodynamics",
+      "Physics",
+      "Power (physics)",
+      "Materials science",
+      "Mechanics",
+      "Thermodynamics"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2062071145",
+    "title": "Discussion: “Some Effects of Variable Surface Temperature on Heat Transfer to a Partially Porous Flat Plate” (Nealy, D. A., 1973, ASME J. Eng. Power, 95, pp. 319–325)",
+    "date": "1974-07-01",
+    "year": 1974,
+    "authors": [
+      "W. Tabakoff"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445837",
+    "abstract": "",
+    "keywords": [
+      "Heat transfer",
+      "Materials science",
+      "Porosity",
+      "Surface (topology)",
+      "Mechanics",
+      "Power (physics)",
+      "Thermodynamics",
+      "Physics",
+      "Composite material",
+      "Geometry",
+      "Mathematics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2040910257",
     "title": "Model Wall and Recovery Temperature Effects on Experimental Heat-Transfer Data Analysis",
     "date": "1974-09-01",
@@ -6494,6 +6984,33 @@
     "topics_matched": [
       "压缩机稳定性"
     ]
+  },
+  {
+    "id": "W2043743318",
+    "title": "Discussion: “End-Wall Boundary Layers in Axial Compressors” (Hirsch, Ch., 1974, ASME J. Eng. Power, 96, pp. 413–426)",
+    "date": "1974-10-01",
+    "year": 1974,
+    "authors": [
+      "George L. Mellor"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445868",
+    "abstract": "",
+    "keywords": [
+      "Gas compressor",
+      "Boundary (topology)",
+      "Mechanical engineering",
+      "Power (physics)",
+      "Materials science",
+      "Engineering",
+      "Mechanics",
+      "Physics",
+      "Thermodynamics",
+      "Mathematics",
+      "Mathematical analysis"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W1634350261",
@@ -19447,6 +19964,37 @@
       "Classical mechanics",
       "Computer science",
       "Engineering"
+    ],
+    "topics_matched": [
+      "进气畸变"
+    ]
+  },
+  {
+    "id": "W1971888664",
+    "title": "Closure to “Discussions of ‘A Ruggedized Design Approach to Reduce Maintenance and Enhance the Efficiency of High and Intermediate Pressure Steam Turbines’” (1989, ASME J. Eng. Gas Turbines Power, 111, p. 625)",
+    "date": "1989-10-01",
+    "year": 1989,
+    "authors": [
+      "L. Conway",
+      "Harry F. Martin",
+      "Adam Stock",
+      "Filippo Vaccaro"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3240301",
+    "abstract": "The authors are complimented on their paper, which depicts a number of significant design improvements that are expected to produce both efficiency and reliability benefits.It is noted that the use of countersunk riveted blading to accommodate multiple radial seals on the spring-backed rings also avoids rivet erosion from abrasion.The reversal of the nozzle chamber is intended to improve the HP turbine efficiency.Hopefully, this is achieved without creating an excessively high partial arc stimulus on the downstream reaction blading due to the shorter steam path.The 180 deg ring-type nozzle chambers with removable nozzle blocks should be a distinct structural advantage while retaining access and ease of repair for the blocks.Monoblock constructed blading is another significant feature, which should reduce assembly distortion and associated stress.Care should be given to stresses at the axial pin holes in the blades and disk, particularly at the corners and with respect to an interference fit pin.Of course, since the blading is manufactured as a set, it requires diffusion alloying rather than plasma spray for abrasion protection.Spring-back seals, particularly of the repairable type, should be an attractive feature, along with the other improvements mentioned.Spring-backed seals for use in the IP turbine also appear to be quite compatible with the integral covered blading, due to the absence of tenon rivets.The authors have clearly shown that the current lull in power plant construction can be effectively used to develop needed improvements, which can be applied to both existing and future units.",
+    "keywords": [
+      "Closure (psychology)",
+      "Gas turbines",
+      "Steam turbine",
+      "Engineering",
+      "Power (physics)",
+      "Environmental science",
+      "Mechanical engineering",
+      "Thermodynamics",
+      "Economics",
+      "Physics"
     ],
     "topics_matched": [
       "进气畸变"
@@ -47929,6 +48477,40 @@
     ],
     "topics_matched": [
       "叶尖间隙"
+    ]
+  },
+  {
+    "id": "W1986071384",
+    "title": "Reliability-Based Design of a Slat-Track Fatigue Life Using Mesh Morphing Technology",
+    "date": "2008-01-01",
+    "year": 2008,
+    "authors": [
+      "Roberto d’Ippolito",
+      "Stijn Donders",
+      "Michael Hack",
+      "G Van Der Linden",
+      "Dirk Vandepitte",
+      "David Moens"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.29686",
+    "abstract": "Although the aerospace production process is much better controlled than in other industries, it remains true that very small manufacturing tolerances exist in the geometrical parameters such as flange thickness and hole diameters. In the current design process, the effect of this manufacturing variability on the structural durability and safety cannot be accurately assessed and is hence compensated for by applying safety factors. This is not an ideal situation, because it may lead to slightly overdesigned structures. A much more promising approach is to include probabilistic models of design variables into the mechanical simulation process. With a new methodology based on reliability analysis, engineers can obtain a better understanding of the actual effect of the manufacturing tolerances and of variability in material properties. Based on the analysis results, the robustness and reliability of the design can be assessed and improved if needed. In this paper, the aforementioned probabilistic approach is demonstrated on a slat-track structure. Measurements of different geometrical properties were collected during the manufacturing process and their variability was characterized probabilistically with statistical models. Then a reliability analysis was carried out using mesh morphing technology and fatigue life predictions with an industrial-sized finite element model of the slat track to assess the reliability of the structure in terms of fatigue life. The outcome of the analysis consists of a probabilistic model of the structural performance (e.g., fatigue life for the slat track), given the variability in the geometrical parameters. Then a reliability-based design optimization procedure was carried out to improve the design of the slat track while maintaining the same reliability of the nominal design. Copyright © 2007 by LMS International.",
+    "keywords": [
+      "Morphing",
+      "Reliability (semiconductor)",
+      "Structural engineering",
+      "Track (disk drive)",
+      "Computer science",
+      "Structural reliability",
+      "Reliability engineering",
+      "Engineering",
+      "Mechanical engineering",
+      "Computer graphics (images)",
+      "Artificial intelligence"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
     ]
   },
   {
@@ -80703,6 +81285,35 @@
     "topics_matched": [
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2806340698",
+    "title": "Characterization of Limacon Gas Expanders With Consideration to the Dynamics of Apex Seals and Inlet Control Valve",
+    "date": "2018-07-21",
+    "year": 2018,
+    "authors": [
+      "Truong H. Phung",
+      "Ibrahim A. Sultan"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4040418",
+    "abstract": "Limaçon machine, of which the relative motion between the rotor and housing follows the limaçon curve, belongs to a class of rotary positive displacement machines. The profiles of rotors and housings of those machines can be constructed of either limaçon or circular curves, hence the names: limaçon-to-limaçon, circolimaçon, and limaçon-to-circular machines. This paper presents the investigation into the thermodynamic performance of the limaçon-to-circular machines with the presence of apex seals and inlet valve. This paper sets out by briefly introducing the limaçon technology and the construction of the limaçon-to-circular machine working volume. The mathematical descriptions of ports' positions and areas have also been introduced. The paper then discusses the flow and phase composition of working fluid through the working chambers as well as how the fluid velocity is modeled and calculated. Then the seal dynamic model and response of inlet valve are presented followed by the machine thermodynamic model. A case study has also been presented to show the responses of seals and inlet valve during the machine operation.",
+    "keywords": [
+      "Inlet",
+      "Rotor (electric)",
+      "Mechanical engineering",
+      "Seal (emblem)",
+      "Flow (mathematics)",
+      "Mechanics",
+      "Displacement (psychology)",
+      "Volume (thermodynamics)",
+      "Engineering",
+      "Physics",
+      "Thermodynamics",
+      "Geography"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2883147848",
