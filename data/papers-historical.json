@@ -31273,6 +31273,32 @@
     ]
   },
   {
+    "id": "W1971739904",
+    "title": "Discussion: “The Synchronous Instability of a Compressor Rotor Due to Bearing Journal Differential Heating” (de Jongh, F. M., and Morton, P. G., 1996, ASME J. Eng. Gas Turbines Power, 118, pp. 816–823)",
+    "date": "1996-10-01",
+    "year": 1996,
+    "authors": [
+      "R. Holmes"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2816999",
+    "abstract": "The authors describe a very interesting rotor dynamic phenomenon.The results cast a new light on certain aspects of the design of high-speed rotating machines.I would be grateful for the author's comments on the following two questions:",
+    "keywords": [
+      "Gas compressor",
+      "Rotor (electric)",
+      "Gas turbines",
+      "Bearing (navigation)",
+      "Mechanical engineering",
+      "Materials science",
+      "Physics",
+      "Engineering"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
     "id": "W2000167800",
     "title": "Spatial evolution of a monochromatically forced flat-plate wake",
     "date": "1996-11-01",
@@ -59890,6 +59916,46 @@
     ],
     "topics_matched": [
       "进气畸变"
+    ]
+  },
+  {
+    "id": "W1966303177",
+    "title": "Four Decades of Studying Global Linear Instability: Progress and Challenges",
+    "date": "2012-11-27",
+    "year": 2012,
+    "authors": [
+      "Francisco Gómez",
+      "Soledad Le Clainche",
+      "Pedro Paredes",
+      "Miguel Hermanns",
+      "Vassilios Theofilis"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j051527",
+    "abstract": "Global linear instability theory is concerned with the temporal or spatial development of small-amplitude perturbations superposed upon laminar steady or time-periodic three-dimensional flows, which are inhomogeneous in two(and periodic in one)or all three spatial directions.After a brief exposition of the theory,some recent advances are reported. First, results are presented on the implementation of a Jacobian-free Newton–Krylov time-stepping method into a standard finite-volume aerodynamic code to obtain global linear instability results in flows of industrial interest. Second, connections are sought between established and more-modern approaches for structure identification in flows, such as proper orthogonal decomposition and Koopman modes analysis (dynamic mode decomposition), and the possibility to connect solutions of the eigenvalue problem obtained by matrix formation or time-stepping with those delivered by dynamic mode decomposition, residual algorithm, and proper orthogonal decomposition analysis is highlighted in the laminar regime; turbulent and three-dimensional flows are identified as open areas for future research. Finally, a new stable very-high-order finite-difference method is implemented for the spatial discretization of the operators describing the spatial biglobal eigenvalue problem, parabolized stability equation three-dimensional analysis, and the triglobal eigenvalue problem; it is shown that, combined with sparse matrix treatment, all these problems may now be solved on standard desktop computers",
+    "keywords": [
+      "Jacobian matrix and determinant",
+      "Dynamic mode decomposition",
+      "Eigenvalues and eigenvectors",
+      "Instability",
+      "Applied mathematics",
+      "Mathematics",
+      "Discretization",
+      "Laminar flow",
+      "Floquet theory",
+      "Finite volume method",
+      "Temporal discretization",
+      "Aerodynamics",
+      "Mathematical analysis",
+      "Mathematical optimization",
+      "Physics",
+      "Mechanics",
+      "Nonlinear system"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
     ]
   },
   {
