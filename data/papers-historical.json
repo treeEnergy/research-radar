@@ -61,6 +61,24 @@
     "topics_matched": []
   },
   {
+    "id": "W2006650176",
+    "title": "Discussion: “Water-Hammer Damage to Oigawa Power Station” (Bonin, C. C., 1960, ASME J. Eng. Power, 82, pp. 111–116)",
+    "date": "1960-04-01",
+    "year": 1960,
+    "authors": [
+      "G. S. Bingham"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3672722",
+    "abstract": "",
+    "keywords": [
+      "water hammer",
+      "nuclear power plant piping"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2010187835",
     "title": "Use of the Moire´ Effect to Measure Plastic Strains",
     "date": "1960-06-01",
@@ -619,6 +637,66 @@
       "Mechanical engineering",
       "Physics",
       "Thermodynamics"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W1968966582",
+    "title": "Discussion: “A New Runaway Speed Limiter for Kaplan Turbines” (Voaden, G. H., 1961, ASME J. Eng. Power, 83, pp. 19–27)",
+    "date": "1961-01-01",
+    "year": 1961,
+    "authors": [
+      "Henri Giraud"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3673111",
+    "abstract": "This paper appears to us to be a sound and explicit discussion of means for limiting overspeeds of adjustable-blade turbines of great practicable and commerical value.However, we feel that the author is too casual in dismissing the substitution of a properly installed blade-tilt solenoid instead of the limiter valves to bring the runner blades to high-blade angle in order to reduce overspeeds.Considerable initial cost can be saved by the elimination of the limiter valves if this can be done without sacrificing safety.He appears to consider the blade-tilt solenoid as unreliable because 1 Oil pressure may fail. 2 It ma)' be disconnected.3 It may not function properly.With regard to these objections, we submit this discussion with the accompanying simplified schematic diagram of the modifications to a standard blade control mechanism adapting the bladetilt solenoid for this purpose.1 Any pilot-operated blade-distributing valve can be arranged so that, on loss of control pressure, the valve will automatically move to the blade opening position so that the runner blades may move to the full pitch position.For the configura-4 Engineer, Woodward Governor Company, Rockford, 111.Mem.ASME.",
+    "keywords": [
+      "Kaplan turbine",
+      "overspeed protection",
+      "pilot-operated valves",
+      "turbine safety"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W1998824515",
+    "title": "Discussion: “A New Runaway Speed Limiter for Kaplan Turbines” (Voaden, G. H., 1961, ASME J. Eng. Power, 83, pp. 19–27)",
+    "date": "1961-01-01",
+    "year": 1961,
+    "authors": [
+      "H. R. Sills"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3673117",
+    "abstract": "This paper appears to us to be a sound and explicit discussion of means for limiting overspeeds of adjustable-blade turbines of great practicable and commerical value.However, we feel that the author is too casual in dismissing the substitution of a properly installed blade-tilt solenoid instead of the limiter valves to bring the runner blades to high-blade angle in order to reduce overspeeds.Considerable initial cost can be saved by the elimination of the limiter valves if this can be done without sacrificing safety.He appears to consider the blade-tilt solenoid as unreliable because 1 Oil pressure may fail. 2 It ma)' be disconnected.3 It may not function properly.With regard to these objections, we submit this discussion with the accompanying simplified schematic diagram of the modifications to a standard blade control mechanism adapting the bladetilt solenoid for this purpose.1 Any pilot-operated blade-distributing valve can be arranged so that, on loss of control pressure, the valve will automatically move to the blade opening position so that the runner blades may move to the full pitch position.For the configura-4 Engineer, Woodward Governor Company, Rockford, 111.Mem.ASME.",
+    "keywords": [
+      "Kaplan turbine",
+      "overspeed protection",
+      "pilot-operated valves",
+      "turbine safety"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2074442777",
+    "title": "Discussion: “A New Runaway Speed Limiter for Kaplan Turbines” (Voaden, G. H., 1961, ASME J. Eng. Power, 83, pp. 19–27)",
+    "date": "1961-01-01",
+    "year": 1961,
+    "authors": [
+      "Jacques Duport"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3673110",
+    "abstract": "This paper appears to us to be a sound and explicit discussion of means for limiting overspeeds of adjustable-blade turbines of great practicable and commerical value.However, we feel that the author is too casual in dismissing the substitution of a properly installed blade-tilt solenoid instead of the limiter valves to bring the runner blades to high-blade angle in order to reduce overspeeds.Considerable initial cost can be saved by the elimination of the limiter valves if this can be done without sacrificing safety.He appears to consider the blade-tilt solenoid as unreliable because 1 Oil pressure may fail. 2 It ma)' be disconnected.3 It may not function properly.With regard to these objections, we submit this discussion with the accompanying simplified schematic diagram of the modifications to a standard blade control mechanism adapting the bladetilt solenoid for this purpose.1 Any pilot-operated blade-distributing valve can be arranged so that, on loss of control pressure, the valve will automatically move to the blade opening position so that the runner blades may move to the full pitch position.For the configura-4 Engineer, Woodward Governor Company, Rockford, 111.Mem.ASME.",
+    "keywords": [
+      "Kaplan turbine",
+      "overspeed protection",
+      "pilot-operated valves",
+      "turbine safety"
     ],
     "topics_matched": []
   },
@@ -1789,6 +1867,25 @@
     ]
   },
   {
+    "id": "W2065625977",
+    "title": "Closure to “Discussion of ‘Typical Performance Characteristics of Gas Turbine Radial Compressors’” (1964, ASME J. Eng. Power, 86, pp. 170–174)",
+    "date": "1964-04-01",
+    "year": 1964,
+    "authors": [
+      "Colin Rodgers"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3677570",
+    "abstract": "",
+    "keywords": [
+      "compressor characteristics"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
+  },
+  {
     "id": "W2066269761",
     "title": "Discussion: “Effect of Surface Energy on the Wear Process” (Rabinowicz, E., and Foster, R. G., 1964, ASME J. Basic Eng., 86, pp. 306–310)",
     "date": "1964-06-01",
@@ -2105,6 +2202,71 @@
       "离心压气机",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2034718921",
+    "title": "Closure to “Discussions of ‘Development of a Special High-Efficiency Turbocharger Compressor for Application on Straight Turbocharged Two-Cycle Engines’” (1965, ASME J. Eng. Power, 87, p. 104)",
+    "date": "1965-01-01",
+    "year": 1965,
+    "authors": [
+      "T. Niemczewski"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3678114",
+    "abstract": "Development of a Special High-Efficiency Turbocharger Compressor for Application on Straight Turbooharged Two-Cycle EnginesConversion of the two-cycle engine from the \"in-series\" system of turbochurging (turbocharger followed by the engine-driven centrifugal blower) to a straight turbocharged one, requires a radical increase in the aerodynamic performance of the turbocharger compressor.This paper describes how a wide-range, high-efficiency blower was developed within a relatively short time by using, as a chief design guide, conclusions of the aerodynamic analysis which preceded each development stage./I method is presented, advocating the use of a well-controlled velocity-diffusion system, as compared with a plenum-chamber configuration.",
+    "keywords": [
+      "turbocharger compressor",
+      "two-stroke engines",
+      "centrifugal blower",
+      "plenum chamber",
+      "compressor aerodynamic performance"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
+  },
+  {
+    "id": "W2063374760",
+    "title": "Discussion: “Development of a Special High-Efficiency Turbocharger Compressor for Application on Straight Turbocharged Two-Cycle Engines” (Niemczewski, T., 1965, ASME J. Eng. Power, 87, pp. 99–104)",
+    "date": "1965-01-01",
+    "year": 1965,
+    "authors": [
+      "W.M. Kauffmann"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3678113",
+    "abstract": "Development of a Special High-Efficiency Turbocharger Compressor for Application on Straight Turbooharged Two-Cycle EnginesConversion of the two-cycle engine from the \"in-series\" system of turbochurging (turbocharger followed by the engine-driven centrifugal blower) to a straight turbocharged one, requires a radical increase in the aerodynamic performance of the turbocharger compressor.This paper describes how a wide-range, high-efficiency blower was developed within a relatively short time by using, as a chief design guide, conclusions of the aerodynamic analysis which preceded each development stage./I method is presented, advocating the use of a well-controlled velocity-diffusion system, as compared with a plenum-chamber configuration.",
+    "keywords": [
+      "turbocharger compressor",
+      "two-stroke engines",
+      "centrifugal blower",
+      "velocity space diffusion",
+      "plenum chamber",
+      "compressor aerodynamic design"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
+  },
+  {
+    "id": "W2082280942",
+    "title": "Closure to “Discussion of ‘Power-Transfer Characteristics for Compressible Flow From a Stationary Nozzle to a Detached Receiver’” (1965, ASME J. Basic Eng., 87, p. 28)",
+    "date": "1965-03-01",
+    "year": 1965,
+    "authors": [
+      "Cheng-Kuo Weng"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3650525",
+    "abstract": "",
+    "keywords": [
+      "power transfer",
+      "compressible flow"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2041249371",
@@ -2433,6 +2595,27 @@
       "Thermodynamics"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2002518431",
+    "title": "Closure to “Discussions of ‘Protecting Turbomachinery From Self-Excited Rotor Whirl’” (1965, ASME J. Eng. Power, 87, pp. 343–344)",
+    "date": "1965-10-01",
+    "year": 1965,
+    "authors": [
+      "J. S. Alford"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3678274",
+    "abstract": "Substituting equations ( 63), ( 64), and (66) into equation ( 62) F. F. EHrlch gives 4c 2 A-/2k",
+    "keywords": [
+      "turbomachinery",
+      "rotor dynamics",
+      "rotor stability"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W2055561823",
@@ -3293,6 +3476,26 @@
     "topics_matched": [
       "压缩机稳定性"
     ]
+  },
+  {
+    "id": "W2069676453",
+    "title": "Discussion: “The Evolution of Compressor and Turbine Bladings in Gas Turbine Design” (Seippel, C., 1967, ASME J. Eng. Power, 89, pp. 199–205)",
+    "date": "1967-04-01",
+    "year": 1967,
+    "authors": [
+      "K. O. Holliger"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3616646",
+    "abstract": "",
+    "keywords": [
+      "gas turbine design",
+      "compressor blades",
+      "turbine blades",
+      "turbomachinery aerodynamics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2053480054",
@@ -5214,6 +5417,59 @@
     ]
   },
   {
+    "id": "W2015584012",
+    "title": "Closure to “Discussion of ‘A Unified Procedure for the Calculation of Off-Design Performance of Radial Turbomachinery’” (1971, ASME J. Eng. Power, 93, p. 146)",
+    "date": "1971-01-01",
+    "year": 1971,
+    "authors": [
+      "R. C. Davis",
+      "JULES L. DUSSOURD"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445386",
+    "abstract": "This paper represents an impressive prediction of off-design performance of centrifugal compressor rotors and diffusers.I think the authors have produced admirable results with a very simple description of the blockage and loss characteristics of centrifugal machines.I note that although the shape of the static pressure ratio characteristics of the rotors is well predicted, the levels are overestimated at higher speeds.On the plot of measured vs. calculated rotor total pressure ratio there is a deficit of calculated pressure ratio to the order of 5-7 percent, which is about 4 to 5 points in efficiency at 3:1 pressure ratio.This discrepancy in impeller efficiency is considerable.In addition, no stage pressure ratio performance comparison is shown.I am interested in the correlation of overall stage efficiency by this technique.Possibly this impeller efficiency discrepancy is related to the secondary and leakage losses not accounted for.At stage pressure ratio of the order of 6:1 at UACL we find that our analysis predicts a major portion of the rotor loss to be secondary loss.I would expect that the method of the authors might be most effective at low pressure ratios in its present form.",
+    "keywords": [
+      "off-design performance",
+      "centrifugal compressor",
+      "diffuser",
+      "impeller efficiency",
+      "secondary losses",
+      "leakage loss",
+      "total pressure ratio",
+      "stage pressure ratio"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
+  },
+  {
+    "id": "W2035397511",
+    "title": "Discussion: “A Unified Procedure for the Calculation of Off-Design Performance of Radial Turbomachinery” (Davis, R. C., and Dussourd, J. L., 1971, ASME J. Eng. Power, 93, pp. 133–145)",
+    "date": "1971-01-01",
+    "year": 1971,
+    "authors": [
+      "David P. Kenny"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445385",
+    "abstract": "This paper represents an impressive prediction of off-design performance of centrifugal compressor rotors and diffusers.I think the authors have produced admirable results with a very simple description of the blockage and loss characteristics of centrifugal machines.I note that although the shape of the static pressure ratio characteristics of the rotors is well predicted, the levels are overestimated at higher speeds.On the plot of measured vs. calculated rotor total pressure ratio there is a deficit of calculated pressure ratio to the order of 5-7 percent, which is about 4 to 5 points in efficiency at 3:1 pressure ratio.This discrepancy in impeller efficiency is considerable.In addition, no stage pressure ratio performance comparison is shown.I am interested in the correlation of overall stage efficiency by this technique.Possibly this impeller efficiency discrepancy is related to the secondary and leakage losses not accounted for.At stage pressure ratio of the order of 6:1 at UACL we find that our analysis predicts a major portion of the rotor loss to be secondary loss.I would expect that the method of the authors might be most effective at low pressure ratios in its present form.",
+    "keywords": [
+      "off-design performance",
+      "centrifugal compressor",
+      "diffuser",
+      "impeller efficiency",
+      "total pressure ratio",
+      "secondary losses",
+      "leakage loss",
+      "stage pressure ratio"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
+  },
+  {
     "id": "W1978400665",
     "title": "Amplification by wave distortion in unstable combustors",
     "date": "1971-02-01",
@@ -6845,6 +7101,32 @@
     "topics_matched": []
   },
   {
+    "id": "W2020290167",
+    "title": "Closure to “Discussion of ‘Effect of Rotor Design Tip Speed on Aerodynamic Performance of a Model VTOL Lift Fan Under Static and Crossflow Conditions’” (1974, ASME J. Eng. Power, 96, p. 322)",
+    "date": "1974-07-01",
+    "year": 1974,
+    "authors": [
+      "Norbert O. Stockman",
+      "I. S. Loeffler",
+      "S. Liebein"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445842",
+    "abstract": "measured data trends for the transonic turbine are similar to those reported in the paper for the subsonic turbine.In closing, the authors wish to express their thanks to Mr. Lister for his learned critique. Effect of Rotor Design Tip Speed on Aerodynamic Performance of a Model VTOL Lift Fan Under Static and Crossflow ConditionsU. W. Schaub. 2 The present paper goes a long way toward providing a better understanding of lifting fan aerodynamics and much needed, but expensive to obtain, test data.Hopefully, these experimental data, along with other published data, will lead to analytical studies that will ultimately culminate in design methods appropriate for lifting fans under crossflow conditions.In discussing the crossflow effects, the authors fully recognize the importance of back-pressure distribution.It is relevant to observe that another important variable determining back pressure distribution, if the discharge is not fully axial, is efflux swirl.With exit louvers present, this would lead to a severe malincidence condition on the louvers, and significant losses due to misalignment and secondary flow effects.Without louvers, there would be a significant Magnus effect that would (a) change the circumferential distribution of static pressure, and (b) reduce the efflux wake in the crossflow.In this connection, it is important to realize that the back-pressure condition which open louvers provide is not the same as if there were no louvers at all.This may, in part, account for the demonstrated differences in the levels of x By N. O.",
+    "keywords": [
+      "tip speed",
+      "crossflow effects",
+      "Magnus effect",
+      "static pressure distribution",
+      "transonic turbine"
+    ],
+    "topics_matched": [
+      "跨音速/激波",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2040910257",
     "title": "Model Wall and Recovery Temperature Effects on Experimental Heat-Transfer Data Analysis",
     "date": "1974-09-01",
@@ -7042,6 +7324,32 @@
       "Mathematical analysis"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2024305088",
+    "title": "End-Wall Boundary Layers in Axial Compressors",
+    "date": "1974-10-01",
+    "year": 1974,
+    "authors": [
+      "Ch. Hirsch"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445867",
+    "abstract": "Various aspects of an end-wall boundary-layer theory in axial compressors, as formulated originally by Mellor and Wood, are analyzed. This analysis contains three parts. In the first part the original formulation is used with a mainstream flow calculation in order to predict overall performances on a single stage compressor. Comparison with experimental data shows the limitation of the assumption of constant shape factor and skin-friction coefficient. In the second part, through an analysis of existing detailed experimental profiles of flow properties behind blades, empirical values for the coefficients of the theory are deduced. It appears that the skin-friction coefficient takes up unusual high values near the tip of the rotor blades and that the hub boundary layer at the outlet is not collateral. In the last part, the basic equations are reformulated in streamline coordinates. This should allow eventual incorporation of the shape factor variation and the Reynolds number effects as well as the introduction of the wall skewing angle. A modification of the original closure equation is proposed allowing for the noncollateral character of the boundary layer at the blade outlet. The original formulation appears as a limit for low skewing angles.",
+    "keywords": [
+      "endwall boundary layer",
+      "axial compressor",
+      "skin friction coefficient",
+      "shape factor",
+      "streamline coordinates",
+      "Reynolds number effects",
+      "compressor performance prediction",
+      "tip leakage flow"
+    ],
+    "topics_matched": [
+      "叶尖间隙"
+    ]
   },
   {
     "id": "W1634350261",
@@ -7253,6 +7561,26 @@
       "Physics",
       "Engineering",
       "Mechanics"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
+  },
+  {
+    "id": "W1966990276",
+    "title": "Discussion: “Experiments With a Model Free Rotating Vaneless Diffuser” (Rodgers, C., and Mnew, H., 1975, ASME J. Eng. Power, 97, pp. 231–242)",
+    "date": "1975-04-01",
+    "year": 1975,
+    "authors": [
+      "A. C. Bryans"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445972",
+    "abstract": "",
+    "keywords": [
+      "diffuser performance",
+      "gas turbine combustor"
     ],
     "topics_matched": [
       "离心压气机"
@@ -7545,6 +7873,28 @@
       "Composite material"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2093151272",
+    "title": "Discussion: “Behavior of Severely Asymmetric Flow in a Vaneless Diffuser” (Senoo, Yasutoshi, and Ishida, Masahiro, 1975, ASME J. Eng. Power, 97, pp. 375–383)",
+    "date": "1975-07-01",
+    "year": 1975,
+    "authors": [
+      "Robert C. Dean"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3446013",
+    "abstract": "",
+    "keywords": [
+      "vaneless diffuser",
+      "flow asymmetry",
+      "flow behavior",
+      "diffuser aerodynamics"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
   },
   {
     "id": "W2093213960",
@@ -11031,6 +11381,50 @@
     ]
   },
   {
+    "id": "W2080853266",
+    "title": "Closure to “Discussion of ‘Long Arc Shrouding—A Reliability Improvement for Untuned Steam Turbine Blading’” (1981, ASME J. Eng. Power, 103, pp. 527–528)",
+    "date": "1981-07-01",
+    "year": 1981,
+    "authors": [
+      "R. J. Ortolano",
+      "Jindřich Rosa",
+      "W. P. Welch"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3230755",
+    "abstract": "and y 0 is the average amplitude of blade vibration, averaged over the blade height.Fo is the component of force in the direction of the vibration.Now a group of M unconnected blades would be subject to a work input per revolution of MW = irMNF 0 y 0 .",
+    "keywords": [
+      "blade vibration",
+      "blade reliability"
+    ],
+    "topics_matched": [
+      "气弹/振动"
+    ]
+  },
+  {
+    "id": "W4237732559",
+    "title": "Closure to “Discussion of ‘Long Arc Shrouding—A Reliability Improvement for Untuned Steam Turbine Blading’” (1981, ASME J. Eng. Power, 103, p. 530)",
+    "date": "1981-07-01",
+    "year": 1981,
+    "authors": [
+      "R. J. Ortolano",
+      "Jindřich Rosa",
+      "W. P. Welch"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3230759",
+    "abstract": "and y 0 is the average amplitude of blade vibration, averaged over the blade height.Fo is the component of force in the direction of the vibration.Now a group of M unconnected blades would be subject to a work input per revolution of MW = irMNF 0 y 0 .",
+    "keywords": [
+      "blade vibration",
+      "blade reliability"
+    ],
+    "topics_matched": [
+      "气弹/振动"
+    ]
+  },
+  {
     "id": "W2005454547",
     "title": "Computational Parametric Study of the Aerodynamics of Spinning Slender Bodies at Supersonic Speeds",
     "date": "1981-08-01",
@@ -12654,6 +13048,29 @@
       "进气畸变",
       "离心压气机"
     ]
+  },
+  {
+    "id": "W2159046717",
+    "title": "The Feasibility of Water Injection Into the Turbine Coolant to Permit Gas Turbine Contingency Power for Helicopter Application",
+    "date": "1983-07-01",
+    "year": 1983,
+    "authors": [
+      "G. James Van Fossen"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3227464",
+    "abstract": "A system which would allow a substantially increased output from a turboshaft engine for brief periods in emergency situations with little or no loss of turbine stress rupture life is proposed and studied analytically. The increased engine output is obtained by turbine overtemperature; however, the temperature of the compressor bleed air used for hot section cooling is lowered by injecting and evaporating water. This decrease in cooling air temperature can offset the effect of increased gas temperature and increased shaft speed and thus keep turbine blade stress rupture life constant. The analysis utilized the Navy NASA Engine Program or NNEP computer code to model the turboshaft engine in both design and off-design modes. This report is concerned with the effect of the proposed method of power augmentation on the engine cycle and turbine components. A simple cycle turboshaft engine with a 16:1 pressure ratio and a 1533 K (2760° R) turbine inlet temperature operating at sea level static conditions was studied to determine the possible power increase and the effect on turbine stress rupture life that could be expected using the proposed emergency cooling scheme. The analysis showed a 54 percent increase in output power can be achieved with no loss in gas generator turbine stress rupture life. A 231 K (415° F) rise in turbine inlet temperature is required for this level of augmentation. The required water flow rate was found to be 0.0109 kg water per kg of engine air flow. For a 4.474 MW (6000 shp) engine this would require 32.26 kg (71.13 lbm) of water for a 2.5 min transient. At this power level, approximately 25 percent of the uncooled power turbine life is used up in a 2 1/2-min transient. If the power turbine were cooled, this loss of stress-rupture life could be reduced to zero. Also presented in this report are the results of an analysis used to determine the length of time a ceramic thermal barrier coating would delay the temperature rise in hot parts during operation at elevated temperatures. It was hoped that the thermal barrier could be used as a scheme to allow increased engine output while maintaining the life of hot section parts during short overtemperature transients. The thermal barrier coating was shown to be ineffective in reducing blade metal temperature rise during a 2.5-min overtemperature.",
+    "keywords": [
+      "water injection",
+      "gas turbines",
+      "turboshaft engine",
+      "turbine inlet temperature",
+      "ceramic thermal barrier coatings",
+      "high-temperature components",
+      "emergency powers"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2082729210",
@@ -19001,6 +19418,33 @@
     ],
     "topics_matched": [
       "进气畸变"
+    ]
+  },
+  {
+    "id": "W2071870215",
+    "title": "Effects of inlet pressure fluctuations on axial flow compressors",
+    "date": "1989-01-01",
+    "year": 1989,
+    "authors": [
+      "Debayan Das",
+      "A. Trippi"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.23117",
+    "abstract": "Nomenclature a = sonic speed aa = reference sonic speed A = cross-sectional area cx = axial velocity cx = mean axial velocity cxb = axial velocity of the air bleeding flow c'xb = see Eq. (A2a) e0 = total energy / = pulsation frequency Fa = axial force distribution h = enthalpy h = dh/da ha = h(aa) h0 = total enthalpy hob = total enthalpy of the air bleeding flow, per unit length h'ob =seeEq. (A2b) K = see Eq. (A4) / = stage length P = static pressure P_a = reference pressure [see Eq. (A 10)] P = mean pressure Q = heat transfer per unit length, per unit time r = pressure ratio t = time W = work transfer, per unit length, per unit time x = axial coordinate 7 = specific heat ratio y = dy /da Ja = 7(aa) Y{ = see Eq. (A9a) T2 = see Eq. (A9b) T3 = see Eq. (A9c) /I = slope of the characteristic lines p = density T = time constant \\l/ = air bleeding mass flow rate",
+    "keywords": [
+      "axial compressor",
+      "compressor stability",
+      "pulsation frequency",
+      "total enthalpy",
+      "axial force distribution",
+      "heat transfer",
+      "work transfer",
+      "characteristic lines"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -26285,6 +26729,50 @@
     "topics_matched": []
   },
   {
+    "id": "W2030145704",
+    "title": "Discussion: “Measurement of the Three-Dimensional Tip Region Flow Field in an Axial Compressor” (Stauter, R. C., 1993, ASME J. Turbomach., 115, pp. 468–476)",
+    "date": "1993-07-01",
+    "year": 1993,
+    "authors": [
+      "Nicholas A. Cumpsty"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929276",
+    "abstract": "",
+    "keywords": [
+      "axial compressor",
+      "three-dimensional flow",
+      "tip clearance",
+      "flow measurement"
+    ],
+    "topics_matched": [
+      "叶尖间隙"
+    ]
+  },
+  {
+    "id": "W2146509354",
+    "title": "Closure to “Discussion of ‘Measurement of the Three-Dimensional Tip Region Flow Field in an Axial Compressor’” (1993, ASME J. Turbomach., 115, p. 476)",
+    "date": "1993-07-01",
+    "year": 1993,
+    "authors": [
+      "R. Charles Stauter"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929277",
+    "abstract": "",
+    "keywords": [
+      "axial compressor",
+      "three-dimensional flow",
+      "tip clearance",
+      "flow measurement"
+    ],
+    "topics_matched": [
+      "叶尖间隙"
+    ]
+  },
+  {
     "id": "W2068891966",
     "title": "Sphere wakes in still surroundings at intermediate Reynolds numbers",
     "date": "1993-08-01",
@@ -32492,6 +32980,27 @@
     "topics_matched": []
   },
   {
+    "id": "W1985606280",
+    "title": "Preliminary Estimation of Antisurge Valve Carrying Capacity",
+    "date": "1997-04-01",
+    "year": 1997,
+    "authors": [
+      "S. Savitsky"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2815587",
+    "abstract": "Research Papers Preliminary Estimation of Antisurge Valve Carrying Capacity S. Savitsky S. Savitsky 7212 Armistad Ave., El Paso, TX 79912 Search for other works by this author on: This Site PubMed Google Scholar Author and Article Information S. Savitsky 7212 Armistad Ave., El Paso, TX 79912 J. Eng. Gas Turbines Power. Apr 1997, 119(2): 395-396 (2 pages) https://doi.org/10.1115/1.2815587 Published Online: April 1, 1997 Article history Received: January 23, 1997 Online: November 19, 2007",
+    "keywords": [
+      "surge suppression",
+      "gas turbines",
+      "compressor surge"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
     "id": "W2172024152",
     "title": "Self-Contained Automated Methodology for Optimal Flow Control",
     "date": "1997-05-01",
@@ -33665,6 +34174,35 @@
       "Acoustics"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2006221614",
+    "title": "Laser-Doppler-Velocimetry Measurements in a Cascade of Compressor Blades at Stall",
+    "date": "1998-01-01",
+    "year": 1998,
+    "authors": [
+      "Garth V. Hobson",
+      "Andrew J. H. Williams",
+      "Humberto J. Ganaim Rickel"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2841378",
+    "abstract": "Compressor stall was simulated in the Low-Speed Cascade Wind Tunnel at the Turbopropulsion Laboratory of the Naval Postgraduate School. The test blades were of controlled-diffusion design with a solidity of 1.67, and stalling occurred at 10 deg of incidence above the design inlet air angle. All measurements were taken at a flow Reynolds number, based on chord length, of 700,000. Laser-sheet flow visualization techniques showed that the stalling process was unsteady and occurred over the whole cascade. Detailed laser-Doppler-velocimetry measurements over the suction side of the blades showed regions of continuous and intermittent reverse flow. The measurements of the continuous reverse flow region at the leading edge were the first data of their kind in the leading edge separation bubble. The regions of intermittent reverse flow, measured with laser-Doppler velocimeter, corresponded to the flow visualization studies. Blade surface pressure measurements showed a decrease in normal force on the blade, as would be expected at stall. Data are presented in a form that characterizes the unsteady positive and negative velocities about their mean, for both the continuous reverse flow regions and the intermittent reverse flow regions.",
+    "keywords": [
+      "compressor stall",
+      "flow reversal",
+      "leading-edge separation bubble",
+      "unsteady flow",
+      "blade surface pressure",
+      "stall inception",
+      "low-speed wind tunnel testing"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
   },
   {
     "id": "W2013551603",
@@ -38587,6 +39125,28 @@
     "topics_matched": []
   },
   {
+    "id": "W4235437245",
+    "title": "Time-Averaged Heat Flux for a Recessed Tip, Lip, and Platform of a Transonic Turbine Blade",
+    "date": "2000-02-01",
+    "year": 2000,
+    "authors": [
+      "Michael G. Dunn",
+      "Charles W. Haldeman"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1311285",
+    "abstract": "The results of an experimental research program determining the blade platform heat-flux level and the influence of blade tip recess on the tip region heat transfer for a full-scale rotating turbine stage at transonic vane exit conditions are described. The turbine used for these measurements was the Allison VBI stage operating in the closed vane position (vane exit Mach number≈1.1). The stage was operated at the design flow function, total to static pressure ratio, and corrected speed. Measurements were obtained at several locations on the platform and in the blade tip region. The tip region consists of the bottom of the recess, the lip region (on both the pressure and suction surface sides of the recess), and the 90 percent span location on the blade suction surface. Measurements were obtained for three vane/blade spacings; 20, 40, and 60 percent of vane axial chord and for a single value of the tip gap (the distance between the top of the lip and the stationary shroud) equal to 0.0012 m (0.046 in) or 2.27 percent of blade height. [S0889-504X(00)00604-8]",
+    "keywords": [
+      "transonic turbine blade",
+      "tip clearance"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波"
+    ]
+  },
+  {
     "id": "W2155021632",
     "title": "Numerical Investigation of Twin-Nozzle Rocket Plume Phenomenology",
     "date": "2000-03-01",
@@ -39855,6 +40415,31 @@
     "topics_matched": []
   },
   {
+    "id": "W2085675209",
+    "title": "Closure to “Discussion of ‘Rotating Instabilities in an Axial Compressor Originating from the Fluctuating Blade Tip Vortex’ (2000-GT-506)” (2001, ASME J. Turbomach., 123, p. 461)",
+    "date": "2001-07-01",
+    "year": 2001,
+    "authors": [
+      "Konrad Vogeler",
+      "and Ronald Mailach",
+      "Ingolf Lehmann"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1374436",
+    "abstract": "",
+    "keywords": [
+      "rotating instability",
+      "axial compressor",
+      "blade tip vortex",
+      "compressor stability"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "压缩机稳定性"
+    ]
+  },
+  {
     "id": "W2002196186",
     "title": "Nonlinear High-Order Response of Imperfect Sandwich Beams with Delaminated Faces",
     "date": "2001-09-01",
@@ -40124,6 +40709,32 @@
     ],
     "topics_matched": [
       "进气畸变"
+    ]
+  },
+  {
+    "id": "W2090265588",
+    "title": "Selection of Actuators and Sensors for Surge Control",
+    "date": "2002-01-01",
+    "year": 2002,
+    "authors": [
+      "Marc van de Wal",
+      "Frank Willems",
+      "Bram de Jager"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/2.5901",
+    "abstract": "For surge control in compression systems, a suitable combination of actuators and sensors must be selected. The goal is to identify the combinations for which there exists a controller that locally stabilizes the linearized compression system model and meet additional control objectives. The latter are quantified in terms of a bound on an H-infinity norm. With this we aim to stay close to the nominal operating point in the face of disturbances, noise, and actuator limitations. The considered selection method is more rigorous than previously found in literature, in the sense that multivariable, dynamic output feedback is the focus and that different performance specifications are handled simultaneously. Though the method was originally developed fot linear systems, it can be used for the nonlinear compression system model by linearizing the model on a grid of nominal operating points. Among the proposed actuators and sensors, the close-coupled valve and mass flow sensor are identified as the most promising. The results are sustained by the physics of the problem.",
+    "keywords": [
+      "surge control",
+      "compressor surge",
+      "H-infinity norm",
+      "dynamic output feedback",
+      "multivariable control",
+      "mass flow sensor"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -43960,6 +44571,36 @@
     ]
   },
   {
+    "id": "W1990632127",
+    "title": "High Spatial Resolution Upstream Forced Response in a Transonic Compressor",
+    "date": "2004-07-01",
+    "year": 2004,
+    "authors": [
+      "Timothy M. Hutton",
+      "Timothy J. Leger",
+      "David A. Johnston",
+      "J. Wolff"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.9844",
+    "abstract": "",
+    "keywords": [
+      "transonic compressor",
+      "high spatial resolution",
+      "forced vibration",
+      "compressor stability",
+      "aeroelasticity",
+      "unsteady flow"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "非定常流动",
+      "气弹/振动"
+    ]
+  },
+  {
     "id": "W2153152226",
     "title": "Modeling of Surge in Free-Spool Centrifugal Compressors: Experimental Validation",
     "date": "2004-09-01",
@@ -44348,6 +44989,34 @@
       "Gas compressor",
       "Engineering",
       "Thermodynamics"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计",
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W2065797227",
+    "title": "Wake of a Compressor Cascade with Tip Gap, Part 3: Two Point Statistics",
+    "date": "2004-11-01",
+    "year": 2004,
+    "authors": [
+      "Christian W. Wenger",
+      "William John Devenport",
+      "Kenneth S. Wittmer",
+      "Chittiappa Muthanna"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.842",
+    "abstract": "Velocity spectra and space-time correlations have been measured downstream of a low-speed linear compressor cascade with tip gap. The objective of this work is an improved understanding of the coherent turbulence structures present in fan-tip wakes and of the turbulent source terms responsible for broadband stator noise",
+    "keywords": [
+      "compressor cascade",
+      "tip clearance",
+      "velocity spectra",
+      "spatio-temporal correlation",
+      "two-point statistics"
     ],
     "topics_matched": [
       "叶尖间隙",
@@ -45288,6 +45957,34 @@
       "进气畸变",
       "叶片气动设计",
       "非定常流动"
+    ]
+  },
+  {
+    "id": "W1963520074",
+    "title": "Cooling the Tip of a Turbine Blade Using Pressure Side Holes—Part I: Adiabatic Effectiveness Measurements",
+    "date": "2005-04-01",
+    "year": 2005,
+    "authors": [
+      "J. R. Christophel",
+      "Karen A. Thole",
+      "Frank J. Cunha"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1812320",
+    "abstract": "Abstract Durability of turbine blade tips has been and continues to be challenging, particularly since increasing turbine inlet temperatures is the driver for improving turbine engine performance. As a result, cooling methods along the blade tip are crucial. Film-cooling is one typically used cooling method whereby coolant is supplied through holes placed along the pressure side of a blade. The subject of this paper is to evaluate the adiabatic effectiveness levels that occur on the blade tip through blowing coolant from holes placed near the tip of a blade along the pressure side. A range of blowing ratios was studied whereby coolant was injected from holes placed along the pressure side tip of a large-scale blade model. Also present were dirt purge holes on the blade tip, which is part of a commonly used blade design to expel any large particles present in the coolant stream. Experiments were conducted in a linear cascade with a scaled-up turbine blade whereby the Reynolds number of the engine was matched. This paper, which is Part 1 of a two part series, compares adiabatic effectiveness levels measured along a blade tip, while Part 2 combines measured heat transfer coefficients with the adiabatic effectiveness levels to assess the overall cooling benefit of pressure side blowing near a blade tip. The results show much better cooling can be achieved for a small tip gap compared with a large tip gap with different flow phenomena occurring for each tip gap setting.",
+    "keywords": [
+      "film cooling",
+      "adiabatic effectiveness",
+      "blowing ratio",
+      "tip clearance",
+      "heat transfer coefficient",
+      "linear cascade",
+      "turbine durability"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
     ]
   },
   {
@@ -54629,6 +55326,36 @@
     "topics_matched": []
   },
   {
+    "id": "W2093600780",
+    "title": "Radial Migration of Shed Vortices in a Transonic Rotor Following a Wake Generator: A Comparison Between Time Accurate and Average Passage Approaches",
+    "date": "2010-11-18",
+    "year": 2010,
+    "authors": [
+      "Mark G. Turner",
+      "Steven E. Gorrell",
+      "David Car"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4001241",
+    "abstract": "This paper shows a comparison of an unsteady simulation using turbo and an average passage simulation for a two blade row configuration consisting of a wake generator followed by a transonic rotor. Two spacings were simulated, both close and far. The unsteady results compare well with experiment especially for the profile of efficiency difference between close and far. An analysis of results helps to explain the unusual profile seen experimentally that is due to the radial migration of wake generator shed vortices with negative radial velocities near the tip. In addition, different components of the average passage body forces (deterministic stresses) are explored that shows the main terms are the axial momentum and the metal blockage.",
+    "keywords": [
+      "radial migration",
+      "wake generator",
+      "transonic rotor",
+      "unsteady simulation",
+      "tip clearance",
+      "body forces"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "稳定性建模",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W1980764991",
     "title": "Stall Warning in a Low-Speed Axial Fan by Visualization of Sound Signals",
     "date": "2010-11-23",
@@ -58612,6 +59339,35 @@
     "topics_matched": [
       "进气畸变",
       "跨音速/激波"
+    ]
+  },
+  {
+    "id": "W2031804198",
+    "title": "Thermal Performance of Different Cooled Tips in A High-Pressure Turbine Cascade",
+    "date": "2012-08-28",
+    "year": 2012,
+    "authors": [
+      "Chao Zhou",
+      "HOWARD P. HODSON",
+      "Gary Lock"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.b34299",
+    "abstract": "The thermal performance of the three turbine tips was investigated. The results are presented in terms of heattransfer coefficient (h), cooling effectiveness (η), net heat-flux reduction (NHFR), and heat load. The calculations were performed using a cooled flat tip, a cooled cavity tip, and a cooled suction-side squealer tip in a cascade at a tip gap of 1.6%C. The results were validated using experimental data where possible. For an uncooled flat tip, the fluid dynamics are dominated by flow separation at the pressure-side edge. A significant benefit of ejecting coolant inside this separation bubble is shown. At the coolant mass-flow ratio M c = 0:52%, both the cooled flat tip and the cooled cavity tip are well-protected by the coolant. For the cooled suction-side squealer tip, the coolant lifts off from the tip floor and leads to not only low cooling effectiveness, but also to high heat-transfer coefficients. The effects of the coolant mass-flow ratio on the thermal performance of the tip were presented. The effects of end-wall motion on the thermal performance of the blade tip are found to be small in the current study.",
+    "keywords": [
+      "high-pressure turbine cascade",
+      "heat transfer coefficient",
+      "cooling effectiveness",
+      "net heat flux reduction",
+      "heat load",
+      "flow separation",
+      "separation bubble",
+      "tip clearance"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
     ]
   },
   {
@@ -72659,6 +73415,44 @@
     ]
   },
   {
+    "id": "W2466080234",
+    "title": "Heterogeneous Optimization Strategies for Carved and Squealer-Like Turbine Blade Tips",
+    "date": "2016-07-01",
+    "year": 2016,
+    "authors": [
+      "Cis De Maesschalck",
+      "Sergio Lavagnoli",
+      "Guillermo Paniagua",
+      "Tom Verstraete",
+      "Renata Olivé",
+      "P. Picot"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4033975",
+    "abstract": "Superior rotor tip geometries possess the potential to simultaneously mitigate aerodynamic losses and severe thermal loads onto the rotor overtip region. However, classical design strategies are usually constrained to a specific type of geometry, narrowing the spread of shape topologies considered during the design phase. The current paper presents two novel multi-objective optimization methodologies that enable the exploration of a broad range of distinct tip configurations for unshrouded rotor blades. The first methodology is a shape optimization process that creates a fully carved blade tip shape defined through a Bezier surface controlled by 40 parameters. Combined with a differential evolution (DE) optimization strategy, this approach is applied to a rotor blade for two tip gap sizes: 0.85% (tight) and 1.38% (design) of the blade span. The second methodology is based on a topology optimization process that targets the creation of arbitrary tip shapes comprising one or multiple rims with a fixed height. The tip section of the blade has been divided into more than 200 separate zones, where each zone can be either part of an upstanding rim or part of the cavity floor. This methodology was tested with a level-set approach in combination with a DE optimizer and coupled to an optimization routine based on genetic algorithms (GAs). The current study was carried out on a modern high-pressure turbine operating at engine-like Reynolds and high subsonic outlet Mach numbers. A fully hexahedral unstructured mesh was used to discretize the fluid domain. The aerothermal performance of each tip profile was evaluated accurately through Reynolds-averaged Navier–Stokes (RANS) simulations adopting the shear-stress transport (SST) turbulence model. Multi-objective optimizations were set for both design strategies that target higher aerodynamic rotor efficiencies and simultaneous minimization of the heat load. This paper illustrates a wide variety of profiles obtained throughout the optimization and compares the performance of the different strategies. The research shows the potential of such novel methodologies to reach new unexplored types of blade tip designs with enhanced aerothermal performances.",
+    "keywords": [
+      "turbine blade tip",
+      "squealer tip",
+      "multi-objective optimization",
+      "shape optimization",
+      "topology optimization",
+      "differential evolution",
+      "genetic algorithm",
+      "level set method",
+      "Bézier surfaces",
+      "tip clearance",
+      "aerothermal performance",
+      "high-pressure turbine",
+      "rotor efficiency",
+      "heat load reduction"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W4249385069",
     "title": "A Water-Lubricated Hybrid Thrust Bearing: Measurements and Predictions of Static Load Performance",
     "date": "2016-07-05",
@@ -75213,6 +76007,34 @@
     "topics_matched": [
       "进气畸变",
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2576223203",
+    "title": "State-Space Adaptation of Unsteady Lifting Line Theory: Twisting/Flapping Wings of Finite Span",
+    "date": "2017-01-11",
+    "year": 2017,
+    "authors": [
+      "Jacob Izraelevitz",
+      "Qiang Zhu",
+      "Michael S. Triantafyllou"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055144",
+    "abstract": "In this paper, a low-order state-space adaptation of the unsteady lifting line model has been analytically derived for a wing of finite aspect ratio, suitable for use in real-time control of wake-dependent forces. Each discretization along the span has between 1–6 states to represent the local unsteady wake effects, rather than remembering the entire wake history which unnecessarily complicates controller design. Sinusoidal perturbations to each system degree of freedom are also avoided. Instead, a state-space model is fit to individual indicial functions for each blade element, allowing the downwash and lift distributions over the span to be arbitrary. The wake geometry is assumed to be quasi steady (no roll up) but with fully unsteady vorticity. The model supports time-varying surge (a nonlinear effect), dihedral, heave, sweep, and twist along the span. Cross-coupling terms are explicitly derived. This state-space model is then validated through comparison with an analytic solution for elliptic wings, an unsteady vortex lattice method, and experiments from the literature.",
+    "keywords": [
+      "state-space model",
+      "finite-span wings",
+      "real-time flight control",
+      "indicial functions",
+      "cross-coupling terms",
+      "elliptic wing",
+      "unsteady vortex lattice method"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -81682,6 +82504,31 @@
       "Physics"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2794502308",
+    "title": "Optimization of the Efficiency of Stall Control Using Air Injection for Centrifugal Compressors—Additional Findings",
+    "date": "2018-07-20",
+    "year": 2018,
+    "authors": [
+      "Taher Halawa"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4039820",
+    "abstract": "This study presents additional important findings to the results of the research paper; “Optimization of the efficiency of stall control using air injection for centrifugal compressors” published in the Journal of Engineering for Gas Turbines and Power in 2015 (Halawa, T., Gadala, M. S., Alqaradawi, M., and Badr, O., 2015, “Optimization of the Efficiency of Stall Control Using Air Injection for Centrifugal Compressors,” ASME J. Eng. Gas Turbines Power, 137(7), p. 072604). The aim of this study is to make a fine determination of the injection angle, which provides the best stable condition when the compressor operates close to stall condition. A relatively narrower range of injection angles with smaller intervals was selected comparing to the results of the referred published paper, which clarified that the best injection angle is 30 deg. External air was injected close to the diffuser entrance at the shroud surface. Injection was applied with mass flow rate equals 1.5% of the design compressor inlet mass flow rate with injection angles ranged from 16 deg to 34 deg measured from the tangential direction at the vaneless region. It was found that both of injection angles of 28 deg and 30 deg achieved the best results in terms of compressor stabilization but each one of them has a specific advantage comparing to the other one. Using injection angle of 28 deg provided the lowest kinetic energy losses while the best orientation of the fluid through diffuser resulted when using an injection angle of 30 deg.",
+    "keywords": [
+      "centrifugal compressor",
+      "air injection",
+      "compressor stability",
+      "kinetic energy loss",
+      "diffuser flow"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "离心压气机"
+    ]
   },
   {
     "id": "W4243789089",
