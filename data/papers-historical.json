@@ -1099,6 +1099,29 @@
     "topics_matched": []
   },
   {
+    "id": "W2015618405",
+    "title": "Discussion: “Transient Loading Improvements for Large Steam-Electric Generating Units” (Strohmeyer, Jr., Charles, 1962, ASME J. Eng. Power, 84, pp. 9–20)",
+    "date": "1962-01-01",
+    "year": 1962,
+    "authors": [
+      "R. L. Jackson"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3673368",
+    "abstract": "temperature.A new method is proposed for cooling exhaust steam to the condenser. ConclusionsImproved co-ordination between boiler and turbine operation provides greater safety during transient conditions and minimizes thermal losses when shutting down and starting up large high pressure, high temperature steam-electric generating units.Dynamic control principles can be applied to automation of unit start-up.Improvement in steam temperature control for all operating conditions should be a prime objective when designing new units.The co-operation and assistance received from the following companies is gratefully acknowledged.Without their, help this paper would not be possible.",
+    "keywords": [
+      "transient loading",
+      "unit start-up",
+      "unit shutdown",
+      "dynamic control",
+      "steam temperature control",
+      "condenser",
+      "heat loss"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2036337854",
     "title": "Discussion: “Flow Regimes in Curved Subsonic Diffusers” (Fox, R. W., and Kline, S. J., 1962, ASME J. Basic Eng., 84, pp. 303–312)",
     "date": "1962-09-01",
@@ -3748,6 +3771,28 @@
     ],
     "topics_matched": [
       "压缩机稳定性"
+    ]
+  },
+  {
+    "id": "W2029501747",
+    "title": "Discussion: “A Review of Slip Factors for Centrifugal Impellers” (Wiesner, F. J., 1967, ASME J. Eng. Power, 89, pp. 558–566)",
+    "date": "1967-10-01",
+    "year": 1967,
+    "authors": [
+      "Gaylord O. Ellis"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3616736",
+    "abstract": "",
+    "keywords": [
+      "slip factor",
+      "centrifugal impeller",
+      "centrifugal pump",
+      "impeller design"
+    ],
+    "topics_matched": [
+      "离心压气机"
     ]
   },
   {
@@ -7127,6 +7172,26 @@
     ]
   },
   {
+    "id": "W2002548591",
+    "title": "Closure to “Discussion of ‘Some Effects of Variable Surface Temperature on Heat Transfer to a Partially Porous Flat Plate’” (1974, ASME J. Eng. Power, 96, pp. 320–321)",
+    "date": "1974-07-01",
+    "year": 1974,
+    "authors": [
+      "D. A. Nealy"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445838",
+    "abstract": "",
+    "keywords": [
+      "variable surface temperature",
+      "heat transfer",
+      "porous media",
+      "boundary layer"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2040910257",
     "title": "Model Wall and Recovery Temperature Effects on Experimental Heat-Transfer Data Analysis",
     "date": "1974-09-01",
@@ -7515,6 +7580,26 @@
       "叶片气动设计",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2090310206",
+    "title": "Discussion: “Calculation Procedures for Potential and Viscous Flow Solutions for Engine Inlets” (Albers, J. A., and Stockman, N. O., 1975, ASME J. Eng. Power, 97, pp. 1–8)",
+    "date": "1975-01-01",
+    "year": 1975,
+    "authors": [
+      "Uwe W. Schaub"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445930",
+    "abstract": "",
+    "keywords": [
+      "engine inlet",
+      "potential flow",
+      "viscous flow",
+      "aerodynamic design"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W1969844612",
@@ -10523,6 +10608,28 @@
     ]
   },
   {
+    "id": "W2005375185",
+    "title": "Discussion: “Mean Velocity and Decay Characteristics of the Guidevane and Stator Blade Wake of an Axial Flow Compressor” (Lakshminarayana, B., and Davino, R., 1980, ASME J. Eng. Power, 102, pp. 50–60)",
+    "date": "1980-01-01",
+    "year": 1980,
+    "authors": [
+      "Theodore Hisao Okiishi"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3230233",
+    "abstract": "",
+    "keywords": [
+      "axial compressor",
+      "wake decay",
+      "mean velocity",
+      "wake characteristics"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W1987090792",
     "title": "The Prediction of Steady, Circumferential Pressure and Temperature Distortions in Multistage Axial Flow Compressors",
     "date": "1980-04-01",
@@ -11379,6 +11486,28 @@
       "叶片气动设计",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2047410550",
+    "title": "Measurement Methods in Rotating Components of Turbomachinery",
+    "date": "1981-04-01",
+    "year": 1981,
+    "authors": [
+      "B. Lakshminarayana",
+      "P. W. Runstadler"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3230731",
+    "abstract": "Measurement Methods in Rotating Components of Turbomachinery B. Lakshminarayana and P",
+    "keywords": [
+      "rotating components",
+      "turbomachinery",
+      "measurement methods",
+      "rotating machinery fault diagnosis",
+      "vibration measurement"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2080853266",
@@ -15907,6 +16036,33 @@
       "Political science",
       "Law",
       "Aerodynamics"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波",
+      "叶片气动设计",
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W2001534285",
+    "title": "Discussion: “Holographic Measurements and Theoretical Predictions of the Unsteady Flow in a Transonic Annular Cascade” (Davies, M. R. D., and Bryanston-Cross, P. J., 1985, ASME J. Eng. Gas Turbines Power, 107, pp. 450–457)",
+    "date": "1985-10-01",
+    "year": 1985,
+    "authors": [
+      "S. G. Newton"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3239809",
+    "abstract": "1 Since the phase of unsteady pressure is important with respect to stability, it would be interesting to see phase data presented.Does the statement in Section 2 that the phase was unreliable imply low coherence between unsteady pressure and blade motion?2 In Section 4 it should perhaps be emphasized that the calculations were performed with a large amount of artificial viscosity, the density being upwinded by one element.3 (/) If an appropriate oblique shock solution were compared with Fig. 8 then the Mach number jump would closely match the Finsup value, (ii) A solution with the shock on the suction surface trailing edge could result in errors, since the cusp will be highly loaded and the implementation of the Kutta condition is in doubt.4 In Section 5 the leading edge shock is described as normal (as shown in Fig. 6), but it is also described as weak.In the strict sense a normal shock must be strong, i.e., subsonic downstream of the shock.Furthermore, if the leading edge shock is attached, there can be no series of weak shocks from adjacent blades.There seems to be an inconsistency between this and the requirement for the Mach number ahead of the leading edge to be close to unity.5 The 315 deg position sketch in Fig. 18 (/3 = 180 deg) appears to differ from that of Fig. 14 (photograph of hologram); the same is true for the 90 deg position case of Figs. 15 and 14 08 = 135 deg).6 If one plots out shock position on the blade surface both the leading edge shock intersection with the suction surface and the trailing edge shock intersection with the pressure surface appear harmonic only over the first 180 deg of the motion.This observation is based only on approximate measurements from Figs. 17 and 18, but does seem to be consistent with the discussion in Section 7. 'By M. R. D.",
+    "keywords": [
+      "unsteady flow",
+      "transonic flow",
+      "annular cascade",
+      "holographic measurement",
+      "gas turbine cascade",
+      "flow visualization"
     ],
     "topics_matched": [
       "压缩机稳定性",
@@ -23038,6 +23194,31 @@
     "topics_matched": []
   },
   {
+    "id": "W1971722734",
+    "title": "Closure to “Discussion of ‘Three-Dimensional Flowfields Inside a Transonic Compressor With Swept Blades’” (1991, ASME J. Turbomach., 113, pp. 250–251)",
+    "date": "1991-04-01",
+    "year": 1991,
+    "authors": [
+      "Chunill Hah",
+      "Arthur J. Wennerstrom"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929094",
+    "abstract": "layer to define the loss due to shear work at all accurately.Where good agreement with measurement occurs using current grid sizes it should often be regarded as fortuitous.The methods are often better at predicting loss in flows where the loss generation is dominated by features with a relatively large scale-tip clearance flow and separated regions, for examplethan in flows with fully attached flow and thin boundary layers.Recently Freeman and Cumpsty (1989) described a method for estimating the profile loss from the forward region of supersonic blades where this loss is the result of shocks and shock boundary layer interactions.Although very simple (simple enough to be carried out by hand) the predictions of level and trends agreed well with measured values of loss for two conventional fan rotors, one a fan of the early 1970s, the other a recent one.It is asserted that this agreement is not coincidental, but is the consequence of conservation requirements for mass, enthalpy, and momentum; only if there are large spanwise flows should the approach be expected to be inaccurate.Would the authors care to show the comparison of their measured losses with the predictions of Freeman and Cumpsty?",
+    "keywords": [
+      "transonic compressor",
+      "swept blades",
+      "three-dimensional flow field",
+      "compressor aerodynamics"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "跨音速/激波",
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2002207952",
     "title": "Three-dimensional Navier-Stokes simulation of Space Shuttle Main Propulsion 17-inch disconnect valves",
     "date": "1991-05-01",
@@ -26770,6 +26951,30 @@
     ],
     "topics_matched": [
       "叶尖间隙"
+    ]
+  },
+  {
+    "id": "W1987881453",
+    "title": "Discussion: “Experimental and Computational Investigation of the NASA Low-Speed Centrifugal Compressor Flow Field” (Hathaway, M. D., Chriss, R. M., Wood, J. R., and Strazisar, A. J., 1993, ASME J. Turbomach., 115, pp. 527–541)",
+    "date": "1993-07-01",
+    "year": 1993,
+    "authors": [
+      "J. Moore",
+      "J. G. Moore"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929286",
+    "abstract": "",
+    "keywords": [
+      "centrifugal compressor",
+      "low-speed compressor",
+      "compressor flow field",
+      "computational fluid dynamics",
+      "experimental flow measurement"
+    ],
+    "topics_matched": [
+      "离心压气机"
     ]
   },
   {
@@ -31316,6 +31521,56 @@
     ]
   },
   {
+    "id": "W1988881285",
+    "title": "Discussion: “Flow Analyses in a Single-stage Propulsion Pump” (Lee, Y. T., Hah, C., and Loellbach, J., 1996, ASME J. Turbomach., 118, pp. 240–248)",
+    "date": "1996-04-01",
+    "year": 1996,
+    "authors": [
+      "William C. Zierke"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2836632",
+    "abstract": "ASME Paper No. 87",
+    "keywords": [
+      "flow analysis",
+      "centrifugal pump",
+      "pump flow"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
+  },
+  {
+    "id": "W2046872939",
+    "title": "Detailed Stress Tensor Measurements in a Centrifugal Compressor Vaneless Diffuser",
+    "date": "1996-04-01",
+    "year": 1996,
+    "authors": [
+      "A. Pinarbasi",
+      "M. W. Johnson"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2836654",
+    "abstract": "Detailed flow measurements have been made in the vaneless diffuser of a large low-speed centrifugal compressor using hot-wire anemometry. The three time mean velocity components and full stress tensor distributions have been determined on eight measurement planes within the diffuser. High levels of Reynolds stress result in the rapid mixing out of the blade wake. Although high levels of turbulent kinetic energy are found in the passage wake, they are not associated with strong Reynolds stresses and hence the passage wake mixes out only slowly. Low-frequency meandering of the wake position is therefore likely to be responsible for the high kinetic energy levels. The anisotropic nature of the turbulence suggests that Reynolds stress turbulence models are required for CFD modeling of diffuser flows.",
+    "keywords": [
+      "centrifugal compressor",
+      "vaneless diffuser",
+      "stress tensor",
+      "Reynolds stress",
+      "turbulent kinetic energy",
+      "wake meandering",
+      "anisotropic turbulence",
+      "turbulence modeling",
+      "low-speed compressor"
+    ],
+    "topics_matched": [
+      "离心压气机",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2043836890",
     "title": "Discussion: “Numerical Simulation of Three-Dimensional Viscous Flow in a Linear Compressor Cascade With Tip Clearance” (Kang, S., and Hirsch, C., 1996, ASME J. Turbomach., 118, pp. 492–502)",
     "date": "1996-07-01",
@@ -31966,6 +32221,28 @@
       "Materials science",
       "Physics",
       "Engineering"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
+    "id": "W1988164784",
+    "title": "Closure to “Discussion of ‘The Synchronous Instability of a Compressor Rotor Due to Bearing Journal Differential Heating’” (1996, ASME J. Eng. Gas Turbines Power, 118, p. 824)",
+    "date": "1996-10-01",
+    "year": 1996,
+    "authors": [
+      "F. M. de Jongh",
+      "P. G. Morton"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2817000",
+    "abstract": "The authors describe a very interesting rotor dynamic phenomenon.The results cast a new light on certain aspects of the design of high-speed rotating machines.I would be grateful for the author's comments on the following two questions:",
+    "keywords": [
+      "compressor rotor",
+      "rotor dynamics",
+      "gas turbines"
     ],
     "topics_matched": [
       "压缩机稳定性"
@@ -35244,6 +35521,30 @@
     ],
     "topics_matched": [
       "进气畸变"
+    ]
+  },
+  {
+    "id": "W1978671997",
+    "title": "Closure to “Discussion of ‘Comparison of Sweep and Dihedral Effects on Compressor Cascade Performance’” (1998, ASME J. Turbomach., 120, pp. 463–464)",
+    "date": "1998-07-01",
+    "year": 1998,
+    "authors": [
+      "T. Sasaki",
+      "F. Breugelmans"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2841740",
+    "abstract": "",
+    "keywords": [
+      "compressor cascade",
+      "sweep effects",
+      "dihedral effect",
+      "cascade performance",
+      "turbomachinery aerodynamics"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
     ]
   },
   {
@@ -59195,6 +59496,37 @@
       "叶尖间隙",
       "压缩机稳定性",
       "跨音速/激波",
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W1989375462",
+    "title": "Contribution to the Modeling and Understanding of Cold Pulsating Flow Influence in the Efficiency of Small Radial Turbines for Turbochargers",
+    "date": "2012-08-14",
+    "year": 2012,
+    "authors": [
+      "José Ramón Serrano",
+      "Francisco José Arnau",
+      "P. Fajardo",
+      "Miguel A. Reyes-Belmonte",
+      "Fabrice Vidal"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4007027",
+    "abstract": "In the present paper, an unsteady approach to determine the performance of a small radial inflow turbine working under cold pulsating flow is presented. It has been concluded that a reasonably good characterization of turbine behavior working with pulsating flow can be obtained using, in a quasi-steady way, models of the turbine isentropic efficiency and turbocharger mechanical efficiency. Both models have been fitted using data obtained from a steady flow characterization procedure. Turbocharger-measured parameters from the cold pulsating flow campaign have been compared with the ones obtained from one-dimensional gas dynamics computational modeling. The modeling approach is based on quasi-steady isentropic and mechanical efficiency models. Reasonably good accuracy in compressor and turbine variables prediction has been obtained for most of the operative conditions. Influence of amplitude and frequency of the pulsating flow over the instantaneous and average turbine efficiency has been studied to put some light on the analysis of the involved physical phenomena. The main conclusion is that the biggest effect of unsteady flow on turbine efficiency is through the influence on blade jet to speed ratio. It has been also concluded that, for the same average blade jet to speed ratio, pulses’ amplitude does not influence turbine efficiency when it is closed, but does at other variable geometry turbine (VGT) positions. The effect of pulses’ frequency is less evident and only influences VGT performance at the highest VGT openings.",
+    "keywords": [
+      "radial inflow turbine",
+      "turbocharger",
+      "turbine efficiency",
+      "isentropic efficiency",
+      "mechanical efficiency",
+      "variable geometry turbine",
+      "unsteady flow",
+      "pulse amplitude",
+      "pulse frequency"
+    ],
+    "topics_matched": [
       "非定常流动"
     ]
   },
@@ -87922,6 +88254,72 @@
     "topics_matched": [
       "压缩机稳定性",
       "离心压气机"
+    ]
+  },
+  {
+    "id": "W3004893678",
+    "title": "Characterization of Additive Layer Manufacturing Swirl Burner Surface Roughness and Its Effects on Flame Stability Using High-Speed Diagnostics",
+    "date": "2019-09-27",
+    "year": 2019,
+    "authors": [
+      "Jon Runyon",
+      "Anthony Giles",
+      "Richard Marsh",
+      "Daniel G. Pugh",
+      "Burak Göktepe",
+      "Philip John Bowen",
+      "Steve Morris"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4044950",
+    "abstract": "Abstract In this study, two Inconel 625 swirl nozzle inserts with identical bulk geometry were constructed via additive layer manufacturing (ALM) for use in a generic gas turbine swirl burner. Further postprocessing by grit blasting of one swirl nozzle insert results in a quantifiable change to the surface roughness characteristics when compared with the unprocessed ALM swirl nozzle insert or a third nozzle insert which has been manufactured using traditional machining methods. An evaluation of the influence of variable surface roughness effects from these swirl nozzle inserts is therefore performed under preheated isothermal and combustion conditions for premixed methane-air flames at thermal power of 25 kW. High-speed velocimetry at the swirler exit under isothermal conditions gives evidence of the change in near-wall boundary layer thickness and turbulent fluctuations resulting from the change in nozzle surface roughness. Under atmospheric combustion conditions, this influence is further quantified using a combination of dynamic pressure, high-speed OH* chemiluminescence, and exhaust gas emissions measurements to evaluate the flame stabilization mechanisms at the lean blowoff and rich stability limits. Notable differences in flame stabilization are evident as the surface roughness is varied, and changes in rich stability limit were investigated in relation to changes in the near-wall turbulence intensity. Results show that precise control of in-process or postprocess surface roughness of wetted surfaces can positively influence burner stability limits and NOx emissions and must, therefore, be carefully considered in the ALM burner design process as well as computational fluid dynamics (CFD) models.",
+    "keywords": [
+      "additive manufacturing",
+      "swirl burner",
+      "surface roughness",
+      "flame stability",
+      "Inconel 625",
+      "grit blasting",
+      "methane-air premixed combustion",
+      "near-wall turbulence",
+      "boundary layer thickness",
+      "OH* chemiluminescence",
+      "NOx emissions",
+      "gas turbine combustor"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W4240754931",
+    "title": "Design, Optimization, and Analysis of Supersonic Radial Turbines",
+    "date": "2019-09-27",
+    "year": 2019,
+    "authors": [
+      "Lukas Benjamin Inhestern",
+      "James E. Braun",
+      "Guillermo Paniagua",
+      "José Ramón Serrano"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4044972",
+    "abstract": "Abstract New compact engine architectures such as pressure gain combustion require ad hoc turbomachinery to ensure an adequate range of operation with high performance. A critical factor for supersonic turbines is to ensure the starting of the flow passages, which limits the flow turning and airfoil thickness. Radial outflow turbines inherently increase the cross section along the flow path, which holds great potential for high turning of supersonic flow with a low stage number and guarantees a compact design. First, the preliminary design space is described. Afterward a differential evolution multi-objective optimization with 12 geometrical design parameters is deducted. With the design tool autoblade 10.1, 768 geometries were generated and hub, shroud, and blade camber line were designed by means of Bezier curves. Outlet radius, passage height, and axial location of the outlet were design variables as well. Structured meshes with around 3.7 × 106 cells per passage were generated. Steady three-dimensional (3D) Reynolds-averaged Navier–Stokes (RANS) simulations, enclosed by the k-omega shear stress transport turbulence model were solved by the commercial solver CFD++. The geometry was optimized toward low entropy and high-power output. To prove the functionality of the new turbine concept and optimization, a full wheel unsteady RANS simulation of the optimized geometry exposed to a nozzled rotating detonation combustor (RDC) has been performed and the advantageous flow patterns of the optimization were also observed during transient operation.",
+    "keywords": [
+      "pressure gain combustion",
+      "rotating detonation combustor",
+      "turbine design optimization",
+      "Bézier curves",
+      "flow turning",
+      "entropy production",
+      "unsteady RANS simulation"
+    ],
+    "topics_matched": [
+      "叶片气动设计",
+      "非定常流动"
     ]
   },
   {
