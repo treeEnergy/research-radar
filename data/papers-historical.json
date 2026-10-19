@@ -44902,6 +44902,31 @@
     ]
   },
   {
+    "id": "W2076016505",
+    "title": "Set of Boundary Conditions for Aerodynamic Design",
+    "date": "2004-08-01",
+    "year": 2004,
+    "authors": [
+      "Michele Ferlauto",
+      "Angelo Iollo",
+      "Luca Zannetti"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.2340",
+    "abstract": "Robust and flexible numerical methodologies for the imposition of boundary conditions are required to formulate well-posed problems. A boundary condition should be Robust and flexible numerical methodologies for the imposition of boundary conditions are required to formulate well-posed problems. A boundary condition should be nonreflecting, to avoid spurious perturbations that can provocate unsteadiness or instabilities. The reflectiveness of various boundary conditions is analyzed in the context of the Godunov methods. A nonlinear, isentropic wave propagation model is used to investigate the reflection mechanism on the flowfield borders, and a parameter τ is defined to give a measure of the boundary reflectiveness. A new set of boundary conditions, in which τ =0, that is, totally nonreflecting, is then proposed. The approach has been integrated in an aerodynamic design procedure using a distributed boundary control.",
+    "keywords": [
+      "absorbing boundary conditions",
+      "Godunov scheme",
+      "well-posedness",
+      "aerodynamic design",
+      "numerical stability"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
     "id": "W2153152226",
     "title": "Modeling of Surge in Free-Spool Centrifugal Compressors: Experimental Validation",
     "date": "2004-09-01",
@@ -48004,6 +48029,32 @@
     "topics_matched": [
       "叶尖间隙",
       "压缩机稳定性"
+    ]
+  },
+  {
+    "id": "W2130279023",
+    "title": "Wall Correction Model for Wind Tunnels with Open Test Section",
+    "date": "2006-08-01",
+    "year": 2006,
+    "authors": [
+      "Jens Nørkær Sørensen",
+      "Wen Zhong Shen",
+      "Robert Mikkelsen"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.15656",
+    "abstract": "In the paper we present a correction model for wall interference on rotors of wind turbines or propellers in wind tunnels. The model, which is based on a one-dimensional momentum approach, is validated against results from Navier–Stokes computations using a generalized actuator disc principle. In the model the exchange of axial momentumbetweenthetunnelandtheambientroomisrepresentedbyasimpleformula,derivedfromactuatordisc computations. The correction model is validated against Navier–Stokes computations of the flow about a wind turbine rotor. Generally, the corrections from the model are in very good agreement with the computations, demonstrating that one-dimensional momentum theory is a reliable way of predicting corrections for wall interference in wind tunnels with closed as well as open cross sections.",
+    "keywords": [
+      "wall interference",
+      "wind turbine rotor",
+      "propellers",
+      "actuator disk",
+      "closed cross-sections",
+      "wind tunnel testing"
+    ],
+    "topics_matched": [
+      "稳定性建模"
     ]
   },
   {
@@ -56207,6 +56258,30 @@
     ]
   },
   {
+    "id": "W2059919629",
+    "title": "Modeling and Simulation of Nonlinear Dynamics of Flapping Wing Micro Air Vehicles",
+    "date": "2011-04-13",
+    "year": 2011,
+    "authors": [
+      "Christopher T. Orlowski",
+      "Anouck Girard"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050649",
+    "abstract": "Peer Reviewed",
+    "keywords": [
+      "flapping-wing micro air vehicles",
+      "nonlinear dynamics",
+      "inertial coupling",
+      "aerodynamic modeling",
+      "stability and control"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
     "id": "W2101859620",
     "title": "High-Temperature Performance of Cast CF8C-Plus Austenitic Stainless Steel",
     "date": "2011-04-15",
@@ -56478,6 +56553,65 @@
     ]
   },
   {
+    "id": "W2071057681",
+    "title": "Unsteady Aspects of Lean Premixed Prevaporized Gas Turbine Combustors: Flame-Flame Interactions",
+    "date": "2011-04-26",
+    "year": 2011,
+    "authors": [
+      "Sulabh K. Dhanuka",
+      "Jacob Temme",
+      "James F. Driscoll"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.54144",
+    "abstract": "Peer Reviewed",
+    "keywords": [
+      "lean premixed prevaporized combustion",
+      "gas turbine combustor",
+      "flame-flame interaction",
+      "pilot flame",
+      "flame surface density",
+      "flame length",
+      "recirculation zone",
+      "heat release",
+      "Jet-A fuel",
+      "high-pressure combustion",
+      "combustion instability"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "叶片气动设计",
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W1974085114",
+    "title": "Neutral Flow Evolution in a Six-Kilowatt Hall Thruster",
+    "date": "2011-04-26",
+    "year": 2011,
+    "authors": [
+      "Wensheng Huang",
+      "Alec D. Gallimore",
+      "Richard R. Hofer"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.54141",
+    "abstract": "Peer Reviewed",
+    "keywords": [
+      "Hall thruster",
+      "xenon propellant",
+      "neutral temperature",
+      "discharge voltage",
+      "near-wall boundary layer",
+      "ionization effects",
+      "hydrodynamic effects",
+      "electric propulsion"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2009350715",
     "title": "The Tip Clearance Flow Resonance Behind Axial Compressor Nonsynchronous Vibration",
     "date": "2011-04-27",
@@ -56718,6 +56852,30 @@
       "Engineering"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2079647610",
+    "title": "Aeroelastic and Aerothermoelastic Analysis in Hypersonic Flow: Past, Present, and Future",
+    "date": "2011-05-11",
+    "year": 2011,
+    "authors": [
+      "Jack J. McNamara",
+      "Peretz P. Friedmann"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050882",
+    "abstract": "H YPERSONIC flight began in February 1949 when a WACCorporal rocket was ignited from a U.S.-captured V-2 rocket [1]. In the six decades since this milestone, there have been significant investments in the development of hypersonic vehicle technologies. The NASA X-15 rocket plane in the early 1960s",
+    "keywords": [
+      "hypersonic flow",
+      "aeroelasticity",
+      "aerothermoelasticity",
+      "hypersonic vehicles",
+      "X-15"
+    ],
+    "topics_matched": [
+      "气弹/振动"
+    ]
   },
   {
     "id": "W2022487459",
@@ -67430,6 +67588,37 @@
     "topics_matched": []
   },
   {
+    "id": "W2027595023",
+    "title": "Adjoint Method for Shape Optimization in Real-Gas Flow Applications",
+    "date": "2014-09-05",
+    "year": 2014,
+    "authors": [
+      "Matteo Pini",
+      "Giacomo Persico",
+      "Davide Di Pasquale",
+      "S Rebay"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4028495",
+    "abstract": "An adjoint-based shape optimization approach for supersonic turbine cascades is proposed for application to organic Rankine cycle (ORC) turbines. The algorithm is based on an inviscid discrete adjoint method and encompasses a fast look-up table (LuT) approach to accurately deal with real-gas flows. The turbine geometry is defined by adopting state-of-the-art parameterization techniques (NURBS), enabling to handle both global and local control of the shape of interest. A preconditioned steepest descent method has been chosen as gradient-based optimization algorithm to efficiently search for the nearest minimum. The potential of the optimization approach is first verified by application on the redesign of an existing converging–diverging turbine nozzle operating in thermodynamic regions characterized by relevant real-gas effects. A significant efficiency improvement and a more uniform flow at the blade outlet section are achieved, with expected beneficial effects on the aerodynamics of the downstream rotor. The optimized configuration is also assessed by means of high-fidelity turbulent simulations, which point out the capability of the present inviscid approach in optimizing supersonic turbine cascades with very limited computational burdens. Finally, the newly developed real-gas adjoint method is compared against adjoints based on ideal equations of state on the same design problem. Results show that the performance gain obtained by a fully real-gas optimization strategy is by far higher than that achieved with simplified approaches in case of ORC turbines. This proves the relevance of including accurate thermodynamic models in all steps of ORC turbine design.",
+    "keywords": [
+      "adjoint method",
+      "shape optimization",
+      "real gas flow",
+      "discrete adjoint",
+      "look-up table",
+      "convergent-divergent nozzle",
+      "thermodynamic modeling",
+      "ideal gas equation of state",
+      "gradient descent",
+      "turbine efficiency"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2159524245",
     "title": "Development and Integration of Rain Ingestion Effects in Engine Performance Simulations",
     "date": "2014-09-11",
@@ -69114,6 +69303,38 @@
     "topics_matched": [
       "压缩机稳定性",
       "气弹/振动"
+    ]
+  },
+  {
+    "id": "W2046674617",
+    "title": "Aerodynamics of Centrifugal Turbine Cascades",
+    "date": "2015-04-01",
+    "year": 2015,
+    "authors": [
+      "Giacomo Persico",
+      "Matteo Pini",
+      "Vincenzo Dossena",
+      "Paolo Gaetani"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4030261",
+    "abstract": "The centrifugal turbine architecture is a promising solution for small-to-medium organic Rankine cycle (ORC) power systems. The inherent compactness of the multistage arrangement makes this configuration very attractive for dealing with the high volumetric flow ratios typical of ORC turbines. In absence of experimental evidence, a thorough assessment of the technology can be uniquely based on sufficiently accurate computational fluid dynamic (CFD) simulations. In the present work, the aerodynamic performance of a fixed and a rotating cascade of centrifugal turbine are investigated by applying a three-dimensional CFD model. Precisely, the study is focused on the sixth stage of the transonic centrifugal turbine proposed in Pini et al. (2013, “Preliminary Design of a Centrifugal Turbine for ORC Applications,” ASME J. Eng. Gas Turbines Power, 135(4), p. 042312). After recalling the blade design methodology, the blade-to-blade and secondary flow patterns are carefully studied for both stator and rotor. Results show that the centrifugal configuration exhibits distinctive features if compared to axial turbine layouts. The diverging shape of the bladed channel and the centrifugal force alter significantly the pressure distribution on the profile. Moreover, the Coriolis force induces a slip effect that should be properly included in the preliminary design phase. Provided that the flaring angle is limited, the almost uniform spanwise blade loading greatly augments the three-dimensional performance of the cascades compared to axial rows. In the rotor, the low inlet endwall vorticity and the Coriolis force further weaken the secondary flows, resulting in even lower secondary losses with respect to those predicted by loss models developed for axial turbines. Ultimately, the efficiency of the stage is found to be two points higher than that estimated at preliminary design level, demonstrating the high potential of the centrifugal turbine for ORC applications.",
+    "keywords": [
+      "centrifugal turbine",
+      "turbine cascade aerodynamics",
+      "organic Rankine cycle",
+      "transonic turbine",
+      "secondary flow losses",
+      "Coriolis force",
+      "blade loading",
+      "stage efficiency",
+      "small-scale power generation"
+    ],
+    "topics_matched": [
+      "跨音速/激波",
+      "叶片气动设计",
+      "离心压气机"
     ]
   },
   {
@@ -70895,6 +71116,35 @@
     ],
     "topics_matched": [
       "进气畸变",
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W2160760989",
+    "title": "Unsteady Flow Evolution Through a Turning Midturbine Frame Part 1: Time-Resolved Flow",
+    "date": "2015-10-01",
+    "year": 2015,
+    "authors": [
+      "Davide Lengani",
+      "Rosario Spataro",
+      "Berardo Paradiso",
+      "Emil Göttlich"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.b35486",
+    "abstract": "This paper identifies and analyzes the propagation of aerodynamic deterministic stresses through a two-spool counter-rotating transonic facility representative of modern and future turbine aeroengine sections. The test setup consists of a high-pressure stage, a diffusing turning midturbine frame with turning struts, and a counter-rotating low-pressure rotor. The flowfield downstream of the high-pressure stage is strongly influenced by the stator–rotor interaction. Such a mechanism interacts again with the downstream turning midturbine frame leading to a vane–rotor–vane interaction, which affects the behavior of the low-pressure stage. The results presented were obtained using a fast-response aerodynamic pressure probe for unsteady measurements as well as three-dimensional unsteady Reynolds-averaged Navier–Stokes calculations. The work is presented in two parts. This first part focuses on the explanation of the flow physics that governs the convection of unsteady three-dimensional flow through the midturbine duct. Viscous and inviscid mechanisms are discussed as main drivers for the convection of wakes, secondary vortices, and shocks. The flowfield in the duct is characterized by three superimposed effects: 1) duct diffusion and radial pressure gradient together with turning strut potential field, 2) rotor unsteady work source, and 3) vane/blade interaction phenomena. The understanding of these mechanisms will eventually help to control the unsteadiness content in future architectures where reduced engine component length will enhance the interaction effects.",
+    "keywords": [
+      "counter-rotating turbine",
+      "rotor-stator interaction",
+      "unsteady flow",
+      "secondary vortices",
+      "shock wave propagation",
+      "unsteady pressure measurement",
+      "unsteady RANS"
+    ],
+    "topics_matched": [
+      "跨音速/激波",
       "非定常流动"
     ]
   },
@@ -76557,6 +76807,34 @@
     "topics_matched": []
   },
   {
+    "id": "W2466281630",
+    "title": "Predictive Large Eddy Simulation for Jet Aeroacoustics–Current Approach and Industrial Application",
+    "date": "2017-01-23",
+    "year": 2017,
+    "authors": [
+      "James Tyacke",
+      "Iftekhar Z. Naqavi",
+      "Zhong-Nan Wang",
+      "Paul Gary Tucker",
+      "P. Böhning"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4035662",
+    "abstract": "The major techniques for measuring jet noise have significant drawbacks, especially when including engine installation effects such as jet–flap interaction noise. Numerical methods including low order correlations and Reynolds-averaged Navier–Stokes (RANS) are known to be deficient for complex configurations and even simple jet flows. Using high fidelity numerical methods such as large eddy simulation (LES) allows conditions to be carefully controlled and quantified. LES methods are more practical and affordable than experimental campaigns. The potential to use LES methods to predict noise, identify noise risks, and thus modify designs before an engine or aircraft is built is a possibility in the near future. This is particularly true for applications at lower Reynolds numbers such as jet noise of business jets and jet-flap interaction noise for under-wing engine installations. Hence, we introduce our current approaches to predicting jet noise reliably and contrast the cost of RANS–numerical-LES (RANS–NLES) with traditional methods. Our own predictions and existing literature are used to provide a current guide, encompassing numerical aspects, meshing, and acoustics processing. Other approaches are also briefly considered. We also tackle the crucial issues of how codes can be validated and verified for acoustics and how LES-based methods can be introduced into industry. We consider that hybrid RANS–(N)LES is now of use to industry and contrast costs, indicating the clear advantages of eddy resolving methods.",
+    "keywords": [
+      "jet noise",
+      "large eddy simulation",
+      "jet aeroacoustics",
+      "hybrid RANS/LES",
+      "noise prediction",
+      "low Reynolds number jets",
+      "business jets",
+      "computational cost comparison"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4253790024",
     "title": "The Impact of Reciprocating Compressor Pulsations on the Surge Margin of Centrifugal Compressors",
     "date": "2017-01-24",
@@ -79880,6 +80158,39 @@
       "Visualization"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2963448313",
+    "title": "Modal Analysis of Fluid Flows: An Overview",
+    "date": "2017-10-31",
+    "year": 2017,
+    "authors": [
+      "Kunihiko Taira",
+      "Steven L. Brunton",
+      "Scott T. M. Dawson",
+      "Clarence W. Rowley",
+      "Tim Colonius",
+      "Beverley McKeon",
+      "Oliver T. Schmidt",
+      "Stanislav V. Gordeyev",
+      "Vassilios Theofilis",
+      "Lawrence Ukeiley"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056060",
+    "abstract": "Simple aerodynamic configurations under even modest conditions can exhibit complex flows with a wide range of temporal and spatial features. It has become common practice in the analysis of these flows to look for and extract physically important features, or modes, as a first step in the analysis. This step typically starts with a modal decomposition of an experimental or numerical dataset of the flow field, or of an operator relevant to the system. We describe herein some of the dominant techniques for accomplishing these modal decompositions and analyses that have seen a surge of activity in recent decades. For a non-expert, keeping track of recent developments can be daunting, and the intent of this document is to provide an introduction to modal analysis that is accessible to the larger fluid dynamics community. In particular, we present a brief overview of several of the well-established techniques and clearly lay the framework of these methods using familiar linear algebra. The modal analysis techniques covered in this paper include the proper orthogonal decomposition (POD), balanced proper orthogonal decomposition (Balanced POD), dynamic mode decomposition (DMD), Koopman analysis, global linear stability analysis, and resolvent analysis.",
+    "keywords": [
+      "modal analysis",
+      "fluid flow",
+      "flow decomposition",
+      "proper orthogonal decomposition",
+      "flow instability",
+      "coherent structures"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
   },
   {
     "id": "W4253155348",
@@ -88394,6 +88705,36 @@
     ]
   },
   {
+    "id": "W2977584297",
+    "title": "Vortex Flow and Aerodynamic Performance of a Reverse Delta Wing",
+    "date": "2019-10-05",
+    "year": 2019,
+    "authors": [
+      "Ahmed Osama Mahgoub",
+      "Luca Cortelezzi"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j058021",
+    "abstract": "The unsteady flow past a reverse delta wing is simulated numerically to characterize the structure of the vortical flow and associated unsteady phenomena, and quantify the impact of such structures on the aerodynamic performance. The most cost-effective grid-size/time-step combination is selected by performing a coupled sensitivity analysis. This numerical approach is successfully validated against well-established results for a delta wing. It is established that the flow past a reverse delta wing is always unsteady even at small angles of attack. The shear layer separating at the leading edge of the reverse delta wing rolls up into spanwise vortical structures that, as they are convected downstream, pair, realign, and reorganize, generating suction that contributes substantially to the lift produced by a reverse delta wing. The tip vortices confine the vortical structures to the leeward side and contribute to a less extent to lift. Power spectral density analysis shows that the unsteadiness of the lift coefficient is related to vortex shedding and reorganization of the vortical structures. Finally, it is confirmed that the lift-to-drag ratio of a delta wing and a reverse delta wing is, surprisingly, about the same.",
+    "keywords": [
+      "vortex flow",
+      "unsteady aerodynamics",
+      "leading-edge vortex",
+      "shear layer roll-up",
+      "vortex pairing",
+      "tip vortex",
+      "lift generation",
+      "lift-to-drag ratio",
+      "vortex shedding",
+      "grid sensitivity analysis"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2969777084",
     "title": "An Advanced Single-Stage Turbine Facility for Investigating Nonaxisymmetric Contoured Endwalls in the Presence of Purge Flow",
     "date": "2019-10-07",
@@ -89163,6 +89504,34 @@
     "topics_matched": []
   },
   {
+    "id": "W2991176578",
+    "title": "Magnetization and Losses for an Improved Architecture of Trapped-Flux Superconducting Rotor",
+    "date": "2019-11-27",
+    "year": 2019,
+    "authors": [
+      "Vicente Climente-Alarcón",
+      "Anis Smara",
+      "Anup Patel",
+      "Bartek A. Glowacki",
+      "Algirdas Baskys",
+      "Thomas Reis"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.b37709",
+    "abstract": "A hybrid electric configuration for aircraft propulsion yields several advantages, such as reducing the fuel consumption and takeoff distance, improving control, and decreasing emissions. For such a scenario to occur, advances designed to increase the power-to-weight ratio of actual electric motors must be developed. Superconducting technologies offer the prospect of achieving such performances but at a cost of increased design and construction complexities. In that sense, stacks of high-temperature superconductors have proven to trap high-current vortexes that provide a source of magnetic flux density for torque production without the need of current leads or other equipment in the rotor. However, these macroscopic currents must be induced before operation and remain undisturbed by variations in the magnetic flux density of the air gap, such as the ones caused by heating and demagnetization. This work presents the results of numerical computations on a new rotor architecture designed to facilitate the magnetization of stacks from a superconducting stator and prevent their demagnetization during torque production. The machine performance is assessed, and the expected survivability of the trapped-flux in stacks is compared with laboratory measurements.",
+    "keywords": [
+      "high-temperature superconductors",
+      "vortex trapping",
+      "magnetization",
+      "demagnetization",
+      "aircraft propulsion",
+      "torque generation",
+      "magnetic flux density"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2991483288",
     "title": "Rotating Stall Control in an Axial Fan with Pulsed-Direct-Current Plasma Actuation",
     "date": "2019-11-28",
@@ -89521,6 +89890,31 @@
       "Turbulence",
       "Aerodynamics",
       "Computer science"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2998273564",
+    "title": "Large-Scale Forcing of a Turbulent Channel Flow Through Spanwise Synthetic Jets",
+    "date": "2019-12-31",
+    "year": 2019,
+    "authors": [
+      "Marco Cannata",
+      "Gioacchino Cafiero",
+      "Gaetano Iuso"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j059047",
+    "abstract": "The investigation focuses on the forcing of a fully developed turbulent channel flow through a linear array of synthetic jets injected tangentially to the wall and orthogonal to the mean flow direction. Forcing configurations are varied by differently combining the number of actuated jets working in an opposing blowing–suction configuration. Instantaneous wall shear stress and streamwise velocity fluctuations evidence drag reductions as well as turbulence attenuation up to 20%. The forcing effects are persistent up to at least a 150 half-channel height downstream of the injection section. Particle image velocimetry investigations in planes perpendicular to the channel axis highlight the presence of a large-scale streamwise vortical structure covering the whole height of the channel. This structure is thought to be responsible for the significant drag reduction, which is similar to the typical behavior evidenced in the case of colliding jets. The nondimensional forcing frequency of the synthetic jets producing the maximum drag reduction and turbulence attenuation is 0.0074 for the investigated Reynolds number . A statistical analysis of the near-wall structures demonstrates that the control mechanism acts in a way to reduce them in the forced configuration. It is conclude that the effect of the forcing is such that the near-wall structures merge and become less prone to inducing new structures, thus effectively reducing their number, and consequently the near-wall turbulence activity.",
+    "keywords": [
+      "synthetic jets",
+      "turbulent channel flow",
+      "drag reduction",
+      "turbulence suppression",
+      "wall shear stress",
+      "near-wall turbulence",
+      "excitation frequency"
     ],
     "topics_matched": []
   }
