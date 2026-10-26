@@ -40517,6 +40517,33 @@
     ]
   },
   {
+    "id": "W2044058603",
+    "title": "Laser Doppler Anemometry Measurements in an Axial Compressor Stage",
+    "date": "2001-05-01",
+    "year": 2001,
+    "authors": [
+      "Thierry M. Faure",
+      "Guy-Jean Michon",
+      "Hubert Miton",
+      "Nicolas Vassilieff"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/2.5776",
+    "abstract": "The aim is to provide unsteady experimental data of the e owe eld in a benchmark one-stage axial compressor, to improvetheunderstanding ofthee owfeatures.Theinvestigationisconductedwitha two-componentlaserDoppler anemometer, and 32 axial locations are surveyed, from the rotor inlet to the stator outlet. Because laser Doppler anemometry is a nonintrusive device, data are obtained from the rotor row, providing information in a region dife cult to explore with other techniques. Limitation of blade shadowing is addressed with an adjustment of the laser head orientation, which permits reaching any point inside the rotor. Furthermore, a dual probe orientation gives two sets of measurements yielding three velocity components. The dynamics of the rotor tip clearance vortex is discussed in the interrow gap. There is a strong interaction between this vortex and the rotor bladewake. Phaseaveraged results show the unsteady e owe eld and the rotor ‐stator interaction. The rotor wakes are cut up by the stator row and are visible until the exit of the axial zone of measurements. Their interaction with the stator blades boundary layers creates strong time-dependent e ow structures resulting in phase lags between the rotor wakes at the stator outlet.",
+    "keywords": [
+      "laser Doppler anemometry",
+      "axial compressor",
+      "compressor stage",
+      "flow velocity measurement",
+      "turbomachinery flow"
+    ],
+    "topics_matched": [
+      "叶尖间隙",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2049103360",
     "title": "Effects of Compression and Expansion on Turbulence Intensity in Supersonic Boundary Layers",
     "date": "2001-06-01",
@@ -45552,6 +45579,28 @@
     "topics_matched": [
       "叶尖间隙",
       "离心压气机"
+    ]
+  },
+  {
+    "id": "W2029871628",
+    "title": "Experiments and Modeling of an Unsteady Turbulent Channel Flow",
+    "date": "2005-01-01",
+    "year": 2005,
+    "authors": [
+      "Sedat F. Tardu",
+      "Paulo da Costa"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.6332",
+    "abstract": "The k–ω model is combined with the rapid distortion scheme to develop effective unsteady closures in nonequilibrium wall flows subject to oscillating shear. The phase-averaged eddy viscosity is related to the modulation of the effective strain parameter whose distribution is obtained from the steady turbulent channel flow data. New experimental data on the wall and Reynolds shear stresses are reported. The model predicts the time-mean andphase-averaged flow quantities in a satisfactory way when the imposed frequency is smaller than the median frequency of the near-wall turbulence in the relaxation regime. It is particularly successful at the wall and in the low buffer layer.",
+    "keywords": [
+      "turbulence modeling",
+      "turbulent channel flow"
+    ],
+    "topics_matched": [
+      "进气畸变",
+      "非定常流动"
     ]
   },
   {
@@ -55910,6 +55959,32 @@
     "topics_matched": []
   },
   {
+    "id": "W2077841192",
+    "title": "Flapping-Wing Structural Dynamics Formulation Based on a Corotational Shell Finite Element",
+    "date": "2011-01-01",
+    "year": 2011,
+    "authors": [
+      "Satish Kumar Chimakurthi",
+      "Carlos E. S. Cesnik",
+      "Bret Stanford"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050494",
+    "abstract": "Flexible flapping wings have garnered a large amount of attention within the micro aerial vehicle community: a critical component of computationalmicro aerial vehicle simulations is the representation of the structural dynamics behavior of the flapping-wing structure. This paper discusses the development of a new nonlinear finite element solver that is based on a corotational approach and suitable for simulating flapping plate/shell-like wing structures undergoing small strains and large displacements/rotations. Partial verification and validation studies are presented on rectangular/elliptic wing structures to test the rigid body kinematics, nonlinear statics, and dynamics capabilities of the solver. Results obtained showed good agreement with available analytical/experimental/commercial solutions. The new structural dynamics formulation along with the numerical test cases contribute to the very limited set of tools and examples existing in the flapping-wing micro aerial vehicle literature. Nomenclature A = stretching stiffness matrix a = global acceleration vector Ae = area of a triangular finite element B = membrane-bending coupling stiffness matrix Bb = strain-displacement matrix corresponding to",
+    "keywords": [
+      "flapping wings",
+      "micro air vehicles",
+      "structural dynamics",
+      "large displacements and rotations",
+      "rigid body kinematics",
+      "membrane-bending coupling",
+      "elliptic wing",
+      "rectangular wing"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2030251043",
     "title": "Numerical Investigation of Plasma-Based Control for Low-Reynolds-Number Airfoil Flows",
     "date": "2011-01-10",
@@ -56222,6 +56297,31 @@
       "Mathematics",
       "Engineering",
       "Programming language"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W1986274779",
+    "title": "Review of Output-Based Error Estimation and Mesh Adaptation in Computational Fluid Dynamics",
+    "date": "2011-03-21",
+    "year": 2011,
+    "authors": [
+      "Krzysztof J. Fidkowski",
+      "David Darmofal"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050073",
+    "abstract": "Error estimation and control are critical ingredients for improving the reliability of computational simulations. Adjoint-based techniques can be used to both estimate the error in chosen solution outputs and to provide local indicators for adaptive refinement. This article reviews recent work on these techniques for computational fluid dynamics applications in aerospace engineering. The definition of the adjoint as the sensitivity of an output to residual source perturbations is used to derive both the adjoint equation, in fully discrete and variational formulations, and the adjoint-weighted residual method for error estimation. Assumptions and approximations made in the calculations are discussed. Presentation of the discrete and variational formulations enables a side-byside comparison of recent work in output-error estimation using the finite volume method and the finite element method. Techniques for adapting meshes using output-error indicators are also reviewed. Recent adaptive results from a variety of laminar and Reynolds-averaged Navier–Stokes applications show the power of output-based adaptive methods for improving the robustness of computational fluid dynamics computations. However, challenges and areas of additional future research remain, including computable error bounds and robust mesh adaptation mechanics. I.",
+    "keywords": [
+      "adjoint-based error estimation",
+      "mesh adaptation",
+      "adaptive refinement",
+      "adjoint equations",
+      "finite volume method",
+      "finite element analysis",
+      "Reynolds-averaged Navier-Stokes",
+      "laminar flow"
     ],
     "topics_matched": []
   },
@@ -57325,6 +57425,32 @@
     ]
   },
   {
+    "id": "W2023773826",
+    "title": "Shock-Tracking Procedure for Studying Screech-Induced Oscillations",
+    "date": "2011-07-01",
+    "year": 2011,
+    "authors": [
+      "Benoît André",
+      "Thomas Castelain",
+      "Christophe Bailly"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j051057",
+    "abstract": "A SHOCK-CONTAINING supersonic jet radiates two so-called shock-associated noise components in addition to the classical mixing noise. These two components are the broadband shockassociated noise and the screech. The latter was studied in the early 1950s by Powell [1]. Screech is a tonal noise component. Its generation mechanism has been explained with some success as a feedback loop involving sound production through shock– turbulence interaction. The broadband shock-associated noise component has been investigated at least since Martlew [2]. HarperBourne and Fisher [3] have adapted Powell’s stationary source array model to derive some observed properties of this noise component. In his review about high-speed jet aeroacoustics, Seiner [4] points out the necessity of studying shockmotion to confirmPowell’s [1]model of stationary sources. Furthermore, fluid disturbances having a relative motion to shocks may be responsible for broadband shock noise [4]. A certain insight into shock behavior within a jet plume is thus essential to accurately understand shock-associated noise generation. The screech phenomenon in a round jet involves different modes. They have been studied extensively in the past, for example, by Davies and Oldfield [5], Merle [6], or Powell et al. [7]. Mode switching appears as a sudden change of jet plume structure and screech frequency with operating conditions. Five modes are traditionally quoted: A1 and A2 are axisymmetric, B is sinuous or flapping, C is helical, andD is again sinuous. The reader is referred to Raman [8,9] for a review of screech properties. The coincidence between shock oscillation frequency and screech frequency has been first observed by Lassiter and Hubbard [10] from a shadowgraph technique. Sherman et al. [11] havemade use of highspeed schlieren recording to investigate the shock distortion during screech. They have also found the coincidence between oscillation and screech frequencies and estimated oscillation amplitudes for the third shock. Using an optical shock detection technique based on laser light scattering by a shock, Panda [12,13] has significantly contributed to the characterization of shock motion during screech. He has reported that every shock oscillates at the screech frequency andmotion amplitudes have been assessed. In the latter reference, an analyticalmodel for shock oscillation is also proposed and is found to be in good agreement with measurements. To the authors’ knowledge, Sherman et al.’s [11] and Panda’s [12,13] contributions are the only occurrences of shock oscillation measurements in the screech literature. In the present Note, oscillation frequency and amplitude are examined by means of high-speed schlieren images and simultaneous near-field acoustic recordings. A procedure for shock tracking is developed and applied on two different screech modes. The experimental setup is presented in Sec. II. The procedure is explained in Sec. III, and some results are discussed. Conclusions are finally given in Sec. IV.",
+    "keywords": [
+      "shock tracking",
+      "screech",
+      "shock waves",
+      "aeroacoustics",
+      "supersonic flow"
+    ],
+    "topics_matched": [
+      "进气畸变",
+      "跨音速/激波"
+    ]
+  },
+  {
     "id": "W2136381314",
     "title": "Minimizing Inlet Distortion for Hybrid Wing Body Aircraft",
     "date": "2011-07-15",
@@ -57947,6 +58073,31 @@
     "topics_matched": [
       "压缩机稳定性",
       "跨音速/激波"
+    ]
+  },
+  {
+    "id": "W1994172909",
+    "title": "Computation of Aircraft Stability Derivatives Using an Automatic Differentiation Adjoint Approach",
+    "date": "2011-12-01",
+    "year": 2011,
+    "authors": [
+      "Charles A. Mader",
+      "Joaquim R. R. A. Martins"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j051147",
+    "abstract": "Peer Reviewed",
+    "keywords": [
+      "aircraft stability derivatives",
+      "automatic differentiation",
+      "adjoint method",
+      "sensitivity analysis",
+      "aerodynamic derivatives",
+      "computational fluid dynamics"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -61961,6 +62112,28 @@
       "跨音速/激波",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2094148526",
+    "title": "Classical, Refined, and Component-Wise Analysis of Reinforced-Shell Wing Structures",
+    "date": "2013-03-25",
+    "year": 2013,
+    "authors": [
+      "Erasmo Carrera",
+      "A. Pagani",
+      "Marco Petrolo"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j052331",
+    "abstract": "This paper compares early and very recent approaches to the static analysis of reinforced-shell wing structures. Early approaches were those based on the pure semimonocoque theory along with the beam assumptions of the Euler–Bernoulli and Timoshenko type. The recent approaches are based on a hierarchical, one-dimensional formulation. These are obtained by adopting various polynomial expansions of the displacement field above the cross-section of the structure according to the unified formulation which was recently proposed by the first author. Two classes were developed in the unified formulation framework. In the first class, Taylor expansion models were developed by exploiting -order Taylor-like polynomials; classical beam theories (Euler–Bernoulli and Timoshenko) were obtained as special cases of Taylor expansion. In the second class, Lagrange expansion models were built by means of four- and nine-point Lagrange-type polynomials over the cross-section of the wing. The component-wise approach was obtained by using different four- and nine-point Langrangian descriptions for different wing components including panels, ribs, spar caps, stringers, and transverse ribs. The finite element method was used to develop numerical applications in the weak form. Finite element matrices and vectors are expressed in terms of fundamental nuclei whose forms do not formally depend on the order and the expansion. A number of typical aeronautical structures were analyzed, and semimonocoque results were compared to classical (Euler–Bernoulli and Timoshenko), refined (Taylor expansion), and component-wise (Lagrange expansion) models. Stress and displacement fields of simple statically determinate, redundant, and open-section wing-box structures were analyzed. Finite element models by a commercial software that make use of solid and shell elements were used for comparison purposes. Results have highlighted the enhanced capabilities of the present refined and component-wise formulations. The present component-wise approach appears to be the natural tool to analyze wing structures because it leads to results that can only be obtained by the use of three-dimensional elasticity (solid) elements whose costs are at least one order of magnitude higher than component-wise cases. Component-wise models in conjunction with finite elements could be seen as a modern way of analyzing reinforced-shell structures by removing classical assumptions of constant shear in the spar webs and panels.",
+    "keywords": [
+      "unified formulation",
+      "Euler-Bernoulli beam",
+      "Timoshenko beam theory",
+      "static analysis"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2151157905",
@@ -70031,6 +70204,62 @@
     ]
   },
   {
+    "id": "W1543538234",
+    "title": "Multifidelity Physics-Based Method for Robust Optimization Applied to a Hovering Rotor Airfoil",
+    "date": "2015-07-29",
+    "year": 2015,
+    "authors": [
+      "Francesca Fusi",
+      "Alberto Guardone",
+      "Giuseppe Quaranta",
+      "Pietro Marco Congedo"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j053952",
+    "abstract": "The paper presents a multifidelity robust optimization technique with application to the design of rotor blade airfoils in hover. A genetic algorithm is coupled with a non-intrusive uncertainty propagation technique based on polynomial chaos expansion to determine the robust optimal airfoils that maximize the mean value of the lift-to-drag ratio while minimizing the variance, under uncertain operating conditions. Uncertainties on the blade pitch angle and induced velocity are considered. To deal with the variable operating conditions induced by the considered uncertainties and to alleviate the computational cost of the optimization procedure, a multifidelity strategy is developed that exploits two aerodynamic models of different fidelity. The two models correspond to different physical descriptions of the flowfield around the airfoil; thus, the multifidelity method employs the low-fidelity model in regions of the stochastic space where the physics of the problem is well captured by the model, and it switches to high-fidelity estimates only where needed. The proposed robust optimization technique is compared with the robust optimization based on the high-fidelity aerodynamic model and the deterministic optimization, to assess the capability of finding a consistent Pareto set and to evaluate the numerical efficiency. The results obtained show how the robust multifidelity approach is effective in reducing the sensitivity of the designed airfoils with respect to variation in the operating conditions.",
+    "keywords": [
+      "multi-fidelity optimization",
+      "robust optimization",
+      "hover",
+      "genetic algorithm",
+      "polynomial chaos expansion",
+      "uncertainty quantification",
+      "lift-to-drag ratio",
+      "Pareto front",
+      "aerodynamic modeling"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W1498663207",
+    "title": "Carrera Unified Formulation for Free-Vibration Analysis of Aircraft Structures",
+    "date": "2015-07-30",
+    "year": 2015,
+    "authors": [
+      "Erasmo Carrera",
+      "Enrico Zappino"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j054265",
+    "abstract": "Advanced structural models, based on variable one-, two-, and three-dimensional kinematics, are proposed in this paper and applied to the analysis of the free vibration of reinforced aircraft shell structures. The used models go beyond classical structural theories, that is, Euler–Bernoulli (for one-dimensional beams) and Kirchhoff (for two-dimensional plates) type assumptions. The order of the expansion of the displacement fields over the cross section (one-dimensional case) and along the plate thickness (two-dimensional case) is, in fact, a free parameter of the problem. In this paper, Lagrange polynomials are used to build such expansions, and as a consequence, only displacements are used as the problem unknowns (no rotations or derivatives of displacements, which are typical of one-dimensional/two-dimensional classical theories, are introduced). The finite-element method is used to provide numerical solutions. The related arrays and the governing dynamical equations are written in terms of a few fundamental nuclei according to the Carrera unified formulation. Classical three-dimensional finite-element solid models are also considered. One-, two-, and three-dimensional finite elements are easily connected to each other to make the most appropriate computational model of the reinforced shell structures. The capability to use the same fundamental nucleus to derive finite-element matrices of one-, two-, and three-dimensional elements of the present model is unique because it is usually not available in other finite-element formulations, that is, no ad hoc techniques are required in the present case to couple finite elements with different kinematics. Three main benchmarks have been analyzed: a plate stiffened by means of bidirectional I-stiffeners, a simplified model of a complete aircraft, and a fuselage–wing connection. Comparison with commercial finite-element software (MSC Nastran) is provided for most of the quoted numerical investigations. The modal assurance criterion has been used to compare the free-vibration modes of the different models. The present mathematical models appear closer to reality and cheaper, from the computational point of view, than those of other existing formulations. Carrera unified-formulation-based finite elements do not require the definition of virtual lines (beam axes) or virtual surfaces (plate reference surfaces), and only physical lines/surfaces are therefore used.",
+    "keywords": [
+      "Carrera Unified Formulation",
+      "free vibration",
+      "aircraft structures",
+      "Lagrange polynomials",
+      "higher-order kinematics",
+      "finite elements",
+      "stiffened plates",
+      "modal assurance criterion",
+      "three-dimensional solid elements"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W1490738766",
     "title": "Estimation of the Particle Deposition on a Transonic Axial Compressor Blade",
     "date": "2015-08-04",
@@ -70720,6 +70949,32 @@
     "topics_matched": [
       "进气畸变",
       "跨音速/激波"
+    ]
+  },
+  {
+    "id": "W2109898176",
+    "title": "Stability of Boundary Layers over Porous Walls with Suction",
+    "date": "2015-08-26",
+    "year": 2015,
+    "authors": [
+      "Nils Tilton",
+      "Luca Cortelezzi"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j053716",
+    "abstract": "Although there is considerable interest in using wall suction to increase boundary-layer stability, stability analyses suggest that porous walls are inherently destabilizing. We explore this contradiction by performing a spatial linear stability analysis of the asymptotic suction boundary layer using a realistic model of wall suction. The porous wall is modelled as a layer of rigid, homogeneous, isotropic, porous material of small permeability, in which inertial effects may be neglected. The porous layer is bounded above by a semi-infinite region in which a boundary layer is driven by a constant freestream velocity. The wall suction is created by applying a suction pressure to a semi-infinite region below the porous layer. Our stability analysis takes account of the full coupling between the flowfields in the boundary-layer and suction regions, governed by the Navier–Stokes equations, and the flow in the porous layer, governed by the volume-averaged Navier–Stokes equations. We find that small amounts of wall permeability destabilize the Tollmien–Schlichting wave and cause a substantial broadening of the unstable region. As a result, the stabilization of boundary layers by wall suction is substantially less effective and more expensive than what is predicted by classical boundary-layer theory.",
+    "keywords": [
+      "boundary layer stability",
+      "wall suction",
+      "porous walls",
+      "Tollmien-Schlichting waves",
+      "boundary layer suction",
+      "volume-averaged Navier-Stokes equations",
+      "boundary layer stabilization"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -74750,6 +75005,37 @@
     ]
   },
   {
+    "id": "W2513900845",
+    "title": "Membrane Shape and Load Reconstruction from Measurements Using Inverse Finite Element Analysis",
+    "date": "2016-08-28",
+    "year": 2016,
+    "authors": [
+      "Mattia Alioli",
+      "Pierangelo Masarati",
+      "Marco Morandini",
+      "Trenton Carpenter",
+      "N. Brent Osterberg",
+      "Roberto Albertani"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055123",
+    "abstract": "An original variational formulation is developed for the inverse problem of reconstructing full-field structural displacement and pressure distribution of membrane wings subjected to steady loads from membrane strain distribution. A direct solution approach in cosimulation with fluid-dynamics solvers is also presented. Moving least squares are used to smooth and remap surface strain measurements, estimated from digital image correlation, as needed by the inverse solution meshing. The same approach is used to map the structural and fluid interface kinematics and loads during the fluid–structure cosimulation. Both the direct and the inverse analyses are validated by comparing the direct predictions and the reconstructed deformations with experimental data for prestressed rectangular membranes subjected to static and unsteady loads. The load distributions reconstructed using the inverse analysis are compared with the corresponding loads obtained using the direct analysis. The inverse analysis runs on standard off-the-shelf PCs and can be implemented in real time, providing load-distribution estimates at a rate in the order of tens of data sets per second.",
+    "keywords": [
+      "wing membrane",
+      "inverse finite element method",
+      "load reconstruction",
+      "digital image correlation",
+      "moving least squares",
+      "pressure distribution",
+      "prestressed membranes",
+      "unsteady loads"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2514041107",
     "title": "Effects of Impeller Squealer Tip on Centrifugal Compressor Performance",
     "date": "2016-08-29",
@@ -75855,6 +76141,37 @@
       "Mathematics",
       "Reynolds number",
       "Turbulence"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W2552992137",
+    "title": "Numerical Investigation of the Dynamic Characteristics of a Dual-Throat-Nozzle for Fluidic Thrust-Vectoring",
+    "date": "2016-11-09",
+    "year": 2016,
+    "authors": [
+      "Michele Ferlauto",
+      "Roberto Marsilio"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055044",
+    "abstract": "A computational method tailored for the simulation of fluidic thrust-vectoring systems is employed to investigate the dynamic response of a dual-throat nozzle in open- and closed-loop control. Thrust vectoring in fixed, symmetric nozzles is obtained by secondary flow injections that cause local flow separations, asymmetric pressure distributions, and, as a consequence, the vectoring of primary jet flow. The computational technique is based on a well-assessed mathematical model for the compressible unsteady Reynolds-averaged Navier–Stokes equations. A minimal control system governs the unsteady blowing. Nozzle performances and thrust-vector angles have been computed for a wide range of nozzle pressure ratios and secondary flow injection rates. The numerical results are compared with the experimental data available in the open literature. Several computations of the open-loop dynamics of the nozzle under different forcing have been performed to investigate the system response in terms of thrust-vectoring effectiveness and controllability. These computations have been used to extract autoregressive exogenous models of the nozzle dynamics. The effects of including the actuator dynamics are also discussed. Simple strategies of closed-loop control of the nozzle system by proportional–integrative–derivative regulators are investigated numerically. The closed-loop model predictive control of the system, based on the autoregressive exogenous models, is addressed.",
+    "keywords": [
+      "fluidic thrust vectoring",
+      "secondary flow injection",
+      "unsteady RANS",
+      "open-loop dynamics",
+      "feedback control",
+      "autoregressive exogenous model",
+      "actuator dynamics",
+      "PID control",
+      "model predictive control",
+      "thrust vector angle",
+      "controllability",
+      "nozzle pressure ratio"
     ],
     "topics_matched": [
       "非定常流动"
@@ -80602,6 +80919,32 @@
     ]
   },
   {
+    "id": "W2768915628",
+    "title": "Multidimensional Model for the Stress Analysis of Reinforced Shell Structures",
+    "date": "2017-11-20",
+    "year": 2017,
+    "authors": [
+      "Enrico Zappino",
+      "Erasmo Carrera"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056384",
+    "abstract": "The present paper proposes an approach that can be used to mix one-, two-, and three-dimensional refined models, derived using the Carrera Unified Formulation, to build a variable kinematic model that is able to deal with the static analysis of complex thin-walled structures. The adopted formulation, which only has displacements as degrees of freedom, allows these models to easily be connected to each other; that is, a variable kinematics model can be derived without ad hoc techniques. The refined models used in the present paper ensure high accuracy and low computational costs. The displacement continuity at the interface is guaranteed by the formulation, and no stress singularities appear in the kinematic model transition. The mixed interpolation tensorial component approach has been used, in a unified sense, for one-, two-, and three-dimensional models to avoid the shear locking effect. The accuracy of the present approach has been confirmed by comparing the results with those from the literature and with those obtained using commercial finite element codes. The static response of a reinforced panel and a section of an aircraft fuselage have been investigated to show the capabilities of the present approach. The use of refined structural models makes it possible to overcome the limits of classical structural models and, at the same time, to reduce the computational costs.",
+    "keywords": [
+      "Carrera Unified Formulation",
+      "shear locking",
+      "thin-walled structures",
+      "stress analysis",
+      "aircraft fuselage",
+      "reinforced panels",
+      "static analysis",
+      "displacement continuity",
+      "stress singularity"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2521269223",
     "title": "Impact of Bearing Clearance on Measured Stiffness and Damping Coefficients and Thermal Performance of a High-Stiffness Generation 3 Foil Journal Bearing",
     "date": "2017-12-01",
@@ -81485,6 +81828,30 @@
     "topics_matched": []
   },
   {
+    "id": "W2962765639",
+    "title": "Vortex Oscillations Around a Hemisphere-Cylinder Body with a High Fineness Ratio",
+    "date": "2018-01-24",
+    "year": 2018,
+    "authors": [
+      "Bao-Feng Ma",
+      "Shuo-Lin Yin"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056047",
+    "abstract": "Vortex unsteadiness around a hemisphere cylinder at angles of attack of 10–80 deg was studied using large-eddy simulation and dynamic mode decomposition. The cylinder body has a fineness ratio of 24.5 (length-to-diameter ratio). The results revealed that oscillations of leeward vortices exist over a forebody at the whole range of angles of attack in addition to vortex shedding at an afterbody. The vortex oscillations consist of antisymmetric modes (alternate oscillation) and symmetric modes (in-phase oscillation). The alternate vortex oscillations correspond to the most energetic modes and are responsible for fluctuating sectional side forces at the forebody that are greater than the ones from vortex shedding at the afterbody. The Strouhal numbers of both alternate vortex oscillations and shedding at angles of attack of 10–40 deg are similar with , whereas at angles of attack of 50–80 deg, the Strouhal numbers are apparently divided into two regimes: the vortex oscillations with at the forebody, and the vortex shedding with at the afterbody. The vortex shedding regions progressively move forward with increasing angles of attack, and accordingly the regions of vortex oscillations contract and eventually only exist near the nose at sufficiently high angles of attack. The computed frequencies are in good agreement with the measured values of hot-wire probes in previous experiments.",
+    "keywords": [
+      "vortex oscillation",
+      "angle of attack",
+      "vortex shedding",
+      "Strouhal number",
+      "dynamic mode decomposition",
+      "large eddy simulation",
+      "hot-wire anemometry"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4243019920",
     "title": "Complex Flow Generation and Development in a Full-Scale Turbofan Inlet",
     "date": "2018-02-02",
@@ -81932,6 +82299,32 @@
     "topics_matched": [
       "压缩机稳定性"
     ]
+  },
+  {
+    "id": "W2802130358",
+    "title": "Sparse Green’s Functions Estimation Using Orthogonal Matching Pursuit: Application to Aeroacoustic Beamforming",
+    "date": "2018-04-30",
+    "year": 2018,
+    "authors": [
+      "Sofiane Bousabaa",
+      "Jean Bulté",
+      "Daniel-Ciprian Mincu",
+      "Régis Marchiano",
+      "François Ollivier"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056285",
+    "abstract": "The Paper presents a new methodology for the numerical estimation of the Green’s functions in complex external aeroacoustic configurations. Computational aeroacoustics is used to propagate multifrequency signals from focus points to microphones. The method takes advantage of the sparsity of the Green’s functions in the time domain to minimize the simulation time. It leads to a complex sparse linear regression problem. To solve it, the orthogonal matching pursuit algorithm is adapted. The method is first applied on the case of the diffraction by a rigid sphere. Results are studied both in terms of Green’s function estimation and aeroacoustic beamforming. They show that the Green’s functions are obtained with a good accuracy and enable localization of acoustic sources placed behind the diffracting object. The methodology is then applied on a NACA0012 two-dimensional wing in a potential flow for which the Green’s function is not known analytically. The use of the reverse-flow reciprocity principle enables reduction of the complexity of the estimation problem when there are more scan points than microphones. It is shown that it is possible to take advantage of the presence of diffracting objects to improve the capability of detection of a sensor array.",
+    "keywords": [
+      "Green function estimates",
+      "orthogonal matching pursuit",
+      "sparse linear regression",
+      "computational aeroacoustics",
+      "acoustic source localization",
+      "NACA0012 wing"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2799399784",
@@ -87068,6 +87461,27 @@
     ]
   },
   {
+    "id": "W2940712687",
+    "title": "Multidimensional Models for Double-Swept Helicopter Blades",
+    "date": "2019-04-22",
+    "year": 2019,
+    "authors": [
+      "Matteo Filippi",
+      "Enrico Zappino",
+      "Erasmo Carrera"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j058032",
+    "abstract": "This paper presents multidimensional finite element models for the analyses of modern helicopter blades. The methodology enables finite elements with different dimensionality to be joined together in a consistent fashion. The formulation exploits the unique feature of a special class of refined beam elements, which have pure displacements as unknowns. This property makes it possible to connect beam and solid elements at node levels without the need for complicated mathematical formulations. Various problems in the modeling of realistic blades can be tackled with ease such as the application of nonclassical constraints. All physical surfaces of the structure can be modeled regardless of which finite element is used for discretizing the blade portion. Thus, three-dimensional stress states can be readily obtained by avoiding further postprocessing operations. The multidimensional models have been verified with experimental results and validated with beam and shell finite element solutions available in the literature by considering tip-swept blades with rectangular cross sections. The methodology has been then applied to a double-swept blade with a realistic profile.",
+    "keywords": [
+      "three-dimensional stress state"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W4253162045",
     "title": "Aerodynamic Design and Testing of an Imbedded Forward Swept Rotor in a Two-Stage Transonic Fan",
     "date": "2019-04-23",
@@ -87602,6 +88016,87 @@
     "topics_matched": []
   },
   {
+    "id": "W2953567578",
+    "title": "Evaluation of Various Geometrical Nonlinearities in the Response of Beams and Shells",
+    "date": "2019-07-03",
+    "year": 2019,
+    "authors": [
+      "A. Pagani",
+      "Erasmo Carrera",
+      "Riccardo Augello"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057877",
+    "abstract": "This paper investigates the consistency and compatibility of various assumptions and strain measurements in a large displacements/geometric nonlinear analysis of beams and thin-walled structures. For this purpose, a refined beam model with enhanced three-dimensional accuracy is employed in a total Lagrangian scenario. This model is developed in the domain of the Carrera unified formulation, which allows expression of the nonlinear governing equations in terms of fundamental nuclei. These nuclei are independent of the theory approximation order; thus, low- to high-order theories of structures can be implemented with ease. Various numerical problems are addressed, and solutions are provided by using a classical finite element method and a Newton–Raphson linearization scheme. Given the intrinsic scalable nature of Carrera unified formulation, investigating the effects of the various nonlinear strain components is straightforward. It is demonstrated that the full Green–Lagrange strain tensor produces good approximation in case of large rotations, postbuckling, and nonlinear couplings. In contrast, approximations may be reasonable as moderate displacements and simpler problems (for example, slender beams under flexure) are considered.",
+    "keywords": [
+      "geometric nonlinearity",
+      "large displacements",
+      "beams",
+      "shells",
+      "thin-walled structures",
+      "Carrera Unified Formulation",
+      "Green-Lagrange strain",
+      "total Lagrangian formulation",
+      "post-buckling",
+      "large rotations",
+      "nonlinear coupling"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2955822971",
+    "title": "Computationally Efficient Concurrent Multiscale Framework for the Linear Analysis of Composite Structures",
+    "date": "2019-07-03",
+    "year": 2019,
+    "authors": [
+      "Ibrahim Kaleel",
+      "Marco Petrolo",
+      "Erasmo Carrera",
+      "Anthony M. Waas"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057880",
+    "abstract": "This paper presents a novel multiscale framework based on higher-order one-dimensional finite element models. The refined finite element models originate from the Carrera unified formulation (CUF): a novel and efficient methodology to develop higher-order structural theories hierarchically via a variable kinematic approach. The concurrent multiscale framework consists of a macroscale model to describe the structural level components interfaced with efficient CUF micromechanical models. Such micromechanical models can take into account the detailed architecture of the microstructure with high fidelity. The framework derives its efficiency from the capability of CUF models to detect accurate three-dimensional-like stress fields at reduced computational costs. This paper also shows the ability of the framework to interface with different classes of representative volume elements and the benefits of parallel implementations. The numerical cases focus on composite and sandwich structures and demonstrate the high fidelity and feasibility of the proposed framework. The efficiency of the framework stems from comparisons with the analysis time and memory requirement against traditional multiscale implementations.",
+    "keywords": [
+      "Carrera Unified Formulation",
+      "composite structures",
+      "sandwich structures",
+      "micromechanical modeling",
+      "representative volume element",
+      "parallel computing",
+      "linear static analysis",
+      "reduced computational cost"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W4253357194",
+    "title": "Computationally Efficient Concurrent Multiscale Framework for the Nonlinear Analysis of Composite Structures",
+    "date": "2019-07-03",
+    "year": 2019,
+    "authors": [
+      "Ibrahim Kaleel",
+      "Marco Petrolo",
+      "Erasmo Carrera",
+      "Anthony M. Waas"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057881",
+    "abstract": "This paper presents a computationally efficient concurrent multiscale platform to undertake the nonlinear analysis of composite structures. The framework exploits refined one-dimensional models developed within the scheme of the Carrera unified formulation (CUF), which is a generalized hierarchical formulation that generates refined structural theories via a variable kinematic description. The CUF operates at the macro- and microscales, and the macroscale interfaces with a nonlinear micromechanical toolbox. The computational efficiency derives from the ability of the CUF to obtain accurate three-dimensional (3-D)-like stress fields with a reduced computational cost. The nonlinearity is at the matrix level within the microscale, and its effect scales up to the macroscale through homogenization. The macrotangent matrix adopts a perturbation-based method to have meliorated performances. The numerical results demonstrate that the framework requires some 50% of the computational time and 10% of memory usage of traditional 3-D finite elements. Very detailed local effects at the microscale are detectable, and there are no restrictions concerning the complexity of the geometry.",
+    "keywords": [
+      "composite structures",
+      "nonlinear analysis",
+      "Carrera Unified Formulation",
+      "micromechanics",
+      "homogenization",
+      "computational efficiency"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4244098335",
     "title": "Advanced Control System for Grid-Connected SOFC Hybrid Plants: Experimental Verification in Cyber-Physical Mode",
     "date": "2019-07-09",
@@ -88103,6 +88598,31 @@
       "Aerospace engineering",
       "Materials science",
       "Engineering"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2970234932",
+    "title": "Novel Three-Dimensional Surface Treatments for Trailing-Edge Noise Reduction",
+    "date": "2019-08-29",
+    "year": 2019,
+    "authors": [
+      "Abbas Afshari",
+      "Ali Akbar Dehghan",
+      "Mahdi Azarpeyvand"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j058586",
+    "abstract": "The present study is concerned with the experimental investigation of novel complex surface treatments as a passive trailing edge noise control technique. The proposed novel three-dimensional surface treatments, composed of a combination of finlets with different spacings and patterns, have shown better aeroacoustic performance than the standard two-dimensional treatments in terms of the reduction in the surface pressure power spectral density, the spanwise length-scale, eddy convection velocity, and the trailing edge noise. Furthermore, the boundary-layer flow measurements downstream of the surface treatments have provided some insight into the mechanisms through which three-dimensional surface treatments affect the flow structures, which can help improve the performance of such passive techniques for the suppression airfoil noise at source. The aerodynamic performance of the plates fitted with different surface treatments is also examined using the boundary-layer velocity information. The results from this fundamental study can lead to the development of new generations of quieter airfoils with unconventional surface treatments.",
+    "keywords": [
+      "trailing edge noise",
+      "passive noise control",
+      "airfoil noise",
+      "boundary layer flow",
+      "aeroacoustics",
+      "noise reduction",
+      "aerodynamic performance"
     ],
     "topics_matched": []
   },
