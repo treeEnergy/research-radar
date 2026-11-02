@@ -89868,6 +89868,33 @@
     "topics_matched": []
   },
   {
+    "id": "W2990990974",
+    "title": "Enhanced Delayed Detached Eddy Simulation for Cavities and Labyrinth Seals",
+    "date": "2019-11-21",
+    "year": 2019,
+    "authors": [
+      "Richard J. Jefferson-Loveday"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4045484",
+    "abstract": "Abstract A range of popular hybrid Reynolds-averaged Navier–Stokes -large eddy simulation (RANS-LES) methods are tested for a cavity and two labyrinth seal geometries using an in-house high-order computational fluid dynamics (CFD) code and a commercial CFD code. The models include the standard Spalart–Allmaras (SA) and Menter shear stress transport (SST) versions of delayed detached eddy simulation (DDES) and the Menter scale adaptive simulation (SAS) model. A recently formulated, enhanced, variant of SA-DDES presented in the literature and a new variant using the Menter SST model are also investigated. The latter modify the original definition of the subgrid length scale used in standard DDES based on local vorticity and strain. For all geometries, the meshes are considered to be hybrid RANS-LES adequate. Very low levels of resolved turbulence and quasi-two-dimensional flow fields are observed for the standard DDES and SAS models even for the test cases here that contain obstacles, sharp edges, and swirling flow. Similar findings are observed for both the commercial and in-house high-order CFD codes. For the cavity simulations, when using standard DDES and SAS, there is a significant under prediction of turbulent statistics compared with experimental measurements. The enhanced versions of DDES, on the other hand, show a significant improvement and resolve turbulent content over a wide range of scales. Improved agreement with experimental measurements is also observed for profiles of the vertical velocity component. For the first labyrinth seal geometry swirl velocities are more accurately captured by the enhanced DDES versions. For the second labyrinth seal geometry, the mass flow coefficient prediction using the enhanced models is significantly improved (up to 30%). Standard, industrially available hybrid RANS-LES models, when applied to the present canonical cases can produce little to no resolved turbulent content. The standard SA- and Menter-based DDES models can yield lower levels of eddy viscosity when compared to equivilent steady RANS simulations which means that they are not operating as RANS or LES. It is recommended that hybrid RANS-LES models should be extensively tested for specific flow configurations and that special care is exercised by CFD practitioners when using many of the popular hybrid RANS-LES models that are currently available in commercial CFD packages.",
+    "keywords": [
+      "delayed detached eddy simulation",
+      "hybrid RANS/LES",
+      "cavity flow",
+      "labyrinth seals",
+      "Spalart-Allmaras turbulence model",
+      "Menter SST model",
+      "scale-adaptive simulation",
+      "eddy viscosity",
+      "mass flow coefficient",
+      "swirl velocity",
+      "turbulence statistics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4248037955",
     "title": "Experiments on a Large Flexure Pivot Journal Bearing: Summary of Test Results and Comparison With Predictions",
     "date": "2019-11-23",
