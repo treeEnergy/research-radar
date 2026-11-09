@@ -3291,6 +3291,47 @@
     ]
   },
   {
+    "id": "W2079446392",
+    "title": "Closure to “Discussions of ‘Gas Turbine Engines in the Royal Canadian Navy Prototype Hydrofoil Vessel’” (1967, ASME J. Eng. Power, 89, pp. 174–175)",
+    "date": "1967-01-01",
+    "year": 1967,
+    "authors": [
+      "S. E. Hopkins",
+      "G. L. Amundrud"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3616593",
+    "abstract": "",
+    "keywords": [
+      "gas turbines",
+      "hydrofoil vessels",
+      "Royal Canadian Navy",
+      "naval propulsion"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2213184929",
+    "title": "Discussion: “Gas Turbine Engines in the Royal Canadian Navy Prototype Hydrofoil Vessel” (Hopkins, S. E., and Amundrud, G. L., 1966, ASME J. Eng. Power, 88, pp. 139–143)",
+    "date": "1967-01-01",
+    "year": 1967,
+    "authors": [
+      "Robert E. Apple"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3616587",
+    "abstract": "",
+    "keywords": [
+      "gas turbines",
+      "hydrofoil vessels",
+      "Royal Canadian Navy",
+      "ship propulsion"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2033188179",
     "title": "Oxidation and sublimation of graphite in simulated re-entry environments.",
     "date": "1967-03-01",
@@ -5908,6 +5949,26 @@
     "topics_matched": [
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2053859900",
+    "title": "Discussion: “The Interaction of Air Motion, Fuel Spray, and Combustion in the Diesel Combustion Process” (Melton, Jr., R. B., and Rogowski, A. R., 1972, ASME J. Eng. Power, 94, pp. 11–14)",
+    "date": "1972-01-01",
+    "year": 1972,
+    "authors": [
+      "C. C. J. French"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445610",
+    "abstract": "",
+    "keywords": [
+      "diesel engine combustion",
+      "fuel spray",
+      "air movement",
+      "combustion process"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W1973931269",
@@ -8539,6 +8600,28 @@
     ]
   },
   {
+    "id": "W1669520993",
+    "title": "Mean Flow Characteristics for the Oblique Impingement of an Axlisymmetric Jet",
+    "date": "1976-06-01",
+    "year": 1976,
+    "authors": [
+      "John F Foss",
+      "Stanley J. Kleis"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.61408",
+    "abstract": "The oblique impingement of an axisymmetric jet has been investigated. A summary of the data and the analytical interpretations of the dominant mechanisms which influence the flow are reported. The major characteristics of the shallow angle oblique jet impingement flow field are: (1) minimal dynamic spreading as revealed by the surface pressure field, (2) pronounced kinematic spreading as revealed by the jet flow velocity field, (3) a pronounced upstream shift of the stagnation point from the maximum pressure point, (4) the production of streamwise vorticity by the impingement process.",
+    "keywords": [
+      "axisymmetric jet",
+      "stagnation point",
+      "surface pressure",
+      "streamwise vorticity",
+      "jet velocity field"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2121872191",
     "title": "Transient temperature distortion in a slab due to thermocouple cavity",
     "date": "1976-07-01",
@@ -10731,6 +10814,36 @@
     ]
   },
   {
+    "id": "W1616379129",
+    "title": "Transmission of sound through nonuniform circular ducts with compressible mean flows",
+    "date": "1980-05-01",
+    "year": 1980,
+    "authors": [
+      "Ali Hasan Nayfeh",
+      "B. S. Shaker",
+      "J. E. Kaiser"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.7665",
+    "abstract": "An acoustic theory is developed to determine the sound transmission and attenuation through an infinite, hard-walled or lined, circular duct carrying compressible, sheared, mean flows and having a variable cross section. The theory is applicable to large as well as small axial variations, as long as the mean flow does not separate. Although the theory is described for circular ducts, it is applicable to other duct configurations - annular, two-dimensional, and rectangular. The theory is described for the linear problem, but the technique is general and has the advantage of being applicable to the nonlinear case as well as the linear case. The technique is based on solving for the envelopes of the quasi-parallel acoustic modes that exist in the duct instead of solving for the actual wave, thereby reducing the computational time and the roundoff error encountered in purely numerical techniques. A computer program has been developed based on this theory. The mean-flow model consists of a one-dimensional flow in the core and a quarter-sine profile in the boundary layer. Results are presented for the reflection and transmission coefficients in ducts with varying slopes and carrying different mean flows.",
+    "keywords": [
+      "sound transmission",
+      "acoustic attenuation",
+      "circular duct",
+      "variable cross-section",
+      "shear flow",
+      "lined ducts",
+      "hard-walled ducts",
+      "acoustic modes",
+      "reflection coefficient",
+      "transmission coefficient",
+      "boundary layer flow",
+      "nonlinear acoustics"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W1973075885",
     "title": "Closure to “Discussion of ‘Mean Velocity and Decay Characteristics of the Near and Far-Wake of a Compressor Rotor Blade of Moderate Loading’” (1980, ASME J. Eng. Power, 102, pp. 547–548)",
     "date": "1980-07-01",
@@ -10763,6 +10876,29 @@
     "topics_matched": [
       "非定常流动"
     ]
+  },
+  {
+    "id": "W1995029792",
+    "title": "Techniques for the Thermal/Hydraulic Analysis of LMFBR Check Valves",
+    "date": "1980-07-01",
+    "year": 1980,
+    "authors": [
+      "S. M. Cho",
+      "Ronald S. Kane"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3230322",
+    "abstract": "A thermal/hydraulic analysis of the check valves in liquid sodium service for LMFBR plants is required to provide temperature data for thermal stress analysis of the valves for specified transient conditions. Because of the complex three-dimensional flow pattern within the valve, the heat transfer analysis techniques for less complicated shapes could not be used. This paper discusses the thermal analysis techniques used to assure that the valve stress analysis is conservative. These techniques include a method for evaluating the recirculating flow patterns and for selecting appropriately conservative heat transfer correlations in various regions of the valve.",
+    "keywords": [
+      "liquid metal fast breeder reactor",
+      "check valves",
+      "thermal stress analysis",
+      "heat transfer correlations",
+      "three-dimensional flow",
+      "transient conditions"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2015048044",
@@ -11510,6 +11646,28 @@
     "topics_matched": []
   },
   {
+    "id": "W2009371529",
+    "title": "Flutter Spectral Measurements Using Stationary Pressure Transducers",
+    "date": "1981-04-01",
+    "year": 1981,
+    "authors": [
+      "Anatole P. Kurkov"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3230743",
+    "abstract": "Engine-order sampling was used to eliminate the integral harmonics from the flutter spectra corresponding to a case-mounted static pressure transducer. From the optical displacement data it was demonstrated that blade-order sampling of pressure data can yield erroneous results because of the interference caused by blade vibration. Two methods are presented that effectively eliminate this interference and yield the blade-pressure-difference spectra. The phase difference between the differential-pressure and displacement spectra was evaluated.",
+    "keywords": [
+      "aeroelastic flutter",
+      "pressure difference",
+      "phase difference",
+      "optical displacement measurement"
+    ],
+    "topics_matched": [
+      "气弹/振动"
+    ]
+  },
+  {
     "id": "W2080853266",
     "title": "Closure to “Discussion of ‘Long Arc Shrouding—A Reliability Improvement for Untuned Steam Turbine Blading’” (1981, ASME J. Eng. Power, 103, pp. 527–528)",
     "date": "1981-07-01",
@@ -11551,6 +11709,35 @@
     ],
     "topics_matched": [
       "气弹/振动"
+    ]
+  },
+  {
+    "id": "W1980286724",
+    "title": "Closure to “Discussion of ‘An Experimental Study of Endwall and Airfoil Surface Heat Transfer in a Large Scale Turbine Blade Cascade’” (1981, ASME J. Eng. Power, 103, p. 602)",
+    "date": "1981-07-01",
+    "year": 1981,
+    "authors": [
+      "R. A. Graziani",
+      "Michael F. Blair",
+      "J. R. Taylor",
+      "Robert Edward Mayle"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3230775",
+    "abstract": "Cascade 1 S. V. Horn. 2 The authors have made a remarkable contribution to heat transfer measurement in a large scale turbine cascade.Their measurement of the Stanton number distribution not only reflects the heat loads to the turbine passage, but also, according to Reynolds analogy, the skin friction coefficient distribution over the blade.Since the cascade design without the boundary layer control can be understood as the design with a suitable skin friction coefficient distribution, the released data of the Stanton number distribution indicate a slight possibility of the more efficient cascade design.For the given turbine flow conditions, the mentioned design would apply small deceleration before the maximum curvature region in order to achieve near-to-separation state of boundary layer (skin friction coefficient and Stanton number closer to zero).It would also result in lower heat load in this region.",
+    "keywords": [
+      "turbine cascade",
+      "endwall heat transfer",
+      "skin friction coefficient",
+      "boundary layer control",
+      "boundary layer separation",
+      "cascade design",
+      "heat load",
+      "Reynolds analogy"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
     ]
   },
   {
@@ -21908,6 +22095,31 @@
     ]
   },
   {
+    "id": "W1998237341",
+    "title": "Approach to the parametric design of ion thrusters",
+    "date": "1990-09-01",
+    "year": 1990,
+    "authors": [
+      "Paul J. Wilbur",
+      "J. R. Beattie",
+      "J. Hyman"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.23258",
+    "abstract": "A methodology that can be used to determine which of several physical constraints can limit ion thruster power and thrust, under various design and operating conditions, is presented. The methodology is exercised to demonstrate typical limitations imposed by grid system span-to-gap ratio, intragrid electric field, discharge chamber power per unit beam area, screen grid lifetime, and accelerator grid lifetime constraints. Limitations on power and thrust for a thruster defined by typical discharge chamber and grid system parameters when it is operated at maximum thrust-to-power are discussed. It is pointed out that other operational objectives such as optimization of payload fraction or mission duration can be substituted for the thrust-to-power objective and that the methodology can be used as a tool for mission analysis.",
+    "keywords": [
+      "ion thrusters",
+      "parametric design",
+      "thrust-to-power ratio",
+      "payload fraction",
+      "mission analysis"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W1986656406",
     "title": "A Note on Efficiency Sensitivity to Tip Clearance Changes in Axial Flow Compressors",
     "date": "1990-10-01",
@@ -23693,6 +23905,34 @@
     ]
   },
   {
+    "id": "W2167323508",
+    "title": "Structural optimization incorporating centrifugal and Coriolis effects",
+    "date": "1991-10-01",
+    "year": 1991,
+    "authors": [
+      "Howard D. Gans",
+      "William J. Anderson"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.10798",
+    "abstract": "The problem of structural optimization in the presence of centrifugal and Coriolis effects was studied for a rotating blade and for a rotating beam.A finite element formulation was used and optimization was performed by applying nonlinear inverse perturbation.Centrifugal forces were modeled by the use of differential stiffness in a small displacement approximation, and Coriolis effects were obtained by employing Coriolis finite element matrices.The nonlinear inverse perturbation scheme was then modified to account for the mild geometric nonlinearities posed by differential stiffness and was also modified to incorporate the complex phase changes resulting from Coriolis effects.Finally, the method was applied to small and large changes in the fundamental (bending) frequency of two rotating systems.Satisfactory results were obtained.",
+    "keywords": [
+      "structural optimization",
+      "centrifugal effects",
+      "Coriolis effect",
+      "rotating blades",
+      "rotating beams",
+      "geometric nonlinearity",
+      "natural frequencies",
+      "bending frequency"
+    ],
+    "topics_matched": [
+      "叶片气动设计",
+      "离心压气机"
+    ]
+  },
+  {
     "id": "W2089330148",
     "title": "Stage-by-stage poststall compression system modeling technique",
     "date": "1991-11-01",
@@ -24185,6 +24425,28 @@
     ]
   },
   {
+    "id": "W2100099627",
+    "title": "Experimental investigation of turbulent flow through a circular-to-rectangular transition duct",
+    "date": "1992-02-01",
+    "year": 1992,
+    "authors": [
+      "D. O. Davis",
+      "F. B. Gessner"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.10927",
+    "abstract": "Steady, incompressible, turbulent, swirl-free flow through a circular-to-rectangular transition duck was studied experimentally. The cross-sectional area remains the same at the exit as at the inlet, but varies through the transition section to a maximum value approximately 15 percent above the inlet value. The cross-sectional geometry everywhere along the duct is defined by the equation of a superellipse. Mean and turbulence data were accumulated utilizing pressure and hot-wire instrumentation at five stations along the test section. Data are presented for operating bulk Reynolds numbers of 88,000 and 390,000. Measured quantities include total and static pressure, the three components of the mean velocity vector, and the six components of the Reynolds stress tensor. In addition to the transition duct measurements, a hot-wire technique which relies on the sequential use of single rotatable normal and slant-wire probes was proposed. The technique is applicable for measurement of the total mean velocity vector and the complete Reynolds stress tensor when the primary flow is arbitrarily skewed relative to a plane which lies normal to the probe axis of rotation.",
+    "keywords": [
+      "turbulent flow",
+      "Reynolds stress tensor",
+      "hot-wire anemometry",
+      "pressure distribution",
+      "Reynolds number effects"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2020301508",
     "title": "Continuous- and dispersed-phase structure of dense nonevaporating pressure-atomized sprays",
     "date": "1992-03-01",
@@ -24241,6 +24503,34 @@
     ],
     "topics_matched": [
       "进气畸变"
+    ]
+  },
+  {
+    "id": "W2066287467",
+    "title": "Navier-Stokes analysis of turbomachinery blade external heat transfer",
+    "date": "1992-03-01",
+    "year": 1992,
+    "authors": [
+      "Ali Ameri",
+      "Peter M. Sockol",
+      "Rama S. R. Gorla"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.23488",
+    "abstract": "The two-dimensional, compressible, thin-layer Navier-Stokes and energy equations were solved numerically to obtain heat transfer rates on turbomachinery blades. The Baldwin-Lomax algebraic model and the q-omega low Reynolds number two-equation model were used for modeling of turbulence. For the numerical solution of the governing equations a four-stage Runge-Kutta solver was employed. The turbulence model equations were solved using an implicit scheme. Numerical solutions are presented for two-dimensional flow within two vane cascades. The heat transfer results and the pressure distributions were compared with published experimental data. The agreement between the numerical calculations and the experimental values were found to be generally favorable. The position of transition from laminar to turbulent flow was also predicted accurately.",
+    "keywords": [
+      "turbomachinery blades",
+      "external heat transfer",
+      "compressible flow",
+      "thin-layer Navier-Stokes equations",
+      "Baldwin-Lomax turbulence model",
+      "laminar-turbulent transition",
+      "pressure distribution",
+      "two-dimensional flow"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
     ]
   },
   {
@@ -24682,6 +24972,33 @@
     "topics_matched": [
       "稳定性建模",
       "非定常流动"
+    ]
+  },
+  {
+    "id": "W2035859961",
+    "title": "NASA Low-Speed Centrifugal Compressor for Three-Dimensional Viscous Code Assessment and Fundamental Flow Physics Research",
+    "date": "1992-04-01",
+    "year": 1992,
+    "authors": [
+      "Michael D. Hathaway",
+      "J. R. Wood",
+      "C. A. Wasserbauer"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2929143",
+    "abstract": "A low-speed centrifugal compressor facility recently built by the NASA Lewis Research Center is described. The purpose of this facility is to obtain detailed flow field measurements for computational fluid dynamic code assessment and flow physics modeling in support of Army and NASA efforts to advance small gas turbine engine technology. The facility is heavily instrumented with pressure and temperature probes, in both the stationary and rotating frames of reference, and has provisions for flow visualization and laser velocimetry. The facility will accommodate rotational speeds to 2400 rpm and is rated at pressures to 1.25 atm. The initial compressor stage being tested is geometrically and dynamically representative of modern high-performance centrifugal compressor stages with the exception of Mach number levels. Preliminary experimental investigations of inlet and exit flow uniformity and measurement repeatability are presented. These results demonstrate the high quality of the data that may be expected from this facility. The significance of synergism between computational fluid dynamic analyses and experimentation throughout the development of the low-speed centrifugal compressor facility is demonstrated.",
+    "keywords": [
+      "three-dimensional viscous flow",
+      "small gas turbines",
+      "flow uniformity",
+      "repeatability",
+      "rotating frame",
+      "laser velocimetry",
+      "flow visualization"
+    ],
+    "topics_matched": [
+      "离心压气机"
     ]
   },
   {
@@ -26127,6 +26444,27 @@
     ]
   },
   {
+    "id": "W2078422591",
+    "title": "Critical comparison of second-order closures with direct numerical simulations of homogeneous turbulence",
+    "date": "1993-04-01",
+    "year": 1993,
+    "authors": [
+      "T. H. Shih",
+      "John L. Lumley"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.11601",
+    "abstract": "Recently, several second order closure models have been proposed for closing the second moment equations, in which the velocity-pressure gradient (and scalar-pressure gradient) tensor and the dissipation rate tensor are two of the most important terms. In the literature, these correlation tensors are usually decomposed into a so called rapid term and a return-to-isotropy term. Models of these terms have been used in global flow calculations together with other modeled terms. However, their individual behavior in different flows have not been fully examined because they are un-measurable in the laboratory. Recently, the development of direct numerical simulation (DNS) of turbulence has given us the opportunity to do this kind of study. With the direct numerical simulation, we may use the solution to exactly calculate the values of these correlation terms and then directly compare them with the values from their modeled formulations (models). Here, we make direct comparisons of five representative rapid models and eight return-to-isotropy models using the DNS data of forty five homogeneous flows which were done by Rogers et al. (1986) and Lee et al. (1985). The purpose of these direct comparisons is to explore the performance of these models in different flows and identify the ones which give the best performance. The modeling procedure, model constraints, and the various evaluated models are described. The detailed results of the direct comparisons are discussed, and a few concluding remarks on turbulence models are given.",
+    "keywords": [
+      "second-order closure",
+      "homogeneous turbulence",
+      "turbulence modeling",
+      "direct numerical simulation comparison"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2018632882",
     "title": "Inlet turbulence distortion and viscous flow development in a controlled-diffusion compressor cascade at very high incidence",
     "date": "1993-05-01",
@@ -26298,6 +26636,31 @@
       "压缩机稳定性",
       "非定常流动",
       "气弹/振动"
+    ]
+  },
+  {
+    "id": "W2161093057",
+    "title": "Flip-flop jet nozzle extended to supersonic flows",
+    "date": "1993-06-01",
+    "year": 1993,
+    "authors": [
+      "Ganesh G. Raman",
+      "Michael Hailye",
+      "Edward J. Rice"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.11725",
+    "abstract": "An experiment studying a fluidically oscillated rectangular jet flow was conducted.The Mach number was varied over a range from low subsonic to supersonic.Unsteady velocity and pressure measurements were made using hotwires and piezoresistive pressure transducers.In addition smoke flow visualization using high speed photography was used to document the oscillation of the jet.For the subsonic flip-flop jet it was found that the apparent time-mean widening of the jet was not accompanied by an increase in the mass flux.Fluidically oscillated jets up to a Mach number of about 0.5 have been reported before, but to our knowledge there is no information on fluidically oscillated supersonic jets.It was found that it is possible to extend the operation of these devices to supersonic flows.Most of the measurements were made for a fixed nozzle geometry for which the oscillations ceased at a fully expanded Mach number of 1.58.By varying the nozzle geometry this limitation was overcome and the operation of the device was extended to a fully expanded Mach number of about 1.8.The streamwise velocity perturbation levels produced by this device were much",
+    "keywords": [
+      "supersonic flow",
+      "rectangular jet",
+      "mass flux",
+      "nozzle geometry",
+      "smoke visualization"
+    ],
+    "topics_matched": [
+      "非定常流动"
     ]
   },
   {
@@ -28438,6 +28801,33 @@
     "topics_matched": [
       "叶片气动设计",
       "非定常流动"
+    ]
+  },
+  {
+    "id": "W2095752061",
+    "title": "On Curve Veering and Flutter of Rotating Blades",
+    "date": "1994-07-01",
+    "year": 1994,
+    "authors": [
+      "Dare Afolabi",
+      "Oral Mehmed"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2906876",
+    "abstract": "The eigenvalues of rotating blades usually change with rotation speed according to the Stodola-Southwell criterion. Under certain circumstances, the loci of eigenvalues belonging to two distinct modes of vibration approach each other very closely, and it may appear as if the loci cross each other. However, our study indicates that the observable frequency loci of an undamped rotating blade do not cross, but must either repel each other (leading to “curve veering”), or attract each other (leading to “frequency coalescence”). Our results are reached by using standard arguments from algebraic geometry—the theory of algebraic curves and catastrophe theory. We conclude that it is important to resolve an apparent crossing of eigenvalue loci into either a frequency coalescence or a curve veering, because frequency coalescence is dangerous since it leads to flutter, whereas curve veering does not precipitate flutter and is, therefore, harmless with respect to elastic stability.",
+    "keywords": [
+      "curve veering",
+      "flutter",
+      "rotating blades",
+      "eigenvalue loci",
+      "aeroelastic stability",
+      "algebraic curves",
+      "catastrophe theory"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "气弹/振动"
     ]
   },
   {
@@ -39479,6 +39869,33 @@
     ]
   },
   {
+    "id": "W2106637253",
+    "title": "Effect of Inlet Conditions on Endwall Secondary Flows",
+    "date": "2000-03-01",
+    "year": 2000,
+    "authors": [
+      "Kristina S. Hermanson",
+      "Karen A. Thole"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/2.5567",
+    "abstract": "Exit combustor ow and thermal elds entering downstream stator vane passages in a gas turbine engine are highly nonuniform. These ow and thermal elds can signi cantly affect the development of the secondary ows in the turbine passages attributing to high platform heat transfer and large aerodynamic losses. An analysis is presented of the effects of both the temperature and velocity pro les on the secondary ows in the endwall region of a rst-stage stator vane geometry. These effects were assessed using the predicted ow eld results from computational uid dynamics (CFD) simulations. Prior to using the predictions, these CFD simulations were benchmarked against ow eld data measured in a large-scale, linear, turbine vane cascade. Good agreement occurred between the computational predictions and experimentally measured secondary ows. Analyses of the results for several different cases indicate the stagnation pressure gradient is a key parameter in determining the character of the secondary ows. Nomenclature C = true chord of stator vane C p = 1 ¡ [(P0 ¡ p) / 12 q U 2in] Cx = axial chord of stator vane k = turbulent kinetic energy Ma = U / ( c RgT)0.5 Çm = mass ow through passage n = coordinate normal to inviscid streamline P = pitch P0 = total pressure p = static pressure q = velocity vector R = radius of curvature of an inviscid streamline Rg = gas constant Reex = Reynolds number,CUex / m Rein = Reynolds number,CUin / m S = span of stator vane s = coordinate aligned with inviscid streamline TS = static temperature U = freestreamvelocity U, V, W = absolute velocity components u, v, w = secondary ow plane, transformed velocity components Vn = normal velocity, ¡ u sin w ms + v cos w ms VS = streamwise velocity, u cos w ms + v sin w ms Vz = spanwise velocity,w X, Y, Z = absolute, stationary coordinate system x = distance normal to the secondary ow plane YS = pressure loss coef cient,Z Z q u",
+    "keywords": [
+      "stator vanes",
+      "gas turbines",
+      "inlet boundary conditions",
+      "temperature profiles",
+      "velocity profiles",
+      "turbine cascade",
+      "aerodynamic losses",
+      "first stage turbine"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2028186610",
     "title": "Performance Simulation of Sequentially Turbocharged Marine Diesel Engines With Applications to Compressor Surge",
     "date": "2000-04-17",
@@ -41066,6 +41483,33 @@
     ]
   },
   {
+    "id": "W2104094096",
+    "title": "Body-Vortex Interaction, Sound Generation, and Destructive Interference",
+    "date": "2002-01-01",
+    "year": 2002,
+    "authors": [
+      "Hsiao C. Kao"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.15111",
+    "abstract": "It is generally recognized that interaction of vortices with downstream blades is a major source of noise production. To analyze this problem numerically, a two-dimensional model of inviscid flow together with the method of matched asymptotic expansions is proposed. The method of matched asymptotic expansions is used to match the inner region of incompressible flow to the outer region of compressible flow. Because of incompressibility, relatively simple numerical methods are available to treat multiple vortices and multiple bodies of arbitrary shape. Disturbances from vortices and bodies propagate outward as sound waves. Due to their interactions, either constructive or destructive interference may result. When it is destructive, the combined sound intensity can be reduced, sometimes substantially. In addition, an analytical solution to sound generation by the cascade-vonex interaction is given.",
+    "keywords": [
+      "vortex-induced noise",
+      "sound production",
+      "destructive interference",
+      "matched asymptotic expansions",
+      "inviscid flow",
+      "incompressible flow",
+      "compressible flow",
+      "multiple vortices",
+      "two-dimensional flow model"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2081634920",
     "title": "Wall-Normal-Free Reynolds-Stress Model for Rotating Flows Applied to Turbomachinery",
     "date": "2002-02-01",
@@ -41803,6 +42247,30 @@
     ]
   },
   {
+    "id": "W2015121539",
+    "title": "Closure to “Discussion of ‘An Experimental and Numerical Investigation into the Mechanisms of Rotating Instability’ ” (2002, ASME J. Turbomach., 124)",
+    "date": "2002-07-01",
+    "year": 2002,
+    "authors": [
+      "J. Maerz",
+      "Chunill Hah",
+      "Wolfgang Neise"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.1460917",
+    "abstract": "",
+    "keywords": [
+      "rotating instability",
+      "rotating stall",
+      "turbomachinery",
+      "rotor dynamics"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
     "id": "W3207588569",
     "title": "Novel Approach for Reducing Rotor Tip-Clearance-Induced Noise in Turbofan Engines",
     "date": "2002-08-01",
@@ -42511,6 +42979,32 @@
     "topics_matched": [
       "稳定性建模",
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2158640099",
+    "title": "Algorithm Developments for Discrete Adjoint Methods",
+    "date": "2003-02-01",
+    "year": 2003,
+    "authors": [
+      "Michael B. Giles",
+      "Mihai C. Duta",
+      "Jens‐Dominik Müller",
+      "Niles A. Pierce"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/2.1961",
+    "abstract": "A number of algorithm developments are presented for adjoint methods using the “discrete” approach in which the discretization of the nonlinear equations is linearized and the resulting matrix is then transposed. With a new iterative procedure for solving the adjoint equations, exact numerical equivalence is maintained between the linear and adjoint discretizations. The incorporation of strong boundary conditions within the discrete approach is discussed, and difficulties associated with the use of linear perturbation and adjoint methods for applications with strong shocks are also examined.",
+    "keywords": [
+      "discrete adjoint method",
+      "adjoint equations",
+      "linearization of nonlinear equations",
+      "linear perturbations",
+      "strong shock waves"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
     ]
   },
   {
@@ -45286,6 +45780,33 @@
     ],
     "topics_matched": [
       "进气畸变"
+    ]
+  },
+  {
+    "id": "W3037832727",
+    "title": "Rotary-Wing Aeroelasticity: Current Status and Future Trends",
+    "date": "2004-10-01",
+    "year": 2004,
+    "authors": [
+      "Peretz P. Friedmann"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.9022",
+    "abstract": "This paper is a sequel to an earlier survey paper on the same subject and it reviews the stateof-the-art in rotary-wing aeroelasticity by providing a fairly detailed examination of the research activity carried out during the last decade.The principal topics considered are: modeling of composite rotor blades; modeling the characteristics of elastomeric lag dampers; aeroelasticity of swept tip rotors; comprehensive helicopter analysis codes; aeroelastic characteristics of hingeless and bearingless rotors; modeling of unsteady aerodynamics and dynamic stall; aeroelastic and aeromechanical stabilization using active controls; and vibration reduction using active controls.",
+    "keywords": [
+      "helicopter rotor blades",
+      "composite rotor blades",
+      "hingeless rotor",
+      "bearingless rotor",
+      "unsteady aerodynamics",
+      "dynamic stall",
+      "active aeroelastic control",
+      "vibration suppression"
+    ],
+    "topics_matched": [
+      "非定常流动",
+      "气弹/振动"
     ]
   },
   {
@@ -48610,6 +49131,36 @@
     ],
     "topics_matched": [
       "稳定性建模"
+    ]
+  },
+  {
+    "id": "W2171680917",
+    "title": "Crossplane Velocimetry of a Transverse Supersonic Jet in a Transonic Crossflow",
+    "date": "2006-12-01",
+    "year": 2006,
+    "authors": [
+      "Steven J. Beresh",
+      "John F. Henfling",
+      "Rocky J. Erven",
+      "Russell W. Spillers"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.22311",
+    "abstract": "Stereoscopic particle image velocimetry has been employed to study the interaction created by a supersonic axisymmetric jet exhausting transversely from a flat plate into a transonic crossflow.Data have been acquired in the crossplane of the interaction at a single station in the far-field, from which the velocity field identifies the strength and location of the induced counter-rotating vortex pair as well as the remnant of the horseshoe vortex that wraps around the jet plume as it first exhausts from the nozzle.Data taken for four different values of the jet-to-freestream dynamic pressure ratio reveal the resulting change in the vortex characteristics, where the vortex strength, size, and position are established from the derived vorticity field.Sufficient data were acquired at one condition to determine all six unique components of the turbulent stress tensor, providing the mean spatial character of the distinctly anisotopic turbulence.A small but significant degree of asymmetry was found in the size and lateral position of the counter-rotating vortex pair.Self-similarity is established laterally when dimensions are scaled by either the vortex diameter or the horizontal vortex spacing, but is not found in the wall-normal direction.",
+    "keywords": [
+      "supersonic jet",
+      "jet crossflow interaction",
+      "counter-rotating vortex pair",
+      "horseshoe vortex",
+      "anisotropic turbulence",
+      "turbulent stress tensor",
+      "vortex asymmetry",
+      "self-similarity",
+      "vorticity field"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
     ]
   },
   {
@@ -52793,6 +53344,37 @@
     ]
   },
   {
+    "id": "W2017505189",
+    "title": "Planar Velocimetry of a Fin Trailing Vortex in Subsonic Compressible Flow",
+    "date": "2009-06-11",
+    "year": 2009,
+    "authors": [
+      "Steven J. Beresh",
+      "John F. Henfling",
+      "Russell W. Spillers"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.42097",
+    "abstract": "A sub-scale experiment has been conducted to study the trailing vortex shed from a tapered fin installed on a wind tunnel wall to represent missile configurations.Stereoscopic particle image velocimetry measurements have been acquired in the near-field for several locations downstream of the fin tip and at different fin angles of attack.The vortex's tangential velocity is found to decay with downstream distance while its radius increases, but the vortex core circulation remains constant.Circulation and tangential velocity rise greatly for increased fin angle of attack, but the radius is approximately constant or slightly decreasing.The vortex axial velocity is always a deficit, whose magnitude diminishes with downstream distance and smaller angle of attack.No variation with Mach number can be discerned in the normalized velocity data.Vortex roll-up is observed to be largely complete by about four root chord lengths downstream of the fin trailing edge.Prior to this point, the vortex is asymmetric in the tangential velocity but the core radius stays nearly constant.Vortical rotation draws low-speed turbulent fluid from the wind tunnel wall boundary layer into the vortex core, which appears to hasten vortex decay and produce a larger axial velocity deficit than might be expected.Self-similarity of the vortex is established even while it is still rolling up.Attempts to normalize vortex properties by the fin's lift coefficient proved unsuccessful.",
+    "keywords": [
+      "wake vortices",
+      "missile aerodynamics",
+      "subsonic compressible flow",
+      "vortex roll-up",
+      "vortex decay",
+      "vortex circulation",
+      "tangential velocity",
+      "angle of attack",
+      "boundary layer entrainment",
+      "self-similarity",
+      "stereoscopic particle image velocimetry"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2017891824",
     "title": "Tip-Clearance Effects on Hot-Streak Migration in Low-Pressure Stage of Vaneless Counter-Rotating Turbine",
     "date": "2009-06-29",
@@ -56196,6 +56778,33 @@
       "压缩机稳定性",
       "离心压气机"
     ]
+  },
+  {
+    "id": "W2060032112",
+    "title": "Design and Characterization of a Liquid-Fueled Microcombustor",
+    "date": "2011-03-16",
+    "year": 2011,
+    "authors": [
+      "Jay Peck",
+      "Stuart A. Jacobson",
+      "Ian A. Waitz"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4002621",
+    "abstract": "As part of an effort to develop a microscale gas turbine engine, this paper presents the design and experimental characterization of a microcombustor that catalytically burns JP8 fuel. Due to the high energy densities of hydrocarbon fuels, microscale heat engines based on them may enable compact power sources with specific energies higher than those of current battery systems. In addition, utilizing a commonly available logistics fuel would provide advantages for military applications. Thus, a microscale engine burning JP8 fuel is attractive as a portable power source. A liquid-fueled microcombustor with a combustion chamber volume of 1.4 cm3 and an overall die size of 36.4×36.4×6.5 mm3 was designed, microfabricated, and experimentally characterized. Two configurations were tested and compared, one with the combustion chamber entirely filled with a catalyst and the other with the combustion chamber partially filled with a catalyst. In the configuration filled with a catalyst, JP8 combustion was sustained at mass flow rates up to 0.1 g/s and an exit gas temperature of 780 K; an overall combustor efficiency of 19% and a power density of 43 MW/m3 were achieved. The primary limitation on increasing the mass flow rates and temperature further was the structural failure of the device due to thermal stresses. With the partially filled configuration, a mass flow rate of 0.2 g/s and a corresponding power density of 54 MW/m3 were obtained. The exit gas temperature for the partially filled configuration was as high as 720 K, and the maximum overall efficiency was over 22%. Although the reduced amount of catalyst led to incomplete combustion, smaller thermal losses resulted in an increase in the overall combustor efficiency and power density. A nondimensional operating map was constructed based on the experiment, and it suggests that improving the thermal efficiency would be necessary to achieve higher efficiencies in the device.",
+    "keywords": [
+      "micro-combustor",
+      "catalytic combustion",
+      "microfabrication",
+      "combustor efficiency",
+      "power density",
+      "thermal stress",
+      "incomplete combustion",
+      "operating map",
+      "portable power sources"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2019764710",
@@ -68144,6 +68753,32 @@
     ]
   },
   {
+    "id": "W2103975473",
+    "title": "Flow over a Wing with Leading-Edge Undulations",
+    "date": "2014-09-24",
+    "year": 2014,
+    "authors": [
+      "Alex Skillen",
+      "Alistair J. Revell",
+      "Alfredo Pinelli",
+      "Ugo Piomelli",
+      "Julien Favier"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j053142",
+    "abstract": "The stall-delaying properties of the humpback whale flipper have been observed and quantified in recent years, through both experimental and numerical studies. In the present work, numerical simulations of an infinite-span wing with an idealized representation of this geometry are reported at a Reynolds number of . Using large-eddy simulation, an adequate spatial resolution is first established before also examining the spanwise extent of the domain. These results are then analyzed to provide an explanation of the conditions that drive the lift observed beyond the conventional stall angle. The undulating leading-edge geometry gives rise to a spanwise pressure gradient that drives a secondary flow toward the regions of minimum chord. In turn, this leads to the entrainment of higher-momentum fluid into the region behind the maximum chord, which energizes the boundary layer and delays stall. Aside from demonstrating a significant poststall lift, the undulations also have the added benefit of substantially reducing lift fluctuations.",
+    "keywords": [
+      "stall delay",
+      "humpback whale flippers",
+      "spanwise pressure gradient",
+      "secondary flow",
+      "fluctuating lift",
+      "large eddy simulation"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2028507793",
     "title": "Pressure Activated Leaf Seal Technology Readiness Testing",
     "date": "2014-09-25",
@@ -68320,6 +68955,38 @@
     "topics_matched": [
       "叶尖间隙",
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W3106479544",
+    "title": "Investigation of Hypersonic Intakes Using Reynolds Stress Modeling and Wavelet-Based Adaptation",
+    "date": "2014-10-02",
+    "year": 2014,
+    "authors": [
+      "Sarah Frauholz",
+      "Arianna Bosco",
+      "Birgit Reinartz",
+      "Siegfried Müller",
+      "Marek Behr"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j052966",
+    "abstract": "The simulation of hypersonic flows is computationally demanding due to the large gradients of the flow variables at hand, caused both by strong shock waves and thick boundary or shear layers. The resolution of those gradients imposes the use of extremely small cells in the respective regions. Taking turbulence into account intensifies the variation in scales even more. Furthermore, hypersonic flows have been shown to be extremely grid sensitive. For the simulation of fully three-dimensional configurations of engineering applications, this results in a huge amount of cells and, as a consequence, prohibitive computational time. Therefore, modern adaptive techniques can provide a gain with respect to both computational costs and accuracy, allowing the generation of locally highly resolved flow regions where they are needed and retaining an otherwise smooth distribution. In this paper, an -adaptive technique based on wavelets is employed for the solution of hypersonic flows. The compressible Reynolds-averaged Navier–Stokes equations are solved using a differential Reynolds stress turbulence model, well suited to predict shock-wave/boundary-layer interactions in high-enthalpy flows. Two test cases are considered: a compression corner at 15 deg and a scramjet intake. The compression corner is a classical test case in hypersonic flow investigations because it poses a shock-wave/turbulent-boundary-layer interaction problem. The adaptive procedure is applied to a two-dimensional configuration as validation. The scramjet intake is first computed in two dimensions. Subsequently, a three-dimensional geometry is considered. Both test cases are validated with experimental data and compared to nonadaptive computations. The results show that the use of an adaptive technique for hypersonic turbulent flows at high-enthalpy conditions can strongly improve the performance in terms of memory and CPU time while at the same time maintaining the required accuracy of the results.",
+    "keywords": [
+      "hypersonic flow",
+      "adaptive mesh refinement",
+      "Reynolds stress model",
+      "Reynolds-averaged Navier-Stokes",
+      "scramjet inlet",
+      "shock wave/turbulent boundary layer interaction",
+      "high enthalpy flow",
+      "compression corner",
+      "mesh sensitivity",
+      "computational complexity reduction"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
     ]
   },
   {
@@ -71991,6 +72658,34 @@
     ]
   },
   {
+    "id": "W2206047795",
+    "title": "Effect of Leading-Edge Tubercles on Compressor Cascade Performance",
+    "date": "2015-12-16",
+    "year": 2015,
+    "authors": [
+      "M. C. Keerthi",
+      "M. S. Rajeshwaran",
+      "Abhijit Kushari",
+      "Ashoke De"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j054452",
+    "abstract": "Tubercles are modifications to the leading edge of an airfoil in the form of blunt wave-like serrations. Several studies on the effect of tubercles on isolated airfoils have shown a beneficial effect in the poststall regime as reduced drag and increased lift, leading to a delay of stall. The prospect of delaying stall is particularly attractive to designers of axial compressors in gas turbines, because this leads to designs with higher loading and therefore higher pressure rise with fewer number of stages. In the present study, experiments were performed on a cascade of airfoils with a NACA 65209 profile with different tubercle geometries. The measurements were made over an exit plane using a five-hole probe to compare the cascade performance parameters. Additionally, hot-wire measurements were taken near the blade surface to understand the nature of the flow in the region close to the tubercles. Oil-flow visualization on the cascade end wall reveals the flow through the passage of blades with and without tubercles. For the cascade considered, the estimated stall angle for the best performing set of blades is found to increase up to 8.6 deg from that of the unmodified blade of 6.0 deg. Application of such structures in axial compressor blades may well lead to suppression of stall in axial compressors and extend the operating range.",
+    "keywords": [
+      "leading-edge tubercles",
+      "compressor cascade",
+      "stall delay",
+      "axial compressor blades",
+      "stall angle",
+      "flow separation suppression",
+      "gas turbine compressor"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2095154945",
     "title": "Multipoint Aerodynamic Shape Optimization Investigations of the Common Research Model Wing",
     "date": "2015-12-29",
@@ -73813,6 +74508,30 @@
     ]
   },
   {
+    "id": "W2414155624",
+    "title": "Free Vibrations of Damaged Aircraft Structures by Component-Wise Analysis",
+    "date": "2016-05-31",
+    "year": 2016,
+    "authors": [
+      "Erasmo Carrera",
+      "A. Pagani",
+      "Marco Petrolo"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j054640",
+    "abstract": "By adopting advanced beam models, this paper presents free vibration analyses of metallic aircraft structures affected by local damages. Refined theories are developed within the framework of the Carrera unified formulation, according to which any-order two-dimensional and one-dimensional theories of structures can be implemented in a hierarchical and unified manner. By employing Lagrange polynomials to expand the generalized displacement field, component-wise models of aircraft structures are implemented in this work. The component-wise approach provides a detailed physical description of multicomponent structures, since each component can be modeled with its own geometrical and mechanical characteristics; that is, no reference surfaces and axes, as well as no homogenization techniques, are employed. This characteristic allows accurate modeling of global and local damages within the structure. The results show that the proposed refined one-dimensional models can deal with the free vibration analysis of damaged aircraft structures as accurately as the shell and solid models. Moreover, thanks to the computational efficiency of the Carrera unified formulation, component-wise models are good candidates for providing the vibration characteristics of structures for a wide range of damage scenarios in order to create databases able, for example, to train neural network for damage detection.",
+    "keywords": [
+      "free vibration",
+      "Carrera Unified Formulation",
+      "Lagrange polynomials",
+      "local damage",
+      "damage detection",
+      "neural network training"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2283033488",
     "title": "Effect of Stagger on the Vibroacoustic Loads from Clustered Rockets",
     "date": "2016-06-06",
@@ -74207,6 +74926,32 @@
     ],
     "topics_matched": [
       "压缩机稳定性"
+    ]
+  },
+  {
+    "id": "W2463198194",
+    "title": "Experimental Study of Drag-Reduction Devices on a Flatback Airfoil",
+    "date": "2016-06-30",
+    "year": 2016,
+    "authors": [
+      "Μαρίνος Μανωλέσος",
+      "Spyros G. Voutsinas"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j054901",
+    "abstract": "Various trailing-edge drag-reduction devices, including a new flap device, were examined experimentally on a flatback airfoil in a wind tunnel. The tests concerned a 30% thick airfoil with 10.6% thick trailing edge. Pressure, hot wire, and stereo particle image velocimetry measurements were performed at a chord Reynolds number of . Results show that the best-performing devices decrease drag, increase the vortex shedding frequency, and reduce flow variation downstream of the wing trailing edge. The best-performing device was a combination of the flap with an offset cavity plate. Further investigation is required for the optimization of the new device to examine its effects on noise reduction, load mitigation, and control.",
+    "keywords": [
+      "drag reduction",
+      "flatback airfoils",
+      "trailing edge devices",
+      "vortex shedding frequency",
+      "trailing edge flow",
+      "flow separation",
+      "airfoil drag"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
     ]
   },
   {
@@ -75036,6 +75781,34 @@
     ]
   },
   {
+    "id": "W2514543284",
+    "title": "Simulation of Particle Flow in Inertial Particle Separators with Eulerian VR-QMOM Method",
+    "date": "2016-08-28",
+    "year": 2016,
+    "authors": [
+      "Dan Sun",
+      "Andrew Garmory",
+      "Gary J. Page",
+      "Indi Tristanto"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j054981",
+    "abstract": "This paper presents research into practical simulations of particle flow in inertial particle separators typically used in helicopter and tilt-rotor aircraft propulsion systems. The flowfield of the carrier gas is predicted by a Reynolds-averaged Navier–Stokes computational-fluid-dynamics method with the Reynolds-Averaged turbulence model. An Eulerian methodology is used to trace the trajectories of foreign particles such as droplets, ice, and sand. To predict the characteristics of particle wall bouncing in dilute particle flow, the velocity-reassociated two-node quadrature-based method of moments is used. The particle distributions in the inertial particle separator are predicted for various particle sizes, and these are compared with results from a Lagrangian particle-tracking method. The particle–wall interactions and the separation efficiencies are studied for solid particles bouncing off perfectly elastic walls and an inertial particle separator shell coated with the M246 alloy, which changes the coefficients of restitution. The simulated separation efficiencies predicted by the Eulerian method are compared with the simulation using the Lagrangian method over a range of particle sizes. The velocity-reassociated two-node quadrature-based method of moments is seen to reproduce the particle bouncing and trajectory crossing behavior and to agree well with the Lagrangian method for predicted separation efficiencies. The new velocity-reassociated two-node quadrature-based method of moments is shown to be an accurate and convenient alternative to established Lagrangian approaches.",
+    "keywords": [
+      "particle flow simulation",
+      "separation efficiency",
+      "particle size effects",
+      "Lagrangian particle tracking",
+      "helicopter propulsion",
+      "droplets",
+      "ice particles",
+      "sand particles",
+      "coefficient of restitution"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2514041107",
     "title": "Effects of Impeller Squealer Tip on Centrifugal Compressor Performance",
     "date": "2016-08-29",
@@ -75757,6 +76530,34 @@
       "叶尖间隙",
       "离心压气机"
     ]
+  },
+  {
+    "id": "W4255604459",
+    "title": "Reduction in Flow Parameter Resulting From Volcanic Ash Deposition in Engine Representative Cooling Passages",
+    "date": "2016-10-11",
+    "year": 2016,
+    "authors": [
+      "Sebastien Wylie",
+      "Alexander Bucknell",
+      "Peter R. Forsyth",
+      "Matthew McGilvray",
+      "David R. H. Gillespie"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4034939",
+    "abstract": "Internal cooling passages of turbine blades have long been at risk to blockage through the deposition of sand and dust during fleet service life. The ingestion of high volumes of volcanic ash (VA) therefore poses a real risk to engine operability. An additional difficulty is that the cooling system is frequently impossible to inspect in order to assess the level of deposition. This paper reports results from experiments carried out at typical high pressure (HP) turbine blade metal temperatures (1163 K to 1293 K) and coolant inlet temperatures (800 K to 900 K) in engine scale models of a turbine cooling passage with film-cooling offtakes. Volcanic ash samples from the 2010 Eyjafjallajökull eruption were used for the majority of the experiments conducted. A further ash sample from the Chaiten eruption allowed the effect of changing ash chemical composition to be investigated. The experimental rig allows the metered delivery of volcanic ash through the coolant system at the start of a test. The key metric indicating blockage is the flow parameter (FP), which can be determined over a range of pressure ratios (1.01–1.06) before and after each experiment, with visual inspection used to determine the deposition location. Results from the experiments have determined the threshold metal temperature at which blockage occurs for the ash samples available, and characterize the reduction of flow parameter with changing particle size distribution, blade metal temperature, ash sample composition, film-cooling hole configuration and pressure ratio across the holes. There is qualitative evidence that hole geometry can be manipulated to decrease the likelihood of blockage. A discrete phase computational fluid dynamics (CFD) model implemented in Fluent has allowed the trajectory of the ash particles within the coolant passages to be modeled, and these results are used to help explain the behavior observed.",
+    "keywords": [
+      "film cooling",
+      "high-pressure turbine blades",
+      "ash particle size distribution",
+      "ash composition",
+      "film cooling hole geometry",
+      "particle trajectories",
+      "discrete phase model",
+      "2010 Eyjafjallajökull eruption"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W4238872971",
@@ -80361,6 +81162,34 @@
     ]
   },
   {
+    "id": "W2749752369",
+    "title": "Toward Investigation of External Oil Flow From a Journal Bearing in an Epicyclic Gearbox",
+    "date": "2017-10-27",
+    "year": 2017,
+    "authors": [
+      "Martin Berthold",
+      "Hervé P. Morvan",
+      "Colin Young",
+      "Richard J. Jefferson-Loveday"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4038284",
+    "abstract": "High loads and bearing life requirements make journal bearings the preferred choice for use in high-power, planetary gearboxes in jet engines. With the planet gears rotating about their own axis and orbiting around the sun gear, centrifugal forces generated by both motions interact with each other and create complex kinematic conditions. This paper presents a literature and state-of-the-art knowledge review to identify existing work performed on cases similar to external journal bearing oil flow. In order to numerically investigate external journal bearing oil flow, an approach to decompose an actual journal bearing into simplified models is proposed. Preliminary modeling considerations are discussed. The findings and conclusions are used to create a three-dimensional (3D), two-component computational fluid dynamics (CFD) sector model with rotationally periodic boundaries of the most simplistic approximation of an actual journal bearing: a nonorbiting representation, rotating about its own axis, with a circumferentially constant, i.e., concentric, lubricating gap. In order to track the phase interface between the oil and the air, the volume of fluid (VoF) method is used. External journal bearing oil flow is simulated with a number of different mesh densities. Two different operating temperatures, representing low and high viscosity oil, are used to assess the effect on the external flow field behavior. In order to achieve the future objective of creating a design tool for routine use, key areas are identified in which further progress is required.",
+    "keywords": [
+      "journal bearings",
+      "planetary gearbox",
+      "jet engines",
+      "oil-air interface",
+      "volume of fluid method",
+      "oil viscosity",
+      "lubrication"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
+  },
+  {
     "id": "W2766424308",
     "title": "Experimental/Numerical Study of Ducted-Fan Noise: Effect of Duct Inlet Shape",
     "date": "2017-10-31",
@@ -81066,6 +81895,37 @@
     ]
   },
   {
+    "id": "W2750929632",
+    "title": "Airfoil-Wake Modification with Gurney Flap at Low Reynolds Number",
+    "date": "2017-12-01",
+    "year": 2017,
+    "authors": [
+      "Muralikrishnan Gopalakrishnan Meena",
+      "Kunihiko Taira",
+      "Keisuke Asai"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056260",
+    "abstract": "The complex wake modifications produced by a Gurney flap on symmetric NACA airfoils at low Reynolds number are investigated. Two-dimensional incompressible flows over NACA 0000 (flat plate), 0006, 0012, and 0018 airfoils at a Reynolds number of are analyzed numerically to examine the flow modifications generated by the flaps for achieving lift enhancement. Although high lift can be attained by the Gurney flap on airfoils at high angles of attack, the highly unsteady nature of the aerodynamic forces is also observed. An analysis of the wake structures along with the lift spectra reveals four characteristic wake modes (steady, 2S, P, and 2P), influencing the aerodynamic performance. The effects of the flap over a wide range of angles of attack and flap heights are considered to identify the occurrence of these wake modes, and are encapsulated in a wake-classification diagram. Companion three-dimensional simulations are also performed to examine the influence of three-dimensionality on the wake regimes. The spanwise instabilities that appear for higher angles of attack are found to suppress the emergence of the 2P mode. The use of the wake-classification diagram as a guidance for Gurney-flap selection at different operating conditions to achieve the required aerodynamic performance is discussed.",
+    "keywords": [
+      "Gurney flap",
+      "airfoil wake",
+      "low Reynolds number flow",
+      "NACA airfoils",
+      "lift enhancement",
+      "wake modes",
+      "spanwise instability",
+      "unsteady aerodynamic forces",
+      "flap height",
+      "high angle of attack"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2773802724",
     "title": "Effect of Nonuniform Tip Clearance on the Performance of Transonic Axial Compressors",
     "date": "2017-12-04",
@@ -81437,6 +82297,30 @@
       "叶尖间隙",
       "叶片气动设计"
     ]
+  },
+  {
+    "id": "W2963666280",
+    "title": "Effects of Wall-Normal and Angular Momentum Injections in Airfoil Separation Control",
+    "date": "2018-01-02",
+    "year": 2018,
+    "authors": [
+      "Phillip Munday",
+      "Kunihiko Taira"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056303",
+    "abstract": "The objective of this computational study is to quantify the influence of wall-normal and angular momentum injections in suppressing laminar flow separation over a canonical airfoil. Open-loop control of fully separated, incompressible flow over a NACA 0012 airfoil at and is examined with large-eddy simulations. This study independently introduces wall-normal momentum and angular momentum into the separated flow using swirling jets through model boundary conditions. The responses of the flowfield and the surface vorticity fluxes to various combinations of actuation inputs are examined in detail. It is observed that the addition of angular momentum input to wall-normal momentum injection enhances the suppression of flow separation. Lift enhancement and suppression of separation with the wall-normal and angular momentum inputs are characterized by modifying the standard definition of the coefficient of momentum. The effect of angular momentum is incorporated into the modified coefficient of momentum by introducing a characteristic swirling jet velocity based on the nondimensional swirl number. With this single modified coefficient of momentum, each controlled flow can be categorized into separated, transitional, and attached flows.",
+    "keywords": [
+      "swirling jet",
+      "NACA 0012 airfoil",
+      "swirl number",
+      "lift enhancement",
+      "flow separation",
+      "open-loop control",
+      "incompressible flow"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2746414287",
@@ -82195,6 +83079,34 @@
     ],
     "topics_matched": [
       "压缩机稳定性"
+    ]
+  },
+  {
+    "id": "W2795848265",
+    "title": "Numerical Investigation of Transitional Shock-Wave/Boundary-Layer Interaction in Supersonic Regime",
+    "date": "2018-04-03",
+    "year": 2018,
+    "authors": [
+      "Russell Quadros",
+      "Matteo Bernardini"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056650",
+    "abstract": "Direct numerical simulations of shock-wave/boundary-layer interactions are performed at Mach number to investigate the influence of the state of the incoming boundary layer on the interaction properties. Four shock-wave/boundary-layer interaction cases are considered, corresponding to transitional and turbulent interactions for two different shock strengths, corresponding to flow-deflection angles and . It is found that significant separation is not evident in the mean flow of any interaction; the boundary layer remains attached at and close to incipient separation at , independent of the state of the incoming boundary layer. The extent of the interaction is larger for the transitional flow cases, characterized by a wider spreading of the wall pressure rise and a slower boundary-layer recovery. The scaling analysis for the interaction length scale developed by Souverein et al. (“A Scaling Analysis for Turbulent Shock-Wave/Boundary-Layer Interactions,” Journal of Fluid Mechanics, Vol. 714, January 2013, pp. 505–535) for turbulent interactions is found to be equally applicable for the transitional interactions. The wall-pressure spectra show that the dominant frequency range is that associated with the most energetic structures of the incoming boundary layer, and no evidence of low-frequency shock unsteadiness is noticed.",
+    "keywords": [
+      "shock-boundary layer interaction",
+      "transitional boundary layer",
+      "supersonic flow",
+      "boundary layer separation",
+      "boundary layer recovery",
+      "scaling analysis",
+      "wall pressure spectra",
+      "shock unsteadiness",
+      "flow deflection"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
     ]
   },
   {
@@ -83567,6 +84479,35 @@
     ]
   },
   {
+    "id": "W2884979045",
+    "title": "Improving Purge Air Cooling Effectiveness by Engineered End-Wall Surface Structures—Part II: Turbine Cascade",
+    "date": "2018-07-20",
+    "year": 2018,
+    "authors": [
+      "Xin Miao",
+      "Qiang Zhang",
+      "Chris Atkin",
+      "Zhengzhong Sun",
+      "Yansheng Li"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4040854",
+    "abstract": "Motivated by the recent advances in additive manufacturing, a novel turbine end-wall aerothermal management method is presented in this two-part paper. The feasibility of enhancing purge air cooling effectiveness through engineered surface structure was experimentally and numerically investigated. The fundamental working mechanism and improved cooling performance for a 90 deg turning duct are presented in Part I. The second part of this paper demonstrates this novel concept in a low-speed linear cascade environment. The performance in three purge air blowing ratios is presented and enhanced cooling effectiveness and net heat flux reduction (NHFR) were observed from experimental data, especially for higher blow ratios. The Computational fluid dynamics (CFD) analysis indicates that the additional surface features are effective in reducing the passage vortex and providing a larger area of coolant coverage without introducing additional aerodynamic loss.",
+    "keywords": [
+      "turbine cascade",
+      "additive manufacturing",
+      "net heat flux reduction",
+      "passage vortex",
+      "coolant coverage",
+      "blowing ratio",
+      "linear cascade"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W4243789089",
     "title": "Vortex Shedding and Frequency Lock in on Stand Still Wind Turbines—A Baseline Experiment",
     "date": "2018-07-21",
@@ -84762,6 +85703,34 @@
     ]
   },
   {
+    "id": "W2890442225",
+    "title": "Aerodynamic Design of Nozzles with Uniform Outflow for Hypervelocity Ground-Test Facilities",
+    "date": "2018-09-21",
+    "year": 2018,
+    "authors": [
+      "Wilson Y. K. Chan",
+      "Peter A. Jacobs",
+      "Michael K. Smart",
+      "Sam Grieve",
+      "Christopher S. Craddock",
+      "Luke J. Doherty"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.b36938",
+    "abstract": "A method is proposed for the aerodynamic design of nozzles with uniform outflow for supersonic and hypersonic ground-test facilities. This method involves the coupling of an open-source Reynolds-averaged Navier–Stokes computational fluid dynamics solver, Eilmer, with the simplex optimization method of Nelder and Mead for the design of an expanding nozzle contour with the least variations in Mach number and flow angularity. Three nozzles were designed using this method to produce exit flows of Mach 4, Mach 7, and Mach 10. Numerical simulations of the flow in these optimized nozzle contours showed excellent flow uniformity in the core flow; typical Mach number variations were less than 0.5%, flow angularity variations were less than 0.05 deg, static temperature and flow velocity variations were less than 1%, and Pitot and static pressures variations were less than 2%. Experimental surveys of the Pitot pressures at several planes downstream of the exit of the three optimized nozzles showed excellent agreement with numerical simulations. The experimental measurements showed that there were good levels of uniformity in the core flow regions of all three nozzles, thus proving the validity of the proposed design method.",
+    "keywords": [
+      "hypersonic wind tunnel",
+      "supersonic wind tunnel",
+      "nozzle contour optimization",
+      "simplex optimization",
+      "flow angularity"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2782072807",
     "title": "Engineering Design with Digital Thread",
     "date": "2018-10-01",
@@ -85005,6 +85974,36 @@
       "机匣处理",
       "压缩机稳定性",
       "离心压气机"
+    ]
+  },
+  {
+    "id": "W2847448676",
+    "title": "Assessment of the Impact of Two-Dimensional Wall Deformation Shape on High-Speed Boundary-Layer Disturbances",
+    "date": "2018-10-15",
+    "year": 2018,
+    "authors": [
+      "Jeremy Sawaya",
+      "Vasileios Sassanis",
+      "Sofia Yassir",
+      "Adrian Sescu",
+      "Miguel R. Visbal"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057045",
+    "abstract": "Previous experimental and numerical studies showed that two-dimensional roughness elements can stabilize disturbances inside a hypersonic boundary layer and eventually delay the transition onset. The objective of this paper is to evaluate the response of disturbances propagating inside a high-speed boundary layer to various two-dimensional surface deformations of different shapes. We perform an assessment of the impact of various two-dimensional surface nonuniformities, such as backward or forward steps, combinations of backward and forward steps, wavy surfaces, surface dips, and surface humps. Disturbances inside a Mach 5.92 flat-plate boundary layer are excited using periodic wall blowing and suction at an upstream location. The numerical tools consist of a high-accuracy numerical algorithm solving for the unsteady, compressible form of the Navier–Stokes equations in curvilinear coordinates. Results show that all types of surface nonuniformities are able to reduce the amplitude of boundary-layer disturbances to a certain degree. The amount of disturbance energy reduction is related to the type of pressure gradients that are posed by the deformation (adverse or favorable). A possible cause (among others) of the disturbance energy reduction inside the boundary layer is presumed to be the result of a partial deviation of the kinetic energy to the external flow, along the discontinuity that is generated by the wall deformation.",
+    "keywords": [
+      "hypersonic boundary layer",
+      "boundary layer transition",
+      "surface roughness",
+      "backward steps",
+      "wavy surface",
+      "adverse pressure gradient",
+      "favorable pressure gradient",
+      "flat plate boundary layer"
+    ],
+    "topics_matched": [
+      "非定常流动"
     ]
   },
   {
@@ -85267,6 +86266,32 @@
       "机匣处理",
       "压缩机稳定性"
     ]
+  },
+  {
+    "id": "W2899482183",
+    "title": "Modeling and Control of Combustion Phasing in Dual-Fuel Compression Ignition Engines",
+    "date": "2018-11-01",
+    "year": 2018,
+    "authors": [
+      "Wenbo Sui",
+      "Jorge Pulpeiro González",
+      "Carrie Michele Hall"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4041871",
+    "abstract": "Dual-fuel engines can achieve high efficiencies and low emissions but also can encounter high cylinder-to-cylinder variations on multicylinder engines. In order to avoid these variations, they require a more complex method for combustion phasing control such as model-based control. Since the combustion process in these engines is complex, typical models of the system are complex as well and there is a need for simpler, computationally efficient, control-oriented models of the dual-fuel combustion process. In this paper, a mean-value combustion phasing model is designed and calibrated, and two control strategies are proposed. Combustion phasing is predicted using a knock integral model (KIM), burn duration (BD) model, and a Wiebe function, and this model is used in both an adaptive closed loop controller and an open loop controller. These two control methodologies are tested and compared in simulations. Both control strategies are able to reach steady-state in five cycles after a transient and have steady-state errors in CA50 that are less than ±0.1 CA deg (CAD) with the adaptive control strategy and less than ±1.5 CAD with the model-based feedforward control method.",
+    "keywords": [
+      "dual-fuel combustion",
+      "compression ignition engine",
+      "combustion phasing control",
+      "Wiebe function",
+      "feedforward control",
+      "cylinder-to-cylinder variation",
+      "CA50",
+      "model calibration"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2769450327",
@@ -85960,6 +86985,32 @@
     ]
   },
   {
+    "id": "W2963683440",
+    "title": "Uncertainty Estimation Module for Turbulence Model Predictions in SU2",
+    "date": "2018-12-14",
+    "year": 2018,
+    "authors": [
+      "Aashwin Mishra",
+      "Jayant Mukhopadhaya",
+      "Gianluca Iaccarino",
+      "Juan Jose Alonso"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057187",
+    "abstract": "With the advent of improved computational resources, aerospace design has shifted from a testing-based process to a simulation-driven procedure, wherein uncertainties in design and operating conditions are explicitly accounted for in the design under uncertainty methodology. Key sources of such uncertainties in design are the closure models used to account for fluid turbulence. In spite of their importance, no reliable and extensively tested modules are available to estimate this epistemic uncertainty. In this paper, the EQUiPS uncertainty estimation module, developed for the SU2 computational-fluid-dynamics suite, which focuses on uncertainty due to turbulence models, is outlined. The theoretical foundations underlying this uncertainty estimation and its computational implementation are detailed. Thence, the performance of this module is presented for a range of test cases, including both benchmark problems and flows relevant to aerospace design. Across the range of test cases, the uncertainty estimates of the module were able to account for a significant portion of the discrepancy between Reynolds-averaged Navier–Stokes predictions and high-fidelity data.",
+    "keywords": [
+      "uncertainty quantification",
+      "epistemic uncertainty",
+      "SU(2)",
+      "Reynolds-averaged Navier-Stokes",
+      "design under uncertainty",
+      "closure models",
+      "aerospace design"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2905398681",
     "title": "Physics of Deep Surge in an Automotive Turbocharger Centrifugal Compression System",
     "date": "2018-12-18",
@@ -86440,6 +87491,34 @@
     "topics_matched": [
       "稳定性建模"
     ]
+  },
+  {
+    "id": "W4249766296",
+    "title": "Quasi-Static Thermal Modeling of Multiscale Sliding Contact for Unlubricated Brush Seal Materials",
+    "date": "2019-02-04",
+    "year": 2019,
+    "authors": [
+      "Qingfeng Xia",
+      "David R. H. Gillespie",
+      "Andrew K. Owen",
+      "Gervas Franceschini"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4042722",
+    "abstract": "Prediction of contact temperature between two materials in high-speed rubbing contact is essential to model wear during unlubricated contact. Conventionally, assumptions of either a steady or an annular heat source are used for slow and high speed rotation, respectively. In this paper, a rotating heating source is solved using an in-house finite element method code. This captures the full geometry and rotating speed of the rubbing bodies. Transient heat transfer is modeled quasi-statically, eliminating the need for a transient 3D simulation. This model is shown to be suitable for contact temperature prediction over a wide range of rotating speeds, anisotropic thermal conductivity, and nonuniform thermal boundary conditions. The model calculates heat partition accurately for a thin rotating disk and short pin combination, which cannot be predicted using the existing analytical solutions. The method is validated against ansys mechanical and experimental infrared thermography. Results demonstrate that the annular source assumption significantly underpredicts contact temperature, especially at the rubbing interface. Explicit modeling of a thin disk results in higher heat partition coefficients compared with the commonplace semi-infinite length assumption on both static and rotating components. The thermal anisotropy of tuft-on-disk configurations is evaluated and compared to a uniform pin-on-disk configuration. Despite the effective thermal conductivity (ETC) in the bristle tuft being approximately 1 order of magnitude lower than along the bristle length (treating the bristle pack as a porous medium), its impact on heat partition and contact temperature is shown to be limited.",
+    "keywords": [
+      "brush seals",
+      "contact temperature",
+      "transient heat transfer",
+      "heat partition",
+      "anisotropic thermal conductivity",
+      "effective thermal conductivity",
+      "pin-on-disc test",
+      "wear prediction",
+      "gas turbine seals"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2912725083",
@@ -87621,6 +88700,29 @@
       "Combustion chamber",
       "Engineering",
       "Chemistry"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2937125247",
+    "title": "Cross-Correlation-Based Identification of Rotating Sources",
+    "date": "2019-05-27",
+    "year": 2019,
+    "authors": [
+      "W. R. M. Graham"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j058016",
+    "abstract": "Noise-source identification using microphone arrays has become well-established in wind-tunnel testing. When the sources are moving, the accepted approach is first to “de-Dopplerize” the microphone signals, producing estimated source signals for subsequent analysis. A straightforward time-domain average of these signals is vulnerable to flow-noise contamination, and so an alternative approach is necessary for wind-tunnel applications. This method is equivalent to the basic, “diagonal-removal,” cross-spectral technique employed with fixed sources, but, unlike the fixed-source case, cannot be generalized to account simultaneously for multiple sources. The alternative presented here, which works with the time-domain cross-correlations between microphones, is not subject to this limitation. It is illustrated using simulated data from an example rotating-source configuration, and the results are compared against a de-Dopplerization-based analysis. For three equal-strength sources, the current method eliminates the contamination evident in de-Dopplerization estimates. Equally, it is able to locate and accurately characterize weak secondary sources that are masked by primary-source contributions in de-Dopplerization beamforming maps. Hence it extends the option of higher-fidelity wind-tunnel beamforming, currently only available for fixed sources, to rotating-source configurations.",
+    "keywords": [
+      "rotating sources",
+      "noise source identification",
+      "microphone array",
+      "time-domain cross-correlation",
+      "wind tunnel testing",
+      "beamforming",
+      "aeroacoustics"
     ],
     "topics_matched": []
   },
@@ -89479,6 +90581,38 @@
     "topics_matched": [
       "叶尖间隙",
       "跨音速/激波"
+    ]
+  },
+  {
+    "id": "W2981080108",
+    "title": "Modal Analysis of Fluid Flows: Applications and Outlook",
+    "date": "2019-10-15",
+    "year": 2019,
+    "authors": [
+      "Kunihiko Taira",
+      "Maziar S. Hemati",
+      "Steven L. Brunton",
+      "Yiyang Sun",
+      "Karthik Duraisamy",
+      "Shervin Bagheri",
+      "Scott T. M. Dawson",
+      "Chi-An Yeh"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j058462",
+    "abstract": "We present applications of modal analysis techniques to study, model, and control canonical aerodynamic flows. To illustrate how modal analysis techniques can provide physical insights in a complementary manner, we selected four fundamental examples of cylinder wakes, wall-bounded flows, airfoil wakes, and cavity flows. We also offer brief discussions on the outlook for modal analysis techniques, in light of rapid developments in data science.",
+    "keywords": [
+      "modal analysis",
+      "cylinder wake",
+      "wall-bounded flows",
+      "airfoil wake",
+      "cavity flow",
+      "flow control",
+      "data-driven modeling"
+    ],
+    "topics_matched": [
+      "非定常流动"
     ]
   },
   {
