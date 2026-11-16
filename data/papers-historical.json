@@ -387,6 +387,24 @@
     "topics_matched": []
   },
   {
+    "id": "W2079669549",
+    "title": "Discussion: “Laminar Boundary Layers in Oscillatory Flow” (Hill, P. G., and Stenning, A. H., 1960, ASME J. Basic Eng., 82, pp. 593–607)",
+    "date": "1960-09-01",
+    "year": 1960,
+    "authors": [
+      "H. Kraft"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3662675",
+    "abstract": "Thus on the basis of oscillating skin-friction amplitude and phase, the low-frequency small perturbation analysis of Lighthill should be valid, for the Howarth mean flow £ = 0.10, in the frequency-parameter range: 0 < 3 < 0.45",
+    "keywords": [
+      "laminar boundary layer",
+      "oscillatory flow"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2059320714",
     "title": "Closure to “Discussions of ‘Throat Tap Nozzles Used for Accurate Flow Measurements’” (1960, ASME J. Eng. Power, 82, pp. 253–261)",
     "date": "1960-10-01",
@@ -1047,6 +1065,26 @@
       "Epistemology"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W1970368821",
+    "title": "Closure to “Discussions of ‘The Jet-Flap Compressor Cascade’” (1961, ASME J. Basic Eng., 83, pp. 406–407)",
+    "date": "1961-09-01",
+    "year": 1961,
+    "authors": [
+      "Eric F. Brocher"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3658983",
+    "abstract": "",
+    "keywords": [
+      "compressor cascade",
+      "turbomachinery"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2067842285",
@@ -2139,6 +2177,52 @@
     "topics_matched": []
   },
   {
+    "id": "W1971489354",
+    "title": "Discussion: “Steady Fluid Flow in a Radial Vaneless Diffuser” (Jansen, W., 1964, ASME J. Basic Eng., 86, pp. 607–617)",
+    "date": "1964-09-01",
+    "year": 1964,
+    "authors": [
+      "Yasutoshi SENOO"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3653184",
+    "abstract": "ploying a rotating screen which induced the swirl.For high-speed flow, however, the only means to create a sufficiently swirled flow would be by an impeller, but it is known that, because of the shedding of wakes from the impeller vanes, the flow at the exit of the impeller is not axisymmetric.",
+    "keywords": [
+      "vaneless diffuser",
+      "radial diffuser",
+      "steady fluid flow",
+      "swirling flow",
+      "axisymmetric flow",
+      "high-speed flow"
+    ],
+    "topics_matched": [
+      "离心压气机",
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W2019916515",
+    "title": "Closure to “Discussions of ‘Steady Fluid Flow in a Radial Vaneless Diffuser’” (1964, ASME J. Basic Eng., 86, pp. 617–619)",
+    "date": "1964-09-01",
+    "year": 1964,
+    "authors": [
+      "Willem Jansen"
+    ],
+    "venue": "Journal of Basic Engineering",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3653185",
+    "abstract": "",
+    "keywords": [
+      "steady fluid flow",
+      "diffuser flow",
+      "vaneless diffuser"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
+  },
+  {
     "id": "W2082706243",
     "title": "Secondary injection of gases into a supersonic flow",
     "date": "1964-10-01",
@@ -3027,6 +3111,27 @@
     "topics_matched": []
   },
   {
+    "id": "W2036219517",
+    "title": "Use of Arbitrary Quasi-Orthogonals for Calculating Flow Distribution in a Turbomachine",
+    "date": "1966-04-01",
+    "year": 1966,
+    "authors": [
+      "Theodore Katsanis"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3678504",
+    "abstract": "A method of analyzing flow through a turbomachine which is suitable for computer programming is summarized. The method, which has been reported in NASA publications, is based on an equation for the velocity gradient along an arbitrary quasi-orthogonal rather than the normal to the streamline as used in previous methods. A quasi-orthogonal is defined to be any curve that intersects every streamline between the flow boundaries exactly once, as does an orthogonal to the streamlines. With this method a streamline analysis can be made on any given stream surface. A quasi-three-dimensional solution can be obtained by using the method for a hub-to-shroud analysis, followed by blade-to-blade analyses at hub, mean, and shroud. As an example, the method was applied to the radial-inflow turbine with splitter blades. The complete quasi-three-dimensional solution was obtained in a single computer run.",
+    "keywords": [
+      "velocity gradient",
+      "streamline analysis",
+      "quasi-three-dimensional analysis",
+      "radial inflow turbine",
+      "splitter blades"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2042164347",
     "title": "A direct method for calculation of the flow about an axisymmetric blunt body at angle of attack.",
     "date": "1966-05-01",
@@ -3136,6 +3241,64 @@
       "Engineering",
       "Mechanical engineering",
       "Structural engineering"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2010372438",
+    "title": "Closure to “Discussions of ‘Experimental Investigation of a Magnetically Balanced Arc in a Transverse Argon Flow’” (1966, ASME J. Eng. Power, 88, pp. 277–281)",
+    "date": "1966-07-01",
+    "year": 1966,
+    "authors": [
+      "T. W. Myers",
+      "C.N. McKinnon",
+      "John Clifford Lysen"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3678520",
+    "abstract": "",
+    "keywords": [
+      "arc discharge",
+      "magnetic field control",
+      "plasma arc"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2039425954",
+    "title": "Closure to “Discussions of ‘The Radial-Equilibrium Equation of Turbomachinery’” (1966, ASME J. Eng. Power, 88, p. 282)",
+    "date": "1966-07-01",
+    "year": 1966,
+    "authors": [
+      "Leroy H. Smith"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3678523",
+    "abstract": "",
+    "keywords": [
+      "turbomachinery",
+      "turbomachinery design"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2066226429",
+    "title": "Discussion: “The Radial-Equilibrium Equation of Turbomachinery” (Smith, Jr., L. H., 1966, ASME J. Eng. Power, 88, pp. 1–12)",
+    "date": "1966-07-01",
+    "year": 1966,
+    "authors": [
+      "Joseph Davids"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3678521",
+    "abstract": "",
+    "keywords": [
+      "radial equilibrium",
+      "turbomachinery",
+      "turbomachinery design"
     ],
     "topics_matched": []
   },
@@ -5646,6 +5809,25 @@
       "叶片气动设计",
       "离心压气机"
     ]
+  },
+  {
+    "id": "W2001561325",
+    "title": "Discussion: “Computation of Thermodynamic Properties of Carbon Dioxide in the Range 0–750 Deg C” (Angelino, G., and Macchi, E., 1970, ASME J. Eng. Power, 92, pp. 301–309)",
+    "date": "1971-04-01",
+    "year": 1971,
+    "authors": [
+      "R. A. Strub"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3445571",
+    "abstract": "",
+    "keywords": [
+      "carbon dioxide",
+      "thermodynamic properties",
+      "equation of state"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W1973715509",
@@ -8206,6 +8388,49 @@
       "跨音速/激波",
       "叶片气动设计"
     ]
+  },
+  {
+    "id": "W1975175984",
+    "title": "Discussion: “The Effect of Edge Sharpness on the Discharge Coefficient of an Orifice” (Benedict, R. P., Wyler, J. S., and Brandt, G. B., 1975, ASME J. Eng. Power, 97, pp. 576–581)",
+    "date": "1975-10-01",
+    "year": 1975,
+    "authors": [
+      "V. P. Head"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3446068",
+    "abstract": "",
+    "keywords": [
+      "orifice plate",
+      "discharge coefficient",
+      "edge sharpness",
+      "flow measurement",
+      "pressure drop"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2005548577",
+    "title": "Closure to “Discussions of ‘The Effect of Edge Sharpness on the Discharge Coefficient of an Orifice’” (1975, ASME J. Eng. Power, 97, pp. 581–582)",
+    "date": "1975-10-01",
+    "year": 1975,
+    "authors": [
+      "R. P. Benedict",
+      "John S. Wyler",
+      "Gerald B. Brandt"
+    ],
+    "venue": "Journal of Engineering for Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.3446070",
+    "abstract": "",
+    "keywords": [
+      "orifice discharge coefficient",
+      "edge sharpness",
+      "orifice plate",
+      "flow measurement"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2048685477",
@@ -91106,6 +91331,38 @@
       "进气畸变",
       "跨音速/激波",
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2991164473",
+    "title": "Implicit Discontinuous Galerkin Solution on Unstructured Mesh for Turbine Blade Secondary Flow",
+    "date": "2019-11-26",
+    "year": 2019,
+    "authors": [
+      "M. Yao",
+      "Liangzhao He"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4045551",
+    "abstract": "Abstract To enhance solution accuracy with high-order methods, an implicit solver using the discontinuous Galerkin (DG) discretization on unstructured mesh has been developed. The DG scheme is favored chiefly due to its distinctive feature of achieving a higher-order accuracy by simple internal sub-divisions of a given mesh cell. It can thus relieve the burden of mesh generation for local refinement. The developed method has been assessed in several test cases. First, an examination on the mesh-dependency with different DG orders for discretization has demonstrated the expected mesh convergence order of accuracy correlation. The flow around a cylinder solved with up to the fifth-order accuracy demonstrates the need for a high-order geometrical representation corresponding to the high-order flow field discretization. A calculated turbulent flat plate boundary layer demonstrates the capability of the high-order DG in capturing the laminar sub-layer for a given coarse mesh (y + >20) without a wall function, in a clear contrast to a conventional second-order scheme. The focal test case of the present work is a high-pressure (HP) turbine cascade with the flow losses being strongly influenced by both the laminar separation induced transition on the blade suction surface and the secondary flow development in the endwall region. Fully turbulent RANS solutions consistently overpredict the losses, which can be significantly reduced by an empirically specified transition at a mid-chord point. Of particular interest is a contrasting behavior of pure laminar flow solutions. A steady laminar flow solution is difficult to converge, and even when converging, tends to give an unrealistically large separation. On the other hand when the laminar solution is run in a time-accurate unsteady mode, a qualitatively different flow pattern emerges. The separated shear layer is then shown to lead to coherently shed unsteady vortices with a net entrainment from the main stream to the near-wall region. The resultant time-averaged near-wall flow then effectively becomes a reattached boundary layer. Both overall and distributed losses computed from unsteady laminar solutions are shown to be consistently much better than the fully turbulent RANS solutions. It is remarkable and quite unexpected that for such a seemingly complex 3D flow problem, the straightforward unsteady laminar solutions with no empirical input seem to be comparable with (or slightly better than) the tripped RANS with empirical input.",
+    "keywords": [
+      "unstructured grid",
+      "high-pressure turbine cascade",
+      "laminar separation",
+      "laminar-turbulent transition",
+      "laminar separation bubble",
+      "unsteady laminar flow",
+      "vortex shedding",
+      "boundary layer reattachment",
+      "flow losses",
+      "high-order accuracy",
+      "unsteady RANS",
+      "cylinder flow"
+    ],
+    "topics_matched": [
+      "叶片气动设计",
+      "非定常流动"
     ]
   },
   {
