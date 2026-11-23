@@ -3859,6 +3859,25 @@
     ]
   },
   {
+    "id": "W1972000090",
+    "title": "Computer experiments related to chemical propulsion.",
+    "date": "1967-09-01",
+    "year": 1967,
+    "authors": [
+      "M. Sichel"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.4249",
+    "abstract": "Cr1niputi:r experiments may be defiiied as the-iirc~tic:il :in:ilyses i n which the computer plays the ccntr:il I-iilc in evaluating the consequences of the iir;ithi'matical modcl ,if the p r o c r s s or phenomenon utidi~r investigatioii.",
+    "keywords": [
+      "computer experiments",
+      "chemical propulsion",
+      "mathematical modeling"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2032069011",
     "title": "Heat transfer to wavy wall in hypersonic flow.",
     "date": "1967-10-01",
@@ -9305,6 +9324,29 @@
     ]
   },
   {
+    "id": "W2159462422",
+    "title": "Analytical and experimental study of turbulent methane-fired backmixed combustion",
+    "date": "1977-05-01",
+    "year": 1977,
+    "authors": [
+      "Robert E. Peck",
+      "Gary S. Samuelsen"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.7358",
+    "abstract": "Numerical predictions of the backmixed flowfield of a methane-fired laboratory combustor are compared to experimental observations. The goal is to clarify the mechanisms responsible for pollutant formation in continuous backmixed combustion and to improve predictive methods. The numerical description adopts a simplified effective viscosity model and a two-step kinetic reaction scheme for the methane oxidation. A reaction mechanism to account for the production of nitric oxide is also considered. Laser Doppler velocimetry is used to exerimentally measure velocity profiles in the flowfield. Conventional gas sampling techniques are to measure species concentration profiles.",
+    "keywords": [
+      "methane combustion",
+      "turbulent combustion",
+      "pollutant formation",
+      "nitric oxide production",
+      "species concentration profiles",
+      "laser Doppler anemometry"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2091163227",
     "title": "Critical Examination of Two-Equation Turbulence Closure Models for Boundary Layers",
     "date": "1977-06-01",
@@ -12137,6 +12179,36 @@
     ]
   },
   {
+    "id": "W2027306976",
+    "title": "Unsteady Newton-Busemann flow theory. II - Bodies of revolution",
+    "date": "1981-10-01",
+    "year": 1981,
+    "authors": [
+      "W. H. Hui",
+      "Murray Tobak"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.7860",
+    "abstract": "Newtonian flow theory for unsteady flow past oscillating bodies of revolution at very high Mach numbers is completed by adding a centrifugal force correction to the impact pressures. Exact formulas for the unsteady pressure and the stability derivatives are obtained in closed form and are applicable to bodies of revolution that have arbitrary shapes, arbitrary thicknesses, and either sharp or blunt noses. The centrifugal force correction arising from the curved trajectories followed by the fluid particles in unsteady flow cannot be neglected even for the case of a circular cone. With this correction, the present theory is in excellent agreement with experimental results for sharp cones and for cones with small nose bluntness; gives poor agreement with the results of experiments in air for bodies with moderate or large nose bluntness. The pitching motions of slender power-law bodies of revulution are shown to be always dynamically stable according to Newton-Busemann theory.",
+    "keywords": [
+      "unsteady flow",
+      "axisymmetric bodies",
+      "high Mach number flow",
+      "impact pressure",
+      "stability derivatives",
+      "oscillating bodies",
+      "sharp cone",
+      "dynamic stability",
+      "pitching motion"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "离心压气机",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2081835693",
     "title": "Rotor-Tip Leakage: Part II—Design Optimization Through Viscous Analysis and Experiment",
     "date": "1982-01-01",
@@ -13296,6 +13368,28 @@
       "压缩机稳定性",
       "跨音速/激波"
     ]
+  },
+  {
+    "id": "W1969249858",
+    "title": "Aerosound from corner flow and flap flow",
+    "date": "1983-02-01",
+    "year": 1983,
+    "authors": [
+      "William C. Meecham"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/3.8058",
+    "abstract": "Noise generation at the edge of a wing flap is analyzed. The phenomenon as a single vortex moving around a corner in an incompressible, potential flow is modelled. Vortex image retarding effects are proposed as an explanation for small Strouhal numbers. The model surface pressures, sound pressures (using Curle's theory), and Mach number dependencies agree with wind tunnel experiments. A double pressure peak is found in the model (credited to image action) which is qualitatively similar to measured sound correlations. Incompressible flow aerosound calculations are discussed. The effects of a series of vortices moving in the same idealized potential flow are also studied. The vortices are assumed to be statistically independent so their intensities can be added. The frequency of appearance of the vortices are determined from measurements. Diffraction effects caused by the presence of the wing near the dipole sound radiators on the flap surfaces are included.",
+    "keywords": [
+      "corner flow",
+      "Strouhal number",
+      "surface pressure fluctuations",
+      "diffraction effects",
+      "incompressible potential flow",
+      "aeroacoustics"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2354929001",
@@ -43207,6 +43301,27 @@
     ]
   },
   {
+    "id": "W1968445091",
+    "title": "Multilayered Piezoelectric Refined Plate Theory",
+    "date": "2003-01-01",
+    "year": 2003,
+    "authors": [
+      "Claire David",
+      "Maurice Touratier"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/2.1917",
+    "abstract": "A two-dimensional theory for the analysis of multilayered piezoelectric plates is presented. The theory is based on a hybrid approach in which the continuity conditions for both mechanical and electric unknowns at layer interfaces, as well as the imposed conditions on the bounding surfaces and at the interfaces, are independently satiss ed. Then, the piezoelectric boundary-valueproblem is stated usingmechanicaldisplacementsand electrostatic potential, in conjunction with the coupled piezoelectric constitutive law. The proposed model is simple to use, incorporatingonlyy ve independent generalized displacementsand oneor two independentgeneralized electrostatic potentials as unknowns. The number of electric unknowns depends on the number of layers and electric prescribed conditions. The accuracy of the proposed theory is assessed through investigation of signii cant problems, for which an exact three-dimensional solution is known from Heyliger: rst, in dynamics, the free vibrations of ve-layered piezoelectric plates and second, in statics, for three-layered plates with an imposed force density. Results obtained with our model compare very well with the exact three-dimensional theory.",
+    "keywords": [
+      "refined plate theory",
+      "electrostatic potential",
+      "free vibration",
+      "static analysis"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2158640099",
     "title": "Algorithm Developments for Discrete Adjoint Methods",
     "date": "2003-02-01",
@@ -43993,6 +44108,34 @@
     "topics_matched": [
       "叶片气动设计",
       "非定常流动"
+    ]
+  },
+  {
+    "id": "W1990664604",
+    "title": "Numerical Instability of Classical Free-Interface Component Mode Synthesis Techniques",
+    "date": "2003-08-01",
+    "year": 2003,
+    "authors": [
+      "Ronnie Bladh",
+      "Christophe Pierre",
+      "Matthew P. Castanier"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/2.2123",
+    "abstract": "Finite element based component mode synthesis (CMS) techniques are popular tools used in structural dynamics applications.In CMS, the original structure is subdivided into smaller substructures, or components, for which normal modes are computed independently and more inexpensively. The assembled system is then represented by a truncated set of component modes through necessary compatibility constraints applied in a systematic fashion. This process yields reduced-order models based on parent finite element models of arbitrary complexity. CMS techniques are usually characterized by the manner in which the component normal modes are computed:1) with fixed interfaces or 2) with free interfaces.",
+    "keywords": [
+      "component mode synthesis",
+      "numerical instability",
+      "model reduction",
+      "structural dynamics",
+      "substructuring",
+      "compatibility constraints",
+      "normal modes",
+      "finite element model"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -47376,6 +47519,26 @@
     ]
   },
   {
+    "id": "W2023191103",
+    "title": "Hyopthetical Gravity Control and Possible Influence on Space Propulsion",
+    "date": "2005-07-01",
+    "year": 2005,
+    "authors": [
+      "Martin Tajmar",
+      "Orfeu Bertolami"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.15240",
+    "abstract": "In nearly all concepts invoked or proposed to change or shield gravity it is intuitively assumed that manipulation of gravity automatically leads to a breakthrough for propulsion. In this study it is shown, that even if gravity could be hypothetically controlled along the manipulation schemes outlined, the gains in terms of propulsion would be modest and lead to no breakthrough. Although the manipulation schemes presented are not exhaustive, they include the most straightforward ones from the current physics point of view.",
+    "keywords": [
+      "gravity control",
+      "spacecraft propulsion",
+      "propulsive efficiency"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2059201051",
     "title": "Thermal Effects on Cavitation Instabilities in Helical Inducers",
     "date": "2005-09-01",
@@ -49215,6 +49378,30 @@
     ]
   },
   {
+    "id": "W2164157196",
+    "title": "Efficiency Analysis of a Hall Thruster Operating with Krypton and Xenon",
+    "date": "2006-11-01",
+    "year": 2006,
+    "authors": [
+      "Jesse A. Linnell",
+      "Alec D. Gallimore"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.19613",
+    "abstract": "Krypton has recently become the focus of attention in the Hall thruster community because of its relatively large specific impulse compared with xenon and its potential to operate with comparable efficiencies. However, before krypton can be considered a viable propellant choice for missions, the performance gap between xenon and krypton must be reduced. A series of diagnostic measurements are taken for xenon and krypton propellant using the NASA-173Mv1 Hall thruster and the results are analyzed using a phenomenological performance model. The combined use of experiments and modeling enables a direct comparison of several efficiency components for each propellant to be made. With this method, it is possible to pinpoint the exact causes for the efficiency gap between xenon and krypton. It is also possible to see the effect of themagnetic field topology onHall thruster performance and where gains are being made due to the magnetic field. Although there is a large series of competing components that differentiate krypton and xenon performance, the largest factors that dictate the efficiency difference between krypton and xenon are krypton’s inferior propellant utilization and beam divergence. For xenon, the propellant utilization is 5–10 % higher and the beam divergence efficiency is approximately 8 % higher. Nomenclature Ac = collector area B = magnetic flux density",
+    "keywords": [
+      "Hall thruster",
+      "krypton propellant",
+      "xenon propellant",
+      "specific impulse",
+      "propellant utilization",
+      "beam divergence",
+      "magnetic field topology"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2047156992",
     "title": "Engine Performance Improvement by Controlling the Low Pressure Compressor Working Line",
     "date": "2006-11-13",
@@ -49461,6 +49648,26 @@
     "topics_matched": []
   },
   {
+    "id": "W2142523871",
+    "title": "Online Water Wash Tests of GE J85-13",
+    "date": "2007-01-01",
+    "year": 2007,
+    "authors": [
+      "Elisabet Syverud",
+      "Lars Eirik Bakken"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.2372768",
+    "abstract": "This paper reports the results of a series of online water wash tests of a GE J85-13 jet engine at the test facilities of the Royal Norwegian Air Force. The engine performance was deteriorated by injecting atomized saltwater at the engine inlet. The engine was then online washed with water injected at three different droplet sizes (25, 75, and 200μm) and at water-to-air ratios ranging from 0.4% to 3% by mass. Engine performance was measured using standard on-engine instrumentation. Extra temperature and pressure sensors in the compressor section provided additional information of the propagation of deposits in the aft stages. The measurements were supported by visual observations. The overall engine performance improved rapidly with online wash. The buildup of deposits in the aft stages was influenced both by the droplet size and the water-to-air ratio. The water-to-air ratio was the most important parameter to achieve effective online washing.",
+    "keywords": [
+      "engine deposits",
+      "droplet size",
+      "water-to-air ratio"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2166063023",
     "title": "Aero-Optical and Flow Measurements Over a Flat-Windowed Turret",
     "date": "2007-01-09",
@@ -49490,6 +49697,38 @@
     ],
     "topics_matched": [
       "进气畸变",
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W2100861023",
+    "title": "Acoustic Modes in Combustors with Complex Impedances and Multidimensional Active Flames",
+    "date": "2007-01-09",
+    "year": 2007,
+    "authors": [
+      "Franck Nicoud",
+      "L. Benoit",
+      "Claude Sensiau",
+      "Thierry J. Poinsot"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.24933",
+    "abstract": "This paper presents a method for computing the thermoacoustic modes in combustors. In the case of a nonisothermal reacting medium, the wave equation for the pressure fluctuations contains a forcing term related to the unsteady heat release. Depending on the phase relationship between the acoustics and the flame certain linear modes may become unstable, leading to thermoacoustic instabilities. The relevant Helmholtz equation is derived and two approaches for solving the corresponding nonlinear eigenvalue problem are proposed. The first one is based on an asymptotic expansion of the solution, the baseline being the acoustic modes and frequencies for a steady (or passive) flame and appropriate boundary conditions. This method allows a quick assessment of any acoustic mode stability but is valid only for cases where the coupling between the flame and the acoustic waves is small in amplitude. The second approach is based on an iterative algorithm where a quadratic eigenvalue problem is solved at each subiteration. it is more central processing unit demanding but remains valid even in cases where the response of the flame to acoustic perturbations is large. Frequency-dependent boundary impedances are accounted for in both cases. A parallel implementation of the Arnoldi iterative method is used to solve the large eigenvalue problem that arises from the space discretization of the Helmholtz equation. Several academic and industrial test cases are considered to illustrate the potential of the method.",
+    "keywords": [
+      "combustion chamber",
+      "thermoacoustic instability",
+      "flame-acoustic coupling",
+      "unsteady heat release",
+      "Helmholtz equation",
+      "nonlinear eigenvalue problems",
+      "quadratic eigenvalue problem",
+      "asymptotic expansion",
+      "Arnoldi method",
+      "pressure fluctuations"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
       "非定常流动"
     ]
   },
@@ -49593,6 +49832,31 @@
     "topics_matched": [
       "叶尖间隙",
       "非定常流动"
+    ]
+  },
+  {
+    "id": "W1990099677",
+    "title": "Experimental Investigations on Indeterminate-Origin V- and A-Notched Jets",
+    "date": "2007-03-09",
+    "year": 2007,
+    "authors": [
+      "T. H. New",
+      "H. M. Tsai"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.24591",
+    "abstract": "Experimental studies on aspect ratio of 1.5 indeterminate-origin V- and A-notched nozzles using flow visualization and hot-wire anemometry techniques are reported here. Time-sequenced flow visualization images of forced water jets at Reynolds number of 2000 show that the general vortex dynamics of the two nozzle types are largely similar despite the differences in the peak and trough configurations. In addition to vortex lines emanating from both nozzles which result in streamwise vortex pairs forming along both peak and trough locations, consistent bending of the large-stale ring vortices is also observed at some downstream distances away from both nozzle exits, which suggests some limited form of axis-switching behavior. Velocity measurements for unforced air jets issuing from these nozzle types at Reynolds number of 20,500 show that there exist subtle yet discernible quantitative flow differences depending on whether the peak and trough contours are smooth or sharp. Sharp peaks and smooth troughs result in wider jet widths over smooth peaks and sharp troughs, respectively, although the differences become smaller with increasing downstream distance. Jet-width comparisons also reveal crossover locations and hence distortions to the jet cross sections, which further supports the notion of axis-switching behavior observed during flow visualizations. Two axis-switching locations have been found for each of the two nozzle types with the gross general flow behavior similar to those observed earlier for free elliptic jets. Copyright © 2007 by the American Institute of Aeronautics and Astronautics, Inc. All rights reserved.",
+    "keywords": [
+      "water jet",
+      "vortex dynamics",
+      "vortex rings",
+      "vortex pair",
+      "axis switching",
+      "nozzle geometry effects"
+    ],
+    "topics_matched": [
+      "进气畸变"
     ]
   },
   {
@@ -52965,6 +53229,27 @@
     ]
   },
   {
+    "id": "W2040257281",
+    "title": "Side Force Suppression by Dimples on Ogive-Cylinder Body",
+    "date": "2009-03-17",
+    "year": 2009,
+    "authors": [
+      "Yongdong Cui",
+      "H. M. Tsai"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.39176",
+    "abstract": "The effectiveness of dimples in suppressing the large side forces over an ogival-cylinder body at high angles of attack was examined. The experiments were made in the low speed wind-tunnel and water tunnel and the measurements were made at a freestream velocity with a freestream turbulent intensity less than 0.4%. A smooth ogive-cylinder model with a nose length of 122.5 mm and a total body length of 560 mm was used as the baseline. The side force is found to significantly reduced at an angle of attack of 40 deg, while at 50 deg, the side force show values comparable to those without dimples and with a higher level of fluctuations. The existence of dimples on the front portion of the ogive-cylinder model modifies the flowfield leading to reduced side force at high angles of attack. The flow structures for different roll angles are almost the same at 40 deg, and the vortex asymmetry is found at 50 deg.",
+    "keywords": [
+      "dimples",
+      "aerodynamic drag reduction",
+      "flow separation control",
+      "surface roughness"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W4253933249",
     "title": "Effect of Inlet Flow Angle on Gas Turbine Blade Tip Film Cooling",
     "date": "2009-04-08",
@@ -54752,6 +55037,33 @@
     "topics_matched": []
   },
   {
+    "id": "W1972794317",
+    "title": "Rotating Blade Trailing-Edge Noise: Experimental Validation of Analytical Model",
+    "date": "2010-04-12",
+    "year": 2010,
+    "authors": [
+      "Yannick Rozenberg",
+      "Michel Roger",
+      "Stéphane Moreau"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.43840",
+    "abstract": "This paper deals with the experimental validation of an analytical trailing-edge noise model dedicated to low-speed fans operating in free field. The model is intrinsically related to the aerodynamics of the blades and should lead to a useful fast-running tool to be included in a blade-design process in an industrial context. The investigations are made on a two-bladed low-speed axial fan without shroud, installed inside an anechoic room. The blades are instrumented with two sets of embedded small-size microphones (2.5 mm diam), and the wall-pressure signals are acquired via a slip ring mounted on the fan axis. The chord-based Reynolds number is about 200,000, and the tip Mach number about 0.07. The data base is completed by far-field measurements made with a single microphone on a moving support. The analytical model is based on a previously published extension of Amiet's trailing-edge noise theory. A blade is split into several strips in the spanwise direction, and the model is applied to each strip. For this the input data are interpolated from the measurements performed with the aforementioned sets of microphones. The trailing-edge noise model is more reliable for observer positions within ±30° from the fan-rotation plane.",
+    "keywords": [
+      "trailing edge noise",
+      "rotating blades",
+      "analytical noise model",
+      "wall pressure measurement",
+      "far-field noise",
+      "blade design",
+      "model validation"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W1991464312",
     "title": "Analysis of the Effects of Pulsations on the Operational Stability of Centrifugal Compressors in Mixed Reciprocating and Centrifugal Compressor Stations",
     "date": "2010-04-21",
@@ -54849,6 +55161,35 @@
     "topics_matched": [
       "跨音速/激波"
     ]
+  },
+  {
+    "id": "W2077457066",
+    "title": "Three-Body Dynamics and Self-Powering of an Electrodynamic Tether in a Plasmasphere",
+    "date": "2010-04-23",
+    "year": 2010,
+    "authors": [
+      "Davide Curreli",
+      "Enrico C Lorenzini",
+      "Claudio Bombardelli",
+      "Manuel Sanjurjo-Rivo",
+      "Jesus Pelaez",
+      "Daniel J. Scheeres",
+      "Martín Lara"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.46848",
+    "abstract": "Abstract. The dynamics of an electrodynamic tether in a three-body gravitational environment are investigated. In the classical two-body scenario the extraction of power is at the expense of orbital kinetic energy. As a result of power extraction, an electrodynamic tether satellite system loses altitude and deorbits. This concept has been proposed and well investigated in the past, for example for orbital debris mitigation and spent stages reentry. On the other hand, in the three-body scenario an electrodynamic tether can be placed in an equilibrium position fixed with respect to the two primary bodies without deorbiting, and at the same time generate power for onboard use. The appearance of new equilibrium positions in the perturbed three-body problem allow this to happen as the electrical power is extracted at the expenses of the plasma corotating with the primary body. Fundamental differences between the classical twobody dynamics and the new phenomena appearing in the circular restricted three-body problem perturbed by the electrodynamic force of the electrodynamic tether are shown in the paper. An interesting application of an electrodynamic tether placed in the Jupiter plasma torus is then considered, in which the electrodynamic tether generates useful electrical power of about 1 kW with a 20-km-long electrodynamic tether from the environmental plasma without losing orbital energy.",
+    "keywords": [
+      "electrodynamic tethers",
+      "three-body problem",
+      "circular restricted three-body problem",
+      "self-powering",
+      "plasmasphere",
+      "equilibrium position",
+      "space debris mitigation"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2802567623",
@@ -56056,6 +56397,36 @@
     ]
   },
   {
+    "id": "W2007997997",
+    "title": "Structural and Aerodynamic Models in Nonlinear Flight Dynamics of Very Flexible Aircraft",
+    "date": "2010-10-13",
+    "year": 2010,
+    "authors": [
+      "Rafael Palacios",
+      "Joseba Murua",
+      "Robert Cook"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050513",
+    "abstract": "An evaluation of computational models is carried out for flight dynamics simulations on low-speed aircraft with very-flexible high-aspect ratio wings. Structural dynamic models include displacement-based, strain-based, and intrinsic (first-order) geometrically-nonlinear composite beams, while thin-strip and vortex lattice methods are considered for the unsteady aerodynamics. It is first shown that all different beam finite element models (previously derived in the literature from different assumptions) can be consistently obtained from a single set of equations. This approach has been used to expand existing strain-based models to include shear effects. Comparisons are made in terms of numerical efficiency and simplicity of integration in flexible aircraft flight dynamics studies. On the structural modeling, it was found that intrinsic solutions can be several times faster than conventional ones for aircraft-type geometries. For the aerodynamic modeling, thin-strip models based on indicial airfoil response are found to perform well in situations dominated by small amplitude dynamics around large quasi-static wing deflections, while large-amplitude wing dynamics require three-dimensional descriptions (e.g. vortex lattice).",
+    "keywords": [
+      "very flexible aircraft",
+      "nonlinear flight dynamics",
+      "high aspect ratio wing",
+      "composite beams",
+      "geometrically nonlinear beams",
+      "vortex lattice method",
+      "unsteady aerodynamics",
+      "shear effects",
+      "low-speed aircraft",
+      "wing deflection"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2010599166",
     "title": "Performance Improvement of a Centrifugal Compressor Stage by Increasing Degree of Reaction and Optimizing Blade Loading of a 3D Impeller",
     "date": "2010-10-19",
@@ -56275,6 +56646,33 @@
       "压缩机稳定性",
       "跨音速/激波"
     ]
+  },
+  {
+    "id": "W2006904216",
+    "title": "Asymptotic Solution for the Current Profile of Passive Bare Electrodynamic Tethers",
+    "date": "2010-10-26",
+    "year": 2010,
+    "authors": [
+      "Claudio Bombardelli",
+      "Jesus Pelaez",
+      "Manuel Sanjurjo-Rivo"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.46808",
+    "abstract": "A relatively high-accuracy analytical solution for the current and potential profile along a passive bare electrodynamic tether is provided using perturbation theory. An ad hoc nondimensional formulation of the governing local bias and orbital motion limited current collection equations allows one to approach the problem with a perturbation technique in which a parameter, epsilon, quantifies the influence of ohmic effects on the final solution. For the case of small ohmic effects an approximate solution is obtained with a third-order expansion. Conversely, the case of dominant ohmic effects is treated based on an extension of the exact analytical solution available for the particular case of zero load and negligible potential drop at the cathodic end of the tether. After computing the analytical current and potential profile the maximum and average current, the Lorentz force and torque, as well as the optimum load impedance for maximum power generation are obtained. When compared with the exact, numerically-computed solution an accuracy of better than5%is achieved for the computation of the average current across the full parameter space. The error with respect to the generated power becomes negligible when the load impedance is set to the optimum value, while it can grow to a maximum of about 30% for the less relevant case in which the load impedance of the power generation system is badly mismatched. The results, which are valid for a general rectilinear passive electrodynamic tether with constant cross section satisfying orbital motion limited theory and irrespective of the particular orbit configuration, will be of aid in the design and analysis of space missions involving bare electrodynamic tethers.",
+    "keywords": [
+      "electrodynamic tethers",
+      "current profiles",
+      "potential profile",
+      "perturbation theory",
+      "Lorentz force",
+      "torque",
+      "electricity generation",
+      "space missions",
+      "analytical solution"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W1967191597",
@@ -57216,6 +57614,54 @@
     ]
   },
   {
+    "id": "W1974907280",
+    "title": "Microvibrations Induced by a Cantilevered Wheel Assembly with a Soft-Suspension System",
+    "date": "2011-04-13",
+    "year": 2011,
+    "authors": [
+      "Zhe Zhang",
+      "Guglielmo S. Aglietti",
+      "Weiyong Zhou"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050791",
+    "abstract": "Microvibration management onboard spacecraft with high stability requirements has drawn increasing interest from engineers and scientists, and this paper discusses a reaction wheel design that allows a significant reduction of mid-to high-frequency microvibrations and that has been practically implemented in industry.Disturbances typically induced by mechanical systems onboard a spacecraft (especially rotating devices such as reaction wheel assemblies and momentum wheel assemblies) can severely degrade the performance of sensitive instruments.Traditionally, wheel-induced high-frequency (over 100-200 Hz) vibrations, generated by a combination of phenomena from bearing noise to dynamic amplifications due to internal resonances, are especially difficult to control.In this paper, the dynamic behavior of a newly designed wheel assembly, with a cantilevered flywheel configuration supported by a soft-suspension system, is investigated.The wheel assembly's mathematical model is developed and later verified with vibration tests.Wheel-assembly-induced lateral and axial microvibrations are accurately measured using a seismic-mass microvibration measurement system, which represents an alternative to typical microvibration measurement setups.Finally, the performance of this wheel assembly in terms of microvibration emissions is compared with a traditional design (with a rigid suspension) through comparison of frequency spectra, and it is shown that this design produces significantly lower vibrations at high frequency.",
+    "keywords": [
+      "micro-vibration",
+      "reaction wheel assembly",
+      "momentum wheel",
+      "bearing noise",
+      "internal resonance"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
+    "id": "W2080388880",
+    "title": "Proper Orthogonal Decomposition for Reduced-Order Thermal Solution in Hypersonic Aerothermoelastic Simulations",
+    "date": "2011-04-13",
+    "year": 2011,
+    "authors": [
+      "Nathan J. Falkiewicz",
+      "Carlos E. S. Cesnik"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050701",
+    "abstract": "The ability to perform full-order aerothermoelastic simulations of hypersonic vehicles is hindered by the strong coupling exhibited between the aerodynamics, heat transfer, and structural dynamic response in the hypersonic flight regime. As a result of these interac-tions, alternative techniques are necessary to obtain computationally tractable systems of governing equations and their solutions. This work addresses the use of proper orthogonal decomposition for reduced-order solution of the heat transfer problem within a hyper-sonic modeling framework. The specific challenge of handling time-dependent boundary conditions due to transient aerodynamic heating is discussed. An overview of the proper orthogonal decomposition is given and two methods for solution of the reduced system of ordinary differential equations are outlined. The methodology is applied to a repre-sentative hypersonic vehicle control surface model for two cases in which the time-history of the thermal load vector is known a priori: one in which the boundary conditions are time-independent and another in which they are time-varying. Results demonstrate the ability of the reduced-order solution to approximate the full-order solution with reasonable accuracy. Finally, a time-marching hypersonic aerothermoelastic framework is described",
+    "keywords": [
+      "proper orthogonal decomposition",
+      "model reduction",
+      "heat transfer",
+      "time-dependent boundary conditions",
+      "heat load",
+      "structural dynamics coupling"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2101859620",
     "title": "High-Temperature Performance of Cast CF8C-Plus Austenitic Stainless Steel",
     "date": "2011-04-15",
@@ -57806,6 +58252,30 @@
       "aerothermoelasticity",
       "hypersonic vehicles",
       "X-15"
+    ],
+    "topics_matched": [
+      "气弹/振动"
+    ]
+  },
+  {
+    "id": "W2015150191",
+    "title": "Mistuning Identification of Blisks at Higher Frequencies",
+    "date": "2011-05-11",
+    "year": 2011,
+    "authors": [
+      "Andrew C. Madden",
+      "Matthew P. Castanier",
+      "Bogdan I. Epureanu"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050427",
+    "abstract": "There is a large body of research on reduced-order modeling of bladed disks and integrally bladed disks (blisks) for predicting the mistuned vibration response.However, most work to date has focused on the lower frequency families of blade-dominated modes.Relatively few studies have considered the response in higher frequency regions that feature more complex blade motions and more closely spaced families of modes.Moreover, some reduced-order modeling techniques for mistuned blisks make use of simplifications inherent in lower frequency ranges and neglect complexities of higher frequency ranges.In this study, key challenges of higher frequency regimes are considered.Procedures are presented and evaluated for reduced-order modeling and mistuning identification of blisks at frequency ranges beyond the first few families of blade-dominated modes.It is shown that mistuning patterns can be identified for higher mode families, and the mistuning pattern for each family is generally unique when the physical mistuning is not uniform throughout each blade.Finally, a procedure to choose appropriate measurement points for modeling and mistuning identification is proposed.",
+    "keywords": [
+      "mistuning identification",
+      "blisk",
+      "model reduction",
+      "measurement point selection"
     ],
     "topics_matched": [
       "气弹/振动"
@@ -58576,6 +59046,55 @@
       "跨音速/激波",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2086271522",
+    "title": "Reduced-Order Aerothermoelastic Framework for Hypersonic Vehicle Control Simulation",
+    "date": "2011-08-01",
+    "year": 2011,
+    "authors": [
+      "Nathan J. Falkiewicz",
+      "Carlos E. S. Cesnik",
+      "Andrew R. Crowell",
+      "Jack J. McNamara"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050802",
+    "abstract": "Hypersonic vehicle control system design and simulation requires models that contain a low number of states.Modeling of hypersonic vehicles is complicated due to complex interactions between aerodynamic heating, heat transfer, structural dynamics, and aerodynamics in the hypersonic regime.Though there exist techniques for analyzing the effects of each of the various disciplines, these methods often require solution of large systems of equations which is infeasible within a control design and evaluation environment.This work therefore presents an aerothermoelastic framework with reduced-order aerothermal, heat transfer, and structural dynamic models for time-domain simulation of hypersonic vehicles.The problem is outlined and aerothermoelastic coupling mechanisms are described.Details of the reduced-order models are given and a representative hypersonic vehicle control surface to be used for the study is described.The error between the reduced-order models is characterized by comparison with high-fidelity models.The effect of aerothermoelasticity on total lift and drag is studied and is found to result in up to 8% change in lift and 21% change in drag with respect to a rigid control surface for the four trajectories considered.An iterative routine is used to determine the necessary angle of attack needed to match the lift of the deformed control surface to that of a rigid one at successive time instants.Application of the routine to different cruise trajectories shows a maximum departure from the initial angle of attack of 7%.",
+    "keywords": [
+      "hypersonic vehicles",
+      "aerothermoelasticity",
+      "model reduction",
+      "hypersonic vehicle control",
+      "aerodynamic heating",
+      "heat transfer",
+      "structural dynamics",
+      "lift and drag"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2120499345",
+    "title": "Modeling Progressive Failure of Bonded Joints Using a Single Joint Finite Element",
+    "date": "2011-08-01",
+    "year": 2011,
+    "authors": [
+      "Scott  Edward Stapleton",
+      "Anthony M. Waas",
+      "Brett A. Bednarcyk"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j050889",
+    "abstract": "Enhanced finite elements are elements with an embedded analytical solution which can capture detailed local fields, enabling more efficient, mesh-independent finite element analysis. In the present study, an enhanced finite element is applied to generate a general framework capable of modeling an array of joint types. The joint field equations are derived using the principle of minimum potential energy, and the resulting solutions for the displacement fields are used to generate shape functions and a stiffness matrix for a single joint finite element. This single finite element thus captures the detailed stress and strain fields within the bonded joint, but it can function within a broader structural finite element model. The costs associated with a fine mesh of the joint can thus be avoided while still obtaining a detailed solution for the joint. Additionally, the capability to model non-linear adhesive constitutive behavior has been included within the method, and progressive failure of the adhesive can be modeled by using a strain-based failure criteria and re-sizing the joint as the adhesive fails. Results of the model compare favorably with experimental and finite element results.",
+    "keywords": [
+      "adhesive joints",
+      "progressive failure",
+      "shape functions",
+      "minimum potential energy principle"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2014980846",
@@ -60299,6 +60818,36 @@
     ]
   },
   {
+    "id": "W2139235393",
+    "title": "Assessment of Wake-Tail Interference Effects on the Dynamics of Flexible Aircraft",
+    "date": "2012-06-18",
+    "year": 2012,
+    "authors": [
+      "Joseba Murua",
+      "Rafael Palacios",
+      "J. M. R. Graham"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j051543",
+    "abstract": "This work investigates the effect of aerodynamic interference in the coupled nonlinear aeroelasticity and flight mechanics of flexible lightweight aircraft at low speeds. For that purpose, a geometrically exact composite-beam formulation is used to model the vehicle flexible-body dynamics by means of an intuitive and easily linearizable representation based on the displacement and Cartesian rotation vectors. The aerodynamics are modeled using the unsteady vortex-lattice method, which captures the instantaneous shape of the lifting surfaces and the free inviscid wake, including large deformations and interference effects. This results in a framework for simulation of high aspect ratio planes that provides a medium-fidelity representation of flexible-aircraft dynamics with a modest computational cost. Previous independent studies on the structural-dynamics and aerodynamics modules are complemented here with the integrated simulation methodology, including vehicle trim, and linear and nonlinear time-domain solutions. A numerical investigation is next presented on a simple wing-fuselage-tail configuration, assessing the interference effects between wing wake and horizontal tail, and the downwash due to the proximity of the wake is shown to play a significant role in the longitudinal dynamics of the vehicle. Finally, a brief discussion of direct wake-tail encounters is included to show the limitations of the approach.",
+    "keywords": [
+      "flexible aircraft",
+      "nonlinear aeroelasticity",
+      "flight dynamics",
+      "unsteady vortex lattice method",
+      "high aspect ratio wing",
+      "downwash",
+      "longitudinal dynamics",
+      "lightweight aircraft",
+      "time-domain simulation"
+    ],
+    "topics_matched": [
+      "非定常流动",
+      "气弹/振动"
+    ]
+  },
+  {
     "id": "W1999377150",
     "title": "Separation Control for Aeroengine Intakes, Part 1: Low-Speed Investigation of Control Strategies",
     "date": "2012-06-27",
@@ -60708,6 +61257,27 @@
       "稳定性建模",
       "离心压气机"
     ]
+  },
+  {
+    "id": "W2092114293",
+    "title": "Coupled Fluid-Structure Transient Thermal Analysis of a Gas Turbine Internal Air System With Multiple Cavities",
+    "date": "2012-08-22",
+    "year": 2012,
+    "authors": [
+      "Vlad Ganine",
+      "Umesh Javiya",
+      "Nicholas J. Hills",
+      "John W. Chew"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4007060",
+    "abstract": "This paper presents the transient aerothermal analysis of a gas turbine internal air system through an engine flight cycle featuring multiple fluid cavities that surround a HP turbine disk and the adjacent structures. Strongly coupled fluid-structure thermal interaction problems require significant computational effort to resolve nonlinearities on the interface for each time step. Simulation times may grow impractical if multiple fluid domains are included in the analysis. A new strategy is employed to decrease the cost of coupled aerothermal analysis. Significantly lower fluid domain solver invocation counts are demonstrated as opposed to the traditional coupling approach formulated on the estimates of heat transfer coefficient. Numerical results are presented using 2D finite element conduction model combined with 2D flow calculation in five separate cavities interconnected through the inlet and outlet boundaries. The coupled solutions are discussed and validated against a nominal stand-alone model. Relative performance of both coupling techniques is evaluated.",
+    "keywords": [
+      "heat transfer coefficient estimation",
+      "computational complexity reduction"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2018004097",
@@ -66111,6 +66681,30 @@
     "topics_matched": []
   },
   {
+    "id": "W2161867058",
+    "title": "Consistent Structural Linearization in Flexible Aircraft Dynamics with Large Rigid-Body Motion",
+    "date": "2014-01-31",
+    "year": 2014,
+    "authors": [
+      "Henrik Hesse",
+      "Rafael Palacios",
+      "Joseba Murua"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j052316",
+    "abstract": "This paper investigates the linearization, using perturbation methods, of the structural deformations in the nonlinear flight dynamic response of aircraft with slender, flexible wings. The starting point is the coupling of a displacement-based geometrically nonlinear flexible-body dynamics formulation with a three-dimensional unsteady vortex lattice method. This is followed by a linearization of the structural degrees of freedom, which are assumed to be small in a body-fixed reference frame. The translations and rotations of that reference frame and their time derivatives, which describe the vehicle flight dynamics, can still be arbitrarily large. The resulting system preserves all couplings between rigid and elastic motions and can be projected onto a few vibration modes of the unconstrained aircraft with geometrically nonlinear static deflections at a trim condition. Equally, the unsteady aerodynamics can be approximated on a fixed lattice defined by the deformed static geometry. Numerical studies on a representative high-altitude long-endurance aircraft are presented to illustrate the approach. The results show an improvement compared to those obtained using the mean-axes approximation.",
+    "keywords": [
+      "unsteady vortex lattice method",
+      "rigid-flexible coupling",
+      "perturbation method",
+      "high-altitude long-endurance aircraft"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2019154527",
     "title": "Numerical Study of Multistage Transcritical Organic Rankine Cycle Axial Turbines",
     "date": "2014-02-08",
@@ -66707,6 +67301,35 @@
       "叶片气动设计",
       "非定常流动",
       "气弹/振动"
+    ]
+  },
+  {
+    "id": "W2037730286",
+    "title": "Compatibility of Characteristic Boundary Conditions with Radial Equilibrium in Turbomachinery Simulations",
+    "date": "2014-04-17",
+    "year": 2014,
+    "authors": [
+      "Charlie Koupper",
+      "Thierry J. Poinsot",
+      "Laurent Y. M. Gicquel",
+      "Florent Duchaine"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j052915",
+    "abstract": "Setting up outlet boundary conditions in configurations that have a strong rotating motion is a crucial issue for turbomachinery simulations. This is usually done using the so-called radial equilibrium assumption, which is used before the simulation and provides an approximate expression for the pressure profile to impose in the outlet plane. This paper shows that recent methods developed for compressible flows, based on characteristic methods, including the effects of transverse terms, can capture the radial equilibrium naturally without having to impose a precomputed pressure profile. In addition, these methods are also designed to control acoustic reflections on boundaries, and the present work suggests that they could replace classical radial equilibrium assumption approximations when nonreflecting boundary conditions are required at the outlet of a turbomachine simulation, for example, in large eddy simulation. This is demonstrated in two cases: 1) a simple annulus flow with a swirl imposed at the inlet and 2) a transonic turbine vane.",
+    "keywords": [
+      "radial equilibrium",
+      "characteristic boundary conditions",
+      "absorbing boundary conditions",
+      "turbomachinery",
+      "outlet boundary conditions",
+      "rotating flow",
+      "compressible flow",
+      "large eddy simulation"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
     ]
   },
   {
@@ -68357,6 +68980,37 @@
       "叶尖间隙",
       "离心压气机"
     ]
+  },
+  {
+    "id": "W1989913182",
+    "title": "Heat Transfer and Pressure Loss Measurements of Matrix Cooling Geometries for Gas Turbine Airfoils",
+    "date": "2014-08-26",
+    "year": 2014,
+    "authors": [
+      "Carlo Carcasci",
+      "Bruno Facchini",
+      "Marco Pievaroli",
+      "Lorenzo Tarchi",
+      "Alberto Ceccherini",
+      "Luca Innocenti"
+    ],
+    "venue": "Journal of Turbomachinery",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4028237",
+    "abstract": "Matrix cooling systems are relatively unknown among gas turbines manufacturers of the western world. In comparison to conventional turbulated serpentines or pin–fin geometries, a lattice–matrix structure can potentially provide higher heat transfer enhancement levels with similar overall pressure losses. This experimental investigation provides heat transfer distribution and pressure drop of four different lattice–matrix geometries with crossing angle of 45 deg between ribs. The four geometries are characterized by two different values of rib height, which span from a possible application in the midchord region up to the trailing edge region of a gas turbine airfoil. For each rib height, two different configurations have been studied: one having four entry channels and lower rib thickness (open area 84.5%), one having six entry channels and higher rib thickness (open area 53.5%). Experiments were performed varying the Reynolds number Res, based on the inlet subchannel hydraulic diameter, from 2000 to 12,000. Heat transfer coefficients (HTCs) were measured using steady state tests and applying a regional average method; test models have been divided into 20 stainless steel elements in order to have a Biot number similitude with real conditions. Elements are 10 per side, five in the main flow direction, and two in the tangential one. Metal temperature was measured with embedded thermocouples, and 20 thin-foil heaters were used to provide a constant heat flux during each test. A specific data reduction procedure has been developed so as to take into account the fin effectiveness and the increased heat transfer surface area provided by the ribs. Pressure drops were also evaluated measuring pressure along the test models. Uniform streamwise distributions of Nusselt number Nus have been obtained for each Reynolds number. Measurements show that the heat transfer enhancement level Nus/Nu0 decreases with Reynolds but is always higher than 2. Results have been compared with previous literature data on similar geometries and show a good agreement.",
+    "keywords": [
+      "gas turbine airfoils",
+      "heat transfer enhancement",
+      "pressure drop",
+      "heat transfer coefficient",
+      "Nusselt number",
+      "rib height",
+      "fin effectiveness",
+      "constant heat flux",
+      "Reynolds number effects",
+      "trailing edge cooling"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W1977952480",
@@ -72055,6 +72709,38 @@
     ]
   },
   {
+    "id": "W1624656410",
+    "title": "Numerical Investigation of Flow Acoustic Coupling in a Half-Dump Combustor",
+    "date": "2015-09-08",
+    "year": 2015,
+    "authors": [
+      "Ashoke De",
+      "Abhijit Kushari",
+      "K. Sudharsan",
+      "Konreddy GeethaSri"
+    ],
+    "venue": "Journal of Propulsion and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.b35629",
+    "abstract": "This paper reports on the investigation of combustion instabilities in a methane–air non-premixed half-dump combustor for different flow Reynolds number using computational aero-acoustic (CAA) simulation. To simulate the flow physics under turbulent flow conditions, detached-eddy simulation in conjunction with generalized eddy-dissipation model is adopted, while a CAA formulation based on Lighthill’s acoustic analogy is used for computing the acoustic ﬁeld. It is observed that the unsteady pressure signals predominantly arise from either the natural acoustic modes of the duct or the local flow fluctuations in the vortex shedding process downstream of the dump plane, giving rise to different dominant frequencies at different spatial locations at lower and a single dominant locked-on frequency at higher . The nondimensional numbers, that is, Helmholtz and Strouhal numbers, are used to characterize the duct acoustic modes from the vortex shedding modes. Under reacting flow conditions, unsteady heat release and pressure oscillations are monitored to compute Rayleigh index in order to verify if the instability is driving (positive net value) or damping (negative net value) at different frequency levels. Moreover, the predicted Helmholtz and Strouhal numbers are found to be in excellent agreement with the experimental data available in the open literature for a wide range of .",
+    "keywords": [
+      "combustion instability",
+      "flow-acoustic coupling",
+      "Lighthill acoustic analogy",
+      "vortex shedding",
+      "Helmholtz number",
+      "Strouhal number",
+      "Rayleigh index",
+      "unsteady heat release",
+      "Reynolds number effects",
+      "computational aeroacoustics"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2162436531",
     "title": "Partitioned Time-Domain Substructure Coupling Methodology for Efficient Hypersonic Vehicle Simulation",
     "date": "2015-09-10",
@@ -72293,6 +72979,36 @@
     "topics_matched": [
       "跨音速/激波",
       "非定常流动"
+    ]
+  },
+  {
+    "id": "W1834516938",
+    "title": "Numerical Predictions of Turbulence/Cascade-Interaction Noise Using Computational Aeroacoustics with a Stochastic Model",
+    "date": "2015-10-01",
+    "year": 2015,
+    "authors": [
+      "Cyril Polacsek",
+      "Vincent Clair",
+      "Thomas Le Garrec",
+      "Gabriel Reboul",
+      "Marc C. Jacob"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j053896",
+    "abstract": "Turbulent-flow interactions with the outlet guide vanes are known to mainly contribute to broadband-noise emission of aeroengines at approach conditions. This paper presents a three-dimensional computational aeroacoustics hybrid method aiming at simulating the aeroacoustic response of an annular cascade impacted by a prescribed homogeneous isotropic turbulent flow. It is based on a time-domain Euler solver coupled to a synthetic turbulence model implemented in the code by means of a suited inflow boundary condition. The fluctuating pressure over the airfoil surface provided by computational aeroacoustics is used as an input to a Ffowcs Williams and Hawkings integral method to calculate the radiated sound field. Euler computations are first validated against an academic computational aeroacoustics benchmark in the case of an harmonic gust interacting with an annular flat-plate cascade. Then, simulations are applied to turbulence–cascade interactions for annular configurations, in uniform and swirling mean flows, and numerical results in terms of sound power spectra in the outlet duct are compared to semi-analytical and numerical solutions, and to an available experiment.",
+    "keywords": [
+      "aerodynamic noise",
+      "outlet guide vanes",
+      "aircraft engine noise",
+      "Euler solver",
+      "annular cascade",
+      "swirling flow",
+      "broadband noise",
+      "computational aeroacoustics"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
     ]
   },
   {
@@ -76034,6 +76750,58 @@
     "topics_matched": []
   },
   {
+    "id": "W2513987409",
+    "title": "Pulsed Actuation Control of Flow Separation on a ROBIN Rotorcraft Fuselage",
+    "date": "2016-08-28",
+    "year": 2016,
+    "authors": [
+      "George T. K. Woo",
+      "Ari Glezer",
+      "Svyatoslav Yorish",
+      "Thomas M. Crittenden"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j054008",
+    "abstract": "Separation control of the three-dimensional flow over the aft segment of a NASA Rotor-Body-Interaction (ROBIN) rotorcraft fuselage is investigated in wind-tunnel experiments using arrays of miniature combustion-based actuators. Successive pulsed actuation is effected by momentary jets each having a characteristic time scale that is an order of magnitude shorter than the convective time scale of the flow. The actuators are placed upstream of the transition ramp between the ROBIN’s fuselage and the tail boom. The jet-induced interactions with the massively separated crossflow over the ramp and their effects on the global aerodynamic forces and moments are investigated using high-resolution particle image velocimetry that is acquired phase-locked to the actuation waveform in conjunction with simultaneous force and moment measurements using an onboard load cell. The present investigations show that symmetric actuation about the model’s centerline can significantly mitigate separation, lead to a reduction in drag and lift, and alter the pitching moment. Asymmetric actuation, and consequently nonuniform attachment, can induce significant side forces as well as roll and yaw moments that may be exploited for steering and improved flight maneuverability.",
+    "keywords": [
+      "flow separation control",
+      "crossflow separation",
+      "drag reduction",
+      "lift reduction",
+      "pitching moment",
+      "lateral force",
+      "flight maneuverability"
+    ],
+    "topics_matched": []
+  },
+  {
+    "id": "W2518632798",
+    "title": "Model Reduction and Sensor Placement Methods for Finite Element Model Correlation",
+    "date": "2016-08-28",
+    "year": 2016,
+    "authors": [
+      "J. F. Mercer",
+      "Guglielmo S. Aglietti",
+      "A. M. Kiley"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j054976",
+    "abstract": "The issue of model reduction is one that must often be overcome in order to perform the necessary checks as part of the spacecraft finite element model validation process. This work compares different reduction methods: specifically, the popular and longstanding Guyan method and the potentially more accurate system equivalent reduction expansion process. The influence of sensor set location on the quality of the reduced model is also considered, and the commonly applied methods to maximize kinetic energy and effective independence are applied. These investigations take the form of studies involving two large, unique, scientific spacecraft. The computational results are compared with experimental results that are also detailed in the paper. The findings highlight the potential issues with the accuracy of a Guyan reduced model in replicating the full system dynamics, even with a reasonably large sensor set. It is shown that this can be improved slightly in some circumstances through implementation of sensor set placement optimization techniques. The system equivalent reduction expansion process method is shown to have the benefit of being more accurate at replicating the full system behavior than the more traditional Guyan method while also producing higher diagonal values in cross-orthogonality comparisons between the finite element model and the test.",
+    "keywords": [
+      "model reduction",
+      "sensor placement",
+      "finite element model correlation",
+      "Guyan reduction",
+      "spacecraft structural dynamics",
+      "model validation"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
+  },
+  {
     "id": "W2514041107",
     "title": "Effects of Impeller Squealer Tip on Centrifugal Compressor Performance",
     "date": "2016-08-29",
@@ -76216,6 +76984,32 @@
       "叶尖间隙",
       "非定常流动",
       "气弹/振动"
+    ]
+  },
+  {
+    "id": "W2508902791",
+    "title": "Dynamic Mass of a Reaction Wheel Including Gyroscopic Effects: An Experimental Approach",
+    "date": "2016-08-31",
+    "year": 2016,
+    "authors": [
+      "Daniele Addari",
+      "Guglielmo S. Aglietti",
+      "Marcello Remedia"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055398",
+    "abstract": "In recent years, driven by the increasingly stringent stability requirements imposed by some satellites’ payloads (e.g., the new generation of optical instruments), the issue of accurate onboard spacecraft microvibration modeling has attracted significant interest from engineers and scientists. This paper investigates the microvibration-induced phenomenon on a cantilever-configured reaction wheel assembly including sub- and higher harmonic amplifications due to modal resonances and broadband noise. A mathematical model of the reaction wheel assembly is developed and validated against experimental test results. The model is capable of representing each configuration in which the reaction wheel assembly will operate, whether it is hard mounted on a dynamometric platform or suspended free–free. The outcomes of this analysis are used to establish a novel methodology to retrieve the dynamic mass of the reaction wheel assembly in its operative range of speeds. An alternative measurement procedure has been developed for this purpose, showing to produce good estimates over a wide range of frequencies using a less complex test campaign compared with typical dynamic mass setups. Furthermore, the gyroscopic effect influence in the reaction wheel assembly response is thoroughly examined both analytically and experimentally. Finally, to what extent the noise affects the convergence of the novel approach is investigated.",
+    "keywords": [
+      "reaction wheel assembly",
+      "dynamic mass",
+      "gyroscopic effects",
+      "cantilever structures",
+      "modal resonance",
+      "broadband noise"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -76783,6 +77577,35 @@
       "2010 Eyjafjallajökull eruption"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2517321435",
+    "title": "Full Three-Dimensional Rotor/Stator Interaction Simulations in Aircraft Engines With Time-Dependent Angular Speed",
+    "date": "2016-10-11",
+    "year": 2016,
+    "authors": [
+      "Alain Batailly",
+      "Mathias Legrand",
+      "Christophe Pierre"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4034503",
+    "abstract": "Modern aircraft engine designs feature reduced clearances that may initiate structural contacts between rotating and static components. A numerical strategy dedicated to the simulation of such interactions is here enriched in order to account for time-dependent angular speeds. This contribution first details the evolution of the numerical strategy before validating the developments by comparing numerical results with experimental observations made on an industrial test bench. Further, numerical investigations allow to assess the sensitivity of the numerical results to acceleration and deceleration rates. The results, obtained with and without abradable coating, underline the fundamental nonlinear nature of the analyzed system. It is found that the lower acceleration rates favor the arisal of interaction phenomena, and that the amplitudes of vibration at a given angular speed are generally lower when the blade decelerates.",
+    "keywords": [
+      "rotor-stator interaction",
+      "gas turbines",
+      "blade clearance",
+      "structural contacts",
+      "abradable coatings",
+      "nonlinear dynamics",
+      "blade vibration",
+      "rotor dynamics"
+    ],
+    "topics_matched": [
+      "非定常流动",
+      "气弹/振动"
+    ]
   },
   {
     "id": "W4238872971",
@@ -77497,6 +78320,57 @@
     ]
   },
   {
+    "id": "W2558802181",
+    "title": "Induced Drag Calculations with the Unsteady Vortex Lattice Method for Cambered Wings",
+    "date": "2016-11-28",
+    "year": 2016,
+    "authors": [
+      "Thomas Lambert",
+      "Grigorios Dimitriadis"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055135",
+    "abstract": "The Unsteady Vortex Lattice Method (UVLM) is an approach widely used to estimate the aerodynamic loads in unsteady subsonic flows. It is based on modeling the camber surface of a lifting body by means of bound vortex rings. Even though this method has been known and used for several decades, there is little discussion of the modeling of the leading-edge suction in the literature. To address this concern, Simpson et al. [1] presented a comparison of two different ways to model this effect for the case of uncambered airfoils and wings in harmonic pitch or plunge motions. They concluded that the Joukowski method converges significantly faster than the Katz technique as the number of chorwise panels is increased. The present paper is an extension of the study by Simpson et al. to cambered lifting surfaces. It shows that the presence of camber can change radically the convergence performance of the two methods. For cambered wings, the Katz approach converges significantly faster than the Joukowski technique.",
+    "keywords": [
+      "unsteady vortex lattice method",
+      "induced drag",
+      "cambered wing",
+      "leading-edge suction",
+      "convergence"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
+    "id": "W2564970509",
+    "title": "Accounting for Acoustic Damping in a Helmholtz Solver",
+    "date": "2016-12-17",
+    "year": 2016,
+    "authors": [
+      "F. Ni",
+      "M. Miguel-Brebion",
+      "Franck Nicoud",
+      "Thierry J. Poinsot"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055248",
+    "abstract": "Thermoacoustic Helmholtz solvers provide a cheap and efficient way of predicting combustion instabilities. However, because they rely on the inviscid Euler equations at zero Mach number, they cannot properly describe the regions where aerodynamics may interact with acoustic waves, in the vicinity of dilution holes and injectors, for example. A methodology is presented to incorporate the effect of non-purely acoustic mechanisms into a three-dimensional thermoacoustic Helmholtz solver. The zones where these mechanisms are important are modeled as two-port acoustic elements, and the corresponding matrices, which notably contain the dissipative effects due to acoustic–hydrodynamic interactions, are used as internal boundary conditions in the Helmholtz solver. The rest of the flow domain, where dissipation is negligible, is solved by the classical Helmholtz equation. With this method, the changes in eigenfrequency and eigenmode structure introduced by the acoustic–hydrodynamic effects are captured, while keeping the simplicity and efficiency of the Helmholtz solver. The methodology is successfully applied on an academic configuration, first with a simple diaphragm, then with an industrial swirler, with matrices measured from experiments and large-eddy simulation.",
+    "keywords": [
+      "acoustic damping",
+      "combustion instability",
+      "internal boundary conditions",
+      "dilution holes",
+      "swirler",
+      "diaphragm"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
     "id": "W4256426223",
     "title": "Control of Tip Leakage in a High-Pressure Turbine Cascade Using Tip Blowing",
     "date": "2016-12-19",
@@ -77866,6 +78740,33 @@
     ]
   },
   {
+    "id": "W4212991769",
+    "title": "Effect of Bolts on Flow and Heat Transfer in a Rotor–Stator Disk Cavity",
+    "date": "2017-01-04",
+    "year": 2017,
+    "authors": [
+      "Sulfickerali Noor Mohamed",
+      "John W. Chew",
+      "Nicholas J. Hills"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4035144",
+    "abstract": "Previous studies have indicated some differences between steady computational fluid dynamics (CFD) predictions of flow in a rotor–stator disk cavity with rotating bolts compared to measurements. Recently, time-dependent CFD simulations have revealed the unsteadiness present in the flow and have given improved agreement with measurements. In this paper, unsteady Reynolds averaged Navier–Stokes (URANS) 360 deg model CFD calculations of a rotor–stator cavity with rotor bolts were performed in order to better understand the flow and heat transfer within a disk cavity previously studied experimentally by other workers. It is shown that the rotating bolts generate unsteadiness due to wake shedding which creates time-dependent flow patterns within the cavity. At low throughflow conditions, the unsteady flow significantly increases the average disk temperature. A systematic parametric study is presented giving insight into the influence of number of bolts, mass flow rate, cavity gap ratio, and the bolts-to-shroud gap ratio on the time-dependent flow within the cavity.",
+    "keywords": [
+      "heat transfer",
+      "unsteady flow",
+      "wake shedding",
+      "mass flow rate",
+      "disk temperature",
+      "gas turbine blade cooling",
+      "URANS"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2570899310",
     "title": "Analysis of Fan Stage Conceptual Design Attributes for Boundary Layer Ingestion",
     "date": "2017-01-07",
@@ -77999,6 +78900,26 @@
     "topics_matched": [
       "压缩机稳定性"
     ]
+  },
+  {
+    "id": "W4255106830",
+    "title": "An Automated Approach to Nacelle Parameterization Using Intuitive Class Shape Transformation Curves",
+    "date": "2017-01-18",
+    "year": 2017,
+    "authors": [
+      "Robert J. Christie",
+      "Alexander Heidebrecht",
+      "David G. MacManus"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4035283",
+    "abstract": "A tool to create parametric aerodynamic shapes using intuitive design variables based on class shape transformation (CST) curves is presented. To enable this, a system has been developed which accepts arbitrary constraints and automatically derives the analytical expressions which describe the corresponding class shape transformation curves. Parametric geometry definitions for fan cowl and intake aero-lines were developed using the generalized method. Computational fluid dynamics (CFD) analysis of the fan cowl shows that despite the simple geometry definition, its performance characteristics are close to what would be expected of a finished design. The intake geometry was generated in a similar way and met the typical performance metrics for conventional intakes. This demonstrates the usefulness of the tool to quickly and robustly produce parametric aero-lines with good aerodynamic properties, using relatively simple intuitive design variables.",
+    "keywords": [
+      "automated geometry generation",
+      "design variables"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2578852013",
@@ -79171,6 +80092,30 @@
     ]
   },
   {
+    "id": "W2615198243",
+    "title": "Root Cutout Effects on the Aerodynamics of a Low-Aspect-Ratio Revolving Wing",
+    "date": "2017-05-15",
+    "year": 2017,
+    "authors": [
+      "Thierry Jardin",
+      "Laurent David"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j054864",
+    "abstract": "Direct numerical simulations of the flow past a low-aspect-ratio revolving wing are performed. The wing undergoes an impulsively started 180 deg revolution about a vertical axis at angles of attack 15, 30, and 45 deg and chord-based Reynolds number 1000. The root cutout is varied at a fixed wing radius, chords, and the effects on the flow structure and aerodynamic performance of the wing are evaluated. It is shown that an optimum in aerodynamic efficiency exists at low root cutout. Results suggest that this optimum is due to the competition between low Reynolds number effects at the wing root and root vortex effects. In addition, it is shown that a large root cutout can inhibit leading-edge vortex burst that occurs at high angles of attack. However, despite the associated recovery in pressure forces near the wing tip, this inhibition has no significant impact on aerodynamic performance.",
+    "keywords": [
+      "low aspect ratio wings",
+      "leading-edge vortex",
+      "aerodynamic efficiency",
+      "angle of attack",
+      "low Reynolds number effects",
+      "wing rotation",
+      "pressure distribution"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2614603394",
     "title": "Development, Application, and Validation of a Quick Optimization Method for the Class of Axial Fans",
     "date": "2017-05-16",
@@ -79671,6 +80616,40 @@
     ]
   },
   {
+    "id": "W2734600230",
+    "title": "Database Approach for Laminar-Turbulent Transition Prediction: Navier–Stokes Compatible Reformulation",
+    "date": "2017-07-14",
+    "year": 2017,
+    "authors": [
+      "Guillaume Bégou",
+      "Hugues Deniau",
+      "Olivier Vermeersch",
+      "G. Casalis"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056018",
+    "abstract": "This paper presents a transition prediction model that adds additional equations to the Reynolds-averaged Navier–Stokes set. It is based on the so-called -factor method, which is valid for natural transition on wings due to the hypothesis that it relies on (modal instabilities disturbing the boundary layer). It consists of an integration of the disturbance growth rates along the edge streamline. Herein, the disturbance growth rates are obtained via a database approach: ONERA—The French Aerospace Lab’s so-called parabolas method. Numerically, integration of the growth rates along the edge streamline is performed through additional transport equations, thus removing the need for any topology specification from the end user. Implementation caveats are illustrated on the ONERA-D airfoil in incompressible conditions. This method is then successfully applied for transition prediction on a two-dimensional industrial laminar airfoil at transonic conditions, with varying upstream conditions and angles of attack. Satisfactory agreements with both the experimental data and the conventional transition predictions (local, linear stability results) are obtained, which illustrate the accuracy of the predicted transition location.",
+    "keywords": [
+      "laminar-turbulent transition",
+      "transition prediction",
+      "Reynolds-averaged Navier-Stokes",
+      "factor method",
+      "database approach",
+      "disturbance growth rate",
+      "boundary layer instability",
+      "linear stability",
+      "transport equation",
+      "transonic flow",
+      "angle of attack effects",
+      "incompressible flow"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "跨音速/激波"
+    ]
+  },
+  {
     "id": "W2738436721",
     "title": "Axial Compressor Stall, Circumferential Groove Casing Treatment, and the Tip-Clearance Momentum Flux",
     "date": "2017-07-18",
@@ -79847,6 +80826,34 @@
       "跨音速/激波",
       "非定常流动"
     ]
+  },
+  {
+    "id": "W2739742834",
+    "title": "Particle Image Velocimetry Experiment Analysis Using Large-Eddy Simulation: Application to Plasma Actuators",
+    "date": "2017-08-01",
+    "year": 2017,
+    "authors": [
+      "F. Laurendeau",
+      "Olivier Léon",
+      "F. Chedevergne",
+      "Jean-Mathieu Senoner",
+      "G. Casalis"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j055687",
+    "abstract": "This article presents an analysis of a planar particle image velocimetry experiment aiming at measuring the phase-averaged velocity fields of a synthetic jet generated by a plasma synthetic jet actuator. Three major sources of uncertainty related to this type of experiment are examined: the phase-averaging process, the estimation of the vertical position of the wall into which the actuator is inserted, and the position of the laser sheet plane. Furthermore, the present work investigates the errors related to the dynamics of the particles used for seeding this type of high-speed transient flow. As expected, uncertainties associated with the phase-averaging process and the estimation of the wall position may be directly estimated from the measurements. However, estimation of the uncertainties originating from the position of the laser sheet plane and the errors related to the particle dynamics require additional information. In the present work, an original methodology relying on a numerical model of the actuator is thus proposed. This model, based on a large-eddy simulation, is able to reproduce the main features of the jet observed in the experiments and is used to generate realistic synthetic particle images. The influence of the laser sheet position on the velocity uncertainties and the errors associated with the particle dynamics are then explored. Experimental and numerical findings are considered to conclude in a quantitative manner on the dominant sources of uncertainty for such experiments and on the errors induced by particle dynamics that should be expected.",
+    "keywords": [
+      "particle image velocimetry",
+      "synthetic jets",
+      "plasma actuators",
+      "measurement uncertainty",
+      "phase-averaged velocity",
+      "particle dynamics",
+      "particle seeding",
+      "large eddy simulation"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2740041716",
@@ -82387,6 +83394,31 @@
     "topics_matched": []
   },
   {
+    "id": "W2776287390",
+    "title": "Curved Bistable Composite Slit Tubes with Positive Gaussian Curvature",
+    "date": "2017-12-22",
+    "year": 2017,
+    "authors": [
+      "Geoffrey Knott",
+      "Andrew Viquerat"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056411",
+    "abstract": "An investigation into the bistability of positively curved laminated composite slit tubes is presented, establishing a natural extension in this area that has previously been focused on straight tubes. Curved slit tubes are modeled as the surface segments of a torus. The design space is explored through a parametric study to investigate the effect on the second stable state, representing a small coil. This includes the effects of longitudinal curvature, cross-section subtending angles, nonuniform transverse curvature, and spatially varying laminate properties. The second equilibrium state is determined through strain energy minimization using the Rayleigh–Ritz method. To verify the model, samples are manufactured from glass-fiber braid and polypropylene resin. This investigation finds 1) the initial curvature along the length of the tube has little effect on coil radius, however, the coil has a distinct barrel shape; 2) highly enclosed and 3) highly curved cross-sections result in higher edge strains of the second equilibrium, enabling identification of practical bistable tubes; and 4) conversely, the greater the initial curvature along the length of the tube, the lower the second equilibrium strain.",
+    "keywords": [
+      "bistable structures",
+      "positive Gaussian curvature",
+      "coil radius",
+      "longitudinal curvature",
+      "strain energy minimization",
+      "polypropylene resin"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
+    ]
+  },
+  {
     "id": "W4244463490",
     "title": "Computational Fluid Dynamics Investigation of a Core-Mounted Target-Type Thrust Reverser—Part 1: Reverser Stowed Configuration",
     "date": "2017-12-23",
@@ -83100,6 +84132,33 @@
     "topics_matched": []
   },
   {
+    "id": "W2769293121",
+    "title": "Theoretical Analysis of Brush Seals Leakage Using Local Computational Fluid Dynamics Estimated Permeability Laws",
+    "date": "2018-02-13",
+    "year": 2018,
+    "authors": [
+      "Lilas Deville",
+      "Mihaï Arghir"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4038469",
+    "abstract": "Brush seals are a mature technology that has generated extensive experimental and theoretical work. Theoretical models range from simple correlations with experimental results to advanced numerical approaches coupling the bristles deformation with the flow in the brush. The present work follows this latter path. The bristles of the brush are deformed by the pressure applied by the flow, by the interference with the rotor and with the back plate. The bristles are modeled as linear beams but a nonlinear numerical algorithm deals with the interferences. The brush with its deformed bristles is then considered as an anisotropic porous medium for the leakage flow. Taking into account, the variation of the permeability with the local geometric and flow conditions represents the originality of the present work. The permeability following the principal directions of the bristles is estimated from computational fluid dynamics (CFD) calculations. A representative number of bristles are selected for each principal direction and the CFD analysis domain is delimited by periodicity and symmetry boundary conditions. The parameters of the CFD analysis are the local Reynolds number and the local porosity estimated from the distance between the bristles. The variations of the permeability are thus deduced for each principal direction and for Reynolds numbers and porosities characteristic for brush seal. The leakage flow rates predicted by the present approach are compared with experimental results from the literature. The results depict also the variations of the pressures, of the local Reynolds number, of the permeability, and of the porosity through the entire brush seal.",
+    "keywords": [
+      "brush seals",
+      "leakage flow",
+      "anisotropic porous media",
+      "permeability",
+      "porosity",
+      "Reynolds number effects",
+      "periodic boundary conditions",
+      "gas turbine seals"
+    ],
+    "topics_matched": [
+      "叶尖间隙"
+    ]
+  },
+  {
     "id": "W2792235523",
     "title": "Azimuthal Variation of Instabilities Generated on a Flared Cone by Laser Perturbations",
     "date": "2018-02-22",
@@ -83163,6 +84222,36 @@
       "Channel (broadcasting)"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2785210396",
+    "title": "Scaling and Performance of Simultaneously Heaving and Pitching Foils",
+    "date": "2018-03-12",
+    "year": 2018,
+    "authors": [
+      "Tyler W. Van Buren",
+      "Daniel Floryan",
+      "Alexander John Smits"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056635",
+    "abstract": "The propulsive performance of an unsteady heaving and pitching foil is considered, and an extensive experimental parameter space of motion amplitudes, frequencies, and phase offsets between the heave and pitch motions is studied. The phase offset proves to be a critical parameter in determining the foil propulsive performance. To maximize thrust, the pitch motion needs to lag the heave motion by about 30 deg; but, to maximize efficiency, the lag needs to increase to about 90 deg, corresponding to a slicing motion where the angle of attack is minimized. Scaling relations are also presented, and they are developed from lift-based and added mass forces, which describe the experimental data closely. Using the scaling relations as a guide, increases in performance are found when foil amplitudes (specifically pitch) increase while maintaining a modest angle of attack.",
+    "keywords": [
+      "thrust",
+      "propulsive efficiency",
+      "phase offset",
+      "unsteady hydrodynamics",
+      "scaling laws",
+      "added mass force",
+      "lift force",
+      "angle of attack",
+      "movement amplitude",
+      "movement frequency"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
   },
   {
     "id": "W2793129061",
@@ -83934,6 +85023,36 @@
       "Meteorology"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W2809845053",
+    "title": "Experiments of Propeller-Induced Flow Effects on a Low-Reynolds-Number Wing",
+    "date": "2018-06-30",
+    "year": 2018,
+    "authors": [
+      "Gavin K. Ananda",
+      "Michael S. Selig",
+      "Robert W. Deters"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056667",
+    "abstract": "Novel findings are discussed in this paper that will be especially beneficial to designers and modelers of small-scale unmanned air vehicles and high-altitude long-endurance vehicles that both operate at low Reynolds numbers . Propeller-induced flow effects in both tractor and pusher configurations on a rectangular wing using the Wortmann FX 63-137 airfoil (a common low-Reynolds-number high-lift airfoil) are presented in this paper. Significant performance benefits can be found for a wing in the tractor configuration. Experiments, including trip tests and upper-surface oil flow visualization, show and verify that the propeller slipstream induces early transition to turbulent flow in the regions within the slipstream and the premature formation of a separation bubble in the regions outside the slipstream. The result is a reduction of pressure drag and an increase in lift of the wing where lift-to-drag ratios are as high as 10–12 (a maximum of 70% increase in lift-to-drag ratio from a clean wing configuration) and are measured at both low and high angles of attack up to stall (0–16 deg). Similar performance benefits are not observed in pusher configuration results where only increased local flow velocity and varying inflow angle effects are apparent. Thus, contrary to the design rules for optimal performance of wings at high Reynolds numbers, at low Reynolds numbers, a propeller in the tractor configuration exhibits significant performance improvements, especially in cruise configurations (low angles of attack), as compared with a propeller in the pusher configuration or even a clean wing.",
+    "keywords": [
+      "propeller-induced flow",
+      "low Reynolds number aerodynamics",
+      "rectangular wing",
+      "slipstream",
+      "flow separation",
+      "laminar-turbulent transition",
+      "pressure drag reduction",
+      "lift-to-drag ratio",
+      "unmanned aerial vehicles",
+      "inflow angle"
+    ],
+    "topics_matched": [
+      "叶片气动设计"
+    ]
   },
   {
     "id": "W2883134605",
@@ -85370,6 +86489,34 @@
     ]
   },
   {
+    "id": "W2597567721",
+    "title": "Inviscid Scaling Laws of a Self-Propelled Pitching Airfoil",
+    "date": "2018-08-20",
+    "year": 2018,
+    "authors": [
+      "Keith W. Moored",
+      "Daniel Quinn"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j056634",
+    "abstract": "Inviscid computational results are presented on a self-propelled virtual body combined with an airfoil undergoing pitch oscillations about its leading edge. The scaling trends of the time-averaged thrust forces are shown to be predicted accurately by Garrick’s theory. However, the scaling of the time-averaged power for finite-amplitude motions is shown to deviate from the theory. Novel time-averaged power scalings are presented that account for a contribution from added-mass forces, from the large-amplitude separating shear layer at the trailing edge, and from the proximity of the trailing-edge vortex. Scaling laws for the self-propelled speed, efficiency, and cost of transport (CoT) are subsequently derived. Using these scaling relations, the self-propelled metrics can be predicted to within 5% of their full-scale values by using parameters known a priori. The relations may be used to drastically speed up the design phase of bioinspired propulsion systems by offering a direct link between design parameters and the expected CoT. The scaling relations also offer one of the first mechanistic rationales for the scaling of the energetics of self-propelled swimming. Specifically, the cost of transport is shown to scale predominately with the added mass power. This suggests that the CoT of organisms or vehicles using unsteady propulsion will scale with their mass as , which is indeed shown to be consistent with existing biological data.",
+    "keywords": [
+      "pitching airfoil",
+      "scaling laws",
+      "cost of transport",
+      "thrust",
+      "trailing edge vortex",
+      "separated shear layer",
+      "bio-inspired propulsion",
+      "swimming energetics",
+      "virtual body"
+    ],
+    "topics_matched": [
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W4240221018",
     "title": "Characterization of an Aircraft Auxiliary Power Unit Test Rig for Cycle Optimization Studies",
     "date": "2018-08-21",
@@ -85894,6 +87041,36 @@
     "topics_matched": []
   },
   {
+    "id": "W2788890227",
+    "title": "Thermomechanical Model Reduction for Efficient Simulations of Rotor-Stator Contact Interaction",
+    "date": "2018-09-19",
+    "year": 2018,
+    "authors": [
+      "Nicolas Guérin",
+      "Anders Thorin",
+      "Fabrice Thouverez",
+      "Mathias Legrand",
+      "Patricio Almeida"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4040858",
+    "abstract": "Turbomachinery rotor–stator unilateral contact induced interactions play a growing role in lifecycle analysis and thus motivate the use of accurate numerical prediction tools. Recent literature confirmed by ongoing in-house experiments have shown the importance of thermomechanical coupling effects in such interactions. However, most available (possibly reduced-order) models are restricted to the sole mechanical aspects. This work describes a reduction technique of thermomechanical models involving unilateral contact and frictional contact occurrences between rotor and stator components. The proposed methodology is grounded on Guyan and Craig–Bampton methods for the reduction of the structural dynamics in conjunction with Krylov subspace techniques, and specifically the Craig–Hale approach, for the reduction of the thermal equations. The method has the capability to drastically reduce the size of the model while preserving accuracy. It stands as a reliable strategy to perform simulations of thermomechanical models with localized mechanical and thermal loads.",
+    "keywords": [
+      "thermo-mechanical coupling",
+      "rotor-stator contact",
+      "unilateral contact",
+      "frictional contact",
+      "model reduction",
+      "Craig-Bampton method",
+      "Guyan reduction",
+      "Krylov subspace methods",
+      "turbomachinery",
+      "heat load"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2889816872",
     "title": "Multilevel Algorithm for Obtaining the Proper Orthogonal Decomposition",
     "date": "2018-09-21",
@@ -85953,6 +87130,67 @@
     ],
     "topics_matched": [
       "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W2884750057",
+    "title": "Morphing Continuum Simulation of Transonic Flow over Axisymmetric Hill",
+    "date": "2018-09-21",
+    "year": 2018,
+    "authors": [
+      "Louis B. Wonnell",
+      "Mohamad Ibrahim Cheikh",
+      "James Chen"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057064",
+    "abstract": "Finite volume simulations of turbulent boundary layer flow over an axisymmetric hill are performed for using morphing continuum theory and compared with direct numerical simulation data from Castagna et al. (“Direct Numerical Simulation of a Turbulent Flow over an Axisymmetric Hill,” Computers and Fluids Journal, Vol. 95, May 2014, pp. 116–126.) and experimental data obtained by Simpson. The inlet profile is specified by inputting values from the profile specified by Castagna et al. Root-mean-square velocity fluctuations are input using the new variable of gyration from morphing continuum theory. Additional terms introduced by morphing continuum theory lead to a new formulation of the Q criterion, which allows for the visualization of three-dimensional turbulent structures including hairpin vortices. Streamline plots of the separation bubble show a more confined bubble than Castagna et. al. but agree well on the separation and reconnection points. The surface pressure coefficient matches Simpson much more closely than Castagna et al. Morphing continuum theory data were obtained on a cell mesh containing a smaller number of cells by an order of magnitude than that of the direct numerical simulation mesh of by Castagna et al. The effects of the particle on the larger structures are inferred from the variation in the new variable of gyration.",
+    "keywords": [
+      "transonic flow",
+      "turbulent boundary layer",
+      "separation bubble",
+      "Q-criterion",
+      "hairpin vortices",
+      "surface pressure coefficient",
+      "finite volume simulation",
+      "turbulence modeling"
+    ],
+    "topics_matched": [
+      "跨音速/激波"
+    ]
+  },
+  {
+    "id": "W4238784925",
+    "title": "Nonsmooth Thermoelastic Simulations of Blade–Casing Contact Interactions",
+    "date": "2018-09-26",
+    "year": 2018,
+    "authors": [
+      "Anders Thorin",
+      "Nicolas Guérin",
+      "Mathias Legrand",
+      "Fabrice Thouverez",
+      "Patricio Almeida"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4040857",
+    "abstract": "In turbomachinery, it is well known that tighter operating clearances improve the efficiency. However, this leads to unwanted potential unilateral and frictional contact occurrences between the rotating (blades) and stationary components (casings) together with attendant thermal excitations. Unilateral contact induces discontinuities in the velocity at impact times, hence the terminology nonsmooth dynamics. Current modeling strategies of rotor–stator interactions are either based on regularizing penalty methods or on explicit time-marching methods derived from Carpenter's forward Lagrange multiplier method. Regularization introduces an artificial time scale in the formulation corresponding to numerical stiffness, which is not desirable. Carpenter's scheme has been successfully applied to turbomachinery industrial models in the sole mechanical framework, but faces serious stability issues when dealing with the additional heat equation. This work overcomes the above issues by using the Moreau–Jean nonsmooth integration scheme within an implicit θ-method. This numerical scheme is based on a mathematically sound description of the contact dynamics by means of measure differential inclusions and enjoys attractive features. The procedure is unconditionally stable opening doors to quick preliminary simulations with time-steps one hundred times larger than with previous algorithms. It can also deal with strongly coupled thermomechanical problems.",
+    "keywords": [
+      "non-smooth dynamics",
+      "thermoelasticity",
+      "rotor-stator interaction",
+      "unilateral contact",
+      "frictional contact",
+      "measure differential inclusions",
+      "unconditional stability",
+      "thermo-mechanical coupling",
+      "heat equation",
+      "gas turbine blades"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -86379,6 +87617,41 @@
       "Mathematical analysis"
     ],
     "topics_matched": []
+  },
+  {
+    "id": "W4230677955",
+    "title": "Effects of a Diverging Cup on Swirl Number, Flow Pattern, and Topology of Premixed Flames",
+    "date": "2018-10-22",
+    "year": 2018,
+    "authors": [
+      "Arthur Degenève",
+      "Paul Jourdaine",
+      "Clément Mirat",
+      "Jean Caudal",
+      "Ronan Vicquelin",
+      "Thierry Schuller"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4041518",
+    "abstract": "Impact of the diverging cup angle of a swirling injector on the flow pattern and stabilization of technically premixed flames is investigated both theoretically and experimentally with the help of OH* chemiluminescence, OH laser-induced fluorescence and particle image velocimetry (PIV) measurements. Recirculation enhancement with a lower position of the internal recirculation zone (IRZ) and a flame leading edge protruding further upstream in the swirled flow are observed as the injector nozzle cup angle is increased. A theoretical analysis is carried out to examine whether this could be explained by changes of the swirl level as the diffuser cup angle is varied. It is shown that pressure effects need in this case to be taken into account in the swirl number definition and expressions for changes of the swirl level through a diffuser are derived. It is demonstrated that changes of the swirl level including or not the pressure contribution to the axial momentum flux are not at the origin of the changes observed of the flow and flame patterns in the experiments. The swirl number without the pressure term, designated as pressure-less swirl, is then determined experimentally with laser Doppler velocimetry (LDV) measurements at the injector outlet for a set of diffusers with increasing quarl angles under nonreacting conditions and the values found corroborate the predictions. It is finally shown that the decline of axial velocity and the rise of adverse axial pressure gradient, both due to the cross section area change through the diffuser cup, are the dominant effects that control the leading edge position of the IRZ of the swirled flow. This is used to develop a model for the displacement of the recirculation bubble as the quarl angle varies that shows very good agreement with experiments.",
+    "keywords": [
+      "swirl number",
+      "premixed flames",
+      "flame stabilization",
+      "internal recirculation zone",
+      "recirculation bubble",
+      "axial velocity",
+      "adverse pressure gradient",
+      "OH* chemiluminescence",
+      "laser-induced fluorescence",
+      "particle image velocimetry",
+      "laser Doppler anemometry",
+      "gas turbine combustor"
+    ],
+    "topics_matched": [
+      "离心压气机"
+    ]
   },
   {
     "id": "W4246724843",
@@ -87346,6 +88619,37 @@
     "topics_matched": []
   },
   {
+    "id": "W2892255035",
+    "title": "Adjoint-Based Optimization for Thrust Performance of Three-Dimensional Pitching–Rolling Plate",
+    "date": "2018-12-27",
+    "year": 2018,
+    "authors": [
+      "Min Xu",
+      "Mingjun Wei",
+      "Chengyu Li",
+      "Haibo Dong"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057203",
+    "abstract": "An adjoint-based optimization is applied to study the thrust performance of a pitching–rolling ellipsoidal plate in a uniform stream at Reynolds number 100. To achieve the highest thrust, the optimal kinematics of pitching–rolling motion is sought in a control space including the pitching amplitude, the rolling amplitude, and the phase delay between the pitching and rolling motions. A continuous adjoint approach with boundary motion being handled by noncylindrical calculus is developed as a computationally efficient optimization algorithm to deal with large control space with a morphing domain. The comparison between the optimal motion and other reference motions shows a significant improvement of thrust from the increase of the rolling amplitude and an optimal phase delay of 122.6 deg between the pitching and rolling motions. The combination of these two factors impacts the overall thrust performance through their strong effects on the angle of attack, the leading-edge vortex circulation, and the pressure distribution on the plate. Further wake structure analysis suggests that the optimal motion improves its propulsive performance by generating a stronger leading-edge vortex and straightening the wake deflection.",
+    "keywords": [
+      "adjoint-based optimization",
+      "thrust performance",
+      "continuous adjoint method",
+      "phase lag",
+      "leading-edge vortex",
+      "wake deflection",
+      "angle of attack",
+      "propulsive performance",
+      "wake structure"
+    ],
+    "topics_matched": [
+      "叶片气动设计",
+      "非定常流动"
+    ]
+  },
+  {
     "id": "W2906792313",
     "title": "Passive Flow Control for the Load Reduction of Transonic Launcher Afterbodies",
     "date": "2019-01-02",
@@ -87497,6 +88801,40 @@
     "topics_matched": [
       "压缩机稳定性",
       "离心压气机"
+    ]
+  },
+  {
+    "id": "W2885159084",
+    "title": "Flame Describing Functions of a Confined Premixed Swirled Combustor With Upstream and Downstream Forcing",
+    "date": "2019-01-09",
+    "year": 2019,
+    "authors": [
+      "Renaud Gaudron",
+      "M. Gatti",
+      "Clément Mirat",
+      "Thierry Schuller"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4041000",
+    "abstract": "The frequency response of a confined premixed swirled flame is explored experimentally through the use of describing functions that depend on both the forcing frequency and the forcing level. In these experiments, the flame is forced by a loudspeaker connected to the bottom of the burner in the fresh gas region or by a set of loudspeakers connected to the combustion chamber exhaust tube in the burnt gas region. The experimental setup is equipped with a hot-wire (HW) probe and a microphone, both of which located in front of each other below the swirler. The forcing level is varied between |v′0|/v¯0=0.10 and 0.72 RMS, where v¯0 and v′0 are, respectively, the mean and the fluctuating velocity at the HW probe. An additional microphone is placed on a water-cooled waveguide connected to the combustion chamber backplate. A photomultiplier equipped with an OH* filter is used to measure the heat release rate fluctuations. The describing functions between the photomultiplier signal and the different pressure and velocity reference signals are then analyzed in the case of upstream and downstream forcing. The describing function measured for a given reference signal is shown to vary depending on the type of forcing. The impedance of the injector at the HW location is also determined for both upstream and downstream forcing. For all describing functions investigated, it is found that their phase lags do not depend on the forcing level, whereas their gains strongly depend on |v′0|/v¯0 for certain frequency ranges. It is furthermore shown that the flame describing function (FDF) measured with respect to the HW signal can be retrieved from the specific impedance at the HW location and the describing function determined with respect to the signal of the microphone located in front of the HW. This relationship is not valid when the signal from the microphone located at the combustion chamber backplate is considered. It is then shown that a one-dimensional (1D) acoustic model allows to reproduce the describing function computed with respect to the microphone signal inside the injector from the microphone signal located at the combustion chamber backplate in the case of downstream forcing. This relation does not hold for upstream forcing because of the acoustic dissipation across the swirler which is much larger compared to downstream forcing for a given forcing level set at the HW location. This study sheds light on the differences between upstream and downstream acoustic forcing when measuring describing functions. It is also shown that the upstream and downstream forcing techniques are equivalent only if the reference signal used to determine the FDF is the acoustic velocity in the fresh gases just before the flame.",
+    "keywords": [
+      "flame describing function",
+      "acoustic forcing",
+      "frequency response",
+      "heat release rate fluctuations",
+      "acoustic dissipation",
+      "one-dimensional acoustic model",
+      "hot-wire probe",
+      "microphone signals",
+      "phase lag",
+      "acoustic feedback control",
+      "combustion instability",
+      "loudspeaker excitation",
+      "swirler"
+    ],
+    "topics_matched": [
+      "压缩机稳定性"
     ]
   },
   {
@@ -87715,6 +89053,36 @@
     ],
     "topics_matched": [
       "稳定性建模"
+    ]
+  },
+  {
+    "id": "W2913231368",
+    "title": "Pressure Output Feedback Control of Tollmien–Schlichting Waves in Falkner–Skan Boundary Layers",
+    "date": "2019-01-29",
+    "year": 2019,
+    "authors": [
+      "Henry J. Tol",
+      "Marios Kotsonis",
+      "Coen C. de Visser"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057010",
+    "abstract": "This paper investigates the use of point wall pressure measurements for output feedback control of Tollmien–Schlichting waves in Falkner–Skan boundary layers. A new approach is presented for input–output modeling of the linear dynamics of the fluid system and the integration with reduced-order control design. The pressure output at the wall is related with the global perturbation velocity field through the linearized pressure Poisson equation. A Kalman filter is subsequently used to obtain time-resolved estimates of the velocity field using pressure information at discrete points at the wall. The estimated field is in turn used to calculate an optimal state feedback control to suppress the instabilities. The controller is designed in a feedforward, a feedback, and a combined feedforward/feedback actuator/sensor configuration. It is shown that combined feedforward/feedback control gives the best tradeoff between robust performance and robust stability in the presence of uncertainties in the Reynolds number and the pressure gradient. Robust performance in off-design conditions is enhanced compared to feedforward control, whereas robust stability is enhanced compared to feedback control.",
+    "keywords": [
+      "Tollmien-Schlichting waves",
+      "wall pressure measurement",
+      "input-output modeling",
+      "reduced-order control",
+      "pressure Poisson equation",
+      "optimal state feedback",
+      "feedforward and feedback control",
+      "robust performance",
+      "robust stability"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
+      "非定常流动"
     ]
   },
   {
@@ -88018,6 +89386,29 @@
       "进气畸变",
       "跨音速/激波"
     ]
+  },
+  {
+    "id": "W2914478887",
+    "title": "Spacecraft Structure Model Validation and Test Philosophy",
+    "date": "2019-02-08",
+    "year": 2019,
+    "authors": [
+      "Guglielmo S. Aglietti",
+      "Marcello Remedia",
+      "Matteo Appolloni",
+      "Andrew Kiley"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057757",
+    "abstract": "This paper examines the new practice of virtual shaker testing (VST), starting from its motivation to its practical implementations and future possible implications. The issues currently experienced during large satellites’ vibration testing are discussed, examining practical examples that highlight the coupling existing between the item under test and facility and are the basis for the motivation behind the new methodology (i.e., VST). VST is proposed as a way to bypass some of these issues, and here its use as a pre- and postshaker test tool is discussed. In the paper, VST is applied to real test cases (Airbus’s large spacecraft BepiColombo, built for the European Space Agency’s first mission to Mercury), showing computations and real physical test data to illustrate the advantages of the methodology. These are mostly in terms of derisking of the physical test campaigns (due to the capability to simulate realistically the future physical test, thus reducing the probability of aborts and stops during the runs) and an improvement of the quality of the correlation process and related finite element model update (resulting from the capability to separate the dynamics of the satellite from the effects of the test equipment), ultimately providing a tool to address questions arising from test response observations, which are many. This tool also offers the possibility to improve vibration testing using six-degree-of-freedom facilities. The paper is concluded articulating a possible way forward to take maximum advantage of the new methodology, drawing a parallel with the current satellite/launch vehicle coupled load analysis cycles and proposing a different design and validation philosophy.",
+    "keywords": [
+      "spacecraft vibration testing",
+      "BepiColombo",
+      "finite element model updating",
+      "structural model validation"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2782002790",
@@ -89173,6 +90564,31 @@
     ]
   },
   {
+    "id": "W2955061820",
+    "title": "On the Potential Static Strength of Hybrid (Bolted/Bonded) Lap Joints with Functionally Graded Adhesives",
+    "date": "2019-06-24",
+    "year": 2019,
+    "authors": [
+      "Éric Paroissien",
+      "Frédéric Lachaud"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j058372",
+    "abstract": "In this paper, the potential static strength of hybrid (bolted/bonded)—termed “HBB”—joints with functionally graded adhesives (FGA) is theoretically investigated, in reference to the pure bolted joint, the pure bonded joint, and the HBB joint with homogeneous adhesive (HA). The investigation is performed on a particular in-plane tensile-loaded single-lap joint made of identical aluminum adherends with two lines of fasteners and three various adhesive symmetrical graduation laws. The stress analysis is performed using the macro-element technique within 1D-bar framework. Moreover, closed-form expressions for the bolt load transfer rates and maximal adhesive stresses of balanced single-lap HBB joint with two identical fasteners are derived. It is shown that the FGAs allow fort a better load sharing between the adhesive and the fasteners than the HA. Moreover, the use of FGAs instead of HA could lead to a potential static strength benefit for the adhesive layer part rather than for the fastening part.",
+    "keywords": [
+      "functionally graded adhesives",
+      "single lap joints",
+      "static strength",
+      "load transfer",
+      "adhesive stress",
+      "aluminum adherends",
+      "analytical solution",
+      "fasteners"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2955768263",
     "title": "Toward Future Installations: Mutual Interactions of Short Intakes With Modern High Bypass Fans",
     "date": "2019-06-27",
@@ -89863,6 +91279,33 @@
     ]
   },
   {
+    "id": "W2966330503",
+    "title": "Asymptotic Modeling of Nonlinear Bending and Buckling Behavior of Carbon Nanotubes",
+    "date": "2019-07-31",
+    "year": 2019,
+    "authors": [
+      "Sathiskumar Anusuya Ponnusami",
+      "Mohit Gupta",
+      "Dineshkumar Harursampath"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j057564",
+    "abstract": "The present work investigates the nonlinear bending and buckling behavior of carbon nanotubes (CNTs) using variational asymptotic method. Considering a CNT as a slender beam structure, an asymptotically-correct nonlinear continuum beam model is presented. Through the resulting nonlinear moment-curvature relationship, the model captures the phenomenon of ovalization of the cross sections and local buckling of the CNT, which arises due to their geometrical nature. Further studies are performed in order to explore the effect of CNT wall thickness on the nonlinear bending behavior of the CNT structure. It is shown that the continuum modeling approach can capture the ovalization and further localization of the CNT deformation under bending. The study aims to provide a reduced-order modeling framework analyzing the inherent nonlinearities associated with the geometrical nature of CNTs.",
+    "keywords": [
+      "carbon nanotubes",
+      "nonlinear bending",
+      "local buckling",
+      "ovalization",
+      "moment-curvature relationship",
+      "variational asymptotic method",
+      "wall thickness effect",
+      "model reduction",
+      "slender beams"
+    ],
+    "topics_matched": []
+  },
+  {
     "id": "W2968542166",
     "title": "Boundary-Layer Development Downstream of Normal Shock in Transonic Intakes at Incidence",
     "date": "2019-08-16",
@@ -89894,6 +91337,32 @@
     "topics_matched": [
       "跨音速/激波"
     ]
+  },
+  {
+    "id": "W2901111353",
+    "title": "Feasibility Analysis of Ensemble Sensitivity Computation in Turbulent Flows",
+    "date": "2019-08-19",
+    "year": 2019,
+    "authors": [
+      "Nisha Chandramoorthy",
+      "Pablo Fernández",
+      "Chaitanya Talnikar",
+      "Qiqi Wang"
+    ],
+    "venue": "AIAA Journal",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.2514/1.j058127",
+    "abstract": "In chaotic systems, such as turbulent flows, the solutions to tangent and adjoint equations exhibit an unbounded growth in their norms. This behavior renders the instantaneous tangent and adjoint solutions unusable for sensitivity analysis. The Lea–Allen–Haine ensemble sensitivity (ES) estimates provide a way of computing meaningful sensitivities in chaotic systems by using tangent/adjoint solutions over short trajectories. In this paper, the feasibility of ES computations is analyzed under optimistic mathematical assumptions on the flow dynamics. Furthermore, upper bounds are estimated on the rate of convergence of the ES method in numerical simulations of turbulent flow. Even at the optimistic upper bound, the ES method is computationally intractable in each of the numerical examples considered.",
+    "keywords": [
+      "ensemble sensitivity",
+      "turbulent flow",
+      "adjoint equations",
+      "chaotic systems",
+      "sensitivity analysis",
+      "convergence rate bounds",
+      "computational feasibility"
+    ],
+    "topics_matched": []
   },
   {
     "id": "W2970497440",
@@ -91585,6 +93054,37 @@
     ],
     "topics_matched": [
       "稳定性建模",
+      "叶片气动设计"
+    ]
+  },
+  {
+    "id": "W4239843259",
+    "title": "Examining the Effect of Geometry Changes in Industrial Fuel Injection Systems on Hydrodynamic Structures With BiGlobal Linear Stability Analysis",
+    "date": "2019-12-12",
+    "year": 2019,
+    "authors": [
+      "Thomas Ludwig Kaiser",
+      "Kilian Oberleithner",
+      "Laurent Selle",
+      "Thierry J. Poinsot"
+    ],
+    "venue": "Journal of Engineering for Gas Turbines and Power",
+    "source": "OpenAlex",
+    "url": "https://doi.org/10.1115/1.4045018",
+    "abstract": "Shape optimization with respect to the suppression or enhancement of dynamical flow structures is an important topic in combustion research and beyond. In this paper, we investigate the flow in an industrial fuel injection system by experimental means, as well as large eddy simulation (LES) and linear stability analysis (LSA) for two configurations of the swirler. In the first configuration, the reference geometry, a precessing vortex core (PVC) occurs. In the second configuration, a center body is mounted in the interior of the injector. It is shown by both experiments and LES that the PVC is suppressed by the presence of the center body, while the mean flow remains nearly unaffected. The method of LSA is applied in order to explain the effect of the geometry change. The work shows that LSA is capable of explaining the occurrence or disappearance of coherent structures evolving on the turbulent flows if the geometry is changed. This is an important step in using LSA in the context of shape optimization of industrial fuel injectors.",
+    "keywords": [
+      "fuel injection system",
+      "precessing vortex core",
+      "coherent structures",
+      "hydrodynamic stability",
+      "shape optimization",
+      "turbulent combustion",
+      "large eddy simulation",
+      "linear stability analysis",
+      "gas turbine combustor"
+    ],
+    "topics_matched": [
+      "压缩机稳定性",
       "叶片气动设计"
     ]
   },
